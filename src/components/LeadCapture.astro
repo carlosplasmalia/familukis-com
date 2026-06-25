@@ -26,6 +26,7 @@ const BREVO_ACTION = "https://9ab7b963.sibforms.com/serve/MUIFADIlif981oRL3CO9Rs
           id="lead-form"
           action={BREVO_ACTION}
           method="POST"
+          target="brevo-hidden"
           class="lead-form"
         >
           <input
@@ -45,6 +46,8 @@ const BREVO_ACTION = "https://9ab7b963.sibforms.com/serve/MUIFADIlif981oRL3CO9Rs
         <p class="lead-legal">Sin spam. Cancela cuando quieras.</p>
       </div>
 
+      <iframe name="brevo-hidden" style="display:none;width:0;height:0;border:0" aria-hidden="true" title=""></iframe>
+
       <div id="lead-thanks" hidden>
         <p class="thanks-icon">📬</p>
         <p class="thanks-title">¡Listo! Revisa tu correo</p>
@@ -61,22 +64,16 @@ const BREVO_ACTION = "https://9ab7b963.sibforms.com/serve/MUIFADIlif981oRL3CO9Rs
 <script>
   const form = document.getElementById('lead-form') as HTMLFormElement | null;
   if (form) {
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
+    form.addEventListener('submit', () => {
       const btn = form.querySelector('button') as HTMLButtonElement;
       btn.disabled = true;
       btn.textContent = 'Enviando...';
-
-      try {
-        await fetch(form.action, {
-          method: 'POST',
-          body: new FormData(form),
-          mode: 'no-cors',
-        });
-      } catch {}
-
-      document.getElementById('lead-ready')!.hidden = true;
-      document.getElementById('lead-thanks')!.hidden = false;
+      // El form hace POST real a Brevo en el iframe oculto.
+      // Mostramos éxito tras 1.5s, tiempo suficiente para que Brevo responda.
+      setTimeout(() => {
+        document.getElementById('lead-ready')!.hidden = true;
+        document.getElementById('lead-thanks')!.hidden = false;
+      }, 1500);
     });
   }
 </script>
