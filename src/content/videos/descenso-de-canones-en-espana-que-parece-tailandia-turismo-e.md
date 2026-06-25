@@ -5,7 +5,7 @@ videoId: "EATtwuJfq4Y"
 publishedAt: "2022-07-30"
 categoria: "parques-acuaticos"
 tags: ["parque acuatico", "parque acuático", "barranquismo", "turismo activo", "vacaciones", "vacaciones de verano", "que hacer en vacaciones con niños", "actividades en familia"]
-views: 581209
+views: 581212
 duracion: "23:17"
 featured: false
 ---

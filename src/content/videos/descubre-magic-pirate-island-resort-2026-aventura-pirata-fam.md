@@ -5,7 +5,7 @@ videoId: "OdfmYMWzwUY"
 publishedAt: "2025-06-28"
 categoria: "magic-world"
 tags: ["magic pirates island", "resort temático pirata", "magic costa blanca", "hotel pirata benidorm", "magic pirates island opiniones", "magic pirates island precio", "magic pirates island kids", "resort familiar en benidorm"]
-views: 13852
+views: 13853
 duracion: "5:40"
 featured: false
 ---

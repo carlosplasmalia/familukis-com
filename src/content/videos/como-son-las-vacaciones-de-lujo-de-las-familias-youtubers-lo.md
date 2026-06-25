@@ -5,7 +5,7 @@ videoId: "du7SaFC5Zeo"
 publishedAt: "2019-03-19"
 categoria: "vacaciones-familia"
 tags: ["vacaciones de lujo", "vacaciones en familia", "parque acuatico", "hoteles de lujo", "vlog de vacaciones", "vlogs de niños", "hotel con jacuzzi en la habitacion", "viajar con niños"]
-views: 1275939
+views: 1275945
 duracion: "22:58"
 featured: false
 ---

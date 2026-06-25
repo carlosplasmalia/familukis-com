@@ -11,68 +11,93 @@ interface Video {
 
 interface Props {
   title: string;
-  href: string;
+  href?: string;
   videos: Video[];
+  cardWidth?: string;
 }
-const { title, href, videos } = Astro.props;
+const { title, href, videos, cardWidth = '260px' } = Astro.props;
+if (videos.length === 0) return;
 ---
 
-<section class="cat-row">
-  <div class="row-header">
-    <h2 class="row-label">{title}</h2>
-    <a href={href} class="row-more">
-      Ver todos
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M5 12h14M12 5l7 7-7 7"/>
-      </svg>
-    </a>
+<section class="nrow">
+  <div class="nrow-header">
+    <h2 class="nrow-title">
+      {href
+        ? <a href={href} class="nrow-title-link">{title}<span class="nrow-arrow">›</span></a>
+        : title
+      }
+    </h2>
+    {href && <a href={href} class="nrow-see-all">Ver todos <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>}
   </div>
-  <div class="row-scroll">
+  <div class="nrow-scroll">
     {videos.map(v => (
-      <VideoCard
-        videoId={v.videoId}
-        title={v.title}
-        duracion={v.duracion}
-        views={v.views}
-        slug={v.slug}
-        width="260px"
-      />
+      <VideoCard videoId={v.videoId} title={v.title} duracion={v.duracion} views={v.views} slug={v.slug} width={cardWidth} />
     ))}
   </div>
 </section>
 
 <style>
-  .cat-row {
-    padding: 1.75rem 0;
+  .nrow {
+    padding: 1.5rem 0 0.5rem;
   }
 
-  .row-header {
+  .nrow-header {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
+    margin-bottom: 0.75rem;
     gap: 1rem;
-    margin-bottom: 1.1rem;
   }
 
-  .row-label {
-    font-size: 1.15rem;
+  .nrow-title {
+    font-size: 1.05rem;
     font-weight: 700;
-    color: var(--text);
     letter-spacing: -0.01em;
   }
 
-  .row-more {
+  .nrow-title-link {
     display: flex;
     align-items: center;
-    gap: 5px;
-    font-size: 0.8rem;
+    gap: 0.25rem;
+    color: inherit;
+    transition: color 0.15s;
+  }
+
+  .nrow-title-link:hover { color: var(--accent); }
+  .nrow-title-link:hover .nrow-arrow { opacity: 1; transform: translateX(2px); }
+
+  .nrow-arrow {
+    font-size: 1.2rem;
+    color: var(--accent);
+    opacity: 0;
+    transition: opacity 0.15s, transform 0.15s;
+    line-height: 1;
+  }
+
+  .nrow-see-all {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.75rem;
     font-weight: 600;
     color: var(--text-2);
     white-space: nowrap;
     transition: color 0.15s;
+    flex-shrink: 0;
   }
 
-  .row-more:hover {
-    color: var(--accent);
+  .nrow-see-all:hover { color: var(--accent); }
+
+  .nrow-scroll {
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    padding-bottom: 12px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
   }
+
+  .nrow-scroll::-webkit-scrollbar { display: none; }
+  .nrow-scroll > * { scroll-snap-align: start; }
 </style>

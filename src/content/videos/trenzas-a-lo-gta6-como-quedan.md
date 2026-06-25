@@ -5,7 +5,7 @@ videoId: "W7mOhHAVLJE"
 publishedAt: "2026-02-15"
 categoria: "actividades-casa"
 tags: ["mi cambio de look", "cambio de look radical", "el cambio de look mas loco", "reto de cambio de look", "look", "hair change", "peluquería", "sesión de peluquería"]
-views: 9935
+views: 9942
 duracion: "10:00"
 featured: false
 ---

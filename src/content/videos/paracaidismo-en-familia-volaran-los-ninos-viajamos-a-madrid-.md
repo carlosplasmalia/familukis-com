@@ -5,7 +5,7 @@ videoId: "IsjQ09spcAM"
 publishedAt: "2022-09-17"
 categoria: "parques-atracciones"
 tags: ["tunel del viento", "actividades en familia", "madrid fly", "skydive madrid", "paracaidismo", "paracaidismo madrid", "escuela de paracaidismo", "vlog familias"]
-views: 124052
+views: 124054
 duracion: "16:45"
 featured: false
 ---

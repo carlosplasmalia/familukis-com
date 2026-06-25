@@ -5,7 +5,7 @@ videoId: "iXicDTKQ1tk"
 publishedAt: "2021-04-02"
 categoria: "camping-naturaleza"
 tags: ["vlog casa rodante", "casa rodante", "aguas negras", "wc quimico", "retrete para camper", "camper", "limpiando camper", "vlog viajes"]
-views: 370807
+views: 370808
 duracion: "17:33"
 featured: false
 ---

@@ -4,6 +4,8 @@ import VideoCard from '../../components/VideoCard.astro';
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 import { CATEGORIA_LABELS } from '../../content.config';
 
+const MAGIC_URL = 'https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKI';
+
 export async function getStaticPaths() {
   const videos = await getCollection('videos');
   return videos.map(v => ({ params: { slug: v.id }, props: { video: v } }));
@@ -109,8 +111,8 @@ const schema = {
           {data.categoria === 'magic-world' && (
             <div class="affiliate-box">
               <p>Visita Magic World Resort con descuento exclusivo para familias.</p>
-              <a href="https://www.magicworldresort.com" target="_blank" rel="sponsored noopener">
-                🎡 Reservar con código <strong>Magiclosfamilukis</strong>
+              <a href={MAGIC_URL} target="_blank" rel="sponsored noopener">
+                🎡 Reservar con código <strong>MAGICLOSFAMILUKIS</strong>
               </a>
             </div>
           )}

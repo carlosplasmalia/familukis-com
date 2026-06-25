@@ -5,7 +5,7 @@ videoId: "AQg3UgTdIok"
 publishedAt: "2021-03-30"
 categoria: "camping-naturaleza"
 tags: ["autocaravanas", "viajar en autocaravana", "autocaravanas familiares", "autocaravanas 2021", "familias en autacaravanas", "vivir en una autocaravana", "nuestra nueva casa", "viajar"]
-views: 382395
+views: 382397
 duracion: "17:55"
 featured: false
 ---

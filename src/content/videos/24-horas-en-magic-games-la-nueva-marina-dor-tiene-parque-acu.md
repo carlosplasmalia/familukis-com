@@ -5,7 +5,7 @@ videoId: "TRk1TP3_sJE"
 publishedAt: "2025-08-05"
 categoria: "magic-world"
 tags: ["Marina D'Or", "Magic World Resort", "Nueva Marina D'Or", "Magic Games", "Parque Acuático Magic World", "Oropesa del Mar", "Castellón", "Viajar con niños"]
-views: 15598
+views: 15605
 duracion: "15:25"
 featured: false
 ---

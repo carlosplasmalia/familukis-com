@@ -5,7 +5,7 @@ videoId: "9SoNwpoFvLE"
 publishedAt: "2025-07-22"
 categoria: "magic-world"
 tags: ["Magic World Resort", "Marina d’Or", "Pontiana Thalasso 5 estrellas", "Magic Costa Blanca", "Oropesa del Mar", "vacaciones en familia", "turismo familiar", "resort familiar España"]
-views: 19606
+views: 19609
 duracion: "11:13"
 featured: false
 ---

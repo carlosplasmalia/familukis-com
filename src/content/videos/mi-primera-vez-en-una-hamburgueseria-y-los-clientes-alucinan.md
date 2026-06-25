@@ -5,7 +5,7 @@ videoId: "bh8bTaiFLdM"
 publishedAt: "2023-07-04"
 categoria: "actividades-casa"
 tags: ["24 horas", "un dia siendo", "24 horas siendo", "comida", "restaurantes", "comedia", "pesadilla en la cocina", "PLEX"]
-views: 398970
+views: 398976
 duracion: "33:52"
 featured: false
 ---

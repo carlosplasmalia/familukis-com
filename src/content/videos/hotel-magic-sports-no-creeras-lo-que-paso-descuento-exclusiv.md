@@ -5,7 +5,7 @@ videoId: "L3oric3VrQU"
 publishedAt: "2025-09-18"
 categoria: "magic-world"
 tags: ["Magic sports", "magic world oropesa", "magic games hotel", "simuladores magic", "turismo", "familia", "familia numerosa", "hoteles familiares"]
-views: 6629
+views: 6635
 duracion: "14:09"
 featured: false
 ---

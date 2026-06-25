@@ -5,7 +5,7 @@ videoId: "mngTCpcoIwY"
 publishedAt: "2025-07-18"
 categoria: "magic-world"
 tags: ["Hotel Pontiana Thalasso", "Magic World Resort", "Hotel 5 estrellas Oropesa del Mar", "Vacaciones familiares", "Turismo familiar", "Buffet mediterráneo", "Spa exterior Marina d’Or", "Ultra All Inclusive"]
-views: 22649
+views: 22651
 duracion: "14:54"
 featured: false
 ---

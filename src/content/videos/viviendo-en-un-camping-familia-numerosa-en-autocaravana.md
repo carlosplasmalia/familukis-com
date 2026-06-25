@@ -5,7 +5,7 @@ videoId: "szieBoqalwo"
 publishedAt: "2021-04-13"
 categoria: "camping-naturaleza"
 tags: ["camping", "viajar en autocaravana", "autocaravanas familiares", "autocaravanas 2021", "familias en autacaravanas", "vivir en una autocaravana", "nuestra nueva casa", "viajar"]
-views: 251753
+views: 251754
 duracion: "19:09"
 featured: false
 ---

@@ -5,7 +5,7 @@ videoId: "qgqdKQos4hI"
 publishedAt: "2025-07-09"
 categoria: "magic-world"
 tags: ["magic sports descuentos", "vacaciones familiares", "vacaciones en familia", "Magic World 2025", "Magic Sports resort", "Oropesa del Mar", "resort familiar", "viaje con niños"]
-views: 50576
+views: 50581
 duracion: "17:21"
 featured: false
 ---
