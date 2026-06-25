@@ -29,6 +29,39 @@ function toRow(vids: any[]) {
   }));
 }
 
+const EDITORIALES: Record<string, string> = {
+  'magic-world':
+    'Magic World Resort es el parque de atracciones y resort familiar más completo de la costa de Málaga. En Familukis llevamos años visitándolo con nuestros hijos y documentando cada rincón: atracciones de agua, shows, zonas de juego para los más pequeños y los mejores trucos para aprovechar el día al máximo. Si estás planeando una escapada en familia al sur de España, aquí tienes todo lo que necesitas saber antes de ir.',
+  'para-ninos':
+    'Juguetes que de verdad entretienen, juegos para hacer en casa y actividades pensadas para niños de todas las edades. En Familukis ponemos a prueba los juguetes más populares, comparamos opciones y os mostramos cuáles merecen la pena. Desde slimes hasta construcciones, pasando por juegos de mesa y manualidades, encontrarás ideas para regalar o para disfrutar cualquier tarde en casa.',
+  'retos-challenges':
+    'Los retos en familia son uno de nuestros contenidos favoritos: nos sacan de la rutina, nos hacen reír y crean recuerdos que duran años. Aquí recopilamos todos los challenges que hemos probado con los Familukis: retos de comida, desafíos físicos, retos de habilidad y mucho más. Ideales para hacer en casa o en el jardín, sin necesidad de material especial.',
+  'halloween':
+    'Halloween es nuestra fiesta favorita del año. En Familukis te mostramos cómo organizarla en grande con niños: disfraces caseros originales, decoración terrorífica con poco presupuesto, juegos de Halloween para celebrar en casa y las mejores ideas para que los más pequeños lo pasen de miedo. Todo desde nuestra experiencia real como familia.',
+  'camping-naturaleza':
+    'El camping y la naturaleza con niños es una de las mejores experiencias que puedes darles. Hemos acampado en pinares, junto a ríos y en la montaña, y aquí te contamos qué llevar, dónde ir y cómo hacer que los más pequeños disfruten del aire libre sin dramas. Rutas fáciles, campings familiares y consejos prácticos para familias que quieren desconectar de verdad.',
+  'navidad-regalos':
+    'La Navidad en familia es magia pura. En Familukis compartimos nuestras tradiciones, los mejores regalos que hemos probado con nuestros hijos y ideas para hacer de las fiestas algo especial sin gastar una fortuna. Apertura de regalos, decoración navideña, recetas y los momentos más emotivos de nuestra familia en las fechas más bonitas del año.',
+  'parques-acuaticos':
+    'Los parques acuáticos son el plan perfecto para el verano en familia. Hemos visitado los mejores de España y te contamos cuáles merecen la pena, qué atracciones tienen para niños pequeños, cómo evitar colas y los trucos que usamos nosotros para que el día sea perfecto. Toboganes, piscinas de olas, ríos lentos y mucha diversión bajo el sol.',
+  'vacaciones-familia':
+    'Viajar en familia es una aventura que merece vivirse. En Familukis documentamos nuestras escapadas por España y más allá: destinos con niños, hoteles familiares, qué ver y qué hacer en cada lugar. Desde la playa hasta la montaña, pasando por ciudades con encanto, aquí tienes inspiración real para planificar vuestras próximas vacaciones.',
+  'parques-atracciones':
+    'Los parques de atracciones son el destino favorito de los Familukis. Hemos visitado los grandes parques de España y te contamos todo: las atracciones imprescindibles, las que tienen mínimo de talla, cómo organizar el día para no perderse nada y cuáles merecen el viaje. Experiencias reales para ayudarte a elegir el mejor parque para tu familia.',
+  'playas-costa':
+    'Las playas y la costa española tienen mucho que ofrecer a las familias. Hemos recorrido calas, playas urbanas y pueblos costeros con nuestros hijos, y aquí compartimos los mejores rincones: aguas tranquilas para los peques, servicios para familias, chiringuitos y todo lo que necesitas para unas jornadas perfectas junto al mar.',
+  'vlogs-familia':
+    'El día a día de los Familukis: cumpleaños, sorpresas, viajes improvisados y momentos especiales que merecen ser guardados. Estos vlogs son una ventana a nuestra vida familiar real, con todo lo bueno y lo caótico que eso implica. Si quieres conocernos un poco mejor o simplemente disfrutar de contenido familiar auténtico, este es tu sitio.',
+  'senderismo-cascadas':
+    'El senderismo con niños es más fácil de lo que parece si eliges bien la ruta. En Familukis hemos caminado hasta cascadas espectaculares, pozas de agua cristalina y miradores con vistas increíbles, todo con niños de distintas edades. Aquí encontrarás rutas sencillas y de dificultad media pensadas para familias que quieren descubrir la naturaleza a pie.',
+  'montana-pirineos':
+    'La montaña y los Pirineos ofrecen algunos de los paisajes más impresionantes de España, y son perfectamente disfrutables en familia. Hemos subido a miradores, cruzado valles y disfrutado de la nieve con los Familukis, y aquí te contamos cómo preparar el viaje, qué ropa llevar y cuáles son los rincones que más nos han emocionado.',
+  'actividades-casa':
+    'Cuando el tiempo no acompaña o simplemente apetece quedarse en casa, siempre hay un plan Familukis. Manualidades, experimentos caseros, juegos de mesa, retos y actividades creativas que entretienen a niños de todas las edades sin necesidad de salir ni gastar. Aquí tienes nuestra selección de los mejores planes para disfrutar en familia sin moverte del sofá.',
+};
+
+const editorial = EDITORIALES[cat ?? ''] ?? '';
+
 const top      = toRow(catVideos.slice(0, 20));
 const recientes = toRow([...catVideos].sort((a,b) => b.data.publishedAt.localeCompare(a.data.publishedAt)).slice(0, 20));
 const mas      = toRow(catVideos.slice(20, 60));
@@ -76,6 +109,12 @@ const heroThumb = hero ? `https://img.youtube.com/vi/${hero.data.videoId}/maxres
       </div>
       <span class="ms-cta">Reservar ahora →</span>
     </a></div>
+  )}
+
+  {editorial && (
+    <div class="wrap">
+      <p class="cat-editorial">{editorial}</p>
+    </div>
   )}
 
   <div class="wrap cat-rows">
@@ -141,6 +180,13 @@ const heroThumb = hero ? `https://img.youtube.com/vi/${hero.data.videoId}/maxres
   .ms-desc { font-size:.8rem; color:var(--text-2); }
   .ms-desc em { font-style:normal; color:var(--accent); font-weight:800; }
   .ms-cta { font-size:.85rem; font-weight:700; color:var(--accent); flex-shrink:0; white-space:nowrap; }
+
+  .cat-editorial {
+    font-size:.92rem; color:var(--text-2); line-height:1.75;
+    max-width:72ch; margin:1.75rem 0 0;
+    border-left:3px solid rgba(229,9,20,.35);
+    padding-left:1.1rem;
+  }
 
   .cat-rows { padding-top:.5rem; padding-bottom:5rem; }
 
