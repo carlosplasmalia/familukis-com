@@ -48,16 +48,16 @@ const PRODUCTOS = [
 
 // Top 10 nostálgicos — portadas verticales generadas con Magnific Nano Banana
 const TOP10 = [
-  { rank:1,  videoId:'0FKc5N6OZdY', slug:'squishy-vs-real-food-vs-gominola-familukis',                             title:'SQUISHY vs Real Food vs GOMINOLA',         cover:'/covers/top1-squishy.jpg' },
-  { rank:2,  videoId:'56mIaEvoe-c', slug:'4-bromas-faciles-para-hacer-en-casa-juegos-y-juguetes-en-fam',           title:'4 Bromas Fáciles Para Hacer en Casa',       cover:'/covers/top2-bromas.jpg' },
-  { rank:3,  videoId:'aQ-euuK_H1c', slug:'24-horas-solos-en-la-jungla-sin-padres',                                 title:'24 Horas SOLOS en la JUNGLA sin Padres',   cover:'/covers/top3-jungla.jpg' },
-  { rank:4,  videoId:'PrmdEXsMRAk', slug:'retos-divertidos-con-amigos-invitada-especial-los-familukis',             title:'Retos Divertidos con Amigos',              cover:'/covers/top4-amigos.jpg' },
-  { rank:5,  videoId:'wgq0_onzOGk', slug:'tenemos-un-hermanito-chiquitito-vamos-bebe',                              title:'TENEMOS UN HERMANITO CHIQUITITO',          cover:'/covers/top5-hermanito.jpg' },
-  { rank:6,  videoId:'ShfxkD_dz50', slug:'familukis-fiesta-del-millon-en-mansion-de-los-juguetes-de-ar',            title:'Fiesta del MILLÓN en MANSIÓN de Juguetes', cover:'/covers/top6-millon.jpg' },
-  { rank:7,  videoId:'gv9pXFc7ke8', slug:'un-hacker-misterioso-entra-a-nuestra-casa-el-enigma-del-homb',            title:'UN HACKER Misterioso ENTRA a Nuestra CASA',cover:'/covers/top7-hacker.jpg' },
-  { rank:8,  videoId:'wgoWorcM1Rw', slug:'chocolate-vs-real-familukis',                                             title:'CHOCOLATE vs REAL',                        cover:'/covers/top8-chocolate.jpg' },
-  { rank:9,  videoId:'yrePQ0r_5GE', slug:'mi-padre-se-cuela-en-el-gimnasio-olimpico-super-saltos-los-f',            title:'Mi Padre se CUELA en el Gimnasio Olímpico',cover:'/covers/top9-gimnasio.jpg' },
-  { rank:10, videoId:'aj-yHtBd3T8', slug:'drink-slime-vs-real-drink-vs-pica-pica-bebida-real-vs-bebida',            title:'DRINK SLIME vs REAL DRINK vs PICA PICA',  cover:'/covers/top10-slime.jpg' },
+  { rank:1,  videoId:'0FKc5N6OZdY', slug:'squishy-vs-real-food-vs-gominola-familukis',                             title:'SQUISHY vs Real Food vs GOMINOLA',         cover:'/covers/top1-squishy.webp' },
+  { rank:2,  videoId:'56mIaEvoe-c', slug:'4-bromas-faciles-para-hacer-en-casa-juegos-y-juguetes-en-fam',           title:'4 Bromas Fáciles Para Hacer en Casa',       cover:'/covers/top2-bromas.webp' },
+  { rank:3,  videoId:'aQ-euuK_H1c', slug:'24-horas-solos-en-la-jungla-sin-padres',                                 title:'24 Horas SOLOS en la JUNGLA sin Padres',   cover:'/covers/top3-jungla.webp' },
+  { rank:4,  videoId:'PrmdEXsMRAk', slug:'retos-divertidos-con-amigos-invitada-especial-los-familukis',             title:'Retos Divertidos con Amigos',              cover:'/covers/top4-amigos.webp' },
+  { rank:5,  videoId:'wgq0_onzOGk', slug:'tenemos-un-hermanito-chiquitito-vamos-bebe',                              title:'TENEMOS UN HERMANITO CHIQUITITO',          cover:'/covers/top5-hermanito.webp' },
+  { rank:6,  videoId:'ShfxkD_dz50', slug:'familukis-fiesta-del-millon-en-mansion-de-los-juguetes-de-ar',            title:'Fiesta del MILLÓN en MANSIÓN de Juguetes', cover:'/covers/top6-millon.webp' },
+  { rank:7,  videoId:'gv9pXFc7ke8', slug:'un-hacker-misterioso-entra-a-nuestra-casa-el-enigma-del-homb',            title:'UN HACKER Misterioso ENTRA a Nuestra CASA',cover:'/covers/top7-hacker.webp' },
+  { rank:8,  videoId:'wgoWorcM1Rw', slug:'chocolate-vs-real-familukis',                                             title:'CHOCOLATE vs REAL',                        cover:'/covers/top8-chocolate.webp' },
+  { rank:9,  videoId:'yrePQ0r_5GE', slug:'mi-padre-se-cuela-en-el-gimnasio-olimpico-super-saltos-los-f',            title:'Mi Padre se CUELA en el Gimnasio Olímpico',cover:'/covers/top9-gimnasio.webp' },
+  { rank:10, videoId:'aj-yHtBd3T8', slug:'drink-slime-vs-real-drink-vs-pica-pica-bebida-real-vs-bebida',            title:'DRINK SLIME vs REAL DRINK vs PICA PICA',  cover:'/covers/top10-slime.webp' },
 ];
 
 const allVideos = (await getCollection('videos')).filter(v => !v.data.hidden);
