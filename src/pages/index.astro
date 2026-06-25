@@ -1,165 +1,156 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import CategoryRow from '../components/CategoryRow.astro';
-import VideoCard from '../components/VideoCard.astro';
 import { getCollection } from 'astro:content';
 import { CATEGORIA_LABELS } from '../content.config';
 
 const allVideos = await getCollection('videos');
-
-// Ordenar por vistas
 const byViews = [...allVideos].sort((a, b) => (b.data.views ?? 0) - (a.data.views ?? 0));
 
-// Vídeo destacado (más vistas)
 const hero = byViews[0];
+const heroThumb = `https://img.youtube.com/vi/${hero?.data.videoId}/maxresdefault.jpg`;
 
-// Categorías con más de 3 vídeos, ordenadas por relevancia manual
-const PRIORITY_CATS = [
+const PRIORITY = [
   'magic-world',
   'parques-atracciones',
   'vacaciones-familia',
   'camping-naturaleza',
   'parques-acuaticos',
-  'actividades-casa',
   'montana-pirineos',
   'playas-costa',
   'senderismo-cascadas',
+  'actividades-casa',
 ] as const;
 
-const rows = PRIORITY_CATS.map(cat => {
-  const vids = byViews
-    .filter(v => v.data.categoria === cat)
-    .slice(0, 12)
-    .map(v => ({
-      videoId: v.data.videoId,
-      title: v.data.title,
-      duracion: v.data.duracion,
-      views: v.data.views,
-      slug: v.id,
-    }));
-  return { cat, label: CATEGORIA_LABELS[cat], vids };
-}).filter(r => r.vids.length > 0);
+const rows = PRIORITY.map(cat => ({
+  cat,
+  label: CATEGORIA_LABELS[cat],
+  videos: byViews.filter(v => v.data.categoria === cat).slice(0, 14).map(v => ({
+    videoId: v.data.videoId,
+    title: v.data.title,
+    duracion: v.data.duracion,
+    views: v.data.views,
+    slug: v.id,
+  })),
+})).filter(r => r.videos.length > 0);
 
-const heroThumb = `https://img.youtube.com/vi/${hero?.data.videoId}/maxresdefault.jpg`;
+function formatViews(n: number) {
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M vistas`;
+  if (n >= 1_000) return `${Math.round(n / 1_000)}K vistas`;
+  return `${n} vistas`;
+}
 ---
 
 <BaseLayout
   title="Familukis — Planes y actividades en familia"
-  description="Descubre los mejores planes con niños: parques de atracciones, camping, playas, rutas de senderismo y mucho más. Experiencias reales de una familia española."
+  description="Descubre los mejores planes con niños en España: parques de atracciones, camping, playas, rutas y mucho más. Experiencias reales de una familia española."
+  image={heroThumb}
 >
-  <!-- HERO -->
+
+  <!-- ── HERO ─────────────────────────────────────── -->
   {hero && (
-    <section class="hero" style={`--hero-img: url('${heroThumb}')`}>
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <span class="hero-tag">Más visto</span>
-        <h1 class="hero-title">{hero.data.title}</h1>
-        <p class="hero-desc">{hero.data.description?.slice(0, 120)}...</p>
+    <section class="hero" style={`--bg: url('${heroThumb}')`}>
+      <div class="hero-bg"></div>
+      <div class="hero-content wrap">
+        <span class="tag tag-accent">Más visto</span>
+        <h1>{hero.data.title}</h1>
+        {hero.data.description && (
+          <p>{hero.data.description.slice(0, 130).trim()}…</p>
+        )}
         <div class="hero-actions">
-          <a href={`/videos/${hero.id}`} class="btn-primary">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          <a href={`/videos/${hero.id}`} class="btn btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
             Ver vídeo
           </a>
-          <a href="/buscar" class="btn-ghost">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          <a href="/buscar" class="btn btn-ghost">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
             Buscar planes
           </a>
         </div>
+        {hero.data.views > 0 && (
+          <span class="hero-views">{formatViews(hero.data.views)}</span>
+        )}
       </div>
     </section>
   )}
 
-  <!-- MAGIC WORLD BANNER -->
-  <div class="container">
+  <!-- ── MAGIC WORLD BANNER ────────────────────────── -->
+  <div class="wrap">
     <a href="/categoria/magic-world" class="magic-banner">
-      <div class="magic-banner-text">
-        <span class="magic-tag">Código exclusivo</span>
-        <strong>Magic World Resort — usa el código <em>Magiclosfamilukis</em></strong>
-        <span>Descuento en entradas para familias. Lo probamos y te contamos todo.</span>
+      <div class="magic-icon">✨</div>
+      <div class="magic-text">
+        <strong>Magic World Resort · Código <em>Magiclosfamilukis</em></strong>
+        <span>Descuento en entradas y estancias. Lo hemos probado, te contamos todo sin filtro.</span>
       </div>
-      <div class="magic-banner-arrow">
-        Ver experiencias →
-      </div>
+      <div class="magic-cta">Ver experiencias →</div>
     </a>
   </div>
 
-  <!-- FILAS DE CATEGORÍAS -->
-  <div class="container rows-container">
-    {rows.map((row, i) => (
+  <!-- ── FILAS DE CATEGORÍAS ───────────────────────── -->
+  <div class="wrap rows-wrap">
+    {rows.map(row => (
       <CategoryRow
         title={row.label}
         href={`/categoria/${row.cat}`}
-        videos={row.vids}
-        accent={row.cat === 'magic-world'}
+        videos={row.videos}
       />
     ))}
   </div>
+
 </BaseLayout>
 
 <style>
   /* HERO */
   .hero {
     position: relative;
-    height: min(70vh, 560px);
-    background-image: var(--hero-img);
-    background-size: cover;
-    background-position: center top;
+    min-height: min(68vh, 580px);
     display: flex;
     align-items: flex-end;
+    overflow: hidden;
   }
 
-  .hero-overlay {
+  .hero-bg {
     position: absolute;
     inset: 0;
-    background: linear-gradient(
-      to right,
-      rgba(10,10,10,0.92) 0%,
-      rgba(10,10,10,0.6) 50%,
-      rgba(10,10,10,0.1) 100%
-    ),
-    linear-gradient(
-      to top,
-      rgba(10,10,10,1) 0%,
-      transparent 40%
-    );
+    background-image: var(--bg);
+    background-size: cover;
+    background-position: center 20%;
+    filter: brightness(0.55);
+    transform: scale(1.02);
+  }
+
+  .hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(to right, rgba(10,10,10,0.95) 0%, rgba(10,10,10,0.5) 55%, transparent 100%),
+      linear-gradient(to top, rgba(10,10,10,1) 0%, transparent 45%);
   }
 
   .hero-content {
     position: relative;
     z-index: 1;
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 3rem 1.5rem 4rem;
-    width: 100%;
-    max-width: 600px;
-    margin-left: max(1.5rem, calc((100vw - 1280px) / 2 + 1.5rem));
+    padding-bottom: 4.5rem;
+    padding-top: 2rem;
+    max-width: 580px;
   }
 
-  .hero-tag {
-    display: inline-block;
-    background: var(--accent);
-    color: #fff;
-    font-size: 0.7rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    padding: 3px 10px;
-    border-radius: 4px;
-    margin-bottom: 0.75rem;
-  }
-
-  .hero-title {
-    font-size: clamp(1.5rem, 3vw, 2.4rem);
+  .hero-content h1 {
+    font-size: clamp(1.6rem, 3.5vw, 2.6rem);
+    font-weight: 800;
     line-height: 1.15;
-    margin-bottom: 0.75rem;
-    text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    letter-spacing: -0.025em;
+    margin: 0.6rem 0 0.8rem;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.4);
   }
 
-  .hero-desc {
-    color: var(--text-muted);
+  .hero-content p {
     font-size: 0.95rem;
+    color: rgba(240,240,240,0.7);
+    line-height: 1.65;
     margin-bottom: 1.5rem;
-    max-width: 48ch;
+    max-width: 50ch;
   }
 
   .hero-actions {
@@ -168,103 +159,77 @@ const heroThumb = `https://img.youtube.com/vi/${hero?.data.videoId}/maxresdefaul
     flex-wrap: wrap;
   }
 
-  .btn-ghost {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: rgba(255,255,255,0.1);
-    backdrop-filter: blur(4px);
-    color: var(--text);
-    font-weight: 600;
-    padding: 0.7rem 1.5rem;
-    border-radius: 8px;
-    transition: background 0.2s;
-    font-size: 0.95rem;
-  }
-
-  .btn-ghost:hover {
-    background: rgba(255,255,255,0.18);
-  }
-
-  /* CONTAINER */
-  .container {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0 1.5rem;
+  .hero-views {
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.78rem;
+    color: rgba(240,240,240,0.4);
   }
 
   /* MAGIC BANNER */
   .magic-banner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 1rem;
-    background: linear-gradient(135deg, #1a0d00, #2d1500);
-    border: 1px solid rgba(255,107,0,0.3);
-    border-radius: var(--radius-lg);
-    padding: 1.25rem 1.75rem;
-    margin: 2rem 0 0;
+    background: linear-gradient(135deg, #130800 0%, #1f0f00 100%);
+    border: 1px solid rgba(255,107,0,0.25);
+    border-radius: var(--r-xl);
+    padding: 1.1rem 1.5rem;
+    margin-top: 2.5rem;
     transition: border-color 0.2s, transform 0.2s;
   }
 
   .magic-banner:hover {
-    border-color: var(--accent);
+    border-color: rgba(255,107,0,0.5);
     transform: translateY(-1px);
   }
 
-  .magic-banner-text {
+  .magic-icon {
+    font-size: 1.6rem;
+    flex-shrink: 0;
+    line-height: 1;
+  }
+
+  .magic-text {
+    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 2px;
   }
 
-  .magic-tag {
-    font-size: 0.7rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--accent);
-  }
-
-  .magic-banner-text strong {
-    font-size: 1rem;
+  .magic-text strong {
+    font-size: 0.95rem;
     color: var(--text);
   }
 
-  .magic-banner-text strong em {
-    color: var(--accent);
+  .magic-text em {
     font-style: normal;
+    color: var(--accent);
     font-weight: 800;
   }
 
-  .magic-banner-text span {
-    font-size: 0.85rem;
-    color: var(--text-muted);
+  .magic-text span {
+    font-size: 0.82rem;
+    color: var(--text-3);
   }
 
-  .magic-banner-arrow {
-    color: var(--accent);
+  .magic-cta {
+    font-size: 0.85rem;
     font-weight: 700;
-    font-size: 0.9rem;
+    color: var(--accent);
     flex-shrink: 0;
+    white-space: nowrap;
   }
 
   /* ROWS */
-  .rows-container {
-    padding-top: 1rem;
-    padding-bottom: 3rem;
+  .rows-wrap {
+    padding-top: 0.5rem;
+    padding-bottom: 4rem;
   }
 
   @media (max-width: 640px) {
-    .hero {
-      height: min(55vh, 400px);
-    }
-    .hero-content {
-      margin-left: 1.5rem;
-    }
-    .magic-banner {
-      flex-direction: column;
-      align-items: flex-start;
-    }
+    .hero { min-height: min(55vh, 400px); }
+    .magic-cta { display: none; }
+    .magic-banner { gap: 0.75rem; }
   }
 </style>

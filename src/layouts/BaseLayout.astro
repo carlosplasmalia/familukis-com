@@ -1,4 +1,6 @@
 ---
+import '../styles/global.css';
+
 interface Props {
   title: string;
   description: string;
@@ -27,7 +29,6 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
   <meta name="description" content={description} />
   <link rel="canonical" href={canonical} />
 
-  <!-- Open Graph -->
   <meta property="og:type" content={type} />
   <meta property="og:title" content={fullTitle} />
   <meta property="og:description" content={description} />
@@ -36,89 +37,85 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
   <meta property="og:site_name" content="Familukis" />
   <meta property="og:locale" content="es_ES" />
 
-  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={fullTitle} />
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={image} />
 
-  <!-- Schema.org WebSite con Sitelinks Searchbox (IA-friendly) -->
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Familukis",
     "url": "https://familukis.com",
-    "description": "Planes y actividades en familia: parques, rutas, camping, playas y mucho más.",
+    "description": "Planes y actividades en familia. Experiencias reales.",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": "https://familukis.com/buscar?q={search_term_string}"
-      },
+      "target": { "@type": "EntryPoint", "urlTemplate": "https://familukis.com/buscar?q={search_term_string}" },
       "query-input": "required name=search_term_string"
     }
   })} />
 
-  <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-
-  <!-- Pagefind CSS (solo se activa en /buscar) -->
   <slot name="head" />
-
-  <style>
-    @import '/src/styles/global.css';
-  </style>
 </head>
 <body>
 
-<!-- NAV -->
-<header class="site-nav" id="site-nav">
-  <nav>
-    <a href="/" class="nav-logo" aria-label="Familukis inicio">
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <circle cx="14" cy="14" r="14" fill="#ff6b00"/>
-        <text x="14" y="19" text-anchor="middle" fill="white" font-size="14" font-weight="700" font-family="system-ui">F</text>
+<header id="nav">
+  <div class="nav-inner">
+    <a href="/" class="logo">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <rect width="32" height="32" rx="8" fill="#ff6b00"/>
+        <text x="16" y="22" text-anchor="middle" fill="white" font-size="16" font-weight="800" font-family="system-ui">F</text>
       </svg>
       <span>Familukis</span>
     </a>
 
-    <div class="nav-links">
-      <a href="/categoria/magic-world">Magic World</a>
+    <nav class="nav-links" aria-label="Navegación principal">
+      <a href="/categoria/magic-world">✨ Magic World</a>
       <a href="/categoria/parques-atracciones">Parques</a>
       <a href="/categoria/camping-naturaleza">Naturaleza</a>
       <a href="/categoria/playas-costa">Playas</a>
       <a href="/categoria/vacaciones-familia">Vacaciones</a>
-    </div>
+    </nav>
 
-    <a href="/buscar" class="nav-search" aria-label="Buscar">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <a href="/buscar" class="nav-search-btn" aria-label="Buscar planes">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
         <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
       </svg>
+      <span>Buscar</span>
     </a>
-  </nav>
+  </div>
 </header>
 
-<main>
+<main id="main">
   <slot />
 </main>
 
-<footer class="site-footer">
+<footer id="footer">
   <div class="footer-inner">
-    <div class="footer-brand">
-      <span class="footer-logo">Familukis</span>
-      <p>Planes y actividades en familia. Parques, rutas, playas y mucho más desde nuestra experiencia real.</p>
+    <div class="footer-col footer-brand">
+      <a href="/" class="footer-logo">Familukis</a>
+      <p>Planes y actividades en familia desde nuestra experiencia real. Parques, rutas, playas y mucho más por toda España.</p>
     </div>
-    <nav class="footer-nav">
-      <a href="/categoria/magic-world">Magic World</a>
+    <div class="footer-col">
+      <h3>Categorías</h3>
+      <a href="/categoria/magic-world">Magic World Resort</a>
       <a href="/categoria/parques-atracciones">Parques de Atracciones</a>
+      <a href="/categoria/parques-acuaticos">Parques Acuáticos</a>
       <a href="/categoria/camping-naturaleza">Camping y Naturaleza</a>
-      <a href="/categoria/senderismo-cascadas">Senderismo</a>
       <a href="/categoria/playas-costa">Playas y Costa</a>
-      <a href="/buscar">Buscador</a>
-    </nav>
-    <p class="footer-legal">
-      © {new Date().getFullYear()} Familukis · Algunos enlaces son de afiliados, lo que nos ayuda a mantener este sitio sin coste para ti.
-    </p>
+      <a href="/categoria/vacaciones-familia">Vacaciones en Familia</a>
+    </div>
+    <div class="footer-col">
+      <h3>Explorar</h3>
+      <a href="/buscar">Buscador de planes</a>
+      <a href="/categoria/senderismo-cascadas">Senderismo con niños</a>
+      <a href="/categoria/montana-pirineos">Montaña y Pirineos</a>
+      <a href="/categoria/actividades-casa">Actividades en casa</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© {new Date().getFullYear()} Familukis · Algunos enlaces son de afiliados, lo que nos ayuda a mantener este sitio sin coste para ti.</p>
   </div>
 </footer>
 
@@ -126,131 +123,158 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
 </html>
 
 <style>
-  @import '../styles/global.css';
-
-  .site-nav {
+  #nav {
     position: sticky;
     top: 0;
     z-index: 100;
-    background: rgba(10,10,10,0.92);
-    backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--border);
+    background: rgba(8, 8, 8, 0.88);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
   }
 
-  .site-nav nav {
-    max-width: 1280px;
+  .nav-inner {
+    max-width: 1300px;
     margin: 0 auto;
-    padding: 0 1.5rem;
-    height: 60px;
+    padding: 0 2rem;
+    height: 64px;
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 2.5rem;
   }
 
-  .nav-logo {
+  .logo {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
     font-weight: 800;
-    font-size: 1.1rem;
-    color: var(--text);
+    font-size: 1.15rem;
+    color: #fff;
     flex-shrink: 0;
+    letter-spacing: -0.02em;
   }
 
   .nav-links {
     display: flex;
-    gap: 1.5rem;
+    gap: 0;
     flex: 1;
   }
 
   .nav-links a {
-    font-size: 0.9rem;
-    color: var(--text-muted);
-    transition: color 0.2s;
+    color: rgba(255,255,255,0.6);
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.4rem 0.85rem;
+    border-radius: 6px;
+    transition: color 0.15s, background 0.15s;
     white-space: nowrap;
   }
 
   .nav-links a:hover {
-    color: var(--text);
+    color: #fff;
+    background: rgba(255,255,255,0.07);
   }
 
-  .nav-search {
-    color: var(--text-muted);
-    transition: color 0.2s;
-    padding: 4px;
+  .nav-search-btn {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: rgba(255,255,255,0.65);
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.45rem 1rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.04);
+    transition: all 0.15s;
     flex-shrink: 0;
   }
 
-  .nav-search:hover {
-    color: var(--accent);
+  .nav-search-btn:hover {
+    color: #fff;
+    border-color: rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.08);
   }
 
-  @media (max-width: 768px) {
-    .nav-links {
-      display: none;
-    }
-    .site-nav nav {
-      justify-content: space-between;
-    }
+  @media (max-width: 800px) {
+    .nav-links { display: none; }
+    .nav-inner { gap: 1rem; justify-content: space-between; }
+    .nav-search-btn span { display: none; }
+    .nav-search-btn { padding: 0.5rem; }
   }
 
-  /* Footer */
-  .site-footer {
-    margin-top: 5rem;
-    border-top: 1px solid var(--border);
-    padding: 3rem 1.5rem 2rem;
+  /* FOOTER */
+  #footer {
+    margin-top: 6rem;
+    border-top: 1px solid rgba(255,255,255,0.07);
+    background: #080808;
   }
 
   .footer-inner {
-    max-width: 1280px;
+    max-width: 1300px;
     margin: 0 auto;
+    padding: 4rem 2rem 3rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem 3rem;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 3rem;
+  }
+
+  .footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
   }
 
   .footer-logo {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 800;
-    color: var(--accent);
-    display: block;
-    margin-bottom: 0.5rem;
+    color: #ff6b00;
+    letter-spacing: -0.03em;
+    margin-bottom: 0.25rem;
   }
 
   .footer-brand p {
-    color: var(--text-dim);
-    font-size: 0.9rem;
-    max-width: 36ch;
-    line-height: 1.6;
+    color: rgba(255,255,255,0.35);
+    font-size: 0.875rem;
+    line-height: 1.65;
+    max-width: 38ch;
   }
 
-  .footer-nav {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+  .footer-col h3 {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255,255,255,0.3);
+    margin-bottom: 0.4rem;
   }
 
-  .footer-nav a {
-    color: var(--text-muted);
-    font-size: 0.9rem;
-    transition: color 0.2s;
+  .footer-col a {
+    color: rgba(255,255,255,0.5);
+    font-size: 0.875rem;
+    transition: color 0.15s;
   }
 
-  .footer-nav a:hover {
-    color: var(--accent);
+  .footer-col a:hover { color: #ff6b00; }
+
+  .footer-bottom {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 1.25rem 2rem;
+    border-top: 1px solid rgba(255,255,255,0.05);
   }
 
-  .footer-legal {
-    grid-column: 1 / -1;
-    color: var(--text-dim);
+  .footer-bottom p {
+    color: rgba(255,255,255,0.25);
     font-size: 0.8rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--border);
   }
 
-  @media (max-width: 640px) {
-    .footer-inner {
-      grid-template-columns: 1fr;
-    }
+  @media (max-width: 800px) {
+    .footer-inner { grid-template-columns: 1fr 1fr; }
+    .footer-brand { grid-column: 1 / -1; }
+  }
+
+  @media (max-width: 500px) {
+    .footer-inner { grid-template-columns: 1fr; }
   }
 </style>

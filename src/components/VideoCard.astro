@@ -5,40 +5,37 @@ interface Props {
   duracion?: string;
   views?: number;
   slug: string;
-  size?: 'sm' | 'md' | 'lg';
+  width?: string;
 }
-const { videoId, title, duracion, views, slug, size = 'md' } = Astro.props;
+const { videoId, title, duracion, views, slug, width = '260px' } = Astro.props;
 
 const thumb = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
-const maxthumb = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
 
 function formatViews(n: number) {
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
   if (n >= 1_000) return `${Math.round(n / 1_000)}K`;
-  return n.toString();
+  return String(n);
 }
-
-const widths = { sm: '180px', md: '260px', lg: '340px' };
-const width = widths[size];
 ---
 
-<a href={`/videos/${slug}`} class="video-card" style={`width:${width}`} data-pagefind-ignore>
+<a href={`/videos/${slug}`} class="video-card" style={`width:${width}`}>
   <div class="thumb-wrap">
     <img
       src={thumb}
-      srcset={`${thumb} 1x, ${maxthumb} 2x`}
       alt={title}
       class="card-thumb"
       loading="lazy"
       decoding="async"
       width="480"
-      height="360"
+      height="270"
     />
     {duracion && <span class="badge-duration">{duracion}</span>}
     <div class="card-overlay">
       {views && views > 0 && (
-        <span class="views-badge">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+        <span class="views-count">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+          </svg>
           {formatViews(views)}
         </span>
       )}
@@ -48,52 +45,12 @@ const width = widths[size];
 </a>
 
 <style>
-  .video-card {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    cursor: pointer;
-    transition: transform 0.2s;
-  }
-
-  .video-card:hover {
-    transform: translateY(-2px);
-  }
-
-  .thumb-wrap {
-    position: relative;
-    border-radius: var(--radius);
-    overflow: hidden;
-    background: var(--surface-2);
-    aspect-ratio: 16/9;
-    width: 100%;
-  }
-
-  .card-thumb {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    transition: transform 0.35s ease;
-  }
-
-  .views-badge {
+  .views-count {
     display: flex;
     align-items: center;
     gap: 4px;
-    color: #fff;
-    font-size: 0.75rem;
+    color: rgba(255,255,255,0.9);
+    font-size: 0.72rem;
     font-weight: 600;
-  }
-
-  .card-title {
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: var(--text);
-    line-height: 1.4;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
   }
 </style>
