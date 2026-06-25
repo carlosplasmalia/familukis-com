@@ -6,40 +6,42 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   title="Buscar planes en familia — Familukis"
   description="Busca entre cientos de vídeos y actividades familiares: parques, playas, rutas, camping y mucho más."
 >
+  <Fragment slot="head">
+    <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+  </Fragment>
+
   <div class="search-page">
     <div class="search-header">
       <h1>¿Qué plan estás buscando?</h1>
       <p>Busca por destino, actividad o tipo de plan.</p>
     </div>
-
-    <div id="search-wrap">
-      <div id="search"></div>
-      <div id="results"></div>
-    </div>
+    <div id="search"></div>
   </div>
-</BaseLayout>
 
-<link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
-<script src="/pagefind/pagefind-ui.js" is:inline></script>
-<script is:inline>
-  window.addEventListener('DOMContentLoaded', () => {
-    // @ts-ignore
-    new PagefindUI({
-      element: '#search',
-      showSubResults: false,
-      resetStyles: false,
-      translations: {
-        placeholder: 'Busca un plan, destino o actividad...',
-        zero_results: 'Sin resultados para "[SEARCH_TERM]". Prueba con otra palabra.',
-        many_results: '[COUNT] resultados para "[SEARCH_TERM]"',
-        one_result: '1 resultado para "[SEARCH_TERM]"',
-        clear_search: 'Limpiar',
-        load_more: 'Cargar más',
-        search_label: 'Buscar en Familukis',
-      },
-    });
-  });
-</script>
+  <script is:inline>
+    (function () {
+      const s = document.createElement('script');
+      s.src = '/pagefind/pagefind-ui.js';
+      s.onload = function () {
+        new PagefindUI({
+          element: '#search',
+          showSubResults: false,
+          resetStyles: false,
+          translations: {
+            placeholder: 'Busca un plan, destino o actividad...',
+            zero_results: 'Sin resultados para "[SEARCH_TERM]". Prueba con otra palabra.',
+            many_results: '[COUNT] resultados para "[SEARCH_TERM]"',
+            one_result: '1 resultado para "[SEARCH_TERM]"',
+            clear_search: 'Limpiar',
+            load_more: 'Cargar más',
+            search_label: 'Buscar en Familukis',
+          },
+        });
+      };
+      document.head.appendChild(s);
+    })();
+  </script>
+</BaseLayout>
 
 <style>
   .search-page {
@@ -59,10 +61,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   }
 
   .search-header p {
-    color: var(--text-muted);
+    color: var(--text-2);
   }
 
-  /* Pagefind customization */
   :root {
     --pagefind-ui-scale: 1;
     --pagefind-ui-primary: #e50914;
