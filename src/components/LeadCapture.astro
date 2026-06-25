@@ -1,0 +1,171 @@
+---
+interface Props {
+  /* Pega aquí el action URL de tu formulario Brevo/Mailchimp */
+  formAction?: string;
+}
+const { formAction = '#' } = Astro.props;
+---
+
+<section class="lead-section">
+  <div class="lead-inner">
+
+    <div class="lead-copy">
+      <span class="lead-tag">Gratis</span>
+      <h2>50 Retos Divertidos para Hacer en Casa</h2>
+      <p>Descarga la guía de los mejores retos Familukis: fáciles de preparar, sin necesidad de comprar nada especial. Perfectos para cualquier tarde en familia.</p>
+    </div>
+
+    <form
+      class="lead-form"
+      action={formAction}
+      method="POST"
+      target="_blank"
+    >
+      <input type="hidden" name="list" value="familukis-leads" />
+
+      <div class="lead-fields">
+        <input
+          type="email"
+          name="email"
+          placeholder="tu@email.com"
+          required
+          autocomplete="email"
+          class="lead-input"
+        />
+
+        <select name="quien" class="lead-select" required>
+          <option value="" disabled selected>¿Quién eres?</option>
+          <option value="padre-madre">Padre / Madre</option>
+          <option value="fan-adulto">Fan adulto (18+)</option>
+          <option value="familuki">Soy un Familuki (menor de 18)</option>
+        </select>
+
+        <button type="submit" class="lead-btn">
+          Quiero la guía gratis →
+        </button>
+      </div>
+
+      <p class="lead-legal">
+        Sin spam. Solo planes y retos de Familukis.
+        Puedes darte de baja cuando quieras.
+      </p>
+    </form>
+
+  </div>
+</section>
+
+<style>
+  .lead-section {
+    margin: 2rem 0;
+    background: linear-gradient(135deg, #1a0a0a 0%, #1f1212 50%, #141414 100%);
+    border-top: 1px solid rgba(229,9,20,0.2);
+    border-bottom: 1px solid rgba(229,9,20,0.2);
+    padding: 3rem 2rem;
+  }
+
+  .lead-inner {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  .lead-tag {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 3px 10px;
+    border-radius: 3px;
+    margin-bottom: 0.75rem;
+  }
+
+  .lead-copy h2 {
+    font-size: clamp(1.35rem, 2.5vw, 1.9rem);
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+  }
+
+  .lead-copy p {
+    color: var(--text-2);
+    font-size: 0.92rem;
+    line-height: 1.65;
+    max-width: 48ch;
+  }
+
+  .lead-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+  }
+
+  .lead-input,
+  .lead-select {
+    width: 100%;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 6px;
+    color: var(--text);
+    font-size: 0.9rem;
+    padding: 0.7rem 1rem;
+    outline: none;
+    transition: border-color 0.15s;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+
+  .lead-input::placeholder { color: rgba(255,255,255,0.3); }
+
+  .lead-input:focus,
+  .lead-select:focus {
+    border-color: rgba(229,9,20,0.5);
+    background: rgba(255,255,255,0.08);
+  }
+
+  .lead-select option {
+    background: #1f1f1f;
+    color: #fff;
+  }
+
+  .lead-btn {
+    width: 100%;
+    background: var(--accent);
+    color: #fff;
+    font-size: 0.92rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    transition: background 0.15s, transform 0.15s;
+    margin-top: 0.2rem;
+  }
+
+  .lead-btn:hover {
+    background: #cc0812;
+    transform: translateY(-1px);
+  }
+
+  .lead-legal {
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.25);
+    margin-top: 0.6rem;
+    line-height: 1.5;
+  }
+
+  @media (max-width: 800px) {
+    .lead-inner {
+      grid-template-columns: 1fr;
+      gap: 1.75rem;
+    }
+    .lead-section { padding: 2.5rem 1.25rem; }
+    .lead-copy p { max-width: 100%; }
+  }
+</style>

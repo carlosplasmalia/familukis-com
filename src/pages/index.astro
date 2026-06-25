@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import CategoryRow from '../components/CategoryRow.astro';
 import Top10Row from '../components/Top10Row.astro';
 import ProductRow from '../components/ProductRow.astro';
+import LeadCapture from '../components/LeadCapture.astro';
 import { getCollection } from 'astro:content';
 import { CATEGORIA_LABELS } from '../content.config';
 
@@ -25,6 +26,12 @@ const PRODUCTOS = [
     badge: 'Libro',
     image: 'https://m.media-amazon.com/images/I/71FLOLsp87L._SL300_.jpg',
     url: 'https://amzn.to/4esSxpM',
+  },
+  {
+    title: 'Libro de Colorear Familukis',
+    badge: 'Libro',
+    image: 'https://m.media-amazon.com/images/I/71Bn0ZwidfL._SL300_.jpg',
+    url: 'https://amzn.to/4oYns0H',
   },
   {
     title: 'Camiseta Familukis — Viajeros',
@@ -160,6 +167,9 @@ function formatViews(n: number) {
   {byCat('vlogs-familia').length > 0 && (
     <CategoryRow title="Vlogs de Familia" href="/categoria/vlogs-familia" videos={toRow(byCat('vlogs-familia'))} />
   )}
+
+  <!-- Lead capture -->
+  <LeadCapture formAction="https://app.brevo.com/TODO-PEGA-AQUI-TU-FORM-ACTION" />
 
   <!-- Productos Amazon -->
   <ProductRow title="Nuestra tienda" products={PRODUCTOS} />
