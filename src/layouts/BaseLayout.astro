@@ -1,0 +1,256 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+  type?: 'website' | 'article' | 'video.other';
+  canonicalUrl?: string;
+}
+const {
+  title,
+  description,
+  image = 'https://familukis.com/og-default.jpg',
+  type = 'website',
+  canonicalUrl,
+} = Astro.props;
+
+const canonical = canonicalUrl ?? Astro.url.href;
+const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
+---
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content={type} />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={image} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:site_name" content="Familukis" />
+  <meta property="og:locale" content="es_ES" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={fullTitle} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={image} />
+
+  <!-- Schema.org WebSite con Sitelinks Searchbox (IA-friendly) -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Familukis",
+    "url": "https://familukis.com",
+    "description": "Planes y actividades en familia: parques, rutas, camping, playas y mucho más.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://familukis.com/buscar?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  })} />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Pagefind CSS (solo se activa en /buscar) -->
+  <slot name="head" />
+
+  <style>
+    @import '/src/styles/global.css';
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="site-nav" id="site-nav">
+  <nav>
+    <a href="/" class="nav-logo" aria-label="Familukis inicio">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <circle cx="14" cy="14" r="14" fill="#ff6b00"/>
+        <text x="14" y="19" text-anchor="middle" fill="white" font-size="14" font-weight="700" font-family="system-ui">F</text>
+      </svg>
+      <span>Familukis</span>
+    </a>
+
+    <div class="nav-links">
+      <a href="/categoria/magic-world">Magic World</a>
+      <a href="/categoria/parques-atracciones">Parques</a>
+      <a href="/categoria/camping-naturaleza">Naturaleza</a>
+      <a href="/categoria/playas-costa">Playas</a>
+      <a href="/categoria/vacaciones-familia">Vacaciones</a>
+    </div>
+
+    <a href="/buscar" class="nav-search" aria-label="Buscar">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+      </svg>
+    </a>
+  </nav>
+</header>
+
+<main>
+  <slot />
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="footer-logo">Familukis</span>
+      <p>Planes y actividades en familia. Parques, rutas, playas y mucho más desde nuestra experiencia real.</p>
+    </div>
+    <nav class="footer-nav">
+      <a href="/categoria/magic-world">Magic World</a>
+      <a href="/categoria/parques-atracciones">Parques de Atracciones</a>
+      <a href="/categoria/camping-naturaleza">Camping y Naturaleza</a>
+      <a href="/categoria/senderismo-cascadas">Senderismo</a>
+      <a href="/categoria/playas-costa">Playas y Costa</a>
+      <a href="/buscar">Buscador</a>
+    </nav>
+    <p class="footer-legal">
+      © {new Date().getFullYear()} Familukis · Algunos enlaces son de afiliados, lo que nos ayuda a mantener este sitio sin coste para ti.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
+
+<style>
+  @import '../styles/global.css';
+
+  .site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(10,10,10,0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .site-nav nav {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: var(--text);
+    flex-shrink: 0;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    flex: 1;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    transition: color 0.2s;
+    white-space: nowrap;
+  }
+
+  .nav-links a:hover {
+    color: var(--text);
+  }
+
+  .nav-search {
+    color: var(--text-muted);
+    transition: color 0.2s;
+    padding: 4px;
+    flex-shrink: 0;
+  }
+
+  .nav-search:hover {
+    color: var(--accent);
+  }
+
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+    .site-nav nav {
+      justify-content: space-between;
+    }
+  }
+
+  /* Footer */
+  .site-footer {
+    margin-top: 5rem;
+    border-top: 1px solid var(--border);
+    padding: 3rem 1.5rem 2rem;
+  }
+
+  .footer-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 3rem;
+  }
+
+  .footer-logo {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--accent);
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-brand p {
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    max-width: 36ch;
+    line-height: 1.6;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .footer-nav a {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    transition: color 0.2s;
+  }
+
+  .footer-nav a:hover {
+    color: var(--accent);
+  }
+
+  .footer-legal {
+    grid-column: 1 / -1;
+    color: var(--text-dim);
+    font-size: 0.8rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+  }
+
+  @media (max-width: 640px) {
+    .footer-inner {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

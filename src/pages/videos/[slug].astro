@@ -1,0 +1,357 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import VideoCard from '../../components/VideoCard.astro';
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import { CATEGORIA_LABELS } from '../../content.config';
+
+export async function getStaticPaths() {
+  const videos = await getCollection('videos');
+  return videos.map(v => ({ params: { slug: v.id }, props: { video: v } }));
+}
+
+interface Props { video: CollectionEntry<'videos'> }
+const { video } = Astro.props;
+const { data } = video;
+
+const { Content } = await render(video);
+
+// Relacionados: misma categoría, sin el actual, top por vistas
+const allVideos = await getCollection('videos');
+const related = allVideos
+  .filter(v => v.id !== video.id && v.data.categoria === data.categoria)
+  .sort((a, b) => (b.data.views ?? 0) - (a.data.views ?? 0))
+  .slice(0, 8);
+
+function formatViews(n: number) {
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M vistas`;
+  if (n >= 1_000) return `${Math.round(n / 1_000)}K vistas`;
+  return `${n} vistas`;
+}
+
+const thumb = `https://img.youtube.com/vi/${data.videoId}/maxresdefault.jpg`;
+const seoTitle = data.seoTitle ?? data.title;
+const seoDesc = data.seoDescription ?? data.description;
+const catLabel = CATEGORIA_LABELS[data.categoria];
+
+// Schema VideoObject
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": seoTitle,
+  "description": seoDesc,
+  "thumbnailUrl": thumb,
+  "uploadDate": data.publishedAt,
+  "embedUrl": `https://www.youtube.com/embed/${data.videoId}`,
+  "interactionStatistic": data.views ? {
+    "@type": "InteractionCounter",
+    "interactionType": "https://schema.org/WatchAction",
+    "userInteractionCount": data.views
+  } : undefined,
+};
+---
+
+<BaseLayout
+  title={seoTitle}
+  description={seoDesc}
+  image={thumb}
+  type="video.other"
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  </Fragment>
+
+  <article class="video-page">
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb container" aria-label="Ruta de navegación">
+      <a href="/">Inicio</a>
+      <span>›</span>
+      <a href={`/categoria/${data.categoria}`}>{catLabel}</a>
+      <span>›</span>
+      <span>{seoTitle}</span>
+    </nav>
+
+    <!-- Player -->
+    <div class="player-wrap">
+      <div class="player-inner">
+        <iframe
+          src={`https://www.youtube.com/embed/${data.videoId}?rel=0&modestbranding=1`}
+          title={data.title}
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- Contenido -->
+    <div class="container page-body">
+      <div class="video-meta">
+        <a href={`/categoria/${data.categoria}`} class="cat-pill">{catLabel}</a>
+        {data.views > 0 && <span class="meta-views">{formatViews(data.views)}</span>}
+        {data.duracion && <span class="meta-dur">{data.duracion}</span>}
+      </div>
+
+      <h1 class="video-title" data-pagefind-meta="title">{seoTitle}</h1>
+
+      <div class="content-grid">
+        <div class="article-content" data-pagefind-body>
+          {/* El artículo generado por la transcripción va aquí */}
+          <Content />
+
+          {/* Si no hay contenido aún, mostramos la descripción del vídeo */}
+          {data.description && (
+            <p class="yt-desc">{data.description}</p>
+          )}
+        </div>
+
+        <aside class="sidebar">
+          {data.categoria === 'magic-world' && (
+            <div class="affiliate-box">
+              <p>Visita Magic World Resort con descuento exclusivo para familias.</p>
+              <a href="https://www.magicworldresort.com" target="_blank" rel="sponsored noopener">
+                🎡 Reservar con código <strong>Magiclosfamilukis</strong>
+              </a>
+            </div>
+          )}
+
+          {data.categoria === 'parques-atracciones' && (
+            <div class="affiliate-box">
+              <p>Encuentra actividades y entradas para parques con descuento.</p>
+              <a href="https://www.civitatis.com/es/?aid=FAMILUKIS" target="_blank" rel="sponsored noopener">
+                🎢 Ver actividades en Civitatis
+              </a>
+            </div>
+          )}
+
+          {(data.categoria === 'vacaciones-familia' || data.categoria === 'playas-costa') && (
+            <div class="affiliate-box">
+              <p>Compara los mejores hoteles y apartamentos para familias.</p>
+              <a href="https://www.booking.com/?aid=FAMILUKIS" target="_blank" rel="sponsored noopener">
+                🏨 Buscar alojamiento en Booking
+              </a>
+            </div>
+          )}
+
+          {related.length > 0 && (
+            <div class="sidebar-related">
+              <h3>Más en {catLabel}</h3>
+              <div class="related-list">
+                {related.slice(0, 5).map(v => (
+                  <a href={`/videos/${v.id}`} class="related-item">
+                    <img
+                      src={`https://img.youtube.com/vi/${v.data.videoId}/mqdefault.jpg`}
+                      alt={v.data.title}
+                      width="120"
+                      height="68"
+                      loading="lazy"
+                    />
+                    <span>{v.data.title}</span>
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+        </aside>
+      </div>
+
+      <!-- Grid de relacionados inferior -->
+      {related.length > 5 && (
+        <section class="more-section">
+          <h2>Más vídeos de {catLabel}</h2>
+          <div class="more-grid">
+            {related.slice(5).map(v => (
+              <VideoCard
+                videoId={v.data.videoId}
+                title={v.data.title}
+                duracion={v.data.duracion}
+                views={v.data.views}
+                slug={v.id}
+                size="sm"
+              />
+            ))}
+          </div>
+        </section>
+      )}
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
+  .breadcrumb span:last-child {
+    color: var(--text);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 30ch;
+  }
+
+  /* Player */
+  .player-wrap {
+    background: #000;
+  }
+
+  .player-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    aspect-ratio: 16/9;
+  }
+
+  .player-inner iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  /* Body */
+  .page-body {
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+  }
+
+  .video-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.75rem;
+  }
+
+  .cat-pill {
+    background: var(--accent-dim);
+    color: var(--accent);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 20px;
+    transition: background 0.2s;
+  }
+
+  .cat-pill:hover { background: var(--accent); color: #fff; }
+
+  .meta-views, .meta-dur {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+  }
+
+  .video-title {
+    font-size: clamp(1.3rem, 2.5vw, 2rem);
+    margin-bottom: 2rem;
+    line-height: 1.25;
+  }
+
+  /* Grid artículo + sidebar */
+  .content-grid {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  .article-content {
+    min-width: 0;
+  }
+
+  .yt-desc {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: sticky;
+    top: 80px;
+  }
+
+  .sidebar-related h3 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .related-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .related-item {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    transition: opacity 0.2s;
+  }
+
+  .related-item:hover { opacity: 0.8; }
+
+  .related-item img {
+    width: 120px;
+    height: 68px;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink: 0;
+  }
+
+  .related-item span {
+    font-size: 0.82rem;
+    line-height: 1.4;
+    color: var(--text-muted);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Más vídeos */
+  .more-section {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .more-section h2 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .more-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+  }
+
+  @media (max-width: 900px) {
+    .content-grid {
+      grid-template-columns: 1fr;
+    }
+    .sidebar {
+      position: static;
+    }
+  }
+</style>

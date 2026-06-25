@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://familukis.com/sitemap-index.xml

@@ -1,0 +1,78 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Buscar planes en familia — Familukis"
+  description="Busca entre cientos de vídeos y actividades familiares: parques, playas, rutas, camping y mucho más."
+>
+  <div class="search-page">
+    <div class="search-header">
+      <h1>¿Qué plan estás buscando?</h1>
+      <p>Busca por destino, actividad o tipo de plan.</p>
+    </div>
+
+    <div id="search-wrap">
+      <div id="search"></div>
+      <div id="results"></div>
+    </div>
+  </div>
+</BaseLayout>
+
+<link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+<script src="/pagefind/pagefind-ui.js" is:inline></script>
+<script is:inline>
+  window.addEventListener('DOMContentLoaded', () => {
+    // @ts-ignore
+    new PagefindUI({
+      element: '#search',
+      showSubResults: false,
+      resetStyles: false,
+      translations: {
+        placeholder: 'Busca un plan, destino o actividad...',
+        zero_results: 'Sin resultados para "[SEARCH_TERM]". Prueba con otra palabra.',
+        many_results: '[COUNT] resultados para "[SEARCH_TERM]"',
+        one_result: '1 resultado para "[SEARCH_TERM]"',
+        clear_search: 'Limpiar',
+        load_more: 'Cargar más',
+        search_label: 'Buscar en Familukis',
+      },
+    });
+  });
+</script>
+
+<style>
+  .search-page {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 5rem;
+  }
+
+  .search-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .search-header h1 {
+    font-size: clamp(1.6rem, 3vw, 2.4rem);
+    margin-bottom: 0.4rem;
+  }
+
+  .search-header p {
+    color: var(--text-muted);
+  }
+
+  /* Pagefind customization */
+  :root {
+    --pagefind-ui-scale: 1;
+    --pagefind-ui-primary: #ff6b00;
+    --pagefind-ui-text: #f5f5f5;
+    --pagefind-ui-background: #1e1e1e;
+    --pagefind-ui-border: rgba(255,255,255,0.1);
+    --pagefind-ui-tag: #2a2a2a;
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 10px;
+    --pagefind-ui-image-border-radius: 8px;
+    --pagefind-ui-font: system-ui, sans-serif;
+  }
+</style>

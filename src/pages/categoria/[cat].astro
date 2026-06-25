@@ -1,0 +1,169 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import VideoCard from '../../components/VideoCard.astro';
+import { getCollection } from 'astro:content';
+import { CATEGORIA_LABELS } from '../../content.config';
+
+export async function getStaticPaths() {
+  const videos = await getCollection('videos');
+  const cats = [...new Set(videos.map(v => v.data.categoria))];
+  return cats.map(cat => ({
+    params: { cat },
+    props: {
+      label: CATEGORIA_LABELS[cat],
+      videos: videos
+        .filter(v => v.data.categoria === cat)
+        .sort((a, b) => (b.data.views ?? 0) - (a.data.views ?? 0)),
+    },
+  }));
+}
+
+const { cat } = Astro.params;
+const { label, videos } = Astro.props;
+
+const isMagic = cat === 'magic-world';
+---
+
+<BaseLayout
+  title={`${label} en familia — Familukis`}
+  description={`Descubre los mejores vídeos y planes de ${label.toLowerCase()} para familias. Experiencias reales con niños en España.`}
+>
+  <div class="container">
+    <!-- Cabecera -->
+    <header class="cat-header">
+      <nav class="breadcrumb" aria-label="Ruta de navegación">
+        <a href="/">Inicio</a>
+        <span>›</span>
+        <span>{label}</span>
+      </nav>
+
+      <h1 class="cat-title">{label}</h1>
+      <p class="cat-subtitle">{videos.length} vídeos con experiencias reales en familia</p>
+    </header>
+
+    <!-- Banner Magic World -->
+    {isMagic && (
+      <div class="magic-promo">
+        <div class="magic-promo-text">
+          <span class="magic-promo-tag">Código de descuento exclusivo</span>
+          <h2>Reserva en Magic World Resort</h2>
+          <p>Usa el código <strong>Magiclosfamilukis</strong> al comprar tus entradas o reservar estancia y consigue descuento para toda la familia. Lo hemos probado varias veces y te contamos todo sin filtro.</p>
+        </div>
+        <a
+          href="https://www.magicworldresort.com"
+          target="_blank"
+          rel="sponsored noopener"
+          class="btn-primary"
+        >
+          🎡 Reservar en Magic World
+        </a>
+      </div>
+    )}
+
+    <!-- Grid de vídeos -->
+    <section class="videos-grid" data-pagefind-ignore>
+      {videos.map(v => (
+        <VideoCard
+          videoId={v.data.videoId}
+          title={v.data.title}
+          duracion={v.data.duracion}
+          views={v.data.views}
+          slug={v.id}
+          size="md"
+        />
+      ))}
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1.5rem 4rem;
+  }
+
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
+
+  .cat-header {
+    margin-bottom: 2rem;
+  }
+
+  .cat-title {
+    font-size: clamp(1.8rem, 3vw, 2.8rem);
+    margin: 0.5rem 0 0.25rem;
+  }
+
+  .cat-subtitle {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+  }
+
+  /* Magic promo */
+  .magic-promo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    background: linear-gradient(135deg, #1a0d00 0%, #2d1500 100%);
+    border: 1px solid rgba(255,107,0,0.35);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .magic-promo-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    margin-bottom: 0.4rem;
+  }
+
+  .magic-promo-text h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .magic-promo-text p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    max-width: 55ch;
+    line-height: 1.6;
+  }
+
+  .magic-promo-text strong {
+    color: var(--accent);
+    font-weight: 800;
+  }
+
+  /* Grid */
+  .videos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.25rem;
+  }
+
+  @media (max-width: 640px) {
+    .magic-promo {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .videos-grid {
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    }
+  }
+</style>
