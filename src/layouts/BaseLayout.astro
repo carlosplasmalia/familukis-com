@@ -158,6 +158,11 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
   </div>
   <div class="footer-bottom">
     <p>© {new Date().getFullYear()} Familukis · Algunos enlaces son de afiliados, lo que nos ayuda a mantener este sitio sin coste para ti.</p>
+    <nav class="footer-legal" aria-label="Legal">
+      <a href="/aviso-legal">Aviso legal</a>
+      <a href="/privacidad">Privacidad</a>
+      <a href="/cookies">Cookies</a>
+    </nav>
   </div>
 </footer>
 
@@ -379,6 +384,18 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
     color: rgba(255,255,255,0.25);
     font-size: 0.8rem;
   }
+
+  .footer-legal {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 0.6rem;
+  }
+  .footer-legal a {
+    color: rgba(255,255,255,0.2);
+    font-size: 0.78rem;
+    transition: color 0.15s;
+  }
+  .footer-legal a:hover { color: rgba(255,255,255,0.5); }
 
   @media (max-width: 800px) {
     .footer-inner { grid-template-columns: 1fr 1fr; }

@@ -1,0 +1,129 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Política de Cookies"
+  description="Información sobre el uso de cookies en el sitio web Familukis."
+>
+  <Fragment slot="head">
+    <meta name="robots" content="noindex, nofollow" />
+  </Fragment>
+
+  <div class="legal-wrap">
+    <h1>Política de Cookies</h1>
+    <p class="updated">Última actualización: junio de 2026</p>
+
+    <h2>¿Qué son las cookies?</h2>
+    <p>
+      Las cookies son pequeños archivos de texto que un sitio web almacena en
+      tu dispositivo cuando lo visitas. Sirven para recordar preferencias,
+      analizar el tráfico o mostrar publicidad personalizada.
+    </p>
+
+    <h2>Cookies que utiliza este sitio</h2>
+
+    <h3>Cookies propias</h3>
+    <p>
+      Familukis.com no instala cookies propias de seguimiento ni analítica.
+      Únicamente pueden generarse cookies de sesión técnicas necesarias para
+      el funcionamiento del navegador, sin almacenar datos personales.
+    </p>
+
+    <h3>Cookies de terceros — YouTube</h3>
+    <p>
+      Este sitio incrusta vídeos de YouTube. Cuando reproduces un vídeo,
+      YouTube (Google LLC) puede instalar cookies en tu dispositivo para
+      registrar estadísticas de reproducción y, si estás logueado en Google,
+      personalizar contenido y publicidad. Consulta la
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política de privacidad de Google</a>.
+    </p>
+    <p>
+      Para reducir el seguimiento, los vídeos se cargan con el parámetro
+      <code>?rel=0</code> y la opción "no rastrear" cuando es posible.
+    </p>
+
+    <h3>Cookies de Brevo (formulario de suscripción)</h3>
+    <p>
+      Si interactúas con el formulario de suscripción, Brevo puede instalar
+      cookies técnicas necesarias para gestionar el envío. No se usan con
+      fines publicitarios. Consulta la
+      <a href="https://www.brevo.com/legal/privacypolicy/" target="_blank" rel="noopener">política de privacidad de Brevo</a>.
+    </p>
+
+    <h2>Cómo gestionar las cookies</h2>
+    <p>
+      Puedes configurar tu navegador para rechazar o eliminar cookies en
+      cualquier momento. Ten en cuenta que desactivarlas puede afectar al
+      funcionamiento de algunos servicios de terceros (como la reproducción
+      de vídeos de YouTube).
+    </p>
+    <ul>
+      <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener">Chrome</a></li>
+      <li><a href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias" target="_blank" rel="noopener">Firefox</a></li>
+      <li><a href="https://support.apple.com/es-es/guide/safari/sfri11471/mac" target="_blank" rel="noopener">Safari</a></li>
+    </ul>
+
+    <h2>Más información</h2>
+    <p>
+      Para cualquier consulta sobre el uso de cookies escríbenos a
+      <a href="mailto:hola@familukis.com">hola@familukis.com</a>.
+    </p>
+  </div>
+</BaseLayout>
+
+<style>
+  .legal-wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 3rem 2rem 6rem;
+  }
+  h1 {
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    margin-bottom: 0.35rem;
+  }
+  .updated {
+    font-size: 0.8rem;
+    color: var(--text-3);
+    margin-bottom: 2.5rem;
+  }
+  h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 2rem 0 0.5rem;
+    color: var(--text);
+  }
+  h3 {
+    font-size: 0.88rem;
+    font-weight: 700;
+    margin: 1.25rem 0 0.35rem;
+    color: var(--text-2);
+  }
+  p {
+    font-size: 0.92rem;
+    color: var(--text-2);
+    line-height: 1.7;
+    margin: 0 0 0.5rem;
+  }
+  ul {
+    padding-left: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin: 0.5rem 0;
+  }
+  ul li { font-size: 0.92rem; color: var(--text-2); }
+  code {
+    font-family: monospace;
+    font-size: 0.85em;
+    background: rgba(255,255,255,0.07);
+    padding: 1px 5px;
+    border-radius: 3px;
+  }
+  a { color: var(--accent); text-decoration: underline; }
+  @media (max-width: 640px) {
+    .legal-wrap { padding: 2rem 1.25rem 5rem; }
+  }
+</style>
