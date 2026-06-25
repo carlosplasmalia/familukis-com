@@ -62,8 +62,13 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
 
 <header id="nav">
   <div class="nav-inner">
+
+    <button class="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+
     <a href="/" class="logo">
-      <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+      <svg class="logo-icon" width="32" height="32" viewBox="0 0 32 32" fill="none">
         <rect width="32" height="32" rx="8" fill="#e50914"/>
         <text x="16" y="22" text-anchor="middle" fill="white" font-size="16" font-weight="800" font-family="system-ui">F</text>
       </svg>
@@ -87,9 +92,6 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
       <span>Buscar</span>
     </a>
 
-    <button class="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu">
-      <span></span><span></span><span></span>
-    </button>
   </div>
 </header>
 
@@ -189,7 +191,7 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
     gap: 10px;
     font-weight: 800;
     font-size: 1.15rem;
-    color: #fff;
+    color: #e50914;
     flex-shrink: 0;
     letter-spacing: -0.02em;
   }
@@ -242,19 +244,20 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
     flex-direction: column;
     justify-content: center;
     gap: 5px;
-    width: 36px;
-    height: 36px;
-    padding: 6px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
     background: none;
     border: none;
     cursor: pointer;
     flex-shrink: 0;
+    order: -1;
   }
   .hamburger span {
     display: block;
-    width: 100%;
+    width: 22px;
     height: 2px;
-    background: rgba(255,255,255,0.75);
+    background: #fff;
     border-radius: 2px;
     transition: transform 0.25s, opacity 0.2s;
     transform-origin: center;
@@ -263,50 +266,52 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
   .hamburger.open span:nth-child(2) { opacity: 0; }
   .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-  /* Mobile menu panel */
+  /* Mobile menu panel — always in DOM, hidden via visibility+opacity */
   #mobile-menu {
-    display: none;
     position: fixed;
     top: 64px;
     left: 0; right: 0;
     z-index: 99;
-    background: rgba(10,10,10,0.97);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    background: rgba(10,10,10,0.98);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     border-bottom: 1px solid rgba(255,255,255,0.07);
-    transform: translateY(-8px);
+    visibility: hidden;
     opacity: 0;
-    transition: transform 0.2s ease, opacity 0.2s ease;
+    transform: translateY(-6px);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0s linear 0.2s;
     pointer-events: none;
   }
   #mobile-menu.open {
-    transform: translateY(0);
+    visibility: visible;
     opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0s linear 0s;
     pointer-events: auto;
   }
   #mobile-menu nav {
     display: flex;
     flex-direction: column;
-    padding: 1rem 1.5rem 1.5rem;
-    gap: 0;
+    padding: 0.5rem 1.5rem 1.5rem;
   }
   #mobile-menu nav a {
-    color: rgba(255,255,255,0.7);
-    font-size: 1rem;
+    color: rgba(255,255,255,0.75);
+    font-size: 1.05rem;
     font-weight: 500;
-    padding: 0.85rem 0;
-    border-bottom: 1px solid rgba(255,255,255,0.06);
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.07);
     transition: color 0.15s;
   }
   #mobile-menu nav a:last-child { border-bottom: none; }
-  #mobile-menu nav a:hover { color: #fff; }
+  #mobile-menu nav a:active { color: #e50914; }
 
   @media (max-width: 800px) {
     .nav-links { display: none; }
-    .nav-inner { gap: 1rem; justify-content: space-between; }
-    .nav-search-btn { display: none; }
+    .nav-inner { gap: 0.5rem; justify-content: space-between; }
+    .logo-icon { display: none; }
     .hamburger { display: flex; }
-    #mobile-menu { display: block; }
+    .nav-search-btn span { display: none; }
+    .nav-search-btn { padding: 0.5rem; }
   }
 
   /* FOOTER */
