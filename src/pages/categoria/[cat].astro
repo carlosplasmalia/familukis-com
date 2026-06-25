@@ -7,7 +7,7 @@ import { CATEGORIA_LABELS } from '../../content.config';
 const MAGIC_URL = 'https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKI';
 
 export async function getStaticPaths() {
-  const videos = await getCollection('videos');
+  const videos = (await getCollection('videos')).filter(v => !v.data.hidden);
   const cats = [...new Set(videos.map(v => v.data.categoria))];
   return cats.map(cat => {
     const catVideos = videos

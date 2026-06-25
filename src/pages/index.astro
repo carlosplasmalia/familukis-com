@@ -4,7 +4,7 @@ import CategoryRow from '../components/CategoryRow.astro';
 import { getCollection } from 'astro:content';
 import { CATEGORIA_LABELS } from '../content.config';
 
-const allVideos = await getCollection('videos');
+const allVideos = (await getCollection('videos')).filter(v => !v.data.hidden);
 const byViews = [...allVideos].sort((a, b) => (b.data.views ?? 0) - (a.data.views ?? 0));
 
 // Hero: mejor vídeo visual — no magic-world ni para-ninos (interiores)

@@ -30,6 +30,7 @@ const videos = defineCollection({
     duracion: z.string().default(''),
     thumbnail: z.string().optional(),
     featured: z.boolean().default(false),
+    hidden: z.boolean().default(false),
   }),
 });
 
