@@ -39,6 +39,13 @@ const BREVO_ACTION = "https://9ab7b963.sibforms.com/serve/MUIFADIlif981oRL3CO9Rs
           />
           <input type="hidden" name="locale" value="es" />
           <input type="hidden" name="html_type" value="simple" />
+          <label class="lead-check-label">
+            <input type="checkbox" name="OPT_IN" required class="lead-check" />
+            <span>
+              Acepto la <a href="/privacidad" target="_blank" class="lead-link">política de privacidad</a>
+              y consiento recibir comunicaciones de Familukis.
+            </span>
+          </label>
           <button type="submit" class="lead-btn">
             Quiero mi guía gratis →
           </button>
@@ -190,6 +197,32 @@ const BREVO_ACTION = "https://9ab7b963.sibforms.com/serve/MUIFADIlif981oRL3CO9Rs
   }
   .lead-btn:hover { opacity: 0.88; }
   .lead-btn:disabled { opacity: 0.6; cursor: default; }
+
+  .lead-check-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.55rem;
+    font-size: 0.78rem;
+    color: rgba(255,255,255,0.55);
+    line-height: 1.45;
+    cursor: pointer;
+  }
+
+  .lead-check {
+    flex-shrink: 0;
+    margin-top: 2px;
+    accent-color: var(--accent);
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+  }
+
+  .lead-link {
+    color: rgba(255,255,255,0.75);
+    text-decoration: underline;
+    transition: color 0.15s;
+  }
+  .lead-link:hover { color: var(--accent); }
 
   .lead-legal {
     font-size: 0.72rem;

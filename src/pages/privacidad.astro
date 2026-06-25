@@ -1,0 +1,109 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Política de Privacidad"
+  description="Información sobre cómo Familukis trata tus datos personales y tus derechos como usuario."
+>
+  <div class="privacy-wrap">
+    <h1>Política de Privacidad</h1>
+    <p class="updated">Última actualización: junio de 2026</p>
+
+    <h2>1. Responsable del tratamiento</h2>
+    <p>
+      <strong>Familukis</strong> (en adelante, "nosotros") es el responsable del
+      tratamiento de los datos personales recogidos a través de este sitio web
+      (<strong>familukis.com</strong>). Puedes contactarnos en
+      <a href="mailto:hola@familukis.com">hola@familukis.com</a>.
+    </p>
+
+    <h2>2. Datos que recogemos</h2>
+    <p>
+      A través del formulario de suscripción recogemos únicamente tu
+      <strong>dirección de correo electrónico</strong>. No recogemos datos
+      sensibles ni cedemos tus datos a terceros salvo las herramientas de envío
+      descritas a continuación.
+    </p>
+
+    <h2>3. Finalidad y base legal</h2>
+    <p>
+      Utilizamos tu email para enviarte la guía gratuita solicitada y, con tu
+      consentimiento expreso, comunicaciones posteriores sobre contenido y
+      productos de Familukis. La base legal es el <strong>consentimiento</strong>
+      (art. 6.1.a RGPD) que otorgas al marcar la casilla del formulario.
+    </p>
+
+    <h2>4. Herramientas utilizadas</h2>
+    <p>
+      Los datos se almacenan y gestionan a través de <strong>Brevo</strong>
+      (Sendinblue SAS), proveedor de email marketing con sede en la UE. Puedes
+      consultar su política de privacidad en{' '}
+      <a href="https://www.brevo.com/legal/privacypolicy/" target="_blank" rel="noopener">brevo.com</a>.
+    </p>
+
+    <h2>5. Plazo de conservación</h2>
+    <p>
+      Conservamos tus datos mientras permanezcas suscrito. Puedes darte de baja
+      en cualquier momento usando el enlace de cancelación incluido en cada email.
+    </p>
+
+    <h2>6. Tus derechos</h2>
+    <p>
+      Tienes derecho a acceder, rectificar, suprimir, oponerte y limitar el
+      tratamiento de tus datos. Para ejercerlos escríbenos a
+      <a href="mailto:hola@familukis.com">hola@familukis.com</a>. También puedes
+      reclamar ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es" target="_blank" rel="noopener">aepd.es</a>).
+    </p>
+
+    <h2>7. Cookies</h2>
+    <p>
+      Este sitio no instala cookies de seguimiento ni de publicidad. Solo se
+      usan cookies técnicas necesarias para el funcionamiento de la web.
+    </p>
+  </div>
+</BaseLayout>
+
+<style>
+  .privacy-wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 3rem 2rem 6rem;
+  }
+
+  h1 {
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    margin-bottom: 0.35rem;
+  }
+
+  .updated {
+    font-size: 0.8rem;
+    color: var(--text-3);
+    margin-bottom: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 2rem 0 0.5rem;
+    color: var(--text);
+  }
+
+  p {
+    font-size: 0.92rem;
+    color: var(--text-2);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  a {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+
+  @media (max-width: 640px) {
+    .privacy-wrap { padding: 2rem 1.25rem 5rem; }
+  }
+</style>
