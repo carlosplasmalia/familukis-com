@@ -9,7 +9,23 @@ articles.sort((a, b) => b.data.date.localeCompare(a.data.date));
 const featured = articles.filter(a => a.data.featured);
 const rest     = articles.filter(a => !a.data.featured);
 
-const byCat = Object.groupBy(articles, a => a.data.categoria);
+// Group non-featured articles by category and sort sections by count (desc)
+const byCatMap = new Map<string, typeof rest>();
+for (const a of rest) {
+  const cat = a.data.categoria;
+  if (!byCatMap.has(cat)) byCatMap.set(cat, []);
+  byCatMap.get(cat)!.push(a);
+}
+const catSections = [...byCatMap.entries()]
+  .sort((a, b) => b[1].length - a[1].length);
+
+const useGrouped = catSections.length > 1;
+
+// Helper to get first YouTube thumbnail from an article
+function getThumb(a: typeof articles[number]): string | null {
+  const id = a.data.relatedVideoIds?.[0];
+  return id ? `https://img.youtube.com/vi/${id}/mqdefault.jpg` : null;
+}
 ---
 
 <BaseLayout
@@ -27,29 +43,74 @@ const byCat = Object.groupBy(articles, a => a.data.categoria);
     <section class="featured-section">
       <h2 class="section-title">Destacados</h2>
       <div class="featured-grid">
-        {featured.map(a => (
-          <a href={`/blog/${a.id}`} class="acard acard--featured">
-            <span class="acard-cat">{CATEGORIA_LABELS[a.data.categoria]}</span>
-            <h3>{a.data.title}</h3>
-            <p>{a.data.description}</p>
-            <span class="acard-link">Leer artículo →</span>
-          </a>
-        ))}
+        {featured.map(a => {
+          const thumb = getThumb(a);
+          return (
+            <a href={`/blog/${a.id}`} class="acard acard--featured">
+              {thumb && (
+                <div class="acard-thumb">
+                  <img src={thumb} alt={a.data.title} loading="lazy" />
+                </div>
+              )}
+              <div class="acard-body">
+                <span class="acard-cat">{CATEGORIA_LABELS[a.data.categoria]}</span>
+                <h3>{a.data.title}</h3>
+                <p>{a.data.description}</p>
+                <span class="acard-link">Leer artículo →</span>
+              </div>
+            </a>
+          );
+        })}
       </div>
     </section>
   )}
 
-  {rest.length > 0 && (
+  {useGrouped ? (
+    catSections.map(([cat, catArticles]) => (
+      <section class="cat-section">
+        <h2 class="section-title">{CATEGORIA_LABELS[cat as keyof typeof CATEGORIA_LABELS]}</h2>
+        <div class="all-grid">
+          {catArticles.map(a => {
+            const thumb = getThumb(a);
+            return (
+              <a href={`/blog/${a.id}`} class="acard">
+                {thumb && (
+                  <div class="acard-thumb">
+                    <img src={thumb} alt={a.data.title} loading="lazy" />
+                  </div>
+                )}
+                <div class="acard-body">
+                  <span class="acard-cat">{CATEGORIA_LABELS[a.data.categoria]}</span>
+                  <h3>{a.data.title}</h3>
+                  <p>{a.data.description}</p>
+                </div>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    ))
+  ) : rest.length > 0 && (
     <section class="all-section">
       <h2 class="section-title">Todos los artículos</h2>
       <div class="all-grid">
-        {rest.map(a => (
-          <a href={`/blog/${a.id}`} class="acard">
-            <span class="acard-cat">{CATEGORIA_LABELS[a.data.categoria]}</span>
-            <h3>{a.data.title}</h3>
-            <p>{a.data.description}</p>
-          </a>
-        ))}
+        {rest.map(a => {
+          const thumb = getThumb(a);
+          return (
+            <a href={`/blog/${a.id}`} class="acard">
+              {thumb && (
+                <div class="acard-thumb">
+                  <img src={thumb} alt={a.data.title} loading="lazy" />
+                </div>
+              )}
+              <div class="acard-body">
+                <span class="acard-cat">{CATEGORIA_LABELS[a.data.categoria]}</span>
+                <h3>{a.data.title}</h3>
+                <p>{a.data.description}</p>
+              </div>
+            </a>
+          );
+        })}
       </div>
     </section>
   )}
@@ -69,9 +130,13 @@ const byCat = Object.groupBy(articles, a => a.data.categoria);
     letter-spacing:.1em; color:var(--text-2); margin-bottom:1rem;
   }
 
+  .featured-section { margin-bottom:3rem; }
+  .cat-section { margin-bottom:3rem; }
+  .all-section { margin-bottom:3rem; }
+
   .featured-grid {
     display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
-    gap:12px; margin-bottom:3rem;
+    gap:12px;
   }
 
   .all-grid {
@@ -79,10 +144,11 @@ const byCat = Object.groupBy(articles, a => a.data.categoria);
     gap:10px;
   }
 
+  /* Card base */
   .acard {
     background:var(--surface); border:1px solid var(--border);
-    border-radius:8px; padding:1.25rem 1.4rem;
-    display:flex; flex-direction:column; gap:.45rem;
+    border-radius:8px; overflow:hidden;
+    display:flex; flex-direction:column;
     transition:border-color .2s, transform .18s;
   }
   .acard:hover { border-color:var(--border-2); transform:translateY(-2px); }
@@ -90,6 +156,22 @@ const byCat = Object.groupBy(articles, a => a.data.categoria);
   .acard--featured {
     background:linear-gradient(135deg,var(--surface) 0%,#1c1c1c 100%);
     border-color:var(--border-2);
+  }
+
+  /* Thumbnail */
+  .acard-thumb {
+    width:100%; aspect-ratio:16/9; overflow:hidden;
+    border-radius:8px 8px 0 0; flex-shrink:0;
+  }
+  .acard-thumb img {
+    width:100%; height:100%; object-fit:cover; display:block;
+  }
+
+  /* Body */
+  .acard-body {
+    padding:1.25rem 1.4rem;
+    display:flex; flex-direction:column; gap:.45rem;
+    flex:1;
   }
 
   .acard-cat {
