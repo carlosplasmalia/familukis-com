@@ -3,14 +3,16 @@ import { glob } from 'astro/loaders';
 
 const CATEGORIAS = [
   'magic-world',
+  'para-ninos',
+  'retos-challenges',
+  'navidad-regalos',
+  'halloween',
   'parques-atracciones',
   'parques-acuaticos',
   'camping-naturaleza',
-  'senderismo-cascadas',
-  'montana-pirineos',
   'playas-costa',
   'vacaciones-familia',
-  'actividades-casa',
+  'vlogs-familia',
 ] as const;
 
 const videos = defineCollection({
@@ -39,7 +41,7 @@ const articles = defineCollection({
     date: z.string(),
     categoria: z.enum(CATEGORIAS),
     tags: z.array(z.string()).default([]),
-    relatedVideoId: z.string().optional(),
+    relatedVideoIds: z.array(z.string()).default([]),
     featured: z.boolean().default(false),
   }),
 });
@@ -47,13 +49,15 @@ const articles = defineCollection({
 export const collections = { videos, articles };
 
 export const CATEGORIA_LABELS: Record<typeof CATEGORIAS[number], string> = {
-  'magic-world': 'Magic World Resort',
+  'magic-world':       'Magic World Resort',
+  'para-ninos':        'Para niños',
+  'retos-challenges':  'Retos y Challenges',
+  'navidad-regalos':   'Navidad y Regalos',
+  'halloween':         'Halloween',
   'parques-atracciones': 'Parques de Atracciones',
   'parques-acuaticos': 'Parques Acuáticos',
   'camping-naturaleza': 'Camping y Naturaleza',
-  'senderismo-cascadas': 'Senderismo y Cascadas',
-  'montana-pirineos': 'Montaña y Pirineos',
-  'playas-costa': 'Playas y Costa',
+  'playas-costa':      'Playas y Costa',
   'vacaciones-familia': 'Vacaciones en Familia',
-  'actividades-casa': 'Actividades en Casa',
+  'vlogs-familia':     'Vlogs de Familia',
 };

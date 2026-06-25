@@ -1,0 +1,110 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { CATEGORIA_LABELS } from '../../content.config';
+
+const articles = await getCollection('articles');
+articles.sort((a, b) => b.data.date.localeCompare(a.data.date));
+
+const featured = articles.filter(a => a.data.featured);
+const rest     = articles.filter(a => !a.data.featured);
+
+const byCat = Object.groupBy(articles, a => a.data.categoria);
+---
+
+<BaseLayout
+  title="Blog — Familukis"
+  description="Artículos sobre planes en familia, actividades para niños, guías de parques, camping y mucho más. Todo desde nuestra experiencia real."
+>
+<div class="wrap">
+  <header class="blog-header">
+    <nav class="breadcrumb"><a href="/">Inicio</a><span>›</span><span>Blog</span></nav>
+    <h1>Blog</h1>
+    <p>Guías, ideas y experiencias reales para disfrutar en familia.</p>
+  </header>
+
+  {featured.length > 0 && (
+    <section class="featured-section">
+      <h2 class="section-title">Destacados</h2>
+      <div class="featured-grid">
+        {featured.map(a => (
+          <a href={`/blog/${a.id}`} class="acard acard--featured">
+            <span class="acard-cat">{CATEGORIA_LABELS[a.data.categoria]}</span>
+            <h3>{a.data.title}</h3>
+            <p>{a.data.description}</p>
+            <span class="acard-link">Leer artículo →</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {rest.length > 0 && (
+    <section class="all-section">
+      <h2 class="section-title">Todos los artículos</h2>
+      <div class="all-grid">
+        {rest.map(a => (
+          <a href={`/blog/${a.id}`} class="acard">
+            <span class="acard-cat">{CATEGORIA_LABELS[a.data.categoria]}</span>
+            <h3>{a.data.title}</h3>
+            <p>{a.data.description}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+</div>
+</BaseLayout>
+
+<style>
+  .wrap { max-width:1300px; margin:0 auto; padding:0 2rem 5rem; }
+  @media(max-width:640px){ .wrap{padding:0 1.25rem 4rem;} }
+
+  .blog-header { padding:2rem 0 2.5rem; }
+  .blog-header h1 { font-size:clamp(2rem,4vw,3rem); font-weight:800; letter-spacing:-.03em; margin:.3rem 0 .4rem; }
+  .blog-header p { color:var(--text-2); font-size:.95rem; }
+
+  .section-title {
+    font-size:.7rem; font-weight:700; text-transform:uppercase;
+    letter-spacing:.1em; color:var(--text-2); margin-bottom:1rem;
+  }
+
+  .featured-grid {
+    display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+    gap:12px; margin-bottom:3rem;
+  }
+
+  .all-grid {
+    display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+    gap:10px;
+  }
+
+  .acard {
+    background:var(--surface); border:1px solid var(--border);
+    border-radius:8px; padding:1.25rem 1.4rem;
+    display:flex; flex-direction:column; gap:.45rem;
+    transition:border-color .2s, transform .18s;
+  }
+  .acard:hover { border-color:var(--border-2); transform:translateY(-2px); }
+
+  .acard--featured {
+    background:linear-gradient(135deg,var(--surface) 0%,#1c1c1c 100%);
+    border-color:var(--border-2);
+  }
+
+  .acard-cat {
+    font-size:.65rem; font-weight:700; text-transform:uppercase;
+    letter-spacing:.08em; color:var(--accent);
+  }
+
+  .acard h3 {
+    font-size:.95rem; font-weight:700; line-height:1.35; color:var(--text);
+  }
+
+  .acard p { font-size:.82rem; color:var(--text-2); line-height:1.55; }
+
+  .acard-link {
+    font-size:.78rem; font-weight:600; color:var(--accent);
+    margin-top:.25rem;
+  }
+</style>

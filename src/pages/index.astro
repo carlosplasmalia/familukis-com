@@ -4,234 +4,219 @@ import CategoryRow from '../components/CategoryRow.astro';
 import { getCollection } from 'astro:content';
 import { CATEGORIA_LABELS } from '../content.config';
 
-const MAGIC_URL = 'https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKI';
-
 const allVideos = await getCollection('videos');
 const byViews = [...allVideos].sort((a, b) => (b.data.views ?? 0) - (a.data.views ?? 0));
 
-const hero = byViews[0];
-const heroThumb = `https://img.youtube.com/vi/${hero?.data.videoId}/maxresdefault.jpg`;
+// Hero: mejor vídeo visual — no magic-world ni para-ninos (interiores)
+const HERO_CATS = ['parques-atracciones','camping-naturaleza','vacaciones-familia',
+                   'playas-costa','parques-acuaticos','vlogs-familia','retos-challenges'];
+const hero = byViews.find(v => HERO_CATS.includes(v.data.categoria)) ?? byViews[0];
+const heroThumb = `https://img.youtube.com/vi/${hero.data.videoId}/maxresdefault.jpg`;
 
-const PRIORITY = [
-  'magic-world',
-  'parques-atracciones',
-  'vacaciones-familia',
-  'camping-naturaleza',
-  'parques-acuaticos',
-  'montana-pirineos',
-  'playas-costa',
-  'senderismo-cascadas',
-  'actividades-casa',
-] as const;
+function toRow(vids: typeof allVideos) {
+  return vids.slice(0, 16).map(v => ({
+    videoId: v.data.videoId, title: v.data.title,
+    duracion: v.data.duracion, views: v.data.views, slug: v.id,
+  }));
+}
 
-const rows = PRIORITY.map(cat => ({
-  cat,
-  label: CATEGORIA_LABELS[cat],
-  videos: byViews.filter(v => v.data.categoria === cat).slice(0, 14).map(v => ({
-    videoId: v.data.videoId,
-    title: v.data.title,
-    duracion: v.data.duracion,
-    views: v.data.views,
-    slug: v.id,
-  })),
-})).filter(r => r.videos.length > 0);
+const byCat = (cat: string) => byViews.filter(v => v.data.categoria === cat);
 
 function formatViews(n: number) {
-  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M vistas`;
-  if (n >= 1_000) return `${Math.round(n / 1_000)}K vistas`;
+  if (n >= 1_000_000) return `${(n/1_000_000).toFixed(1)}M vistas`;
+  if (n >= 1_000) return `${Math.round(n/1_000)}K vistas`;
   return `${n} vistas`;
 }
 ---
 
 <BaseLayout
   title="Familukis — Planes y actividades en familia"
-  description="Descubre los mejores planes con niños en España: parques de atracciones, camping, playas, rutas y mucho más. Experiencias reales de una familia española."
+  description="Vídeos, retos, planes y actividades para disfrutar en familia. Parques, naturaleza, Halloween, Navidad y mucho más."
   image={heroThumb}
 >
 
-  <!-- ── HERO ─────────────────────────────────────── -->
-  {hero && (
-    <section class="hero" style={`--bg: url('${heroThumb}')`}>
-      <div class="hero-bg"></div>
-      <div class="hero-content wrap">
-        <span class="tag tag-accent">Más visto</span>
-        <h1>{hero.data.title}</h1>
-        {hero.data.description && (
-          <p>{hero.data.description.slice(0, 130).trim()}…</p>
-        )}
-        <div class="hero-actions">
-          <a href={`/videos/${hero.id}`} class="btn btn-primary">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-            Ver vídeo
-          </a>
-          <a href="/buscar" class="btn btn-ghost">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-            Buscar planes
-          </a>
-        </div>
-        {hero.data.views > 0 && (
-          <span class="hero-views">{formatViews(hero.data.views)}</span>
-        )}
-      </div>
-    </section>
+<!-- HERO -->
+<section class="hero" style={`--bg:url('${heroThumb}')`}>
+  <div class="hero-bg"></div>
+  <div class="hero-body wrap">
+    <span class="htag">Más visto</span>
+    <h1>{hero.data.title}</h1>
+    {hero.data.description && <p>{hero.data.description.slice(0, 120).trim()}…</p>}
+    <div class="hero-btns">
+      <a href={`/videos/${hero.id}`} class="hbtn-play">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M8 5v14l11-7z"/></svg>
+        Reproducir
+      </a>
+      <a href="/buscar" class="hbtn-more">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        Buscar
+      </a>
+    </div>
+    {hero.data.views > 0 && <span class="hviews">{formatViews(hero.data.views)}</span>}
+  </div>
+</section>
+
+<!-- FILAS -->
+<div class="wrap rows">
+
+  {byCat('magic-world').length > 0 && (
+    <CategoryRow title="✨ Magic World Resort" href="/categoria/magic-world" videos={toRow(byCat('magic-world'))} />
   )}
 
-  <!-- ── MAGIC WORLD BANNER ────────────────────────── -->
-  <div class="wrap">
-    <a href={MAGIC_URL} target="_blank" rel="sponsored noopener" class="magic-banner">
-      <div class="magic-icon">✨</div>
-      <div class="magic-text">
-        <strong>Magic World Resort · Código <em>MAGICLOSFAMILUKIS</em></strong>
-        <span>Descuento en entradas y estancias. Lo hemos probado, te contamos todo sin filtro.</span>
-      </div>
-      <div class="magic-cta">Reservar con descuento →</div>
-    </a>
-  </div>
+  {byCat('retos-challenges').length > 0 && (
+    <CategoryRow title="Retos y Challenges" href="/categoria/retos-challenges" videos={toRow(byCat('retos-challenges'))} />
+  )}
 
-  <!-- ── FILAS DE CATEGORÍAS ───────────────────────── -->
-  <div class="wrap rows-wrap">
-    {rows.map(row => (
-      <CategoryRow
-        title={row.label}
-        href={`/categoria/${row.cat}`}
-        videos={row.videos}
-      />
-    ))}
-  </div>
+  {byCat('parques-atracciones').length > 0 && (
+    <CategoryRow title="Parques de Atracciones" href="/categoria/parques-atracciones" videos={toRow(byCat('parques-atracciones'))} />
+  )}
 
+  {byCat('para-ninos').length > 0 && (
+    <CategoryRow title="Para Niños — Juegos y Juguetes" href="/categoria/para-ninos" videos={toRow(byCat('para-ninos'))} />
+  )}
+
+  {byCat('halloween').length > 0 && (
+    <CategoryRow title="🎃 Halloween" href="/categoria/halloween" videos={toRow(byCat('halloween'))} />
+  )}
+
+  {byCat('camping-naturaleza').length > 0 && (
+    <CategoryRow title="Camping y Naturaleza" href="/categoria/camping-naturaleza" videos={toRow(byCat('camping-naturaleza'))} />
+  )}
+
+  {byCat('navidad-regalos').length > 0 && (
+    <CategoryRow title="🎄 Navidad y Regalos" href="/categoria/navidad-regalos" videos={toRow(byCat('navidad-regalos'))} />
+  )}
+
+  {byCat('parques-acuaticos').length > 0 && (
+    <CategoryRow title="Parques Acuáticos" href="/categoria/parques-acuaticos" videos={toRow(byCat('parques-acuaticos'))} />
+  )}
+
+  {byCat('vacaciones-familia').length > 0 && (
+    <CategoryRow title="Vacaciones en Familia" href="/categoria/vacaciones-familia" videos={toRow(byCat('vacaciones-familia'))} />
+  )}
+
+  {byCat('playas-costa').length > 0 && (
+    <CategoryRow title="Playas y Costa" href="/categoria/playas-costa" videos={toRow(byCat('playas-costa'))} />
+  )}
+
+  {byCat('vlogs-familia').length > 0 && (
+    <CategoryRow title="Vlogs de Familia" href="/categoria/vlogs-familia" videos={toRow(byCat('vlogs-familia'))} />
+  )}
+
+  <!-- Blog teaser -->
+  <section class="blog-teaser">
+    <div class="blog-teaser-hd">
+      <h2>Del blog</h2>
+      <a href="/blog" class="see-all">Ver todos los artículos <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+    </div>
+    <div class="blog-grid">
+      <a href="/blog/juegos-y-retos-para-hacer-en-casa-con-ninos" class="blog-card">
+        <span class="blog-cat">Para niños</span>
+        <h3>Juegos y retos para hacer en casa con niños</h3>
+        <p>Las mejores ideas de juegos para entretener a los niños en casa sin gastar casi nada.</p>
+      </a>
+      <a href="/blog/halloween-con-ninos-ideas-disfraces-y-actividades" class="blog-card">
+        <span class="blog-cat">Halloween</span>
+        <h3>Halloween con niños: disfraces caseros e ideas</h3>
+        <p>Cómo celebrar Halloween en familia con disfraces fáciles y actividades que funcionan de verdad.</p>
+      </a>
+      <a href="/blog/parque-warner-madrid-con-ninos-guia-completa" class="blog-card">
+        <span class="blog-cat">Parques</span>
+        <h3>Parque Warner Madrid con niños: guía completa</h3>
+        <p>Todo lo que necesitas saber antes de ir: qué ver, cómo organizarlo y si merece la pena.</p>
+      </a>
+    </div>
+  </section>
+
+</div>
 </BaseLayout>
 
 <style>
+  .wrap { max-width:1300px; margin:0 auto; padding:0 2rem; }
+  @media(max-width:640px){ .wrap{padding:0 1.25rem;} }
+
   /* HERO */
   .hero {
-    position: relative;
-    min-height: min(68vh, 580px);
-    display: flex;
-    align-items: flex-end;
-    overflow: hidden;
+    position:relative; min-height:min(68vh,580px);
+    display:flex; align-items:flex-end; overflow:hidden;
   }
-
   .hero-bg {
-    position: absolute;
-    inset: 0;
-    background-image: var(--bg);
-    background-size: cover;
-    background-position: center 20%;
-    filter: brightness(0.55);
-    transform: scale(1.02);
+    position:absolute; inset:0;
+    background-image:var(--bg); background-size:cover; background-position:center 20%;
+    filter:brightness(0.5); transform:scale(1.02);
   }
-
   .hero::after {
-    content: '';
-    position: absolute;
-    inset: 0;
+    content:''; position:absolute; inset:0;
     background:
-      linear-gradient(to right, rgba(10,10,10,0.95) 0%, rgba(10,10,10,0.5) 55%, transparent 100%),
-      linear-gradient(to top, rgba(10,10,10,1) 0%, transparent 45%);
+      linear-gradient(to right,rgba(20,20,20,.96) 0%,rgba(20,20,20,.55) 55%,transparent 100%),
+      linear-gradient(to top,rgba(20,20,20,1) 0%,transparent 48%);
   }
-
-  .hero-content {
-    position: relative;
-    z-index: 1;
-    padding-bottom: 4.5rem;
-    padding-top: 2rem;
-    max-width: 580px;
+  .hero-body {
+    position:relative; z-index:1;
+    padding-bottom:4.5rem; padding-top:2rem; max-width:560px;
   }
-
-  .hero-content h1 {
-    font-size: clamp(1.6rem, 3.5vw, 2.6rem);
-    font-weight: 800;
-    line-height: 1.15;
-    letter-spacing: -0.025em;
-    margin: 0.6rem 0 0.8rem;
-    text-shadow: 0 2px 12px rgba(0,0,0,0.4);
+  .htag {
+    display:inline-block; background:var(--accent); color:#fff;
+    font-size:.68rem; font-weight:700; text-transform:uppercase;
+    letter-spacing:.08em; padding:3px 10px; border-radius:3px; margin-bottom:.6rem;
   }
-
-  .hero-content p {
-    font-size: 0.95rem;
-    color: rgba(240,240,240,0.7);
-    line-height: 1.65;
-    margin-bottom: 1.5rem;
-    max-width: 50ch;
+  .hero-body h1 {
+    font-size:clamp(1.5rem,3.2vw,2.5rem); font-weight:800;
+    line-height:1.15; letter-spacing:-.025em; margin-bottom:.7rem;
+    text-shadow:0 2px 10px rgba(0,0,0,.5);
   }
-
-  .hero-actions {
-    display: flex;
-    gap: 0.75rem;
-    flex-wrap: wrap;
+  .hero-body p {
+    font-size:.9rem; color:rgba(255,255,255,.68);
+    line-height:1.65; margin-bottom:1.4rem; max-width:48ch;
   }
-
-  .hero-views {
-    display: block;
-    margin-top: 1rem;
-    font-size: 0.78rem;
-    color: rgba(240,240,240,0.4);
+  .hero-btns { display:flex; gap:.65rem; flex-wrap:wrap; }
+  .hbtn-play {
+    display:inline-flex; align-items:center; gap:7px;
+    background:#fff; color:#000; font-weight:700; font-size:.875rem;
+    padding:.55rem 1.3rem; border-radius:4px; transition:background .15s;
   }
-
-  /* MAGIC BANNER */
-  .magic-banner {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    background: linear-gradient(135deg, #1a0000 0%, #200000 100%);
-    border: 1px solid rgba(229,9,20,0.25);
-    border-radius: var(--r-xl);
-    padding: 1.1rem 1.5rem;
-    margin-top: 2.5rem;
-    transition: border-color 0.2s, transform 0.2s;
+  .hbtn-play:hover { background:rgba(255,255,255,.82); }
+  .hbtn-more {
+    display:inline-flex; align-items:center; gap:7px;
+    background:rgba(109,109,110,.7); color:#fff; font-weight:600; font-size:.875rem;
+    padding:.55rem 1.3rem; border-radius:4px; transition:background .15s;
   }
-
-  .magic-banner:hover {
-    border-color: rgba(229,9,20,0.5);
-    transform: translateY(-1px);
-  }
-
-  .magic-icon {
-    font-size: 1.6rem;
-    flex-shrink: 0;
-    line-height: 1;
-  }
-
-  .magic-text {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-
-  .magic-text strong {
-    font-size: 0.95rem;
-    color: var(--text);
-  }
-
-  .magic-text em {
-    font-style: normal;
-    color: var(--accent);
-    font-weight: 800;
-  }
-
-  .magic-text span {
-    font-size: 0.82rem;
-    color: var(--text-3);
-  }
-
-  .magic-cta {
-    font-size: 0.85rem;
-    font-weight: 700;
-    color: var(--accent);
-    flex-shrink: 0;
-    white-space: nowrap;
-  }
+  .hbtn-more:hover { background:rgba(109,109,110,.9); }
+  .hviews { display:block; margin-top:.85rem; font-size:.75rem; color:rgba(255,255,255,.38); }
 
   /* ROWS */
-  .rows-wrap {
-    padding-top: 0.5rem;
-    padding-bottom: 4rem;
-  }
+  .rows { padding-top:.25rem; padding-bottom:4rem; }
 
-  @media (max-width: 640px) {
-    .hero { min-height: min(55vh, 400px); }
-    .magic-cta { display: none; }
-    .magic-banner { gap: 0.75rem; }
+  /* BLOG TEASER */
+  .blog-teaser { padding:2rem 0 1rem; }
+  .blog-teaser-hd {
+    display:flex; align-items:center; justify-content:space-between;
+    margin-bottom:1rem;
   }
+  .blog-teaser-hd h2 { font-size:1.05rem; font-weight:700; }
+  .see-all {
+    display:flex; align-items:center; gap:4px;
+    font-size:.75rem; font-weight:600; color:var(--text-2); transition:color .15s;
+  }
+  .see-all:hover { color:var(--accent); }
+
+  .blog-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; }
+  @media(max-width:800px){ .blog-grid{grid-template-columns:1fr 1fr;} }
+  @media(max-width:500px){ .blog-grid{grid-template-columns:1fr;} }
+
+  .blog-card {
+    background:var(--surface); border:1px solid var(--border);
+    border-radius:8px; padding:1.25rem;
+    transition:border-color .2s, transform .2s;
+    display:flex; flex-direction:column; gap:.4rem;
+  }
+  .blog-card:hover { border-color:var(--border-2); transform:translateY(-2px); }
+  .blog-cat {
+    font-size:.65rem; font-weight:700; text-transform:uppercase;
+    letter-spacing:.08em; color:var(--accent);
+  }
+  .blog-card h3 {
+    font-size:.9rem; font-weight:700; line-height:1.35; color:var(--text);
+  }
+  .blog-card p { font-size:.8rem; color:var(--text-2); line-height:1.55; }
 </style>
