@@ -4,6 +4,7 @@ description: "Ideas probadas en familia para entretener a los niños en casa: re
 date: "2026-06-25"
 categoria: "para-ninos"
 tags: ["juegos", "niños", "en casa", "retos", "actividades"]
+relatedVideoIds: ["ap5w5Z25k-U", "tfFyvvrGUmU", "8i5tZpMSDSs"]
 featured: true
 ---
 

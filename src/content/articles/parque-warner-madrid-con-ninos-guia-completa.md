@@ -4,6 +4,7 @@ description: "Todo lo que necesitas saber antes de ir a Parque Warner con niños
 date: "2026-06-25"
 categoria: "parques-atracciones"
 tags: ["parque warner", "madrid", "parque de atracciones", "niños", "atracciones"]
+relatedVideoIds: ["694N41EGZQ4", "FD6e4D5OQKY", "3P0tLsJYpKQ"]
 featured: true
 ---
 

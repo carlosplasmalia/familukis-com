@@ -4,6 +4,7 @@ description: "Hemos estado varias veces en Magic World Resort (antigua Marina d'
 date: "2026-06-25"
 categoria: "magic-world"
 tags: ["magic world", "resort", "vacaciones", "familia numerosa", "código descuento"]
+relatedVideoIds: ["i-HxTZZRAgQ", "mngTCpcoIwY", "MNS6NZl2pjI"]
 featured: true
 ---
 
