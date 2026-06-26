@@ -1,6 +1,6 @@
 ---
-title: "Navidad con Familukis: nuestra rutina de mañana"
-description: "Descubre cómo celebramos la Navidad en Familukis, con nuestra rutina de mañana llena de diversión y amor"
+title: "Rutina de mañana en Navidad para niños"
+description: "Conoce cómo crear una rutina de mañana navideña para niños con actividades y consejos prácticos para una Navidad feliz y organizada en casa"
 date: "2026-06-25"
 categoria: "navidad-regalos"
 tags: ["Navidad", "Rutina de mañana", "Familukis", "Diversión en familia", "Celebraciones navideñas"]

@@ -1,6 +1,6 @@
 ---
-title: "Regalos de Reyes Magos 2019 en Familukis"
-description: "Disfruta con nosotros de la magia de la cabalgata de Reyes Magos y la emoción de abrir regalos en Familukis"
+title: "Cabalgata de Reyes Magos con niños"
+description: "Cómo disfrutar la cabalgata de Reyes Magos con los niños, consejos y emociones en familia durante la navidad"
 date: "2026-06-25"
 categoria: "navidad-regalos"
 tags: ["Reyes Magos", "Cabalgata", "Regalos", "Navidad", "Familukis"]

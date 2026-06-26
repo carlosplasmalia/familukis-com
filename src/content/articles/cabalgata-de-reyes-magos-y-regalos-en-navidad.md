@@ -1,6 +1,6 @@
 ---
-title: "Regalos de Reyes Magos 2018 y Cabalgata con Familukis"
-description: "Disfruta con nosotros de la emoción de la cabalgata de los Reyes Magos y la ilusión de los regalos en este especial vídeo de Navidad"
+title: "Cabalgata de Reyes Magos y regalos en Navidad"
+description: "Prepara la cabalgata de Reyes Magos y regalos para niños en Navidad, consejos y actividades para una noche mágica"
 date: "2026-06-25"
 categoria: "navidad-regalos"
 tags: ["Reyes Magos", "Cabalgata", "Navidad", "Regalos", "Familukis"]

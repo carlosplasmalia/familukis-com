@@ -1,6 +1,6 @@
 ---
-title: "Familukis: Chocolate vs Realidad en un divertido reto"
-description: "Únete a Familukis en un emocionante reto de Chocolate vs Realidad, donde la familia se enfrenta a desafíos y diversión"
+title: "Reto de Chocolate vs Realidad en Familia"
+description: "Conoce cómo hacer un reto de chocolate vs realidad con tus hijos, desafíos y diversión para toda la familia en un emocionante juego"
 date: "2026-06-25"
 categoria: "retos-challenges"
 tags: ["Familukis", "Reto de chocolate", "Desafíos familiares", "Diversión en familia", "Vídeos de reto"]

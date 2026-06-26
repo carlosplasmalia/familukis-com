@@ -1,6 +1,6 @@
 ---
-title: "Decoramos nuestra casa para Halloween con Familukis"
-description: "Únete a nosotros en este emocionante día de preparación para Halloween, decorando la casa y sorprendiendo a los niños con regalos y decoraciones divertidas"
+title: "Decorar casa para Halloween"
+description: "Ideas y consejos para decorar tu casa para Halloween con objetos y accesorios temáticos para sorprender a los niños"
 date: "2026-06-25"
 categoria: "halloween"
 tags: ["Halloween", "Familukis", "Decoración", "Día de Brujas", "Preparación de Halloween"]

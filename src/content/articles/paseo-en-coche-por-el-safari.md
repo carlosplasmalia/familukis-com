@@ -1,6 +1,6 @@
 ---
-title: "Día del Padre en Familukis: aventuras en safari"
-description: "Disfruta del Día del Padre con Familukis en un emocionante viaje al safari, con un nuevo coche y muchas sorpresas para toda la familia"
+title: "Paseo en coche por el safari"
+description: "Consejos para un viaje en coche por el safari con niños, actividades y preparativos necesarios para una aventura familiar"
 date: "2026-06-25"
 categoria: "para-ninos"
 tags: ["Familukis", "Día del Padre", "safari", "coche nuevo", "aventuras familiares"]

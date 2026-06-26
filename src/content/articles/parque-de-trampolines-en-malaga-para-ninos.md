@@ -1,6 +1,6 @@
 ---
-title: "Diversión en el parque de trampolines con Familukis"
-description: "Disfruta con nosotros de un día lleno de saltos, competiciones y diversión en el parque de trampolines más grande de España"
+title: "Parque de trampolines en Málaga para niños"
+description: "Información sobre parques de trampolines en Málaga, áreas de juego y actividades para niños en el centro comercial"
 date: "2026-06-25"
 categoria: "parques-atracciones"
 tags: ["Familukis", "parque de trampolines", "diversión en familia", "saltos y competiciones", "día de aventuras"]

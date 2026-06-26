@@ -1,6 +1,6 @@
 ---
-title: "Acampada en parque de trampolines con Familukis"
-description: "Disfruta con Familukis de una emocionante aventura en un parque de trampolines, con diversión, deporte y medidas de seguridad"
+title: "Acampada en parque de trampolines con niños"
+description: "Conoce las medidas de seguridad y preparativos para una acampada en parque de trampolines con niños y familiares de manera segura"
 date: "2026-06-25"
 categoria: "parques-atracciones"
 tags: ["Familukis", "parque de trampolines", "acampada", "aventura familiar", "diversión infantil"]

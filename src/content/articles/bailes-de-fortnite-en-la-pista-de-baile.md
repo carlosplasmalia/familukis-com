@@ -1,6 +1,6 @@
 ---
-title: "Bailes de Fortnite con mi madre en Familukis"
-description: "Disfruta de un divertido reto de bailes de Fortnite con mi madre, ¡no te pierdas la risa y la diversión!"
+title: "Bailes de Fortnite en la pista de baile"
+description: "Aprende a bailar como un profesional en Fortnite, conociendo los mejores bailes y pasos para impresionar a tus amigos en la pista de baile"
 date: "2026-06-25"
 categoria: "retos-challenges"
 tags: ["Familukis", "Fortnite", "Bailes", "Retos", "Juegos"]

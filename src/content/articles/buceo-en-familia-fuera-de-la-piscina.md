@@ -1,6 +1,6 @@
 ---
-title: "Aroa bucea por primera vez en familia fuera de la piscina"
-description: "Descubre la emoción de Aroa al bucear por primera vez con su familia en un entorno natural, fuera de la piscina. ¡No te pierdas este momento único!"
+title: "Buceo en familia fuera de la piscina"
+description: "Consejos y guía para bucear con niños en un entorno natural, equipo y seguridad para familias en playas"
 date: "2026-06-25"
 categoria: "vacaciones-familia"
 tags: ["Familukis", "Buceo en familia", "Vacaciones en España", "Aprendizaje de buceo", "Experiencias familiares"]
