@@ -4,6 +4,7 @@ description: "Todo lo que necesitas saber para ir de camping con niños sin que 
 date: "2026-06-25"
 categoria: "camping-naturaleza"
 tags: ["camping", "familia", "niños pequeños", "naturaleza", "acampada"]
+relatedVideoIds: ["zbB09s2AHoU", "yBtiMxjFAOk", "zXuUUbxZoOY"]
 featured: false
 ---
 
