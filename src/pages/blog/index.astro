@@ -26,6 +26,23 @@ function getThumb(a: typeof articles[number]): string | null {
   const id = a.data.relatedVideoIds?.[0];
   return id ? `https://img.youtube.com/vi/${id}/mqdefault.jpg` : null;
 }
+
+const CAT_COLORS: Record<string, string> = {
+  'magic-world':        'linear-gradient(135deg,#1a0033,#3d0066)',
+  'parques-atracciones':'linear-gradient(135deg,#001a33,#003366)',
+  'parques-acuaticos':  'linear-gradient(135deg,#001a2e,#004466)',
+  'camping-naturaleza': 'linear-gradient(135deg,#0a1a00,#1a3300)',
+  'playas-costa':       'linear-gradient(135deg,#001433,#002966)',
+  'vacaciones-familia': 'linear-gradient(135deg,#1a1000,#332000)',
+  'halloween':          'linear-gradient(135deg,#1a0a00,#331500)',
+  'navidad-regalos':    'linear-gradient(135deg,#001a00,#003300)',
+  'retos-challenges':   'linear-gradient(135deg,#1a0000,#330000)',
+  'para-ninos':         'linear-gradient(135deg,#1a0033,#280044)',
+  'vlogs-familia':      'linear-gradient(135deg,#0d0d0d,#1a1a1a)',
+  'senderismo-cascadas':'linear-gradient(135deg,#001a0d,#003319)',
+  'montana-pirineos':   'linear-gradient(135deg,#0d0d1a,#1a1a33)',
+  'actividades-casa':   'linear-gradient(135deg,#1a1a00,#333300)',
+};
 ---
 
 <BaseLayout
@@ -45,13 +62,12 @@ function getThumb(a: typeof articles[number]): string | null {
       <div class="featured-grid">
         {featured.map(a => {
           const thumb = getThumb(a);
+          const bg = CAT_COLORS[a.data.categoria] ?? 'linear-gradient(135deg,#1a1a1a,#0d0d0d)';
           return (
             <a href={`/blog/${a.id}`} class="acard acard--featured">
-              {thumb && (
-                <div class="acard-thumb">
-                  <img src={thumb} alt={a.data.title} loading="lazy" />
-                </div>
-              )}
+              <div class="acard-thumb" style={!thumb ? `background:${bg}` : ''}>
+                {thumb && <img src={thumb} alt={a.data.title} loading="lazy" />}
+              </div>
               <div class="acard-body">
                 <span class="acard-cat">{CATEGORIA_LABELS[a.data.categoria]}</span>
                 <h3>{a.data.title}</h3>
@@ -72,13 +88,12 @@ function getThumb(a: typeof articles[number]): string | null {
         <div class="all-grid">
           {catArticles.map(a => {
             const thumb = getThumb(a);
+            const bg = CAT_COLORS[a.data.categoria] ?? 'linear-gradient(135deg,#1a1a1a,#0d0d0d)';
             return (
               <a href={`/blog/${a.id}`} class="acard">
-                {thumb && (
-                  <div class="acard-thumb">
-                    <img src={thumb} alt={a.data.title} loading="lazy" />
-                  </div>
-                )}
+                <div class="acard-thumb" style={!thumb ? `background:${bg}` : ''}>
+                  {thumb && <img src={thumb} alt={a.data.title} loading="lazy" />}
+                </div>
                 <div class="acard-body">
                   <span class="acard-cat">{CATEGORIA_LABELS[a.data.categoria]}</span>
                   <h3>{a.data.title}</h3>
@@ -96,13 +111,12 @@ function getThumb(a: typeof articles[number]): string | null {
       <div class="all-grid">
         {rest.map(a => {
           const thumb = getThumb(a);
+          const bg = CAT_COLORS[a.data.categoria] ?? 'linear-gradient(135deg,#1a1a1a,#0d0d0d)';
           return (
             <a href={`/blog/${a.id}`} class="acard">
-              {thumb && (
-                <div class="acard-thumb">
-                  <img src={thumb} alt={a.data.title} loading="lazy" />
-                </div>
-              )}
+              <div class="acard-thumb" style={!thumb ? `background:${bg}` : ''}>
+                {thumb && <img src={thumb} alt={a.data.title} loading="lazy" />}
+              </div>
               <div class="acard-body">
                 <span class="acard-cat">{CATEGORIA_LABELS[a.data.categoria]}</span>
                 <h3>{a.data.title}</h3>
