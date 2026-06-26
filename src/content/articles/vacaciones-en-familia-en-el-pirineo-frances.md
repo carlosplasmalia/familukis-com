@@ -1,0 +1,24 @@
+---
+title: "Vacaciones en familia en el Pirineo Francés"
+description: "Descubre la aventura perfecta para tu familia en el Pirineo Francés, con actividades emocionantes y paisajes impresionantes"
+date: "2026-06-25"
+categoria: "camping-naturaleza"
+tags: ["Familukis", "Vacaciones en familia", "Pirineo Francés", "Aventuras en la naturaleza", "Viajes con niños"]
+relatedVideoIds: ["l9RdYhqt7w8"]
+featured: false
+---
+
+## Nuestra aventura en el Pirineo Francés
+La familia nos acompañó en una nueva aventura, descubriremos territorios salvajes en los que encontrar la felicidad, conoceremos nuevos amigos que nos guiarán por el lado más aventurero del pirineo, escalaremos paredes, notaremos en aguas bravas, conoceremos lo mejor de la gastronomía pirenaica, nos vemos en lagos turquesas y volaremos sobre las montañas. Bueno, uno es mejor que otros, coloca aquí, familia, únete a este viaje en familia y explora con nosotros lo mejor del pirineo. Fuimos con mucha ilusión y ganas de pasar unas vacaciones en familia, pero todo cambió cuando nos enteramos de que nuestro coche estaba roto, con el espejo roto y la puerta rota, pensamos que no podríamos ir, pero entonces surgió una idea, podríamos aprovechar y coger un coche normal, nos pareció bonito, así que nos pusimos en marcha.
+
+## Preparativos y emociones
+La emoción era palpable, los niños estaban muy ilusionados, Olaf estaba emocionado, Aroa también, todos estábamos listos para partir, pero antes de salir, tuvimos que hacer algunos preparativos, cargar el maletero, colocar los espejitos, y asegurarnos de que todo estuviera en orden, Carlitos se ofreció a ayudar, y juntos logramos cargar todo lo necesario, no va a venir, se quedan, y saben también, nos vamos a acordar, muchas de ellas no pueden por motivos de trabajo, así es que en la siguiente aventura vendrá Jia, como la que, qué es eso, tiramos de espejitos y se apagó, vamos a colocar, malo, vamos a por las chicas, por Juli, bueno, ya estamos todos dentro de este hombre, con tanto camino, hacemos aquí, que descansamos, le tiramos por todos los abrigos, en marcha, los chicos van con su peligro, con la peli puesta, aquí va Carlos, atrás, bones, si consigo para Julio.
+
+### Un viaje lleno de sorpresas
+Empezamos a bloquear a las 10, 10 horas, bueno, familias, aquí que me veis con un walkie talkie, tenemos a un personaje sorpresa al otro lado, quien está al otro lado de este walkie, vamos con la ruta, continuamos, ay, va a llover, no sabéis, no, porque, como vamos, colocar, más luego, vamos a los pirineos, siempre llueve, bueno, esta es una bonita, de aquí, cuando sales a la ventana, y tengo el expositor, bueno, familia, y pues aquí os voy a presentar, al que estaba al otro lado del walkie talkie, el samario de nuestra amiga Ángela, que son los anfitriones, y bueno, pues ellos son los que gestionan el viaje, la agencia de viajes, y contarnos un poquito con ellos, ya sabes que hemos hecho una aventura del buceo, hicimos también la lengua del sur, las primeras capas, así que tenemos de la regla de largo alcance, con alojamiento, y demás, todo lo que vais a ver, ahí, es gracias a viajes, a nada, bueno, la primera, pero no la última, ya hemos respirando, otra salida, que van a encantar, todo muy orientado al tema de las familias.
+
+### La aventura comienza
+Nos vimos en un enclave ideal, un lugar precioso, con vistas impresionantes, nos subimos a una montaña, y desde allí, vimos el atardecer, fue un momento mágico, la naturaleza es increíble, el aire fresco, el sol, la luna, todo era perfecto, los niños estaban emocionados, corriendo, jugando, disfrutando del momento, nosotros también, estábamos disfrutando, de la compañía de nuestros hijos, de la naturaleza, de la libertad, de la aventura, fue un día muy agradable, nos comimos unas pizzas, que estaban riquísimas, al horno, pizza, pizza, pizza, pizza, nos subimos a esa montaña, y ya decidimos, una buenas vistas de noche, la luna, las estrellas, todo era increíble.
+
+### Un nuevo día
+Bueno, lo que desaparece, un nuevo día, con mucha niebla, verdad, Carlos, bueno, cuál es el plan de mamá, el plan de hoy, es ahora, nos vamos a ir, dos perritos, a hacer trekking, luego nos vamos a ir, al balneario, balear, a bañarnos, que usted, lo que más apetece, hoy, con este tiempo, y con aguas termales, y después, nos vamos a ir, a ver, un espectáculo, de aguilar, a ver, la cola, para las águilas, ya mirado, y no nos llueve, las montañas, así, ya no soy yo, pero seguro que, si venimos, ya te lo digo, yo, siempre, siempre, siempre, siempre, no llueve, con los Garma, loco, siempre, siempre, siempre, nos lleve, con los Karma, lobos, siempre, siempre, siempre, nos lleve, con los Garma, malos, siempre, siempre, siempre, nos lleve, con los carmelos, siempre, siempre, siempre, no se ve, la lluvia, la lluvia.
