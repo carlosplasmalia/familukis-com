@@ -86,12 +86,6 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
       <a href="/blog">Blog</a>
     </nav>
 
-    <a href="/buscar" class="nav-search-btn" aria-label="Buscar planes">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
-        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-      </svg>
-      <span>Buscar</span>
-    </a>
 
   </div>
 </header>
@@ -105,7 +99,6 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
     <a href="/categoria/camping-naturaleza">Naturaleza</a>
     <a href="/categoria/vacaciones-familia">Vacaciones</a>
     <a href="/blog">Blog</a>
-    <a href="/buscar">🔍 Buscar</a>
   </nav>
 </div>
 
@@ -223,26 +216,6 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
     background: rgba(255,255,255,0.07);
   }
 
-  .nav-search-btn {
-    display: flex;
-    align-items: center;
-    gap: 7px;
-    color: rgba(255,255,255,0.65);
-    font-size: 0.875rem;
-    font-weight: 500;
-    padding: 0.45rem 1rem;
-    border-radius: 8px;
-    border: 1px solid rgba(255,255,255,0.1);
-    background: rgba(255,255,255,0.04);
-    transition: all 0.15s;
-    flex-shrink: 0;
-  }
-
-  .nav-search-btn:hover {
-    color: #fff;
-    border-color: rgba(255,255,255,0.2);
-    background: rgba(255,255,255,0.08);
-  }
 
   /* Hamburger — hidden on desktop */
   .hamburger {
@@ -316,8 +289,6 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
     .nav-inner { gap: 0.5rem; justify-content: space-between; }
     .logo-icon { display: none; }
     .hamburger { display: flex; }
-    .nav-search-btn span { display: none; }
-    .nav-search-btn { padding: 0.5rem; }
   }
 
   /* FOOTER */
