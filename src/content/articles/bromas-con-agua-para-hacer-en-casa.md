@@ -1,6 +1,6 @@
 ---
-title: "Bromas con agua para hacer en casa con Familukis"
-description: "Descubre las mejores bromas con agua para hacer en casa con Familukis, divertidos trucos y juegos para disfrutar con la familia en verano"
+title: "Bromas con agua para hacer en casa"
+description: "Ideas y trucos para hacer bromas con agua en casa, juegos y retos para disfrutar con la familia en verano"
 date: "2026-06-25"
 categoria: "retos-challenges"
 tags: ["Bromas con agua", "Juegos de verano", "Familukis", "Trucos divertidos", "Actividades familiares"]

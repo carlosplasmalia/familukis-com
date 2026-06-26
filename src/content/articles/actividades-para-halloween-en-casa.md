@@ -1,6 +1,6 @@
 ---
-title: "Disfruta Halloween con Familukis"
-description: "Prepárate para una noche de terror y diversión con Familukis. Descubre nuestros disfraces y decoraciones para Halloween"
+title: "Actividades para Halloween en casa"
+description: "Ideas y juegos para una noche de Halloween emocionante con la familia, decoraciones y disfraces para todos"
 date: "2026-06-25"
 categoria: "halloween"
 tags: ["Halloween", "Familukis", "Diversion", "Terror", "Disfraces"]

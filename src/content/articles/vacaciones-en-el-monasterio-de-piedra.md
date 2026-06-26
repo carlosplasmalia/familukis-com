@@ -1,6 +1,6 @@
 ---
-title: "Vacaciones de lujo de Familukis: diversión y aventuras"
-description: "Descubre cómo vivimos nuestras vacaciones de lujo, llenas de diversión, aventuras y momentos inolvidables con amigos y familiares"
+title: "Vacaciones en el Monasterio de Piedra"
+description: "Explora el parque natural y disfruta de la naturaleza en estado puro con tu familia en Zaragoza"
 date: "2026-06-25"
 categoria: "vacaciones-familia"
 tags: ["Familukis", "vacaciones en familia", "viajes de lujo", "diversión", "aventuras"]

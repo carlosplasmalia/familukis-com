@@ -1,6 +1,6 @@
 ---
-title: "Día en Tivoli con Familukis, diversión garantizada"
-description: "Descubre el parque de atracciones Tivoli con Familukis, un día lleno de diversión y emoción para toda la familia"
+title: "Tivoli parque de atracciones en Andalucía"
+description: "Conoce las atracciones y actividades para todas las edades en Tivoli, un parque de diversiones con opciones para niños y adultos"
 date: "2026-06-25"
 categoria: "parques-atracciones"
 tags: ["Parque de Atracciones", "Tivoli", "Familukis", "Día de Diversión", "Atracciones para Todos"]

@@ -1,6 +1,6 @@
 ---
-title: "La cabalgata de los Reyes Magos con Familukis"
-description: "Disfruta de la emoción de la cabalgata de los Reyes Magos con Familukis, juegos y juguetes en familia, regalos y momentos especiales"
+title: "Cómo recibir a los Reyes Magos en casa con tradiciones"
+description: "Prepara la llegada de los Reyes Magos con polvorones, leche y regalos, manteniendo viva la ilusión en los niños"
 date: "2026-06-25"
 categoria: "navidad-regalos"
 tags: ["Navidad", "Reyes Magos", "Juegos en familia", "Regalos de Navidad", "Familukis"]

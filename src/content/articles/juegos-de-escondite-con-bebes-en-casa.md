@@ -1,6 +1,6 @@
 ---
-title: "Juegos divertidos con Oliver y mamá en Familukis"
-description: "Disfruta de un día lleno de risas y diversión con Oliver y su mamá mientras juegan y exploran juguetes en familia, ¡no te pierdas el vídeo!"
+title: "Juegos de escondite con bebés en casa"
+description: "Ideas de juegos para bebés con mamá, escondite y lanzar objetos, fomenta la imaginación y diversión en la infancia"
 date: "2026-06-25"
 categoria: "para-ninos"
 tags: ["Familukis", "Juegos para niños", "Actividades en familia", "Oliver y mamá", "Diversión infantil"]

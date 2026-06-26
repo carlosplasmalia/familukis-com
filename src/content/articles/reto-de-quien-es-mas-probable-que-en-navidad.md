@@ -1,6 +1,6 @@
 ---
-title: "Familukis juega al reto de quién es más probable que"
-description: "Descubre quién es más probable que haga estas cosas en Familukis, un divertido reto en familia para Navidad"
+title: "Reto de quién es más probable que en Navidad"
+description: "Aprende a hacer un reto de Navidad en familia con preguntas divertidas y conoce quién es más probable que haga ciertas cosas en tu familia"
 date: "2026-06-25"
 categoria: "navidad-regalos"
 tags: ["Familukis", "Retos en familia", "Juegos navideños", "Like You Challenge", "Navidad con niños"]
