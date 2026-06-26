@@ -133,6 +133,9 @@ function formatViews(n: number) {
 
   <Top10Row title="Para los más nostálgicos 🏆" items={TOP10} />
 
+  <!-- Lead capture -->
+  <LeadCapture />
+
   {byCat('parques-atracciones').length > 0 && (
     <CategoryRow title="Parques de Atracciones" href="/categoria/parques-atracciones" videos={toRow(byCat('parques-atracciones'))} />
   )}
@@ -168,9 +171,6 @@ function formatViews(n: number) {
   {byCat('vlogs-familia').length > 0 && (
     <CategoryRow title="Vlogs de Familia" href="/categoria/vlogs-familia" videos={toRow(byCat('vlogs-familia'))} />
   )}
-
-  <!-- Lead capture -->
-  <LeadCapture />
 
   <!-- Productos Amazon -->
   <ProductRow title="Nuestra tienda" products={PRODUCTOS} />
