@@ -42,7 +42,9 @@ const schema = {
   "name": seoTitle,
   "description": seoDesc,
   "thumbnailUrl": thumb,
-  "uploadDate": data.publishedAt,
+  "uploadDate": data.publishedAt
+    ? (data.publishedAt.includes('T') ? data.publishedAt : `${data.publishedAt}T00:00:00+00:00`)
+    : undefined,
   "embedUrl": `https://www.youtube.com/embed/${data.videoId}`,
   "interactionStatistic": data.views ? {
     "@type": "InteractionCounter",
