@@ -61,6 +61,16 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
   <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
   <slot name="head" />
+
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+  <script>
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(async function(OneSignal) {
+      await OneSignal.init({
+        appId: "e527ef87-2f89-4058-a8e9-101d9b5e9800",
+      });
+    });
+  </script>
 </head>
 <body>
 
