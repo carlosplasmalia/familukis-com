@@ -6,10 +6,9 @@ const DEST = 'https://familukis.com?utm_source=instagram&utm_medium=dm&utm_campa
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Familukis — Ver vídeos</title>
+  <title>Familukis</title>
   <meta name="robots" content="noindex, nofollow" />
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RXVK4TC0NP"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -20,121 +19,58 @@ const DEST = 'https://familukis.com?utm_source=instagram&utm_medium=dm&utm_campa
 </head>
 <body>
 
-  <!-- Estado inicial: copiando -->
-  <div id="state-copying" class="screen">
-    <svg class="spinner" viewBox="0 0 50 50"><circle cx="25" cy="25" r="20" fill="none" stroke-width="4"/></svg>
-    <p>Un momento…</p>
-  </div>
-
-  <!-- Estado: enlace copiado con éxito -->
-  <div id="state-copied" class="screen" style="display:none">
-    <div class="icon-wrap success">
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-        <polyline points="20 6 9 17 4 12"/>
-      </svg>
-    </div>
-    <h1>¡Enlace copiado!</h1>
-    <p class="sub">Ahora abre <strong>Safari</strong> o <strong>Chrome</strong>,<br>pégalo en la barra de arriba y pulsa ir.</p>
-    <div class="url-box">
-      <span class="url-text">familukis.com</span>
-      <button id="btn-copy-again" class="btn-copy">Copiar de nuevo</button>
-    </div>
-    <p class="hint">El enlace ya está en tu portapapeles</p>
-  </div>
-
-  <!-- Estado: portapapeles bloqueado (fallback) -->
-  <div id="state-manual" class="screen" style="display:none">
-    <div class="logo-wrap">
-      <svg width="36" height="36" viewBox="0 0 32 32" fill="none">
-        <rect width="32" height="32" rx="8" fill="#e50914"/>
-        <text x="16" y="22" text-anchor="middle" fill="white" font-size="16" font-weight="800" font-family="system-ui">F</text>
-      </svg>
-      <span>Familukis</span>
-    </div>
-    <h1>Un paso más</h1>
-    <p class="sub">Copia este enlace, ábrelo en Safari o Chrome</p>
-    <div class="url-box">
-      <span class="url-text">familukis.com</span>
-      <button id="btn-copy-manual" class="btn-copy">Copiar</button>
-    </div>
-    <p id="copy-feedback" class="copy-ok" style="opacity:0">¡Copiado!</p>
+  <div id="screen" class="hidden">
+    <svg width="48" height="48" viewBox="0 0 32 32" fill="none">
+      <rect width="32" height="32" rx="8" fill="#e50914"/>
+      <text x="16" y="22" text-anchor="middle" fill="white" font-size="16" font-weight="800" font-family="system-ui">F</text>
+    </svg>
+    <h1>Familukis</h1>
+    <p>Ver todos los vídeos exclusivos</p>
+    <button id="btn">Abrir web</button>
   </div>
 
 </body>
 </html>
 
 <script define:vars={{ DEST }}>
-  const isInstagram = /Instagram/.test(navigator.userAgent);
-  const isAndroid   = /Android/.test(navigator.userAgent);
-  const isIOS       = /iPhone|iPad|iPod/.test(navigator.userAgent);
+  const ua = navigator.userAgent;
+  const isInstagram = /Instagram/.test(ua);
+  const isAndroid   = /Android/.test(ua);
+  const isIOS       = /iPhone|iPad|iPod/.test(ua);
 
-  function show(id) {
-    ['state-copying','state-copied','state-manual'].forEach(s =>
-      document.getElementById(s).style.display = s === id ? 'flex' : 'none'
-    );
-  }
+  if (!isInstagram) {
+    window.location.replace(DEST);
+  } else {
+    // Mostrar pantalla
+    document.getElementById('screen').classList.remove('hidden');
 
-  async function copyToClipboard(text) {
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      await navigator.clipboard.writeText(text);
-      return;
-    }
-    // Fallback para WebViews más restrictivos
-    const ta = document.createElement('textarea');
-    ta.value = text;
-    ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0';
-    document.body.appendChild(ta);
-    ta.focus(); ta.select();
-    document.execCommand('copy');
-    document.body.removeChild(ta);
-  }
-
-  async function init() {
-    if (!isInstagram) {
-      // Navegador normal: redirige directo sin mostrar nada
-      window.location.replace(DEST);
-      return;
-    }
-
-    // Intentos automáticos de apertura externa (sin bloquear UI)
+    // Intento automático inmediato
     if (isAndroid) {
-      setTimeout(() => {
-        window.location.href =
-          'intent://' + DEST.replace(/^https?:\/\//, '') +
-          '#Intent;scheme=https;package=com.android.chrome;end';
-      }, 300);
+      window.location.href =
+        'intent://' + DEST.replace(/^https?:\/\//, '') +
+        '#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=' +
+        encodeURIComponent(DEST) + ';end';
     } else if (isIOS) {
+      // Intentar abrir Chrome primero, luego Safari
+      window.location.href = 'googlechrome://' + DEST.replace(/^https?:\/\//, '');
       setTimeout(() => {
         window.location.href = DEST.replace('https://', 'x-safari-https://');
-      }, 300);
+      }, 600);
     }
 
-    // Copiar enlace al portapapeles automáticamente
-    try {
-      await copyToClipboard(DEST);
-      show('state-copied');
-    } catch(e) {
-      show('state-manual');
-    }
+    // Botón: intento con gesto de usuario (más permisos que auto)
+    document.getElementById('btn').addEventListener('click', () => {
+      const w = window.open(DEST, '_blank', 'noreferrer');
+      if (!w || w.closed) {
+        // Si window.open falla, intentar location directa
+        if (isIOS) {
+          window.location.href = DEST.replace('https://', 'x-safari-https://');
+        } else {
+          window.location.href = DEST;
+        }
+      }
+    });
   }
-
-  init();
-
-  // Botón "Copiar de nuevo"
-  document.getElementById('btn-copy-again').addEventListener('click', async () => {
-    await copyToClipboard(DEST);
-    const btn = document.getElementById('btn-copy-again');
-    btn.textContent = '¡Copiado!';
-    setTimeout(() => btn.textContent = 'Copiar de nuevo', 2000);
-  });
-
-  // Botón copiar manual
-  document.getElementById('btn-copy-manual').addEventListener('click', async () => {
-    await copyToClipboard(DEST);
-    const fb = document.getElementById('copy-feedback');
-    fb.style.opacity = '1';
-    setTimeout(() => fb.style.opacity = '0', 2000);
-  });
 </script>
 
 <style>
@@ -148,117 +84,49 @@ const DEST = 'https://familukis.com?utm_source=instagram&utm_medium=dm&utm_campa
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
   }
 
-  .screen {
+  #screen {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
+    padding: 2rem;
     text-align: center;
-    gap: 1.2rem;
-    max-width: 320px;
-    width: 100%;
-    animation: fadeIn 0.25s ease;
+    animation: up 0.3s ease;
   }
-  @keyframes fadeIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:none; } }
+  #screen.hidden { display: none; }
 
-  /* Spinner */
-  .spinner {
-    width: 40px; height: 40px;
-    animation: spin 0.9s linear infinite;
-  }
-  .spinner circle {
-    stroke: #e50914;
-    stroke-linecap: round;
-    stroke-dasharray: 90,150;
-    stroke-dashoffset: -35;
-  }
-  @keyframes spin { to { transform: rotate(360deg); } }
-
-  /* Icono check */
-  .icon-wrap {
-    width: 64px; height: 64px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0.25rem;
-  }
-  .icon-wrap.success { background: #16a34a; }
-
-  /* Logo */
-  .logo-wrap {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-weight: 800;
-    font-size: 1.1rem;
-    color: #e50914;
+  @keyframes up {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: none; }
   }
 
   h1 {
-    font-size: 1.65rem;
+    font-size: 1.8rem;
     font-weight: 800;
     letter-spacing: -0.03em;
+    color: #e50914;
   }
 
-  .sub {
-    color: rgba(255,255,255,0.5);
+  p {
+    color: rgba(255,255,255,0.45);
     font-size: 0.95rem;
-    line-height: 1.65;
-  }
-  .sub strong { color: #fff; }
-
-  /* Caja URL */
-  .url-box {
-    background: rgba(255,255,255,0.06);
-    border: 1px solid rgba(255,255,255,0.12);
-    border-radius: 10px;
-    padding: 0.9rem 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0.75rem;
-    width: 100%;
   }
 
-  .url-text {
-    font-family: monospace;
-    font-size: 0.9rem;
-    color: rgba(255,255,255,0.7);
-    text-align: left;
-  }
-
-  .btn-copy {
+  #btn {
+    margin-top: 0.5rem;
     background: #e50914;
     color: #fff;
     border: none;
-    border-radius: 6px;
-    padding: 0.45rem 0.9rem;
-    font-size: 0.85rem;
+    border-radius: 10px;
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
     font-weight: 700;
     cursor: pointer;
-    white-space: nowrap;
-    flex-shrink: 0;
-    transition: background 0.15s;
+    width: 100%;
+    max-width: 280px;
+    transition: background 0.15s, transform 0.1s;
   }
-  .btn-copy:active { background: #b8060f; }
-
-  .hint {
-    color: rgba(255,255,255,0.22);
-    font-size: 0.78rem;
-  }
-
-  .copy-ok {
-    color: #4ade80;
-    font-size: 0.85rem;
-    font-weight: 600;
-    transition: opacity 0.3s;
-  }
-
-  #state-copying p {
-    color: rgba(255,255,255,0.35);
-    font-size: 0.9rem;
-    margin-top: 0.5rem;
-  }
+  #btn:active { background: #b8060f; transform: scale(0.97); }
 </style>
