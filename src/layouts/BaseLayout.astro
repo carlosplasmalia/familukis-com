@@ -62,6 +62,15 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
   <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
   <slot name="head" />
 
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RXVK4TC0NP"></script>
+  <script is:inline>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RXVK4TC0NP');
+  </script>
+
   <script is:inline src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
   <script is:inline>
     window.OneSignalDeferred = window.OneSignalDeferred || [];
