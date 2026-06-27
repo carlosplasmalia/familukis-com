@@ -72,6 +72,23 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
         notifyButton: {
           enable: true,
         },
+        promptOptions: {
+          slidedown: {
+            prompts: [{
+              type: "push",
+              autoPrompt: true,
+              text: {
+                actionMessage: "¿Quieres enterarte antes que nadie de nuestros nuevos vídeos?",
+                acceptButton: "¡Sí, avísame!",
+                cancelButton: "Ahora no",
+              },
+              delay: {
+                timeDelay: 3,
+                pageViews: 1,
+              },
+            }],
+          },
+        },
       });
     });
   </script>
