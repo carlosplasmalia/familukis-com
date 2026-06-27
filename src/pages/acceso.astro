@@ -1,5 +1,7 @@
 ---
-const DEST = 'https://familukis.com?utm_source=instagram&utm_medium=dm&utm_campaign=acceso_comentarios';
+const DEFAULT = 'https://familukis.com?utm_source=instagram&utm_medium=dm&utm_campaign=acceso_comentarios';
+const paramUrl = Astro.url.searchParams.get('url');
+const DEST = paramUrl ? `${paramUrl}${paramUrl.includes('?') ? '&' : '?'}utm_source=instagram&utm_medium=dm` : DEFAULT;
 ---
 <!doctype html>
 <html lang="es">
