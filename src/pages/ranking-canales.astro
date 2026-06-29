@@ -91,13 +91,17 @@ const statusLabel: Record<string, string> = { activo: 'Activo ✅', inactivo: 'I
           <!-- TV pantalla -->
           <div class="rl-tv">
             <div class="rl-tv-screen">
+              <!-- Capas de la pantalla (orden por z-index) -->
+              <img id="rl-thumb"    class="rl-thumb"    src="" alt="" />
+              <img id="rl-spin-img" class="rl-spin-img" src="" alt="" />
               <div class="rl-scanlines"></div>
-              <!-- Overlay de misterio -->
-              <div class="rl-mystery-overlay">
-                <div class="rl-mystery-grain"></div>
-                <span class="rl-mystery-q">?</span>
-              </div>
-              <!-- Vídeo embebido (aparece tras girar) -->
+              <!-- Botón play — clic para reproducir el vídeo -->
+              <button id="rl-play-btn" class="rl-play-btn" aria-label="Reproducir vídeo">
+                <div class="rl-play-icon">
+                  <svg viewBox="0 0 24 24" fill="white" width="52" height="52"><path d="M8 5v14l11-7z"/></svg>
+                </div>
+              </button>
+              <!-- iframe — solo cuando el usuario pulsa play -->
               <iframe
                 id="rl-iframe"
                 class="rl-iframe"
@@ -106,6 +110,11 @@ const statusLabel: Record<string, string> = { activo: 'Activo ✅', inactivo: 'I
                 allow="autoplay; encrypted-media; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
+              <!-- Overlay de misterio (encima de todo hasta girar) -->
+              <div class="rl-mystery-overlay">
+                <div class="rl-mystery-grain"></div>
+                <span class="rl-mystery-q">?</span>
+              </div>
             </div>
             <div class="rl-tv-base"></div>
             <div class="rl-tv-stand"></div>
@@ -210,6 +219,26 @@ const statusLabel: Record<string, string> = { activo: 'Activo ✅', inactivo: 'I
         </div>
       </section>
 
+      <!-- ── SUGERENCIAS ────────────────────────────────────────── -->
+      <section class="rk-section" id="sec-suggest" aria-label="Sugerir canal">
+        <div class="rk-sec-header">
+          <h2 class="rk-sec-h2">💬 ¿Falta alguno?</h2>
+          <p class="rk-sec-p">Si recuerdas un canal que no está en la lista, dínoslo.</p>
+        </div>
+        <form id="suggest-form" class="sg-form">
+          <input
+            id="sg-input"
+            type="text"
+            class="sg-input"
+            placeholder="Nombre del canal..."
+            maxlength="80"
+            autocomplete="off"
+          />
+          <button type="submit" class="sg-btn">Enviar sugerencia</button>
+        </form>
+        <p id="sg-thanks" class="sg-thanks hidden">¡Gracias! Le echamos un ojo 👀</p>
+      </section>
+
     </div>
   </main>
 </BaseLayout>
@@ -221,6 +250,9 @@ const statusLabel: Record<string, string> = { activo: 'Activo ✅', inactivo: 'I
   const rlSpinner = document.getElementById('rl-spinner');
   const rlCard    = document.getElementById('rl-card');
   const rlIframe  = document.getElementById('rl-iframe');
+  const rlSpinImg = document.getElementById('rl-spin-img');
+  const rlThumb   = document.getElementById('rl-thumb');
+  const rlPlayBtn = document.getElementById('rl-play-btn');
   const rlChThumb = document.getElementById('rl-ch-thumb');
   const rlChName  = document.getElementById('rl-ch-name');
   const rlVidTitle= document.getElementById('rl-vid-title');
@@ -228,54 +260,114 @@ const statusLabel: Record<string, string> = { activo: 'Activo ✅', inactivo: 'I
   const rlCounter = document.getElementById('rl-count');
 
   let rlSpinning = false;
+  let currentVideoId = null;
   let explored = parseInt(localStorage.getItem('rl_explored') || '0');
   rlCounter.textContent = explored;
+
+  // Channel thumbnails for the slot animation
+  const chanThumbs = quizChannels.map(c => c.thumb).filter(Boolean);
 
   function spin() {
     if (rlSpinning) return;
     rlSpinning = true;
 
-    // Stop current video and re-enter mystery while spinning
+    // Reset: stop playing video, clear iframe, go back to spinning state
     rlIframe.src = '';
-    rlCard.classList.add('rl-mystery');
+    rlCard.classList.remove('rl-playing');
+    rlCard.classList.remove('rl-mystery');
+    rlCard.classList.add('rl-spinning');
+
     rlBtnText.textContent = 'Girando...';
     rlSpinner.classList.remove('hidden');
     rlBtn.disabled = true;
 
     const video = enriched[Math.floor(Math.random() * enriched.length)];
+    const landingThumb = video.channelThumb || chanThumbs[0];
 
-    setTimeout(() => {
-      // Populate channel info
-      if (video.channelThumb) {
-        rlChThumb.src = video.channelThumb;
-        rlChThumb.style.display = 'block';
-      } else {
-        rlChThumb.style.display = 'none';
+    // Animate: logos flash fast → slow down → land on channel thumb
+    const DURATION  = 2000;  // ms total
+    const FAST_INT  = 65;    // ms between frames at start
+    const SLOW_INT  = 380;   // ms between frames at end
+    const LAND_AT   = 0.75;  // progress fraction when we switch to channel thumb
+
+    let startTime = null;
+    let lastSwap  = 0;
+    let idx       = 0;
+
+    function frame(ts) {
+      if (!startTime) startTime = ts;
+      const progress = Math.min((ts - startTime) / DURATION, 1);
+      const interval = FAST_INT + (SLOW_INT - FAST_INT) * progress;
+
+      if (ts - lastSwap >= interval) {
+        rlSpinImg.src = (progress >= LAND_AT) ? landingThumb : chanThumbs[idx % chanThumbs.length];
+        idx++;
+        lastSwap = ts;
       }
-      rlChName.textContent   = video.channel;
-      rlVidTitle.textContent = video.title;
-      rlVidYear.textContent  = video.published ? video.published.slice(0, 4) : '';
 
-      // Embed video with autoplay
-      rlIframe.src = `https://www.youtube.com/embed/${video.id}?autoplay=1&rel=0&modestbranding=1`;
+      if (progress < 1) {
+        requestAnimationFrame(frame);
+      } else {
+        revealThumbnail(video);
+      }
+    }
 
-      // Reveal card
-      rlCard.classList.remove('rl-mystery');
-      rlCard.classList.add('rl-reveal');
-      setTimeout(() => rlCard.classList.remove('rl-reveal'), 600);
-
-      explored++;
-      localStorage.setItem('rl_explored', explored);
-      rlCounter.textContent = explored;
-
-      rlSpinning = false;
-      rlBtnText.textContent = '🎲 ¡Otra!';
-      rlSpinner.classList.add('hidden');
-      rlBtn.disabled = false;
-    }, 1800);
+    requestAnimationFrame(frame);
   }
 
+  function revealThumbnail(video) {
+    currentVideoId = video.id;
+
+    // Show video thumbnail
+    rlThumb.src = video.thumb || `https://img.youtube.com/vi/${video.id}/hqdefault.jpg`;
+    rlThumb.alt = video.title;
+
+    // Populate channel info
+    if (video.channelThumb) { rlChThumb.src = video.channelThumb; rlChThumb.style.display = 'block'; }
+    else { rlChThumb.style.display = 'none'; }
+    rlChName.textContent   = video.channel;
+    rlVidTitle.textContent = video.title;
+    rlVidYear.textContent  = video.published ? video.published.slice(0, 4) : '';
+
+    // Transition to revealed
+    rlCard.classList.remove('rl-spinning');
+    rlCard.classList.add('rl-reveal');
+    setTimeout(() => rlCard.classList.remove('rl-reveal'), 600);
+
+    explored++;
+    localStorage.setItem('rl_explored', explored);
+    rlCounter.textContent = explored;
+
+    rlSpinning = false;
+    rlBtnText.textContent = '🎲 ¡Volver a girar!';
+    rlSpinner.classList.add('hidden');
+    rlBtn.disabled = false;
+  }
+
+  // Click thumbnail → embed video with autoplay
+  rlPlayBtn.addEventListener('click', () => {
+    if (!currentVideoId) return;
+    rlIframe.src = `https://www.youtube.com/embed/${currentVideoId}?autoplay=1&rel=0&modestbranding=1`;
+    rlCard.classList.add('rl-playing');
+  });
+
   rlBtn.addEventListener('click', spin);
+</script>
+
+<!-- ── SUGERENCIAS SCRIPT ──────────────────────────────────────── -->
+<script>
+  document.getElementById('suggest-form')?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const input = document.getElementById('sg-input');
+    const val = input.value.trim();
+    if (!val) return;
+    const subject = encodeURIComponent(`Sugerencia de canal: ${val}`);
+    const body = encodeURIComponent(`Hola Carlos,\n\nUn usuario sugiere añadir el canal:\n\n"${val}"\n\nFamilukis.com · Ranking nostalgia`);
+    window.location.href = `mailto:carlos.plasmalia@gmail.com?subject=${subject}&body=${body}`;
+    input.value = '';
+    document.getElementById('sg-thanks').classList.remove('hidden');
+    setTimeout(() => document.getElementById('sg-thanks').classList.add('hidden'), 4000);
+  });
 </script>
 
 <!-- ── QUIZ SCRIPT ─────────────────────────────────────────────── -->
@@ -420,25 +512,61 @@ const statusLabel: Record<string, string> = { activo: 'Activo ✅', inactivo: 'I
     background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.14) 2px, rgba(0,0,0,0.14) 4px);
   }
 
-  /* iframe embed */
-  .rl-iframe {
-    position: absolute; inset: 0;
-    width: 100%; height: 100%;
-    border: 0; z-index: 1;
-    display: none;
+  /* ── TV screen layers (z-index order) ── */
+
+  /* 1 — video thumbnail (base layer, revealed state) */
+  .rl-thumb {
+    position: absolute; inset: 0; width: 100%; height: 100%;
+    object-fit: cover; z-index: 1; display: none;
+    filter: sepia(0.08) contrast(1.05);
   }
-  #rl-card:not(.rl-mystery) .rl-iframe { display: block; }
+  #rl-card:not(.rl-mystery):not(.rl-spinning):not(.rl-playing) .rl-thumb { display: block; }
 
-  .rl-tv-base  { width: 52%; height: 9px; background: #1c1c1c; border-radius: 0 0 4px 4px; border: 4px solid #252525; border-top: none; }
-  .rl-tv-stand { width: 24%; height: 8px; background: #252525; border-radius: 0 0 8px 8px; }
+  /* 2 — spinning channel logos */
+  .rl-spin-img {
+    position: absolute; inset: 0; width: 100%; height: 100%;
+    object-fit: cover; z-index: 2; display: none;
+    filter: brightness(0.88);
+  }
+  .rl-spinning .rl-spin-img { display: block; }
 
-  /* ── Mystery overlay ── */
+  /* 3 — scanlines (always on, above images) */
+
+  /* 4 — play button overlay (revealed state only) */
+  .rl-play-btn {
+    position: absolute; inset: 0;
+    display: none; align-items: center; justify-content: center;
+    background: transparent; border: none; cursor: pointer;
+    z-index: 4; transition: background 0.2s;
+  }
+  #rl-card:not(.rl-mystery):not(.rl-spinning):not(.rl-playing) .rl-play-btn { display: flex; }
+  .rl-play-btn:hover { background: rgba(0,0,0,0.3); }
+  .rl-play-icon {
+    width: 70px; height: 70px; border-radius: 50%;
+    background: rgba(229,9,20,0.92);
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 4px 28px rgba(0,0,0,0.55);
+    transition: transform 0.18s, background 0.18s;
+  }
+  .rl-play-btn:hover .rl-play-icon { transform: scale(1.1); background: #e50914; }
+
+  /* 5 — iframe (playing state) */
+  .rl-iframe {
+    position: absolute; inset: 0; width: 100%; height: 100%;
+    border: 0; z-index: 5; display: none;
+  }
+  .rl-playing .rl-iframe { display: block; }
+
+  /* 6 — mystery overlay (topmost, initial state) */
   .rl-mystery-overlay {
     position: absolute; inset: 0;
     display: flex; align-items: center; justify-content: center;
-    background: #080808; z-index: 4;
+    background: #080808; z-index: 6;
   }
   #rl-card:not(.rl-mystery) .rl-mystery-overlay { display: none; }
+
+  .rl-tv-base  { width: 52%; height: 9px; background: #1c1c1c; border-radius: 0 0 4px 4px; border: 4px solid #252525; border-top: none; }
+  .rl-tv-stand { width: 24%; height: 8px; background: #252525; border-radius: 0 0 8px 8px; }
 
   .rl-mystery-grain {
     position: absolute; inset: 0;
@@ -562,8 +690,30 @@ const statusLabel: Record<string, string> = { activo: 'Activo ✅', inactivo: 'I
   .rk-status--inactivo   { background: rgba(255,255,255,0.07); color: rgba(255,255,255,0.3); }
   .rk-status--esporadico { background: rgba(253,203,110,0.15); color: #fdcb6e; }
 
+  /* ── Suggestions ── */
+  .sg-form { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+  .sg-input {
+    flex: 1; min-width: 0;
+    background: #1a1a1a; border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 8px; padding: 0.75rem 1rem;
+    color: #fff; font-size: 0.95rem; outline: none;
+    transition: border-color 0.2s;
+  }
+  .sg-input::placeholder { color: rgba(255,255,255,0.3); }
+  .sg-input:focus { border-color: rgba(255,255,255,0.35); }
+  .sg-btn {
+    background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.7);
+    border: 1px solid rgba(255,255,255,0.15); border-radius: 8px;
+    padding: 0.75rem 1.25rem; font-size: 0.88rem; font-weight: 600;
+    cursor: pointer; white-space: nowrap; transition: background 0.2s, color 0.2s;
+  }
+  .sg-btn:hover { background: rgba(255,255,255,0.14); color: #fff; }
+  .sg-thanks { font-size: 0.88rem; color: rgba(255,255,255,0.45); margin-top: 0.75rem; }
+
   @media (max-width: 500px) {
     .qz-card { padding: 1.5rem 1rem; }
     .rl-mystery-q { font-size: 3.5rem; }
+    .sg-form { flex-direction: column; }
+    .sg-btn { width: 100%; }
   }
 </style>
