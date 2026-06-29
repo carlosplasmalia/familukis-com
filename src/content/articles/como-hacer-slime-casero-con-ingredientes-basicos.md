@@ -1,6 +1,6 @@
 ---
-title: "Juego del Slime casero con Familukis, diversión garantizada"
-description: "Únete a nosotros en este emocionante juego del Slime casero, donde la imaginación y la diversión se unen para crear algo increíble"
+title: "Cómo hacer Slime casero con ingredientes básicos"
+description: "Aprende a crear Slime casero con ingredientes fáciles de encontrar, sigue nuestros pasos y consejos para hacerlo de manera segura"
 date: "2026-06-25"
 categoria: "retos-challenges"
 tags: ["Slime casero", "Juegos para niños", "Familukis", "Actividades familiares", "Manualidades"]

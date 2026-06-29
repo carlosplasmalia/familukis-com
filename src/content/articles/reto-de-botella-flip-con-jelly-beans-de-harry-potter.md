@@ -1,6 +1,6 @@
 ---
-title: "Familukis y amigas en el reto botella jelly beans"
-description: "Únete a Familukis y sus amigas en un divertido reto de botella flip con jelly beans de Harry Potter. ¡Descubre quién gana y quién se come los caramelos más"
+title: "Reto de botella flip con jelly beans de Harry Potter"
+description: "Aprende a jugar al reto de botella flip con jelly beans, sabores y reglas para jugar con amigos y familiares en casa"
 date: "2026-06-25"
 categoria: "retos-challenges"
 tags: ["Familukis", "reto botella", "jelly beans", "Harry Potter", "challenges en familia"]

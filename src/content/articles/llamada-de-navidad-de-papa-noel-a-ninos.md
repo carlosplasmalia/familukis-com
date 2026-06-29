@@ -1,6 +1,6 @@
 ---
-title: "Llamada de Papá Noel a los niños de Familukis"
-description: "Papá Noel llama a los niños de Familukis y les habla sobre su comportamiento y regalos de Navidad. ¡Mira la sorpresa en el vídeo!"
+title: "Llamada de Navidad de Papá Noel a niños"
+description: "Papá Noel llama a niños y habla sobre comportamiento y regalos de Navidad, escucha su mensaje especial en vídeo"
 date: "2026-06-25"
 categoria: "navidad-regalos"
 tags: ["Familukis", "Papá Noel", "Navidad", "Regalos", "Niños"]

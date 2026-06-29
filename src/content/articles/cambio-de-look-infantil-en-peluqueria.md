@@ -1,6 +1,6 @@
 ---
-title: "Cambio de look a ciegas con Familukis"
-description: "¡Descubre cómo cambiamos de look a ciegas en la peluquería de Pili! Un divertido día con Familukis, lleno de sorpresas y risas."
+title: "Cambio de look infantil en peluquería"
+description: "Un niño elige su nuevo peinado y color de pelo en una peluquería con ayuda de una profesional"
 date: "2026-06-25"
 categoria: "para-ninos"
 tags: ["Familukis", "cambio de look", "peluquería", "niños", "diversión"]

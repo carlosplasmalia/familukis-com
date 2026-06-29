@@ -1,6 +1,6 @@
 ---
-title: "Decoramos nuestra casa de Navidad con los Familukis"
-description: "Únete a nosotros mientras decoramos nuestra nueva casa de Navidad con los pequeños, compramos regalos y creamos recuerdos inolvidables"
+title: "Decorar casa para Navidad con niños"
+description: "Consejos y trucos para decorar tu casa para Navidad con tus hijos, ideas para árboles y regalos, y cómo hacerlo divertido y fácil"
 date: "2026-06-25"
 categoria: "navidad-regalos"
 tags: ["Familukis", "Navidad", "Decoración", "Regalos", "Navidad con niños"]
