@@ -230,6 +230,7 @@ const statusLabel: Record<string, string> = { activo: 'Activo ✅', inactivo: 'I
           <button type="submit" class="sg-btn">Enviar sugerencia</button>
         </form>
         <p id="sg-thanks" class="sg-thanks hidden">¡Gracias! Le echamos un ojo 👀</p>
+        <p id="sg-error"  class="sg-error  hidden">No se pudo enviar. Inténtalo más tarde.</p>
       </section>
 
     </div>
@@ -350,17 +351,38 @@ const statusLabel: Record<string, string> = { activo: 'Activo ✅', inactivo: 'I
 
 <!-- ── SUGERENCIAS SCRIPT ──────────────────────────────────────── -->
 <script>
-  document.getElementById('suggest-form')?.addEventListener('submit', (e) => {
+  document.getElementById('suggest-form')?.addEventListener('submit', async (e) => {
     e.preventDefault();
-    const input = document.getElementById('sg-input');
+    const input = document.getElementById('sg-input') as HTMLInputElement;
     const val = input.value.trim();
     if (!val) return;
-    const subject = encodeURIComponent(`Sugerencia de canal: ${val}`);
-    const body = encodeURIComponent(`Hola Carlos,\n\nUn usuario sugiere añadir el canal:\n\n"${val}"\n\nFamilukis.com · Ranking nostalgia`);
-    window.location.href = `mailto:carlos.plasmalia@gmail.com?subject=${subject}&body=${body}`;
-    input.value = '';
-    document.getElementById('sg-thanks').classList.remove('hidden');
-    setTimeout(() => document.getElementById('sg-thanks').classList.add('hidden'), 4000);
+
+    const btn = (e.target as HTMLFormElement).querySelector('.sg-btn') as HTMLButtonElement;
+    const thanks = document.getElementById('sg-thanks');
+    const error  = document.getElementById('sg-error');
+
+    btn.disabled = true;
+    btn.textContent = 'Enviando...';
+    thanks?.classList.add('hidden');
+    error?.classList.add('hidden');
+
+    try {
+      const res = await fetch('https://formspree.io/f/mrewldkz', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({ canal: val }),
+      });
+      if (!res.ok) throw new Error();
+      input.value = '';
+      thanks?.classList.remove('hidden');
+      setTimeout(() => thanks?.classList.add('hidden'), 5000);
+    } catch {
+      error?.classList.remove('hidden');
+      setTimeout(() => error?.classList.add('hidden'), 5000);
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'Enviar sugerencia';
+    }
   });
 </script>
 
@@ -699,6 +721,7 @@ const statusLabel: Record<string, string> = { activo: 'Activo ✅', inactivo: 'I
   }
   .sg-btn:hover { background: rgba(255,255,255,0.14); color: #fff; }
   .sg-thanks { font-size: 0.88rem; color: rgba(255,255,255,0.45); margin-top: 0.75rem; }
+  .sg-error  { font-size: 0.88rem; color: #e50914; margin-top: 0.75rem; }
 
   @media (max-width: 500px) {
     .qz-card { padding: 1.5rem 1rem; }
