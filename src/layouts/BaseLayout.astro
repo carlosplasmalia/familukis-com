@@ -60,6 +60,12 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
   <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#e50914" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Familukis" />
   <slot name="head" />
 
   <!-- Google Analytics 4 -->
@@ -204,6 +210,94 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
     </nav>
   </div>
 </footer>
+
+<!-- PWA Install Banner -->
+<div id="pwa-banner" role="alertdialog" aria-label="Instalar aplicación" hidden>
+  <div class="pwa-banner-inner">
+    <svg width="36" height="36" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+      <rect width="32" height="32" rx="8" fill="#e50914"/>
+      <text x="16" y="22" text-anchor="middle" fill="white" font-size="16" font-weight="800" font-family="system-ui">F</text>
+    </svg>
+    <div class="pwa-text">
+      <strong>Familukis</strong>
+      <span id="pwa-msg">Añade la app a tu pantalla de inicio</span>
+    </div>
+    <button id="pwa-install-btn" class="pwa-btn-install">Instalar</button>
+    <button id="pwa-dismiss-btn" class="pwa-btn-dismiss" aria-label="Cerrar">✕</button>
+  </div>
+</div>
+
+<script is:inline>
+(function () {
+  var STORAGE_KEY = 'pwa_banner_dismissed';
+  var DISMISS_DAYS = 7;
+
+  function isDismissed() {
+    try {
+      var ts = localStorage.getItem(STORAGE_KEY);
+      if (!ts) return false;
+      return Date.now() - parseInt(ts) < DISMISS_DAYS * 86400000;
+    } catch (e) { return false; }
+  }
+
+  function dismiss() {
+    try { localStorage.setItem(STORAGE_KEY, String(Date.now())); } catch (e) {}
+    var b = document.getElementById('pwa-banner');
+    if (b) b.hidden = true;
+  }
+
+  var deferredPrompt = null;
+
+  // Android / Chrome: catch the install prompt
+  window.addEventListener('beforeinstallprompt', function (e) {
+    e.preventDefault();
+    deferredPrompt = e;
+    if (!isDismissed()) showBanner('android');
+  });
+
+  function showBanner(type) {
+    var banner = document.getElementById('pwa-banner');
+    if (!banner) return;
+    if (type === 'ios') {
+      var msg = document.getElementById('pwa-msg');
+      var btn = document.getElementById('pwa-install-btn');
+      if (msg) msg.textContent = 'Toca Compartir → "En pantalla de inicio"';
+      if (btn) btn.hidden = true;
+    }
+    banner.hidden = false;
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var installBtn = document.getElementById('pwa-install-btn');
+    var dismissBtn = document.getElementById('pwa-dismiss-btn');
+
+    if (installBtn) {
+      installBtn.addEventListener('click', function () {
+        if (!deferredPrompt) return;
+        deferredPrompt.prompt();
+        deferredPrompt.userChoice.then(function (choice) {
+          deferredPrompt = null;
+          dismiss();
+        });
+      });
+    }
+
+    if (dismissBtn) {
+      dismissBtn.addEventListener('click', dismiss);
+    }
+
+    // iOS detection (Safari, not Chrome)
+    var isIos = /iphone|ipad|ipod/i.test(navigator.userAgent);
+    var isInStandalone = ('standalone' in navigator) && navigator.standalone;
+    if (isIos && !isInStandalone && !isDismissed()) {
+      showBanner('ios');
+    }
+  });
+
+  // Hide banner if app is already installed
+  window.addEventListener('appinstalled', function () { dismiss(); });
+})();
+</script>
 
 </body>
 </html>
@@ -422,4 +516,69 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
   @media (max-width: 500px) {
     .footer-inner { grid-template-columns: 1fr; }
   }
+
+  /* PWA Install Banner */
+  #pwa-banner {
+    position: fixed;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    width: calc(100% - 2rem);
+    max-width: 480px;
+    background: #1a1a1a;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+    padding: 1rem;
+    animation: pwa-slide-up 0.3s ease;
+  }
+  #pwa-banner[hidden] { display: none; }
+  @keyframes pwa-slide-up {
+    from { opacity: 0; transform: translateX(-50%) translateY(20px); }
+    to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+  }
+  .pwa-banner-inner {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .pwa-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .pwa-text strong {
+    color: #fff;
+    font-size: 0.95rem;
+  }
+  .pwa-text span {
+    color: rgba(255,255,255,0.5);
+    font-size: 0.8rem;
+  }
+  .pwa-btn-install {
+    background: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.45rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .pwa-btn-install:hover { background: #cc0812; }
+  .pwa-btn-dismiss {
+    background: none;
+    border: none;
+    color: rgba(255,255,255,0.3);
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.25rem;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  .pwa-btn-dismiss:hover { color: rgba(255,255,255,0.7); }
 </style>
