@@ -1,8 +1,8 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ytData from '../data/channels_yt.json';
+import videos from '../data/nostalgia_videos.json';
 
-// ── Canal definitions ────────────────────────────────────────────────────────
 const channelDefs = [
   { name: 'Los Polinesios',          handle: '@LosPolinesios',        emoji: '🌺', color: '#ff7675', era: '2013 – hoy',   status: 'activo',     cat: 'Familia & Vlogs',          desc: 'La familia youtuber más grande de habla hispana. Tres hermanos que convirtieron su vida en espectáculo.', quizInclude: true },
   { name: 'Rovi23',                  handle: '@Rovi23',               emoji: '🎮', color: '#a29bfe', era: '2013 – hoy',   status: 'activo',     cat: 'Gaming & Entretenimiento', desc: 'El referente del gaming familiar español. Retos, bromas y una energía que enganchaba a toda la familia.', quizInclude: true },
@@ -18,22 +18,14 @@ const channelDefs = [
   { name: 'Los Familukis',           handle: '@MagicExploradores',    emoji: '🌊', color: '#e50914', era: '2020 – hoy',   status: 'activo',     cat: 'Familia & Aventuras',      desc: '¡Ese somos nosotros! Parques, aventuras y momentos reales en familia. El relevo generacional está aquí 👋', quizInclude: false, isFamilukis: true, staticThumb: '/favicon-512x512.png' },
 ];
 
-// ── Merge static definitions with YouTube API data ───────────────────────────
 const channels = channelDefs.map(ch => {
   const yt = (ytData as any)[ch.name] ?? {};
-  return {
-    ...ch,
-    id:   yt.channel_id ?? null,
-    subs: yt.subscriber_count ?? null,
-    // staticThumb (favicon) overrides API thumb for own channel
-    thumb: (ch as any).staticThumb ?? yt.thumb ?? null,
-  };
+  return { ...ch, id: yt.channel_id ?? null, subs: yt.subscriber_count ?? null, thumb: (ch as any).staticThumb ?? yt.thumb ?? null };
 });
 
-// Sort ranking by subs desc (unknown last)
 const ranked = [...channels].sort((a, b) => {
-  if (a.isFamilukis) return -1; // always first in CTA, exclude from rank
-  if (b.isFamilukis) return 1;
+  if ((a as any).isFamilukis) return 1;
+  if ((b as any).isFamilukis) return -1;
   if (!a.subs && !b.subs) return 0;
   if (!a.subs) return 1;
   if (!b.subs) return -1;
@@ -41,97 +33,190 @@ const ranked = [...channels].sort((a, b) => {
 });
 
 const quizChannels = channels.filter(c => c.quizInclude);
+const familukis = channels.find(c => (c as any).isFamilukis);
+
+const enriched = (videos as any[]).map(v => {
+  const ch = channelDefs.find(c => c.name === v.channel);
+  return { ...v, channelThumb: (ytData as any)[v.channel]?.thumb ?? null, color: ch?.color ?? '#e50914', emoji: ch?.emoji ?? '📺' };
+});
 
 function fmtSubs(n: number | null) {
   if (!n) return null;
-  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1).replace('.0','')}M`;
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1).replace('.0', '')}M`;
   if (n >= 1_000) return `${Math.round(n / 1_000)}K`;
   return String(n);
 }
 
-const statusLabel: Record<string,string> = {
-  activo: 'Activo ✅',
-  inactivo: 'Inactivo 💤',
-  'esporádico': 'Esporádico 🔄',
-};
+const statusLabel: Record<string, string> = { activo: 'Activo ✅', inactivo: 'Inactivo 💤', 'esporádico': 'Esporádico 🔄' };
 ---
 
 <BaseLayout
-  title="Ranking de canales YouTube familiares que marcaron una época"
-  description="¿Cuántos de estos canales recuerdas? Jugando con Aby, Crazy Haacks, Las Ratitas, Los Jaritos... El ranking definitivo de los canales YouTube que marcaron la infancia de toda una generación."
+  title="¿Los recuerdas? Canales YouTube familiar en español — Jugando con Aby, Las Ratitas, Crazy Haacks"
+  description="Quiz de nostalgia, ruleta de vídeos y ranking de los canales YouTube familiar en español que marcaron tu infancia: Jugando con Aby, Las Ratitas pandilleras, Los Polinesios, The Crazy Haacks, La diversión de Martina, Rovi23 y más. Solo vídeos de antes de 2021."
+  canonicalUrl="https://familukis.com/ranking-canales"
 >
+  <slot name="head" slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "¿Qué canales de YouTube familiar marcaron los años 2015-2020?", "acceptedAnswer": { "@type": "Answer", "text": "Los canales más populares del YouTube familiar en español fueron: Jugando con Aby, Las Ratitas pandilleras, Los Polinesios, The Crazy Haacks, La diversión de Martina, Rovi23, Los juguetes de Arantxa, Familia Carameluchi, Abreló Toys, Tremendig Girls y Los Jaritos." } },
+        { "@type": "Question", "name": "¿Dónde puedo ver vídeos de Jugando con Aby?", "acceptedAnswer": { "@type": "Answer", "text": "Jugando con Aby estuvo activo entre 2014 y 2022 en YouTube. Puedes explorar sus vídeos más populares en esta misma página con nuestra ruleta nostálgica." } },
+        { "@type": "Question", "name": "¿Sigue activo el canal Las Ratitas pandilleras?", "acceptedAnswer": { "@type": "Answer", "text": "Las Ratitas pandilleras estuvo muy activo entre 2016 y 2023. Actualmente publican de forma esporádica." } }
+      ]
+    })} />
+  </slot>
+
   <main class="rk-main">
+    <div class="rk-container">
 
-    <!-- INTRO -->
-    <section id="rk-intro" class="rk-screen">
-      <div class="rk-intro-inner">
-        <p class="rk-eyebrow">📺 Ranking de nostalgia</p>
-        <h1 class="rk-title">¿Cuántos recuerdas?</h1>
-        <p class="rk-subtitle">
-          Los canales de YouTube familiar en español que marcaron una época.<br>
-          Comprueba cuántos recuerdas y descubre dónde están ahora.
+      <!-- HERO -->
+      <header class="rk-hero">
+        <p class="rk-eyebrow">📺 YouTube Familiar · Nostalgia</p>
+        <h1 class="rk-h1">¿Los recuerdas?</h1>
+        <p class="rk-hero-sub">
+          Los canales de YouTube familiar en español que marcaron una generación.<br>
+          <strong>Quiz · Ruleta · Ranking</strong>
         </p>
-        <button id="btn-start" class="rk-btn-primary">
-          Empezar el quiz
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+        <div class="rk-hero-tags">
+          {quizChannels.slice(0,6).map(ch => (
+            <span class="rk-tag" style={`--c:${ch.color}`}>{ch.emoji} {ch.name}</span>
+          ))}
+        </div>
+      </header>
+
+      <!-- ── MINIJUEGO 1: QUIZ ─────────────────────────────────── -->
+      <section class="rk-section" id="sec-quiz" aria-label="Quiz de nostalgia">
+        <div class="rk-sec-header">
+          <h2 class="rk-sec-h2">🎯 Quiz de nostalgia</h2>
+          <p class="rk-sec-p">Canal a canal — ¿cuántos recuerdas?</p>
+        </div>
+
+        <!-- Start panel -->
+        <div id="qz-start" class="qz-start-panel">
+          <button id="btn-start" class="rk-btn-primary">
+            Empezar el quiz
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+          <p class="rk-hint">{quizChannels.length} canales · ~2 minutos</p>
+        </div>
+
+        <!-- Playing panel -->
+        <div id="qz-playing" class="hidden">
+          <div class="qz-progress-wrap">
+            <div class="qz-progress-bar"><div id="qz-fill" class="qz-fill" style="width:0%"></div></div>
+            <span id="qz-ptext" class="qz-ptext">1 / {quizChannels.length}</span>
+          </div>
+          <div id="qz-card" class="qz-card">
+            <div class="qz-avatar-wrap">
+              <img id="qz-avatar-img" src="" alt="" class="qz-avatar-img hidden" />
+              <div id="qz-avatar-fb" class="qz-avatar-fb">🎮</div>
+            </div>
+            <h3 id="qz-name" class="qz-name">Canal</h3>
+            <p id="qz-era" class="qz-era">2014 – 2022</p>
+            <p id="qz-desc" class="qz-desc">Descripción</p>
+            <div class="qz-vote-btns">
+              <button id="btn-yes" class="qz-btn-yes">❤️ ¡Lo recuerdo!</button>
+              <button id="btn-no"  class="qz-btn-no">🤷 No lo conocía</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Result panel -->
+        <div id="qz-result" class="hidden qz-result-panel">
+          <div id="qz-result-emoji" class="qz-result-emoji">🏆</div>
+          <h3 id="qz-result-title" class="qz-result-title">¡Leyenda!</h3>
+          <p  id="qz-result-sub"   class="qz-result-sub">Recuerdas X de Y canales</p>
+          <div class="qz-result-btns">
+            <button id="btn-share" class="rk-btn-primary">📤 Compartir</button>
+            <button id="btn-retry" class="rk-btn-outline">🔄 Repetir</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── MINIJUEGO 2: RULETA ───────────────────────────────── -->
+      <section class="rk-section" id="sec-ruleta" aria-label="Ruleta nostálgica de YouTube">
+        <div class="rk-sec-header">
+          <h2 class="rk-sec-h2">📼 Ruleta nostálgica</h2>
+          <p class="rk-sec-p">Gira y viaja a un vídeo aleatorio de antes de 2021.</p>
+        </div>
+
+        <!-- Slot ticker -->
+        <div class="rl-slot-wrap">
+          <div class="rl-slot-mask">
+            <div id="rl-slot" class="rl-slot">
+              {[...quizChannels, ...quizChannels, ...quizChannels].map(ch => (
+                <div class="rl-slot-item" style={`--c:${ch.color}`}>
+                  <span class="rl-slot-emoji">{ch.emoji}</span>
+                  <span class="rl-slot-name">{ch.name}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div class="rl-slot-arrow rl-slot-arrow--l">◀</div>
+          <div class="rl-slot-arrow rl-slot-arrow--r">▶</div>
+        </div>
+
+        <button id="rl-btn" class="rl-btn">
+          <span id="rl-btn-text">¡Girar!</span>
+          <svg id="rl-spinner" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" class="hidden">
+            <path d="M12 4V2A10 10 0 0 0 2 12h2a8 8 0 0 1 8-8Z"><animateTransform attributeName="transform" type="rotate" from="0 12 12" to="360 12 12" dur="0.7s" repeatCount="indefinite"/></path>
+          </svg>
         </button>
-        <p class="rk-hint">{quizChannels.length} canales · ~2 minutos</p>
-      </div>
-    </section>
 
-    <!-- QUIZ -->
-    <section id="rk-quiz" class="rk-screen hidden">
-      <div class="rk-progress-wrap">
-        <div class="rk-progress-bar">
-          <div id="rk-progress-fill" class="rk-progress-fill" style="width:0%"></div>
-        </div>
-        <span id="rk-progress-text" class="rk-progress-text">1 / {quizChannels.length}</span>
-      </div>
-
-      <div id="rk-card" class="rk-card">
-        <div id="rk-avatar-wrap" class="rk-avatar-wrap">
-          <img id="rk-avatar-img" src="" alt="" class="rk-avatar-img hidden" />
-          <div id="rk-avatar-fallback" class="rk-avatar-fallback">🎮</div>
-        </div>
-        <h2 id="rk-ch-name" class="rk-ch-name">Canal</h2>
-        <p id="rk-ch-era" class="rk-ch-era">2014 – 2022</p>
-        <p id="rk-ch-desc" class="rk-ch-desc">Descripción</p>
-        <div class="rk-vote-btns">
-          <button id="btn-yes" class="rk-btn-yes">❤️ ¡Lo recuerdo!</button>
-          <button id="btn-no"  class="rk-btn-no">🤷 No lo conocía</button>
-        </div>
-      </div>
-    </section>
-
-    <!-- RESULTS -->
-    <section id="rk-results" class="rk-screen hidden">
-      <div class="rk-results-inner">
-        <div id="rk-result-emoji" class="rk-result-emoji">🏆</div>
-        <h2 id="rk-result-title" class="rk-result-title">¡Leyenda!</h2>
-        <p  id="rk-result-sub"   class="rk-result-sub">Recuerdas X de Y canales</p>
-
-        <div class="rk-share">
-          <button id="btn-share" class="rk-btn-share">📤 Compartir resultado</button>
-          <button id="btn-retry" class="rk-btn-outline">🔄 Repetir</button>
+        <!-- Video card -->
+        <div id="rl-card" class="rl-card hidden">
+          <div class="rl-tv">
+            <div class="rl-tv-screen">
+              <div class="rl-scanlines"></div>
+              <img id="rl-thumb" src="" alt="" class="rl-thumb" />
+              <a id="rl-play" href="#" target="_blank" rel="noopener" class="rl-play-btn" aria-label="Ver vídeo">
+                <svg viewBox="0 0 24 24" fill="white" width="48" height="48"><path d="M8 5v14l11-7z"/></svg>
+              </a>
+            </div>
+            <div class="rl-tv-base"></div>
+            <div class="rl-tv-stand"></div>
+          </div>
+          <div class="rl-card-info">
+            <div id="rl-ch-badge" class="rl-ch-badge">
+              <img id="rl-ch-thumb" src="" alt="" class="rl-ch-avatar" />
+              <span id="rl-ch-name" class="rl-ch-name">Canal</span>
+            </div>
+            <h3 id="rl-vid-title" class="rl-vid-title">Título del vídeo</h3>
+            <p  id="rl-vid-year"  class="rl-vid-year">2018</p>
+            <div class="rl-card-actions">
+              <a id="rl-watch-btn" href="#" target="_blank" rel="noopener" class="rl-watch-btn">▶ Ver en YouTube</a>
+              <button id="rl-otra-btn" class="rl-otra-btn">🎲 ¡Otra!</button>
+            </div>
+          </div>
         </div>
 
-        <!-- CTA Familukis -->
+        <p class="rl-counter"><span id="rl-count">0</span> vídeos explorados · <strong>{enriched.length}</strong> en el archivo</p>
+      </section>
+
+      <!-- ── CTA FAMILUKIS ────────────────────────────────────── -->
+      {familukis && (
         <div class="rk-cta-box">
-          {channels.find(c => c.isFamilukis)?.thumb
-            ? <img src={channels.find(c => c.isFamilukis)!.thumb!} alt="Magic Exploradores" class="rk-cta-avatar" />
+          {familukis.thumb
+            ? <img src={familukis.thumb} alt="Los Familukis" class="rk-cta-avatar" />
             : <span class="rk-cta-emoji">🌊</span>
           }
           <div class="rk-cta-text">
             <p class="rk-cta-title">¿Ya sigues a Los Familukis?</p>
-            <p class="rk-cta-desc">El canal de aventuras familiares en España que está escribiendo la próxima era. ¡Somos nosotros!</p>
+            <p class="rk-cta-desc">El canal de aventuras en familia que está escribiendo la próxima era. ¡Somos nosotros!</p>
           </div>
           <a href="https://www.youtube.com/@MagicExploradores" target="_blank" rel="noopener" class="rk-btn-red">Suscribirse</a>
         </div>
+      )}
 
-        <!-- Full ranking -->
-        <h3 class="rk-ranking-title">📊 El ranking completo</h3>
+      <!-- ── RANKING ────────────────────────────────────────── -->
+      <section class="rk-section" id="sec-ranking" aria-label="Ranking canales YouTube familiar">
+        <div class="rk-sec-header">
+          <h2 class="rk-sec-h2">📊 El ranking completo</h2>
+          <p class="rk-sec-p">Ordenado por suscriptores actuales · datos YouTube API</p>
+        </div>
         <div class="rk-ranking-list">
-          {ranked.filter(c => !c.isFamilukis).map((ch, i) => (
+          {ranked.filter(c => !(c as any).isFamilukis).map((ch, i) => (
             <a href={`https://www.youtube.com/${ch.handle.startsWith('@') ? ch.handle : 'c/' + ch.handle}`}
                target="_blank" rel="noopener" class="rk-rank-row">
               <span class="rk-rank-num">{i + 1}</span>
@@ -152,59 +237,54 @@ const statusLabel: Record<string,string> = {
             </a>
           ))}
         </div>
-      </div>
-    </section>
+      </section>
 
+    </div>
   </main>
 </BaseLayout>
 
+<!-- ── QUIZ SCRIPT ─────────────────────────────────────────────── -->
 <script define:vars={{ quizChannels }}>
   let current = 0;
   let remembered = 0;
 
-  const screens = {
-    intro:   document.getElementById('rk-intro'),
-    quiz:    document.getElementById('rk-quiz'),
-    results: document.getElementById('rk-results'),
+  const panels = {
+    start:   document.getElementById('qz-start'),
+    playing: document.getElementById('qz-playing'),
+    result:  document.getElementById('qz-result'),
   };
 
-  function show(name) {
-    Object.values(screens).forEach(s => { s.classList.add('hidden'); });
-    screens[name].classList.remove('hidden');
-    screens[name].classList.add('rk-fadein');
-    setTimeout(() => screens[name].classList.remove('rk-fadein'), 400);
+  function showPanel(name) {
+    Object.entries(panels).forEach(([k, el]) => el.classList.toggle('hidden', k !== name));
   }
 
   function updateCard() {
     const ch = quizChannels[current];
     const total = quizChannels.length;
-
-    const img = document.getElementById('rk-avatar-img');
-    const fallback = document.getElementById('rk-avatar-fallback');
+    const img = document.getElementById('qz-avatar-img');
+    const fb  = document.getElementById('qz-avatar-fb');
 
     if (ch.thumb) {
-      img.src = ch.thumb;
-      img.alt = ch.name;
-      img.classList.remove('hidden');
-      fallback.classList.add('hidden');
+      img.src = ch.thumb; img.alt = ch.name;
+      img.classList.remove('hidden'); fb.classList.add('hidden');
     } else {
       img.classList.add('hidden');
-      fallback.textContent = ch.emoji;
-      fallback.style.background = ch.color + '22';
-      fallback.style.color = ch.color;
-      fallback.classList.remove('hidden');
+      fb.textContent = ch.emoji;
+      fb.style.background = ch.color + '22';
+      fb.style.color = ch.color;
+      fb.classList.remove('hidden');
     }
 
-    document.getElementById('rk-ch-name').textContent = ch.name;
-    document.getElementById('rk-ch-era').textContent = `${ch.era} · ${ch.cat}`;
-    document.getElementById('rk-ch-desc').textContent = ch.desc;
-    document.getElementById('rk-progress-fill').style.width = `${(current / total) * 100}%`;
-    document.getElementById('rk-progress-text').textContent = `${current + 1} / ${total}`;
+    document.getElementById('qz-name').textContent = ch.name;
+    document.getElementById('qz-era').textContent  = `${ch.era} · ${ch.cat}`;
+    document.getElementById('qz-desc').textContent = ch.desc;
+    document.getElementById('qz-fill').style.width = `${(current / total) * 100}%`;
+    document.getElementById('qz-ptext').textContent = `${current + 1} / ${total}`;
 
-    const card = document.getElementById('rk-card');
-    card.classList.remove('rk-slide-in');
+    const card = document.getElementById('qz-card');
+    card.classList.remove('qz-slide-in');
     void card.offsetWidth;
-    card.classList.add('rk-slide-in');
+    card.classList.add('qz-slide-in');
   }
 
   function vote(yes) {
@@ -223,19 +303,17 @@ const statusLabel: Record<string,string> = {
     else if (pct >= 0.1) { emoji = '🧐'; title = 'Algo has visto...'; }
     else                 { emoji = '👶'; title = '¡Eras demasiado pequeño!'; }
 
-    document.getElementById('rk-result-emoji').textContent = emoji;
-    document.getElementById('rk-result-title').textContent = title;
-    document.getElementById('rk-result-sub').textContent = `Recuerdas ${remembered} de ${total} canales`;
-    document.getElementById('rk-progress-fill').style.width = '100%';
-    show('results');
+    document.getElementById('qz-result-emoji').textContent = emoji;
+    document.getElementById('qz-result-title').textContent = title;
+    document.getElementById('qz-result-sub').textContent   = `Recuerdas ${remembered} de ${total} canales`;
+    document.getElementById('qz-fill').style.width = '100%';
+    showPanel('result');
   }
 
-  document.getElementById('btn-start')?.addEventListener('click', () => { updateCard(); show('quiz'); });
-  document.getElementById('btn-yes')?.addEventListener('click',  () => vote(true));
-  document.getElementById('btn-no')?.addEventListener('click',   () => vote(false));
-  document.getElementById('btn-retry')?.addEventListener('click', () => {
-    current = 0; remembered = 0; updateCard(); show('quiz');
-  });
+  document.getElementById('btn-start')?.addEventListener('click', () => { updateCard(); showPanel('playing'); });
+  document.getElementById('btn-yes')?.addEventListener('click',   () => vote(true));
+  document.getElementById('btn-no')?.addEventListener('click',    () => vote(false));
+  document.getElementById('btn-retry')?.addEventListener('click', () => { current = 0; remembered = 0; updateCard(); showPanel('playing'); });
   document.getElementById('btn-share')?.addEventListener('click', async () => {
     const text = `Recuerdo ${remembered} de ${quizChannels.length} canales del YouTube familiar en español 📺 ¿Y tú?\n→ https://familukis.com/ranking-canales`;
     if (navigator.share) {
@@ -244,72 +322,158 @@ const statusLabel: Record<string,string> = {
       await navigator.clipboard.writeText(text);
       const btn = document.getElementById('btn-share');
       btn.textContent = '✅ ¡Copiado!';
-      setTimeout(() => { btn.textContent = '📤 Compartir resultado'; }, 2200);
+      setTimeout(() => { btn.textContent = '📤 Compartir'; }, 2200);
     }
   });
 </script>
 
-<style>
-  .rk-main {
-    min-height: 100vh;
-    background: #0f0f0f;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem 1rem;
+<!-- ── RULETA SCRIPT ────────────────────────────────────────────── -->
+<script define:vars={{ enriched, quizChannels }}>
+  const rlBtn     = document.getElementById('rl-btn');
+  const rlBtnText = document.getElementById('rl-btn-text');
+  const rlSpinner = document.getElementById('rl-spinner');
+  const rlCard    = document.getElementById('rl-card');
+  const rlSlot    = document.getElementById('rl-slot');
+  const rlThumb   = document.getElementById('rl-thumb');
+  const rlPlay    = document.getElementById('rl-play');
+  const rlChThumb = document.getElementById('rl-ch-thumb');
+  const rlChName  = document.getElementById('rl-ch-name');
+  const rlVidTitle= document.getElementById('rl-vid-title');
+  const rlVidYear = document.getElementById('rl-vid-year');
+  const rlWatchBtn= document.getElementById('rl-watch-btn');
+  const rlOtraBtn = document.getElementById('rl-otra-btn');
+  const rlCounter = document.getElementById('rl-count');
+
+  let rlSpinning = false;
+  let explored = parseInt(localStorage.getItem('rl_explored') || '0');
+  rlCounter.textContent = explored;
+
+  const channelNames = quizChannels.map(c => c.name);
+  const slotItems = rlSlot.querySelectorAll('.rl-slot-item');
+  const itemW = 160;
+
+  function spin() {
+    if (rlSpinning) return;
+    rlSpinning = true;
+    rlCard.classList.add('hidden');
+    rlBtnText.textContent = 'Girando...';
+    rlSpinner.classList.remove('hidden');
+    rlBtn.disabled = true;
+
+    const video = enriched[Math.floor(Math.random() * enriched.length)];
+    const targetIdx = channelNames.indexOf(video.channel);
+    const totalItems = slotItems.length;
+    const targetItem = Math.floor(totalItems / 3) + targetIdx;
+    const targetOffset = targetItem * itemW;
+
+    rlSlot.style.transition = 'none';
+    rlSlot.style.transform = 'translateX(0)';
+
+    setTimeout(() => {
+      rlSlot.style.transition = 'transform 2s cubic-bezier(0.25, 0.46, 0.1, 1)';
+      rlSlot.style.transform = `translateX(-${targetOffset}px)`;
+    }, 50);
+
+    setTimeout(() => {
+      rlThumb.src = video.thumb || `https://img.youtube.com/vi/${video.id}/hqdefault.jpg`;
+      rlThumb.alt = video.title;
+      const ytUrl = `https://www.youtube.com/watch?v=${video.id}`;
+      rlPlay.href = ytUrl;
+      rlWatchBtn.href = ytUrl;
+
+      if (video.channelThumb) {
+        rlChThumb.src = video.channelThumb;
+        rlChThumb.style.display = 'block';
+      } else {
+        rlChThumb.style.display = 'none';
+      }
+      rlChName.textContent   = video.channel;
+      rlVidTitle.textContent = video.title;
+      rlVidYear.textContent  = video.published ? video.published.slice(0, 4) : '';
+
+      rlCard.classList.remove('hidden');
+      rlCard.classList.add('rl-reveal');
+      setTimeout(() => rlCard.classList.remove('rl-reveal'), 600);
+
+      explored++;
+      localStorage.setItem('rl_explored', explored);
+      rlCounter.textContent = explored;
+
+      rlSpinning = false;
+      rlBtnText.textContent = '¡Girar de nuevo!';
+      rlSpinner.classList.add('hidden');
+      rlBtn.disabled = false;
+
+      setTimeout(() => {
+        rlSlot.style.transition = 'none';
+        rlSlot.style.transform = 'translateX(0)';
+      }, 500);
+    }, 2200);
   }
-  .rk-screen { width: 100%; max-width: 560px; margin: 0 auto; }
+
+  rlBtn.addEventListener('click', spin);
+  rlOtraBtn.addEventListener('click', spin);
+</script>
+
+<style>
+  /* ── Layout ── */
+  .rk-main {
+    background: #0f0f0f;
+    min-height: 100vh;
+    padding: 0 1rem 6rem;
+  }
+  .rk-container {
+    max-width: 680px;
+    margin: 0 auto;
+  }
   .hidden { display: none !important; }
 
-  @keyframes fadein {
-    from { opacity: 0; transform: translateY(12px); }
-    to   { opacity: 1; transform: translateY(0); }
+  /* ── Hero ── */
+  .rk-hero {
+    text-align: center;
+    padding: 4rem 1rem 2.5rem;
   }
-  .rk-fadein { animation: fadein 0.35s ease; }
-
-  @keyframes slidein {
-    from { opacity: 0; transform: translateX(40px); }
-    to   { opacity: 1; transform: translateX(0); }
-  }
-  .rk-slide-in { animation: slidein 0.28s ease; }
-
-  /* INTRO */
-  .rk-intro-inner { text-align: center; padding: 3rem 1.5rem; }
   .rk-eyebrow {
-    font-size: 0.78rem; font-weight: 700; letter-spacing: 0.12em;
-    text-transform: uppercase; color: #e50914; margin-bottom: 1rem;
+    font-size: 0.72rem; font-weight: 700; letter-spacing: 0.14em;
+    text-transform: uppercase; color: #e50914; margin-bottom: 0.875rem;
   }
-  .rk-title {
-    font-size: clamp(2rem, 5vw, 3rem); font-weight: 800;
-    color: #fff; line-height: 1.1; margin-bottom: 1rem;
+  .rk-h1 {
+    font-size: clamp(2.4rem, 6vw, 3.5rem); font-weight: 800;
+    color: #fff; line-height: 1.05; margin-bottom: 0.875rem;
   }
-  .rk-subtitle { font-size: 1rem; color: rgba(255,255,255,0.6); line-height: 1.6; margin-bottom: 2rem; }
-  .rk-hint { margin-top: 0.875rem; font-size: 0.75rem; color: rgba(255,255,255,0.3); }
+  .rk-hero-sub {
+    font-size: 1rem; color: rgba(255,255,255,0.5);
+    line-height: 1.6; margin-bottom: 1.5rem;
+  }
+  .rk-hero-sub strong { color: rgba(255,255,255,0.8); }
+  .rk-hero-tags {
+    display: flex; flex-wrap: wrap; gap: 0.45rem;
+    justify-content: center;
+  }
+  .rk-tag {
+    font-size: 0.7rem; font-weight: 600;
+    padding: 0.3rem 0.65rem; border-radius: 99px;
+    background: color-mix(in srgb, var(--c) 15%, transparent);
+    color: var(--c);
+    border: 1px solid color-mix(in srgb, var(--c) 30%, transparent);
+  }
 
-  /* PROGRESS */
-  .rk-progress-wrap { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.75rem; }
-  .rk-progress-bar { flex: 1; height: 4px; background: rgba(255,255,255,0.1); border-radius: 99px; overflow: hidden; }
-  .rk-progress-fill { height: 100%; background: #e50914; border-radius: 99px; transition: width 0.4s ease; }
-  .rk-progress-text { font-size: 0.72rem; font-weight: 600; color: rgba(255,255,255,0.35); white-space: nowrap; }
-
-  /* CARD */
-  .rk-card {
-    background: #1a1a1a; border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 16px; padding: 2.5rem 2rem; text-align: center;
+  /* ── Section wrapper ── */
+  .rk-section {
+    border-top: 1px solid rgba(255,255,255,0.07);
+    padding-top: 3rem;
+    margin-top: 3rem;
   }
-  .rk-avatar-wrap { width: 96px; height: 96px; border-radius: 50%; margin: 0 auto 1.25rem; overflow: hidden; }
-  .rk-avatar-img  { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
-  .rk-avatar-fallback {
-    width: 96px; height: 96px; border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 2.5rem;
+  .rk-sec-header { margin-bottom: 1.75rem; }
+  .rk-sec-h2 {
+    font-size: 1.25rem; font-weight: 800; color: #fff;
+    margin-bottom: 0.3rem;
   }
-  .rk-ch-name  { font-size: 1.45rem; font-weight: 800; color: #fff; margin-bottom: 0.35rem; }
-  .rk-ch-era   { font-size: 0.72rem; color: rgba(255,255,255,0.38); font-weight: 500; margin-bottom: 0.875rem; text-transform: uppercase; letter-spacing: 0.06em; }
-  .rk-ch-desc  { font-size: 0.88rem; color: rgba(255,255,255,0.55); line-height: 1.6; margin-bottom: 2rem; min-height: 3.2em; }
-  .rk-vote-btns { display: flex; flex-direction: column; gap: 0.75rem; }
+  .rk-sec-p {
+    font-size: 0.82rem; color: rgba(255,255,255,0.38);
+  }
 
-  /* BUTTONS */
+  /* ── Shared buttons ── */
   .rk-btn-primary {
     display: inline-flex; align-items: center; gap: 0.5rem;
     background: #e50914; color: #fff; font-size: 1rem; font-weight: 700;
@@ -318,54 +482,179 @@ const statusLabel: Record<string,string> = {
   }
   .rk-btn-primary:hover { background: #c40812; transform: scale(1.03); }
 
-  .rk-btn-yes {
-    background: #1db954; color: #fff; font-size: 1rem; font-weight: 700;
-    padding: 0.875rem; border-radius: 10px; border: none; cursor: pointer;
-    transition: background 0.2s, transform 0.12s;
-  }
-  .rk-btn-yes:hover  { background: #17a349; }
-  .rk-btn-yes:active { transform: scale(0.97); }
-
-  .rk-btn-no {
-    background: rgba(255,255,255,0.07); color: rgba(255,255,255,0.55);
-    font-size: 1rem; font-weight: 600; padding: 0.875rem; border-radius: 10px;
-    border: 1px solid rgba(255,255,255,0.1); cursor: pointer; transition: background 0.2s;
-  }
-  .rk-btn-no:hover { background: rgba(255,255,255,0.12); }
-
-  /* RESULTS */
-  .rk-results-inner { text-align: center; padding: 1.5rem 0; }
-  .rk-result-emoji  { font-size: 4rem; margin-bottom: 0.75rem; animation: fadein 0.4s ease; }
-  .rk-result-title  { font-size: 1.75rem; font-weight: 800; color: #fff; margin-bottom: 0.5rem; }
-  .rk-result-sub    { font-size: 1rem; color: rgba(255,255,255,0.45); margin-bottom: 1.5rem; }
-
-  .rk-share { display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem; }
-
-  .rk-btn-share {
-    background: #e50914; color: #fff; font-weight: 700; padding: 0.7rem 1.25rem;
-    border-radius: 8px; border: none; cursor: pointer; font-size: 0.88rem;
-    transition: background 0.2s;
-  }
-  .rk-btn-share:hover { background: #c40812; }
-
   .rk-btn-outline {
     background: transparent; color: rgba(255,255,255,0.55); font-weight: 600;
-    padding: 0.7rem 1.25rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.18);
+    padding: 0.7rem 1.25rem; border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.18);
     cursor: pointer; font-size: 0.88rem; transition: border-color 0.2s, color 0.2s;
   }
   .rk-btn-outline:hover { border-color: rgba(255,255,255,0.45); color: #fff; }
 
-  /* CTA */
+  .rk-hint { margin-top: 0.875rem; font-size: 0.75rem; color: rgba(255,255,255,0.3); }
+
+  /* ── Quiz ── */
+  .qz-start-panel { text-align: center; padding: 1.5rem 0; }
+
+  .qz-progress-wrap { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.5rem; }
+  .qz-progress-bar  { flex: 1; height: 4px; background: rgba(255,255,255,0.1); border-radius: 99px; overflow: hidden; }
+  .qz-fill          { height: 100%; background: #e50914; border-radius: 99px; transition: width 0.4s ease; }
+  .qz-ptext         { font-size: 0.72rem; font-weight: 600; color: rgba(255,255,255,0.35); white-space: nowrap; }
+
+  @keyframes slidein {
+    from { opacity: 0; transform: translateX(40px); }
+    to   { opacity: 1; transform: translateX(0); }
+  }
+  .qz-slide-in { animation: slidein 0.28s ease; }
+
+  .qz-card {
+    background: #1a1a1a; border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px; padding: 2rem 1.75rem; text-align: center;
+  }
+  .qz-avatar-wrap { width: 88px; height: 88px; border-radius: 50%; margin: 0 auto 1.1rem; overflow: hidden; }
+  .qz-avatar-img  { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
+  .qz-avatar-fb   { width: 88px; height: 88px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2.25rem; }
+  .qz-name  { font-size: 1.35rem; font-weight: 800; color: #fff; margin-bottom: 0.3rem; }
+  .qz-era   { font-size: 0.7rem; color: rgba(255,255,255,0.38); font-weight: 500; margin-bottom: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; }
+  .qz-desc  { font-size: 0.85rem; color: rgba(255,255,255,0.5); line-height: 1.6; margin-bottom: 1.75rem; min-height: 3em; }
+  .qz-vote-btns { display: flex; flex-direction: column; gap: 0.65rem; }
+
+  .qz-btn-yes {
+    background: #1db954; color: #fff; font-size: 1rem; font-weight: 700;
+    padding: 0.8rem; border-radius: 10px; border: none; cursor: pointer;
+    transition: background 0.2s, transform 0.12s;
+  }
+  .qz-btn-yes:hover  { background: #17a349; }
+  .qz-btn-yes:active { transform: scale(0.97); }
+
+  .qz-btn-no {
+    background: rgba(255,255,255,0.07); color: rgba(255,255,255,0.55);
+    font-size: 1rem; font-weight: 600; padding: 0.8rem; border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.1); cursor: pointer; transition: background 0.2s;
+  }
+  .qz-btn-no:hover { background: rgba(255,255,255,0.12); }
+
+  .qz-result-panel { text-align: center; padding: 1rem 0; }
+  @keyframes fadein { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+  .qz-result-emoji  { font-size: 3.5rem; margin-bottom: 0.65rem; animation: fadein 0.4s ease; }
+  .qz-result-title  { font-size: 1.6rem; font-weight: 800; color: #fff; margin-bottom: 0.4rem; }
+  .qz-result-sub    { font-size: 0.95rem; color: rgba(255,255,255,0.45); margin-bottom: 1.5rem; }
+  .qz-result-btns   { display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; }
+
+  /* ── Ruleta ── */
+  .rl-slot-wrap {
+    position: relative; margin-bottom: 1.5rem;
+  }
+  .rl-slot-mask {
+    overflow: hidden; border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.1);
+    background: #111; height: 72px; position: relative;
+  }
+  .rl-slot {
+    display: flex; align-items: center;
+    height: 72px; will-change: transform;
+  }
+  .rl-slot-item {
+    flex-shrink: 0; width: 160px; height: 72px;
+    display: flex; align-items: center; justify-content: center;
+    gap: 0.5rem; padding: 0 1rem;
+    border-right: 1px solid rgba(255,255,255,0.06);
+  }
+  .rl-slot-emoji { font-size: 1.55rem; }
+  .rl-slot-name  {
+    font-size: 0.7rem; font-weight: 700;
+    color: rgba(255,255,255,0.7); text-align: left;
+    line-height: 1.3; max-width: 85px;
+  }
+  .rl-slot-arrow {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    font-size: 0.7rem; color: rgba(255,255,255,0.25); pointer-events: none;
+  }
+  .rl-slot-arrow--l { left: 8px; }
+  .rl-slot-arrow--r { right: 8px; }
+
+  .rl-btn {
+    display: flex; align-items: center; gap: 0.6rem;
+    background: #e50914; color: #fff;
+    font-size: 1rem; font-weight: 800;
+    padding: 0.875rem 2.25rem; border-radius: 99px;
+    border: none; cursor: pointer; letter-spacing: 0.02em;
+    transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+    box-shadow: 0 0 0 0 rgba(229,9,20,0.4);
+    margin: 0 auto 2rem; width: fit-content;
+  }
+  .rl-btn:hover:not(:disabled) { background: #c40812; transform: scale(1.04); box-shadow: 0 0 24px rgba(229,9,20,0.5); }
+  .rl-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+  @keyframes reveal { from { opacity: 0; transform: scale(0.93) translateY(14px); } to { opacity: 1; transform: scale(1) translateY(0); } }
+  .rl-reveal { animation: reveal 0.5s cubic-bezier(0.34,1.56,0.64,1); }
+
+  .rl-card { margin-bottom: 1.5rem; }
+
+  .rl-tv { display: flex; flex-direction: column; align-items: center; margin-bottom: 1.25rem; }
+  .rl-tv-screen {
+    position: relative; width: 100%; max-width: 400px;
+    aspect-ratio: 4/3; background: #000;
+    border-radius: 16px 16px 6px 6px;
+    border: 6px solid #2a2a2a; overflow: hidden;
+    box-shadow: 0 0 40px rgba(229,9,20,0.12), inset 0 0 20px rgba(0,0,0,0.8);
+  }
+  .rl-scanlines {
+    position: absolute; inset: 0;
+    background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.18) 2px, rgba(0,0,0,0.18) 4px);
+    pointer-events: none; z-index: 2;
+  }
+  .rl-thumb { width: 100%; height: 100%; object-fit: cover; display: block; filter: sepia(0.12) contrast(1.05); }
+  .rl-play-btn {
+    position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+    background: rgba(0,0,0,0.35); opacity: 0; transition: opacity 0.2s; z-index: 3;
+  }
+  .rl-tv-screen:hover .rl-play-btn { opacity: 1; }
+  .rl-tv-base  { width: 60%; height: 10px; background: #1e1e1e; border-radius: 0 0 4px 4px; border: 4px solid #2a2a2a; border-top: none; }
+  .rl-tv-stand { width: 30%; height: 8px; background: #2a2a2a; border-radius: 0 0 6px 6px; }
+
+  .rl-card-info { text-align: center; }
+  .rl-ch-badge {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    background: rgba(255,255,255,0.07); border-radius: 99px;
+    padding: 0.3rem 0.9rem 0.3rem 0.3rem; margin-bottom: 0.7rem;
+  }
+  .rl-ch-avatar { width: 28px; height: 28px; border-radius: 50%; object-fit: cover; }
+  .rl-ch-name   { font-size: 0.78rem; font-weight: 700; color: rgba(255,255,255,0.7); }
+  .rl-vid-title {
+    font-size: 1rem; font-weight: 700; color: #fff;
+    line-height: 1.4; margin-bottom: 0.3rem;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .rl-vid-year { font-size: 0.75rem; color: rgba(255,255,255,0.35); margin-bottom: 1.1rem; font-weight: 600; }
+  .rl-card-actions { display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; }
+
+  .rl-watch-btn {
+    background: #e50914; color: #fff; font-weight: 700; font-size: 0.88rem;
+    padding: 0.65rem 1.4rem; border-radius: 8px; text-decoration: none; transition: background 0.2s;
+  }
+  .rl-watch-btn:hover { background: #c40812; }
+  .rl-otra-btn {
+    background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.7);
+    font-weight: 600; font-size: 0.88rem; padding: 0.65rem 1.4rem;
+    border-radius: 8px; border: 1px solid rgba(255,255,255,0.15);
+    cursor: pointer; transition: background 0.2s, color 0.2s;
+  }
+  .rl-otra-btn:hover { background: rgba(255,255,255,0.14); color: #fff; }
+
+  .rl-counter { font-size: 0.72rem; color: rgba(255,255,255,0.25); margin-top: 0.75rem; text-align: center; }
+  .rl-counter strong { color: rgba(255,255,255,0.45); }
+
+  /* ── CTA ── */
   .rk-cta-box {
     display: flex; align-items: center; gap: 1rem;
-    background: rgba(229,9,20,0.1); border: 1px solid rgba(229,9,20,0.3);
-    border-radius: 12px; padding: 1.25rem; margin-bottom: 2.5rem; text-align: left;
+    background: rgba(229,9,20,0.08); border: 1px solid rgba(229,9,20,0.28);
+    border-radius: 12px; padding: 1.25rem; margin-top: 3rem;
   }
   .rk-cta-avatar { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
   .rk-cta-emoji  { font-size: 2rem; flex-shrink: 0; }
   .rk-cta-text   { flex: 1; }
-  .rk-cta-title  { font-size: 0.92rem; font-weight: 700; color: #fff; margin-bottom: 0.2rem; }
-  .rk-cta-desc   { font-size: 0.75rem; color: rgba(255,255,255,0.45); line-height: 1.4; }
+  .rk-cta-title  { font-size: 0.9rem; font-weight: 700; color: #fff; margin-bottom: 0.2rem; }
+  .rk-cta-desc   { font-size: 0.75rem; color: rgba(255,255,255,0.42); line-height: 1.4; }
   .rk-btn-red {
     flex-shrink: 0; background: #e50914; color: #fff; font-weight: 700;
     font-size: 0.8rem; padding: 0.55rem 0.9rem; border-radius: 6px;
@@ -373,39 +662,32 @@ const statusLabel: Record<string,string> = {
   }
   .rk-btn-red:hover { background: #c40812; }
 
-  /* RANKING */
-  .rk-ranking-title {
-    font-size: 0.72rem; font-weight: 700; color: rgba(255,255,255,0.4);
-    text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.875rem; text-align: left;
-  }
-  .rk-ranking-list { display: flex; flex-direction: column; gap: 0.45rem; margin-bottom: 3rem; }
-
+  /* ── Ranking ── */
+  .rk-ranking-list { display: flex; flex-direction: column; gap: 0.4rem; }
   .rk-rank-row {
     display: flex; align-items: center; gap: 0.875rem;
     background: #1a1a1a; border: 1px solid rgba(255,255,255,0.06);
-    border-radius: 10px; padding: 0.75rem 1rem;
+    border-radius: 10px; padding: 0.7rem 1rem;
     text-decoration: none; transition: background 0.2s, border-color 0.2s;
   }
   .rk-rank-row:hover { background: #222; border-color: rgba(255,255,255,0.13); }
-
-  .rk-rank-num { font-size: 0.7rem; font-weight: 700; color: rgba(255,255,255,0.22); width: 1.1rem; text-align: center; flex-shrink: 0; }
-
+  .rk-rank-num { font-size: 0.68rem; font-weight: 700; color: rgba(255,255,255,0.22); width: 1rem; text-align: center; flex-shrink: 0; }
   .rk-rank-avatar-img   { width: 38px; height: 38px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
   .rk-rank-avatar-emoji { width: 38px; height: 38px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0; }
-
   .rk-rank-info { flex: 1; text-align: left; min-width: 0; }
   .rk-rank-name { display: block; font-size: 0.85rem; font-weight: 700; color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .rk-rank-meta { display: block; font-size: 0.7rem; color: rgba(255,255,255,0.32); margin-top: 0.1rem; }
-  .rk-rank-meta strong { color: rgba(255,255,255,0.6); font-weight: 600; }
-
-  .rk-status { font-size: 0.65rem; font-weight: 600; padding: 0.22rem 0.55rem; border-radius: 99px; white-space: nowrap; flex-shrink: 0; }
+  .rk-rank-meta { display: block; font-size: 0.68rem; color: rgba(255,255,255,0.3); margin-top: 0.1rem; }
+  .rk-rank-meta strong { color: rgba(255,255,255,0.55); font-weight: 600; }
+  .rk-status { font-size: 0.63rem; font-weight: 600; padding: 0.2rem 0.5rem; border-radius: 99px; white-space: nowrap; flex-shrink: 0; }
   .rk-status--activo     { background: rgba(29,185,84,0.15); color: #1db954; }
   .rk-status--inactivo   { background: rgba(255,255,255,0.07); color: rgba(255,255,255,0.3); }
   .rk-status--esporadico { background: rgba(253,203,110,0.15); color: #fdcb6e; }
 
-  @media (max-width: 480px) {
-    .rk-card { padding: 2rem 1.25rem; }
+  /* ── Responsive ── */
+  @media (max-width: 500px) {
+    .qz-card { padding: 1.5rem 1rem; }
     .rk-cta-box { flex-wrap: wrap; }
     .rk-btn-red { width: 100%; text-align: center; }
+    .rl-slot-item { width: 140px; }
   }
 </style>
