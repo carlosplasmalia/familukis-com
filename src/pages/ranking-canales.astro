@@ -16,7 +16,7 @@ const channelDefs = [
   { name: 'La diversión de Martina', handle: '@MartinaDAntiochia',    emoji: '🌈', color: '#ff9ff3', era: '2015 – 2021',  status: 'inactivo',   cat: 'Familia',                  desc: 'Martina y su familia en vlogs, retos y momentos que parecían sacados de la familia perfecta.', quizInclude: true },
   { name: 'Las Ratitas pandilleras', handle: '@RatitasPandilleras',   emoji: '🐭', color: '#badc58', era: '2016 – 2023',  status: 'esporádico', cat: 'Familia & Hermanas',       desc: 'Tres hermanas, caos total y risas garantizadas. El caos familiar convertido en entretenimiento puro.', quizInclude: true },
   { name: 'MikelTube',              handle: '@MikelTubeTV',          emoji: '🚢', color: '#0984e3', era: '2014 – hoy',   status: 'activo',     cat: 'Familia & Aventuras',      desc: 'Aventuras en familia, experimentos imposibles y una energía que enganchó a millones de niños en toda España.', quizInclude: true },
-  { name: 'Los Familukis',          handle: '@MagicExploradores',    emoji: '🌊', color: '#e50914', era: '2020 – hoy',   status: 'activo',     cat: 'Familia & Aventuras',      desc: 'Parques, aventuras y momentos reales en familia por toda España. ¡Ese somos nosotros! 👋', quizInclude: false, isFamilukis: true, staticThumb: '/favicon-512x512.png' },
+  { name: 'Los Familukis',          handle: '@MagicExploradores',    emoji: '🌊', color: '#e50914', era: '2020 – hoy',   status: 'activo',     cat: 'Familia & Aventuras',      desc: 'Parques, aventuras y momentos reales en familia por toda España. ¡Ese somos nosotros! 👋', quizInclude: false, staticThumb: '/favicon-512x512.png' },
 ];
 
 const channels = channelDefs.map(ch => {
@@ -90,17 +90,14 @@ const statusLabel: Record<string, string> = { activo: 'Activo ✅', inactivo: 'I
           <!-- TV pantalla -->
           <div class="rl-tv">
             <div class="rl-tv-screen">
-              <!-- Capas de la pantalla (orden por z-index) -->
-              <img id="rl-thumb"    class="rl-thumb"    src="" alt="" />
-              <img id="rl-spin-img" class="rl-spin-img" src="" alt="" />
+              <img id="rl-thumb"    class="rl-screen-layer rl-thumb"    src="" alt="" />
+              <img id="rl-spin-img" class="rl-screen-layer rl-spin-img" src="" alt="" />
               <div class="rl-scanlines"></div>
-              <!-- Botón play — clic para reproducir el vídeo -->
               <button id="rl-play-btn" class="rl-play-btn" aria-label="Reproducir vídeo">
                 <div class="rl-play-icon">
                   <svg viewBox="0 0 24 24" fill="white" width="52" height="52"><path d="M8 5v14l11-7z"/></svg>
                 </div>
               </button>
-              <!-- iframe — solo cuando el usuario pulsa play -->
               <iframe
                 id="rl-iframe"
                 class="rl-iframe"
@@ -109,7 +106,6 @@ const statusLabel: Record<string, string> = { activo: 'Activo ✅', inactivo: 'I
                 allow="autoplay; encrypted-media; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-              <!-- Overlay de misterio (encima de todo hasta girar) -->
               <div class="rl-mystery-overlay">
                 <div class="rl-mystery-grain"></div>
                 <span class="rl-mystery-q">?</span>
@@ -119,7 +115,6 @@ const statusLabel: Record<string, string> = { activo: 'Activo ✅', inactivo: 'I
             <div class="rl-tv-stand"></div>
           </div>
 
-          <!-- Botón girar — justo bajo el vídeo -->
           <button id="rl-btn" class="rl-btn">
             <span id="rl-btn-text">¡Girar!</span>
             <svg id="rl-spinner" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" class="hidden">
@@ -127,10 +122,9 @@ const statusLabel: Record<string, string> = { activo: 'Activo ✅', inactivo: 'I
             </svg>
           </button>
 
-          <!-- Info del vídeo (??? en estado misterio) -->
           <div class="rl-card-info">
             <div class="rl-ch-badge">
-              <img id="rl-ch-thumb" src="" alt="" class="rl-ch-avatar" style="display:none" />
+              <img id="rl-ch-thumb" src="" alt="" class="rl-ch-avatar" />
               <span id="rl-ch-name" class="rl-ch-name">???</span>
             </div>
             <p id="rl-vid-title" class="rl-vid-title">Gira para descubrir un vídeo...</p>
@@ -258,7 +252,8 @@ const statusLabel: Record<string, string> = { activo: 'Activo ✅', inactivo: 'I
   const rlVidYear = document.getElementById('rl-vid-year');
   const rlCounter = document.getElementById('rl-count');
 
-  let rlSpinning = false;
+  let revealTimer = null;
+  let rafId = null;
   let currentVideoId = null;
   let explored = parseInt(localStorage.getItem('rl_explored') || '0');
   rlCounter.textContent = explored;
@@ -267,12 +262,13 @@ const statusLabel: Record<string, string> = { activo: 'Activo ✅', inactivo: 'I
   const chanThumbs = quizChannels.map(c => c.thumb).filter(Boolean);
 
   function spin() {
-    if (rlSpinning) return;
-    rlSpinning = true;
+    if (rlBtn.disabled) return;
 
-    // Reset: stop playing video, clear iframe, go back to spinning state
+    if (rafId) { cancelAnimationFrame(rafId); rafId = null; }
+    clearTimeout(revealTimer);
+
     rlIframe.src = '';
-    rlCard.classList.remove('rl-playing');
+    rlCard.classList.remove('rl-playing', 'rl-reveal');
     rlCard.classList.remove('rl-mystery');
     rlCard.classList.add('rl-spinning');
 
@@ -305,13 +301,14 @@ const statusLabel: Record<string, string> = { activo: 'Activo ✅', inactivo: 'I
       }
 
       if (progress < 1) {
-        requestAnimationFrame(frame);
+        rafId = requestAnimationFrame(frame);
       } else {
+        rafId = null;
         revealThumbnail(video);
       }
     }
 
-    requestAnimationFrame(frame);
+    rafId = requestAnimationFrame(frame);
   }
 
   function revealThumbnail(video) {
@@ -328,16 +325,14 @@ const statusLabel: Record<string, string> = { activo: 'Activo ✅', inactivo: 'I
     rlVidTitle.textContent = video.title;
     rlVidYear.textContent  = video.published ? video.published.slice(0, 4) : '';
 
-    // Transition to revealed
     rlCard.classList.remove('rl-spinning');
     rlCard.classList.add('rl-reveal');
-    setTimeout(() => rlCard.classList.remove('rl-reveal'), 600);
+    revealTimer = setTimeout(() => rlCard.classList.remove('rl-reveal'), 600);
 
     explored++;
     localStorage.setItem('rl_explored', explored);
     rlCounter.textContent = explored;
 
-    rlSpinning = false;
     rlBtnText.textContent = '🎲 ¡Volver a girar!';
     rlSpinner.classList.add('hidden');
     rlBtn.disabled = false;
@@ -513,21 +508,17 @@ const statusLabel: Record<string, string> = { activo: 'Activo ✅', inactivo: 'I
 
   /* ── TV screen layers (z-index order) ── */
 
+  .rl-screen-layer { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: none; }
+
   /* 1 — video thumbnail (base layer, revealed state) */
-  .rl-thumb {
-    position: absolute; inset: 0; width: 100%; height: 100%;
-    object-fit: cover; z-index: 1; display: none;
-    filter: sepia(0.08) contrast(1.05);
-  }
+  .rl-thumb { z-index: 1; filter: sepia(0.08) contrast(1.05); }
   #rl-card:not(.rl-mystery):not(.rl-spinning):not(.rl-playing) .rl-thumb { display: block; }
 
   /* 2 — spinning channel logos */
-  .rl-spin-img {
-    position: absolute; inset: 0; width: 100%; height: 100%;
-    object-fit: cover; z-index: 2; display: none;
-    filter: brightness(0.88);
-  }
+  .rl-spin-img { z-index: 2; filter: brightness(0.88); }
   .rl-spinning .rl-spin-img { display: block; }
+
+  #rl-ch-thumb { display: none; }
 
   /* 3 — scanlines (always on, above images) */
 
