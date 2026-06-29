@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { execSync } from 'child_process';
+import ytData from '../data/channels_yt.json';
 
 // ── Canal definitions ────────────────────────────────────────────────────────
 const channelDefs = [
@@ -18,31 +18,16 @@ const channelDefs = [
   { name: 'Los Familukis',           handle: '@MagicExploradores',    emoji: '🌊', color: '#e50914', era: '2020 – hoy',   status: 'activo',     cat: 'Familia & Aventuras',      desc: '¡Ese somos nosotros! Parques, aventuras y momentos reales en familia. El relevo generacional está aquí 👋', quizInclude: false, isFamilukis: true, staticThumb: '/favicon-512x512.png' },
 ];
 
-// ── Build-time data fetch via yt-dlp ────────────────────────────────────────
-function fetchChannel(handle: string) {
-  try {
-    const url = handle.startsWith('@') || handle.startsWith('http')
-      ? (handle.startsWith('http') ? handle : `https://www.youtube.com/${handle}`)
-      : `https://www.youtube.com/c/${handle}`;
-    const raw = execSync(
-      `yt-dlp --flat-playlist --playlist-items 0 --dump-single-json --no-warnings "${url}"`,
-      { timeout: 18000, stdio: ['pipe','pipe','pipe'] }
-    ).toString();
-    const d = JSON.parse(raw);
-    const thumb = (d.thumbnails || []).find((t: any) => t.url)?.url ?? null;
-    return {
-      id:   d.channel_id ?? d.id ?? null,
-      subs: d.channel_follower_count ?? null,
-      thumb,
-      realName: d.channel ?? d.title ?? null,
-    };
-  } catch { return { id: null, subs: null, thumb: null, realName: null }; }
-}
-
+// ── Merge static definitions with YouTube API data ───────────────────────────
 const channels = channelDefs.map(ch => {
-  const live = fetchChannel(ch.handle);
-  // staticThumb overrides yt-dlp thumbnail (e.g. local favicon for own channel)
-  return { ...ch, ...live, thumb: (ch as any).staticThumb ?? live.thumb };
+  const yt = (ytData as any)[ch.name] ?? {};
+  return {
+    ...ch,
+    id:   yt.channel_id ?? null,
+    subs: yt.subscriber_count ?? null,
+    // staticThumb (favicon) overrides API thumb for own channel
+    thumb: (ch as any).staticThumb ?? yt.thumb ?? null,
+  };
 });
 
 // Sort ranking by subs desc (unknown last)
