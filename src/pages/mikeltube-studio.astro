@@ -1,887 +1,745 @@
 ---
-// Mikeltube Adventures — Asset Studio
-// URL privada: /mikeltube-studio  (noindex)
-const title = "Mikeltube Studio — Asset Viewer";
+// Mikeltube Adventures — HTML5 Game (noindex)
 ---
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
   <meta name="robots" content="noindex, nofollow"/>
-  <title>{title}</title>
+  <title>Mikeltube Adventures</title>
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    :root {
-      --bg: #0f1117;
-      --bg2: #1a1d2e;
-      --bg3: #252840;
-      --accent: #6c63ff;
-      --accent2: #ff6b6b;
-      --text: #e0e0f0;
-      --text2: #9898b8;
-      --border: #2d2f4a;
-      --card: #1e2035;
-    }
-
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: 'Segoe UI', system-ui, sans-serif;
-      font-size: 14px;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
-
-    /* HEADER */
-    header {
-      background: var(--bg2);
-      border-bottom: 1px solid var(--border);
-      padding: 0 20px;
-      height: 54px;
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-    header h1 {
-      font-size: 16px;
-      font-weight: 700;
-      color: var(--accent);
-      white-space: nowrap;
-    }
-    header h1 span { color: var(--accent2); }
-
-    #search {
-      flex: 1;
-      max-width: 400px;
-      background: var(--bg3);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 7px 12px;
-      color: var(--text);
-      font-size: 13px;
-      outline: none;
-    }
-    #search::placeholder { color: var(--text2); }
-    #search:focus { border-color: var(--accent); }
-
-    .header-stats { color: var(--text2); font-size: 12px; margin-left: auto; white-space: nowrap; }
-
-    /* LAYOUT */
-    .layout {
-      display: flex;
-      flex: 1;
-      overflow: hidden;
-      height: calc(100vh - 54px);
-    }
-
-    /* SIDEBAR */
-    nav {
-      width: 200px;
-      min-width: 200px;
-      background: var(--bg2);
-      border-right: 1px solid var(--border);
-      overflow-y: auto;
-      padding: 12px 0;
-    }
-
-    .nav-section { padding: 6px 16px 2px; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--text2); }
-
-    .nav-btn {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      width: 100%;
-      padding: 8px 16px;
-      background: none;
-      border: none;
-      color: var(--text2);
-      cursor: pointer;
-      font-size: 13px;
-      text-align: left;
-      border-left: 3px solid transparent;
-      transition: all 0.15s;
-    }
-    .nav-btn:hover { background: var(--bg3); color: var(--text); }
-    .nav-btn.active { background: var(--bg3); color: var(--accent); border-left-color: var(--accent); }
-    .nav-btn .count {
-      margin-left: auto;
-      font-size: 11px;
-      background: var(--bg);
-      padding: 1px 6px;
-      border-radius: 10px;
-      color: var(--text2);
-    }
-
-    /* MAIN CONTENT */
-    main {
-      flex: 1;
-      overflow-y: auto;
-      padding: 20px;
-    }
-
-    /* TABS */
-    .tab-bar {
-      display: flex;
-      gap: 4px;
-      margin-bottom: 20px;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 0;
-    }
-    .tab {
-      padding: 8px 16px;
-      background: none;
-      border: none;
-      color: var(--text2);
-      cursor: pointer;
-      font-size: 13px;
-      font-weight: 500;
-      border-bottom: 2px solid transparent;
-      margin-bottom: -1px;
-    }
-    .tab.active { color: var(--accent); border-bottom-color: var(--accent); }
-    .tab:hover:not(.active) { color: var(--text); }
-
-    /* GRID */
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-      gap: 10px;
-    }
-    .grid.large { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
-    .grid.list { grid-template-columns: 1fr; gap: 4px; }
-
-    .asset-card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      overflow: hidden;
-      cursor: pointer;
-      transition: all 0.15s;
-      position: relative;
-    }
-    .asset-card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 4px 16px rgba(108,99,255,0.2); }
-
-    .asset-thumb {
-      width: 100%;
-      aspect-ratio: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: repeating-conic-gradient(#1a1d2e 0% 25%, #252840 0% 50%) 0 0 / 16px 16px;
-      overflow: hidden;
-      position: relative;
-    }
-    .asset-thumb img {
-      max-width: 100%;
-      max-height: 100%;
-      object-fit: contain;
-      image-rendering: pixelated;
-    }
-    .asset-label {
-      padding: 6px 8px;
-      font-size: 10px;
-      color: var(--text2);
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      border-top: 1px solid var(--border);
-    }
-
-    /* ANIM BADGE */
-    .atlas-badge {
-      position: absolute;
-      top: 4px;
-      right: 4px;
-      background: var(--accent);
-      color: white;
-      font-size: 9px;
-      font-weight: 700;
-      padding: 2px 5px;
-      border-radius: 4px;
-    }
-
-    /* VIEW CONTROLS */
-    .view-controls {
-      display: flex;
-      gap: 8px;
-      margin-bottom: 16px;
-      align-items: center;
-    }
-    .view-controls span { color: var(--text2); font-size: 12px; }
-    .icon-btn {
-      background: var(--bg3);
-      border: 1px solid var(--border);
-      border-radius: 5px;
-      padding: 5px 10px;
-      color: var(--text2);
-      cursor: pointer;
-      font-size: 12px;
-    }
-    .icon-btn.active, .icon-btn:hover { background: var(--accent); color: white; border-color: var(--accent); }
-
-    /* MODAL */
-    #modal {
-      display: none;
-      position: fixed;
-      inset: 0;
-      background: rgba(0,0,0,0.85);
-      z-index: 1000;
-      align-items: center;
-      justify-content: center;
-    }
-    #modal.open { display: flex; }
-    .modal-inner {
-      background: var(--bg2);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      max-width: 90vw;
-      max-height: 90vh;
-      overflow: auto;
-      padding: 24px;
-      position: relative;
-      min-width: 400px;
-    }
-    .modal-close {
-      position: absolute;
-      top: 12px;
-      right: 12px;
-      background: var(--bg3);
-      border: none;
-      color: var(--text);
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      cursor: pointer;
-      font-size: 16px;
-    }
-    .modal-img {
-      max-width: 70vw;
-      max-height: 70vh;
-      object-fit: contain;
-      display: block;
-      margin: 0 auto 12px;
-      image-rendering: pixelated;
-      background: repeating-conic-gradient(#1a1d2e 0% 25%, #252840 0% 50%) 0 0 / 20px 20px;
-      border-radius: 6px;
-    }
-    .modal-title { font-size: 14px; font-weight: 600; text-align: center; color: var(--text); margin-bottom: 4px; }
-    .modal-meta { font-size: 12px; color: var(--text2); text-align: center; }
-    .modal-nav { display: flex; justify-content: center; gap: 12px; margin-top: 16px; }
-    .modal-nav button {
-      background: var(--bg3);
-      border: 1px solid var(--border);
-      color: var(--text);
-      padding: 6px 20px;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 13px;
-    }
-    .modal-nav button:hover { border-color: var(--accent); color: var(--accent); }
-
-    /* ANIM PLAYER */
-    .anim-player {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 16px;
-      margin-bottom: 16px;
-    }
-    .anim-player h3 { font-size: 13px; color: var(--text2); margin-bottom: 12px; }
-    .anim-canvas-wrap {
-      background: repeating-conic-gradient(#1a1d2e 0% 25%, #252840 0% 50%) 0 0 / 20px 20px;
-      border-radius: 6px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 200px;
-      margin-bottom: 12px;
-      overflow: hidden;
-    }
-    #animCanvas { image-rendering: pixelated; }
-    .anim-controls { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
-    .anim-controls label { font-size: 12px; color: var(--text2); }
-    .anim-controls input[type=range] { flex: 1; min-width: 100px; }
-
-    /* ANIM LIST */
-    .anim-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 8px; }
-    .anim-item {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 12px;
-      cursor: pointer;
-      transition: border-color 0.15s;
-    }
-    .anim-item:hover { border-color: var(--accent); }
-    .anim-item.active { border-color: var(--accent); background: var(--bg3); }
-    .anim-item-name { font-size: 13px; font-weight: 600; margin-bottom: 4px; }
-    .anim-item-meta { font-size: 11px; color: var(--text2); }
-
-    /* SPRITE ANIMATOR for atlas */
-    .frame-strip {
-      display: flex;
-      gap: 6px;
-      flex-wrap: wrap;
-      margin-top: 12px;
-    }
-    .frame-thumb {
-      width: 60px;
-      height: 60px;
-      background: repeating-conic-gradient(#1a1d2e 0% 25%, #252840 0% 50%) 0 0 / 10px 10px;
-      border-radius: 4px;
-      border: 1px solid var(--border);
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-    }
-    .frame-thumb img { max-width: 100%; max-height: 100%; object-fit: contain; image-rendering: pixelated; }
-    .frame-thumb.active-frame { border-color: var(--accent); }
-
-    /* LEVEL BUILDER */
-    #levelBuilder { display: none; }
-    #levelBuilder.active { display: block; }
-    .builder-top { display: flex; gap: 16px; height: calc(100vh - 160px); }
-    .builder-canvas-wrap {
-      flex: 1;
-      background: #1a2a4a;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      overflow: hidden;
-      position: relative;
-    }
-    #levelCanvas { display: block; cursor: crosshair; }
-    .builder-panel {
-      width: 200px;
-      background: var(--bg2);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      overflow-y: auto;
-      padding: 12px;
-    }
-    .builder-panel h3 { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--text2); margin-bottom: 10px; }
-    .palette-item {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      padding: 6px;
-      border-radius: 5px;
-      cursor: pointer;
-      margin-bottom: 2px;
-    }
-    .palette-item:hover, .palette-item.selected { background: var(--bg3); }
-    .palette-item img { width: 36px; height: 36px; object-fit: contain; image-rendering: pixelated; }
-    .palette-item span { font-size: 11px; color: var(--text2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-    .builder-tools { display: flex; gap: 6px; margin-bottom: 12px; }
-    .tool-btn {
-      padding: 5px 10px;
-      background: var(--bg3);
-      border: 1px solid var(--border);
-      border-radius: 5px;
-      color: var(--text2);
-      cursor: pointer;
-      font-size: 11px;
-    }
-    .tool-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
-
-    /* EMPTY STATE */
-    .empty { text-align: center; padding: 60px 20px; color: var(--text2); }
-    .empty .icon { font-size: 48px; margin-bottom: 16px; }
-    .empty p { font-size: 14px; }
-
-    /* SCROLLBAR */
-    ::-webkit-scrollbar { width: 6px; height: 6px; }
-    ::-webkit-scrollbar-track { background: var(--bg); }
-    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
-    ::-webkit-scrollbar-thumb:hover { background: var(--accent); }
-
-    /* LOADING */
-    .loading { text-align: center; padding: 40px; color: var(--text2); }
-    .spin { display: inline-block; width: 24px; height: 24px; border: 3px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; margin-bottom: 12px; }
-    @keyframes spin { to { transform: rotate(360deg); } }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    html,body { width:100%; height:100%; background:#0a1020; overflow:hidden; touch-action:none; }
+    body { display:flex; align-items:center; justify-content:center; }
+    canvas { display:block; image-rendering:pixelated; image-rendering:crisp-edges; cursor:pointer; }
   </style>
 </head>
 <body>
-
-<header>
-  <h1>🎮 Mikeltube <span>Studio</span></h1>
-  <input id="search" type="search" placeholder="Buscar assets…" autocomplete="off"/>
-  <div class="header-stats" id="statsBar">Cargando…</div>
-</header>
-
-<div class="layout">
-  <nav id="sidebar">
-    <div class="nav-section">Categorías</div>
-    <button class="nav-btn active" data-cat="all">📦 Todos <span class="count" id="cnt-all">—</span></button>
-    <button class="nav-btn" data-cat="characters">🧑 Personajes <span class="count" id="cnt-characters">—</span></button>
-    <button class="nav-btn" data-cat="backgrounds">🏔️ Fondos <span class="count" id="cnt-backgrounds">—</span></button>
-    <button class="nav-btn" data-cat="obstacles">💣 Obstáculos <span class="count" id="cnt-obstacles">—</span></button>
-    <button class="nav-btn" data-cat="effects">✨ Efectos <span class="count" id="cnt-effects">—</span></button>
-    <button class="nav-btn" data-cat="collectibles">⭐ Coleccionables <span class="count" id="cnt-collectibles">—</span></button>
-    <button class="nav-btn" data-cat="ui">🖼️ UI <span class="count" id="cnt-ui">—</span></button>
-    <button class="nav-btn" data-cat="atlases">🗂️ Atlas <span class="count" id="cnt-atlases">—</span></button>
-    <button class="nav-btn" data-cat="other">📂 Otros <span class="count" id="cnt-other">—</span></button>
-
-    <div class="nav-section" style="margin-top:12px">Herramientas</div>
-    <button class="nav-btn" data-tool="animator">🎬 Animador</button>
-    <button class="nav-btn" data-tool="level">🗺️ Level Builder</button>
-  </nav>
-
-  <main id="mainContent">
-    <div class="loading"><div class="spin"></div><br>Cargando assets…</div>
-  </main>
-</div>
-
-<!-- MODAL -->
-<div id="modal">
-  <div class="modal-inner">
-    <button class="modal-close" id="modalClose">✕</button>
-    <img class="modal-img" id="modalImg" src="" alt=""/>
-    <div class="modal-title" id="modalTitle"></div>
-    <div class="modal-meta" id="modalMeta"></div>
-    <div class="modal-nav">
-      <button id="modalPrev">← Anterior</button>
-      <a id="modalDownload" download style="
-        background: var(--accent);
-        color: white;
-        border: none;
-        padding: 6px 20px;
-        border-radius: 6px;
-        cursor: pointer;
-        font-size: 13px;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-      ">⬇ Descargar</a>
-      <button id="modalNext">Siguiente →</button>
-    </div>
-  </div>
-</div>
-
+<canvas id="c"></canvas>
 <script>
-const BASE = '/mk-studio';
-let INDEX = null;
-let currentAssets = [];
-let currentIdx = 0;
-let viewMode = 'grid'; // grid | large | list
-let currentCategory = 'all';
-let searchQuery = '';
-let currentTool = null;
+'use strict';
 
-// Build flat asset list from index
-function buildAssets(index) {
-  const list = [];
-  for (const [type, files] of [['sprites', index.sprites], ['textures', index.textures]]) {
-    for (const f of files) {
-      const cat = categorize(f);
-      list.push({ type, file: f, cat, url: `${BASE}/${type}/${encodeURIComponent(f)}` });
-    }
-  }
-  return list;
+// ═══════════════════════════════════════════════════
+//  CANVAS & SCALE
+// ═══════════════════════════════════════════════════
+const canvas = document.getElementById('c');
+const ctx    = canvas.getContext('2d');
+const W = 960, H = 540;
+canvas.width = W; canvas.height = H;
+
+function resize() {
+  const s = Math.min(window.innerWidth / W, window.innerHeight / H);
+  canvas.style.width  = Math.floor(W * s) + 'px';
+  canvas.style.height = Math.floor(H * s) + 'px';
 }
+window.addEventListener('resize', resize);
+resize();
 
-function categorize(name) {
-  const n = name.toLowerCase();
-  if (/mikel|leo|pirate|pirata|witch|bruja|bubeado|robot|soldier|soldado|gato|dog|gorilla|beerus|brunilda|gunilda|eufrasio/.test(n)) return 'characters';
-  if (/^bg|background|fondo|cloud|mountain|montain|mars|sky|ocean|wave|water|foam|coral|isla|rocks/.test(n)) return 'backgrounds';
-  if (/cannon|shark|esparrago|mina|obstacle|bullet|missile|rayo|bola|bomb|laser/.test(n)) return 'obstacles';
-  if (/coin|gold|silver|bronze|gem|gema|token|star|estrella|score|point/.test(n)) return 'collectibles';
-  if (/button|btn|ui|window|bar|popup|store|icon|logo|title|text|arrow|check|close|back|go\.|ready|new\.|cancel|delete|compras|vibrat|marcador|scores|vertical|standard|fondo barra/.test(n)) return 'ui';
-  if (/explosion|hit|splash|smoke|shine|boost|turbo|wind|trail|effect|shield|escudo|energy|shine|sparkle/.test(n)) return 'effects';
-  if (/atlas/.test(n)) return 'atlases';
-  return 'other';
-}
+// ═══════════════════════════════════════════════════
+//  ASSETS
+// ═══════════════════════════════════════════════════
+const S  = '/mk-studio/sprites/';
+const TX = '/mk-studio/textures/';
 
-function getFiltered() {
-  let items = currentAssets;
-  if (currentCategory !== 'all') items = items.filter(a => a.cat === currentCategory);
-  if (searchQuery) {
-    const q = searchQuery.toLowerCase();
-    items = items.filter(a => a.file.toLowerCase().includes(q));
-  }
-  return items;
-}
-
-function renderGrid() {
-  const items = getFiltered();
-  const main = document.getElementById('mainContent');
-
-  let modeClass = 'grid';
-  if (viewMode === 'large') modeClass = 'grid large';
-  if (viewMode === 'list') modeClass = 'grid list';
-
-  const controls = `
-    <div class="view-controls">
-      <span>${items.length} assets</span>
-      <button class="icon-btn ${viewMode==='grid'?'active':''}" onclick="setView('grid')">⊞ Grid</button>
-      <button class="icon-btn ${viewMode==='large'?'active':''}" onclick="setView('large')">⊟ Grande</button>
-      <button class="icon-btn ${viewMode==='list'?'active':''}" onclick="setView('list')">☰ Lista</button>
-    </div>`;
-
-  if (!items.length) {
-    main.innerHTML = controls + `<div class="empty"><div class="icon">🔍</div><p>No se encontraron assets</p></div>`;
-    return;
-  }
-
-  const cards = items.map((a, i) => {
-    const isAtlas = a.file.toLowerCase().includes('atlas') || /_\d+\.png$/.test(a.file);
-    const badge = isAtlas ? `<span class="atlas-badge">ATLAS</span>` : '';
-    if (viewMode === 'list') {
-      return `<div class="asset-card" style="display:flex;align-items:center;gap:12px;padding:8px" onclick="openModal(${i})" data-idx="${i}">
-        <img src="${a.url}" style="width:40px;height:40px;object-fit:contain;image-rendering:pixelated;flex-shrink:0" loading="lazy"/>
-        <span style="font-size:12px;color:var(--text)">${a.file}</span>
-        <span style="margin-left:auto;font-size:10px;color:var(--text2)">${a.type}</span>
-      </div>`;
-    }
-    return `<div class="asset-card" onclick="openModal(${i})" data-idx="${i}">
-      <div class="asset-thumb">
-        ${badge}
-        <img src="${a.url}" loading="lazy" decoding="async" alt="${a.file}"/>
-      </div>
-      <div class="asset-label" title="${a.file}">${a.file.replace(/\.png$/i,'')}</div>
-    </div>`;
-  }).join('');
-
-  main.innerHTML = controls + `<div class="${modeClass}">${cards}</div>`;
-  currentAssets = currentAssets; // keep reference
-  // store filtered list for modal navigation
-  window._filteredAssets = items;
-}
-
-window.setView = function(mode) { viewMode = mode; renderGrid(); };
-
-function openModal(idx) {
-  const items = window._filteredAssets || getFiltered();
-  currentIdx = idx;
-  const a = items[idx];
-  const modal = document.getElementById('modal');
-  const img = document.getElementById('modalImg');
-  img.src = a.url;
-  document.getElementById('modalTitle').textContent = a.file;
-  document.getElementById('modalMeta').textContent = `Categoría: ${a.cat} · Tipo: ${a.type}`;
-  document.getElementById('modalDownload').href = a.url;
-  document.getElementById('modalDownload').download = a.file;
-  modal.classList.add('open');
-}
-window.openModal = openModal;
-
-document.getElementById('modalClose').onclick = () => document.getElementById('modal').classList.remove('open');
-document.getElementById('modal').onclick = (e) => { if (e.target === e.currentTarget) e.currentTarget.classList.remove('open'); };
-
-document.getElementById('modalPrev').onclick = () => {
-  const items = window._filteredAssets || [];
-  if (currentIdx > 0) openModal(currentIdx - 1);
-};
-document.getElementById('modalNext').onclick = () => {
-  const items = window._filteredAssets || [];
-  if (currentIdx < items.length - 1) openModal(currentIdx + 1);
+const ASSET_LIST = {
+  // UI / title
+  logo:     S + 'MikelTubeLogo_2.png',
+  titleBg:  S + 'MIKELTUBE TITLE BG.png',
+  heart:    S + 'health.png',
+  // Background layers
+  bg:       S + 'BACKGROUND.png',
+  cloud1:   S + 'cloud1.png',
+  cloud2:   S + 'cloud 2.png',
+  cloud3:   S + 'cloud 3.png',
+  cloud4:   S + 'cloud 4.png',
+  mtn1:     S + 'montain big1.png',
+  mtn2:     S + 'montain big2.png',
+  wave:     S + 'ONE SINGLE WAVE_2.png',
+  ship:     TX + 'Barco.png',
+  wood:     TX + 'madera.png',
+  // Character — run cycle (9 frames)
+  r0: S+'RUNCYCLE_MIKEL_PWERSUIT_atlas_0.png',
+  r1: S+'RUNCYCLE_MIKEL_PWERSUIT_atlas_1.png',
+  r2: S+'RUNCYCLE_MIKEL_PWERSUIT_atlas_2.png',
+  r3: S+'RUNCYCLE_MIKEL_PWERSUIT_atlas_3.png',
+  r4: S+'RUNCYCLE_MIKEL_PWERSUIT_atlas_4.png',
+  r5: S+'RUNCYCLE_MIKEL_PWERSUIT_atlas_5.png',
+  r6: S+'RUNCYCLE_MIKEL_PWERSUIT_atlas_6.png',
+  r7: S+'RUNCYCLE_MIKEL_PWERSUIT_atlas_7.png',
+  r8: S+'RUNCYCLE_MIKEL_PWERSUIT_atlas_8.png',
+  jump: S + 'MIKeL AIRBORNE.png',
+  dead: S + 'MIKEL SPLAT BASE.png',
+  // Obstacles
+  cannon:   S + 'cannon.png',
+  cb0: S + 'cannonball ATLAS_0.png',
+  cb1: S + 'cannonball ATLAS_1.png',
+  cb2: S + 'cannonball ATLAS_2.png',
+  pirate:   S + 'PIRATE.png',
+  pirateAir:S + 'PIRATE AIRBORNE.png',
+  warn0: S + 'ATLAS_CANNONBALL_WARNING_0.png',
+  warn1: S + 'ATLAS_CANNONBALL_WARNING_1.png',
+  warn2: S + 'ATLAS_CANNONBALL_WARNING_2.png',
+  // Coins
+  c0: S+'SPECIAL COIN ATLAS_0.png',
+  c1: S+'SPECIAL COIN ATLAS_1.png',
+  c2: S+'SPECIAL COIN ATLAS_2.png',
+  c3: S+'SPECIAL COIN ATLAS_3.png',
+  c4: S+'SPECIAL COIN ATLAS_4.png',
+  c5: S+'SPECIAL COIN ATLAS_5.png',
+  c6: S+'SPECIAL COIN ATLAS_6.png',
+  // Power-up
+  shield0: S + 'escudo atlas_0.png',
+  shield1: S + 'escudo atlas_1.png',
+  shield2: S + 'escudo atlas_2.png',
+  shield3: S + 'escudo atlas_3.png',
+  shieldPU: S + 'shield.png',
+  boost0: S + 'BOOST atlas_0.png',
+  boost1: S + 'BOOST atlas_1.png',
+  boost2: S + 'BOOST atlas_2.png',
 };
 
-document.addEventListener('keydown', e => {
-  const modal = document.getElementById('modal');
-  if (!modal.classList.contains('open')) return;
-  if (e.key === 'Escape') modal.classList.remove('open');
-  if (e.key === 'ArrowLeft') document.getElementById('modalPrev').click();
-  if (e.key === 'ArrowRight') document.getElementById('modalNext').click();
-});
+const IMG = {};
+let loaded = 0;
+const TOTAL = Object.keys(ASSET_LIST).length;
 
-// ANIMATOR VIEW
-function renderAnimator() {
-  const main = document.getElementById('mainContent');
-
-  // Atlas groups: files with _N suffix
-  const allSprites = currentAssets.filter(a => a.type === 'sprites');
-  const atlasGroups = {};
-  for (const a of allSprites) {
-    const match = a.file.match(/^(.+?)_(\d+)\.png$/i);
-    if (match) {
-      const base = match[1];
-      if (!atlasGroups[base]) atlasGroups[base] = [];
-      atlasGroups[base].push(a);
+function preload() {
+  return new Promise(res => {
+    for (const [k, url] of Object.entries(ASSET_LIST)) {
+      const img = new Image();
+      img.onload = img.onerror = () => { IMG[k] = img; loaded++; if (loaded === TOTAL) res(); };
+      img.src = url;
     }
-  }
-  // Sort frames
-  for (const k of Object.keys(atlasGroups)) {
-    atlasGroups[k].sort((a,b) => {
-      const na = parseInt(a.file.match(/_(\d+)\.png$/)[1]);
-      const nb = parseInt(b.file.match(/_(\d+)\.png$/)[1]);
-      return na - nb;
-    });
-  }
-
-  const groupKeys = Object.keys(atlasGroups).sort();
-
-  main.innerHTML = `
-    <div style="display:flex;gap:20px;height:calc(100vh - 100px)">
-      <div style="width:280px;overflow-y:auto">
-        <div class="anim-list" style="display:block">
-          ${groupKeys.map((k,i) => `
-            <div class="anim-item" onclick="loadAtlas('${k}')" id="anim-${k.replace(/[^a-z0-9]/gi,'_')}">
-              <div class="anim-item-name">${k}</div>
-              <div class="anim-item-meta">${atlasGroups[k].length} frames</div>
-            </div>`).join('')}
-        </div>
-      </div>
-      <div style="flex:1">
-        <div class="anim-player">
-          <h3>🎬 Reproductor de Atlas</h3>
-          <div class="anim-canvas-wrap" id="animWrap">
-            <p style="color:var(--text2);font-size:13px">Selecciona un atlas de la lista →</p>
-          </div>
-          <div class="anim-controls" id="animControls" style="display:none">
-            <button class="icon-btn active" id="playBtn" onclick="togglePlay()">⏸ Pausar</button>
-            <label>FPS: <input type="range" id="fpsSlider" min="1" max="30" value="8" oninput="document.getElementById('fpsVal').textContent=this.value;setFps(+this.value)"/></label>
-            <span id="fpsVal" style="font-size:12px;color:var(--text2)">8</span>
-            <span id="frameLabel" style="font-size:12px;color:var(--text2)"></span>
-          </div>
-        </div>
-        <div class="frame-strip" id="frameStrip"></div>
-      </div>
-    </div>`;
-
-  window._atlasGroups = atlasGroups;
-}
-
-let _animInterval = null;
-let _animFrames = [];
-let _animFrame = 0;
-let _animFps = 8;
-let _animPlaying = true;
-
-window.loadAtlas = function(key) {
-  const frames = window._atlasGroups[key];
-  if (!frames) return;
-  _animFrames = frames;
-  _animFrame = 0;
-
-  document.querySelectorAll('.anim-item').forEach(el => el.classList.remove('active'));
-  const id = 'anim-' + key.replace(/[^a-z0-9]/gi,'_');
-  const el = document.getElementById(id);
-  if (el) { el.classList.add('active'); el.scrollIntoView({ block:'nearest' }); }
-
-  const wrap = document.getElementById('animWrap');
-  wrap.innerHTML = `<img id="animImg" style="max-width:100%;max-height:300px;object-fit:contain;image-rendering:pixelated" src="${frames[0].url}"/>`;
-
-  document.getElementById('animControls').style.display = 'flex';
-  const strip = document.getElementById('frameStrip');
-  strip.innerHTML = frames.map((f,i) => `
-    <div class="frame-thumb ${i===0?'active-frame':''}" id="ft-${i}" onclick="jumpFrame(${i})">
-      <img src="${f.url}" loading="lazy"/>
-    </div>`).join('');
-
-  clearInterval(_animInterval);
-  _animPlaying = true;
-  document.getElementById('playBtn').textContent = '⏸ Pausar';
-  startAnim();
-};
-
-function startAnim() {
-  clearInterval(_animInterval);
-  _animInterval = setInterval(() => {
-    if (!_animPlaying) return;
-    _animFrame = (_animFrame + 1) % _animFrames.length;
-    updateAnimFrame();
-  }, 1000 / _animFps);
-}
-
-function updateAnimFrame() {
-  const img = document.getElementById('animImg');
-  if (img) img.src = _animFrames[_animFrame].url;
-  document.getElementById('frameLabel').textContent = `Frame ${_animFrame+1}/${_animFrames.length}`;
-  document.querySelectorAll('.frame-thumb').forEach((el,i) => {
-    el.classList.toggle('active-frame', i === _animFrame);
   });
 }
 
-window.jumpFrame = function(i) { _animFrame = i; updateAnimFrame(); };
-window.togglePlay = function() {
-  _animPlaying = !_animPlaying;
-  document.getElementById('playBtn').textContent = _animPlaying ? '⏸ Pausar' : '▶ Play';
-};
-window.setFps = function(fps) { _animFps = fps; startAnim(); };
+// ═══════════════════════════════════════════════════
+//  GAME CONSTANTS
+// ═══════════════════════════════════════════════════
+const GROUND  = 415;     // y-coordinate of feet
+const PX      = 160;     // player fixed X
+const GRAVITY = 0.62;
+const JUMP_VY = -15.0;
+const RUN_FPS = 11;      // animation frames per second
 
-// LEVEL BUILDER
-function renderLevelBuilder() {
-  const main = document.getElementById('mainContent');
-  main.innerHTML = `
-    <div class="builder-top">
-      <div style="flex:1;display:flex;flex-direction:column;gap:8px">
-        <div class="builder-tools">
-          <button class="tool-btn active" id="toolPlace" onclick="setTool('place')">📦 Colocar</button>
-          <button class="tool-btn" id="toolSelect" onclick="setTool('select')">🖱️ Seleccionar</button>
-          <button class="tool-btn" id="toolDelete" onclick="setTool('delete')">🗑️ Borrar</button>
-          <button class="tool-btn" onclick="clearCanvas()" style="margin-left:auto">🧹 Limpiar</button>
-          <button class="tool-btn" onclick="exportLevel()">📋 Exportar JSON</button>
-        </div>
-        <div class="builder-canvas-wrap" id="canvasWrap">
-          <canvas id="levelCanvas"></canvas>
-        </div>
-        <div style="font-size:11px;color:var(--text2);padding:4px 8px" id="levelStatus">
-          Selecciona un sprite del panel y haz clic en el canvas para colocar.
-        </div>
-      </div>
-      <div class="builder-panel">
-        <h3>Sprites</h3>
-        <input type="search" placeholder="Filtrar…" style="width:100%;padding:5px;background:var(--bg);border:1px solid var(--border);border-radius:4px;color:var(--text);font-size:12px;margin-bottom:8px" oninput="filterPalette(this.value)"/>
-        <div id="palette"></div>
-      </div>
-    </div>`;
+// ═══════════════════════════════════════════════════
+//  GAME STATE
+// ═══════════════════════════════════════════════════
+const ST = { TITLE:0, PLAY:1, DEAD:2 };
+let state, score, coins, dist, speed, gframe;
+let hiScore = +(localStorage.getItem('mk_hi')||0);
 
-  initLevelCanvas();
-  renderPalette('');
+// Player
+const P = { x:PX, y:GROUND, vy:0, jumps:0, anim:0, atimer:0, h:88, w:60, shielded:0 };
+
+// Entity arrays
+let obstacles, coinItems, pups, particles, clouds, warns;
+
+// Spawn timing
+let spawnT, coinT, pupT;
+
+// ═══════════════════════════════════════════════════
+//  INIT / RESET
+// ═══════════════════════════════════════════════════
+function reset() {
+  state = ST.PLAY;
+  score = coins = dist = gframe = 0;
+  speed = 4.2;
+  obstacles = []; coinItems = []; pups = []; particles = []; warns = [];
+  spawnT = 120; coinT = 80; pupT = 600;
+  P.y = GROUND; P.vy = 0; P.jumps = 0; P.anim = 0; P.atimer = 0; P.shielded = 0;
+
+  // Initial clouds spread across screen
+  clouds = [
+    {k:'cloud1', x:100,  y:55,  w:220, h:90,  sp:0.18},
+    {k:'cloud2', x:380,  y:80,  w:180, h:75,  sp:0.22},
+    {k:'cloud3', x:630,  y:45,  w:200, h:80,  sp:0.15},
+    {k:'cloud4', x:860,  y:70,  w:160, h:65,  sp:0.20},
+    {k:'cloud1', x:1150, y:60,  w:200, h:85,  sp:0.19},
+    {k:'cloud3', x:1380, y:40,  w:180, h:72,  sp:0.16},
+  ];
 }
 
-let _levelTool = 'place';
-let _levelSprite = null;
-let _levelObjects = [];
-let _levelImages = {};
-
-window.setTool = function(t) {
-  _levelTool = t;
-  document.querySelectorAll('.tool-btn').forEach(b => b.classList.remove('active'));
-  document.getElementById('tool'+t.charAt(0).toUpperCase()+t.slice(1)).classList.add('active');
-  document.getElementById('levelCanvas').style.cursor = t === 'delete' ? 'not-allowed' : t === 'select' ? 'default' : 'crosshair';
-};
-
-window.filterPalette = function(q) { renderPalette(q); };
-
-function renderPalette(q) {
-  const ql = q.toLowerCase();
-  const items = currentAssets.filter(a => !ql || a.file.toLowerCase().includes(ql)).slice(0, 80);
-  document.getElementById('palette').innerHTML = items.map((a,i) =>
-    `<div class="palette-item" onclick="selectPalette('${encodeURIComponent(a.url)}','${encodeURIComponent(a.file)}')" id="pal-${i}">
-      <img src="${a.url}" onerror="this.style.display='none'"/>
-      <span>${a.file.replace(/\.png$/i,'')}</span>
-    </div>`).join('');
+// ═══════════════════════════════════════════════════
+//  INPUT
+// ═══════════════════════════════════════════════════
+function onJump() {
+  if (state === ST.TITLE) { reset(); return; }
+  if (state === ST.DEAD)  { reset(); return; }
+  if (P.jumps < 2) { P.vy = JUMP_VY - (P.jumps * 1.5); P.jumps++; }
 }
 
-window.selectPalette = function(url, name) {
-  _levelSprite = { url: decodeURIComponent(url), name: decodeURIComponent(name) };
-  document.querySelectorAll('.palette-item').forEach(el => el.classList.remove('selected'));
-  document.getElementById('levelStatus').textContent = `Sprite activo: ${decodeURIComponent(name)}`;
-  setTool('place');
-};
+document.addEventListener('keydown', e => {
+  if (e.code === 'Space' || e.code === 'ArrowUp') { e.preventDefault(); onJump(); }
+});
+canvas.addEventListener('pointerdown', e => { e.preventDefault(); onJump(); });
 
-function initLevelCanvas() {
-  const wrap = document.getElementById('canvasWrap');
-  const canvas = document.getElementById('levelCanvas');
-  canvas.width = wrap.clientWidth || 800;
-  canvas.height = wrap.clientHeight || 500;
+// ═══════════════════════════════════════════════════
+//  SPAWN
+// ═══════════════════════════════════════════════════
+function spawnObstacle() {
+  const r = Math.random();
+  if (r < 0.45) {
+    // Cannon on ground + fires cannonball after delay
+    const cx = W + 80;
+    const cy = GROUND - 44;
+    obstacles.push({ type:'cannon', x:cx, y:cy, w:80, h:80, fireIn:55, fired:false });
+  } else if (r < 0.80) {
+    // Pirate(s)
+    obstacles.push({ type:'pirate', x:W+50,  y:GROUND, w:52, h:88, af:0, at:0 });
+    if (r > 0.65) obstacles.push({ type:'pirate', x:W+155, y:GROUND, w:52, h:88, af:0, at:0 });
+  } else {
+    // Cannon + pirate immediately after
+    obstacles.push({ type:'cannon', x:W+80,  y:GROUND-44, w:80, h:80, fireIn:55, fired:false });
+    obstacles.push({ type:'pirate', x:W+260, y:GROUND,    w:52, h:88, af:0, at:0 });
+  }
+}
 
-  // Draw grid
-  const ctx = canvas.getContext('2d');
-  drawGrid(ctx, canvas.width, canvas.height);
+function spawnCoins() {
+  const heights = [GROUND-30, GROUND-80, GROUND-140];
+  const y = heights[Math.floor(Math.random()*3)];
+  const n = 3 + Math.floor(Math.random()*4);
+  for (let i = 0; i < n; i++)
+    coinItems.push({ x: W + 50 + i*58, y, af:0, at:0, got:false });
+}
 
-  canvas.onclick = function(e) {
-    const rect = canvas.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
+function spawnPowerUp() {
+  const type = Math.random() < 0.6 ? 'shield' : 'boost';
+  pups.push({ type, x:W+50, y:GROUND-110, af:0, at:0, got:false });
+}
 
-    if (_levelTool === 'place' && _levelSprite) {
-      _levelObjects.push({ url: _levelSprite.url, name: _levelSprite.name, x, y, w: 64, h: 64 });
-      redrawLevel(ctx, canvas);
-    } else if (_levelTool === 'delete') {
-      _levelObjects = _levelObjects.filter(o => !(x >= o.x-o.w/2 && x <= o.x+o.w/2 && y >= o.y-o.h/2 && y <= o.y+o.h/2));
-      redrawLevel(ctx, canvas);
+// ═══════════════════════════════════════════════════
+//  PHYSICS / COLLISION
+// ═══════════════════════════════════════════════════
+function overlaps(ax,ay,aw,ah, bx,by,bw,bh, shrink=12) {
+  return ax+shrink < bx+bw-shrink &&
+         ax+aw-shrink > bx+shrink &&
+         ay+shrink < by+bh-shrink &&
+         ay+ah-shrink > by+shrink;
+}
+
+function playerTop()  { return P.y - P.h; }
+function playerLeft() { return P.x - P.w/2; }
+
+function calcCannonBall(sx, sy, tx, ty) {
+  const N = 75;
+  const g = GRAVITY * 0.38;
+  const vx = (tx - sx) / N;
+  const vy = (ty - sy) / N - 0.5 * g * (N - 1);
+  return { vx, vy, grav: g };
+}
+
+// ═══════════════════════════════════════════════════
+//  PARTICLES
+// ═══════════════════════════════════════════════════
+function burst(x, y, color, n=10) {
+  for (let i=0; i<n; i++) {
+    const a = Math.random() * Math.PI * 2;
+    const sp = Math.random() * 5 + 1.5;
+    particles.push({ x, y, vx:Math.cos(a)*sp, vy:Math.sin(a)*sp - 2, life:1, r:Math.random()*5+2, color });
+  }
+}
+
+// ═══════════════════════════════════════════════════
+//  UPDATE
+// ═══════════════════════════════════════════════════
+function update() {
+  if (state !== ST.PLAY) { gframe++; return; }
+  gframe++; dist += speed;
+  speed += 0.0016;
+  score = Math.floor(dist/80) + coins*7;
+
+  // — Player physics —
+  P.vy += GRAVITY;
+  P.y  += P.vy;
+  if (P.y >= GROUND) { P.y = GROUND; P.vy = 0; P.jumps = 0; }
+
+  // — Run animation —
+  if (P.y === GROUND) {
+    P.atimer += speed * 0.55;
+    if (P.atimer >= 1) { P.atimer = 0; P.anim = (P.anim + 1) % 9; }
+  }
+
+  // — Shield tick —
+  if (P.shielded > 0) P.shielded--;
+
+  // — Clouds —
+  for (const cl of clouds) {
+    cl.x -= cl.sp * speed * 0.6;
+    if (cl.x + cl.w < -20) cl.x = W + cl.w + Math.random()*200;
+  }
+
+  // — Spawn —
+  if (--spawnT <= 0) { spawnObstacle(); spawnT = Math.max(55, 160 - Math.floor(dist/1800)); }
+  if (--coinT  <= 0) { spawnCoins();    coinT  = Math.max(70, 140 - Math.floor(dist/2500)); }
+  if (--pupT   <= 0) { spawnPowerUp();  pupT   = 500 + Math.random()*400 | 0; }
+
+  // — Obstacles —
+  for (const ob of obstacles) {
+    ob.x -= speed;
+
+    if (ob.type === 'cannon') {
+      ob.fireIn--;
+      if (ob.fireIn === 0 && !ob.fired) {
+        ob.fired = true;
+        // Warning sign above cannon
+        warns.push({ x:ob.x, y:ob.y - 50, life:40 });
+        // Cannonball aimed at where player will be in ~40 frames
+        const tx = P.x + 20;
+        const ty = P.y - 30;
+        const { vx, vy, grav } = calcCannonBall(ob.x - 10, ob.y - 30, tx, ty);
+        obstacles.push({ type:'cball', x:ob.x-10, y:ob.y-30, w:32, h:32, vx, vy, grav, af:0, at:0 });
+      }
     }
-  };
+
+    if (ob.type === 'cball') {
+      ob.vy += ob.grav;
+      ob.x  += ob.vx;
+      ob.y  += ob.vy;
+      ob.at++;
+      if (ob.at % 4 === 0) ob.af = (ob.af + 1) % 3;
+      if (ob.y > H + 50) ob.x = -999;
+    }
+
+    if (ob.type === 'pirate') {
+      ob.at++;
+      if (ob.at % 10 === 0) ob.af = (ob.af + 1) % 2;
+    }
+  }
+
+  // — Coins —
+  for (const c of coinItems) {
+    c.x -= speed;
+    c.at++;
+    if (c.at % 5 === 0) c.af = (c.af + 1) % 7;
+    if (!c.got && overlaps(playerLeft(), playerTop(), P.w, P.h, c.x-16, c.y-16, 32, 32, 6)) {
+      c.got = true; coins++;
+      burst(c.x, c.y, '#FFD700', 8);
+    }
+  }
+
+  // — Power-ups —
+  for (const pu of pups) {
+    pu.x -= speed;
+    pu.at++;
+    if (pu.at % 6 === 0) pu.af = (pu.af + 1) % 3;
+    if (!pu.got && overlaps(playerLeft(), playerTop(), P.w, P.h, pu.x-22, pu.y-22, 44, 44, 4)) {
+      pu.got = true;
+      if (pu.type === 'shield') { P.shielded = 300; burst(P.x, P.y-P.h/2, '#88ddff', 16); }
+      if (pu.type === 'boost')  { speed += 1.5; burst(P.x, P.y-P.h/2, '#ffaa44', 12); }
+    }
+  }
+
+  // — Collision player vs obstacles —
+  for (const ob of obstacles) {
+    if (ob.x < -200) continue;
+    let bx, by, bw, bh;
+    if (ob.type === 'cball')  { bx=ob.x-ob.w/2; by=ob.y-ob.h/2; bw=ob.w; bh=ob.h; }
+    else if (ob.type === 'pirate') { bx=ob.x-ob.w/2; by=ob.y-ob.h;   bw=ob.w; bh=ob.h; }
+    else continue;
+    if (overlaps(playerLeft(), playerTop(), P.w, P.h, bx, by, bw, bh)) {
+      if (P.shielded > 0) {
+        P.shielded = 0;
+        burst(ob.x, ob.y, '#aaccff', 14);
+        ob.x = -999;
+      } else {
+        die(); return;
+      }
+    }
+  }
+
+  // — Warns —
+  for (const w of warns) { w.x -= speed; w.life--; }
+
+  // — Particles —
+  for (const p of particles) { p.x+=p.vx; p.y+=p.vy; p.vy+=0.18; p.life-=0.03; }
+
+  // — Cleanup —
+  obstacles = obstacles.filter(o => o.x > -300);
+  coinItems = coinItems.filter(c => c.x > -60);
+  pups      = pups.filter(p => p.x > -80);
+  particles = particles.filter(p => p.life > 0);
+  warns     = warns.filter(w => w.life > 0 && w.x > -100);
 }
 
-function drawGrid(ctx, w, h) {
-  ctx.clearRect(0,0,w,h);
-  ctx.strokeStyle = 'rgba(255,255,255,0.05)';
-  ctx.lineWidth = 0.5;
-  for (let x = 0; x < w; x += 32) { ctx.beginPath(); ctx.moveTo(x,0); ctx.lineTo(x,h); ctx.stroke(); }
-  for (let y = 0; y < h; y += 32) { ctx.beginPath(); ctx.moveTo(0,y); ctx.lineTo(w,y); ctx.stroke(); }
+function die() {
+  state = ST.DEAD; gframe = 0;
+  if (score > hiScore) { hiScore = score; localStorage.setItem('mk_hi', hiScore); }
+  burst(P.x, P.y - P.h/2, '#ff4444', 20);
 }
 
-function redrawLevel(ctx, canvas) {
-  drawGrid(ctx, canvas.width, canvas.height);
-  for (const obj of _levelObjects) {
-    if (!_levelImages[obj.url]) {
-      const img = new Image();
-      img.src = obj.url;
-      img.onload = () => { _levelImages[obj.url] = img; redrawLevel(ctx, canvas); };
-      _levelImages[obj.url] = img;
+// ═══════════════════════════════════════════════════
+//  DRAW HELPERS
+// ═══════════════════════════════════════════════════
+function img(k)  { const i=IMG[k]; return (i && i.naturalWidth) ? i : null; }
+function di(k, x, y, w, h) { const i=img(k); if(i) ctx.drawImage(i, x, y, w, h); }
+
+function tileX(k, y, h, spd) {
+  const i = img(k); if (!i) return;
+  const ratio = h / i.naturalHeight;
+  const tw    = i.naturalWidth * ratio || h;
+  const off   = -(gframe * spd * speed * 0.9) % tw;
+  for (let x = off - tw; x < W + tw; x += tw) ctx.drawImage(i, x, y, tw, h);
+}
+
+// ═══════════════════════════════════════════════════
+//  DRAW SCENE
+// ═══════════════════════════════════════════════════
+function drawSky() {
+  const g = ctx.createLinearGradient(0,0,0,GROUND);
+  g.addColorStop(0,'#0d2a6e');
+  g.addColorStop(0.5,'#1a5db5');
+  g.addColorStop(1,'#5fb8d8');
+  ctx.fillStyle = g;
+  ctx.fillRect(0,0,W,GROUND);
+
+  const bi = img('bg');
+  if (bi) {
+    ctx.globalAlpha = 0.7;
+    ctx.drawImage(bi, 0, 0, W, GROUND);
+    ctx.globalAlpha = 1;
+  }
+}
+
+function drawClouds() {
+  for (const cl of clouds) {
+    const i = img(cl.k); if (!i) continue;
+    ctx.globalAlpha = 0.88;
+    ctx.drawImage(i, cl.x, cl.y, cl.w, cl.h);
+    ctx.globalAlpha = 1;
+  }
+}
+
+function drawMountains() {
+  const keys = ['mtn2','mtn1'];
+  const spds = [0.35, 0.55];
+  const heights = [160, 190];
+  const offs  = [0, 480];
+
+  for (let m=0; m<2; m++) {
+    const i = img(keys[m]); if (!i) continue;
+    const h = heights[m];
+    const ratio = h / i.naturalHeight;
+    const w = i.naturalWidth * ratio;
+    const scroll = (gframe * spds[m] * speed * 0.8) % (w + 10);
+    const sx = offs[m] - scroll;
+    ctx.globalAlpha = 0.85;
+    for (let x = sx - w; x < W + w; x += w + 10)
+      ctx.drawImage(i, x, GROUND - h, w, h);
+    ctx.globalAlpha = 1;
+  }
+}
+
+function drawOcean() {
+  const og = ctx.createLinearGradient(0, GROUND, 0, H);
+  og.addColorStop(0,'#1870c5');
+  og.addColorStop(1,'#09285e');
+  ctx.fillStyle = og;
+  ctx.fillRect(0, GROUND, W, H - GROUND);
+  // wave foam strip
+  tileX('wave', GROUND - 18, 55, 1.1);
+  // wood deck
+  tileX('wood', GROUND + 2, 38, 1.0);
+  // deck edge
+  ctx.fillStyle = '#b8893a';
+  ctx.fillRect(0, GROUND, W, 5);
+}
+
+function drawObstacles() {
+  for (const ob of obstacles) {
+    if (ob.x < -200) continue;
+
+    if (ob.type === 'cannon') {
+      di('cannon', ob.x - 40, ob.y - 40, 80, 80);
+    }
+
+    if (ob.type === 'cball') {
+      const cbImg = img('cb' + ob.af);
+      if (cbImg) {
+        ctx.save();
+        ctx.translate(ob.x, ob.y);
+        ctx.rotate(gframe * 0.25);
+        ctx.drawImage(cbImg, -16, -16, 32, 32);
+        ctx.restore();
+      } else {
+        ctx.fillStyle = '#444';
+        ctx.beginPath(); ctx.arc(ob.x, ob.y, 14, 0, Math.PI*2); ctx.fill();
+      }
+    }
+
+    if (ob.type === 'pirate') {
+      const pi = ob.af === 0 ? img('pirate') : img('pirateAir');
+      if (pi) ctx.drawImage(pi, ob.x - 26, ob.y - 88, 52, 88);
+      else { ctx.fillStyle='#c0392b'; ctx.fillRect(ob.x-22, ob.y-82, 44, 82); }
+    }
+  }
+}
+
+function drawWarnings() {
+  for (const w of warns) {
+    const wf = Math.floor(gframe/4) % 3;
+    const wi = img('warn' + wf);
+    if (!wi) continue;
+    const a = Math.min(1, w.life / 15);
+    ctx.globalAlpha = a;
+    ctx.drawImage(wi, w.x - 20, w.y - 24, 40, 40);
+    ctx.globalAlpha = 1;
+  }
+}
+
+function drawCoins() {
+  for (const c of coinItems) {
+    if (c.got) continue;
+    const ci = img('c' + c.af);
+    if (ci) ctx.drawImage(ci, c.x-18, c.y-18, 36, 36);
+    else { ctx.fillStyle='#FFD700'; ctx.beginPath(); ctx.arc(c.x,c.y,14,0,Math.PI*2); ctx.fill(); }
+  }
+}
+
+function drawPowerUps() {
+  for (const pu of pups) {
+    if (pu.got) continue;
+    // Glow
+    ctx.save();
+    ctx.shadowColor = pu.type === 'shield' ? '#88ddff' : '#ffbb44';
+    ctx.shadowBlur = 18 + Math.sin(gframe*0.12)*6;
+    if (pu.type === 'shield') {
+      const si = img('shield' + (pu.af % 4));
+      if (si) ctx.drawImage(si, pu.x-22, pu.y-22, 44, 44);
     } else {
-      ctx.drawImage(_levelImages[obj.url], obj.x - obj.w/2, obj.y - obj.h/2, obj.w, obj.h);
+      const bi2 = img('boost' + pu.af);
+      if (bi2) ctx.drawImage(bi2, pu.x-22, pu.y-22, 44, 44);
     }
+    ctx.restore();
   }
 }
 
-window.clearCanvas = function() {
-  _levelObjects = [];
-  const canvas = document.getElementById('levelCanvas');
-  if (canvas) {
-    const ctx = canvas.getContext('2d');
-    drawGrid(ctx, canvas.width, canvas.height);
-  }
-};
+function drawPlayer() {
+  let pk;
+  if (state === ST.DEAD)            pk = 'dead';
+  else if (P.y < GROUND - 2)       pk = 'jump';
+  else                              pk = 'r' + Math.floor(P.anim);
 
-window.exportLevel = function() {
-  const json = JSON.stringify({ objects: _levelObjects.map(o => ({ name: o.name, x: Math.round(o.x), y: Math.round(o.y), w: o.w, h: o.h })) }, null, 2);
-  const blob = new Blob([json], { type: 'application/json' });
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = 'level.json';
-  a.click();
-};
+  const pi2 = img(pk);
+  const pw = 82, ph = P.h;
 
-// INIT
-async function init() {
-  const res = await fetch(`${BASE}/index.json`);
-  INDEX = await res.json();
-  currentAssets = buildAssets(INDEX);
-
-  // Update counts
-  const cats = ['characters','backgrounds','obstacles','effects','collectibles','ui','atlases','other'];
-  document.getElementById('cnt-all').textContent = currentAssets.length;
-  for (const c of cats) {
-    const el = document.getElementById(`cnt-${c}`);
-    if (el) el.textContent = currentAssets.filter(a => a.cat === c).length;
+  // Shield aura
+  if (P.shielded > 0) {
+    const saf = Math.floor(gframe/5) % 4;
+    const sai = img('shield' + saf);
+    if (sai) {
+      ctx.globalAlpha = 0.7;
+      ctx.drawImage(sai, P.x - 44, P.y - ph - 10, 88, ph + 20);
+      ctx.globalAlpha = 1;
+    }
+    ctx.save();
+    ctx.strokeStyle = `hsla(${(gframe*4)%360},80%,70%,0.6)`;
+    ctx.lineWidth = 3;
+    ctx.beginPath(); ctx.arc(P.x+6, P.y - ph*0.45, 56, 0, Math.PI*2); ctx.stroke();
+    ctx.restore();
   }
 
-  document.getElementById('statsBar').textContent = `${currentAssets.length} assets · ${INDEX.animations.length} animaciones`;
-  window._filteredAssets = currentAssets;
-
-  renderGrid();
+  if (pi2) ctx.drawImage(pi2, P.x - pw/2 + 8, P.y - ph, pw, ph);
+  else {
+    ctx.fillStyle = state === ST.DEAD ? '#e74c3c' : '#3498db';
+    ctx.fillRect(P.x - 20, P.y - ph, 40, ph);
+  }
 }
 
-// NAV
-document.querySelectorAll('.nav-btn[data-cat]').forEach(btn => {
-  btn.onclick = () => {
-    document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    currentCategory = btn.dataset.cat;
-    currentTool = null;
-    searchQuery = document.getElementById('search').value;
-    renderGrid();
-  };
-});
+function drawParticles() {
+  for (const p of particles) {
+    ctx.globalAlpha = Math.max(0, p.life);
+    ctx.fillStyle = p.color;
+    ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI*2); ctx.fill();
+  }
+  ctx.globalAlpha = 1;
+}
 
-document.querySelectorAll('.nav-btn[data-tool]').forEach(btn => {
-  btn.onclick = () => {
-    document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    currentTool = btn.dataset.tool;
-    if (currentTool === 'animator') renderAnimator();
-    else if (currentTool === 'level') renderLevelBuilder();
-  };
-});
+function drawHUD() {
+  // Score pill
+  ctx.fillStyle = 'rgba(0,0,0,0.5)';
+  roundRect(10, 10, 180, 38, 8); ctx.fill();
+  ctx.fillStyle = '#fff';
+  ctx.font = 'bold 20px system-ui,sans-serif';
+  ctx.textAlign = 'left';
+  ctx.fillText('SCORE  ' + score.toLocaleString(), 20, 34);
 
-document.getElementById('search').addEventListener('input', e => {
-  searchQuery = e.target.value;
-  if (!currentTool) renderGrid();
-});
+  // Coins
+  const ci = img('c0');
+  if (ci) ctx.drawImage(ci, W-115, 12, 28, 28);
+  ctx.fillStyle = '#FFD700';
+  ctx.font = 'bold 20px system-ui,sans-serif';
+  ctx.textAlign = 'left';
+  ctx.fillText('×' + coins, W-83, 32);
 
-init();
+  // Best
+  ctx.fillStyle = 'rgba(0,0,0,0.4)';
+  roundRect(W/2-90, 10, 180, 28, 6); ctx.fill();
+  ctx.fillStyle = '#aaddff';
+  ctx.font = '13px system-ui,sans-serif';
+  ctx.textAlign = 'center';
+  ctx.fillText('MEJOR  ' + hiScore.toLocaleString(), W/2, 28);
+
+  // Shield timer bar
+  if (P.shielded > 0) {
+    const pct = P.shielded / 300;
+    ctx.fillStyle = 'rgba(0,0,0,0.45)';
+    ctx.fillRect(10, 56, 160, 10);
+    ctx.fillStyle = '#44aaff';
+    ctx.fillRect(10, 56, 160 * pct, 10);
+    ctx.fillStyle = '#aaddff';
+    ctx.font = '11px system-ui,sans-serif';
+    ctx.textAlign = 'left';
+    ctx.fillText('ESCUDO', 14, 66);
+  }
+}
+
+function roundRect(x, y, w, h, r) {
+  ctx.beginPath();
+  ctx.moveTo(x+r, y);
+  ctx.lineTo(x+w-r, y);
+  ctx.arcTo(x+w, y, x+w, y+r, r);
+  ctx.lineTo(x+w, y+h-r);
+  ctx.arcTo(x+w, y+h, x+w-r, y+h, r);
+  ctx.lineTo(x+r, y+h);
+  ctx.arcTo(x, y+h, x, y+h-r, r);
+  ctx.lineTo(x, y+r);
+  ctx.arcTo(x, y, x+r, y, r);
+  ctx.closePath();
+}
+
+// ═══════════════════════════════════════════════════
+//  TITLE / DEAD SCREENS
+// ═══════════════════════════════════════════════════
+function drawTitle() {
+  // BG
+  const tbi = img('titleBg');
+  if (tbi) { ctx.globalAlpha=0.8; ctx.drawImage(tbi,0,0,W,H); ctx.globalAlpha=1; }
+  else { const g=ctx.createLinearGradient(0,0,0,H); g.addColorStop(0,'#0a1a40'); g.addColorStop(1,'#1a4a8a'); ctx.fillStyle=g; ctx.fillRect(0,0,W,H); }
+
+  // Logo
+  const li = img('logo');
+  if (li) {
+    const lw = Math.min(480, W*0.5);
+    const lh = lw * li.naturalHeight / li.naturalWidth;
+    ctx.drawImage(li, (W-lw)/2, H*0.12, lw, lh);
+  } else {
+    ctx.fillStyle='#fff'; ctx.font='bold 44px system-ui,sans-serif'; ctx.textAlign='center';
+    ctx.shadowColor='#000'; ctx.shadowBlur=12;
+    ctx.fillText('MIKELTUBE ADVENTURES', W/2, H*0.28);
+    ctx.shadowBlur=0;
+  }
+
+  // Blink prompt
+  if (Math.sin(gframe * 0.07) > 0) {
+    ctx.fillStyle='#fff'; ctx.font='bold 22px system-ui,sans-serif'; ctx.textAlign='center';
+    ctx.shadowColor='#000'; ctx.shadowBlur=10;
+    ctx.fillText('TOCA O PULSA ESPACIO PARA JUGAR', W/2, H*0.72);
+    ctx.shadowBlur=0;
+  }
+
+  // Controls hint
+  ctx.fillStyle='rgba(255,255,255,0.55)';
+  ctx.font='15px system-ui,sans-serif'; ctx.textAlign='center';
+  ctx.fillText('ESPACIO / TAP → Saltar  ·  Doble salto disponible', W/2, H*0.82);
+
+  if (hiScore > 0) {
+    ctx.fillStyle='#FFD700'; ctx.font='18px system-ui,sans-serif';
+    ctx.fillText('🏆 Mejor puntuación: ' + hiScore.toLocaleString(), W/2, H*0.90);
+  }
+}
+
+function drawDead() {
+  ctx.fillStyle='rgba(0,0,0,0.68)'; ctx.fillRect(0,0,W,H);
+  ctx.textAlign='center';
+
+  ctx.fillStyle='#ff3333'; ctx.font='bold 56px system-ui,sans-serif';
+  ctx.shadowColor='#000'; ctx.shadowBlur=24;
+  ctx.fillText('GAME OVER', W/2, H/2 - 70);
+  ctx.shadowBlur=0;
+
+  ctx.fillStyle='#fff'; ctx.font='bold 28px system-ui,sans-serif';
+  ctx.fillText('Puntuación: ' + score.toLocaleString(), W/2, H/2 - 10);
+
+  if (coins > 0) {
+    ctx.fillStyle='#FFD700'; ctx.font='20px system-ui,sans-serif';
+    ctx.fillText('Monedas: ' + coins, W/2, H/2 + 30);
+  }
+
+  if (score >= hiScore && score > 0) {
+    ctx.fillStyle='#FFD700'; ctx.font='bold 22px system-ui,sans-serif';
+    ctx.fillText('🏆 ¡NUEVO RÉCORD!', W/2, H/2 + 65);
+  }
+
+  if (gframe > 40 && Math.sin(gframe*0.08) > 0) {
+    ctx.fillStyle='#fff'; ctx.font='20px system-ui,sans-serif';
+    ctx.fillText('TOCA PARA REINICIAR', W/2, H/2 + 115);
+  }
+}
+
+// ═══════════════════════════════════════════════════
+//  MAIN LOOP
+// ═══════════════════════════════════════════════════
+function draw() {
+  ctx.clearRect(0,0,W,H);
+
+  if (state === ST.TITLE) {
+    drawSky(); drawClouds(); drawMountains(); drawOcean();
+    drawTitle();
+    return;
+  }
+
+  drawSky();
+  drawClouds();
+  drawMountains();
+  drawOcean();
+  drawWarnings();
+  drawPowerUps();
+  drawObstacles();
+  drawCoins();
+  drawParticles();
+  drawPlayer();
+  drawHUD();
+
+  if (state === ST.DEAD) drawDead();
+}
+
+function loop() {
+  update();
+  draw();
+  requestAnimationFrame(loop);
+}
+
+// ═══════════════════════════════════════════════════
+//  LOADING SCREEN → BOOT
+// ═══════════════════════════════════════════════════
+function drawLoading() {
+  ctx.fillStyle='#0a1020'; ctx.fillRect(0,0,W,H);
+  ctx.fillStyle='#fff'; ctx.font='bold 22px system-ui,sans-serif';
+  ctx.textAlign='center';
+  ctx.fillText('Cargando Mikeltube Adventures…', W/2, H/2 - 30);
+  const pct = loaded / TOTAL;
+  ctx.fillStyle='#1a2a50'; roundRect(W/2-160, H/2, 320, 18, 9); ctx.fill();
+  ctx.fillStyle='#FFD700'; roundRect(W/2-160, H/2, 320*pct, 18, 9); ctx.fill();
+  ctx.fillStyle='#aaa'; ctx.font='13px sans-serif';
+  ctx.fillText(Math.round(pct*100) + '%', W/2, H/2 + 36);
+  if (loaded < TOTAL) requestAnimationFrame(drawLoading);
+}
+
+// Init title state clouds
+clouds = [
+  {k:'cloud1', x:80,  y:55, w:220, h:90, sp:0.18},
+  {k:'cloud2', x:350, y:80, w:180, h:75, sp:0.22},
+  {k:'cloud3', x:620, y:45, w:200, h:80, sp:0.15},
+  {k:'cloud4', x:850, y:70, w:160, h:65, sp:0.20},
+];
+obstacles=[]; coinItems=[]; pups=[]; particles=[]; warns=[];
+state = ST.TITLE; gframe = 0; score=0; coins=0; dist=0; speed=4.2;
+
+drawLoading();
+preload().then(() => {
+  loop();
+});
 </script>
 </body>
 </html>
