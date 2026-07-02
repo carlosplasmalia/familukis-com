@@ -44,10 +44,9 @@
 
 <script>
   const DEFAULT = 'https://familukis.com?utm_source=instagram&utm_medium=dm&utm_campaign=acceso_comentarios';
-  const paramUrl = new URLSearchParams(window.location.search).get('url');
-  const DEST = paramUrl
-    ? `${paramUrl}${paramUrl.includes('?') ? '&' : '?'}utm_source=instagram&utm_medium=dm`
-    : DEFAULT;
+  // Hash (#) tiene prioridad — Instagram no lo elimina. Query param (?url=) como fallback.
+  const paramUrl = window.location.hash.slice(1) || new URLSearchParams(window.location.search).get('url');
+  const DEST = paramUrl || DEFAULT;
 
   const isAmazon = /amzn\.to|amazon\.(es|com|co\.uk|de|fr|it)/.test(DEST);
 
