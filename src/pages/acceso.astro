@@ -1,7 +1,4 @@
 ---
-const DEFAULT = 'https://familukis.com?utm_source=instagram&utm_medium=dm&utm_campaign=acceso_comentarios';
-const paramUrl = Astro.url.searchParams.get('url');
-const DEST = paramUrl ? `${paramUrl}${paramUrl.includes('?') ? '&' : '?'}utm_source=instagram&utm_medium=dm` : DEFAULT;
 ---
 <!doctype html>
 <html lang="es">
@@ -45,41 +42,65 @@ const DEST = paramUrl ? `${paramUrl}${paramUrl.includes('?') ? '&' : '?'}utm_sou
 </body>
 </html>
 
-<script define:vars={{ DEST }}>
+<script>
+  const DEFAULT = 'https://familukis.com?utm_source=instagram&utm_medium=dm&utm_campaign=acceso_comentarios';
+  const paramUrl = new URLSearchParams(window.location.search).get('url');
+  const DEST = paramUrl
+    ? `${paramUrl}${paramUrl.includes('?') ? '&' : '?'}utm_source=instagram&utm_medium=dm`
+    : DEFAULT;
+
+  const isAmazon = /amzn\.to|amazon\.(es|com|co\.uk|de|fr|it)/.test(DEST);
+
   const ua = navigator.userAgent;
   const isInstagram = /Instagram/.test(ua);
   const isAndroid   = /Android/.test(ua);
   const isIOS       = /iPhone|iPad|iPod/.test(ua);
 
+  if (isAmazon) {
+    document.getElementById('btn').textContent = 'Abrir en Amazon';
+  }
+
   if (!isInstagram) {
     window.location.replace(DEST);
   } else {
-    // Mostrar pantalla
     document.getElementById('screen').classList.remove('hidden');
 
-    // Intento automático inmediato
     if (isAndroid) {
+      // Amazon app primero; si no instalada, Chrome como fallback
+      const pkg = isAmazon ? 'com.amazon.mShop.android.shopping' : 'com.android.chrome';
       window.location.href =
         'intent://' + DEST.replace(/^https?:\/\//, '') +
-        '#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=' +
+        '#Intent;scheme=https;package=' + pkg + ';S.browser_fallback_url=' +
         encodeURIComponent(DEST) + ';end';
     } else if (isIOS) {
-      // Intentar abrir Chrome primero, luego Safari
-      window.location.href = 'googlechrome://' + DEST.replace(/^https?:\/\//, '');
-      setTimeout(() => {
-        window.location.href = DEST.replace('https://', 'x-safari-https://');
-      }, 600);
+      if (isAmazon) {
+        // Scheme nativo de la app de Amazon en iOS
+        window.location.href = 'amzn://' + DEST.replace(/^https?:\/\//, '');
+        setTimeout(() => {
+          window.location.href = DEST.replace('https://', 'x-safari-https://');
+        }, 700);
+      } else {
+        window.location.href = 'googlechrome://' + DEST.replace(/^https?:\/\//, '');
+        setTimeout(() => {
+          window.location.href = DEST.replace('https://', 'x-safari-https://');
+        }, 600);
+      }
     }
 
-    // Botón: intento con gesto de usuario (más permisos que auto)
     document.getElementById('btn').addEventListener('click', () => {
-      const w = window.open(DEST, '_blank', 'noreferrer');
-      if (!w || w.closed) {
-        // Si window.open falla, intentar location directa
-        if (isIOS) {
-          window.location.href = DEST.replace('https://', 'x-safari-https://');
-        } else {
-          window.location.href = DEST;
+      if (isAndroid) {
+        const pkg = isAmazon ? 'com.amazon.mShop.android.shopping' : 'com.android.chrome';
+        window.location.href =
+          'intent://' + DEST.replace(/^https?:\/\//, '') +
+          '#Intent;scheme=https;package=' + pkg + ';S.browser_fallback_url=' +
+          encodeURIComponent(DEST) + ';end';
+      } else if (isIOS && isAmazon) {
+        window.location.href = 'amzn://' + DEST.replace(/^https?:\/\//, '');
+        setTimeout(() => { window.location.href = DEST.replace('https://', 'x-safari-https://'); }, 700);
+      } else {
+        const w = window.open(DEST, '_blank', 'noreferrer');
+        if (!w || w.closed) {
+          window.location.href = isIOS ? DEST.replace('https://', 'x-safari-https://') : DEST;
         }
       }
     });
