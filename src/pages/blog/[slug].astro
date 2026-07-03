@@ -129,6 +129,12 @@ const schemas = [
 
       <header class="article-header">
         <a href={`/categoria/${data.categoria}`} class="acat">{catLabel}</a>
+        {data.affiliated && (
+          <div class="publi-notice">
+            <span class="publi-label">Publicidad</span>
+            <span>Este artículo contiene enlaces de afiliado. Si compráis a través de ellos recibimos una comisión sin coste adicional para vosotros.</span>
+          </div>
+        )}
         <h1 data-pagefind-meta="title">{data.title}</h1>
         <p class="aleadin">{data.description}</p>
         <time class="adate" datetime={data.date}>
@@ -355,6 +361,19 @@ const schemas = [
   .atag {
     font-size:.72rem; color:var(--text-2);
     background:var(--surface-2); padding:3px 9px; border-radius:99px;
+  }
+
+  .publi-notice {
+    display:flex; align-items:baseline; gap:.6rem; flex-wrap:wrap;
+    font-size:.75rem; color:rgba(255,255,255,0.35);
+    background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.07);
+    border-radius:6px; padding:.5rem .85rem; margin-bottom:.75rem;
+  }
+  .publi-label {
+    font-size:.62rem; font-weight:700; text-transform:uppercase;
+    letter-spacing:.08em; color:rgba(255,255,255,0.4);
+    background:rgba(255,255,255,0.08); padding:1px 7px; border-radius:99px;
+    flex-shrink:0;
   }
 
   .related-wrap { margin-top:3rem; padding-top:2rem; border-top:1px solid var(--border); }

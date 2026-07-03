@@ -9,6 +9,7 @@ tags: ["maletas", "avión", "viajar con niños", "equipaje", "vuelo familia", "e
 relatedVideoIds: []
 featured: false
 lastModified: "2026-07-03"
+affiliated: true
 ogImage: "/blog-maletas-avion-familia.webp"
 faqs:
   - q: "¿Cuánto cuesta enviar una maleta antes de volar?"

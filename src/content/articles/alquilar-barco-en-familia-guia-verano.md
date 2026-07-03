@@ -9,6 +9,7 @@ tags: ["barco", "velero", "alquiler barco", "vacaciones verano", "playas", "fami
 relatedVideoIds: []
 featured: false
 lastModified: "2026-07-03"
+affiliated: true
 ogImage: "/blog-barco-familia-verano.webp"
 faqs:
   - q: "¿Se puede alquilar un barco sin titulación náutica?"

@@ -51,6 +51,7 @@ const articles = defineCollection({
     lastModified: z.string().optional(),
     faqs: z.array(z.object({ q: z.string(), a: z.string() })).optional(),
     ogImage: z.string().optional(),
+    affiliated: z.boolean().default(false),
   }),
 });
 

@@ -9,6 +9,7 @@ tags: ["viaje organizado", "agencia viajes", "familia", "viaje a medida", "vacac
 relatedVideoIds: []
 featured: false
 lastModified: "2026-07-03"
+affiliated: true
 ogImage: "/blog-viaje-organizado-familia.webp"
 faqs:
   - q: "¿Es mejor viajar por libre o con agencia cuando se tienen niños?"
