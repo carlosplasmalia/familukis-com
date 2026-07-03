@@ -50,6 +50,7 @@ const articles = defineCollection({
     reviewCount: z.number().default(1),
     lastModified: z.string().optional(),
     faqs: z.array(z.object({ q: z.string(), a: z.string() })).optional(),
+    ogImage: z.string().optional(),
   }),
 });
 

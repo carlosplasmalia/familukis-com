@@ -43,6 +43,9 @@ const catLabel = CATEGORIA_LABELS[data.categoria];
 const pageUrl = `https://familukis.com/blog/${article.id}/`;
 const seoTitle = data.seoTitle ?? data.title;
 const seoDesc = data.seoDescription ?? data.description;
+const ogImageUrl = data.ogImage
+  ? `https://familukis.com${data.ogImage}`
+  : thumbUrl ?? 'https://familukis.com/og-default.jpg';
 
 const articleSchema = {
   "@context": "https://schema.org",
@@ -51,7 +54,7 @@ const articleSchema = {
   "description": seoDesc,
   "datePublished": data.date,
   "dateModified": data.lastModified ?? data.date,
-  "image": thumbUrl ?? `https://familukis.com/og-default.jpg`,
+  "image": ogImageUrl,
   "author": { "@type": "Person", "name": "Carlos Zamorano Rodriguez", "url": "https://familukis.com" },
   "publisher": { "@type": "Organization", "name": "Familukis", "url": "https://familukis.com",
     "logo": { "@type": "ImageObject", "url": "https://familukis.com/favicon.svg" } },
@@ -108,7 +111,7 @@ const schemas = [
 <BaseLayout
   title={seoTitle}
   description={seoDesc}
-  image={thumbUrl}
+  image={ogImageUrl}
   type="article"
 >
   <Fragment slot="head">
@@ -148,6 +151,20 @@ const schemas = [
               Ver también en Familukis: {mainVideo.data.title}
             </a>
           )}
+        </div>
+      )}
+
+      {/* ── IMAGEN HERO (cuando no hay vídeo) ── */}
+      {!mainVideoId && data.ogImage && (
+        <div class="article-hero-img">
+          <img
+            src={data.ogImage}
+            alt={data.title}
+            width="1200"
+            height="675"
+            loading="eager"
+            decoding="async"
+          />
         </div>
       )}
 
@@ -257,6 +274,17 @@ const schemas = [
   .adate { font-size:.78rem; color:var(--text-3); }
 
   /* VÍDEO PRINCIPAL */
+  .article-hero-img {
+    margin-bottom:2.5rem;
+    max-width:860px;
+  }
+  .article-hero-img img {
+    width:100%;
+    aspect-ratio:16/9;
+    border-radius:8px;
+    object-fit:cover;
+    display:block;
+  }
   .main-video {
     margin-bottom:2.5rem;
     max-width:860px;
@@ -330,4 +358,33 @@ const schemas = [
   }
 
   .related-wrap { margin-top:3rem; padding-top:2rem; border-top:1px solid var(--border); }
+
+  :global(.cta-block) {
+    margin: 2.5rem 0;
+    background: linear-gradient(135deg, rgba(229,9,20,0.08), rgba(229,9,20,0.04));
+    border: 1px solid rgba(229,9,20,0.2);
+    border-radius: 12px;
+    padding: 1.5rem 2rem;
+    text-align: center;
+  }
+  :global(.cta-block p) {
+    margin: 0 0 1rem;
+    font-size: 1rem;
+    color: rgba(255,255,255,0.8);
+  }
+  :global(.cta-btn) {
+    display: inline-block;
+    background: #e50914;
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 0.95rem;
+    padding: 0.7rem 1.6rem;
+    border-radius: 8px;
+    text-decoration: none !important;
+    transition: background 0.15s, transform 0.1s;
+  }
+  :global(.cta-btn:hover) {
+    background: #cc0812;
+    transform: translateY(-1px);
+  }
 </style>

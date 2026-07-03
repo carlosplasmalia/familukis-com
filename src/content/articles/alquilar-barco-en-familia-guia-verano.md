@@ -9,6 +9,7 @@ tags: ["barco", "velero", "alquiler barco", "vacaciones verano", "playas", "fami
 relatedVideoIds: []
 featured: false
 lastModified: "2026-07-03"
+ogImage: "/blog-barco-familia-verano.webp"
 faqs:
   - q: "¿Se puede alquilar un barco sin titulación náutica?"
     a: "Sí. Las embarcaciones de hasta 6 metros de eslora (8 en algunas comunidades) se pueden alquilar sin titulación si el motor es de menos de 6 CV. Para barcos más grandes podéis contratar la opción con patrón incluido, que se encarga de toda la navegación y vosotros solo disfrutáis."
@@ -61,3 +62,8 @@ Aquella primera vez en la Costa Brava llegamos a tres calas a las que era imposi
 Desde entonces lo hemos repetido cada verano que hemos podido. No necesita ser un barco grande ni un presupuesto alto — con una embarcación pequeña y un día tranquilo, la experiencia es difícil de superar.
 
 Para más planes de playa y costa en familia tenéis nuestra [sección de playas y costa](/categoria/playas-costa/).
+
+<div class="cta-block">
+  <p>¿Listo para buscar vuestro barco para este verano?</p>
+  <a href="https://www.awin1.com/awclick.php?mid=32683&id=2956549" target="_blank" rel="sponsored noopener" class="cta-btn">Ver barcos disponibles en SamBoat →</a>
+</div>

@@ -9,6 +9,7 @@ tags: ["viaje organizado", "agencia viajes", "familia", "viaje a medida", "vacac
 relatedVideoIds: []
 featured: false
 lastModified: "2026-07-03"
+ogImage: "/blog-viaje-organizado-familia.webp"
 faqs:
   - q: "¿Es mejor viajar por libre o con agencia cuando se tienen niños?"
     a: "Depende del destino y de la edad de los niños. Para destinos europeos conocidos, viajar por libre es perfectamente viable y más flexible. Para destinos largos, con barrera de idioma fuerte o con logística compleja (Japón, Marruecos, Sudeste Asiático), una agencia local con conocimiento real del destino marca una diferencia enorme, especialmente si hay niños de distintas edades."
@@ -55,3 +56,8 @@ Lo mejor del viaje organizado fue que el agente local sabía exactamente qué pa
 Ese tipo de ajuste no lo da ningún paquete estándar.
 
 Para más ideas de vacaciones en familia tenéis nuestra [sección de vacaciones en familia](/categoria/vacaciones-familia/) con destinos que hemos probado y los que tenemos pendientes.
+
+<div class="cta-block">
+  <p>¿Queréis que un agente local os diseñe el itinerario perfecto?</p>
+  <a href="https://www.awin1.com/awclick.php?mid=62629&id=2956549" target="_blank" rel="sponsored noopener" class="cta-btn">Pedir presupuesto sin compromiso en Evaneos →</a>
+</div>

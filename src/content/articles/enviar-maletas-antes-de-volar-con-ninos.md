@@ -9,6 +9,7 @@ tags: ["maletas", "avión", "viajar con niños", "equipaje", "vuelo familia", "e
 relatedVideoIds: []
 featured: false
 lastModified: "2026-07-03"
+ogImage: "/blog-maletas-avion-familia.webp"
 faqs:
   - q: "¿Cuánto cuesta enviar una maleta antes de volar?"
     a: "Depende del peso y el destino, pero en vuelos domésticos e internacionales europeos el precio ronda los 20-40€ por maleta. Con familias numerosas puede compensar frente al coste de facturación en aeropuerto, que suele ser más caro si no se reserva con antelación."
@@ -56,3 +57,8 @@ Desde que empezamos a separar el equipaje del viaje en avión, el aeropuerto ha 
 Es un gasto extra, sí. Pero en viajes largos con familia numerosa, lo que ahorras en estrés y en tiempo vale más que lo que pagas.
 
 Para más ideas sobre cómo organizar viajes en familia, tenéis nuestra [sección de vacaciones en familia](/categoria/vacaciones-familia/) con todo lo que hemos aprendido a lo largo de los años.
+
+<div class="cta-block">
+  <p>¿Queréis probar a volar sin maletas la próxima vez?</p>
+  <a href="https://www.awin1.com/awclick.php?mid=18124&id=2956549" target="_blank" rel="sponsored noopener" class="cta-btn">Calcular precio en Sinmaletas →</a>
+</div>
