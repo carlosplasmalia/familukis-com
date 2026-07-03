@@ -113,6 +113,9 @@ const schemas = [
   description={seoDesc}
   image={ogImageUrl}
   type="article"
+  publishedTime={data.date}
+  modifiedTime={data.lastModified ?? data.date}
+  articleSection={catLabel}
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(schemas)} />

@@ -37,6 +37,16 @@ const catLabel = CATEGORIA_LABELS[data.categoria];
 
 const pageUrl = `https://familukis.com/videos/${video.id}/`;
 
+// Convert "H:MM:SS" or "MM:SS" → ISO 8601 "PTxHxMxS"
+function toIsoDuration(dur: string): string | undefined {
+  if (!dur) return undefined;
+  const parts = dur.split(':').map(Number);
+  if (parts.some(isNaN)) return undefined;
+  if (parts.length === 2) return `PT${parts[0]}M${parts[1]}S`;
+  if (parts.length === 3) return `PT${parts[0]}H${parts[1]}M${parts[2]}S`;
+  return undefined;
+}
+
 const videoSchema = {
   "@context": "https://schema.org",
   "@type": "VideoObject",
@@ -46,7 +56,9 @@ const videoSchema = {
   "uploadDate": data.publishedAt
     ? (data.publishedAt.includes('T') ? data.publishedAt : `${data.publishedAt}T00:00:00+00:00`)
     : undefined,
+  "duration": toIsoDuration(data.duracion),
   "embedUrl": `https://www.youtube.com/embed/${data.videoId}`,
+  "contentUrl": `https://www.youtube.com/watch?v=${data.videoId}`,
   "interactionStatistic": data.views ? {
     "@type": "InteractionCounter",
     "interactionType": "https://schema.org/WatchAction",
@@ -72,6 +84,7 @@ const schemas = [videoSchema, breadcrumbSchema];
   description={seoDesc}
   image={thumb}
   type="video.other"
+  publishedTime={data.publishedAt}
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(schemas)} />
