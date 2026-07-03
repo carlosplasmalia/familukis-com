@@ -20,9 +20,9 @@ faqs:
     a: "El precio varía enormemente según el destino y la duración, pero el servicio de agencia local no necesariamente es más caro que un paquete estándar. En algunos destinos, tener a alguien que negocia directamente con proveedores locales puede resultar más barato que contratar todo por separado desde España."
 ---
 
-El año que decidimos ir a Jordania con cuatro de los cinco hijos fue la primera vez que recurrimos a una agencia. Hasta entonces siempre habíamos organizado todo nosotros, y para Europa nos sobra con reservar vuelo, hotel y tirar de mapas. Pero Jordania es diferente: la logística entre Ammán, Petra, Wadi Rum y el Mar Muerto, con niños de distintas edades y sin hablar árabe, nos generaba demasiadas incógnitas.
+Llevamos años organizando nuestros propios viajes. Para Europa nos sobra con reservar vuelo, hotel y tirar de mapas. Pero hay destinos donde esa lógica no funciona: cuando la barrera de idioma es fuerte, la logística interna es compleja y los niños tienen edades muy distintas, improvisar tiene un coste que no siempre vale la pena asumir.
 
-Lo que encontramos fue la diferencia entre contratar un paquete y contratar a alguien que conoce el sitio.
+La primera vez que recurrimos a una agencia fue precisamente para uno de esos viajes. Y lo que encontramos fue la diferencia entre contratar un paquete y contratar a alguien que conoce el sitio de verdad.
 
 ## Por libre vs. organizado: la pregunta real
 
@@ -50,9 +50,9 @@ Lo que más nos ayudó fue ser muy específicos desde el principio: edades de lo
 
 También es útil preguntar explícitamente por las partes del itinerario que no son turísticas: qué hacemos si llueve un día, dónde comen los niños si son remilgados con la comida, cómo se gestiona el traslado desde el aeropuerto si llegamos de noche.
 
-## Jordania con cinco años y con dieciséis
+## Lo que marca la diferencia en la práctica
 
-Lo mejor del viaje organizado fue que el agente local sabía exactamente qué partes de Petra aguantan bien los niños pequeños y cuáles no. Nos ahorró una caminata de cuatro horas con el más pequeño que habría acabado con todos de mal humor. En su lugar hicimos una ruta alternativa que fue igual de impresionante y duró la mitad.
+Lo mejor del viaje organizado fue que el agente local sabía exactamente qué partes del itinerario aguantan bien los niños pequeños y cuáles no. Nos ahorró una excursión que habría acabado con todos de mal humor. En su lugar propuso una alternativa que fue igual de buena y mucho más adecuada para las edades que llevábamos.
 
 Ese tipo de ajuste no lo da ningún paquete estándar.
 
