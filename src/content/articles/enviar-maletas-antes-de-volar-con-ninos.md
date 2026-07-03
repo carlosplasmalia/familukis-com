@@ -47,7 +47,7 @@ La mecánica es sencilla: contratáis la recogida en casa con uno o dos días de
 
 Al aeropuerto vais solo con la mochila de mano. Pasáis el control de seguridad en cinco minutos. Si algo se tuerce en el camino, os podéis mover.
 
-[Sinmaletas](https://www.awin1.com/cread.php?awinmid=18124&awinaffid=2956549&campaign=CAMPA%C3%91A+20%25+dto&ued=https%3A%2F%2Fwww.sinmaletas.com%2F) es el servicio que usamos para esto: recogida en puerta, seguimiento en tiempo real y seguro incluido. Funciona para destinos nacionales y europeos, y los precios son competitivos si los comparáis con lo que cobran las aerolíneas por facturar en ventanilla el mismo día.
+[Sinmaletas](https://www.awin1.com/cread.php?awinmid=18124&awinaffid=2956549&ued=https%3A%2F%2Fwww.sinmaletas.com%2F) es el servicio que usamos para esto: recogida en puerta, seguimiento en tiempo real y seguro incluido. Funciona para destinos nacionales y europeos, y los precios son competitivos si los comparáis con lo que cobran las aerolíneas por facturar en ventanilla el mismo día.
 
 ## Cuándo compensa y cuándo no
 
@@ -72,5 +72,5 @@ Para más ideas sobre cómo organizar viajes en familia, tenéis nuestra [secci�
 
 <div class="cta-block">
   <p>¿Próximo vuelo con niños? Mandad las maletas por delante — ahora con <strong>20% de descuento</strong>.</p>
-  <a href="https://www.awin1.com/cread.php?awinmid=18124&awinaffid=2956549&campaign=CAMPA%C3%91A+20%25+dto&ued=https%3A%2F%2Fwww.sinmaletas.com%2F" target="_blank" rel="sponsored noopener" class="cta-btn">Calcular precio en Sinmaletas →</a>
+  <a href="https://www.awin1.com/cread.php?awinmid=18124&awinaffid=2956549&ued=https%3A%2F%2Fwww.sinmaletas.com%2F" target="_blank" rel="sponsored noopener" class="cta-btn">Calcular precio en Sinmaletas →</a>
 </div>
