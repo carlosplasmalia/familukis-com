@@ -1,0 +1,16 @@
+---
+const TARGET = "https://www.awin1.com/cread.php?awinmid=18124&awinaffid=2956549&campaign=CAMPA%C3%91A+20%25+dto&ued=https%3A%2F%2Fwww.sinmaletas.com%2Fenvio-de-maletas%2F";
+---
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="refresh" content={`0; url=${TARGET}`} />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Redirigiendo a Sinmaletas…</title>
+  <script define:vars={{ TARGET }}>window.location.replace(TARGET);</script>
+</head>
+<body>
+  <p>Redirigiendo… <a href={TARGET}>Haz clic aquí si no te redirige</a></p>
+</body>
+</html>
