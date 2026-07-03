@@ -1,6 +1,8 @@
 ---
 title: "Volamos en familia en Windobona, un túnel de viento en Madrid"
+seoTitle: "Volamos en familia en Windobona, un túnel de viento en Madrid"
 description: "Descubre cómo vivimos la experiencia de volar en un túnel de viento en Madrid con los peques, ¡una aventura emocionante!"
+seoDescription: "Descubre cómo vivimos la experiencia de volar en un túnel de viento en Madrid con los peques, ¡una aventura emocionante!"
 date: "2026-06-25"
 categoria: "parques-atracciones"
 tags: ["Windobona", "túnel de viento", "experiencias en familia", "parques de atracciones", "juegos y juguetes en familia"]

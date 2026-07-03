@@ -1,6 +1,8 @@
 ---
 title: "Gymkana en mansión abandonada con gusanos comestibles"
+seoTitle: "Gymkana en mansión abandonada con gusanos comestibles"
 description: "Descubre la emoción de una gymkana en una mansión abandonada con pruebas sorprendentes y gusanos comestibles para los valientes"
+seoDescription: "Descubre la emoción de una gymkana en una mansión abandonada con pruebas sorprendentes y gusanos comestibles para los valientes"
 date: "2026-06-25"
 categoria: "halloween"
 tags: ["Familukis", "Gymkana", "Mansión abandonada", "Gusanos comestibles", "Halloween"]

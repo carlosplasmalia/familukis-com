@@ -35,8 +35,9 @@ const seoTitle = data.seoTitle ?? data.title;
 const seoDesc = data.seoDescription ?? data.description;
 const catLabel = CATEGORIA_LABELS[data.categoria];
 
-// Schema VideoObject
-const schema = {
+const pageUrl = `https://familukis.com/videos/${video.id}/`;
+
+const videoSchema = {
   "@context": "https://schema.org",
   "@type": "VideoObject",
   "name": seoTitle,
@@ -52,6 +53,18 @@ const schema = {
     "userInteractionCount": data.views
   } : undefined,
 };
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://familukis.com/" },
+    { "@type": "ListItem", "position": 2, "name": catLabel, "item": `https://familukis.com/categoria/${data.categoria}/` },
+    { "@type": "ListItem", "position": 3, "name": seoTitle, "item": pageUrl },
+  ],
+};
+
+const schemas = [videoSchema, breadcrumbSchema];
 ---
 
 <BaseLayout
@@ -61,7 +74,7 @@ const schema = {
   type="video.other"
 >
   <Fragment slot="head">
-    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(schemas)} />
   </Fragment>
 
   <article class="video-page">

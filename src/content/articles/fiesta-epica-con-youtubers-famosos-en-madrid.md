@@ -1,6 +1,8 @@
 ---
 title: "Fiesta épica con youtubers famosos en Madrid"
+seoTitle: "Fiesta épica con youtubers famosos en Madrid — Los Familukis"
 description: "Vive la emoción de la fiesta de youtubers en Madrid con nosotros, conocimos a Chenoa, Experimentos Caseros y más, no te pierdas el vídeo"
+seoDescription: "Vive la emoción de la fiesta de youtubers en Madrid con nosotros, conocimos a Chenoa, Experimentos Caseros y más, no te pierdas el vídeo"
 date: "2026-06-25"
 categoria: "para-ninos"
 tags: ["Familukis", "Youtubers", "Fiesta en Madrid", "YouTube Pop Up Space", "Dex y Nau"]

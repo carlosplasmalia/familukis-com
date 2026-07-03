@@ -1,6 +1,8 @@
 ---
 title: "Reto el suelo es lava con Familukis"
+seoTitle: "Reto el suelo es lava con Familukis"
 description: "Disfruta con nosotros del reto del suelo es lava y descubre qué sorpresa tenemos para el verano"
+seoDescription: "Disfruta con nosotros del reto del suelo es lava y descubre qué sorpresa tenemos para el verano"
 date: "2026-06-25"
 categoria: "retos-challenges"
 tags: ["Familukis", "Reto el suelo es lava", "Juegos en familia", "Verano", "Sorpresa"]

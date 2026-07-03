@@ -1,6 +1,8 @@
 ---
 title: "Diversión en el gimnasio Olímpico con los Familukis"
+seoTitle: "Diversión en el gimnasio Olímpico con los Familukis"
 description: "Únete a los Familukis en una aventura divertida en el gimnasio Olímpico, con saltos emocionantes y momentos inolvidables para toda la familia"
+seoDescription: "Únete a los Familukis en una aventura divertida en el gimnasio Olímpico, con saltos emocionantes y momentos inolvidables para toda la familia"
 date: "2026-06-25"
 categoria: "para-ninos"
 tags: ["Familukis", "gimnasio Olímpico", "diversión familiar", "saltos", "aventuras para niños"]

@@ -1,6 +1,8 @@
 ---
 title: "Paseo en coche por el safari"
+seoTitle: "Paseo en coche por el safari — Los Familukis"
 description: "Consejos para un viaje en coche por el safari con niños, actividades y preparativos necesarios para una aventura familiar"
+seoDescription: "Consejos para un viaje en coche por el safari con niños, actividades y preparativos necesarios para una aventura familiar"
 date: "2026-06-25"
 categoria: "para-ninos"
 tags: ["Familukis", "Día del Padre", "safari", "coche nuevo", "aventuras familiares"]

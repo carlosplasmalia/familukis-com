@@ -1,6 +1,8 @@
 ---
 title: "ESCONDITE en el PARQUE de TRAMPOLINES con Familukis"
+seoTitle: "ESCONDITE en el PARQUE de TRAMPOLINES con Familukis"
 description: "¡Únete a la diversión! Familukis juega al escondite en un parque de trampolines, ¡mira quién gana!"
+seoDescription: "¡Únete a la diversión! Familukis juega al escondite en un parque de trampolines, ¡mira quién gana!"
 date: "2026-06-25"
 categoria: "parques-atracciones"
 tags: ["Familukis", "escondite", "parque de trampolines", "retos", "diversión en familia"]

@@ -1,6 +1,8 @@
 ---
 title: "Paseo en barco para ver delfines y tiburones con niños"
+seoTitle: "Paseo en barco para ver delfines y tiburones con niños"
 description: "Descubre la emoción de un paseo en barco con niños para avistar delfines y tiburones, y aprende cómo cuidar nuestro medio marino"
+seoDescription: "Descubre la emoción de un paseo en barco con niños para avistar delfines y tiburones, y aprende cómo cuidar nuestro medio marino"
 date: "2026-06-25"
 categoria: "vacaciones-familia"
 tags: ["paseo en barco", "avistamiento de delfines", "tiburones", "actividades con niños", "cuidado del medio marino", "reducción de plástico"]

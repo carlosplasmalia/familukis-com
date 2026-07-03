@@ -1,6 +1,8 @@
 ---
 title: "Cumpleaños en Jaca: ideas para adolescentes en la naturaleza"
+seoTitle: "Cumpleaños en Jaca: ideas para adolescentes en la naturaleza"
 description: "Descubre las mejores actividades para celebrar un cumpleaños en Jaca y la comarca de Jacetania con adolescentes. ¡Experiencias únicas en la naturaleza!"
+seoDescription: "Descubre las mejores actividades para celebrar un cumpleaños en Jaca y la comarca de Jacetania con adolescentes. ¡Experiencias únicas en la naturaleza!"
 date: "2026-06-25"
 categoria: "camping-naturaleza"
 tags: ["Jaca", "comarca de Jacetania", "cumpleaños adolescentes", "actividades en la naturaleza", "familias con jóvenes", "viajes con adolescentes"]

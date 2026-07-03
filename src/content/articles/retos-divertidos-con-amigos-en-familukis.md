@@ -1,6 +1,8 @@
 ---
 title: "Retos divertidos con amigos en Familukis"
+seoTitle: "Retos divertidos con amigos en Familukis"
 description: "Un día de diversión y juegos con amigos en el canal Familukis, con retos y desafíos emocionantes para toda la familia"
+seoDescription: "Un día de diversión y juegos con amigos en el canal Familukis, con retos y desafíos emocionantes para toda la familia"
 date: "2026-06-25"
 categoria: "retos-challenges"
 tags: ["Familukis", "Retos", "Juegos", "Diversión", "Amigos"]

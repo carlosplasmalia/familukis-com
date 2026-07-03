@@ -1,6 +1,8 @@
 ---
 title: "Cumpleaños en parque de camas elásticas con sorpresas"
+seoTitle: "Cumpleaños en parque de camas elásticas con sorpresas"
 description: "Descubre cómo celebramos el cumpleaños de Oliver en un parque de trampolines con una mesa dulce, saltos y una pelota gigante, ¡mira el vídeo!"
+seoDescription: "Descubre cómo celebramos el cumpleaños de Oliver en un parque de trampolines con una mesa dulce, saltos y una pelota gigante, ¡mira el vídeo!"
 date: "2026-06-25"
 categoria: "parques-atracciones"
 tags: ["Familukis", "cumpleaños", "parque de trampolines", "actividades infantiles", "fiestas de cumpleaños"]

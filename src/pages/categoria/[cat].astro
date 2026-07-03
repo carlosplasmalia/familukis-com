@@ -22,6 +22,56 @@ const { cat } = Astro.params;
 const { label, catVideos } = Astro.props;
 const isMagic = cat === 'magic-world';
 
+const SEO_META: Record<string, { title: string; description: string }> = {
+  'magic-world': {
+    title: 'Magic World Resort con niños — Opiniones, vídeos y guías | Familukis',
+    description: 'Todo sobre Magic World Resort: opiniones reales, hoteles, parque acuático, cómo llegar y código de descuento. Los Familukis llevamos años yendo con nuestros hijos.',
+  },
+  'parques-acuaticos': {
+    title: 'Parques Acuáticos con niños en España — Experiencias reales | Familukis',
+    description: 'Visitas reales a parques acuáticos de España con niños: qué merecen la pena, colas, precios y trucos para aprovechar el día. Aquavelis, Warner Beach y más.',
+  },
+  'parques-atracciones': {
+    title: 'Parques de Atracciones con niños — Guías y vídeos | Familukis',
+    description: 'Parque Warner, Puy du Fou y más parques de atracciones de España vistos desde la experiencia de una familia numerosa. Qué ver, qué evitar y cómo organizarlo.',
+  },
+  'vacaciones-familia': {
+    title: 'Vacaciones en familia por España — Ideas y destinos | Familukis',
+    description: 'Destinos, hoteles y escapadas familiares que hemos probado con nuestros hijos. Desde la costa hasta la montaña, ideas reales para las vacaciones de verano y puentes.',
+  },
+  'camping-naturaleza': {
+    title: 'Camping y Naturaleza en Familia — Rutas y consejos | Familukis',
+    description: 'Acampadas, rutas por la naturaleza y aventuras al aire libre con niños. Campings familiares, qué llevar y los rincones naturales que más nos han sorprendido.',
+  },
+  'retos-challenges': {
+    title: 'Retos y Challenges en Familia — Los mejores vídeos | Familukis',
+    description: 'Los mejores retos y challenges de los Familukis para hacer en familia. Desafíos de comida, de habilidad, de resistencia y mucho más para pasar un rato increíble.',
+  },
+  'halloween': {
+    title: 'Halloween en Familia — Ideas, disfraces y actividades | Familukis',
+    description: 'Cómo celebrar Halloween con niños: disfraces caseros, decoración terrorífica, juegos y las mejores ideas de los Familukis para que lo pasen de miedo.',
+  },
+  'para-ninos': {
+    title: 'Juguetes y Juegos para Niños — Probados por Familukis',
+    description: 'Juguetes, juegos y actividades para niños que hemos probado de verdad. Slimes, construcciones, retos y todo lo que entretiene de verdad a los más pequeños.',
+  },
+};
+
+const seoMeta = SEO_META[cat ?? ''] ?? {
+  title: `${label} en familia — Familukis`,
+  description: `Los mejores vídeos de ${label.toLowerCase()} para familias. Experiencias reales con niños por toda España.`,
+};
+
+const catPageUrl = `https://familukis.com/categoria/${cat}/`;
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://familukis.com/" },
+    { "@type": "ListItem", "position": 2, "name": label, "item": catPageUrl },
+  ],
+};
+
 function toRow(vids: any[]) {
   return vids.map(v => ({
     videoId: v.data.videoId, title: v.data.title,
@@ -72,10 +122,14 @@ const heroThumb = hero ? `https://img.youtube.com/vi/${hero.data.videoId}/maxres
 ---
 
 <BaseLayout
-  title={`${label} en familia — Familukis`}
-  description={`Los mejores vídeos de ${label.toLowerCase()} para familias. Experiencias reales con niños por toda España.`}
+  title={seoMeta.title}
+  description={seoMeta.description}
   image={heroThumb}
+  canonicalUrl={catPageUrl}
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  </Fragment>
   {hero && (
     <section class="cat-hero" style={`--img:url('${heroThumb}')`}>
       <div class="cat-hero-bg"></div>

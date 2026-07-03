@@ -38,12 +38,18 @@ const articles = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/articles' }),
   schema: z.object({
     title: z.string(),
+    seoTitle: z.string().optional(),
     description: z.string(),
+    seoDescription: z.string().optional(),
     date: z.string(),
     categoria: z.enum(CATEGORIAS),
     tags: z.array(z.string()).default([]),
     relatedVideoIds: z.array(z.string()).default([]),
     featured: z.boolean().default(false),
+    rating: z.number().min(1).max(5).optional(),
+    reviewCount: z.number().default(1),
+    lastModified: z.string().optional(),
+    faqs: z.array(z.object({ q: z.string(), a: z.string() })).optional(),
   }),
 });
 

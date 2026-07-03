@@ -3,4 +3,5 @@ Allow: /
 Disallow: /mikeltube-studio
 Disallow: /mk-studio/
 
+Sitemap: https://familukis.com/sitemap.xml
 Sitemap: https://familukis.com/sitemap-index.xml

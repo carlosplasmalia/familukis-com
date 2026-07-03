@@ -1,6 +1,8 @@
 ---
 title: "Piscina cubierta en familia con Oliver"
+seoTitle: "Piscina cubierta en familia con Oliver — Los Familukis"
 description: "Disfrutamos de un día en familia en la piscina cubierta, Oliver juega en el agua y nos divertimos con retos y juegos acuáticos"
+seoDescription: "Disfrutamos de un día en familia en la piscina cubierta, Oliver juega en el agua y nos divertimos con retos y juegos acuáticos"
 date: "2026-06-25"
 categoria: "parques-acuaticos"
 tags: ["Familukis", "Piscina cubierta", "Día en familia", "Oliver", "Juegos acuáticos"]

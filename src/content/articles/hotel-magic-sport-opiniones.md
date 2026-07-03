@@ -1,11 +1,15 @@
 ---
 title: "Hotel Magic Sport opiniones 2026: guía completa para familias"
+seoTitle: "Hotel Magic Sport Opiniones 2026 — ¿Vale la Pena para Familias?"
 description: "Todo sobre el Hotel Magic Sport en Magic World Resort: habitaciones, instalaciones, qué incluye, precios y si merece la pena para ir con niños en 2026."
+seoDescription: "Opiniones del Hotel Magic Sport en Oropesa del Mar. Habitaciones familiares, acceso al parque acuático, instalaciones deportivas y comparativa con el Tropical Splash."
 date: "2026-06-26"
 categoria: "magic-world"
 tags: ["hotel magic sport", "opiniones", "magic world resort", "oropesa del mar", "hotel familiar", "todo incluido"]
 relatedVideoIds: ["i-HxTZZRAgQ", "UOt1plTwQK0", "MNS6NZl2pjI"]
 featured: false
+rating: 4.4
+reviewCount: 1
 ---
 
 El **Hotel Magic Sport** es uno de los hoteles más populares dentro de Magic World Resort y, en nuestra experiencia, el que mejor equilibrio tiene entre precio, instalaciones y diversión para familias con niños. Llevamos varias estancias allí y en este artículo te contamos todo lo que necesitas saber antes de reservar.

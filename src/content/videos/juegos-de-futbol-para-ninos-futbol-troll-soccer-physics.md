@@ -9,3 +9,15 @@ views: 2533194
 duracion: "10:53"
 featured: false
 ---
+
+En mayo de 2016, cuando YouTube todavía era un territorio nuevo para muchas familias españolas, los Familukis publicaron un vídeo de juegos de fútbol para niños que superó los 2,5 millones de visualizaciones. La clave era el formato: en lugar de fútbol normal, probamos el Fútbol Troll y el Soccer Physics.
+
+## Qué son el Fútbol Troll y el Soccer Physics
+
+Estos son formatos de fútbol alternativos que cambian las reglas del juego habitual para hacer la actividad más caótica y más divertida. El Fútbol Troll añade elementos de broma y sorpresa al partido. El Soccer Physics es la versión real de los videojuegos de física imposible: los jugadores se mueven de formas poco predecibles y el resultado raramente se parece a un partido normal.
+
+## Fútbol alternativo con niños
+
+Los juegos de fútbol alternativos funcionan bien con niños porque eliminan la presión de tener que ser bueno en fútbol. Un niño que en fútbol normal se queda en el banco puede ser el mejor en el Soccer Physics simplemente porque sabe adaptarse al caos mejor que los demás.
+
+Si buscas ideas de actividades deportivas para hacer con niños de distintos niveles, tenemos más contenido en la [sección de para niños](/categoria/para-ninos/).

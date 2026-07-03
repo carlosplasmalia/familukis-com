@@ -1,6 +1,8 @@
 ---
 title: "Nuestra aventura en autocaravana con piscina de invierno"
+seoTitle: "Nuestra aventura en autocaravana con piscina de invierno"
 description: "Descubre cómo vivimos en una autocaravana con piscina climatizada y conocer a nuestro nuevo gatito Dexter en este emocionante viaje"
+seoDescription: "Descubre cómo vivimos en una autocaravana con piscina climatizada y conocer a nuestro nuevo gatito Dexter en este emocionante viaje"
 date: "2026-06-25"
 categoria: "camping-naturaleza"
 tags: ["autocaravanas", "piscina climatizada", "viajes en familia", "Familukis", "aventuras"]

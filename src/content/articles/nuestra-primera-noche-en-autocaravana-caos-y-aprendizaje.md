@@ -1,6 +1,8 @@
 ---
 title: "Nuestra primera noche en autocaravana: caos y aprendizaje"
+seoTitle: "Nuestra primera noche en autocaravana: caos y aprendizaje"
 description: "Descubre cómo fue nuestra primera noche en autocaravana con los niños y qué problemas surgieron. Aprende de nuestros errores y haz que tu experiencia sea m"
+seoDescription: "Descubre cómo fue nuestra primera noche en autocaravana con los niños y qué problemas surgieron. Aprende de nuestros errores y haz que tu experiencia sea m"
 date: "2026-06-25"
 categoria: "camping-naturaleza"
 tags: ["autocaravana", "viaje en familia", "primeras experiencias", "problemas comunes", "consejos para viajar"]

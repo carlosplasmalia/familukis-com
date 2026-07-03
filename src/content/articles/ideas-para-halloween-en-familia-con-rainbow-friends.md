@@ -1,6 +1,8 @@
 ---
 title: "Ideas para Halloween en familia con Rainbow Friends"
+seoTitle: "Ideas para Halloween en familia con Rainbow Friends"
 description: "Descubre cómo vivir Halloween en familia con las mejores ideas de los Familukis, recreando el juego de Roblox Rainbow Friends en la vida real"
+seoDescription: "Descubre cómo vivir Halloween en familia con las mejores ideas de los Familukis, recreando el juego de Roblox Rainbow Friends en la vida real"
 date: "2026-06-25"
 categoria: "halloween"
 tags: ["Halloween", "Rainbow Friends", "Juegos de Roblox", "Actividades en familia", "Días festivos"]

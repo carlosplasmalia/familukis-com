@@ -1,6 +1,8 @@
 ---
 title: "Gummy vs Real: Un reto divertido para toda la familia"
+seoTitle: "Gummy vs Real: Un reto divertido para toda la familia"
 description: "Únete a nosotros en este emocionante reto de gominolas vs comida real, lleno de sorpresas y risas para toda la familia en Familukis"
+seoDescription: "Únete a nosotros en este emocionante reto de gominolas vs comida real, lleno de sorpresas y risas para toda la familia en Familukis"
 date: "2026-06-25"
 categoria: "retos-challenges"
 tags: ["Familukis", "Retos y Challenges", "Gominolas vs Real", "Juegos y juguetes en familia", "Reto divertido"]

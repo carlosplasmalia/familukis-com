@@ -1,6 +1,8 @@
 ---
 title: "Diversión en parque de trampolines con Familukis"
+seoTitle: "Diversión en parque de trampolines con Familukis"
 description: "Descubre la emoción de saltar en un parque de trampolines con Familukis, diversión para toda la familia en un entorno seguro"
+seoDescription: "Descubre la emoción de saltar en un parque de trampolines con Familukis, diversión para toda la familia en un entorno seguro"
 date: "2026-06-25"
 categoria: "parques-atracciones"
 tags: ["Familukis", "parque de trampolines", "diversión familiar", "saltos en camas elásticas", "entretenimiento para niños"]

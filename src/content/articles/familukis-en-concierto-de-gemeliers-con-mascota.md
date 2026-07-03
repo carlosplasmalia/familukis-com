@@ -1,6 +1,8 @@
 ---
 title: "Familukis en concierto de Gemeliers con mascota"
+seoTitle: "Familukis en concierto de Gemeliers con mascota"
 description: "Disfruta con Familukis de un divertido día en el concierto de Gemeliers y conoce a nuestra nueva mascota, José, en un vídeo lleno de risas y diversión"
+seoDescription: "Disfruta con Familukis de un divertido día en el concierto de Gemeliers y conoce a nuestra nueva mascota, José, en un vídeo lleno de risas y diversión"
 date: "2026-06-25"
 categoria: "vacaciones-familia"
 tags: ["Familukis", "Gemeliers", "Concierto", "Mascota", "Día divertido"]

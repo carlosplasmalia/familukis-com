@@ -1,6 +1,8 @@
 ---
 title: "Vacaciones en el Monasterio de Piedra"
+seoTitle: "Vacaciones en el Monasterio de Piedra — Los Familukis"
 description: "Explora el parque natural y disfruta de la naturaleza en estado puro con tu familia en Zaragoza"
+seoDescription: "Explora el parque natural y disfruta de la naturaleza en estado puro con tu familia en Zaragoza"
 date: "2026-06-25"
 categoria: "vacaciones-familia"
 tags: ["Familukis", "vacaciones en familia", "viajes de lujo", "diversión", "aventuras"]

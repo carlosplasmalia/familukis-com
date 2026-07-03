@@ -1,6 +1,8 @@
 ---
 title: "Yoga Challenge con amigos en Familukis"
+seoTitle: "Yoga Challenge con amigos en Familukis"
 description: "Un divertido reto de yoga con amigos, risas y emociones en Familukis, ¡no te pierdas el vídeo!"
+seoDescription: "Un divertido reto de yoga con amigos, risas y emociones en Familukis, ¡no te pierdas el vídeo!"
 date: "2026-06-25"
 categoria: "retos-challenges"
 tags: ["Yoga Challenge", "Retos en familia", "Juegos con amigos", "Familukis", "Divertidos desafíos"]

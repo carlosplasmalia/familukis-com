@@ -1,6 +1,8 @@
 ---
 title: "Familukis en parque de atracciones de Stranger Things"
+seoTitle: "Familukis en parque de atracciones de Stranger Things"
 description: "Disfrutamos de un día de diversión en un parque de atracciones temático de Stranger Things, con montañas rusas y atracciones terroríficas"
+seoDescription: "Disfrutamos de un día de diversión en un parque de atracciones temático de Stranger Things, con montañas rusas y atracciones terroríficas"
 date: "2026-06-25"
 categoria: "parques-atracciones"
 tags: ["Familukis", "Parque de Atracciones", "Stranger Things", "Día de Terror", "Aventuras en Familia"]

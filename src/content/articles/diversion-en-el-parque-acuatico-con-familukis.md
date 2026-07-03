@@ -1,6 +1,8 @@
 ---
 title: "Diversión en el parque acuático con Familukis"
+seoTitle: "Diversión en el parque acuático con Familukis"
 description: "Descubre la emoción del parque acuático con toboganes de agua y diversión para toda la familia, ¡no te pierdas el vídeo!"
+seoDescription: "Descubre la emoción del parque acuático con toboganes de agua y diversión para toda la familia, ¡no te pierdas el vídeo!"
 date: "2026-06-25"
 categoria: "parques-acuaticos"
 tags: ["Parque Acuático", "Familukis", "Diversión Familiar", "Toboganes de Agua", "Verano"]

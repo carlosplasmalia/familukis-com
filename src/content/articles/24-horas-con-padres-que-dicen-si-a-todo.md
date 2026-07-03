@@ -1,6 +1,8 @@
 ---
 title: "24 horas con padres que dicen sí a todo"
+seoTitle: "24 Horas con Padres que Dicen Sí a Todo — El Reto Familukis"
 description: "Descubre qué pasa cuando mis padres dicen sí a todo durante 24 horas, un reto divertido y emocionante en Familukis"
+seoDescription: "El reto de 24 horas en el que los padres de los Familukis dicen sí a todo lo que pidan los niños. ¿Cuánto dura antes de que alguien se arrepienta?"
 date: "2026-06-25"
 categoria: "retos-challenges"
 tags: ["Familukis", "Retos", "Challenges", "Padres que dicen sí", "24 horas"]

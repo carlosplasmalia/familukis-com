@@ -1,6 +1,8 @@
 ---
 title: "No caigas en la piscina incorrecta: Retos verano 2019"
+seoTitle: "No Caigas en la Piscina Incorrecta — Reto de Verano Familukis 2019"
 description: "¡Diviértete con nosotros en este reto de verano! No caigas en la piscina incorrecta, un juego divertido y emocionante para toda la familia. ¡Mira qué pasa "
+seoDescription: "El reto de las piscinas de verano: no caigas en la piscina incorrecta. Dos piscinas, una con agua fría y otra con sorpresa. ¿Quién aguanta sin mojarse?"
 date: "2026-06-25"
 categoria: "retos-challenges"
 tags: ["Retos verano", "Piscina incorrecta", "Juegos familiares", "Diversión en verano", "Familukis"]

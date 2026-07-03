@@ -1,6 +1,8 @@
 ---
 title: "Cabalgata de Reyes Magos con niños"
+seoTitle: "Cabalgata de Reyes Magos con niños — Los Familukis"
 description: "Cómo disfrutar la cabalgata de Reyes Magos con los niños, consejos y emociones en familia durante la navidad"
+seoDescription: "Cómo disfrutar la cabalgata de Reyes Magos con los niños, consejos y emociones en familia durante la navidad"
 date: "2026-06-25"
 categoria: "navidad-regalos"
 tags: ["Reyes Magos", "Cabalgata", "Regalos", "Navidad", "Familukis"]

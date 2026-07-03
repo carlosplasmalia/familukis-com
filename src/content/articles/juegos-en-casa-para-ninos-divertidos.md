@@ -1,6 +1,8 @@
 ---
 title: "Juegos en casa para niños divertidos"
+seoTitle: "Juegos en casa para niños divertidos — Los Familukis"
 description: "Descubre juegos divertidos para hacer en casa con tus hijos, fomenta la empatía y el entendimiento entre padres e hijos"
+seoDescription: "Descubre juegos divertidos para hacer en casa con tus hijos, fomenta la empatía y el entendimiento entre padres e hijos"
 date: "2026-06-25"
 categoria: "para-ninos"
 tags: ["juegos para niños", "actividades en casa", "diversión familiar", "juegos educativos", "Familukis"]

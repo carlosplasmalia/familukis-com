@@ -40,29 +40,79 @@ const relatedArticles = allArticles
 
 const catLabel = CATEGORIA_LABELS[data.categoria];
 
-const schema = {
+const pageUrl = `https://familukis.com/blog/${article.id}/`;
+const seoTitle = data.seoTitle ?? data.title;
+const seoDesc = data.seoDescription ?? data.description;
+
+const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": data.title,
-  "description": data.description,
+  "headline": seoTitle,
+  "description": seoDesc,
   "datePublished": data.date,
-  "dateModified": data.date,
+  "dateModified": data.lastModified ?? data.date,
   "image": thumbUrl ?? `https://familukis.com/og-default.jpg`,
   "author": { "@type": "Person", "name": "Carlos Zamorano Rodriguez", "url": "https://familukis.com" },
   "publisher": { "@type": "Organization", "name": "Familukis", "url": "https://familukis.com",
     "logo": { "@type": "ImageObject", "url": "https://familukis.com/favicon.svg" } },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": Astro.url.href },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": pageUrl },
 };
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://familukis.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://familukis.com/blog/" },
+    { "@type": "ListItem", "position": 3, "name": catLabel, "item": `https://familukis.com/categoria/${data.categoria}/` },
+    { "@type": "ListItem", "position": 4, "name": data.title, "item": pageUrl },
+  ],
+};
+
+const reviewSchema = data.rating ? {
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Thing",
+    "name": seoTitle.replace(/opiniones.*$/i, '').replace(/¿.*\?/i, '').trim(),
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": data.rating,
+    "bestRating": 5,
+    "worstRating": 1,
+  },
+  "author": { "@type": "Person", "name": "Carlos Zamorano Rodriguez" },
+  "publisher": { "@type": "Organization", "name": "Familukis" },
+  "reviewBody": data.description,
+} : null;
+
+const faqSchema = data.faqs && data.faqs.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": data.faqs.map(f => ({
+    "@type": "Question",
+    "name": f.q,
+    "acceptedAnswer": { "@type": "Answer", "text": f.a },
+  })),
+} : null;
+
+const schemas = [
+  articleSchema,
+  breadcrumbSchema,
+  ...(reviewSchema ? [reviewSchema] : []),
+  ...(faqSchema ? [faqSchema] : []),
+];
 ---
 
 <BaseLayout
-  title={data.title}
-  description={data.description}
+  title={seoTitle}
+  description={seoDesc}
   image={thumbUrl}
   type="article"
 >
   <Fragment slot="head">
-    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(schemas)} />
   </Fragment>
 
   <article class="article-page">

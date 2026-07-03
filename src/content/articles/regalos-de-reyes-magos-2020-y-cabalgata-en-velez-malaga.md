@@ -1,6 +1,8 @@
 ---
 title: "Regalos de Reyes Magos 2020 y Cabalgata en Vélez-Málaga"
+seoTitle: "Regalos de Reyes Magos 2020 y Cabalgata en Vélez-Málaga"
 description: "Disfruta con nosotros de la emoción de la cabalgata de Reyes Magos en Vélez-Málaga y descubre los regalos que nos han traído los Reyes Magos en este especi"
+seoDescription: "Disfruta con nosotros de la emoción de la cabalgata de Reyes Magos en Vélez-Málaga y descubre los regalos que nos han traído los Reyes Magos en este especi"
 date: "2026-06-25"
 categoria: "navidad-regalos"
 tags: ["Reyes Magos", "Cabalgata", "Navidad", "Regalos", "Familukis"]

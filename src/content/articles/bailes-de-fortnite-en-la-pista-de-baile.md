@@ -1,6 +1,8 @@
 ---
 title: "Bailes de Fortnite en la pista de baile"
+seoTitle: "Bailes de Fortnite en la pista de baile — Los Familukis"
 description: "Aprende a bailar como un profesional en Fortnite, conociendo los mejores bailes y pasos para impresionar a tus amigos en la pista de baile"
+seoDescription: "Aprende a bailar como un profesional en Fortnite, conociendo los mejores bailes y pasos para impresionar a tus amigos en la pista de baile"
 date: "2026-06-25"
 categoria: "retos-challenges"
 tags: ["Familukis", "Fortnite", "Bailes", "Retos", "Juegos"]

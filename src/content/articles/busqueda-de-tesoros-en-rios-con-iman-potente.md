@@ -1,6 +1,8 @@
 ---
 title: "Búsqueda de tesoros en ríos con imán potente"
+seoTitle: "Búsqueda de tesoros en ríos con imán potente — Los Familukis"
 description: "Aprende a encontrar objetos metálicos en ríos y lagos utilizando un imán potente y contribuye a limpiar el medio ambiente"
+seoDescription: "Aprende a encontrar objetos metálicos en ríos y lagos utilizando un imán potente y contribuye a limpiar el medio ambiente"
 date: "2026-06-25"
 categoria: "camping-naturaleza"
 tags: ["Familukis", "tesoros en el río", "imán potente", "limpieza del río", "aventuras familiares"]

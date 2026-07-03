@@ -1,6 +1,8 @@
 ---
 title: "Reto de maquillaje a ciegas en Halloween con Familukis"
+seoTitle: "Reto de maquillaje a ciegas en Halloween con Familukis"
 description: "Únete a nosotros en este divertido reto de maquillaje a ciegas en Halloween. Descubre quién es el mejor maquillador en nuestra familia"
+seoDescription: "Únete a nosotros en este divertido reto de maquillaje a ciegas en Halloween. Descubre quién es el mejor maquillador en nuestra familia"
 date: "2026-06-25"
 categoria: "halloween"
 tags: ["Halloween", "Reto de maquillaje", "Familukis", "Juegos en familia", "Niños en Halloween"]

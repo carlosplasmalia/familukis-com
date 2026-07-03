@@ -1,6 +1,8 @@
 ---
 title: "Retos de Familukis: MENTIRA vs REAL con Tremending GIRLS"
+seoTitle: "Retos de Familukis: MENTIRA vs REAL con Tremending GIRLS"
 description: "Descubre los retos más divertidos de Familukis con Tremending GIRLS, ¡no te pierdas la risa y la diversión!"
+seoDescription: "Descubre los retos más divertidos de Familukis con Tremending GIRLS, ¡no te pierdas la risa y la diversión!"
 date: "2026-06-25"
 categoria: "retos-challenges"
 tags: ["Retos Familukis", "Tremending GIRLS", "Challenges", "Familia y diversión", "Vídeos divertidos"]

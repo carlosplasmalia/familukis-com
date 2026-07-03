@@ -1,6 +1,8 @@
 ---
 title: "Diversión en el parque acuático con Familukis"
+seoTitle: "Diversión en el parque acuático con Familukis"
 description: "Descubre el emocionante día que pasamos en el parque acuático, con bromas, concursos y diversión para toda la familia"
+seoDescription: "Descubre el emocionante día que pasamos en el parque acuático, con bromas, concursos y diversión para toda la familia"
 date: "2026-06-25"
 categoria: "parques-acuaticos"
 tags: ["Familukis", "Parque Acuático", "Diversión Familiar", "Bromas", "Concursos"]

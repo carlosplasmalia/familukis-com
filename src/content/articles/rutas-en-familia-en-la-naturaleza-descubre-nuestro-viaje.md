@@ -1,6 +1,8 @@
 ---
 title: "Rutas en familia en la naturaleza: ¡Descubre nuestro viaje!"
+seoTitle: "Rutas en familia en la naturaleza: ¡Descubre nuestro viaje!"
 description: "Descubre cómo disfrutar de la naturaleza con tus hijos en rutas divertidas y seguras cerca de casa. ¡Lee nuestra experiencia!"
+seoDescription: "Descubre cómo disfrutar de la naturaleza con tus hijos en rutas divertidas y seguras cerca de casa. ¡Lee nuestra experiencia!"
 date: "2026-06-25"
 categoria: "camping-naturaleza"
 tags: ["rutas en familia", "naturaleza", "actividades al aire libre", "excursiones con niños", "viajes en familia"]

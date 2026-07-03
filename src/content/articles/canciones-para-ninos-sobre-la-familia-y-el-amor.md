@@ -1,6 +1,8 @@
 ---
 title: "Canciones para niños sobre la familia y el amor"
+seoTitle: "Canciones para Niños sobre la Familia — Las Que Cantamos los Familukis"
 description: "Descubre la importancia de la familia a través de canciones divertidas y emotivas para niños, promoviendo valores como el amor y la unión"
+seoDescription: "Canciones para niños sobre la familia y el amor: las que cantamos en el canal y las que más gustan en casa. Con vídeos y letra para cantar en familia."
 date: "2026-06-25"
 categoria: "para-ninos"
 tags: ["canciones para niños", "familia", "amor", "unión familiar", "educación infantil"]

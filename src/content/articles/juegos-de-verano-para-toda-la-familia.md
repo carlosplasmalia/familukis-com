@@ -1,6 +1,8 @@
 ---
 title: "Juegos de verano para toda la familia"
+seoTitle: "Juegos de verano para toda la familia — Los Familukis"
 description: "Descubre los mejores juegos para jugar en verano con tus hijos, divertidos y emocionantes para toda la familia, ¡no te pierdas!"
+seoDescription: "Descubre los mejores juegos para jugar en verano con tus hijos, divertidos y emocionantes para toda la familia, ¡no te pierdas!"
 date: "2026-06-25"
 categoria: "para-ninos"
 tags: ["juegos de verano", "actividades para niños", "diversión familiar", "verano con hijos", "juegos al aire libre"]

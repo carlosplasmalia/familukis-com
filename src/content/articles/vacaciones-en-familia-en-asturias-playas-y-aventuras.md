@@ -1,6 +1,8 @@
 ---
 title: "Vacaciones en familia en Asturias: Playas y aventuras"
+seoTitle: "Vacaciones en familia en Asturias: Playas y aventuras"
 description: "Descubre las mejores playas y actividades para disfrutar en familia en Asturias. ¡No te pierdas nuestras aventuras y sorpresas!"
+seoDescription: "Descubre las mejores playas y actividades para disfrutar en familia en Asturias. ¡No te pierdas nuestras aventuras y sorpresas!"
 date: "2026-06-25"
 categoria: "playas-costa"
 tags: ["Asturias", "Playas", "Vacaciones en familia", "Actividades al aire libre", "Familukis"]

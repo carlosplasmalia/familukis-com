@@ -1,6 +1,8 @@
 ---
 title: "Vacaciones en familia en el Pirineo Francés"
+seoTitle: "Vacaciones en familia en el Pirineo Francés — Los Familukis"
 description: "Descubre la aventura perfecta para tu familia en el Pirineo Francés, con actividades emocionantes y paisajes impresionantes"
+seoDescription: "Descubre la aventura perfecta para tu familia en el Pirineo Francés, con actividades emocionantes y paisajes impresionantes"
 date: "2026-06-25"
 categoria: "camping-naturaleza"
 tags: ["Familukis", "Vacaciones en familia", "Pirineo Francés", "Aventuras en la naturaleza", "Viajes con niños"]

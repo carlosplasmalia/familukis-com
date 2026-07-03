@@ -1,6 +1,8 @@
 ---
 title: "Dibujos de primavera con marcadores: ideas divertidas"
+seoTitle: "Dibujos de primavera con marcadores: ideas divertidas"
 description: "Descubre cómo crear bellas obras de arte con marcadores y pancake art en primavera con tus hijos. ¡Ideas divertidas y fáciles!"
+seoDescription: "Descubre cómo crear bellas obras de arte con marcadores y pancake art en primavera con tus hijos. ¡Ideas divertidas y fáciles!"
 date: "2026-06-25"
 categoria: "camping-naturaleza"
 tags: ["actividades para niños", "dibujos de primavera", "marcadores", "pancake art", "arte para niños", "primavera"]

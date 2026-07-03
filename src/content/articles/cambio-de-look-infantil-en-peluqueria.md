@@ -1,6 +1,8 @@
 ---
 title: "Cambio de look infantil en peluquería"
+seoTitle: "Cambio de look infantil en peluquería — Los Familukis"
 description: "Un niño elige su nuevo peinado y color de pelo en una peluquería con ayuda de una profesional"
+seoDescription: "Un niño elige su nuevo peinado y color de pelo en una peluquería con ayuda de una profesional"
 date: "2026-06-25"
 categoria: "para-ninos"
 tags: ["Familukis", "cambio de look", "peluquería", "niños", "diversión"]

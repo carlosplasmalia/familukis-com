@@ -1,6 +1,8 @@
 ---
 title: "Squishy vs Comida Real vs Gominola: Un Reto Divertido"
+seoTitle: "Squishy vs Comida Real vs Gominola: Un Reto Divertido"
 description: "Descubre qué sucede cuando probamos squishy, comida real y gominola en un emocionante reto familiar en Familukis"
+seoDescription: "Descubre qué sucede cuando probamos squishy, comida real y gominola en un emocionante reto familiar en Familukis"
 date: "2026-06-25"
 categoria: "retos-challenges"
 tags: ["Familukis", "Squishy", "Retos Familiares", "Comida Real", "Gominola"]

@@ -1,6 +1,8 @@
 ---
 title: "Navidad con Familukis y Carameluchis, diversión garantizada"
+seoTitle: "Navidad con Familukis y Carameluchis — Especial Navideño en Familia"
 description: "Únete a la aventura navideña de Familukis y Carameluchis, lleno de diversión y sorpresas para toda la familia"
+seoDescription: "El especial de Navidad de Familukis junto a los Carameluchis. Dos familias youtubers celebrando juntas con juegos, retos navideños y mucha diversión para los niños."
 date: "2026-06-25"
 categoria: "navidad-regalos"
 tags: ["Navidad", "Familukis", "Carameluchis", "YouTubers", "Diversión Familiar"]

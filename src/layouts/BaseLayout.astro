@@ -42,24 +42,49 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={image} />
 
-  <script type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Familukis",
-    "url": "https://familukis.com",
-    "description": "Planes y actividades en familia. Experiencias reales.",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": { "@type": "EntryPoint", "urlTemplate": "https://familukis.com/buscar?q={search_term_string}" },
-      "query-input": "required name=search_term_string"
+  <script type="application/ld+json" set:html={JSON.stringify([
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Familukis",
+      "url": "https://familukis.com",
+      "description": "Planes y actividades en familia. Experiencias reales.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": { "@type": "EntryPoint", "urlTemplate": "https://familukis.com/buscar?q={search_term_string}" },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Familukis",
+      "url": "https://familukis.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://familukis.com/favicon.svg",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://www.youtube.com/@LosFamilukis",
+        "https://www.youtube.com/c/losfamilukis",
+        "https://www.instagram.com/losfamilukis",
+        "https://www.tiktok.com/@losfamilukis"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "availableLanguage": "Spanish"
+      }
     }
-  })} />
+  ])} />
 
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
   <link rel="manifest" href="/manifest.json" />
   <meta name="theme-color" content="#e50914" />
   <meta name="mobile-web-app-capable" content="yes" />

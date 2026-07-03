@@ -1,6 +1,8 @@
 ---
 title: "Cócteles caseros para verano, decoración y diversión en familia"
+seoTitle: "Cócteles caseros para verano, decoración y diversión en familia"
 description: "Descubre cómo hacer cócteles caseros refrescantes y divertidos para el verano, con decoración y juegos para toda la familia en un entorno de playa"
+seoDescription: "Descubre cómo hacer cócteles caseros refrescantes y divertidos para el verano, con decoración y juegos para toda la familia en un entorno de playa"
 date: "2026-06-25"
 categoria: "playas-costa"
 tags: ["Cócteles caseros", "Verano", "Decoración de playa", "Juegos familiares", "Recetas refrescantes"]

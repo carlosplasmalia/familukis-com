@@ -1,6 +1,8 @@
 ---
 title: "Familukis juega al challenge de YouTube ¿QUÉ o QUIEN soy?"
+seoTitle: "Familukis juega al challenge de YouTube ¿QUÉ o QUIEN soy?"
 description: "Descubre cómo nos divertimos en Familukis con el challenge de YouTube ¿QUÉ o QUIEN soy? ¡Mira el vídeo y descubre quién gana!"
+seoDescription: "Descubre cómo nos divertimos en Familukis con el challenge de YouTube ¿QUÉ o QUIEN soy? ¡Mira el vídeo y descubre quién gana!"
 date: "2026-06-25"
 categoria: "retos-challenges"
 tags: ["Familukis", "Challenge de YouTube", "Qué o quién soy", "Juegos en familia", "Divertidos retos"]

@@ -1,6 +1,8 @@
 ---
 title: "Sesión de fotos familiares al estilo Tumblr"
+seoTitle: "Sesión de fotos familiares al estilo Tumblr — Los Familukis"
 description: "Descubre cómo crear una sesión de fotos familiares inspiradas en Tumblr con consejos y trucos prácticos"
+seoDescription: "Descubre cómo crear una sesión de fotos familiares inspiradas en Tumblr con consejos y trucos prácticos"
 date: "2026-06-25"
 categoria: "retos-challenges"
 tags: ["fotos familiares", "estilo Tumblr", "sesión de fotos", "consejos de fotografía", "Familukis"]

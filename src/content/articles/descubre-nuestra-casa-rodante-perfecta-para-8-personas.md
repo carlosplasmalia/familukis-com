@@ -1,6 +1,8 @@
 ---
 title: "Descubre nuestra casa rodante perfecta para 8 personas"
+seoTitle: "Descubre nuestra casa rodante perfecta para 8 personas"
 description: "Explora con nosotros nuestra nueva autocaravana, ideal para familias grandes, con cama secreta y mucho espacio para vivir y disfrutar"
+seoDescription: "Explora con nosotros nuestra nueva autocaravana, ideal para familias grandes, con cama secreta y mucho espacio para vivir y disfrutar"
 date: "2026-06-25"
 categoria: "camping-naturaleza"
 tags: ["autocaravanas", "casa rodante", "viajes en familia", "Familukis", "caminos de Andalucía"]

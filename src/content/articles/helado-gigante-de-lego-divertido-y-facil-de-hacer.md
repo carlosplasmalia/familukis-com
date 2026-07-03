@@ -1,6 +1,8 @@
 ---
 title: "Helado gigante de Lego, divertido y fácil de hacer"
+seoTitle: "Helado gigante de Lego, divertido y fácil de hacer"
 description: "Descubre cómo hacer un helado gigante de Lego con tus hijos, un proyecto divertido y fácil de realizar en familia, con refrescos de colores"
+seoDescription: "Descubre cómo hacer un helado gigante de Lego con tus hijos, un proyecto divertido y fácil de realizar en familia, con refrescos de colores"
 date: "2026-06-25"
 categoria: "retos-challenges"
 tags: ["helado de Lego", "proyectos familiares", "recetas divertidas", "juegos y juguetes", "actividades para niños"]

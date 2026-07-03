@@ -1,6 +1,8 @@
 ---
 title: "Diversión en el parque de atracciones con Familukis"
+seoTitle: "Diversión en el parque de atracciones con Familukis"
 description: "Únete a Familukis en un emocionante día en el parque de atracciones, lleno de risas, atracciones y diversión en familia"
+seoDescription: "Únete a Familukis en un emocionante día en el parque de atracciones, lleno de risas, atracciones y diversión en familia"
 date: "2026-06-25"
 categoria: "parques-atracciones"
 tags: ["Parque de Atracciones", "Familukis", "Día de Diversión", "Atracciones para Niños", "Entretenimiento Familiar"]

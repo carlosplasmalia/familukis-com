@@ -1,6 +1,8 @@
 ---
 title: "Bromas fáciles para hacer en casa con los niños"
+seoTitle: "Bromas fáciles para hacer en casa con los niños — Los Familukis"
 description: "Descubre 4 bromas divertidas y fáciles de hacer en casa para sorprender a tus familiares y amigos con juegos y juguetes en familia"
+seoDescription: "Descubre 4 bromas divertidas y fáciles de hacer en casa para sorprender a tus familiares y amigos con juegos y juguetes en familia"
 date: "2026-06-25"
 categoria: "retos-challenges"
 tags: ["bromas para niños", "juegos en familia", "retos divertidos", "actividades para niños", "juegos y juguetes en familia"]
