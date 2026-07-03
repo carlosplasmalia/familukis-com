@@ -58,6 +58,31 @@ const CAT_COLORS: Record<string, string> = {
     <p>Guías, ideas y experiencias reales para disfrutar en familia.</p>
   </header>
 
+  {featured.length > 0 && (
+    <section class="featured-section">
+      <h2 class="section-title">Destacados</h2>
+      <div class="featured-grid">
+        {featured.map(a => {
+          const thumb = getThumb(a);
+          const bg = CAT_COLORS[a.data.categoria] ?? 'linear-gradient(135deg,#1a1a1a,#0d0d0d)';
+          return (
+            <a href={`/blog/${a.id}`} class="acard acard--featured">
+              <div class="acard-thumb" style={!thumb ? `background:${bg}` : ''}>
+                {thumb && <img src={thumb} alt={a.data.title} loading="lazy" />}
+              </div>
+              <div class="acard-body">
+                <span class="acard-cat">{CATEGORIA_LABELS[a.data.categoria]}</span>
+                <h3>{a.data.title}</h3>
+                <p>{a.data.description}</p>
+                <span class="acard-link">Leer artículo →</span>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  )}
+
   {affiliated.length > 0 && (
     <section class="aff-strip">
       <div class="aff-strip-header">
@@ -79,31 +104,6 @@ const CAT_COLORS: Record<string, string> = {
                 <h3>{a.data.title}</h3>
                 <p>{a.data.description}</p>
                 <span class="aff-card-cta">Leer →</span>
-              </div>
-            </a>
-          );
-        })}
-      </div>
-    </section>
-  )}
-
-  {featured.length > 0 && (
-    <section class="featured-section">
-      <h2 class="section-title">Destacados</h2>
-      <div class="featured-grid">
-        {featured.map(a => {
-          const thumb = getThumb(a);
-          const bg = CAT_COLORS[a.data.categoria] ?? 'linear-gradient(135deg,#1a1a1a,#0d0d0d)';
-          return (
-            <a href={`/blog/${a.id}`} class="acard acard--featured">
-              <div class="acard-thumb" style={!thumb ? `background:${bg}` : ''}>
-                {thumb && <img src={thumb} alt={a.data.title} loading="lazy" />}
-              </div>
-              <div class="acard-body">
-                <span class="acard-cat">{CATEGORIA_LABELS[a.data.categoria]}</span>
-                <h3>{a.data.title}</h3>
-                <p>{a.data.description}</p>
-                <span class="acard-link">Leer artículo →</span>
               </div>
             </a>
           );
