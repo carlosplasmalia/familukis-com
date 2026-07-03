@@ -6,11 +6,10 @@ seoDescription: "Enviar las maletas antes de volar con niños: por qué lo hacem
 date: "2026-07-03"
 categoria: "vacaciones-familia"
 tags: ["maletas", "avión", "viajar con niños", "equipaje", "vuelo familia", "envío maletas", "chipre"]
-relatedVideoIds: []
+relatedVideoIds: ["2jk73PdOke0"]
 featured: false
 lastModified: "2026-07-03"
 affiliated: true
-ogImage: "/blog-maletas-avion-familia.webp"
 faqs:
   - q: "¿Cuánto cuesta enviar una maleta antes de volar?"
     a: "Depende del peso y el destino, pero en vuelos domésticos e internacionales europeos el precio ronda los 20-40€ por maleta. Con familias numerosas puede compensar frente al coste de facturación en aeropuerto, que suele ser más caro si no se reserva con antelación."
