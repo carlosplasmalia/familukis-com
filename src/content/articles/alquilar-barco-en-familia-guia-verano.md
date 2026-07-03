@@ -41,7 +41,7 @@ El precio con patrón es más alto, pero para una experiencia de un día con ni�
 
 ## Cómo reservar y qué mirar
 
-Usamos [SamBoat](https://www.awin1.com/awclick.php?mid=32683&id=2956549) para buscar y comparar: es la plataforma de alquiler de barcos más grande de Europa y tiene filtros por zona, tipo de embarcación, con o sin patrón, precio y disponibilidad. Los precios aparecen con todo incluido — sin sorpresas de seguro o combustible oculto según el anuncio.
+Usamos [SamBoat](https://www.awin1.com/cread.php?awinmid=32683&awinaffid=2956549&ued=https%3A%2F%2Fwww.samboat.es%2Fs%2Fbateaux%2F%3Fcountry%3DES%26nb_passengers%3D4) para buscar y comparar: es la plataforma de alquiler de barcos más grande de Europa y tiene filtros por zona, tipo de embarcación, con o sin patrón, precio y disponibilidad. Los precios aparecen con todo incluido — sin sorpresas de seguro o combustible oculto según el anuncio.
 
 Lo que hay que revisar antes de confirmar:
 - Qué está incluido en el precio (combustible, seguro, equipo de snorkel, chalecos infantiles)
@@ -65,5 +65,5 @@ Para más planes de playa y costa en familia tenéis nuestra [sección de playas
 
 <div class="cta-block">
   <p>¿Listo para buscar vuestro barco para este verano?</p>
-  <a href="https://www.awin1.com/awclick.php?mid=32683&id=2956549" target="_blank" rel="sponsored noopener" class="cta-btn">Ver barcos disponibles en SamBoat →</a>
+  <a href="https://www.awin1.com/cread.php?awinmid=32683&awinaffid=2956549&ued=https%3A%2F%2Fwww.samboat.es%2Fs%2Fbateaux%2F%3Fcountry%3DES%26nb_passengers%3D4" target="_blank" rel="sponsored noopener" class="cta-btn">Ver barcos disponibles en SamBoat →</a>
 </div>
