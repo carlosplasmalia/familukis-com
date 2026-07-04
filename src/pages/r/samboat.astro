@@ -1,0 +1,17 @@
+---
+const TARGET = "https://www.awin1.com/cread.php?awinmid=32683&awinaffid=2956549&ued=https%3A%2F%2Fwww.samboat.es%2F";
+---
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="referrer" content="no-referrer" />
+  <meta http-equiv="refresh" content={`0; url=${TARGET}`} />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Redirigiendo a SamBoat…</title>
+  <script define:vars={{ TARGET }}>window.location.replace(TARGET);</script>
+</head>
+<body>
+  <p>Redirigiendo… <a href={TARGET}>Haz clic aquí si no te redirige</a></p>
+</body>
+</html>
