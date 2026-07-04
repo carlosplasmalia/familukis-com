@@ -73,11 +73,18 @@ const ASSETS = {
   moto1:     S+'soldado moto ATLAS v2_1.png',
   ship:      S+'little spaceship.png',
   bullet:    S+'little spacechip SHOOT bullet.png',
+  marsSky:   S+'mars sky.png',
+  mars1:     S+'mars bg 1.png',
+  mars2:     S+'mars bg 2.png',
+  mars3:     S+'mars bg 3.png',
+  gorilla:   S+'GORILLA.png',
+  missile:   S+'missile.png',
 };
 function series(prefix, file, n) {
   for (let i=0;i<n;i++) ASSETS[prefix+i] = S+file.replace('%d', i);
 }
 series('r',      'RUNCYCLE_MIKEL_PWERSUIT_atlas_%d.png', 9);
+series('lr',     'LEO RUN AI_%d.png', 6);
 series('tur',    'mikel turbo ATLAS_%d.png', 2);
 series('wind',   'turbo wind fx ATLAS_%d.png', 4);
 series('g',      'GATO run cycle ATLAS_%d.png', 5);
@@ -250,6 +257,7 @@ let selChar = 0;                 // 0=Mikel 1=Leo
 let shakeF  = 0, deadF = 0, introF = 0;
 let nextBossAt = BOSS_EVERY;
 let bossesKilled = 0;
+let theme = 0;                   // 0=playa 1=Marte — alterna tras cada jefe
 
 const P = { x:PX, y:GROUND, vy:0, jumps:0, anim:0, atimer:0,
             shielded:0, boosted:0, magnet:0, ducking:false, invincible:0, dead:false };
@@ -312,7 +320,7 @@ function startIntro() {
   state=ST.INTRO; introF=0;
   score=0; coins=0; dist=0; gems=0; speed=4.5; lives=LIVES;
   deadF=0; shakeF=0; bgOff=0; mtnOff=0; waveOff=0;
-  nextBossAt=BOSS_EVERY; bossesKilled=0;
+  nextBossAt=BOSS_EVERY; bossesKilled=0; theme=0;
   obstacles=[]; coinItems=[]; gemItems=[]; powerUps=[]; particles=[]; effects=[];
   robotEv=null; BOSS.active=false; BOSS.bullets=[];
   spawnT=140; coinT=90; gemT=520; pupT=600; soldierT=1500;
@@ -431,6 +439,17 @@ function spawnObstacle() {
   const re = W+120;
   const hard = Math.min(1, dist/14000);
 
+  if (theme===1 && Math.random()<0.22) {
+    // Marte: misil que cae del cielo con aviso en el suelo
+    obstacles.push({ type:'missile', x:re+60, y:-160, w:52, h:80, vy:0, warn:55, at:0 });
+    return;
+  }
+  if (bossesKilled>0 && Math.random()<0.08) {
+    // cameo: gorila en monopatín, entra rápido por la derecha
+    obstacles.push({ type:'gorilla', x:W+160, y:GROUND, w:96, h:88, at:0 });
+    return;
+  }
+
   if (r < 0.24) {
     obstacles.push({ type:'espar', x:re, y:GROUND, w:70, h:88, at:0 });
     if (Math.random()<0.4) obstacles.push({ type:'espar', x:re+145, y:GROUND, w:70, h:88, at:0 });
@@ -456,10 +475,25 @@ function spawnObstacle() {
   }
 }
 function spawnCoins() {
-  const ys=[GROUND-35, GROUND-100, GROUND-162];
-  const y=ys[Math.floor(Math.random()*3)];
-  const n=3+Math.floor(Math.random()*3);
-  for (let i=0;i<n;i++) coinItems.push({ x:W+60+i*58, y, af:0, at:0 });
+  const pat=Math.floor(Math.random()*4);
+  if (pat===0) {                      // línea recta
+    const ys=[GROUND-35, GROUND-100, GROUND-162];
+    const y=ys[Math.floor(Math.random()*3)];
+    const n=3+Math.floor(Math.random()*3);
+    for (let i=0;i<n;i++) coinItems.push({ x:W+60+i*58, y, af:0, at:0 });
+  } else if (pat===1) {               // arco de salto
+    for (let i=0;i<7;i++) {
+      const t=i/6;
+      coinItems.push({ x:W+60+i*54, y:GROUND-40-Math.sin(t*Math.PI)*150, af:0, at:0 });
+    }
+  } else if (pat===2) {               // ola senoidal
+    for (let i=0;i<8;i++)
+      coinItems.push({ x:W+60+i*52, y:GROUND-95+Math.sin(i*0.9)*55, af:0, at:0 });
+  } else {                            // escalera arriba o abajo
+    const up=Math.random()<0.5;
+    for (let i=0;i<5;i++)
+      coinItems.push({ x:W+60+i*58, y:GROUND-40-(up?i:4-i)*34, af:0, at:0 });
+  }
 }
 function spawnGem() {
   gemItems.push({ x:W+80, y:GROUND-70-Math.random()*100, af:0, at:0 });
@@ -507,6 +541,7 @@ function startBoss() {
 }
 function endBoss() {
   bossesKilled++;
+  theme^=1;                            // cambio de escenario: playa ↔ Marte
   BOSS.active=false;
   coins+=25;
   gems=Math.min(GEMS_FOR_TURBO-1,gems+1);
@@ -655,8 +690,9 @@ function update() {
     if (wasAir) AudioMan.startRun();
   }
   if (P.y>=GROUND-1) {
-    P.atimer+=speed*0.48;
-    if (P.atimer>=1) { P.atimer=0; P.anim=(P.anim+1)%9; }
+    // solo los frames 0-5 son de carrera (6-8 son caída/voltereta)
+    P.atimer+=speed*0.034;
+    if (P.atimer>=1) { P.atimer=0; P.anim=(P.anim+1)%6; }
   }
 
   for (const cl of clouds) { cl.x-=cl.sp*speed*0.55; if (cl.x+cl.w<-20) cl.x=W+cl.w+Math.random()*200; }
@@ -733,13 +769,42 @@ function updateObstacles() {
       ob.at++;
       if (ob.at%12===0) ob.af^=1;
       if (!ob.landed) {
-        ob.vy=Math.min(4,ob.vy+0.06);
+        ob.vy=Math.min(3.2,ob.vy+0.05);
         ob.y+=ob.vy;
-        if (ob.y>=GROUND) { ob.y=GROUND; ob.landed=true; ob.landTimer=0; fx('explosion',ob.x,GROUND-40); }
-      } else if (++ob.landTimer>42) continue;
+        ob.x+=Math.sin(ob.at*0.08)*0.9;   // balanceo del paracaídas
+        if (ob.y>=GROUND) {
+          // aterriza: pierde el paracaídas y queda como barril-obstáculo
+          ob.y=GROUND; ob.landed=true; ob.landTimer=0;
+          fx('hit', ob.x, GROUND-40);
+          burst(ob.x, GROUND-30, '#c8a468', 10);
+          shake(3);
+        }
+      } else ob.landTimer++;
     }
 
     else if (ob.type==='cat') { ob.at++; if (ob.at%4===0) ob.af=(ob.af+1)%5; }
+
+    else if (ob.type==='missile') {
+      ob.at++;
+      if (ob.warn>0) { ob.warn--; }
+      else {
+        ob.vy=Math.min(11, ob.vy+0.5);
+        ob.y+=ob.vy;
+        if (ob.y>=GROUND) {
+          fx('explosion', ob.x, GROUND-40);
+          shake(8);
+          AudioMan.sfx('cannon',{vol:0.6,rate:1.3});
+          if (Math.abs(P.x-ob.x)<80 && P.y>GROUND-70) playerHit();
+          continue;
+        }
+      }
+    }
+
+    else if (ob.type==='gorilla') {
+      ob.at++;
+      ob.x-=speed*0.9;                 // más rápido que el mundo
+      ob.y=GROUND+Math.sin(ob.at*0.3)*2;
+    }
 
     else if (ob.type==='witch') {
       ob.at++;
@@ -889,9 +954,12 @@ function checkCollisions() {
     let bx,by,bw,bh;
     switch(ob.type) {
       case 'espar':     bx=ob.x-ob.w*0.5; by=ob.y-ob.h; bw=ob.w; bh=ob.h; break;
-      case 'parachute': if (ob.landed){bx=ob.x-38;by=ob.y-55;bw=76;bh=55;}
+      case 'parachute': if (ob.landed){bx=ob.x-36;by=ob.y-72;bw=72;bh=72;}
                         else {bx=ob.x-35;by=ob.y-60;bw=70;bh=60;} break;
       case 'cat':       bx=ob.x-36; by=ob.y-ob.h; bw=ob.w; bh=ob.h; break;
+      case 'missile':   if (ob.warn>0) continue;
+                        bx=ob.x-20; by=ob.y-ob.h*0.5; bw=40; bh=ob.h; break;
+      case 'gorilla':   bx=ob.x-ob.w*0.4; by=ob.y-ob.h; bw=ob.w*0.8; bh=ob.h; break;
       case 'cball':     bx=ob.x-13; by=ob.y-13; bw=26; bh=26; break;
       case 'bola':      bx=ob.x-14; by=ob.y-14; bw=28; bh=28; break;
       case 'bomb':      bx=ob.x-26; by=ob.y-26; bw=52; bh=52; break;
@@ -937,6 +1005,12 @@ function tickParticles() {
 //  DRAW — FONDO
 // ═══════════════════════════════════════════════════════
 function drawBg() {
+  if (theme===1) {
+    const sk=gi('marsSky');
+    if (sk) ctx.drawImage(sk,0,0,W,GROUND);
+    else { ctx.fillStyle='#f5b98a'; ctx.fillRect(0,0,W,GROUND); }
+    return;
+  }
   const g=ctx.createLinearGradient(0,0,0,GROUND);
   g.addColorStop(0,'#0d3a7a'); g.addColorStop(0.5,'#1a6dcc'); g.addColorStop(1,'#5fc8e8');
   ctx.fillStyle=g; ctx.fillRect(0,0,W,GROUND);
@@ -954,12 +1028,25 @@ function drawBg() {
 function drawClouds() {
   for (const cl of clouds) {
     const i=gi(cl.k); if (!i) continue;
-    ctx.globalAlpha=0.9;
+    ctx.globalAlpha=theme===1?0.35:0.9;
     ctx.drawImage(i,cl.x,cl.y,cl.w,cl.h);
     ctx.globalAlpha=1;
   }
 }
 function drawMountains() {
+  if (theme===1) {
+    // Marte: tres capas de terreno con parallax
+    const layers=[['mars3',0.35,220,0.55],['mars2',0.62,150,0.75],['mars1',1.0,120,1]];
+    for (const [k,par,h,al] of layers) {
+      const m=gi(k); if (!m) continue;
+      const w=m.naturalWidth*(h/m.naturalHeight);
+      const off=((mtnOff*par)%w+w)%w;
+      ctx.globalAlpha=al;
+      for (let x=-off-w;x<W+w;x+=w-2) ctx.drawImage(m,x,GROUND-h,w,h);
+      ctx.globalAlpha=1;
+    }
+    return;
+  }
   const m1=gi('mtn1');
   if (m1) {
     const h1=148, w1=m1.naturalWidth*(h1/m1.naturalHeight);
@@ -978,6 +1065,14 @@ function drawMountains() {
   }
 }
 function drawOcean() {
+  if (theme===1) {
+    const og=ctx.createLinearGradient(0,GROUND,0,H);
+    og.addColorStop(0,'#a94a30'); og.addColorStop(1,'#4a1608');
+    ctx.fillStyle=og; ctx.fillRect(0,GROUND,W,H-GROUND);
+    tileH('wood', GROUND+5, 40, waveOff*0.88);
+    ctx.fillStyle='#d4703f'; ctx.fillRect(0,GROUND,W,5);
+    return;
+  }
   const og=ctx.createLinearGradient(0,GROUND,0,H);
   og.addColorStop(0,'#1888d8'); og.addColorStop(1,'#072560');
   ctx.fillStyle=og; ctx.fillRect(0,GROUND,W,H-GROUND);
@@ -989,9 +1084,17 @@ function drawOcean() {
 // ═══════════════════════════════════════════════════════
 //  DRAW — JUGADOR
 // ═══════════════════════════════════════════════════════
-// Leo no tiene ciclo de carrera en los assets del APK: se distingue con un tinte
+// Leo corre con sus propios frames (generados con IA); el tinte queda solo
+// para los sprites que siguen siendo de Mikel (salto y splat)
 function charFilter() { return selChar===1 ? 'hue-rotate(120deg) saturate(1.15)' : 'none'; }
 
+function drawRunFrame(x, y) {
+  // anclado bottom-center con aspecto real de cada frame (tamaños varían en el atlas)
+  const ri=gi((selChar===1?'lr':'r')+(P.anim|0));
+  if (!ri) { ctx.fillStyle='#3498db'; ctx.fillRect(x-PW*0.5,y-PH,PW,PH); return; }
+  const w=PH*ri.naturalWidth/ri.naturalHeight;
+  ctx.drawImage(ri, x-w*0.5, y-PH, w, PH);
+}
 function drawPlayer() {
   const pr=playerRect();
   const onGround=P.y>=GROUND-2;
@@ -1020,12 +1123,10 @@ function drawPlayer() {
     }
   }
 
-  if (ctx.filter!==undefined) ctx.filter=charFilter();
-
   if (state===ST.DEAD) {
-    if (ctx.filter!==undefined) ctx.filter='none';
     di('splat', P.x-55, P.y-PH-18, 96, PH+40);
   } else if (state===ST.INTRO && introF>=45 && introF<90) {
+    if (ctx.filter!==undefined) ctx.filter=charFilter();
     const jw=PW*1.1;
     ctx.save();
     ctx.translate(P.x,P.y-PH*0.5);
@@ -1033,24 +1134,28 @@ function drawPlayer() {
     const ji=gi('jump');
     if (ji) ctx.drawImage(ji,-jw*0.5,-PH*0.5,jw,PH);
     ctx.restore();
+    if (ctx.filter!==undefined) ctx.filter='none';
   } else if (!onGround) {
+    if (ctx.filter!==undefined) ctx.filter=charFilter();
     const jw=PW*1.1;
     di('jump', P.x-jw*0.5+5, P.y-PH, jw, PH);
+    if (ctx.filter!==undefined) ctx.filter='none';
   } else if (isDuck) {
     ctx.save();
     ctx.translate(P.x,P.y);
     ctx.scale(1,0.55);
-    const ri=gi('r'+Math.floor(P.anim));
-    if (ri) ctx.drawImage(ri,-PW*0.5+5,-PH,PW,PH);
+    drawRunFrame(0,0);
     ctx.restore();
   } else if (P.boosted>0) {
     const ti=gi('tur'+(Math.floor(gframe/4)%2));
-    if (ti) ctx.drawImage(ti, P.x-PW*0.62, P.y-PH-4, PW*1.3, PH+4);
-    else { const ri=gi('r'+Math.floor(P.anim)); if (ri) ctx.drawImage(ri,P.x-PW*0.5+5,P.y-PH,PW,PH); }
+    if (ti) {
+      if (ctx.filter!==undefined) ctx.filter=charFilter();
+      ctx.drawImage(ti, P.x-PW*0.62, P.y-PH-4, PW*1.3, PH+4);
+      if (ctx.filter!==undefined) ctx.filter='none';
+    }
+    else drawRunFrame(P.x,P.y);
   } else {
-    const ri=gi('r'+Math.floor(P.anim));
-    if (ri) ctx.drawImage(ri, P.x-PW*0.5+5, P.y-PH, PW, PH);
-    else { ctx.fillStyle='#3498db'; ctx.fillRect(P.x-PW*0.5,P.y-PH,PW,PH); }
+    drawRunFrame(P.x,P.y);
   }
 
   if (ctx.filter!==undefined) ctx.filter='none';
@@ -1109,11 +1214,56 @@ function drawObstacles() {
     }
     else if (ob.type==='parachute') {
       const pi=gi(ob.af===0?'pirata0':'pirata1');
-      if (pi) ctx.drawImage(pi, ob.x-45, ob.y-ob.h, ob.w, ob.h);
+      if (pi) {
+        if (ob.landed) {
+          // sin paracaídas: solo la mitad inferior del sprite (pirata en barril)
+          const sy=pi.naturalHeight*0.46, sh=pi.naturalHeight*0.54;
+          const dh=78;
+          ctx.save();
+          ctx.translate(ob.x, ob.y);
+          ctx.rotate(Math.sin(ob.landTimer*0.15)*0.06);   // meneo del barril
+          ctx.drawImage(pi, 0, sy, pi.naturalWidth, sh, -42, -dh, 84, dh);
+          ctx.restore();
+        } else {
+          ctx.save();
+          ctx.translate(ob.x, ob.y-ob.h*0.5);
+          ctx.rotate(Math.sin(ob.at*0.08)*0.12);
+          ctx.drawImage(pi, -45, -ob.h*0.5, ob.w, ob.h);
+          ctx.restore();
+        }
+      }
     }
     else if (ob.type==='cat') {
       const ci=gi('g'+ob.af);
       if (ci) ctx.drawImage(ci, ob.x-36, ob.y-ob.h, ob.w, ob.h);
+    }
+    else if (ob.type==='missile') {
+      if (ob.warn>0) {
+        // marca de aviso parpadeante en el suelo
+        if (Math.floor(ob.at/6)%2===0) {
+          ctx.save();
+          ctx.fillStyle='rgba(255,60,40,0.8)';
+          ctx.beginPath();
+          ctx.moveTo(ob.x,GROUND-34); ctx.lineTo(ob.x-16,GROUND-6); ctx.lineTo(ob.x+16,GROUND-6);
+          ctx.closePath(); ctx.fill();
+          ctx.fillStyle='#fff'; ctx.font='bold 20px sans-serif'; ctx.textAlign='center';
+          ctx.fillText('!', ob.x, GROUND-12);
+          ctx.restore();
+        }
+      } else {
+        const mi=gi('missile');
+        if (mi) {
+          ctx.save();
+          ctx.translate(ob.x, ob.y);
+          ctx.rotate(Math.PI);          // el sprite apunta arriba → cae de morro
+          ctx.drawImage(mi, -ob.w*0.5, -ob.h*0.5, ob.w, ob.h);
+          ctx.restore();
+        }
+      }
+    }
+    else if (ob.type==='gorilla') {
+      const gio=gi('gorilla');
+      if (gio) ctx.drawImage(gio, ob.x-ob.w*0.5, ob.y-ob.h, ob.w, ob.h);
     }
     else if (ob.type==='witch') {
       ctx.globalAlpha=Math.max(0, ob.alpha);
@@ -1438,7 +1588,7 @@ function drawIntro() {
   if (ci) {
     ctx.save();
     ctx.translate(95, GROUND-30);
-    ctx.rotate(-0.62);
+    ctx.rotate(0.62);
     ctx.drawImage(ci, -45, -110, 95, 120);
     ctx.restore();
   }
