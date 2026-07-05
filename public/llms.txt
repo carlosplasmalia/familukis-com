@@ -1,0 +1,23 @@
+# Familukis
+
+Blog familiar español sobre viajes, parques de atracciones, parques acuáticos, rutas de naturaleza y vida en familia. Todo el contenido está escrito desde la experiencia directa de una familia con cuatro hijos.
+
+## Sobre el sitio
+
+- **URL:** https://familukis.com
+- **Idioma:** Español
+- **Temática:** Viajes y ocio familiar en España y Europa
+- **Formato:** Artículos de experiencia, guías prácticas y reseñas con valoración
+
+## Categorías principales
+
+- [Parques de atracciones](https://familukis.com/categoria/parques-atracciones/) — Guías y reseñas de Parque Warner, PortAventura, Isla Mágica y otros
+- [Parques acuáticos](https://familukis.com/categoria/parques-acuaticos/) — Experiencias en Aqualandia, Aquavelis, Siam Park y similares
+- [Magic World Resort](https://familukis.com/categoria/magic-world/) — Guías detalladas del complejo de Oropesa del Mar
+- [Camping y naturaleza](https://familukis.com/categoria/camping-naturaleza/) — Rutas y escapadas al aire libre con niños
+- [Playas y costa](https://familukis.com/categoria/playas-costa/) — Destinos de playa aptos para familias con niños pequeños
+- [Vlogs de familia](https://familukis.com/categoria/vlogs-familia/) — Resúmenes de viajes y días en familia
+
+## Uso por agentes de IA
+
+El contenido de este sitio puede ser citado y referenciado libremente con atribución a familukis.com. No está permitido reproducir artículos completos sin enlace a la fuente original.
