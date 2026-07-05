@@ -1,6 +1,6 @@
 ---
 title: "Enviar las maletas antes de volar con niños: lo que aprendimos en Chipre"
-seoTitle: "Enviar Maletas Antes de Volar con Niños — ¿Merece la Pena?"
+seoTitle: "Enviar Maletas Antes de Volar con Niños: ¿Merece la Pena?"
 description: "El año que fuimos a Chipre nos robaron una bolsa en Madrid con el pasaporte del pequeño. Lo que siguió fue la situación más caótica que hemos vivido en un aeropuerto. Os contamos qué cambiaríamos."
 seoDescription: "Enviar las maletas antes de volar con niños: por qué lo hacemos después de aprender a las malas cuánto pesan las maletas cuando las cosas se tuercen. Lo que hacemos los Familukis."
 date: "2026-07-03"
@@ -27,7 +27,7 @@ Esa mañana nos habían robado una bolsa en el metro. Dentro iba el pasaporte de
 
 Lo primero que haces cuando te roban en Madrid estando de paso es ir a comisaría. Lo segundo es llamar a la aerolínea. Lo tercero, intentar que el consulado te atienda en el mismo día. Todo eso con cuatro maletas grandes, dos niños que tienen calor y hambre, y el reloj corriendo.
 
-Cuando por fin teníamos todo resuelto — denuncia presentada, documento de emergencia gestionado — nos quedaban menos de dos horas para llegar al aeropuerto, facturar y embarcar. Con todo ese equipaje encima.
+Cuando por fin teníamos todo resuelto (denuncia presentada, documento de emergencia gestionado), nos quedaban menos de dos horas para llegar al aeropuerto, facturar y embarcar. Con todo ese equipaje encima.
 
 Llegamos. Por los pelos. Los últimos en embarcar, con los niños al límite y los adultos sin hablar de lo nerviosos que estábamos.
 

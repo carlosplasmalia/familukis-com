@@ -1,6 +1,6 @@
 ---
 title: "Enviar las maletas por mensajería: lo que nos ahorramos y cómo se hace"
-seoTitle: "Enviar Maletas por Mensajería 2026 — Precios Reales y Cómo Funciona"
+seoTitle: "Enviar Maletas por Mensajería 2026: Precios Reales y Cómo Funciona"
 description: "Cuánto cuesta enviar una maleta por mensajería en España, cuándo compensa frente a facturar con la aerolínea y los errores que cometimos la primera vez."
 seoDescription: "Enviar maletas por mensajería: precios reales 2026, comparativa con facturar en Vueling y Ryanair, cómo funciona la recogida a domicilio y trucos para familias."
 date: "2026-07-04"

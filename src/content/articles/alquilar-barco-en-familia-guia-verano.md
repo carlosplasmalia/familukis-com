@@ -1,6 +1,6 @@
 ---
 title: "Alquilar un barco en familia: lo que aprendimos la primera vez"
-seoTitle: "Alquilar Barco en Familia — Guía Práctica para el Verano"
+seoTitle: "Alquilar Barco en Familia: Guía Práctica para el Verano"
 description: "Guía práctica para alquilar un barco en familia este verano: qué tipo de embarcación elegir, con o sin patrón, cuánto cuesta y qué no puede faltar si vais con niños."
 seoDescription: "Alquilar barco en familia con niños: tipos de embarcación, precios, qué mirar antes de reservar y los errores que cometimos la primera vez. Guía real de los Familukis."
 date: "2026-07-03"
@@ -32,7 +32,7 @@ La primera decisión es el tipo de embarcación, y aquí la estabilidad lo es to
 
 **Lanchas a motor medianas:** Ya requieren titulación o patrón. Son más rápidas y permiten más radio de acción. Si queréis ir de cala en cala o llegar a sitios que no se pueden alcanzar a pie, esta es la opción.
 
-**Veleros y catamaranes:** Para escapadas de varios días. El catamarán es especialmente bueno con niños por su estabilidad — hay poco balanceo y la cubierta es ancha. La convivencia durante varios días en un espacio pequeño es otra historia, pero si lo habéis hecho en autocaravana, el barco no es muy diferente.
+**Veleros y catamaranes:** Para escapadas de varios días. El catamarán es especialmente bueno con niños por su estabilidad: hay poco balanceo y la cubierta es ancha. La convivencia durante varios días en un espacio pequeño es otra historia, pero si lo habéis hecho en autocaravana, el barco no es muy diferente.
 
 ## Con o sin patrón
 
