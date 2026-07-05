@@ -6,7 +6,7 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
   <meta name="robots" content="noindex, nofollow"/>
-  <title>Mikeltube Adventures</title>
+  <title>MikelTube Adventures — La Brújula del Destino</title>
   <style is:inline>
     * { margin:0; padding:0; box-sizing:border-box; }
     html, body { width:100%; height:100%; background:#060d1a; overflow:hidden; touch-action:none; font-family:system-ui, sans-serif; }
@@ -64,7 +64,7 @@ const ASSETS = {
   wood:      TX+'madera.png',
   jump:      S+'MIKeL AIRBORNE.png',
   splat:     S+'MIKEL SPLAT BASE.png',
-  cannonBig: S+'cannon.png',
+  capsule:   S+'cannon.png',
   espar:     S+'ESPARRAGO.png',
   pirata0:   S+'ATLAS PIRATA_0.png',
   pirata1:   S+'ATLAS PIRATA_1.png',
@@ -81,6 +81,11 @@ const ASSETS = {
   missile:   S+'missile.png',
   mjump:     S+'MIKEL JUMP AI.png',
   ljump:     S+'LEO JUMP AI.png',
+  lab:       S+'fondo modular1.png',
+  brunilda:  S+'BRUNILDA.png',
+  beerus:    S+'BEERUS.png',
+  skull:     S+'EUFRASIO HEAD.png',
+  hover:     S+'HOVERBOOT HAVOC title.png',
 };
 function series(prefix, file, n) {
   for (let i=0;i<n;i++) ASSETS[prefix+i] = S+file.replace('%d', i);
@@ -91,13 +96,15 @@ series('tur',    'mikel turbo ATLAS_%d.png', 2);
 series('wind',   'turbo wind fx ATLAS_%d.png', 4);
 series('g',      'GATO run cycle ATLAS_%d.png', 5);
 series('bruja',  'ATLAS BRUJA_%d.png', 6);
+series('gun',    'GUNILDA atlas_%d.png', 3);
+series('magia',  'magia bruja 1 atlas_%d.png', 6);
+series('shine',  'SHINE atlas_%d.png', 6);
 series('bola',   'BOLA obstaculo bruja ATLAS_%d.png', 3);
 series('rayo',   'RAYO obstaculo bruja ATLAS_%d.png', 3);
 series('robot',  'ATLAS ROBOT_%d.png', 8);
 series('dog',    'dogdark atlas_%d.png', 5);
 series('fuego',  'FUEGO dogdark atlas_%d.png', 3);
 series('bomb',   'spiky bomb electric_%d.png', 4);
-series('cannonF','ATLAS CANNON_%d.png', 9);
 series('cb',     'cannonball ATLAS_%d.png', 3);
 series('warn',   'ATLAS_CANNONBALL_WARNING_%d.png', 6);
 series('exp',    'ATLAS EXPLOSION_%d.png', 12);
@@ -169,7 +176,6 @@ const AudioMan = {
         .then(ab => this.ctx.decodeAudioData(ab))
         .then(buf => {
           this.buffers[n] = buf;
-          // si la música se pidió antes de terminar de decodificar, arrancarla ahora
           if (n===this.musicName && !this.musicSrc) this.music(n);
         })
         .catch(()=>{});
@@ -236,7 +242,7 @@ document.addEventListener('visibilitychange', () => {
 });
 
 // ═══════════════════════════════════════════════════════
-//  CONSTANTS / STATE
+//  CONSTANTES / MUNDOS
 // ═══════════════════════════════════════════════════════
 const GROUND  = 415;
 const PX      = 175;
@@ -245,9 +251,17 @@ const JUMP_VY = -15.5;
 const PH      = 92, PW = 72;
 const LIVES   = 3;
 const GEMS_FOR_TURBO = 3;
-const BOSS_EVERY = 2800;
+const REVIVE_COST = 50;
 
-const ST = Object.freeze({ LOADING:0, TITLE:1, CHAR_SELECT:2, INTRO:3, PLAYING:4, BOSS:5, DEAD:6 });
+// Historia oficial: Gunilda roba la Brújula del Destino y huye a Marte
+const WORLDS = [
+  { nombre:'EL LABORATORIO', sub:'¡Gunilda ha robado la brújula! ¡Persíguela!', len:7000 },
+  { nombre:'LA ISLA PIRATA', sub:'El pirata Espárrago defiende la costa',       len:8000 },
+  { nombre:'MARTE',          sub:'El reino de la emperatriz Gunilda',           len:9000 },
+];
+
+const ST = Object.freeze({ LOADING:0, TITLE:1, CHAR_SELECT:2, STORY:3, INTRO:4,
+                           PLAYING:5, BOSS:6, BOARD:7, FLY:8, DUEL:9, VICTORY:10, DEAD:11 });
 
 let state   = ST.LOADING;
 let gframe  = 0;
@@ -257,22 +271,28 @@ let gems    = 0;
 let hiScore = +(localStorage.getItem('mk_hi') || 0);
 let selChar = 0;                 // 0=Mikel 1=Leo
 let shakeF  = 0, deadF = 0, introF = 0;
-let nextBossAt = BOSS_EVERY;
+let world = 0;                   // mundo actual (0-2)
+let lap   = 0;                   // 0=historia, 1+=vueltas extra (más difícil)
+let worldDist = 0;               // distancia dentro del mundo actual
+let worldBanner = 0;             // frames restantes del cartel de mundo
+let bossWarned = false;          // aviso "jefe a la vista"
+let introShip = false;           // la intro actual es de desembarco en nave
+let storyIdx = 0, storyF = 0;    // cinemática
+let victF = 0;                   // frames en pantalla de victoria
 let bossesKilled = 0;
-let theme = 0;                   // 0=playa 1=Marte — alterna tras cada jefe
-let themeSwap = 0;               // frames restantes del fundido de cambio de escenario
-let combo = 0, comboT = 0;       // racha de monedas seguidas
-let dodgeStreak = 0;             // obstáculos esquivados seguidos
-let bonusPts = 0;                // puntos extra de combos y esquivas
-let floatTexts = [];             // textos flotantes (+puntos, ¡casi!, racha)
-let bank = +(localStorage.getItem('mk_bank') || 0);  // banco de monedas persistente
-let banked = 0;                  // monedas de esta partida ya ingresadas
-let fever = 0;                   // frames restantes de FIEBRE (puntos ×2 + imán)
-let feverNext = 12;              // combo necesario para la próxima fiebre
-let recordBeaten = false;        // ya superó el récord en esta partida
-let nextMile = 250;              // próximo hito de metros
-let revived = false;             // ya usó el revivir de esta partida
-const REVIVE_COST = 50;
+let combo = 0, comboT = 0;
+let dodgeStreak = 0;
+let bonusPts = 0;
+let floatTexts = [];
+let bank = +(localStorage.getItem('mk_bank') || 0);
+let banked = 0;
+let fever = 0;
+let feverNext = 12;
+let recordBeaten = false;
+let nextMile = 250;
+let revived = false;
+// snapshot al entrar al mundo (para reintentar el nivel)
+let wSnap = { dist:0, coins:0, bonusPts:0, bossesKilled:0, gems:0 };
 
 // ── Misiones persistentes ──────────────────────────────
 const MIS_DEFS = {
@@ -311,18 +331,23 @@ function misEvent(type, n=1) {
 }
 
 const P = { x:PX, y:GROUND, vy:0, jumps:0, anim:0, atimer:0,
-            shielded:0, boosted:0, magnet:0, ducking:false, invincible:0, dead:false };
+            shielded:0, boosted:0, cat:0, ducking:false, invincible:0, dead:false };
 
-// Jefe FrogBoss (la rana "Bubeado" en su nave)
-const BOSS = { active:false, phase:'', t:0, x:0, y:0, hp:0, maxHp:10,
-               laserY:0, laserT:0, flash:0, af:0,
-               shipY:GROUND-120, shipTargetY:GROUND-120, fireT:0, bullets:[] };
+// Jefes (uno por mundo, patrones propios)
+let RB=null;   // Robot (mundo 1)
+let FB=null;   // Bubeado la rana (mundo 2)
+let GB=null;   // Gunilda a pie (mundo 3)
+let D =null;   // Duelo aéreo final vs Gunilda
+let BD=null;   // secuencia de embarque en la nave
+let F =null;   // vuelo entre mundos
 
 let obstacles=[], coinItems=[], gemItems=[], powerUps=[], particles=[], effects=[];
 let robotEv = null;
+let cameo   = null;              // Papa Gorila pasando de fondo
 let clouds  = [];
+let stars   = [];
 let bgOff=0, mtnOff=0, waveOff=0;
-let spawnT=0, coinT=0, gemT=0, pupT=0, soldierT=0;
+let spawnT=0, coinT=0, gemT=0, pupT=0, eventT=0, skullT=0;
 
 // ═══════════════════════════════════════════════════════
 //  HELPERS
@@ -373,7 +398,6 @@ function drawFloatTexts(){
     ctx.restore();
   }
 }
-
 function initClouds() {
   clouds = [
     { k:'cloud1', x:90,   y:55, w:220, h:88, sp:0.18 },
@@ -384,28 +408,51 @@ function initClouds() {
     { k:'cloud2', x:1400, y:38, w:180, h:70, sp:0.17 },
   ];
 }
+function initStars() {
+  stars=[];
+  for (let i=0;i<90;i++)
+    stars.push({ x:Math.random()*W, y:Math.random()*H, r:0.6+Math.random()*1.8, sp:0.6+Math.random()*3 });
+}
+function baseSpeed(){ return Math.min(13, 4.5 + world*0.7 + lap*1.2); }
+function hardness(){ return Math.min(1, (world + lap*3)/5 + worldDist/WORLDS[world].len*0.35); }
 
 // ═══════════════════════════════════════════════════════
-//  GAME FLOW
+//  FLUJO DE PARTIDA
 // ═══════════════════════════════════════════════════════
-function startIntro() {
-  state=ST.INTRO; introF=0;
-  score=0; coins=0; dist=0; gems=0; speed=4.5; lives=LIVES;
+function resetRun() {
+  score=0; coins=0; dist=0; gems=0; lives=LIVES;
   combo=0; comboT=0; dodgeStreak=0; bonusPts=0; floatTexts=[];
   banked=0; fever=0; feverNext=12; recordBeaten=false; nextMile=250; revived=false;
+  bossesKilled=0; lap=0;
+}
+function startWorld(w, {fromShip=false, keepSnap=false}={}) {
+  world=w; worldDist=0; bossWarned=false;
+  speed=baseSpeed();
   deadF=0; shakeF=0; bgOff=0; mtnOff=0; waveOff=0;
-  nextBossAt=BOSS_EVERY; bossesKilled=0; theme=0; themeSwap=0;
   obstacles=[]; coinItems=[]; gemItems=[]; powerUps=[]; particles=[]; effects=[];
-  robotEv=null; BOSS.active=false; BOSS.bullets=[];
-  spawnT=140; coinT=90; gemT=520; pupT=600; soldierT=1500;
+  robotEv=null; cameo=null; RB=null; FB=null; GB=null; D=null; BD=null; F=null;
+  spawnT=150; coinT=90; gemT=520; pupT=600; eventT=1200; skullT=1600+(Math.random()*900|0);
   P.x=PX; P.y=GROUND; P.vy=0; P.jumps=0; P.anim=0; P.atimer=0;
-  P.shielded=0; P.boosted=0; P.magnet=0; P.ducking=false; P.invincible=0; P.dead=false;
-  initClouds();
-  AudioMan.music('musica-ingame');
+  P.shielded=0; P.boosted=0; P.cat=0; P.ducking=false; P.invincible=0; P.dead=false;
+  initClouds(); initStars();
+  if (!keepSnap) wSnap={ dist, coins, bonusPts, bossesKilled, gems };
+  introShip=fromShip;
+  introF=0; state=ST.INTRO;
+  worldBanner=170;
+  if (AudioMan.musicName!=='musica-ingame') AudioMan.music('musica-ingame');
 }
 function beginRun() {
   state=ST.PLAYING;
   AudioMan.startRun();
+}
+function retryWorld() {
+  // reinicia el mundo actual desde su comienzo (checkpoint de nivel)
+  dist=wSnap.dist; coins=wSnap.coins; bonusPts=wSnap.bonusPts;
+  bossesKilled=wSnap.bossesKilled; gems=wSnap.gems;
+  banked=coins; lives=LIVES; revived=false;
+  combo=0; comboT=0; fever=0;
+  startWorld(world, {fromShip:world>0, keepSnap:true});
+  AudioMan.sfx('ui-play');
 }
 function killPlayer() {
   P.dead=true; state=ST.DEAD; deadF=0;
@@ -416,7 +463,7 @@ function killPlayer() {
   burst(P.x, P.y-PH*0.5, '#ff3300', 24);
   shake(20);
   if (score>hiScore) { hiScore=score; localStorage.setItem('mk_hi',hiScore); }
-  bank += coins - banked; banked = coins;   // ingresa las monedas en el banco
+  bank += coins - banked; banked = coins;
   saveMeta();
 }
 function reviveNow() {
@@ -426,13 +473,17 @@ function reviveNow() {
   P.invincible=240;
   combo=0; comboT=0; fever=0; shakeF=0;
   obstacles=[]; robotEv=null;
-  BOSS.active=false; BOSS.bullets=[];
-  nextBossAt=Math.max(nextBossAt, dist+900);
-  state=ST.PLAYING;
+  // si murió contra un jefe, el jefe se reinicia con vida completa
+  if (RB) startBossRobot();
+  else if (FB) startBossFrog();
+  else if (GB) startBossGunilda();
+  else if (D) startDuel();
+  else if (F) startFly();
+  else state=ST.PLAYING;
   popup(P.x, P.y-PH-30, '¡SIGUE CORRIENDO!', '#7CFC00', 28);
   AudioMan.sfx('gema');
   AudioMan.music('musica-ingame');
-  AudioMan.startRun();
+  if (state===ST.PLAYING||state===ST.BOSS) AudioMan.startRun();
 }
 function playerHit() {
   if (P.invincible>0 || P.boosted>0) return;
@@ -440,7 +491,7 @@ function playerHit() {
     P.shielded=0;
     fx('hit', P.x, P.y-PH*0.5);
     burst(P.x, P.y-PH*0.5, '#88ddff', 14);
-    shake(8); return;
+    shake(8); P.invincible=45; return;
   }
   lives--;
   combo=0; comboT=0; dodgeStreak=0;
@@ -455,6 +506,21 @@ function activateTurbo() {
   speed=Math.min(13,speed+2.5);
   burst(P.x,P.y-PH*0.5,'#ffaa44',14);
   AudioMan.sfx('powerup-turbo');
+}
+function calcScore(){ score = Math.floor(dist/80)+coins*7+bossesKilled*250+bonusPts; }
+
+// ¿el jugador cae encima? (estómpalo estilo Mario)
+function tryStomp(bx,by,bw,bh) {
+  const pr=playerRect();
+  if (!overlaps(pr.x,pr.y,pr.w,pr.h, bx,by,bw,bh, 6)) return 0;
+  if (P.vy>1.5) return (P.y - by) < bh*0.55 ? 1 : -1;   // cayendo: pisotón o choque
+  if (P.vy<-0.5) return 0;                              // subiendo lo atraviesas sin daño
+  return (P.y - by) < bh*0.55 ? 0 : -1;                 // parado: solo daña de frente
+}
+function stompBounce() {
+  P.vy=-13; P.jumps=1;
+  AudioMan.sfx('coin',{rate:0.7});
+  shake(8);
 }
 
 // ═══════════════════════════════════════════════════════
@@ -481,9 +547,10 @@ canvas.addEventListener('pointerdown', e => {
   const cx=(e.clientX-rect.left)*(W/rect.width);
   const cy=(e.clientY-rect.top)*(H/rect.height);
   pointerDown=true; pointerY=cy;
-  if (cx>W-46 && cy<40) { AudioMan.toggleMute(); return; }   // botón mute
+  if (cx>W-46 && cy<40) { AudioMan.toggleMute(); return; }
   if (state===ST.CHAR_SELECT) { handleCharSelect(cx); return; }
   if (state===ST.DEAD && deadF>50) { handleDeadButtons(cx,cy); return; }
+  if (state===ST.VICTORY && victF>60) { handleVictoryButtons(cx,cy); return; }
   handleAction();
 });
 canvas.addEventListener('pointermove', e => {
@@ -496,8 +563,10 @@ canvas.addEventListener('pointercancel',() => pointerDown=false);
 function handleAction() {
   if (state===ST.LOADING) return;
   if (state===ST.TITLE)   { AudioMan.sfx('ui-click'); state=ST.CHAR_SELECT; return; }
-  if (state===ST.BOSS)    return;   // disparo automático; mover con puntero/flechas
-  if (state===ST.PLAYING && !P.dead && P.jumps<2) {
+  if (state===ST.STORY)   { advanceStory(); return; }
+  if (state===ST.FLY || state===ST.DUEL || state===ST.BOARD) return; // nave: mover con puntero/flechas
+  if (state===ST.BOSS && FB) return;   // contra Bubeado pilotas la nave, no saltas
+  if ((state===ST.PLAYING || state===ST.BOSS) && !P.dead && P.jumps<2) {
     P.vy = JUMP_VY - P.jumps*1.8;
     P.jumps++;
     misEvent('jump');
@@ -506,9 +575,19 @@ function handleAction() {
 }
 function handleCharSelect(cx) {
   const newSel = cx < W/2 ? 0 : 1;
-  if (newSel===selChar) { AudioMan.sfx('ui-play'); startIntro(); return; }
+  if (newSel===selChar) {
+    AudioMan.sfx('ui-play');
+    resetRun();
+    storyIdx=0; storyF=0; state=ST.STORY;
+    return;
+  }
   selChar=newSel;
   AudioMan.sfx('ui-click');
+}
+function advanceStory() {
+  AudioMan.sfx('ui-click');
+  storyIdx++; storyF=0;
+  if (storyIdx>=3) startWorld(0);
 }
 function handleDeadButtons(cx,cy) {
   const ry=H/2+104;
@@ -517,7 +596,7 @@ function handleDeadButtons(cx,cy) {
   }
   const by=H/2+150;
   if (cy>by-34 && cy<by+34) {
-    if (cx>W/2-120 && cx<W/2-40) { AudioMan.sfx('ui-play'); startIntro(); return; }
+    if (cx>W/2-120 && cx<W/2-40) { retryWorld(); return; }
     if (cx>W/2+40 && cx<W/2+120) {
       AudioMan.sfx('ui-back');
       state=ST.TITLE;
@@ -525,68 +604,107 @@ function handleDeadButtons(cx,cy) {
       return;
     }
   }
-  AudioMan.sfx('ui-play'); startIntro();
+}
+function handleVictoryButtons(cx,cy) {
+  const by=H-90;
+  if (cy>by-30 && cy<by+30) {
+    if (cx>W/2-260 && cx<W/2-20) {
+      // Otra vuelta: más rápido y más difícil, conservando puntuación
+      lap++;
+      lives=LIVES; revived=false;
+      AudioMan.sfx('ui-play');
+      startWorld(0, {fromShip:true});
+      return;
+    }
+    if (cx>W/2+20 && cx<W/2+260) {
+      AudioMan.sfx('ui-back');
+      if (score>hiScore) { hiScore=score; localStorage.setItem('mk_hi',hiScore); }
+      bank += coins - banked; banked=coins; saveMeta();
+      state=ST.TITLE;
+      AudioMan.music('musica-menu');
+      return;
+    }
+  }
 }
 
 // ═══════════════════════════════════════════════════════
-//  SPAWNERS (runner)
+//  SPAWNERS POR MUNDO
 // ═══════════════════════════════════════════════════════
 function spawnObstacle() {
-  const r = Math.random();
   const re = W+120;
-  const hard = Math.min(1, dist/14000);
+  const r = Math.random();
+  const hard = hardness();
 
-  if (theme===1 && Math.random()<0.22) {
-    // Marte: misil que cae del cielo con aviso en el suelo
-    obstacles.push({ type:'missile', x:re+60, y:-160, w:52, h:80, vy:0, warn:55, at:0 });
-    return;
+  if (world===0) {
+    // LABORATORIO: robot de seguridad, bomba eléctrica, moto de seguridad
+    if (r < 0.38) {
+      obstacles.push({ type:'minibot', x:re, y:GROUND, w:76, h:70, af:0, at:0, attacking:0, fired:false });
+      if (hard>0.5 && Math.random()<0.35)
+        obstacles.push({ type:'bomb', x:re+230, y:GROUND-112, w:62, h:62, af:0, at:0 });
+    } else if (r < 0.66) {
+      obstacles.push({ type:'bomb', x:re, y:GROUND-112, w:62, h:62, af:0, at:0 });
+      if (Math.random()<0.4)
+        obstacles.push({ type:'bomb', x:re+120, y:GROUND-52, w:62, h:62, af:0, at:0 });
+    } else {
+      obstacles.push({ type:'soldier', x:W+140, y:GROUND, w:96, h:76, af:0, at:0, phase:'warn', pt:0 });
+      AudioMan.sfx('soldado-aviso');
+    }
   }
-  if (bossesKilled>0 && Math.random()<0.08) {
-    // cameo: gorila en monopatín, entra rápido por la derecha
-    obstacles.push({ type:'gorilla', x:W+160, y:GROUND, w:96, h:88, at:0 });
-    return;
+  else if (world===1) {
+    // ISLA PIRATA: Espárrago, pirata paracaidista, mina, bala rasante
+    if (r < 0.30) {
+      obstacles.push({ type:'espar', x:re, y:GROUND, w:70, h:88, at:0 });
+      if (hard>0.5 && Math.random()<0.35) obstacles.push({ type:'mina', x:re+190, y:GROUND, w:64, h:64, at:0 });
+    } else if (r < 0.52) {
+      const px = W+80+Math.random()*280;
+      obstacles.push({ type:'parachute', x:px, y:-150, w:90, h:130, vy:1.5, af:0, at:0, landed:false, landTimer:0 });
+    } else if (r < 0.78) {
+      obstacles.push({ type:'mina', x:re, y:GROUND, w:64, h:64, at:0 });
+      if (hard>0.4 && Math.random()<0.4) obstacles.push({ type:'mina', x:re+130, y:GROUND, w:64, h:64, at:0 });
+    } else {
+      // bala rasante a la altura de la cabeza: ¡agáchate!
+      fx('warning', W-60, GROUND-125, {life:50});
+      obstacles.push({ type:'lowball', x:W+340, y:GROUND-118, w:34, h:34, vx:-(speed+6), af:0, at:0 });
+      AudioMan.sfx('cannon',{vol:0.5,rate:1.2});
+    }
   }
-
-  if (r < 0.24) {
-    obstacles.push({ type:'espar', x:re, y:GROUND, w:70, h:88, at:0 });
-    if (Math.random()<0.4) obstacles.push({ type:'espar', x:re+145, y:GROUND, w:70, h:88, at:0 });
-  } else if (r < 0.40) {
-    const px = W+80+Math.random()*280;
-    obstacles.push({ type:'parachute', x:px, y:-150, w:90, h:130, vy:1.5, af:0, at:0, landed:false, landTimer:0 });
-  } else if (r < 0.56) {
-    const n = 1+Math.floor(Math.random()*(2+hard*2));
-    for (let i=0;i<n;i++) obstacles.push({ type:'cat', x:re+i*108, y:GROUND, w:72, h:32, af:0, at:0 });
-  } else if (r < 0.68) {
-    obstacles.push({ type:'cannon', x:re, y:GROUND, w:76, h:80, fireIn:65, fired:false, canAf:0, canAt:0 });
-  } else if (r < 0.80) {
-    // Bruja: aparece → carga → dispara bola guiada → desaparece
-    const wy = 170+Math.random()*110;
-    obstacles.push({ type:'witch', x:re+80, y:wy, w:82, h:100, af:0, at:0, phase:'enter', pt:0, alpha:1 });
-    AudioMan.sfx('bruja-aparece');
-  } else if (r < 0.90) {
-    // Perro oscuro: al acercarse lanza aliento de fuego
-    obstacles.push({ type:'dog', x:re, y:GROUND, w:82, h:74, af:0, at:0, attacking:0, fired:false });
-  } else {
-    // Bomba eléctrica flotante (agáchate)
-    obstacles.push({ type:'bomb', x:re, y:GROUND-112, w:62, h:62, af:0, at:0 });
+  else {
+    // MARTE: bruja aprendiza, misil, guerrero lobo de Gunilda, columnas de magia
+    if (r < 0.30) {
+      const wy = 170+Math.random()*110;
+      obstacles.push({ type:'witch', x:re+80, y:wy, w:82, h:100, af:0, at:0, phase:'enter', pt:0, alpha:1,
+                       lowShot: Math.random()<0.4 });
+      AudioMan.sfx('bruja-aparece');
+    } else if (r < 0.54) {
+      obstacles.push({ type:'missile', x:re+60, y:-160, w:52, h:80, vy:0, warn:55, at:0 });
+      if (hard>0.5 && Math.random()<0.4)
+        obstacles.push({ type:'missile', x:re+240, y:-160, w:52, h:80, vy:0, warn:80, at:0 });
+    } else if (r < 0.74) {
+      obstacles.push({ type:'dog', x:re, y:GROUND, w:82, h:74, af:0, at:0, attacking:0, fired:false });
+    } else if (r < 0.88) {
+      obstacles.push({ type:'bomb', x:re, y:GROUND-112, w:62, h:62, af:0, at:0 });
+    } else {
+      // columna de magia que cae del cielo con aviso
+      obstacles.push({ type:'raycol', x:re, y:0, w:46, at:0, warn:55 });
+    }
   }
 }
 function spawnCoins() {
   const pat=Math.floor(Math.random()*4);
-  if (pat===0) {                      // línea recta
+  if (pat===0) {
     const ys=[GROUND-35, GROUND-100, GROUND-162];
     const y=ys[Math.floor(Math.random()*3)];
     const n=3+Math.floor(Math.random()*3);
     for (let i=0;i<n;i++) coinItems.push({ x:W+60+i*58, y, af:0, at:0 });
-  } else if (pat===1) {               // arco de salto
+  } else if (pat===1) {
     for (let i=0;i<7;i++) {
       const t=i/6;
       coinItems.push({ x:W+60+i*54, y:GROUND-40-Math.sin(t*Math.PI)*150, af:0, at:0 });
     }
-  } else if (pat===2) {               // ola senoidal
+  } else if (pat===2) {
     for (let i=0;i<8;i++)
       coinItems.push({ x:W+60+i*52, y:GROUND-95+Math.sin(i*0.9)*55, af:0, at:0 });
-  } else {                            // escalera arriba o abajo
+  } else {
     const up=Math.random()<0.5;
     for (let i=0;i<5;i++)
       coinItems.push({ x:W+60+i*58, y:GROUND-40-(up?i:4-i)*34, af:0, at:0 });
@@ -597,16 +715,46 @@ function spawnGem() {
 }
 function spawnPowerUp() {
   const r=Math.random();
-  const type = r<0.4 ? 'shield' : r<0.65 ? 'boost' : r<0.85 ? 'magnet' : 'bomb';
+  // gato Bills = imán (huele las monedas, corre contigo como en el original)
+  const type = r<0.35 ? 'shield' : r<0.6 ? 'boost' : r<0.85 ? 'cat' : 'bomb';
   powerUps.push({ type, x:W+90, y:GROUND-125, af:0, at:0 });
 }
-function spawnSoldier() {
-  obstacles.push({ type:'soldier', x:W+140, y:GROUND, w:96, h:76, af:0, at:0, phase:'warn', pt:0 });
-  AudioMan.sfx('soldado-aviso');
+function spawnSkull() {
+  // Eufrasio, la calavera amiga: bonus botando
+  powerUps.push({ type:'skull', x:W+90, y:GROUND-30, af:0, at:0, vy:-7 });
+}
+function spawnWorldEvent() {
+  if (world===0) {
+    spawnRobot();
+  } else if (world===1) {
+    // un barco pirata bombardea desde detras del horizonte
+    fx('warning', P.x+60, GROUND-90, {life:55});
+    obstacles.push(makeCball(W+90, 60));
+    AudioMan.sfx('cannon',{vol:0.7});
+    if (hardness()>0.4) {
+      fx('warning', P.x+250, GROUND-90, {life:70});
+      setTimeoutObs(makeCball(W+90, 40), 24);
+    }
+    if (!cameo && Math.random()<0.3) cameo={ x:W+160, at:0, said:false };
+  } else {
+    // Marte: Gunilda pasa volando burlándose y suelta una bola guiada
+    obstacles.push({ type:'gunilda-cameo', x:W+120, y:120+Math.random()*90, at:0, dropped:false });
+    AudioMan.sfx('bruja-aparece');
+  }
+}
+let delayedObs=[];
+function setTimeoutObs(ob, frames){ delayedObs.push({ob, t:frames}); }
+function tickDelayedObs(){
+  for (let i=delayedObs.length-1;i>=0;i--) {
+    if (--delayedObs[i].t<=0) {
+      obstacles.push(delayedObs[i].ob);
+      AudioMan.sfx('cannon',{vol:0.6});
+      delayedObs.splice(i,1);
+    }
+  }
 }
 function spawnRobot() {
-  // Evento robot: cae, carga y lanza 1-2 rayos (salta el bajo, agáchate en el alto)
-  const doubleBeam = bossesKilled>0 || dist>9000;
+  const doubleBeam = hardness()>0.35;
   robotEv = { x:W-105, y:-220, phase:'enter', pt:0, af:0,
               beams:[], plan: doubleBeam ? (Math.random()<0.5?['low','high']:['high','low'])
                                          : [Math.random()<0.5?'low':'high'] };
@@ -621,101 +769,162 @@ function makeCball(sx,sy) {
 }
 
 // ═══════════════════════════════════════════════════════
-//  JEFE — NAVE RANA (FrogBoss del original)
+//  JEFES — uno por mundo, patrones distintos
 // ═══════════════════════════════════════════════════════
-function startBoss() {
+function bossHp(base){ return base + lap*6; }
+
+// ── MUNDO 1: ROBOT GUARDIÁN (en tierra: saltar/agacharse bajo sus rayos,
+//    se aturde al lanzar la onda de choque → estómpalo) ──
+function startBossRobot() {
   state=ST.BOSS;
-  BOSS.active=true; BOSS.phase='enter'; BOSS.t=0;
-  BOSS.x=W+220; BOSS.y=220;
-  BOSS.hp=BOSS.maxHp=10+bossesKilled*4;
-  BOSS.laserT=0; BOSS.flash=0; BOSS.af=0;
-  BOSS.shipY=P.y-60; BOSS.shipTargetY=260; BOSS.fireT=0; BOSS.bullets=[];
-  obstacles=[]; coinItems=[]; gemItems=[]; powerUps=[];
-  robotEv=null;
+  RB={ phase:'enter', t:0, x:W+180, y:GROUND-170, hp:bossHp(3), maxHp:bossHp(3),
+       af:0, beams:[], stun:0, hitFlash:0 };
+  FB=null; GB=null;
+  obstacles=[]; coinItems=[]; gemItems=[]; powerUps=[]; robotEv=null;
+  AudioMan.sfx('robot-aparece');
+}
+function updateBossRobot() {
+  const R=RB; R.t++;
+  if (R.t%6===0) R.af=(R.af+1)%8;
+  if (R.hitFlash>0) R.hitFlash--;
+  runnerPhysics();
+
+  if (R.phase==='enter') {
+    R.x += (W-190-R.x)*0.06;
+    R.y += (GROUND-170-R.y)*0.08;
+    if (Math.abs(R.x-(W-190))<5) { R.phase='hover'; R.t=0; }
+  }
+  else if (R.phase==='hover') {
+    R.y = GROUND-170+Math.sin(R.t*0.05)*26;
+    if (R.t>70) {
+      R.phase='charge'; R.t=0;
+      R.plan = Math.random()<0.5 ? 'low' : 'high';
+      AudioMan.sfx('robot-carga');
+    }
+  }
+  else if (R.phase==='charge') {
+    if (R.t>=50) {
+      R.phase='fire'; R.t=0;
+      R.beams=[{ h:R.plan, t:0 }];
+      AudioMan.sfx('robot-rayo');
+    }
+  }
+  else if (R.phase==='fire') {
+    for (const b of R.beams) b.t++;
+    const pr=playerRect();
+    for (const b of R.beams) {
+      if (b.t<20||b.t>75) continue;
+      const by = b.h==='low' ? GROUND-50 : GROUND-148;
+      if (overlaps(pr.x,pr.y,pr.w,pr.h, 0,by,R.x-40,52, 6)) playerHit();
+    }
+    if (R.beams[0].t>90) {
+      R.beams=[];
+      // tras disparar cae al suelo y patina hacia ti → sáltale encima
+      R.phase='stunned'; R.t=0; R.stun=220;
+      R.groundY=GROUND-55;
+    }
+  }
+  else if (R.phase==='stunned') {
+    R.y += (R.groundY-R.y)*0.2;
+    if (R.t===12) popup(R.x, R.y-130, '¡AHORA! ¡SALTA ENCIMA!', '#FFDC00', 24);
+    if (R.t>30) R.x -= 5.2+lap*0.8;   // patina hacia ti: esquívalo o písalo
+    if (R.x < P.x-100 || --R.stun<=0) { R.phase='enter'; R.t=0; }
+    const st=tryStomp(R.x-60, R.y-55, 120, 110);
+    if (st===1) {
+      stompBounce();
+      R.hp--; R.hitFlash=10;
+      burst(R.x, R.y-40, '#66eaff', 16);
+      popup(R.x, R.y-90, '¡GOLPE!', '#7CFC00', 26);
+      if (R.hp<=0) { R.phase='dying'; R.t=0; AudioMan.sfx('powerup-explosion'); return; }
+      R.phase='enter'; R.t=0;
+    } else if (st===-1) playerHit();
+  }
+  else if (R.phase==='dying') {
+    if (R.t%8===0) { fx('explosion', R.x-60+Math.random()*120, R.y-60+Math.random()*120); shake(6); }
+    if (R.t>70) { bossDefeated(); return; }
+  }
+  bossCommonTick();
+}
+
+// ── MUNDO 2: BUBEADO LA RANA (duelo naval — te subes al cañón del barco;
+//    apunta con el puntero, esquiva sus burbujas y su láser) ──
+function startBossFrog() {
+  state=ST.BOSS;
+  FB={ phase:'enter', t:0, x:W+220, y:210, hp:bossHp(8), maxHp:bossHp(8),
+       af:0, laserT:0, laserY:0, flash:0,
+       shipY:260, shipTargetY:260, fireT:0, bullets:[], bubbles:[] };
+  RB=null; GB=null;
+  obstacles=[]; coinItems=[]; gemItems=[]; powerUps=[]; robotEv=null;
   P.jumps=0; P.vy=0; P.ducking=false;
   AudioMan.stopRun();
   AudioMan.sfx('nave-aparece');
 }
-function endBoss() {
-  bossesKilled++;
-  misEvent('boss');
-  themeSwap=90;                        // fundido: el tema cambia en el punto medio
-  BOSS.active=false;
-  coins+=25;
-  gems=Math.min(GEMS_FOR_TURBO-1,gems+1);
-  if (lives<LIVES) lives++;            // healthAdd del original
-  speed=Math.min(13, 4.5+bossesKilled*0.8);
-  nextBossAt=dist+BOSS_EVERY+bossesKilled*600;
-  state=ST.PLAYING;
-  P.y=GROUND; P.vy=0;
-  AudioMan.startRun();
-}
-function playerShipFire() {
-  BOSS.bullets.push({ x:200, y:BOSS.shipY+6, vx:11 });
-  AudioMan.sfx('nave-disparo',{vol:0.7});
-}
-function updateBoss() {
-  BOSS.t++;
-  if (pointerDown) BOSS.shipTargetY=Math.max(90,Math.min(GROUND-40,pointerY));
-  if (keys['ArrowUp'])   BOSS.shipTargetY=Math.max(90, BOSS.shipTargetY-7);
-  if (keys['ArrowDown']) BOSS.shipTargetY=Math.min(GROUND-40, BOSS.shipTargetY+7);
-  BOSS.shipY += (BOSS.shipTargetY-BOSS.shipY)*0.14;
+function updateBossFrog() {
+  const B=FB; B.t++;
+  if (pointerDown) B.shipTargetY=Math.max(90,Math.min(GROUND-40,pointerY));
+  if (keys['ArrowUp'])   B.shipTargetY=Math.max(90, B.shipTargetY-7);
+  if (keys['ArrowDown']) B.shipTargetY=Math.min(GROUND-40, B.shipTargetY+7);
+  B.shipY += (B.shipTargetY-B.shipY)*0.14;
 
   bgOff+=speed*0.08; mtnOff+=speed*0.45; waveOff+=speed;
   for (const cl of clouds) { cl.x-=cl.sp*speed*0.55; if (cl.x+cl.w<-20) cl.x=W+cl.w+Math.random()*200; }
 
-  if (BOSS.phase==='enter') {
-    BOSS.x += (W-190-BOSS.x)*0.05;
-    if (Math.abs(BOSS.x-(W-190))<4) { BOSS.phase='fight'; BOSS.t=0; }
+  if (B.phase==='enter') {
+    B.x += (W-190-B.x)*0.05;
+    if (Math.abs(B.x-(W-190))<4) { B.phase='fight'; B.t=0; }
   }
-  else if (BOSS.phase==='fight') {
-    BOSS.y = 210 + Math.sin(BOSS.t*0.023)*115;
-    if (BOSS.t%9===0) BOSS.af=(BOSS.af+1)%11;
-    BOSS.laserT++;
-    const cycle = Math.max(150, 260-bossesKilled*25);
-    if (BOSS.laserT===cycle-60) AudioMan.sfx('nave-carga');
-    if (BOSS.laserT>=cycle) {
-      BOSS.phase='laser'; BOSS.t=0; BOSS.laserY=BOSS.y;
-      AudioMan.sfx('nave-lanza');
+  else if (B.phase==='fight') {
+    B.y = 210 + Math.sin(B.t*0.023)*115;
+    if (B.t%9===0) B.af=(B.af+1)%11;
+    // burbujas flotantes que persiguen suavemente
+    if (B.t%110===0) {
+      B.bubbles.push({ x:B.x-70, y:B.y, vx:-2.6, vy:0, t:0 });
+      AudioMan.sfx('bruja-dispara',{rate:1.4,vol:0.6});
     }
-    if (++BOSS.fireT>=26) { BOSS.fireT=0; playerShipFire(); }
+    B.laserT++;
+    const cycle = Math.max(150, 260-lap*30);
+    if (B.laserT===cycle-60) AudioMan.sfx('nave-carga');
+    if (B.laserT>=cycle) { B.phase='laser'; B.t=0; B.laserY=B.y; AudioMan.sfx('nave-lanza'); }
+    if (++B.fireT>=26) { B.fireT=0; B.bullets.push({ x:200, y:B.shipY+6, vx:11 }); AudioMan.sfx('nave-disparo',{vol:0.7}); }
   }
-  else if (BOSS.phase==='laser') {
-    // 20f de aviso + rayo activo hasta el frame 75
-    if (BOSS.t>75) { BOSS.phase='fight'; BOSS.laserT=0; BOSS.t=0; }
-    else if (BOSS.t>20) {
-      if (Math.abs(BOSS.shipY-BOSS.laserY)<42 && P.invincible<=0) {
-        if (P.shielded>0) { P.shielded=0; fx('hit',160,BOSS.shipY); P.invincible=60; shake(8); }
-        else {
-          lives--; shake(12); fx('hit',160,BOSS.shipY);
-          burst(160,BOSS.shipY,'#ff5533',16);
-          if (lives<=0) { killPlayer(); return; }
-          P.invincible=90;
-        }
-      }
+  else if (B.phase==='laser') {
+    if (B.t>75) { B.phase='fight'; B.laserT=0; B.t=0; }
+    else if (B.t>20) {
+      if (Math.abs(B.shipY-B.laserY)<42 && P.invincible<=0) hitInShip(B.shipY);
     }
-    if (++BOSS.fireT>=26) { BOSS.fireT=0; playerShipFire(); }
+    if (++B.fireT>=26) { B.fireT=0; B.bullets.push({ x:200, y:B.shipY+6, vx:11 }); AudioMan.sfx('nave-disparo',{vol:0.7}); }
   }
-  else if (BOSS.phase==='dying') {
-    if (BOSS.t%9===0) {
-      fx('explosion', BOSS.x-70+Math.random()*160, BOSS.y-60+Math.random()*130);
-      shake(6);
+  else if (B.phase==='dying') {
+    if (B.t%9===0) { fx('explosion', B.x-70+Math.random()*160, B.y-60+Math.random()*130); shake(6); }
+    if (B.t>80) { bossDefeated(); return; }
+  }
+
+  B.bubbles=B.bubbles.filter(bu=>{
+    bu.t++;
+    bu.vy += ((B.shipY-bu.y)>0?0.06:-0.06);
+    bu.vy = Math.max(-2.2, Math.min(2.2, bu.vy));
+    bu.x+=bu.vx; bu.y+=bu.vy;
+    if (B.phase!=='dying' && P.invincible<=0 &&
+        overlaps(bu.x-22,bu.y-22,44,44, 150-46,B.shipY-30,92,60, 4)) {
+      hitInShip(B.shipY);
+      burst(bu.x,bu.y,'#a8e6ff',10);
+      return false;
     }
-    if (BOSS.t>80) { endBoss(); return; }
-  }
+    return bu.x>-60 && bu.t<600;
+  });
 
   if (P.invincible>0) P.invincible--;
   if (P.shielded>0)   P.shielded--;
 
-  BOSS.bullets = BOSS.bullets.filter(b => {
+  B.bullets = B.bullets.filter(b => {
     b.x+=b.vx;
-    if (BOSS.phase!=='dying' &&
-        overlaps(b.x-14,b.y-7,28,14, BOSS.x-80,BOSS.y-55,160,120, 0)) {
-      BOSS.hp--; BOSS.flash=8;
+    if (B.phase!=='dying' &&
+        overlaps(b.x-14,b.y-7,28,14, B.x-80,B.y-55,160,120, 0)) {
+      B.hp--; B.flash=8;
       burst(b.x,b.y,'#aaffcc',6);
       AudioMan.sfx('coin',{rate:0.6,vol:0.5});
-      if (BOSS.hp<=0) {
-        BOSS.phase='dying'; BOSS.t=0;
+      if (B.hp<=0) {
+        B.phase='dying'; B.t=0;
         AudioMan.sfx('powerup-explosion');
         AudioMan.sfx('bruja-desaparece');
       }
@@ -723,11 +932,342 @@ function updateBoss() {
     }
     return b.x<W+40;
   });
-  if (BOSS.flash>0) BOSS.flash--;
+  if (B.flash>0) B.flash--;
 
-  tickEffects(); tickParticles();
+  tickEffects(); tickParticles(); tickFloatTexts();
   if (shakeF>0) shakeF--;
-  score = Math.floor(dist/80)+coins*7+bossesKilled*250+bonusPts;
+  calcScore();
+}
+function hitInShip(sy) {
+  if (P.shielded>0) { P.shielded=0; fx('hit',160,sy); P.invincible=60; shake(8); return; }
+  lives--; shake(12); fx('hit',160,sy);
+  burst(160,sy,'#ff5533',16);
+  if (lives<=0) { killPlayer(); return; }
+  P.invincible=90;
+}
+
+// ── MUNDO 3: GUNILDA (teletransporte + magia; solo es vulnerable
+//    justo después de lanzar su hechizo triple) ──
+function startBossGunilda() {
+  state=ST.BOSS;
+  GB={ phase:'enter', t:0, x:W+160, y:180, hp:bossHp(4), maxHp:bossHp(4),
+       af:0, alpha:1, hitFlash:0, spot:0, shots:0, vulnT:0 };
+  RB=null; FB=null;
+  obstacles=[]; coinItems=[]; gemItems=[]; powerUps=[]; robotEv=null;
+  AudioMan.sfx('bruja-aparece');
+}
+const GUN_SPOTS=[ {x:W-180,y:170},{x:W-320,y:250},{x:W-140,y:300},{x:W-420,y:160} ];
+function updateBossGunilda() {
+  const G=GB; G.t++;
+  if (G.t%7===0) G.af=(G.af+1)%3;
+  if (G.hitFlash>0) G.hitFlash--;
+  runnerPhysics();
+
+  if (G.phase==='enter') {
+    G.x += (GUN_SPOTS[0].x-G.x)*0.06;
+    G.y = 180+Math.sin(G.t*0.05)*14;
+    if (Math.abs(G.x-GUN_SPOTS[0].x)<6) { G.phase='taunt'; G.t=0; }
+  }
+  else if (G.phase==='taunt') {
+    G.y += Math.sin(G.t*0.08)*0.8;
+    if (G.t>55) { G.phase='cast'; G.t=0; G.shots=0; AudioMan.sfx('bruja-carga'); }
+  }
+  else if (G.phase==='cast') {
+    G.y += Math.sin(G.t*0.08)*0.5;
+    if (G.t>40 && G.t%26===0 && G.shots<3) {
+      G.shots++;
+      AudioMan.sfx('bruja-dispara');
+      const dx=P.x-G.x, dy=(P.y-PH*0.5)-G.y;
+      const d=Math.hypot(dx,dy)||1, sp2=5.2+lap*0.8;
+      obstacles.push({ type:'bola', x:G.x, y:G.y+40, w:34, h:34,
+                       vx:dx/d*sp2, vy:dy/d*sp2, af:0, at:0, homing:40 });
+    }
+    if (G.shots>=3 && G.t>140) {
+      // agotada: baja y es vulnerable un rato
+      G.phase='tired'; G.t=0; G.vulnT=150;
+      G.targetY=GROUND-165;   // a la altura justa de un salto, sin rozar al jugador parado
+      popup(G.x, G.y-70, '¡AHORA! ¡SALTA SOBRE ELLA!', '#FFDC00', 22);
+    }
+  }
+  else if (G.phase==='tired') {
+    G.y += (G.targetY-G.y)*0.12;
+    G.x += (P.x+30-G.x)*0.06;   // agotada, flota hasta ponerse a tu alcance
+    if (--G.vulnT<=0) {
+      G.phase='blink'; G.t=0; AudioMan.sfx('bruja-desaparece');
+    }
+    const st=tryStomp(G.x-50, G.y-40, 100, 105);
+    if (st===1) {
+      stompBounce();
+      G.hp--; G.hitFlash=10;
+      burst(G.x, G.y, '#dd66ff', 16);
+      popup(G.x, G.y-80, '¡GOLPE!', '#7CFC00', 26);
+      if (G.hp<=0) { G.phase='dying'; G.t=0; AudioMan.sfx('powerup-explosion'); return; }
+      G.phase='blink'; G.t=0;
+      AudioMan.sfx('bruja-desaparece');
+    } else if (st===-1) playerHit();
+  }
+  else if (G.phase==='blink') {
+    G.alpha-=0.06;
+    if (G.alpha<=0) {
+      G.spot=(G.spot+1)%GUN_SPOTS.length;
+      const s=GUN_SPOTS[G.spot];
+      G.x=s.x; G.y=s.y; G.alpha=0.01; G.phase='appear';
+      AudioMan.sfx('bruja-aparece');
+    }
+  }
+  else if (G.phase==='appear') {
+    G.alpha=Math.min(1,G.alpha+0.07);
+    if (G.alpha>=1) { G.phase='taunt'; G.t=0; }
+  }
+  else if (G.phase==='dying') {
+    G.alpha=Math.max(0,G.alpha-0.012);
+    if (G.t%8===0) { fx('explosion', G.x-50+Math.random()*100, G.y-40+Math.random()*90); shake(5); }
+    if (G.t>80) { bossDefeated(); return; }
+  }
+  bossCommonTick();
+}
+
+// física del corredor durante jefes en tierra (Robot y Gunilda)
+function runnerPhysics() {
+  bgOff+=speed*0.08; mtnOff+=speed*0.45; waveOff+=speed;
+  for (const cl of clouds) { cl.x-=cl.sp*speed*0.55; if (cl.x+cl.w<-20) cl.x=W+cl.w+Math.random()*200; }
+  if (P.invincible>0) P.invincible--;
+  if (P.shielded>0)  P.shielded--;
+  if (P.boosted>0)  { P.boosted--; if (!P.boosted) speed=Math.max(baseSpeed(),speed-2.5); }
+  const wasAir=P.y<GROUND-1;
+  P.vy+=GRAVITY; P.y+=P.vy;
+  if (P.y>=GROUND) { P.y=GROUND; P.vy=0; P.jumps=0; if (wasAir) AudioMan.startRun(); }
+  if (P.y>=GROUND-1) {
+    P.atimer+=speed*0.034;
+    if (P.atimer>=1) { P.atimer=0; P.anim=(P.anim+1)%6; }
+  }
+  // bolas mágicas residuales durante el jefe
+  updateObstacles();
+  checkCollisions();
+}
+function bossCommonTick() {
+  tickEffects(); tickParticles(); tickFloatTexts();
+  if (shakeF>0) shakeF--;
+  calcScore();
+}
+
+function bossDefeated() {
+  bossesKilled++;
+  misEvent('boss');
+  RB=null; FB=null; GB=null;
+  coins+=25;
+  gems=Math.min(GEMS_FOR_TURBO-1,gems+1);
+  if (lives<LIVES) lives++;
+  P.y=GROUND; P.vy=0;
+  if (world<2) {
+    // secuencia: la nave aterriza, el héroe corre y SE MONTA
+    startBoarding();
+  } else {
+    // Gunilda huye en su escoba → duelo aéreo final
+    startDuel();
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+//  EMBARQUE — la nave aterriza delante y el héroe se sube
+// ═══════════════════════════════════════════════════════
+function startBoarding() {
+  state=ST.BOARD;
+  BD={ t:0, shipX:W+160, shipY:80, phase:'land' };
+  AudioMan.stopRun();
+  AudioMan.sfx('nave-aparece');
+  popup(W/2, 140, '¡Tu nave ha llegado!', '#7FDBFF', 28);
+}
+function updateBoarding() {
+  const b=BD; b.t++;
+  bgOff+=2; mtnOff+=3; waveOff+=4;
+  for (const cl of clouds) { cl.x-=cl.sp*2; if (cl.x+cl.w<-20) cl.x=W+cl.w; }
+  if (b.phase==='land') {
+    b.shipX += (P.x+260-b.shipX)*0.06;
+    b.shipY += (GROUND-46-b.shipY)*0.06;
+    if (Math.abs(b.shipY-(GROUND-46))<3 && Math.abs(b.shipX-(P.x+260))<6) {
+      b.phase='run'; b.t=0;
+      AudioMan.startRun();
+    }
+  } else if (b.phase==='run') {
+    // el héroe corre hacia la nave
+    P.x += 3.4;
+    P.atimer+=0.16;
+    if (P.atimer>=1){ P.atimer=0; P.anim=(P.anim+1)%6; }
+    if (P.x >= b.shipX-30) {
+      b.phase='hop'; b.t=0;
+      P.vy=-11;
+      AudioMan.stopRun();
+    }
+  } else if (b.phase==='hop') {
+    // saltito para montarse
+    P.vy+=GRAVITY*0.9;
+    P.y+=P.vy;
+    P.x+=2.2;
+    if (P.y>=GROUND-40) {
+      b.phase='takeoff'; b.t=0;
+      burst(b.shipX, GROUND-20, '#7FDBFF', 14);
+      AudioMan.sfx('nave-carga');
+    }
+  } else if (b.phase==='takeoff') {
+    b.shipY -= b.t*0.14;
+    b.shipX += b.t*0.10;
+    if (b.t%5===0) particles.push({ x:b.shipX-40, y:b.shipY+26, vx:-3-Math.random()*2, vy:1+Math.random(),
+                                    life:0.9, r:3+Math.random()*4, color:'#9adcff' });
+    if (b.shipY<-140) { startFly(); return; }
+  }
+  tickEffects(); tickParticles(); tickFloatTexts();
+}
+
+// ═══════════════════════════════════════════════════════
+//  VUELO ENTRE MUNDOS — minifase pilotando la nave
+// ═══════════════════════════════════════════════════════
+function startFly() {
+  state=ST.FLY;
+  F={ t:0, y:H/2, targetY:H/2, rocks:[], coins:[], spT:50, dur:640 };
+  initStars();
+  AudioMan.sfx('powerup-turbo');
+}
+function updateFly() {
+  const f=F; f.t++;
+  if (pointerDown) f.targetY=Math.max(70,Math.min(H-70,pointerY));
+  if (keys['ArrowUp'])   f.targetY=Math.max(70, f.targetY-7);
+  if (keys['ArrowDown']) f.targetY=Math.min(H-70, f.targetY+7);
+  f.y += (f.targetY-f.y)*0.12;
+
+  for (const s of stars) { s.x-=s.sp*2.2; if (s.x<-4){ s.x=W+4; s.y=Math.random()*H; } }
+
+  if (--f.spT<=0) {
+    f.spT=Math.max(26, 46-Math.floor(f.t/120));
+    if (Math.random()<0.62) {
+      f.rocks.push({ x:W+60, y:60+Math.random()*(H-120), r:20+Math.random()*26, rot:Math.random()*Math.PI, vr:(Math.random()-0.5)*0.06 });
+    } else {
+      const y0=70+Math.random()*(H-160);
+      for (let i=0;i<5;i++) f.coins.push({ x:W+60+i*48, y:y0+Math.sin(i*0.8)*26, af:i%7, at:0 });
+    }
+  }
+  f.rocks=f.rocks.filter(r=>{
+    r.x-=7.5; r.rot+=r.vr;
+    if (P.invincible<=0 && Math.hypot(r.x-170, r.y-f.y)<r.r+30) {
+      if (P.shielded>0){ P.shielded=0; P.invincible=45; fx('hit',170,f.y); shake(8); }
+      else {
+        lives--; shake(12); fx('hit',170,f.y); burst(170,f.y,'#ff5533',14);
+        if (lives<=0){ killPlayer(); return false; }
+        P.invincible=80;
+      }
+      return false;
+    }
+    return r.x>-70;
+  });
+  f.coins=f.coins.filter(c=>{
+    c.x-=7.5; c.at++;
+    if (c.at%5===0) c.af=(c.af+1)%7;
+    if (Math.hypot(c.x-170,c.y-f.y)<44) {
+      coins++; bonusPts+=5;
+      burst(c.x,c.y,'#FFD700',6);
+      AudioMan.sfx('coin',{vol:0.7});
+      return false;
+    }
+    return c.x>-40;
+  });
+  if (P.invincible>0) P.invincible--;
+  if (P.shielded>0)   P.shielded--;
+
+  if (f.t>=f.dur) {
+    // aterrizaje en el siguiente mundo
+    startWorld(world+1, {fromShip:true});
+    return;
+  }
+  tickEffects(); tickParticles(); tickFloatTexts();
+  if (shakeF>0) shakeF--;
+  calcScore();
+}
+
+// ═══════════════════════════════════════════════════════
+//  DUELO FINAL — nave vs Gunilda en escoba, cielo de Marte
+// ═══════════════════════════════════════════════════════
+function startDuel() {
+  state=ST.DUEL;
+  D={ t:0, y:H/2, targetY:H/2, bullets:[], bolas:[],
+      gx:W-170, gy:H/2, gvy:1.6, hp:bossHp(12), maxHp:bossHp(12),
+      flash:0, fireT:0, castT:0, phase:'fight' };
+  initStars();
+  AudioMan.stopRun();
+  AudioMan.sfx('bruja-aparece');
+  popup(W/2, 130, '¡GUNILDA HUYE! ¡DERRÍBALA!', '#FF4136', 30);
+}
+function updateDuel() {
+  const d=D; d.t++;
+  if (pointerDown) d.targetY=Math.max(70,Math.min(H-70,pointerY));
+  if (keys['ArrowUp'])   d.targetY=Math.max(70, d.targetY-7);
+  if (keys['ArrowDown']) d.targetY=Math.min(H-70, d.targetY+7);
+  d.y += (d.targetY-d.y)*0.12;
+
+  for (const s of stars) { s.x-=s.sp*1.6; if (s.x<-4){ s.x=W+4; s.y=Math.random()*H; } }
+
+  if (d.phase==='fight') {
+    // Gunilda serpentea, a veces se lanza en picado hacia tu columna
+    d.gy += d.gvy;
+    if (d.gy<90||d.gy>H-90) d.gvy*=-1;
+    if (d.t%160===120) d.gvy = (d.y>d.gy?1:-1)*(2.4+lap*0.5);
+    if (d.t%160===0)   d.gvy = d.gvy>0?1.6:-1.6;
+
+    if (++d.fireT>=24) { d.fireT=0; d.bullets.push({ x:210, y:d.y+4, vx:11.5 }); AudioMan.sfx('nave-disparo',{vol:0.65}); }
+    if (++d.castT>=Math.max(70,110-lap*15)) {
+      d.castT=0;
+      AudioMan.sfx('bruja-dispara');
+      const dy=(d.y-d.gy), dd=Math.hypot(-520,dy)||1;
+      d.bolas.push({ x:d.gx-40, y:d.gy, vx:-520/dd*6.2, vy:dy/dd*6.2, af:0, at:0 });
+    }
+  }
+  else if (d.phase==='dying') {
+    d.gy += 2.4; d.gx += Math.sin(d.t*0.3)*3;
+    if (d.t%7===0) { fx('explosion', d.gx-40+Math.random()*80, d.gy-30+Math.random()*60); shake(5); }
+    if (d.t>110) { startVictory(); return; }
+  }
+
+  d.bullets=d.bullets.filter(b=>{
+    b.x+=b.vx;
+    if (d.phase==='fight' && overlaps(b.x-14,b.y-7,28,14, d.gx-55,d.gy-55,110,110, 0)) {
+      d.hp--; d.flash=8;
+      burst(b.x,b.y,'#dd66ff',6);
+      AudioMan.sfx('coin',{rate:0.6,vol:0.5});
+      if (d.hp<=0) { d.phase='dying'; d.t=0; AudioMan.sfx('powerup-explosion'); AudioMan.sfx('bruja-desaparece'); }
+      return false;
+    }
+    return b.x<W+40;
+  });
+  d.bolas=d.bolas.filter(bo=>{
+    bo.x+=bo.vx; bo.y+=bo.vy; bo.at++;
+    if (bo.at%4===0) bo.af=(bo.af+1)%3;
+    if (P.invincible<=0 && Math.hypot(bo.x-170,bo.y-d.y)<40) {
+      if (P.shielded>0){ P.shielded=0; P.invincible=45; fx('hit',170,d.y); shake(8); }
+      else {
+        lives--; shake(12); fx('hit',170,d.y); burst(170,d.y,'#ff5533',14);
+        if (lives<=0){ killPlayer(); return false; }
+        P.invincible=80;
+      }
+      return false;
+    }
+    return bo.x>-60 && bo.y>-60 && bo.y<H+60;
+  });
+  if (d.flash>0) d.flash--;
+  if (P.invincible>0) P.invincible--;
+  if (P.shielded>0)   P.shielded--;
+
+  tickEffects(); tickParticles(); tickFloatTexts();
+  if (shakeF>0) shakeF--;
+  calcScore();
+}
+function startVictory() {
+  state=ST.VICTORY; victF=0;
+  bonusPts+=1000;
+  calcScore();
+  if (score>hiScore) { hiScore=score; localStorage.setItem('mk_hi',hiScore); }
+  bank += coins - banked; banked=coins; saveMeta();
+  AudioMan.stopMusic();
+  AudioMan.sfx('gema');
+  AudioMan.sfx('powerup-turbo');
 }
 
 // ═══════════════════════════════════════════════════════
@@ -738,6 +1278,7 @@ function update() {
     for (const cl of clouds) { cl.x-=cl.sp*3.2; if (cl.x+cl.w<-20) cl.x=W+cl.w+Math.random()*100; }
     return;
   }
+  if (state===ST.STORY)   { storyF++; if (storyF>420) advanceStory(); return; }
   if (state===ST.DEAD) {
     deadF++;
     if (shakeF>0) shakeF--;
@@ -745,20 +1286,47 @@ function update() {
     for (const cl of clouds) { cl.x-=cl.sp*speed*0.5; if (cl.x+cl.w<-20) cl.x=W+cl.w+Math.random()*200; }
     return;
   }
-  if (state===ST.BOSS) { updateBoss(); return; }
+  if (state===ST.BOSS) {
+    if (RB) updateBossRobot();
+    else if (FB) updateBossFrog();
+    else if (GB) updateBossGunilda();
+    return;
+  }
+  if (state===ST.BOARD)   { updateBoarding(); return; }
+  if (state===ST.FLY)     { updateFly(); return; }
+  if (state===ST.DUEL)    { updateDuel(); return; }
+  if (state===ST.VICTORY) { victF++; tickParticles(); tickFloatTexts();
+    if (victF%12===0) burst(Math.random()*W, 80+Math.random()*250, ['#FFD700','#FF4136','#7FDBFF','#7CFC00'][victF/12%4|0], 8);
+    return; }
 
   if (state===ST.INTRO) {
     introF++;
     bgOff+=1.2; mtnOff+=2; waveOff+=3;
     for (const cl of clouds) { cl.x-=cl.sp*2; if (cl.x+cl.w<-20) cl.x=W+cl.w+Math.random()*100; }
-    // 0-45: READY · 45: cañonazo · 45-90: vuelo parabólico · 90: GO! y a correr
-    if (introF===45) { AudioMan.sfx('cannon'); shake(10); fx('explosion', 105, GROUND-105); }
-    if (introF>=45 && introF<90) {
-      const t=(introF-45)/45;
-      P.x = 70+(PX-70)*t;
-      P.y = GROUND-40 - Math.sin(t*Math.PI)*190 + 40*t;
+    if (introShip) {
+      // desembarco: la nave desciende, el héroe salta de ella
+      if (introF<55) {
+        P.shipX = W*0.42 - (introF*1.2);
+        P.shipY = -80 + introF*((GROUND-120+80)/55);
+      }
+      if (introF===55) { AudioMan.sfx('nave-carga'); }
+      if (introF>=55 && introF<95) {
+        const t=(introF-55)/40;
+        P.x = (P.shipX||W*0.35) + (PX-(P.shipX||W*0.35))*t;
+        P.y = (GROUND-110) + (GROUND-(GROUND-110))*t*t;
+      }
+      if (introF===95) { burst(P.x,GROUND-10,'#9adcff',12); shake(4); }
+      if (introF>=95) { P.x=PX; P.y=GROUND; beginRun(); }
+    } else {
+      // arranque mundo 1: sale disparado de la cápsula del laboratorio
+      if (introF===45) { AudioMan.sfx('cannon'); shake(10); fx('explosion', 105, GROUND-105); }
+      if (introF>=45 && introF<90) {
+        const t=(introF-45)/45;
+        P.x = 70+(PX-70)*t;
+        P.y = GROUND-40 - Math.sin(t*Math.PI)*190 + 40*t;
+      }
+      if (introF>=90) { P.x=PX; P.y=GROUND; beginRun(); }
     }
-    if (introF>=90) { P.x=PX; P.y=GROUND; beginRun(); }
     tickEffects(); tickParticles();
     if (shakeF>0) shakeF--;
     return;
@@ -767,16 +1335,17 @@ function update() {
   if (state!==ST.PLAYING) return;
 
   // ── PLAYING ──────────────────────────────────────────
-  dist+=speed;
+  dist+=speed; worldDist+=speed;
   speed=Math.min(13, speed+0.0018);
-  score=Math.floor(dist/80)+coins*7+bossesKilled*250+bonusPts;
+  calcScore();
   if (comboT>0 && --comboT===0) combo=0;
   tickFloatTexts();
+  tickDelayedObs();
+  if (worldBanner>0) worldBanner--;
 
   misEvent('m', speed/80);
   if (fever>0) {
     fever--;
-    P.magnet=Math.max(P.magnet,2);
     if (gframe%2===0) particles.push({
       x:P.x-24+Math.random()*14, y:P.y-Math.random()*PH,
       vx:-2-Math.random()*2, vy:(Math.random()-0.5)*1.6,
@@ -798,14 +1367,27 @@ function update() {
     shake(5);
   }
 
-  if (dist>=nextBossAt && !robotEv) { startBoss(); return; }
+  const wl=WORLDS[world].len;
+  // aviso de jefe cerca del final del mundo
+  if (!bossWarned && worldDist>=wl-700) {
+    bossWarned=true;
+    popup(W/2, 150, '⚠ ¡'+(world===0?'ROBOT GUARDIÁN':world===1?'BUBEADO':'GUNILDA')+' A LA VISTA!', '#FF4136', 30);
+    AudioMan.sfx('soldado-aviso');
+  }
+  if (worldDist>=wl && !robotEv) {
+    if (world===0) startBossRobot();
+    else if (world===1) startBossFrog();
+    else startBossGunilda();
+    return;
+  }
 
   bgOff+=speed*0.08; mtnOff+=speed*0.45; waveOff+=speed;
+  if (world===2) for (const s of stars) { s.x-=s.sp*0.5; if (s.x<-4){ s.x=W+4; s.y=Math.random()*(GROUND-60); } }
 
   if (P.invincible>0) P.invincible--;
   if (P.shielded>0)  P.shielded--;
-  if (P.magnet>0)    P.magnet--;
-  if (P.boosted>0)  { P.boosted--; if (!P.boosted) speed=Math.max(4.5,speed-2.5); }
+  if (P.cat>0)       P.cat--;
+  if (P.boosted>0)  { P.boosted--; if (!P.boosted) speed=Math.max(baseSpeed(),speed-2.5); }
 
   const wasAir = P.y<GROUND-1;
   P.vy+=GRAVITY;
@@ -815,23 +1397,20 @@ function update() {
     if (wasAir) AudioMan.startRun();
   }
   if (P.y>=GROUND-1) {
-    // solo los frames 0-5 son de carrera (6-8 son caída/voltereta)
     P.atimer+=speed*0.034;
     if (P.atimer>=1) { P.atimer=0; P.anim=(P.anim+1)%6; }
   }
 
   for (const cl of clouds) { cl.x-=cl.sp*speed*0.55; if (cl.x+cl.w<-20) cl.x=W+cl.w+Math.random()*200; }
+  if (cameo) { cameo.x-=speed*1.4; cameo.at++; if (cameo.x<-200) cameo=null; }
 
-  if (!robotEv) {
-    if (--spawnT<=0)   { spawnObstacle(); spawnT=Math.max(50,160-Math.floor(dist/2000)); }
+  if (!robotEv && worldDist<wl-500) {
+    if (--spawnT<=0)   { spawnObstacle(); spawnT=Math.max(48,150-Math.floor(hardness()*90)); }
     if (--coinT<=0)    { spawnCoins();    coinT=Math.max(62,140-Math.floor(dist/3000)); }
     if (--gemT<=0)     { spawnGem();      gemT=420+(Math.random()*380|0); }
     if (--pupT<=0)     { spawnPowerUp();  pupT=460+(Math.random()*420|0); }
-    if (--soldierT<=0) {
-      if (Math.random()<0.5 && dist>3500) spawnRobot();
-      else spawnSoldier();
-      soldierT=900+(Math.random()*700|0);
-    }
+    if (--skullT<=0)   { spawnSkull();    skullT=1400+(Math.random()*1100|0); }
+    if (--eventT<=0)   { spawnWorldEvent(); eventT=900+(Math.random()*700|0); }
   }
 
   updateRobot();
@@ -843,7 +1422,7 @@ function update() {
   if (shakeF>0) shakeF--;
 }
 
-// ── Evento robot ───────────────────────────────────────
+// ── Evento robot (mundo 1) ─────────────────────────────
 function updateRobot() {
   if (!robotEv) return;
   const R=robotEv;
@@ -891,7 +1470,6 @@ function updateObstacles() {
     if (ob.type==='espar') {
       ob.at++;
       ob.x-=speed*0.16;
-      // saltitos: fase de salto cada 46 frames
       const ph=(ob.at%46)/46;
       ob.hop = ph<0.5 ? Math.sin(ph*2*Math.PI*0.5)*26 : 0;
     }
@@ -902,9 +1480,8 @@ function updateObstacles() {
       if (!ob.landed) {
         ob.vy=Math.min(3.2,ob.vy+0.05);
         ob.y+=ob.vy;
-        ob.x+=Math.sin(ob.at*0.08)*0.9;   // balanceo del paracaídas
+        ob.x+=Math.sin(ob.at*0.08)*0.9;
         if (ob.y>=GROUND) {
-          // aterriza: pierde el paracaídas y queda como barril-obstáculo
           ob.y=GROUND; ob.landed=true; ob.landTimer=0;
           fx('hit', ob.x, GROUND-40);
           burst(ob.x, GROUND-30, '#c8a468', 10);
@@ -913,7 +1490,16 @@ function updateObstacles() {
       } else ob.landTimer++;
     }
 
-    else if (ob.type==='cat') { ob.at++; if (ob.at%4===0) ob.af=(ob.af+1)%5; }
+    else if (ob.type==='mina') {
+      ob.at++;
+      ob.bob=Math.sin(ob.at*0.1)*3;
+    }
+
+    else if (ob.type==='lowball') {
+      ob.x+=ob.vx-(-speed);   // compensa el scroll: velocidad propia
+      ob.at++;
+      if (ob.at%4===0) ob.af=(ob.af+1)%3;
+    }
 
     else if (ob.type==='missile') {
       ob.at++;
@@ -931,10 +1517,24 @@ function updateObstacles() {
       }
     }
 
-    else if (ob.type==='gorilla') {
+    else if (ob.type==='raycol') {
       ob.at++;
-      ob.x-=speed*0.9;                 // más rápido que el mundo
-      ob.y=GROUND+Math.sin(ob.at*0.3)*2;
+      if (ob.warn>0) ob.warn--;
+      else if (ob.at>140) continue;
+    }
+
+    else if (ob.type==='gunilda-cameo') {
+      ob.at++;
+      ob.x-=speed*0.6;
+      ob.y+=Math.sin(ob.at*0.07)*1.1;
+      if (!ob.dropped && ob.x<W*0.72) {
+        ob.dropped=true;
+        AudioMan.sfx('bruja-dispara');
+        const dx=P.x-ob.x, dy=(P.y-PH*0.5)-ob.y;
+        const dd=Math.hypot(dx,dy)||1, sp2=5.5;
+        nextObs.push({ type:'bola', x:ob.x, y:ob.y+40, w:34, h:34,
+                       vx:dx/dd*sp2, vy:dy/dd*sp2, af:0, at:0, homing:45 });
+      }
     }
 
     else if (ob.type==='witch') {
@@ -946,10 +1546,11 @@ function updateObstacles() {
       else if (ob.phase==='charge' && ob.pt>=50) {
         ob.phase='shot'; ob.pt=0;
         AudioMan.sfx('bruja-dispara');
-        const dx=P.x-ob.x, dy=(P.y-PH*0.5)-ob.y;
+        const ty = ob.lowShot ? GROUND-24 : P.y-PH*0.5;
+        const dx=P.x-ob.x, dy=ty-ob.y;
         const d=Math.hypot(dx,dy)||1, sp2=5.5;
         nextObs.push({ type:'bola', x:ob.x, y:ob.y+50, w:34, h:34,
-                       vx:dx/d*sp2, vy:dy/d*sp2, af:0, at:0, homing:45 });
+                       vx:dx/d*sp2, vy:dy/d*sp2, af:0, at:0, homing:ob.lowShot?0:45 });
       }
       else if (ob.phase==='shot' && ob.pt>=45) { ob.phase='fade'; ob.pt=0; AudioMan.sfx('bruja-desaparece'); }
       else if (ob.phase==='fade') {
@@ -970,12 +1571,12 @@ function updateObstacles() {
       if (ob.x<-80||ob.y>H+60) continue;
     }
 
-    else if (ob.type==='dog') {
+    else if (ob.type==='dog' || ob.type==='minibot') {
       ob.at++;
-      if (ob.at%6===0) ob.af=(ob.af+1)%5;
+      if (ob.at%6===0) ob.af=(ob.af+1)%(ob.type==='dog'?5:8);
       if (!ob.fired && ob.x-P.x<400) {
         ob.fired=true; ob.attacking=60;
-        AudioMan.sfx('perro-ataque');
+        AudioMan.sfx(ob.type==='dog' ? 'perro-ataque' : 'robot-rayo');
       }
       if (ob.attacking>0) ob.attacking--;
     }
@@ -996,17 +1597,6 @@ function updateObstacles() {
       }
     }
 
-    else if (ob.type==='cannon') {
-      ob.at++; ob.canAt++;
-      if (ob.canAt%4===0) ob.canAf=(ob.canAf+1)%9;
-      if (!ob.fired && --ob.fireIn<=0) {
-        ob.fired=true;
-        AudioMan.sfx('cannon',{vol:0.7});
-        fx('warning', P.x, GROUND-90, {life:55});
-        nextObs.push(makeCball(ob.x-20, ob.y-62));
-      }
-    }
-
     else if (ob.type==='cball') {
       ob.vy+=ob.grav; ob.x+=ob.vx; ob.y+=ob.vy; ob.at++;
       if (ob.at%4===0) ob.af=(ob.af+1)%3;
@@ -1021,10 +1611,11 @@ function updateObstacles() {
 // ── Coleccionables ─────────────────────────────────────
 function updateCollectibles() {
   const pr=playerRect();
+  const magnetOn = P.cat>0 || fever>0;
   coinItems=coinItems.filter(c=>{
     c.x-=speed; c.at++;
     if (c.at%5===0) c.af=(c.af+1)%7;
-    if (P.magnet>0) {
+    if (magnetOn) {
       const dx=P.x-c.x, dy=(P.y-PH*0.5)-c.y, d=Math.hypot(dx,dy)||1;
       if (d<260) { c.x+=dx/d*9; c.y+=dy/d*9; }
     }
@@ -1062,6 +1653,12 @@ function updateCollectibles() {
   powerUps=powerUps.filter(pu=>{
     pu.x-=speed; pu.at++;
     if (pu.at%6===0) pu.af=(pu.af+1)%8;
+    if (pu.type==='skull') {
+      // Eufrasio bota por el suelo
+      pu.vy+=GRAVITY*0.55;
+      pu.y+=pu.vy;
+      if (pu.y>=GROUND-26) { pu.y=GROUND-26; pu.vy=-7; }
+    }
     if (overlaps(pr.x,pr.y,pr.w,pr.h, pu.x-24,pu.y-24,48,48, 2)) {
       if (pu.type==='shield') {
         P.shielded=420;
@@ -1069,12 +1666,17 @@ function updateCollectibles() {
         AudioMan.sfx('powerup-escudo');
       } else if (pu.type==='boost') {
         activateTurbo();
-      } else if (pu.type==='magnet') {
-        P.magnet=480;
-        burst(P.x,P.y-PH*0.5,'#ffee66',14);
+      } else if (pu.type==='cat') {
+        P.cat=480;
+        burst(P.x,P.y-PH*0.5,'#ffb060',14);
+        popup(P.x, P.y-PH-30, '¡BILLS HUELE MONEDAS!', '#ffb060', 24);
         AudioMan.sfx('powerup-escudo',{rate:1.3});
+      } else if (pu.type==='skull') {
+        bonusPts+=100; coins+=5;
+        popup(pu.x, pu.y-30, '💀 ¡EUFRASIO! +100', '#ffee88', 26);
+        burst(pu.x,pu.y,'#ffee88',14);
+        AudioMan.sfx('gema',{rate:0.8});
       } else {
-        // Bomba: limpia la pantalla (PowerUp Explosión del original)
         AudioMan.sfx('powerup-explosion');
         shake(14);
         for (const ob of obstacles) {
@@ -1095,18 +1697,21 @@ function checkCollisions() {
     if (ob.x<-200) continue;
     let bx,by,bw,bh;
     switch(ob.type) {
-      case 'espar':     bx=ob.x-ob.w*0.5; by=ob.y-ob.h; bw=ob.w; bh=ob.h; break;
+      case 'espar':     bx=ob.x-ob.w*0.5; by=ob.y-ob.h-(ob.hop||0); bw=ob.w; bh=ob.h; break;
       case 'parachute': if (ob.landed){bx=ob.x-36;by=ob.y-72;bw=72;bh=72;}
                         else {bx=ob.x-35;by=ob.y-60;bw=70;bh=60;} break;
-      case 'cat':       bx=ob.x-36; by=ob.y-ob.h; bw=ob.w; bh=ob.h; break;
+      case 'mina':      bx=ob.x-28; by=ob.y-58; bw=56; bh=58; break;
+      case 'lowball':   bx=ob.x-15; by=ob.y-15; bw=30; bh=30; break;
       case 'missile':   if (ob.warn>0) continue;
                         bx=ob.x-20; by=ob.y-ob.h*0.5; bw=40; bh=ob.h; break;
-      case 'gorilla':   bx=ob.x-ob.w*0.4; by=ob.y-ob.h; bw=ob.w*0.8; bh=ob.h; break;
+      case 'raycol':    if (ob.warn>0 || ob.at>125) continue;
+                        bx=ob.x-ob.w*0.5; by=0; bw=ob.w; bh=GROUND; break;
       case 'cball':     bx=ob.x-13; by=ob.y-13; bw=26; bh=26; break;
       case 'bola':      bx=ob.x-14; by=ob.y-14; bw=28; bh=28; break;
       case 'bomb':      bx=ob.x-26; by=ob.y-26; bw=52; bh=52; break;
       case 'soldier':   if (ob.phase!=='charge') continue;
                         bx=ob.x-44; by=ob.y-ob.h; bw=ob.w; bh=ob.h; break;
+      case 'minibot':
       case 'dog':
         bx=ob.x-38; by=ob.y-ob.h; bw=ob.w; bh=ob.h;
         if (ob.attacking>10 && ob.attacking<55) {
@@ -1120,6 +1725,16 @@ function checkCollisions() {
     }
     if (overlaps(pr.x,pr.y,pr.w,pr.h, bx,by,bw,bh)) {
       if (P.boosted>0) { fx('explosion', ob.x, ob.y-(ob.h||50)*0.5); ob.x=-999; shake(6); continue; }
+      // Espárrago y pirata se pueden estompar desde arriba
+      if ((ob.type==='espar'||ob.type==='parachute') && P.vy>1.5 && (P.y-by)<bh*0.6) {
+        stompBounce();
+        fx('hit', ob.x, by);
+        burst(ob.x, by, '#ffcc44', 12);
+        bonusPts+=30;
+        popup(ob.x, by-20, '¡PISOTÓN! +30', '#FFDC00', 24);
+        ob.x=-999;
+        continue;
+      }
       ob.x=-999;
       playerHit();
       if (state===ST.DEAD) return;
@@ -1161,13 +1776,31 @@ function tickParticles() {
 }
 
 // ═══════════════════════════════════════════════════════
-//  DRAW — FONDO
+//  DRAW — FONDOS (uno por mundo)
 // ═══════════════════════════════════════════════════════
 function drawBg() {
-  if (theme===1) {
+  if (world===2) {
     const sk=gi('marsSky');
     if (sk) ctx.drawImage(sk,0,0,W,GROUND);
     else { ctx.fillStyle='#f5b98a'; ctx.fillRect(0,0,W,GROUND); }
+    ctx.fillStyle='rgba(255,255,255,0.7)';
+    for (const s of stars) { if (s.y<GROUND-60) { ctx.globalAlpha=0.4; ctx.beginPath(); ctx.arc(s.x,s.y*0.5,s.r*0.7,0,Math.PI*2); ctx.fill(); } }
+    ctx.globalAlpha=1;
+    return;
+  }
+  if (world===0) {
+    // laboratorio: pared modular en mosaico con luz fría
+    const g=ctx.createLinearGradient(0,0,0,GROUND);
+    g.addColorStop(0,'#2a3a58'); g.addColorStop(1,'#8fb4cc');
+    ctx.fillStyle=g; ctx.fillRect(0,0,W,GROUND);
+    const li=gi('lab');
+    if (li) {
+      const lh=GROUND*0.94, lw=li.naturalWidth*(lh/li.naturalHeight);
+      const off=((bgOff*2.2)%lw+lw)%lw;
+      ctx.globalAlpha=0.85;
+      for (let x=-off; x<W+lw; x+=lw-4) ctx.drawImage(li,x,GROUND-lh,lw,lh);
+      ctx.globalAlpha=1;
+    }
     return;
   }
   const g=ctx.createLinearGradient(0,0,0,GROUND);
@@ -1185,16 +1818,17 @@ function drawBg() {
   }
 }
 function drawClouds() {
+  if (world===0) return;
   for (const cl of clouds) {
     const i=gi(cl.k); if (!i) continue;
-    ctx.globalAlpha=theme===1?0.35:0.9;
+    ctx.globalAlpha=world===2?0.35:0.9;
     ctx.drawImage(i,cl.x,cl.y,cl.w,cl.h);
     ctx.globalAlpha=1;
   }
 }
 function drawMountains() {
-  if (theme===1) {
-    // Marte: tres capas de terreno con parallax
+  if (world===0) return;
+  if (world===2) {
     const layers=[['mars3',0.35,220,0.55],['mars2',0.62,150,0.75],['mars1',1.0,120,1]];
     for (const [k,par,h,al] of layers) {
       const m=gi(k); if (!m) continue;
@@ -1224,7 +1858,19 @@ function drawMountains() {
   }
 }
 function drawOcean() {
-  if (theme===1) {
+  if (world===0) {
+    // suelo metálico del laboratorio
+    const og=ctx.createLinearGradient(0,GROUND,0,H);
+    og.addColorStop(0,'#4a5a74'); og.addColorStop(1,'#141c2c');
+    ctx.fillStyle=og; ctx.fillRect(0,GROUND,W,H-GROUND);
+    ctx.fillStyle='#98b0c8'; ctx.fillRect(0,GROUND,W,5);
+    ctx.strokeStyle='rgba(160,190,220,0.25)'; ctx.lineWidth=2;
+    const seg=90, off=(waveOff%seg+seg)%seg;
+    for (let x=-off;x<W;x+=seg) { ctx.beginPath(); ctx.moveTo(x,GROUND+6); ctx.lineTo(x-24,H); ctx.stroke(); }
+    ctx.lineWidth=1;
+    return;
+  }
+  if (world===2) {
     const og=ctx.createLinearGradient(0,GROUND,0,H);
     og.addColorStop(0,'#a94a30'); og.addColorStop(1,'#4a1608');
     ctx.fillStyle=og; ctx.fillRect(0,GROUND,W,H-GROUND);
@@ -1239,20 +1885,27 @@ function drawOcean() {
   tileH('wood', GROUND+5, 40, waveOff*0.88);
   ctx.fillStyle='#c89840'; ctx.fillRect(0,GROUND,W,5);
 }
+function drawScene(){ drawBg(); drawClouds(); drawMountains(); drawOcean(); }
 
 // ═══════════════════════════════════════════════════════
 //  DRAW — JUGADOR
 // ═══════════════════════════════════════════════════════
-// Leo corre con sus propios frames (generados con IA); el tinte queda solo
-// para los sprites que siguen siendo de Mikel (salto y splat)
 function charFilter() { return selChar===1 ? 'hue-rotate(120deg) saturate(1.15)' : 'none'; }
 
 function drawRunFrame(x, y) {
-  // anclado bottom-center con aspecto real de cada frame (tamaños varían en el atlas)
   const ri=gi((selChar===1?'lr':'r')+(P.anim|0));
   if (!ri) { ctx.fillStyle='#3498db'; ctx.fillRect(x-PW*0.5,y-PH,PW,PH); return; }
   const w=PH*ri.naturalWidth/ri.naturalHeight;
   ctx.drawImage(ri, x-w*0.5, y-PH, w, PH);
+}
+function drawCatBuddy() {
+  if (P.cat<=0) return;
+  const cf=gi('g'+(Math.floor(gframe/4)%5));
+  if (cf) {
+    ctx.globalAlpha = P.cat<90 ? (Math.floor(gframe/5)%2?0.4:0.9) : 1;
+    ctx.drawImage(cf, P.x-118, GROUND-34, 66, 30);
+    ctx.globalAlpha = 1;
+  }
 }
 function drawPlayer() {
   const pr=playerRect();
@@ -1260,6 +1913,7 @@ function drawPlayer() {
   const isDuck=P.ducking&&onGround;
   const flicker=P.invincible>0 && Math.floor(gframe/4)%2===1;
 
+  drawCatBuddy();
   if (flicker) ctx.globalAlpha=0.3;
 
   if (P.boosted>0) {
@@ -1284,7 +1938,7 @@ function drawPlayer() {
 
   if (state===ST.DEAD) {
     di('splat', P.x-55, P.y-PH-18, 96, PH+40);
-  } else if (state===ST.INTRO && introF>=45 && introF<90) {
+  } else if (state===ST.INTRO && !introShip && introF>=45 && introF<90) {
     const ji=gi(selChar===1?'ljump':'mjump');
     ctx.save();
     ctx.translate(P.x,P.y-PH*0.5);
@@ -1323,10 +1977,9 @@ function drawPlayer() {
 }
 
 // ═══════════════════════════════════════════════════════
-//  DRAW — OBSTÁCULOS / ROBOT
+//  DRAW — OBSTÁCULOS / ROBOT / CAMEO
 // ═══════════════════════════════════════════════════════
 function drawBeamH(imgKey, frame, y, xEnd, thick, alpha) {
-  // dibuja un rayo horizontal en mosaico con un sprite vertical rotado -90°
   const ri=gi(imgKey+frame);
   ctx.globalAlpha=alpha;
   if (ri) {
@@ -1363,6 +2016,18 @@ function drawRobot() {
     ctx.restore();
   }
 }
+function drawCameo() {
+  if (!cameo) return;
+  const g2=gi('gorilla');
+  if (g2) {
+    const bob=Math.sin(cameo.at*0.3)*2;
+    ctx.drawImage(g2, cameo.x-48, GROUND-88+bob, 96, 88);
+    if (!cameo.said && cameo.x<W-160) {
+      cameo.said=true;
+      popup(cameo.x, GROUND-110, '¡Papa Gorila al rescate!', '#ffcc88', 20);
+    }
+  }
+}
 
 function drawObstacles() {
   for (const ob of obstacles) {
@@ -1372,12 +2037,11 @@ function drawObstacles() {
       const ei=gi('espar');
       if (ei) {
         const hop=ob.hop||0;
-        // squash & stretch: se estira en el aire, se achata al aterrizar
         const stretch = hop>2 ? 1.08 : (ob.at%46)>40 ? 0.9 : 1;
         ctx.save();
         ctx.translate(ob.x, ob.y-hop);
         ctx.rotate(Math.sin(ob.at*0.14)*0.07);
-        ctx.scale(2-stretch, stretch);
+        ctx.scale(-(2-stretch), stretch);   // volteado: corre mirando al jugador
         ctx.drawImage(ei, -ob.w*0.5, -ob.h, ob.w, ob.h);
         ctx.restore();
       }
@@ -1386,12 +2050,11 @@ function drawObstacles() {
       const pi=gi(ob.af===0?'pirata0':'pirata1');
       if (pi) {
         if (ob.landed) {
-          // sin paracaídas: solo la mitad inferior del sprite (pirata en barril)
           const sy=pi.naturalHeight*0.46, sh=pi.naturalHeight*0.54;
           const dh=78;
           ctx.save();
           ctx.translate(ob.x, ob.y);
-          ctx.rotate(Math.sin(ob.landTimer*0.15)*0.06);   // meneo del barril
+          ctx.rotate(Math.sin(ob.landTimer*0.15)*0.06);
           ctx.drawImage(pi, 0, sy, pi.naturalWidth, sh, -42, -dh, 84, dh);
           ctx.restore();
         } else {
@@ -1403,13 +2066,25 @@ function drawObstacles() {
         }
       }
     }
-    else if (ob.type==='cat') {
-      const ci=gi('g'+ob.af);
-      if (ci) ctx.drawImage(ci, ob.x-36, ob.y-ob.h, ob.w, ob.h);
+    else if (ob.type==='mina') {
+      // bomba pinchuda varada en la arena
+      const mi=gi('bomb'+(Math.floor(ob.at/6)%4));
+      const bob=ob.bob||0;
+      if (mi) ctx.drawImage(mi, ob.x-32, ob.y-64+bob, 64, 64);
+      else { ctx.fillStyle='#333'; ctx.beginPath(); ctx.arc(ob.x,ob.y-30+bob,26,0,Math.PI*2); ctx.fill(); }
+    }
+    else if (ob.type==='lowball') {
+      const bi=gi('cb'+ob.af);
+      if (bi) {
+        ctx.save();
+        ctx.translate(ob.x,ob.y);
+        ctx.rotate(Math.PI/2);
+        ctx.drawImage(bi,-14,-22,28,44);
+        ctx.restore();
+      } else { ctx.fillStyle='#222'; ctx.beginPath(); ctx.arc(ob.x,ob.y,15,0,Math.PI*2); ctx.fill(); }
     }
     else if (ob.type==='missile') {
       if (ob.warn>0) {
-        // marca de aviso parpadeante en el suelo
         if (Math.floor(ob.at/6)%2===0) {
           ctx.save();
           ctx.fillStyle='rgba(255,60,40,0.8)';
@@ -1419,21 +2094,49 @@ function drawObstacles() {
           ctx.fillStyle='#fff'; ctx.font='bold 20px sans-serif'; ctx.textAlign='center';
           ctx.fillText('!', ob.x, GROUND-12);
           ctx.restore();
+          ctx.textAlign='left';
         }
       } else {
         const mi=gi('missile');
         if (mi) {
           ctx.save();
           ctx.translate(ob.x, ob.y);
-          ctx.rotate(Math.PI);          // el sprite apunta arriba → cae de morro
+          ctx.rotate(Math.PI);
           ctx.drawImage(mi, -ob.w*0.5, -ob.h*0.5, ob.w, ob.h);
           ctx.restore();
         }
       }
     }
-    else if (ob.type==='gorilla') {
-      const gio=gi('gorilla');
-      if (gio) ctx.drawImage(gio, ob.x-ob.w*0.5, ob.y-ob.h, ob.w, ob.h);
+    else if (ob.type==='raycol') {
+      if (ob.warn>0) {
+        if (Math.floor(ob.at/6)%2===0) {
+          ctx.fillStyle='rgba(221,102,255,0.35)';
+          ctx.fillRect(ob.x-ob.w*0.5, 0, ob.w, GROUND);
+        }
+      } else {
+        const a = ob.at>125 ? Math.max(0,(140-ob.at)/15) : 0.92;
+        const mf=gi('magia'+(Math.floor(ob.at/3)%6));
+        ctx.globalAlpha=a;
+        if (mf) {
+          for (let y=0;y<GROUND;y+=90) ctx.drawImage(mf, ob.x-ob.w*0.65, y, ob.w*1.3, 92);
+        } else {
+          ctx.fillStyle='#dd66ff';
+          ctx.fillRect(ob.x-ob.w*0.5, 0, ob.w, GROUND);
+        }
+        ctx.globalAlpha=1;
+      }
+    }
+    else if (ob.type==='gunilda-cameo') {
+      const gf=gi('gun'+(Math.floor(ob.at/6)%3));
+      if (gf) {
+        const gh=86, gw=gh*gf.naturalWidth/gf.naturalHeight;
+        ctx.save();
+        ctx.translate(ob.x, ob.y);
+        ctx.rotate(Math.sin(ob.at*0.05)*0.08);
+        ctx.scale(-1,1);
+        ctx.drawImage(gf, -gw*0.5, -gh*0.5, gw, gh);
+        ctx.restore();
+      }
     }
     else if (ob.type==='witch') {
       ctx.globalAlpha=Math.max(0, ob.alpha);
@@ -1459,6 +2162,20 @@ function drawObstacles() {
         if (fi) ctx.drawImage(fi, ob.x-205, ob.y-72, 175, 76);
       }
     }
+    else if (ob.type==='minibot') {
+      const ri=gi('robot'+ob.af);
+      if (ri) ctx.drawImage(ri, ob.x-38, ob.y-ob.h-4+Math.sin(ob.at*0.15)*3, 76, ob.h);
+      if (ob.attacking>10 && ob.attacking<55) {
+        const li=gi('flaser'+(Math.floor(ob.at/4)%5));
+        if (li) {
+          const th=34, tw2=th*li.naturalHeight/li.naturalWidth;
+          for (let lx=ob.x-205; lx<ob.x-35; lx+=tw2*0.85) {
+            ctx.save(); ctx.translate(lx+tw2*0.5, GROUND-40); ctx.rotate(-Math.PI/2);
+            ctx.drawImage(li, -th*0.5, -tw2*0.5, th, tw2); ctx.restore();
+          }
+        } else { ctx.fillStyle='#8feaff'; ctx.fillRect(ob.x-205, GROUND-56, 175, 30); }
+      }
+    }
     else if (ob.type==='bomb') {
       const bi=gi('bomb'+ob.af);
       if (bi) ctx.drawImage(bi, ob.x-31, ob.y-31, 62, 62);
@@ -1470,13 +2187,6 @@ function drawObstacles() {
       } else {
         const mi=gi(ob.af===0?'moto0':'moto1');
         if (mi) ctx.drawImage(mi, ob.x-48, ob.y-ob.h, ob.w, ob.h);
-      }
-    }
-    else if (ob.type==='cannon') {
-      di('cannonBig', ob.x-38, ob.y-80, 76, 80);
-      if (ob.fired) {
-        const cf=gi('cannonF'+ob.canAf);
-        if (cf) ctx.drawImage(cf, ob.x-55, ob.y-92, 104, 52);
       }
     }
     else if (ob.type==='cball') {
@@ -1510,7 +2220,7 @@ function drawCollectibles() {
   for (const pu of powerUps) {
     const pulse=1+Math.sin(gframe*0.14)*0.06, sz=48*pulse;
     ctx.save();
-    ctx.shadowColor = pu.type==='shield'?'#44aaff':pu.type==='boost'?'#ffaa22':pu.type==='magnet'?'#ffee55':'#ff5533';
+    ctx.shadowColor = pu.type==='shield'?'#44aaff':pu.type==='boost'?'#ffaa22':pu.type==='cat'?'#ffb060':pu.type==='skull'?'#ffee88':'#ff5533';
     ctx.shadowBlur=16+Math.sin(gframe*0.12)*6;
     if (pu.type==='shield') {
       const ei=gi('escudo'+pu.af);
@@ -1518,15 +2228,26 @@ function drawCollectibles() {
     } else if (pu.type==='boost') {
       const bi2=gi('boost'+(pu.af%5));
       if (bi2) ctx.drawImage(bi2, pu.x-sz*0.5, pu.y-sz*0.5, sz, sz);
-    } else if (pu.type==='magnet') {
-      const bj=gi('bruj'+(pu.af%4));
-      if (bj) ctx.drawImage(bj, pu.x-sz*0.5, pu.y-sz*0.55, sz, sz*1.1);
+    } else if (pu.type==='cat') {
+      const cf=gi('g'+(Math.floor(gframe/5)%5));
+      if (cf) ctx.drawImage(cf, pu.x-sz*0.6, pu.y-sz*0.35, sz*1.2, sz*0.7);
+    } else if (pu.type==='skull') {
+      const sk=gi('skull');
+      if (sk) {
+        ctx.save();
+        ctx.translate(pu.x,pu.y);
+        ctx.rotate(Math.sin(pu.at*0.15)*0.25);
+        ctx.drawImage(sk, -sz*0.55, -sz*0.45, sz*1.1, sz*0.8);
+        ctx.restore();
+      }
     } else {
       const ex=gi('exp2');
       if (ex) ctx.drawImage(ex, pu.x-sz*0.5, pu.y-sz*0.5, sz, sz);
     }
-    const bu=gi('burb'+(Math.floor(gframe/5)%14));
-    if (bu) { ctx.globalAlpha=0.45; ctx.drawImage(bu, pu.x-sz*0.75, pu.y-sz*0.75, sz*1.5, sz*1.5); ctx.globalAlpha=1; }
+    if (pu.type!=='skull') {
+      const bu=gi('burb'+(Math.floor(gframe/5)%14));
+      if (bu) { ctx.globalAlpha=0.45; ctx.drawImage(bu, pu.x-sz*0.75, pu.y-sz*0.75, sz*1.5, sz*1.5); ctx.globalAlpha=1; }
+    }
     ctx.restore();
   }
 }
@@ -1559,55 +2280,262 @@ function drawParticles() {
 }
 
 // ═══════════════════════════════════════════════════════
-//  DRAW — JEFE
+//  DRAW — JEFES
 // ═══════════════════════════════════════════════════════
-function drawBoss() {
-  if (BOSS.phase==='laser') {
-    const active=BOSS.t>20;
-    drawBeamH('flaser', Math.floor(BOSS.t/3)%5, BOSS.laserY, BOSS.x-70,
-              active?58:14, active?0.95:0.3+0.2*Math.sin(BOSS.t*0.8));
+function drawBossBar(x,y,hp,maxHp,name) {
+  const bw2=220, bx2=x-bw2*0.5, by2=y;
+  ctx.fillStyle='rgba(0,0,0,0.55)'; roundRect(bx2,by2,bw2,13,6); ctx.fill();
+  ctx.fillStyle='#ff5544'; roundRect(bx2+2,by2+2,(bw2-4)*Math.max(0,hp/maxHp),9,4); ctx.fill();
+  if (name) {
+    ctx.fillStyle='#fff'; ctx.font='bold 13px system-ui,sans-serif'; ctx.textAlign='center';
+    ctx.fillText(name, x, by2-5);
+    ctx.textAlign='left';
   }
-  if (BOSS.phase==='fight') {
-    const cycle=Math.max(150,260-bossesKilled*25);
-    if (BOSS.laserT>cycle-60) {
+}
+function drawBossRobot() {
+  const R=RB;
+  for (const b of R.beams) {
+    const by = (b.h==='low' ? GROUND-50 : GROUND-148) + 26;
+    const active = b.t>=20 && b.t<=75;
+    const alpha = active ? 0.95 : (b.t<20 ? 0.3+0.2*Math.sin(b.t) : Math.max(0,(90-b.t)/15));
+    drawBeamH('rayo', Math.floor(b.t/3)%3, by, R.x-40, active?52:14, alpha);
+  }
+  const rb=gi('robot'+R.af);
+  if (rb) {
+    const rh=180, rw=rh*rb.naturalWidth/rb.naturalHeight;
+    ctx.save();
+    if (R.phase==='charge') { ctx.shadowColor='#66eaff'; ctx.shadowBlur=18+Math.sin(R.t*0.4)*10; }
+    if (R.phase==='stunned') { ctx.shadowColor='#ffee55'; ctx.shadowBlur=14; }
+    if (R.hitFlash>0 && ctx.filter!==undefined) ctx.filter='brightness(2.2)';
+    ctx.drawImage(rb, R.x-rw*0.5, R.y-rh*0.5, rw, rh);
+    ctx.restore();
+    if (ctx.filter!==undefined) ctx.filter='none';
+  }
+  if (R.phase==='stunned' && Math.floor(gframe/8)%2===0) {
+    ctx.fillStyle='#FFDC00'; ctx.font='bold 22px "Baloo 2",sans-serif'; ctx.textAlign='center';
+    ctx.fillText('¡SALTA ENCIMA!', R.x, R.y-110);
+    ctx.textAlign='left';
+  }
+  drawBossBar(R.x, R.y-140, R.hp, R.maxHp, 'ROBOT GUARDIÁN');
+}
+function drawBossFrog() {
+  const B=FB;
+  if (B.phase==='laser') {
+    const active=B.t>20;
+    drawBeamH('flaser', Math.floor(B.t/3)%5, B.laserY, B.x-70,
+              active?58:14, active?0.95:0.3+0.2*Math.sin(B.t*0.8));
+  }
+  if (B.phase==='fight') {
+    const cycle=Math.max(150,260-lap*30);
+    if (B.laserT>cycle-60) {
       ctx.save();
       ctx.shadowColor='#ff4444'; ctx.shadowBlur=20;
-      ctx.fillStyle=`rgba(255,80,80,${0.4+0.3*Math.sin(BOSS.laserT*0.5)})`;
-      ctx.beginPath(); ctx.arc(BOSS.x-95, BOSS.y, 16, 0, Math.PI*2); ctx.fill();
+      ctx.fillStyle=`rgba(255,80,80,${0.4+0.3*Math.sin(B.laserT*0.5)})`;
+      ctx.beginPath(); ctx.arc(B.x-95, B.y, 16, 0, Math.PI*2); ctx.fill();
       ctx.restore();
     }
   }
-  if (BOSS.phase!=='dying' || BOSS.t<60) {
-    const fi=gi('frog'+BOSS.af);
+  for (const bu of B.bubbles) {
+    const bimg=gi('burb'+(Math.floor(bu.t/4)%14));
+    if (bimg) ctx.drawImage(bimg, bu.x-26, bu.y-26, 52, 52);
+    else { ctx.strokeStyle='#a8e6ff'; ctx.beginPath(); ctx.arc(bu.x,bu.y,22,0,Math.PI*2); ctx.stroke(); }
+  }
+  if (B.phase!=='dying' || B.t<60) {
+    const fi=gi('frog'+B.af);
     ctx.save();
-    if (BOSS.flash>0 && ctx.filter!==undefined) ctx.filter='brightness(2.2)';
+    if (B.flash>0 && ctx.filter!==undefined) ctx.filter='brightness(2.2)';
     if (fi) {
       const fh=150, fw=fh*fi.naturalWidth/fi.naturalHeight;
-      ctx.translate(BOSS.x, BOSS.y);
+      ctx.translate(B.x, B.y);
       ctx.drawImage(fi, -fw*0.5, -fh*0.5, fw, fh);
     }
     ctx.restore();
     if (ctx.filter!==undefined) ctx.filter='none';
-    const bw2=220, bx2=BOSS.x-bw2*0.5, by2=BOSS.y-105;
-    ctx.fillStyle='rgba(0,0,0,0.55)'; roundRect(bx2,by2,bw2,13,6); ctx.fill();
-    ctx.fillStyle='#66ff44'; roundRect(bx2+2,by2+2,(bw2-4)*Math.max(0,BOSS.hp/BOSS.maxHp),9,4); ctx.fill();
+    drawBossBar(B.x, B.y-105, B.hp, B.maxHp, 'BUBEADO');
   }
-  for (const b of BOSS.bullets) {
+  for (const b of B.bullets) {
     const bi=gi('bullet');
     if (bi) ctx.drawImage(bi, b.x-16, b.y-8, 32, 16);
     else { ctx.fillStyle='#aaffcc'; ctx.fillRect(b.x-12,b.y-4,24,8); }
   }
+  drawPlayerShip(B.shipY);
+}
+function drawPlayerShip(sy) {
   const shi=gi('ship');
   if (shi) {
     const sw2=120, sh2=sw2*shi.naturalHeight/shi.naturalWidth;
     if (P.invincible>0 && Math.floor(gframe/4)%2===1) ctx.globalAlpha=0.35;
-    ctx.drawImage(shi, 150-sw2*0.5, BOSS.shipY-sh2*0.5, sw2, sh2);
+    ctx.drawImage(shi, 150-sw2*0.5, sy-sh2*0.5, sw2, sh2);
     ctx.globalAlpha=1;
   }
   if (P.shielded>0) {
     const si=gi('shield'+(Math.floor(gframe/4)%9));
-    if (si) { ctx.globalAlpha=0.5; ctx.drawImage(si, 150-70, BOSS.shipY-58, 140, 116); ctx.globalAlpha=1; }
+    if (si) { ctx.globalAlpha=0.5; ctx.drawImage(si, 150-70, sy-58, 140, 116); ctx.globalAlpha=1; }
   }
+}
+function drawBossGunilda() {
+  const G=GB;
+  ctx.globalAlpha=Math.max(0,G.alpha);
+  const gf = G.phase==='tired' ? gi('brunilda') : gi('gun'+G.af);
+  if (gf) {
+    const gh=G.phase==='tired'?115:110, gw=gh*gf.naturalWidth/gf.naturalHeight;
+    ctx.save();
+    if (G.phase==='cast') { ctx.shadowColor='#dd66ff'; ctx.shadowBlur=18+Math.sin(G.t*0.4)*8; }
+    if (G.phase==='tired') { ctx.shadowColor='#ffee55'; ctx.shadowBlur=12; }
+    if (G.hitFlash>0 && ctx.filter!==undefined) ctx.filter='brightness(2.2)';
+    ctx.translate(G.x, G.y);
+    ctx.scale(-1,1);
+    ctx.drawImage(gf, -gw*0.5, -gh*0.5, gw, gh);
+    ctx.restore();
+    if (ctx.filter!==undefined) ctx.filter='none';
+  }
+  // chispas mágicas alrededor mientras lanza
+  if (G.phase==='cast' && gframe%3===0) {
+    const sf=gi('shine'+(Math.floor(gframe/4)%6));
+    if (sf) { ctx.globalAlpha=0.75; ctx.drawImage(sf, G.x-70+Math.random()*140-20, G.y-70+Math.random()*140-20, 40, 40); }
+  }
+  ctx.globalAlpha=1;
+  drawBossBar(G.x, G.y-92, G.hp, G.maxHp, 'GUNILDA');
+}
+
+// ═══════════════════════════════════════════════════════
+//  DRAW — EMBARQUE / VUELO / DUELO
+// ═══════════════════════════════════════════════════════
+function drawShipEmpty(x0, y0, w2) {
+  // el sprite de la nave trae al piloto pintado: recortamos el casco
+  // y tapamos la cabina con una cúpula de cristal opaca
+  const shi=gi('ship'); if (!shi) return;
+  const h2=w2*shi.naturalHeight/shi.naturalWidth;
+  ctx.save();
+  ctx.beginPath(); ctx.rect(x0, y0+h2*0.40, w2, h2*0.60); ctx.clip();
+  ctx.drawImage(shi, x0, y0, w2, h2);
+  ctx.restore();
+  const dg=ctx.createLinearGradient(0, y0-h2*0.05, 0, y0+h2*0.66);
+  dg.addColorStop(0,'#dcf3ff'); dg.addColorStop(1,'#569fd2');
+  ctx.beginPath();
+  ctx.ellipse(x0+w2*0.42, y0+h2*0.30, w2*0.27, h2*0.34, 0, 0, Math.PI*2);
+  ctx.fillStyle=dg; ctx.fill();
+  ctx.strokeStyle='#2a6a9a'; ctx.lineWidth=3; ctx.stroke();
+  ctx.beginPath();
+  ctx.ellipse(x0+w2*0.34, y0+h2*0.16, w2*0.06, h2*0.10, -0.5, 0, Math.PI*2);
+  ctx.fillStyle='rgba(255,255,255,0.8)'; ctx.fill();
+}
+function drawBoarding() {
+  drawScene();
+  drawEffects(); drawParticles();
+  const b=BD;
+  const shi=gi('ship');
+  if (shi) {
+    const sw2=130, sh2=sw2*shi.naturalHeight/shi.naturalWidth;
+    const wob=b.phase==='land'||b.phase==='takeoff' ? Math.sin(b.t*0.2)*3 : 0;
+    const sx0=b.shipX-sw2*0.5, sy0=b.shipY-sh2*0.5+wob;
+    if (b.phase==='takeoff') {
+      ctx.drawImage(shi, sx0, sy0, sw2, sh2);   // el piloto del sprite ES el héroe a bordo
+    } else {
+      drawShipEmpty(sx0, sy0, sw2);
+    }
+  }
+  if (b.phase!=='takeoff') drawPlayer();
+  drawFloatTexts();
+  drawHUD();
+  if (b.phase==='run'||b.phase==='land') {
+    ctx.fillStyle='rgba(0,0,20,0.55)'; roundRect(W/2-190,64,380,36,10); ctx.fill();
+    ctx.fillStyle='#7FDBFF'; ctx.font='bold 19px "Baloo 2",sans-serif'; ctx.textAlign='center';
+    ctx.fillText('¡Corre a la nave y sube a bordo!', W/2, 88);
+    ctx.textAlign='left';
+  }
+}
+function drawSpaceBg(mode) {
+  // mode 0 = espacio (vuelo), 1 = cielo de Marte (duelo)
+  if (mode===1) {
+    const sk=gi('marsSky');
+    if (sk) ctx.drawImage(sk,0,0,W,H);
+    else { ctx.fillStyle='#7a2810'; ctx.fillRect(0,0,W,H); }
+    ctx.fillStyle='rgba(30,6,2,0.35)'; ctx.fillRect(0,0,W,H);
+  } else {
+    const g=ctx.createLinearGradient(0,0,0,H);
+    g.addColorStop(0,'#020208'); g.addColorStop(1,'#0a1030');
+    ctx.fillStyle=g; ctx.fillRect(0,0,W,H);
+  }
+  ctx.fillStyle='#fff';
+  for (const s of stars) {
+    ctx.globalAlpha=mode===1?0.35:0.9;
+    ctx.beginPath(); ctx.arc(s.x,s.y,s.r,0,Math.PI*2); ctx.fill();
+  }
+  ctx.globalAlpha=1;
+}
+function drawFly() {
+  drawSpaceBg(0);
+  const f=F;
+  for (const r of f.rocks) {
+    ctx.save();
+    ctx.translate(r.x,r.y); ctx.rotate(r.rot);
+    ctx.fillStyle='#8a7362';
+    ctx.beginPath();
+    for (let i=0;i<7;i++) {
+      const a=i/7*Math.PI*2, rr=r.r*(0.8+((i*7)%3)*0.12);
+      i?ctx.lineTo(Math.cos(a)*rr,Math.sin(a)*rr):ctx.moveTo(Math.cos(a)*rr,Math.sin(a)*rr);
+    }
+    ctx.closePath(); ctx.fill();
+    ctx.fillStyle='rgba(0,0,0,0.25)';
+    ctx.beginPath(); ctx.arc(-r.r*0.25,-r.r*0.2,r.r*0.3,0,Math.PI*2); ctx.fill();
+    ctx.restore();
+  }
+  for (const c of f.coins) {
+    const ci=gi('c'+c.af);
+    if (ci) ctx.drawImage(ci, c.x-18, c.y-18, 36, 36);
+  }
+  // estela de la nave
+  if (gframe%2===0) particles.push({ x:110, y:f.y+8, vx:-4-Math.random()*2, vy:(Math.random()-0.5)*1.4,
+                                     life:0.7, r:2.5+Math.random()*3.5, color:'#9adcff' });
+  drawParticles();
+  drawPlayerShip(f.y);
+  drawEffects(); drawFloatTexts();
+  drawHUD();
+  // destino
+  const prog=f.t/f.dur;
+  ctx.fillStyle='rgba(0,0,20,0.55)'; roundRect(W/2-160,H-46,320,30,9); ctx.fill();
+  ctx.fillStyle='rgba(255,255,255,0.2)'; roundRect(W/2-150,H-38,300,14,7); ctx.fill();
+  ctx.fillStyle='#7FDBFF'; roundRect(W/2-150,H-38,300*prog,14,7); ctx.fill();
+  ctx.fillStyle='#fff'; ctx.font='bold 13px system-ui,sans-serif'; ctx.textAlign='center';
+  ctx.fillText('RUMBO A '+WORLDS[world+1].nombre, W/2, H-52);
+  ctx.textAlign='left';
+}
+function drawDuel() {
+  drawSpaceBg(1);
+  const d=D;
+  // Gunilda en escoba
+  if (d.phase!=='dying' || d.t<80) {
+    const be=gi('BRUJAESCOBA')||gi('gun'+(Math.floor(d.t/6)%3));
+    const bimg=gi('brunilda');
+    ctx.save();
+    if (d.flash>0 && ctx.filter!==undefined) ctx.filter='brightness(2.2)';
+    ctx.translate(d.gx, d.gy);
+    const tilt=d.phase==='dying'?d.t*0.05:Math.sin(d.t*0.05)*0.12;
+    ctx.rotate(tilt);
+    ctx.scale(-1,1);
+    if (bimg) {
+      const gh=120, gw=gh*bimg.naturalWidth/bimg.naturalHeight;
+      ctx.drawImage(bimg, -gw*0.5, -gh*0.5, gw, gh);
+    }
+    ctx.restore();
+    if (ctx.filter!==undefined) ctx.filter='none';
+    drawBossBar(d.gx, d.gy-95, d.hp, d.maxHp, 'GUNILDA — ¡RECUPERA LA BRÚJULA!');
+  }
+  for (const b of d.bullets) {
+    const bi=gi('bullet');
+    if (bi) ctx.drawImage(bi, b.x-16, b.y-8, 32, 16);
+  }
+  for (const bo of d.bolas) {
+    const bi=gi('bola'+bo.af);
+    if (bi) ctx.drawImage(bi, bo.x-19, bo.y-19, 38, 38);
+  }
+  if (gframe%2===0) particles.push({ x:110, y:d.y+8, vx:-4-Math.random()*2, vy:(Math.random()-0.5)*1.4,
+                                     life:0.7, r:2.5+Math.random()*3.5, color:'#ffd27a' });
+  drawParticles();
+  drawPlayerShip(d.y);
+  drawEffects(); drawFloatTexts();
+  drawHUD();
 }
 
 // ═══════════════════════════════════════════════════════
@@ -1620,6 +2548,23 @@ function drawMuteBtn() {
   ctx.fillStyle='#fff'; ctx.font='16px system-ui,sans-serif'; ctx.textAlign='center';
   ctx.fillText(AudioMan.muted?'🔇':'🔊', W-25, 27);
   ctx.globalAlpha=1; ctx.textAlign='left';
+}
+function drawWorldBanner() {
+  if (worldBanner<=0) return;
+  const a = worldBanner>140 ? (170-worldBanner)/30 : worldBanner<30 ? worldBanner/30 : 1;
+  ctx.save();
+  ctx.globalAlpha=Math.min(1,a);
+  ctx.fillStyle='rgba(0,0,25,0.72)';
+  roundRect(W/2-260,H*0.30,520,110,16); ctx.fill();
+  ctx.textAlign='center';
+  ctx.fillStyle='#FFD700'; ctx.font='bold 40px "Baloo 2",sans-serif';
+  ctx.fillText('MUNDO '+(world+1)+(lap>0?'  ·  VUELTA '+(lap+1):''), W/2, H*0.30+48);
+  ctx.fillStyle='#fff'; ctx.font='bold 26px "Baloo 2",sans-serif';
+  ctx.fillText(WORLDS[world].nombre, W/2, H*0.30+82);
+  ctx.font='15px system-ui,sans-serif'; ctx.fillStyle='#aaddff';
+  ctx.fillText(WORLDS[world].sub, W/2, H*0.30+104);
+  ctx.restore();
+  ctx.textAlign='left';
 }
 function drawHUD() {
   ctx.textAlign='left';
@@ -1647,7 +2592,6 @@ function drawHUD() {
     ctx.lineWidth=1; ctx.textAlign='left';
   }
 
-  // Barra de gemas (energybar del original: 3 gemas = turbo)
   const eb=gi('ebar'+Math.min(3,gems));
   if (eb) ctx.drawImage(eb, 10, 56, 150, 24);
   else {
@@ -1677,10 +2621,17 @@ function drawHUD() {
     ctx.textAlign='left';
   }
 
+  // progreso del mundo: MUNDO N + barra hasta el jefe
   ctx.fillStyle='rgba(0,0,10,0.42)';
-  roundRect(W/2-100,10,200,30,7); ctx.fill();
-  ctx.fillStyle='#aaddff'; ctx.font='14px system-ui,sans-serif'; ctx.textAlign='center';
-  ctx.fillText('MEJOR  '+hiScore.toLocaleString(), W/2, 30);
+  roundRect(W/2-140,10,280,32,7); ctx.fill();
+  ctx.fillStyle='#aaddff'; ctx.font='bold 13px system-ui,sans-serif'; ctx.textAlign='center';
+  ctx.fillText('MUNDO '+(world+1)+' · '+WORLDS[world].nombre+(lap>0?' · V'+(lap+1):''), W/2, 24);
+  const prog=Math.min(1, worldDist/WORLDS[world].len);
+  ctx.fillStyle='rgba(255,255,255,0.18)'; roundRect(W/2-128,28,256,9,4); ctx.fill();
+  ctx.fillStyle=prog>0.9?'#ff5544':'#7CFC00'; roundRect(W/2-128,28,256*prog,9,4); ctx.fill();
+  // calaverita = jefe al final
+  ctx.font='11px sans-serif';
+  ctx.fillText('💀', W/2+134, 38);
   ctx.textAlign='left';
 
   const hi2=gi('heart');
@@ -1696,9 +2647,9 @@ function drawHUD() {
     ctx.fillStyle='rgba(0,0,10,0.5)'; ctx.fillRect(10,86,150,10);
     ctx.fillStyle='#44aaff'; ctx.fillRect(10,86,150*(P.shielded/420),10);
   }
-  if (P.magnet>0) {
+  if (P.cat>0) {
     ctx.fillStyle='rgba(0,0,10,0.5)'; ctx.fillRect(10,100,150,10);
-    ctx.fillStyle='#ffee55'; ctx.fillRect(10,100,150*(P.magnet/480),10);
+    ctx.fillStyle='#ffb060'; ctx.fillRect(10,100,150*(P.cat/480),10);
   }
   if (P.boosted>0) {
     ctx.fillStyle='rgba(255,140,0,0.88)'; ctx.font='bold 16px system-ui,sans-serif'; ctx.textAlign='center';
@@ -1708,38 +2659,42 @@ function drawHUD() {
   drawMuteBtn();
 }
 
+// ═══════════════════════════════════════════════════════
+//  DRAW — TÍTULO / SELECCIÓN / HISTORIA / VICTORIA / MUERTE
+// ═══════════════════════════════════════════════════════
 function drawTitle() {
   const rbi=gi('bgRed');
   if (rbi) ctx.drawImage(rbi,0,0,W,H);
   else { const g=ctx.createLinearGradient(0,0,0,H); g.addColorStop(0,'#1a0010'); g.addColorStop(1,'#440020'); ctx.fillStyle=g; ctx.fillRect(0,0,W,H); }
 
-  ctx.globalAlpha=0.15;
-  drawBg(); drawClouds(); drawMountains(); drawOcean();
-  ctx.globalAlpha=1;
-
   const li=gi('logo');
   if (li) {
     const lw=Math.min(520,W*0.56), lh=lw*li.naturalHeight/li.naturalWidth;
     const fl=Math.sin(gframe*0.03)*8;
-    ctx.drawImage(li,(W-lw)/2,H*0.08+fl,lw,lh);
+    ctx.drawImage(li,(W-lw)/2,H*0.06+fl,lw,lh);
   } else {
     ctx.fillStyle='#fff'; ctx.font='bold 52px system-ui,sans-serif'; ctx.textAlign='center';
     ctx.fillText('MIKELTUBE ADVENTURES', W/2, H*0.3);
   }
+  ctx.fillStyle='#FFDC00'; ctx.font='bold 24px "Baloo 2",sans-serif'; ctx.textAlign='center';
+  ctx.shadowColor='#000'; ctx.shadowBlur=10;
+  ctx.fillText('— LA BRÚJULA DEL DESTINO —', W/2, H*0.52);
+  ctx.shadowBlur=0;
 
   if (Math.sin(gframe*0.07)>-0.4) {
     ctx.globalAlpha=0.7+Math.sin(gframe*0.07)*0.3;
-    ctx.fillStyle='#fff'; ctx.font='bold 25px system-ui,sans-serif'; ctx.textAlign='center';
+    ctx.fillStyle='#fff'; ctx.font='bold 25px system-ui,sans-serif';
     ctx.shadowColor='#000'; ctx.shadowBlur=14;
-    ctx.fillText('✦  TOCA PARA EMPEZAR  ✦', W/2, H*0.72);
+    ctx.fillText('✦  TOCA PARA EMPEZAR  ✦', W/2, H*0.70);
     ctx.shadowBlur=0; ctx.globalAlpha=1;
   }
-  ctx.fillStyle='rgba(255,255,255,0.55)'; ctx.font='15px system-ui,sans-serif'; ctx.textAlign='center';
-  ctx.fillText('ESPACIO / ↑ = Saltar (doble salto)   ·   ↓ / S = Agachar   ·   M = Silencio', W/2, H*0.82);
+  ctx.fillStyle='rgba(255,255,255,0.55)'; ctx.font='15px system-ui,sans-serif';
+  ctx.fillText('ESPACIO / ↑ = Saltar (doble salto)   ·   ↓ / S = Agachar   ·   M = Silencio', W/2, H*0.80);
   if (hiScore>0 || bank>0) {
     ctx.fillStyle='#FFD700'; ctx.font='bold 20px system-ui,sans-serif';
-    ctx.fillText('🏆  Récord: '+hiScore.toLocaleString()+'      🪙  Banco: '+bank, W/2, H*0.91);
+    ctx.fillText('🏆  Récord: '+hiScore.toLocaleString()+'      🪙  Banco: '+bank, W/2, H*0.90);
   }
+  ctx.textAlign='left';
   drawMuteBtn();
 }
 
@@ -1783,42 +2738,152 @@ function drawCharSelect() {
   ctx.fillStyle='#fff'; ctx.font='bold 17px system-ui,sans-serif'; ctx.textAlign='center';
   ctx.fillText('Toca un personaje  ·  Toca de nuevo para jugar', W/2, H-22);
   ctx.globalAlpha=1;
+  ctx.textAlign='left';
   drawMuteBtn();
 }
 
-function drawIntro() {
-  drawBg(); drawClouds(); drawMountains(); drawOcean();
-  const ci=gi('cannonBig');
-  if (ci) {
-    ctx.save();
-    ctx.translate(95, GROUND-30);
-    ctx.rotate(0.62);
-    ctx.drawImage(ci, -45, -110, 95, 120);
-    ctx.restore();
-  }
-  if (introF<45) {
-    const ri=gi('ready');
-    if (ri) {
-      const rw2=260, rh2=rw2*ri.naturalHeight/ri.naturalWidth;
-      const sc=1+Math.sin(introF*0.2)*0.05;
-      ctx.save(); ctx.translate(W/2,H*0.36); ctx.scale(sc,sc);
-      ctx.drawImage(ri,-rw2/2,-rh2/2,rw2,rh2); ctx.restore();
+// Cinemática de 3 viñetas: el robo de la brújula
+const STORY=[
+  { who:'gunilda', txt1:'¡Ja, ja, ja! ¡La Brújula del Destino es MÍA!',
+    txt2:'La bruja Gunilda ha asaltado el laboratorio...' },
+  { who:'brujula', txt1:'Sin la brújula, ¡las aventuras se perderán para siempre!',
+    txt2:'Gunilda huye hacia su reino... ¡en MARTE!' },
+  { who:'hero',    txt1:'¡Tranquilos! ¡Yo la recuperaré!',
+    txt2:'Cruza el laboratorio, la isla pirata y Marte. ¡Corre!' },
+];
+function drawStory() {
+  const g=ctx.createLinearGradient(0,0,0,H);
+  g.addColorStop(0,'#050512'); g.addColorStop(1,'#141033');
+  ctx.fillStyle=g; ctx.fillRect(0,0,W,H);
+  ctx.fillStyle='#fff';
+  for (const s of stars) { ctx.globalAlpha=0.5; ctx.beginPath(); ctx.arc(s.x,s.y,s.r*0.8,0,Math.PI*2); ctx.fill(); }
+  ctx.globalAlpha=1;
+
+  const sc=STORY[Math.min(storyIdx,2)];
+  const t=storyF;
+  const fade=Math.min(1,t/20);
+  ctx.globalAlpha=fade;
+
+  const cy=H*0.42;
+  if (sc.who==='gunilda') {
+    const bi=gi('brunilda');
+    if (bi) {
+      const gh=230, gw=gh*bi.naturalWidth/bi.naturalHeight;
+      const fl=Math.sin(t*0.05)*10;
+      ctx.drawImage(bi, W/2-gw/2, cy-gh/2+fl, gw, gh);
+    }
+    // la brújula robada brillando en su mano
+    const bj=gi('bruj'+(Math.floor(t/6)%4));
+    if (bj) {
+      ctx.save(); ctx.shadowColor='#FFD700'; ctx.shadowBlur=24;
+      ctx.drawImage(bj, W/2+80, cy-40+Math.sin(t*0.05)*10, 62, 68);
+      ctx.restore();
+    }
+  } else if (sc.who==='brujula') {
+    const bj=gi('bruj'+(Math.floor(t/6)%4));
+    if (bj) {
+      ctx.save(); ctx.shadowColor='#FFD700'; ctx.shadowBlur=34;
+      const bw2=120+Math.sin(t*0.06)*8;
+      ctx.drawImage(bj, W/2-bw2/2, cy-bw2/2, bw2, bw2*1.1);
+      ctx.restore();
+    }
+    const sk=gi('marsSky');
+    if (sk) {
+      ctx.save();
+      roundRect(W/2+120, cy-70, 210, 140, 14); ctx.clip();
+      ctx.drawImage(sk, W/2+120, cy-70, 210, 140);
+      const mt=gi('mars1');
+      if (mt) { const mh=90; ctx.drawImage(mt, W/2+110, cy+70-mh, 240, mh); }
+      ctx.restore();
+      ctx.strokeStyle='#ff8855'; ctx.lineWidth=3;
+      roundRect(W/2+120, cy-70, 210, 140, 14); ctx.stroke();
+      ctx.fillStyle='#ffb08a'; ctx.font='bold 15px "Baloo 2",sans-serif'; ctx.textAlign='center';
+      ctx.fillText('MARTE', W/2+225, cy+92);
+      ctx.textAlign='left';
     }
   } else {
-    drawEffects(); drawParticles(); drawPlayer();
-    if (introF>72) {
-      const gg=gi('go');
-      if (gg) {
-        const gw2=230, gh2=gw2*gg.naturalHeight/gg.naturalWidth;
-        ctx.drawImage(gg, W/2-gw2/2, H*0.36-gh2/2, gw2, gh2);
-      }
+    const pi=gi(selChar===1?'leoPose':'mikelPose');
+    if (pi) {
+      const phh=250, pw2=phh*pi.naturalWidth/pi.naturalHeight;
+      ctx.drawImage(pi, W/2-pw2/2, cy-phh/2+10, pw2, phh);
     }
+    const sf=gi('shine'+(Math.floor(t/5)%6));
+    if (sf) { ctx.globalAlpha=fade*0.8; ctx.drawImage(sf, W/2-160, cy-120, 60, 60); ctx.drawImage(sf, W/2+100, cy-60, 46, 46); ctx.globalAlpha=fade; }
   }
-  drawHUD();
+
+  // bocadillo
+  ctx.fillStyle='rgba(255,255,255,0.95)';
+  roundRect(W/2-330,H*0.72,660,52,14); ctx.fill();
+  ctx.fillStyle='#1a1a2e'; ctx.font='bold 21px "Baloo 2",sans-serif'; ctx.textAlign='center';
+  ctx.fillText(sc.txt1, W/2, H*0.72+33);
+  ctx.fillStyle='#aaddff'; ctx.font='16px system-ui,sans-serif';
+  ctx.fillText(sc.txt2, W/2, H*0.72+80);
+
+  ctx.globalAlpha=0.6+Math.sin(t*0.1)*0.3;
+  ctx.fillStyle='#fff'; ctx.font='14px system-ui,sans-serif';
+  ctx.fillText('— toca para continuar ('+(storyIdx+1)+'/3) —', W/2, H-18);
+  ctx.globalAlpha=1;
+  ctx.textAlign='left';
+  drawMuteBtn();
+}
+
+function drawVictory() {
+  const g=ctx.createLinearGradient(0,0,0,H);
+  g.addColorStop(0,'#1a0a30'); g.addColorStop(1,'#3a1055');
+  ctx.fillStyle=g; ctx.fillRect(0,0,W,H);
+  ctx.fillStyle='#fff';
+  for (const s of stars) { ctx.globalAlpha=0.6; ctx.beginPath(); ctx.arc(s.x,s.y,s.r,0,Math.PI*2); ctx.fill(); }
+  ctx.globalAlpha=1;
+  drawParticles();
+
+  const sc2=Math.min(1, victF/30);
+  ctx.save();
+  ctx.translate(W/2, H*0.16); ctx.scale(sc2,sc2);
+  ctx.fillStyle='#FFD700'; ctx.font='bold 56px "Baloo 2",sans-serif'; ctx.textAlign='center';
+  ctx.shadowColor='#ff8800'; ctx.shadowBlur=26;
+  ctx.fillText('¡BRÚJULA RECUPERADA!', 0, 0);
+  ctx.restore(); ctx.shadowBlur=0;
+
+  // héroe con la brújula
+  const pi=gi(selChar===1?'leoPose':'mikelPose');
+  if (pi) {
+    const phh=200, pw2=phh*pi.naturalWidth/pi.naturalHeight;
+    ctx.drawImage(pi, W/2-pw2/2-60, H*0.24, pw2, phh);
+  }
+  const bj=gi('bruj'+(Math.floor(victF/6)%4));
+  if (bj) {
+    ctx.save(); ctx.shadowColor='#FFD700'; ctx.shadowBlur=30;
+    ctx.drawImage(bj, W/2+40, H*0.30+Math.sin(victF*0.06)*8, 84, 92);
+    ctx.restore();
+  }
+
+  ctx.textAlign='center';
+  ctx.fillStyle='#fff'; ctx.font='bold 28px system-ui,sans-serif';
+  ctx.fillText('Puntuación: '+score.toLocaleString(), W/2, H*0.62);
+  ctx.fillStyle='#FFD700'; ctx.font='20px system-ui,sans-serif';
+  ctx.fillText('Monedas: ×'+coins+'   ·   Jefes: '+bossesKilled+(lap>0?'   ·   Vueltas: '+(lap+1):''), W/2, H*0.62+32);
+  if (score>=hiScore && score>0) {
+    ctx.fillStyle='#7CFC00'; ctx.font='bold 22px system-ui,sans-serif';
+    ctx.fillText('🏆 ¡NUEVO RÉCORD!', W/2, H*0.62+62);
+  }
+
+  if (victF>60) {
+    const by=H-90;
+    ctx.fillStyle='rgba(255,70,50,0.9)';
+    roundRect(W/2-260,by-30,240,60,14); ctx.fill();
+    ctx.fillStyle='#fff'; ctx.font='bold 19px "Baloo 2",sans-serif';
+    ctx.fillText('🔥 VUELTA '+(lap+2)+' (+difícil)', W/2-140, by+7);
+    ctx.fillStyle='rgba(60,120,255,0.9)';
+    roundRect(W/2+20,by-30,240,60,14); ctx.fill();
+    ctx.fillStyle='#fff';
+    ctx.fillText('🏠 MENÚ', W/2+140, by+7);
+  }
+  ctx.textAlign='left';
+  drawMuteBtn();
 }
 
 function drawDead() {
-  drawBg(); drawClouds(); drawMountains(); drawOcean();
+  drawScene();
   drawEffects(); drawParticles(); drawPlayer();
 
   ctx.fillStyle=`rgba(0,0,0,${Math.min(0.72,deadF/60*0.72)})`;
@@ -1834,7 +2899,7 @@ function drawDead() {
   ctx.fillStyle='#fff'; ctx.font='bold 30px system-ui,sans-serif';
   ctx.fillText('Puntuación: '+score.toLocaleString(), W/2, H/2-18);
   ctx.fillStyle='#FFD700'; ctx.font='22px system-ui,sans-serif';
-  ctx.fillText('Monedas: ×'+coins + (bossesKilled>0?'   ·   Jefes: '+bossesKilled:''), W/2, H/2+22);
+  ctx.fillText('Mundo '+(world+1)+' · '+WORLDS[world].nombre+'   ·   Monedas ×'+coins, W/2, H/2+22);
 
   if (score>=hiScore && score>0) {
     const p2=1+Math.sin(deadF*0.14)*0.08;
@@ -1845,7 +2910,6 @@ function drawDead() {
   }
 
   if (deadF>50) {
-    // botón revivir (una vez por partida, cuesta monedas del banco)
     if (!revived && bank>=REVIVE_COST) {
       const ry=H/2+104;
       const pulse=0.85+Math.sin(deadF*0.12)*0.15;
@@ -1862,9 +2926,11 @@ function drawDead() {
     else { ctx.fillStyle='#44cc44'; roundRect(W/2-120,by-30,80,60,10); ctx.fill(); ctx.fillStyle='#fff'; ctx.font='bold 30px sans-serif'; ctx.fillText('↻',W/2-80,by+11); }
     if (bh2) ctx.drawImage(bh2, W/2+46, by-30, 68, 62);
     else { ctx.fillStyle='#4488ee'; roundRect(W/2+40,by-30,80,60,10); ctx.fill(); ctx.fillStyle='#fff'; ctx.font='bold 26px sans-serif'; ctx.fillText('⌂',W/2+80,by+10); }
+    ctx.fillStyle='#aaddff'; ctx.font='13px system-ui,sans-serif'; ctx.textAlign='center';
+    ctx.fillText('reintentar mundo', W/2-80, by+48);
+    ctx.fillText('menú', W/2+80, by+48);
   }
 
-  // panel de misiones + banco
   if (deadF>30) {
     ctx.textAlign='left';
     ctx.fillStyle='rgba(0,0,25,0.62)';
@@ -1886,6 +2952,53 @@ function drawDead() {
   drawMuteBtn();
 }
 
+function drawIntro() {
+  drawScene();
+  if (introShip) {
+    // la nave desciende y suelta al héroe
+    const shi=gi('ship');
+    if (shi && introF<100) {
+      const sw2=130, sh2=sw2*shi.naturalHeight/shi.naturalWidth;
+      const sx=P.shipX||W*0.4, sy=P.shipY||-80;
+      if (introF<55) {
+        ctx.drawImage(shi, sx-sw2*0.5, sy-sh2*0.5, sw2, sh2);
+      } else {
+        drawShipEmpty(sx-sw2*0.5, sy-sh2*0.5, sw2);   // el héroe ya ha saltado
+      }
+    }
+    if (introF>=55) { drawEffects(); drawParticles(); drawPlayer(); }
+  } else {
+    const ci=gi('capsule');
+    if (ci) {
+      ctx.save();
+      ctx.translate(95, GROUND-30);
+      ctx.rotate(0.62);
+      ctx.drawImage(ci, -45, -110, 95, 120);
+      ctx.restore();
+    }
+    if (introF<45) {
+      const ri=gi('ready');
+      if (ri) {
+        const rw2=260, rh2=rw2*ri.naturalHeight/ri.naturalWidth;
+        const sc=1+Math.sin(introF*0.2)*0.05;
+        ctx.save(); ctx.translate(W/2,H*0.36); ctx.scale(sc,sc);
+        ctx.drawImage(ri,-rw2/2,-rh2/2,rw2,rh2); ctx.restore();
+      }
+    } else {
+      drawEffects(); drawParticles(); drawPlayer();
+      if (introF>72) {
+        const gg=gi('go');
+        if (gg) {
+          const gw2=230, gh2=gw2*gg.naturalHeight/gg.naturalWidth;
+          ctx.drawImage(gg, W/2-gw2/2, H*0.36-gh2/2, gw2, gh2);
+        }
+      }
+    }
+  }
+  drawWorldBanner();
+  drawHUD();
+}
+
 function drawLoadingScreen() {
   ctx.fillStyle='#060d1a'; ctx.fillRect(0,0,W,H);
   const li=gi('logo');
@@ -1903,6 +3016,7 @@ function drawLoadingScreen() {
   if (pct>0) { ctx.fillStyle='#FFD700'; roundRect(W/2-185,H/2+38,370*pct,22,11); ctx.fill(); }
   ctx.fillStyle='#888'; ctx.font='13px sans-serif';
   ctx.fillText(Math.round(pct*100)+'%', W/2, H/2+86);
+  ctx.textAlign='left';
 }
 
 // ═══════════════════════════════════════════════════════
@@ -1920,31 +3034,35 @@ function draw() {
 
   switch(state) {
     case ST.LOADING: drawLoadingScreen(); break;
-    case ST.TITLE:
-      drawBg(); drawClouds(); drawMountains(); drawOcean();
-      drawTitle(); break;
+    case ST.TITLE:   drawTitle(); break;
     case ST.CHAR_SELECT: drawCharSelect(); break;
-    case ST.INTRO: drawIntro(); break;
+    case ST.STORY:   drawStory(); break;
+    case ST.INTRO:   drawIntro(); break;
     case ST.PLAYING:
-      drawBg(); drawClouds(); drawMountains(); drawOcean();
+      drawScene();
+      drawCameo();
       drawEffects(); drawCollectibles(); drawObstacles(); drawRobot();
-      drawParticles(); drawPlayer(); drawFloatTexts(); drawHUD();
+      drawParticles(); drawPlayer(); drawFloatTexts();
+      drawWorldBanner();
+      drawHUD();
       break;
     case ST.BOSS:
-      drawBg(); drawClouds(); drawMountains(); drawOcean();
-      drawEffects(); drawBoss(); drawParticles(); drawHUD();
+      drawScene();
+      drawEffects(); drawCollectibles(); drawObstacles();
+      if (RB) drawBossRobot();
+      else if (FB) drawBossFrog();
+      else if (GB) drawBossGunilda();
+      drawParticles();
+      if (RB||GB) drawPlayer();
+      drawFloatTexts(); drawHUD();
       break;
-    case ST.DEAD: drawDead(); break;
+    case ST.BOARD:   drawBoarding(); break;
+    case ST.FLY:     drawFly(); break;
+    case ST.DUEL:    drawDuel(); break;
+    case ST.VICTORY: drawVictory(); break;
+    case ST.DEAD:    drawDead(); break;
   }
   if (didShake) ctx.restore();
-
-  if (themeSwap>0) {
-    themeSwap--;
-    if (themeSwap===45) theme^=1;   // cambia el escenario oculto tras el blanco
-    const a=Math.sin((1-themeSwap/90)*Math.PI);
-    ctx.fillStyle=`rgba(255,255,255,${Math.min(1,a*1.25)})`;
-    ctx.fillRect(0,0,W,H);
-  }
 }
 
 function loop() {
@@ -1958,7 +3076,8 @@ function loop() {
 //  BOOT
 // ═══════════════════════════════════════════════════════
 initClouds();
-AudioMan.init();   // decodifica en segundo plano; el contexto se desbloquea al primer toque
+initStars();
+AudioMan.init();
 
 function bootDraw() {
   drawLoadingScreen();
