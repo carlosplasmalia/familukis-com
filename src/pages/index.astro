@@ -85,6 +85,10 @@ function toRow(vids: typeof allVideos) {
 
 const byCat = (cat: string) => byViews.filter(v => v.data.categoria === cat);
 
+const byYear = (year: string) => [...allVideos]
+  .filter(v => v.data.publishedAt.startsWith(year))
+  .sort((a, b) => a.data.publishedAt.localeCompare(b.data.publishedAt));
+
 function formatViews(n: number) {
   if (n >= 1_000_000) return `${(n/1_000_000).toFixed(1)}M vistas`;
   if (n >= 1_000) return `${Math.round(n/1_000)}K vistas`;
@@ -171,6 +175,20 @@ function formatViews(n: number) {
   {byCat('vlogs-familia').length > 0 && (
     <CategoryRow title="Vlogs de Familia" href="/categoria/vlogs-familia/" videos={toRow(byCat('vlogs-familia'))} />
   )}
+
+  <!-- Archivo por años -->
+  <div class="years-header"><h2>El archivo</h2></div>
+  {byYear('2015').length > 0 && <CategoryRow title="📼 2015" videos={toRow(byYear('2015'))} />}
+  {byYear('2016').length > 0 && <CategoryRow title="📼 2016" videos={toRow(byYear('2016'))} />}
+  {byYear('2017').length > 0 && <CategoryRow title="📼 2017" videos={toRow(byYear('2017'))} />}
+  {byYear('2018').length > 0 && <CategoryRow title="📼 2018" videos={toRow(byYear('2018'))} />}
+  {byYear('2019').length > 0 && <CategoryRow title="📼 2019" videos={toRow(byYear('2019'))} />}
+  {byYear('2020').length > 0 && <CategoryRow title="📼 2020" videos={toRow(byYear('2020'))} />}
+  {byYear('2021').length > 0 && <CategoryRow title="📼 2021" videos={toRow(byYear('2021'))} />}
+  {byYear('2022').length > 0 && <CategoryRow title="📼 2022" videos={toRow(byYear('2022'))} />}
+  {byYear('2023').length > 0 && <CategoryRow title="📼 2023" videos={toRow(byYear('2023'))} />}
+  {byYear('2024').length > 0 && <CategoryRow title="📼 2024" videos={toRow(byYear('2024'))} />}
+  {byYear('2025').length > 0 && <CategoryRow title="📼 2025" videos={toRow(byYear('2025'))} />}
 
   <!-- Productos Amazon -->
   <ProductRow title="Nuestra tienda" products={PRODUCTOS} />
@@ -265,6 +283,21 @@ function formatViews(n: number) {
 
   /* BLOG TEASER */
   .blog-teaser { padding:2rem 0 1rem; }
+  .years-header {
+    max-width: 1300px;
+    margin: 3rem auto 0.5rem;
+    padding: 0 2rem;
+    border-top: 1px solid rgba(255,255,255,0.07);
+    padding-top: 2.5rem;
+  }
+  .years-header h2 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(255,255,255,0.35);
+  }
+
   .blog-teaser-hd {
     display:flex; align-items:center; justify-content:space-between;
     margin-bottom:1rem;
