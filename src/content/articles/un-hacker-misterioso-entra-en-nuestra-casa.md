@@ -1,6 +1,6 @@
 ---
 title: "Un hacker misterioso entra en nuestra casa"
-seoTitle: "Un hacker misterioso entra en nuestra casa — Los Familukis"
+seoTitle: "Un hacker misterioso entra en nuestra casa : Los Familukis"
 description: "Descubre cómo un hacker misterioso entra en nuestra casa y nos desafía a recuperar nuestro canal de YouTube en un emocionante juego de pistas y desafíos"
 seoDescription: "Descubre cómo un hacker misterioso entra en nuestra casa y nos desafía a recuperar nuestro canal de YouTube en un emocionante juego de pistas y desafíos"
 date: "2026-06-25"

@@ -1,6 +1,6 @@
 ---
 title: "Nuestro nuevo hermanito ha llegado a casa"
-seoTitle: "Nuestro nuevo hermanito ha llegado a casa — Los Familukis"
+seoTitle: "Nuestro nuevo hermanito ha llegado a casa : Los Familukis"
 description: "Descubre el momento en que conocimos a nuestro hermanito Oliver, un nuevo miembro de la familia que nos llena de alegría y amor, y cómo nos adaptamos a est"
 seoDescription: "Descubre el momento en que conocimos a nuestro hermanito Oliver, un nuevo miembro de la familia que nos llena de alegría y amor, y cómo nos adaptamos a est"
 date: "2026-06-25"

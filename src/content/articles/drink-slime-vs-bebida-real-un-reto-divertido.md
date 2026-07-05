@@ -1,6 +1,6 @@
 ---
 title: "Drink Slime vs Bebida Real: Un Reto Divertido"
-seoTitle: "Drink Slime vs Bebida Real: Un Reto Divertido — Los Familukis"
+seoTitle: "Drink Slime vs Bebida Real: Un Reto Divertido : Los Familukis"
 description: "Descubre qué sucede cuando probamos drink slime y bebida real en un reto emocionante y divertido con la familia"
 seoDescription: "Descubre qué sucede cuando probamos drink slime y bebida real en un reto emocionante y divertido con la familia"
 date: "2026-06-25"

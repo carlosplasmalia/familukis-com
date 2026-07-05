@@ -1,6 +1,6 @@
 ---
 title: "Rutina de mañana en Navidad para niños"
-seoTitle: "Rutina de mañana en Navidad para niños — Los Familukis"
+seoTitle: "Rutina de mañana en Navidad para niños : Los Familukis"
 description: "Conoce cómo crear una rutina de mañana navideña para niños con actividades y consejos prácticos para una Navidad feliz y organizada en casa"
 seoDescription: "Conoce cómo crear una rutina de mañana navideña para niños con actividades y consejos prácticos para una Navidad feliz y organizada en casa"
 date: "2026-06-25"

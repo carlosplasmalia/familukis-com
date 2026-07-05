@@ -1,6 +1,6 @@
 ---
 title: "Actividades para Halloween en casa"
-seoTitle: "Actividades para Halloween en Casa con Niños — Ideas Familukis"
+seoTitle: "Actividades para Halloween en Casa con Niños : Ideas Familukis"
 description: "Ideas y juegos para una noche de Halloween emocionante con la familia, decoraciones y disfraces para todos"
 seoDescription: "Ideas de actividades para Halloween en casa: juegos de miedo, manualidades terroríficas y decoración fácil. Lo que hacemos los Familukis para celebrar Halloween en familia."
 date: "2026-06-25"

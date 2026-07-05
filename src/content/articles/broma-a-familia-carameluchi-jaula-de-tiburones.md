@@ -1,6 +1,6 @@
 ---
 title: "Broma a familia Carameluchi: jaula de tiburones"
-seoTitle: "Broma a familia Carameluchi: jaula de tiburones — Los Familukis"
+seoTitle: "Broma a familia Carameluchi: jaula de tiburones : Los Familukis"
 description: "La familia Carameluchi se enfrenta a un reto emocionante: una jaula de tiburones. ¿Cómo reaccionarán? ¡Descúbrelo en este divertido vídeo!"
 seoDescription: "La familia Carameluchi se enfrenta a un reto emocionante: una jaula de tiburones. ¿Cómo reaccionarán? ¡Descúbrelo en este divertido vídeo!"
 date: "2026-06-25"

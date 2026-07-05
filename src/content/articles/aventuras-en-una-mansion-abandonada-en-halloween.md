@@ -1,6 +1,6 @@
 ---
 title: "Aventuras en una mansión abandonada en Halloween"
-seoTitle: "Mansión Abandonada en Halloween — Exploramos con los Familukis"
+seoTitle: "Mansión Abandonada en Halloween : Exploramos con los Familukis"
 description: "Descubre con nosotros la emoción de explorar una mansión abandonada en el día de Halloween, lleno de sorpresas y misterios"
 seoDescription: "Los Familukis exploran una mansión abandonada en Halloween llena de misterios y sorpresas. Sustos reales, pistas y mucha adrenalina para toda la familia."
 date: "2026-06-25"

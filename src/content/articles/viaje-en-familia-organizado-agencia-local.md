@@ -1,6 +1,6 @@
 ---
 title: "Viaje en familia organizado: cuándo tiene sentido y qué buscar en una agencia"
-seoTitle: "Viaje Organizado en Familia — Agencias Locales y Viajes a Medida con Niños"
+seoTitle: "Viaje Organizado en Familia : Agencias Locales y Viajes a Medida con Niños"
 description: "Cuándo merece la pena contratar un viaje organizado en familia y qué diferencia hay entre una agencia de masas y una agencia local que conoce el destino de verdad."
 seoDescription: "Viaje en familia organizado o por libre: cuándo elegir cada opción, qué buscar en una agencia y cómo conseguir un itinerario real adaptado a niños de distintas edades."
 date: "2026-07-03"

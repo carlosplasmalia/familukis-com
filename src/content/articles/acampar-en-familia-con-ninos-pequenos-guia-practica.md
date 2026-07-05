@@ -1,6 +1,6 @@
 ---
 title: "Acampar en familia con niños pequeños: guía práctica"
-seoTitle: "Acampar en Familia con Niños — Lo que Aprendimos en Nuestra Primera Vez"
+seoTitle: "Acampar en Familia con Niños : Lo que Aprendimos en Nuestra Primera Vez"
 description: "Todo lo que necesitas saber para ir de camping con niños sin que sea un caos: qué llevar, cómo elegir el camping y qué actividades funcionan mejor."
 seoDescription: "Guía práctica para acampar en familia con niños pequeños: lo que llevamos, lo que nos faltó y los errores que no volvemos a cometer. Basada en experiencia real."
 date: "2026-06-25"

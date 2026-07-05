@@ -1,6 +1,6 @@
 ---
 title: "Aventuras en una mansión abandonada"
-seoTitle: "Aventuras en una mansión abandonada — Los Familukis"
+seoTitle: "Aventuras en una mansión abandonada : Los Familukis"
 description: "Descubre lo que sucede cuando pasamos 24 horas solos en una mansión abandonada con un fantasma misterioso en este especial de Halloween"
 seoDescription: "Descubre lo que sucede cuando pasamos 24 horas solos en una mansión abandonada con un fantasma misterioso en este especial de Halloween"
 date: "2026-06-25"

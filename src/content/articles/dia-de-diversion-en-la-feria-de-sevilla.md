@@ -1,6 +1,6 @@
 ---
 title: "Día de diversión en la feria de Sevilla"
-seoTitle: "Día de diversión en la feria de Sevilla — Los Familukis"
+seoTitle: "Día de diversión en la feria de Sevilla : Los Familukis"
 description: "Descubre la emoción de la feria de Sevilla con nosotros. Paseos en coche de caballos, deliciosos platos típicos y mucha diversión en familia"
 seoDescription: "Descubre la emoción de la feria de Sevilla con nosotros. Paseos en coche de caballos, deliciosos platos típicos y mucha diversión en familia"
 date: "2026-06-25"

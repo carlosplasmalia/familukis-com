@@ -1,6 +1,6 @@
 ---
 title: "Descubrimos una cabaña natural en el bosque"
-seoTitle: "Descubrimos una cabaña natural en el bosque — Los Familukis"
+seoTitle: "Descubrimos una cabaña natural en el bosque : Los Familukis"
 description: "Exploramos un escondite secreto en plena naturaleza, un refugio ideal para familias con niños, rodeado de árboles y vida silvestre"
 seoDescription: "Exploramos un escondite secreto en plena naturaleza, un refugio ideal para familias con niños, rodeado de árboles y vida silvestre"
 date: "2026-06-25"

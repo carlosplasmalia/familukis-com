@@ -1,6 +1,6 @@
 ---
 title: "Halloween con niños: disfraces caseros e ideas de fiesta"
-seoTitle: "Halloween con Niños — Ideas de Disfraces y Actividades en Casa"
+seoTitle: "Halloween con Niños : Ideas de Disfraces y Actividades en Casa"
 description: "Cómo celebrar Halloween en familia sin complicarte: disfraces fáciles con lo que tienes en casa, actividades que funcionan y las mejores ideas de la familia Familukis."
 seoDescription: "Las mejores ideas de Halloween con niños según los Familukis: disfraces fáciles, decoración casera y actividades terroríficas pero divertidas para toda la familia."
 date: "2026-06-25"

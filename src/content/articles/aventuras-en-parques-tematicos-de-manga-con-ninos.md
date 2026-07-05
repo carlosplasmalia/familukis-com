@@ -1,6 +1,6 @@
 ---
 title: "Aventuras en parques temáticos de manga con niños"
-seoTitle: "Parques Temáticos de Manga para Niños — Lo Que nos Parece a Nosotros"
+seoTitle: "Parques Temáticos de Manga para Niños : Lo Que nos Parece a Nosotros"
 description: "Descubre la emoción de vivir aventuras en parques temáticos de manga y anime con tus hijos, ¡una experiencia inolvidable para toda la familia!"
 seoDescription: "Aventuras en parques temáticos de manga con niños: qué esperar, qué les gusta más a los niños y cómo preparar la visita para que sea un día perfecto."
 date: "2026-06-25"

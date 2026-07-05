@@ -1,6 +1,6 @@
 ---
 title: "Reto rosquillas picantes: ¿quién aguanta más?"
-seoTitle: "Reto rosquillas picantes: ¿quién aguanta más? — Los Familukis"
+seoTitle: "Reto rosquillas picantes: ¿quién aguanta más? : Los Familukis"
 description: "Descubre cómo hacer un reto divertido y emocionante con rosquillas picantes y aprende a hacerlo con amigos y familia"
 seoDescription: "Descubre cómo hacer un reto divertido y emocionante con rosquillas picantes y aprende a hacerlo con amigos y familia"
 date: "2026-06-25"

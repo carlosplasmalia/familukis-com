@@ -1,6 +1,6 @@
 ---
 title: "Hotel Magic Sport opiniones 2026: guía completa para familias"
-seoTitle: "Hotel Magic Sport Opiniones 2026 — ¿Vale la Pena para Familias?"
+seoTitle: "Hotel Magic Sport Opiniones 2026 : ¿Vale la Pena para Familias?"
 description: "Todo sobre el Hotel Magic Sport en Magic World Resort: habitaciones, instalaciones, qué incluye, precios y si merece la pena para ir con niños en 2026."
 seoDescription: "Opiniones del Hotel Magic Sport en Oropesa del Mar. Habitaciones familiares, acceso al parque acuático, instalaciones deportivas y comparativa con el Tropical Splash."
 date: "2026-06-26"

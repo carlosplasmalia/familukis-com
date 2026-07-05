@@ -1,6 +1,6 @@
 ---
 title: "Reto de Chocolate vs Realidad en Familia"
-seoTitle: "Reto de Chocolate vs Realidad en Familia — Los Familukis"
+seoTitle: "Reto de Chocolate vs Realidad en Familia : Los Familukis"
 description: "Conoce cómo hacer un reto de chocolate vs realidad con tus hijos, desafíos y diversión para toda la familia en un emocionante juego"
 seoDescription: "Conoce cómo hacer un reto de chocolate vs realidad con tus hijos, desafíos y diversión para toda la familia en un emocionante juego"
 date: "2026-06-25"

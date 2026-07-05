@@ -1,6 +1,6 @@
 ---
 title: "Superhéroes niños: retos y aventuras divertidas"
-seoTitle: "Superhéroes niños: retos y aventuras divertidas — Los Familukis"
+seoTitle: "Superhéroes niños: retos y aventuras divertidas : Los Familukis"
 description: "Descubre los mejores retos y aventuras para niños con superhéroes como Superman e Ironman, ideales para familias"
 seoDescription: "Descubre los mejores retos y aventuras para niños con superhéroes como Superman e Ironman, ideales para familias"
 date: "2026-06-25"

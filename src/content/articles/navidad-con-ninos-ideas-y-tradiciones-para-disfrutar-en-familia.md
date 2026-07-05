@@ -1,6 +1,6 @@
 ---
 title: "Navidad con niños: ideas y tradiciones para disfrutar en familia"
-seoTitle: "Navidad con Niños — Tradiciones y Planes para Disfrutar en Familia"
+seoTitle: "Navidad con Niños : Tradiciones y Planes para Disfrutar en Familia"
 description: "Cómo hacer que la Navidad sea especial para los niños sin gastar una fortuna: tradiciones, actividades y los mejores momentos del canal."
 seoDescription: "Ideas de Navidad con niños que funcionan de verdad: tradiciones en casa, planes para los días festivos y cómo hacer que la magia navideña dure más tiempo."
 date: "2026-06-25"

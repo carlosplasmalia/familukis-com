@@ -1,6 +1,6 @@
 ---
 title: "Retos para hacer en casa con niños: 25 ideas que hemos probado nosotros"
-seoTitle: "25 Retos para Hacer en Casa con Niños — Ideas que Funcionan de Verdad"
+seoTitle: "25 Retos para Hacer en Casa con Niños : Ideas que Funcionan de Verdad"
 description: "25 retos y challenges para hacer en familia en casa, ordenados por tipo y edad. Los que más funcionan con los Familukis y los que parecen buenos pero no lo son tanto."
 seoDescription: "25 retos para hacer en casa con niños probados por los Familukis. Challenges de comida, adivinanza, habilidad y bromas. Sin materiales raros y con reacciones garantizadas."
 date: "2026-07-03"

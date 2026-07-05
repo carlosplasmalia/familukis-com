@@ -1,6 +1,6 @@
 ---
 title: "Aventuras en la jungla: 24 horas solos sin padres"
-seoTitle: "24 Horas Solos en la Jungla sin Padres — La Aventura de los Familukis"
+seoTitle: "24 Horas Solos en la Jungla sin Padres : La Aventura de los Familukis"
 description: "Descubre la emocionante aventura de dos hermanos que se pierden en la jungla y deben encontrar el camino de regreso a casa con ayuda de una brújula y su in"
 seoDescription: "Aroa, Carlitos y Óliver pasan 24 horas solos en la jungla siguiendo pistas de una brújula misteriosa. Una aventura real inspirada en Dora y la Ciudad Perdida."
 date: "2026-06-25"

@@ -1,6 +1,6 @@
 ---
 title: "Ruta familiar en las cascadas del Purgatorio"
-seoTitle: "Ruta familiar en las cascadas del Purgatorio — Los Familukis"
+seoTitle: "Ruta familiar en las cascadas del Purgatorio : Los Familukis"
 description: "Descubre la aventura épica de Familukis en las cascadas del Purgatorio, una ruta de senderismo perfecta para disfrutar en familia"
 seoDescription: "Descubre la aventura épica de Familukis en las cascadas del Purgatorio, una ruta de senderismo perfecta para disfrutar en familia"
 date: "2026-06-25"

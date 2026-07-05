@@ -1,6 +1,6 @@
 ---
 title: "Reto del doblaje: diversión familiar en YouTube"
-seoTitle: "Reto del doblaje: diversión familiar en YouTube — Los Familukis"
+seoTitle: "Reto del doblaje: diversión familiar en YouTube : Los Familukis"
 description: "Descubre cómo los Familukis hacen el reto del doblaje y diviértete con sus aventuras en YouTube"
 seoDescription: "Descubre cómo los Familukis hacen el reto del doblaje y diviértete con sus aventuras en YouTube"
 date: "2026-06-25"

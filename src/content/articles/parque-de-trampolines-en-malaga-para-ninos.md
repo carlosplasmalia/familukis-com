@@ -1,6 +1,6 @@
 ---
 title: "Parque de trampolines en Málaga para niños"
-seoTitle: "Parque de trampolines en Málaga para niños — Los Familukis"
+seoTitle: "Parque de trampolines en Málaga para niños : Los Familukis"
 description: "Información sobre parques de trampolines en Málaga, áreas de juego y actividades para niños en el centro comercial"
 seoDescription: "Información sobre parques de trampolines en Málaga, áreas de juego y actividades para niños en el centro comercial"
 date: "2026-06-25"

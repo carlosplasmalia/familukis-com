@@ -1,6 +1,6 @@
 ---
 title: "Nuestros hijos reaccionan a nuestro vídeo de boda"
-seoTitle: "Nuestros hijos reaccionan a nuestro vídeo de boda — Los Familukis"
+seoTitle: "Nuestros hijos reaccionan a nuestro vídeo de boda : Los Familukis"
 description: "Después de 8 años, recuperamos los archivos de nuestra boda y nuestros hijos reaccionan por primera vez. ¡Mira sus caras!"
 seoDescription: "Después de 8 años, recuperamos los archivos de nuestra boda y nuestros hijos reaccionan por primera vez. ¡Mira sus caras!"
 date: "2026-06-25"

@@ -1,6 +1,6 @@
 ---
 title: "Decorar casa para Navidad con niños"
-seoTitle: "Decorar casa para Navidad con niños — Los Familukis"
+seoTitle: "Decorar casa para Navidad con niños : Los Familukis"
 description: "Consejos y trucos para decorar tu casa para Navidad con tus hijos, ideas para árboles y regalos, y cómo hacerlo divertido y fácil"
 seoDescription: "Consejos y trucos para decorar tu casa para Navidad con tus hijos, ideas para árboles y regalos, y cómo hacerlo divertido y fácil"
 date: "2026-06-25"

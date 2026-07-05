@@ -1,6 +1,6 @@
 ---
 title: "Juegos y retos para hacer en casa con niños"
-seoTitle: "Juegos y Retos para Hacer en Casa con Niños — Lo Que Hacemos Nosotros"
+seoTitle: "Juegos y Retos para Hacer en Casa con Niños : Lo Que Hacemos Nosotros"
 description: "Ideas probadas en familia para entretener a los niños en casa: retos, juegos de mesa, manualidades y mucho más sin gastar casi nada."
 seoDescription: "Juegos y retos para hacer en casa con niños: los favoritos de los Familukis para tardes sin plan, lluvia o vacaciones. Sencillos, sin materiales raros y probados con niños reales."
 date: "2026-06-25"

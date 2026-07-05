@@ -1,6 +1,6 @@
 ---
 title: "Parque Acuático Gigante en Casa para Verano"
-seoTitle: "Parque Acuático Gigante en Casa para Verano — Los Familukis"
+seoTitle: "Parque Acuático Gigante en Casa para Verano : Los Familukis"
 description: "Descubre cómo creamos un parque acuático gigante en casa con sorpresas y diversión para los niños, ideal para el verano"
 seoDescription: "Descubre cómo creamos un parque acuático gigante en casa con sorpresas y diversión para los niños, ideal para el verano"
 date: "2026-06-25"

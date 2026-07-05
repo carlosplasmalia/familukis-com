@@ -1,6 +1,6 @@
 ---
 title: "Buceo en familia fuera de la piscina"
-seoTitle: "Buceo en familia fuera de la piscina — Los Familukis"
+seoTitle: "Buceo en familia fuera de la piscina : Los Familukis"
 description: "Consejos y guía para bucear con niños en un entorno natural, equipo y seguridad para familias en playas"
 seoDescription: "Consejos y guía para bucear con niños en un entorno natural, equipo y seguridad para familias en playas"
 date: "2026-06-25"

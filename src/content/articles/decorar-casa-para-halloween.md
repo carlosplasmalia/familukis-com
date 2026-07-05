@@ -1,6 +1,6 @@
 ---
 title: "Decorar casa para Halloween"
-seoTitle: "Decorar casa para Halloween — Los Familukis"
+seoTitle: "Decorar casa para Halloween : Los Familukis"
 description: "Ideas y consejos para decorar tu casa para Halloween con objetos y accesorios temáticos para sorprender a los niños"
 seoDescription: "Ideas y consejos para decorar tu casa para Halloween con objetos y accesorios temáticos para sorprender a los niños"
 date: "2026-06-25"

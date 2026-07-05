@@ -1,6 +1,6 @@
 ---
 title: "Retos sin manos con Familukis, diversión garantizada"
-seoTitle: "Reto Sin Manos Challenge — Cómo Jugarlo en Casa con Niños"
+seoTitle: "Reto Sin Manos Challenge : Cómo Jugarlo en Casa con Niños"
 description: "Descubre el reto sin manos challenge de Familukis, lleno de juegos y risas. ¡No te pierdas este divertido vídeo familiar!"
 seoDescription: "El reto sin manos challenge de los Familukis: cómo funciona, cómo reproducirlo en casa y las reacciones más divertidas del vídeo con millones de visitas."
 date: "2026-06-25"

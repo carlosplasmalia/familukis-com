@@ -1,8 +1,8 @@
 ---
 title: "Cómo llegar a Magic World Resort: mapa, aparcamiento y consejos prácticos"
-seoTitle: "Cómo Llegar a Magic World Resort — GPS, Parking y Transporte Público"
-description: "Guía completa para llegar a Magic World Resort en Oropesa del Mar: en coche, tren o avión desde Madrid, Valencia y Barcelona. Mapa, parking y lo que necesitas saber."
-seoDescription: "Cómo llegar a Magic World Resort en Oropesa del Mar: coordenadas GPS, opciones de parking, cómo ir en transporte público y qué hacer si llegas con retraso."
+seoTitle: "Cómo llegar a Magic World Resort: GPS, parking y transporte"
+description: "Magic World Resort está en Oropesa del Mar, a 1 hora de Valencia y 4 de Madrid. Coordenadas GPS, parking, transporte público y qué tener en cuenta antes de salir."
+seoDescription: "Magic World Resort está en Oropesa del Mar, a 1 hora de Valencia y 4 de Madrid. Coordenadas GPS, parking, transporte público y qué tener en cuenta antes de salir."
 date: "2026-06-26"
 categoria: "magic-world"
 tags: ["magic world resort como llegar", "magic world resort mapa", "oropesa del mar", "aparcamiento magic world", "cómo ir magic world"]

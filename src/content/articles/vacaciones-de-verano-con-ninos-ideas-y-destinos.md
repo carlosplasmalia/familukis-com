@@ -1,6 +1,6 @@
 ---
 title: "Vacaciones de verano con niños: ideas y destinos probados"
-seoTitle: "Vacaciones de Verano con Niños — Ideas y Destinos que nos Han Funcionado"
+seoTitle: "Vacaciones de Verano con Niños : Ideas y Destinos que nos Han Funcionado"
 description: "Los mejores destinos de verano para familias con niños según nuestra experiencia real: playas, parques acuáticos, pueblos y escapadas de naturaleza."
 seoDescription: "Ideas para las vacaciones de verano con niños según los Familukis: destinos probados, actividades que funcionan y cosas que aprendimos a evitar en familia."
 date: "2026-06-25"

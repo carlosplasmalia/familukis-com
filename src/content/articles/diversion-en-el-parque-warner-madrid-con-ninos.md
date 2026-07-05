@@ -1,6 +1,6 @@
 ---
 title: "Diversión en el Parque Warner Madrid con niños"
-seoTitle: "Diversión en el Parque Warner Madrid con niños — Los Familukis"
+seoTitle: "Diversión en el Parque Warner Madrid con niños : Los Familukis"
 description: "Descubre las aventuras y emociones que te esperan en el Parque Warner Madrid, un lugar ideal para disfrutar con tu familia"
 seoDescription: "Descubre las aventuras y emociones que te esperan en el Parque Warner Madrid, un lugar ideal para disfrutar con tu familia"
 date: "2026-06-25"

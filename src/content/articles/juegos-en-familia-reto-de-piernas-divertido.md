@@ -1,6 +1,6 @@
 ---
 title: "Juegos en familia: reto de piernas divertido"
-seoTitle: "Juegos en familia: reto de piernas divertido — Los Familukis"
+seoTitle: "Juegos en familia: reto de piernas divertido : Los Familukis"
 description: "Diviértete con el reto de piernas de Familukis, juegos y juguetes en familia para pasar un buen rato juntos"
 seoDescription: "Diviértete con el reto de piernas de Familukis, juegos y juguetes en familia para pasar un buen rato juntos"
 date: "2026-06-25"

@@ -1,6 +1,6 @@
 ---
 title: "Mejores parques acuáticos de Andalucía con niños: los que hemos probado y los que nos faltan"
-seoTitle: "Mejores Parques Acuáticos de Andalucía con Niños — Guía Familukis 2026"
+seoTitle: "Mejores Parques Acuáticos de Andalucía con Niños : Guía Familukis 2026"
 description: "Guía actualizada de parques acuáticos en Andalucía para ir con niños: Aquavelis, Aqualand Torremolinos, Aquamijas y más. Qué merece la pena según las edades de tus hijos."
 seoDescription: "Los mejores parques acuáticos de Andalucía para familias con niños. Aquavelis, Aqualand Torremolinos, Aquamijas: comparativa real de precios, toboganes y zonas infantiles."
 date: "2026-07-03"

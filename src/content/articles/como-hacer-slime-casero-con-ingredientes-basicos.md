@@ -1,6 +1,6 @@
 ---
 title: "Cómo hacer Slime casero con ingredientes básicos"
-seoTitle: "Cómo Hacer Slime Casero Paso a Paso — La Receta que Usamos los Familukis"
+seoTitle: "Cómo Hacer Slime Casero Paso a Paso : La Receta que Usamos los Familukis"
 description: "Aprende a crear Slime casero con ingredientes fáciles de encontrar, sigue nuestros pasos y consejos para hacerlo de manera segura"
 seoDescription: "Receta de slime casero con ingredientes básicos: pegamento, agua, sal y colorante. El slime que hacemos nosotros en casa sin bórax ni ingredientes difíciles de encontrar."
 date: "2026-06-25"

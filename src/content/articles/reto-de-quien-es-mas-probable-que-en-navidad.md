@@ -1,6 +1,6 @@
 ---
 title: "Reto de quién es más probable que en Navidad"
-seoTitle: "Reto de quién es más probable que en Navidad — Los Familukis"
+seoTitle: "Reto de quién es más probable que en Navidad : Los Familukis"
 description: "Aprende a hacer un reto de Navidad en familia con preguntas divertidas y conoce quién es más probable que haga ciertas cosas en tu familia"
 seoDescription: "Aprende a hacer un reto de Navidad en familia con preguntas divertidas y conoce quién es más probable que haga ciertas cosas en tu familia"
 date: "2026-06-25"

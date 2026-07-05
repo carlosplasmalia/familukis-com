@@ -1,6 +1,6 @@
 ---
 title: "Bromas fáciles y divertidas para hacer con niños"
-seoTitle: "Bromas fáciles y divertidas para hacer con niños — Los Familukis"
+seoTitle: "Bromas fáciles y divertidas para hacer con niños : Los Familukis"
 description: "Descubre 5 bromas sencillas y graciosas para hacer con tus hijos, ideales para pasar un rato divertido en familia, juguetes y juegos para niños"
 seoDescription: "Descubre 5 bromas sencillas y graciosas para hacer con tus hijos, ideales para pasar un rato divertido en familia, juguetes y juegos para niños"
 date: "2026-06-25"

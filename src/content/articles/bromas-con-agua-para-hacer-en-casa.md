@@ -1,6 +1,6 @@
 ---
 title: "Bromas con agua para hacer en casa"
-seoTitle: "Bromas con Agua para Hacer en Casa — 4 Bromas Fáciles Familukis"
+seoTitle: "Bromas con Agua para Hacer en Casa : 4 Bromas Fáciles Familukis"
 description: "Ideas y trucos para hacer bromas con agua en casa, juegos y retos para disfrutar con la familia en verano"
 seoDescription: "4 bromas con agua para hacer en casa con niños. Sencillas, divertidas y con reacciones garantizadas. Sin materiales raros y perfectas para el verano."
 date: "2026-06-25"

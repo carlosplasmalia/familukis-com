@@ -1,6 +1,6 @@
 ---
 title: "Visita a Superhéroes Marvel en Familia"
-seoTitle: "Visita a Superhéroes Marvel en Familia — Los Familukis"
+seoTitle: "Visita a Superhéroes Marvel en Familia : Los Familukis"
 description: "Descubre cómo vivimos un día emocionante con superhéroes Marvel en Barcelona, juguetes y diversión en familia"
 seoDescription: "Descubre cómo vivimos un día emocionante con superhéroes Marvel en Barcelona, juguetes y diversión en familia"
 date: "2026-06-25"

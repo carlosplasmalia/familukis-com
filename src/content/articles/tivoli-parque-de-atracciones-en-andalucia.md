@@ -1,6 +1,6 @@
 ---
 title: "Tivoli parque de atracciones en Andalucía"
-seoTitle: "Tivoli World Benalmádena — Opiniones y Guía para Ir con Niños"
+seoTitle: "Tivoli World Benalmádena : Opiniones y Guía para Ir con Niños"
 description: "Conoce las atracciones y actividades para todas las edades en Tivoli, un parque de diversiones con opciones para niños y adultos"
 seoDescription: "Tivoli World en Benalmádena: el parque de atracciones más antiguo de Andalucía. Opiniones de los Familukis, precios actualizados y qué ver con niños de distintas edades."
 date: "2026-06-25"

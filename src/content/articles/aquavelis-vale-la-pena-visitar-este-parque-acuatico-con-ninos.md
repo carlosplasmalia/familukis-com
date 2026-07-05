@@ -1,8 +1,8 @@
 ---
 title: "Aquavelis: ¿vale la pena visitar este parque acuático con niños?"
-seoTitle: "Aquavelis Torre del Mar — Opiniones y Lo Que No Te Cuentan"
-description: "Estuvimos un día completo en Aquavelis con los peques y te contamos sin filtros qué nos gustó, qué mejoraría y si compensa el precio para familias con niños pequeños."
-seoDescription: "Opiniones de Aquavelis en Torre del Mar (Málaga) con niños. Toboganes, zona infantil, precios, parking y cómo llegar. La experiencia real de los Familukis."
+seoTitle: "Aquavelis: opiniones con niños, precios y zona infantil"
+description: "Pasamos un día entero en Aquavelis con los peques. Zona infantil, toboganes, río lento y si merece el precio: todo lo que necesitas saber antes de ir."
+seoDescription: "Pasamos un día entero en Aquavelis con los peques. Zona infantil, toboganes, río lento y si merece el precio: todo lo que necesitas saber antes de ir."
 date: "2026-06-25"
 categoria: "parques-acuaticos"
 tags: ["parque acuático", "Aquavelis", "Andalucía", "Torre del Mar", "experiencia familiar", "niños pequeños", "atracciones acuáticas", "vélez málaga"]

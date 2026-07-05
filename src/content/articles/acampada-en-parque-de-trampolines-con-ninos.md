@@ -1,6 +1,6 @@
 ---
 title: "Acampada en parque de trampolines con niños"
-seoTitle: "Acampada en Parque de Trampolines con Niños — Así nos Fue"
+seoTitle: "Acampada en Parque de Trampolines con Niños : Así nos Fue"
 description: "Conoce las medidas de seguridad y preparativos para una acampada en parque de trampolines con niños y familiares de manera segura"
 seoDescription: "Acampada en un parque de trampolines con niños: qué esperar, cómo prepararlo y si merece la pena. La experiencia real de los Familukis tras una noche saltando."
 date: "2026-06-25"

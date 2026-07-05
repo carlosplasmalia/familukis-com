@@ -1,6 +1,6 @@
 ---
 title: "Juegos y retos en familia con Heads Up Challenge"
-seoTitle: "Juegos y retos en familia con Heads Up Challenge — Los Familukis"
+seoTitle: "Juegos y retos en familia con Heads Up Challenge : Los Familukis"
 description: "Diviértete con Familukis en un emocionante juego de adivinanza con dibujos animados y risas garantizadas para toda la familia"
 seoDescription: "Diviértete con Familukis en un emocionante juego de adivinanza con dibujos animados y risas garantizadas para toda la familia"
 date: "2026-06-25"

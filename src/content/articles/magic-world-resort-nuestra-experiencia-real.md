@@ -1,6 +1,6 @@
 ---
 title: "Magic World Resort: nuestra experiencia real y código de descuento"
-seoTitle: "Magic World Resort — Nuestra Experiencia Real en Familia"
+seoTitle: "Magic World Resort : Nuestra Experiencia Real en Familia"
 description: "Hemos estado varias veces en Magic World Resort (antigua Marina d'Or) y te contamos todo: qué ha cambiado, si merece la pena y cómo conseguir descuento."
 seoDescription: "Experiencia real en Magic World Resort con niños: lo bueno, lo malo y lo que no esperábamos. Una estancia completa contada sin filtros por los Familukis."
 date: "2026-06-25"

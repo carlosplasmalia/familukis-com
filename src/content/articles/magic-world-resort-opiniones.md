@@ -1,6 +1,6 @@
 ---
 title: "Magic World Resort opiniones 2026: ¿merece la pena con niños?"
-seoTitle: "Magic World Resort Opiniones 2026 — ¿Vale la Pena con Niños?"
+seoTitle: "Magic World Resort Opiniones 2026 : ¿Vale la Pena con Niños?"
 description: "Opiniones reales de Magic World Resort tras varias estancias en familia. Hoteles, parque acuático, atracciones, precios y código de descuento exclusivo."
 seoDescription: "Opiniones honestas de Magic World Resort en Oropesa del Mar. Hoteles, parque acuático Aquopolis, restaurantes y precios reales. Con código descuento exclusivo Familukis."
 date: "2026-06-26"

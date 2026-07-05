@@ -1,6 +1,6 @@
 ---
 title: "Inventos para camping: Sofá hinchable CosyinsOFA"
-seoTitle: "Inventos para camping: Sofá hinchable CosyinsOFA — Los Familukis"
+seoTitle: "Inventos para camping: Sofá hinchable CosyinsOFA : Los Familukis"
 description: "Descubre el sofá hinchable perfecto para tu próximo camping en familia con CosyinsOFA, ¡mira nuestro vídeo y entérate de sus ventajas!"
 seoDescription: "Descubre el sofá hinchable perfecto para tu próximo camping en familia con CosyinsOFA, ¡mira nuestro vídeo y entérate de sus ventajas!"
 date: "2026-06-25"
