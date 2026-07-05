@@ -1,6 +1,6 @@
 ---
 title: "Camping con niños pequeños: qué llevar y cómo sobrevivir a la primera noche"
-seoTitle: "Camping con Niños Pequeños — Guía Real con Lista y Errores a Evitar"
+seoTitle: "Camping con Niños Pequeños: Guía Real con Lista y Errores a Evitar"
 description: "Guía práctica de camping familiar con niños pequeños: lista de equipamiento, errores que cometimos y consejos que nadie te cuenta antes de salir por primera vez."
 seoDescription: "Acampar con niños pequeños por primera vez: lista completa de lo que llevar, errores que cometimos nosotros y los consejos que más nos hubiera gustado tener antes de salir."
 date: "2026-07-03"
@@ -28,8 +28,8 @@ La elección del camping puede arruinar la experiencia o salvarla. Para la prime
 
 **Qué buscar para la primera vez:**
 - Baños y duchas en buen estado (esto es innegociable con niños)
-- Zona de juegos o piscina — los niños necesitan espacio propio
-- Parcelas con sombra — el calor del mediodía en una tienda es insoportable
+- Zona de juegos o piscina (los niños necesitan espacio propio)
+- Parcelas con sombra: el calor del mediodía en una tienda es insoportable
 - Distancia: a menos de 2 horas de casa para la primera salida
 - Valoraciones recientes de otras familias
 
@@ -39,9 +39,9 @@ Los campings con bungalows son una buena transición si no estáis seguros de la
 
 ### Para dormir (sin esto no funciona nada)
 
-**La tienda.** Si no tienes, mejor alquilar o pedir prestada la primera vez que invertir en algo que no sabes si vas a usar. Si compráis, que sea para una persona más de las que vais a dormir — con niños pequeños siempre se ocupa más espacio del que calculas.
+**La tienda.** Si no tienes, mejor alquilar o pedir prestada la primera vez que invertir en algo que no sabes si vas a usar. Si compráis, que sea para una persona más de las que vais a dormir, porque con niños pequeños siempre se ocupa más espacio del que calculas.
 
-**Sacos de dormir por edades.** Los de adulto no valen para niños pequeños aunque parezca que cabrían. Un niño en un saco demasiado grande no se calienta. Comprueba la temperatura mínima del saco y añade siempre unos grados de margen — las noches en el monte son más frías de lo que el parte meteorológico indica.
+**Sacos de dormir por edades.** Los de adulto no valen para niños pequeños aunque parezca que cabrían. Un niño en un saco demasiado grande no se calienta. Comprueba la temperatura mínima del saco y añade siempre unos grados de margen: las noches en el monte son más frías de lo que el parte meteorológico indica.
 
 **Colchoneta o esterilla aislante.** El frío del suelo sube más que el del aire. Imprescindible aunque duermas en verano.
 
@@ -60,7 +60,7 @@ Los campings con bungalows son una buena transición si no estáis seguros de la
 - Antiséptico (povidona yodada o clorhexidina)
 - Antihistamínico en jarabe o comprimidos (para reacciones a picaduras)
 - Paracetamol o ibuprofeno en la dosis de tus hijos
-- **Repelente de insectos específico para niños** — este es el que más veces nos hemos dejado y el que más falta hace
+- **Repelente de insectos específico para niños**, el que más veces nos hemos dejado y el que más falta hace
 - Pinzas para garrapatas (si vais a zona de monte)
 - Crema solar
 
@@ -68,11 +68,11 @@ Los campings con bungalows son una buena transición si no estáis seguros de la
 
 En el camping no es el momento de hacer recetas elaboradas. Lo que mejor funciona con niños:
 
-- Salchichas y pan para la parrilla o la hoguera — el clásico que siempre funciona
+- Salchichas y pan para la parrilla o la hoguera, el clásico que siempre funciona
 - Frutas que no necesiten nevera (plátanos, manzanas, naranjas)
 - Cereales y leche en brik para el desayuno
 - Sándwiches para el día (con algo que aguante el calor sin nevera)
-- Chuches y snacks para las horas muertas — esto también forma parte del camping
+- Chuches y snacks para las horas muertas, que también forman parte del camping
 
 Si el camping tiene tienda, te salvas de tener que llevar todo desde casa. Si es zona aislada, planifica cada comida antes de salir.
 
@@ -83,7 +83,7 @@ Los niños en el camping tienen mucha energía y mucho tiempo libre. Sin pantall
 - Cartas
 - Frisbee o pelota pequeña
 - Cuaderno y lápices para los más tranquilos
-- Prismáticos baratos — en el campo hacen maravillas
+- Prismáticos baratos, que en el campo hacen maravillas
 - Red de mariposas o kit de exploración de naturaleza
 
 ## Los errores que cometimos (para que no los repitas)
