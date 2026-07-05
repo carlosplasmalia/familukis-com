@@ -111,42 +111,6 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
   <meta name="apple-mobile-web-app-title" content="Familukis" />
   <slot name="head" />
 
-  <script is:inline src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
-  <script is:inline>
-    window.OneSignalDeferred = window.OneSignalDeferred || [];
-    OneSignalDeferred.push(async function(OneSignal) {
-      await OneSignal.init({
-        appId: "e527ef87-2f89-4058-a8e9-101d9b5e9800",
-        safari_web_id: "web.onesignal.auto.00b75e31-4d41-4106-ab79-a5c68121f393",
-        notifyButton: {
-          enable: true,
-        },
-        promptOptions: {
-          slidedown: {
-            prompts: [{
-              type: "push",
-              autoPrompt: true,
-              text: {
-                actionMessage: "¿Quieres enterarte antes que nadie de nuestros nuevos vídeos?",
-                acceptButton: "¡Sí, avísame!",
-                cancelButton: "Ahora no",
-              },
-              delay: {
-                timeDelay: 3,
-                pageViews: 1,
-              },
-            }],
-          },
-        },
-      });
-    });
-  </script>
-  <script is:inline>
-    new MutationObserver(function(_, obs) {
-      var btn = document.querySelector('.onesignal-bell-launcher-button');
-      if (btn) { btn.setAttribute('aria-label', 'Activar notificaciones'); obs.disconnect(); }
-    }).observe(document.body, { childList: true, subtree: true });
-  </script>
 </head>
 <body>
 
