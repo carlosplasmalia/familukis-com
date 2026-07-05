@@ -141,6 +141,7 @@ const heroThumb = hero ? `https://img.youtube.com/vi/${hero.data.videoId}/maxres
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+    {heroThumb && <link rel="preload" as="image" href={heroThumb} fetchpriority="high" />}
   </Fragment>
   {hero && (
     <section class="cat-hero" style={`--img:url('${heroThumb}')`}>

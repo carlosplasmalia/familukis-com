@@ -101,6 +101,7 @@ function formatViews(n: number) {
   description="Somos los Familukis: familia numerosa con canal de YouTube. Aquí tienes todos nuestros vídeos, artículos y guías de parques, retos, escapadas y aventuras en familia."
   image={heroThumb}
 >
+  <link rel="preload" as="image" href={heroThumb} fetchpriority="high" slot="head" />
 
 <!-- HERO -->
 <section class="hero" style={`--bg:url('${heroThumb}')`}>
