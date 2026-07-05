@@ -141,6 +141,12 @@ const fullTitle = title.includes('Familukis') ? title : `${title} | Familukis`;
       });
     });
   </script>
+  <script is:inline>
+    new MutationObserver(function(_, obs) {
+      var btn = document.querySelector('.onesignal-bell-launcher-button');
+      if (btn) { btn.setAttribute('aria-label', 'Activar notificaciones'); obs.disconnect(); }
+    }).observe(document.body, { childList: true, subtree: true });
+  </script>
 </head>
 <body>
 
