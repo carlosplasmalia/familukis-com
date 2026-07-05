@@ -1,0 +1,90 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import VideoCard from '../../components/VideoCard.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const videos = (await getCollection('videos')).filter(v => !v.data.hidden);
+  const years = [...new Set(videos.map(v => v.data.publishedAt.slice(0, 4)))].sort();
+  return years.map(year => {
+    const yearVideos = videos
+      .filter(v => v.data.publishedAt.startsWith(year))
+      .sort((a, b) => a.data.publishedAt.localeCompare(b.data.publishedAt));
+    return { params: { year }, props: { yearVideos } };
+  });
+}
+
+interface Props { yearVideos: any[] }
+const { year } = Astro.params;
+const { yearVideos } = Astro.props;
+const pageUrl = `https://familukis.com/archivo/${year}/`;
+---
+
+<BaseLayout
+  title={`Vídeos de ${year} — El archivo de Familukis`}
+  description={`Todos los vídeos que publicamos en ${year}: ${yearVideos.length} vídeos en orden cronológico.`}
+  canonicalUrl={pageUrl}
+>
+  <section class="archivo-hero">
+    <div class="wrap">
+      <nav class="breadcrumb">
+        <a href="/">Inicio</a><span>›</span><span>Archivo {year}</span>
+      </nav>
+      <h1>📼 {year}</h1>
+      <p class="sub">{yearVideos.length} vídeos · en orden de publicación</p>
+    </div>
+  </section>
+
+  <section class="archivo-grid wrap">
+    {yearVideos.map(v => (
+      <VideoCard
+        videoId={v.data.videoId}
+        title={v.data.title}
+        duracion={v.data.duracion}
+        views={v.data.views}
+        slug={v.id}
+        width="280px"
+      />
+    ))}
+  </section>
+</BaseLayout>
+
+<style>
+  .archivo-hero {
+    padding: 3rem 2rem 2rem;
+    background: linear-gradient(180deg, rgba(229,9,20,0.08) 0%, transparent 100%);
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .wrap {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.4);
+    margin-bottom: 1rem;
+  }
+  .breadcrumb a { color: rgba(255,255,255,0.5); }
+  .breadcrumb a:hover { color: #e50914; }
+  h1 {
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    margin: 0 0 0.4rem;
+  }
+  .sub {
+    color: rgba(255,255,255,0.4);
+    font-size: 0.9rem;
+  }
+  .archivo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+</style>

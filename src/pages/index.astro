@@ -178,17 +178,17 @@ function formatViews(n: number) {
 
   <!-- Archivo por años -->
   <div class="years-header"><h2>El archivo</h2></div>
-  {byYear('2015').length > 0 && <CategoryRow title="📼 2015" videos={toRow(byYear('2015'))} />}
-  {byYear('2016').length > 0 && <CategoryRow title="📼 2016" videos={toRow(byYear('2016'))} />}
-  {byYear('2017').length > 0 && <CategoryRow title="📼 2017" videos={toRow(byYear('2017'))} />}
-  {byYear('2018').length > 0 && <CategoryRow title="📼 2018" videos={toRow(byYear('2018'))} />}
-  {byYear('2019').length > 0 && <CategoryRow title="📼 2019" videos={toRow(byYear('2019'))} />}
-  {byYear('2020').length > 0 && <CategoryRow title="📼 2020" videos={toRow(byYear('2020'))} />}
-  {byYear('2021').length > 0 && <CategoryRow title="📼 2021" videos={toRow(byYear('2021'))} />}
-  {byYear('2022').length > 0 && <CategoryRow title="📼 2022" videos={toRow(byYear('2022'))} />}
-  {byYear('2023').length > 0 && <CategoryRow title="📼 2023" videos={toRow(byYear('2023'))} />}
-  {byYear('2024').length > 0 && <CategoryRow title="📼 2024" videos={toRow(byYear('2024'))} />}
-  {byYear('2025').length > 0 && <CategoryRow title="📼 2025" videos={toRow(byYear('2025'))} />}
+  {byYear('2015').length > 0 && <CategoryRow title="📼 2015" href="/archivo/2015/" videos={toRow(byYear('2015'))} />}
+  {byYear('2016').length > 0 && <CategoryRow title="📼 2016" href="/archivo/2016/" videos={toRow(byYear('2016'))} />}
+  {byYear('2017').length > 0 && <CategoryRow title="📼 2017" href="/archivo/2017/" videos={toRow(byYear('2017'))} />}
+  {byYear('2018').length > 0 && <CategoryRow title="📼 2018" href="/archivo/2018/" videos={toRow(byYear('2018'))} />}
+  {byYear('2019').length > 0 && <CategoryRow title="📼 2019" href="/archivo/2019/" videos={toRow(byYear('2019'))} />}
+  {byYear('2020').length > 0 && <CategoryRow title="📼 2020" href="/archivo/2020/" videos={toRow(byYear('2020'))} />}
+  {byYear('2021').length > 0 && <CategoryRow title="📼 2021" href="/archivo/2021/" videos={toRow(byYear('2021'))} />}
+  {byYear('2022').length > 0 && <CategoryRow title="📼 2022" href="/archivo/2022/" videos={toRow(byYear('2022'))} />}
+  {byYear('2023').length > 0 && <CategoryRow title="📼 2023" href="/archivo/2023/" videos={toRow(byYear('2023'))} />}
+  {byYear('2024').length > 0 && <CategoryRow title="📼 2024" href="/archivo/2024/" videos={toRow(byYear('2024'))} />}
+  {byYear('2025').length > 0 && <CategoryRow title="📼 2025" href="/archivo/2025/" videos={toRow(byYear('2025'))} />}
 
   <!-- Productos Amazon -->
   <ProductRow title="Nuestra tienda" products={PRODUCTOS} />
