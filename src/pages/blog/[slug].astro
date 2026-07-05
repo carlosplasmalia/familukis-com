@@ -72,11 +72,16 @@ const breadcrumbSchema = {
   ],
 };
 
+const itemReviewedType: Record<string, string> = {
+  "parques-atracciones": "AmusementPark",
+  "parques-acuaticos": "AmusementPark",
+  "magic-world": "Resort",
+};
 const reviewSchema = data.rating ? {
   "@context": "https://schema.org",
   "@type": "Review",
   "itemReviewed": {
-    "@type": "Thing",
+    "@type": itemReviewedType[data.categoria] ?? "TouristAttraction",
     "name": seoTitle.replace(/opiniones.*$/i, '').replace(/¿.*\?/i, '').trim(),
   },
   "reviewRating": {
