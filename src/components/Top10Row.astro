@@ -20,7 +20,7 @@ const { title = 'Para los más nostálgicos', items } = Astro.props;
 
   <div class="top10-track">
     {items.map(item => (
-      <a href={`/videos/${item.slug}`} class="top10-item" aria-label={item.title}>
+      <a href={`/videos/${item.slug}/`} class="top10-item" aria-label={item.title}>
         <span class="top10-num" aria-hidden="true">{item.rank}</span>
         <div class="top10-card">
           <img

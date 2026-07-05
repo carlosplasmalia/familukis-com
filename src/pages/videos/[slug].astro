@@ -95,7 +95,7 @@ const schemas = [videoSchema, breadcrumbSchema];
     <nav class="breadcrumb container" aria-label="Ruta de navegación">
       <a href="/">Inicio</a>
       <span>›</span>
-      <a href={`/categoria/${data.categoria}`}>{catLabel}</a>
+      <a href={`/categoria/${data.categoria}/`}>{catLabel}</a>
       <span>›</span>
       <span>{seoTitle}</span>
     </nav>
@@ -117,7 +117,7 @@ const schemas = [videoSchema, breadcrumbSchema];
     <!-- Contenido -->
     <div class="container page-body">
       <div class="video-meta">
-        <a href={`/categoria/${data.categoria}`} class="cat-pill">{catLabel}</a>
+        <a href={`/categoria/${data.categoria}/`} class="cat-pill">{catLabel}</a>
         {data.views > 0 && <span class="meta-views">{formatViews(data.views)}</span>}
         {data.duracion && <span class="meta-dur">{data.duracion}</span>}
       </div>
@@ -168,7 +168,7 @@ const schemas = [videoSchema, breadcrumbSchema];
               <h3>Más en {catLabel}</h3>
               <div class="related-list">
                 {related.slice(0, 5).map(v => (
-                  <a href={`/videos/${v.id}`} class="related-item">
+                  <a href={`/videos/${v.id}/`} class="related-item">
                     <img
                       src={`https://img.youtube.com/vi/${v.data.videoId}/mqdefault.jpg`}
                       alt={v.data.title}

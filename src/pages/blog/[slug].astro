@@ -126,12 +126,12 @@ const schemas = [
 
       <nav class="breadcrumb" aria-label="Ruta de navegación">
         <a href="/">Inicio</a><span aria-hidden="true">›</span>
-        <a href="/blog">Blog</a><span aria-hidden="true">›</span>
-        <a href={`/categoria/${data.categoria}`}>{catLabel}</a>
+        <a href="/blog/">Blog</a><span aria-hidden="true">›</span>
+        <a href={`/categoria/${data.categoria}/`}>{catLabel}</a>
       </nav>
 
       <header class="article-header">
-        <a href={`/categoria/${data.categoria}`} class="acat">{catLabel}</a>
+        <a href={`/categoria/${data.categoria}/`} class="acat">{catLabel}</a>
         {data.affiliated && (
           <div class="publi-notice">
             <span class="publi-label">Publicidad</span>
@@ -156,7 +156,7 @@ const schemas = [
             loading="lazy"
           ></iframe>
           {mainVideo && (
-            <a href={`/videos/${mainVideo.id}`} class="video-link">
+            <a href={`/videos/${mainVideo.id}/`} class="video-link">
               Ver también en Familukis: {mainVideo.data.title}
             </a>
           )}
@@ -188,9 +188,9 @@ const schemas = [
           {/* Navegación interna */}
           <div class="side-box side-nav">
             <h3>Explorar</h3>
-            <a href={`/categoria/${data.categoria}`}>→ Todos los vídeos de {catLabel}</a>
-            <a href="/blog">→ Blog de Familukis</a>
-            <a href="/blog">→ Todos los artículos</a>
+            <a href={`/categoria/${data.categoria}/`}>→ Todos los vídeos de {catLabel}</a>
+            <a href="/blog/">→ Blog de Familukis</a>
+            <a href="/blog/">→ Todos los artículos</a>
           </div>
 
           {/* Afiliados */}
@@ -224,7 +224,7 @@ const schemas = [
             <div class="side-box side-related">
               <h3>Artículos relacionados</h3>
               {relatedArticles.map(a => (
-                <a href={`/blog/${a.id}`} class="side-article">
+                <a href={`/blog/${a.id}/`} class="side-article">
                   <span class="side-article-title">{a.data.title}</span>
                 </a>
               ))}
@@ -247,7 +247,7 @@ const schemas = [
       <div class="wrap related-wrap">
         <CategoryRow
           title={`Más vídeos de ${catLabel}`}
-          href={`/categoria/${data.categoria}`}
+          href={`/categoria/${data.categoria}/`}
           videos={relatedVideos}
         />
       </div>

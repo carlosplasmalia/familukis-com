@@ -107,11 +107,11 @@ function formatViews(n: number) {
     <h2 class="hero-title">{hero.data.title}</h2>
     {hero.data.description && <p>{hero.data.description.slice(0, 120).trim()}…</p>}
     <div class="hero-btns">
-      <a href={`/videos/${hero.id}`} class="hbtn-play">
+      <a href={`/videos/${hero.id}/`} class="hbtn-play">
         <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M8 5v14l11-7z"/></svg>
         Reproducir
       </a>
-      <a href="/blog" class="hbtn-more">
+      <a href="/blog/" class="hbtn-more">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
         Explorar
       </a>
@@ -124,11 +124,11 @@ function formatViews(n: number) {
 <div class="wrap rows">
 
   {byCat('magic-world').length > 0 && (
-    <CategoryRow title="✨ Magic World Resort" href="/categoria/magic-world" videos={toRow(byCat('magic-world'))} />
+    <CategoryRow title="✨ Magic World Resort" href="/categoria/magic-world/" videos={toRow(byCat('magic-world'))} />
   )}
 
   {byCat('retos-challenges').length > 0 && (
-    <CategoryRow title="Retos y Challenges" href="/categoria/retos-challenges" videos={toRow(byCat('retos-challenges'))} />
+    <CategoryRow title="Retos y Challenges" href="/categoria/retos-challenges/" videos={toRow(byCat('retos-challenges'))} />
   )}
 
   <Top10Row title="Para los más nostálgicos 🏆" items={TOP10} />
@@ -137,39 +137,39 @@ function formatViews(n: number) {
   <LeadCapture />
 
   {byCat('parques-atracciones').length > 0 && (
-    <CategoryRow title="Parques de Atracciones" href="/categoria/parques-atracciones" videos={toRow(byCat('parques-atracciones'))} />
+    <CategoryRow title="Parques de Atracciones" href="/categoria/parques-atracciones/" videos={toRow(byCat('parques-atracciones'))} />
   )}
 
   {byCat('para-ninos').length > 0 && (
-    <CategoryRow title="Para Niños — Juegos y Juguetes" href="/categoria/para-ninos" videos={toRow(byCat('para-ninos'))} />
+    <CategoryRow title="Para Niños — Juegos y Juguetes" href="/categoria/para-ninos/" videos={toRow(byCat('para-ninos'))} />
   )}
 
   {byCat('halloween').length > 0 && (
-    <CategoryRow title="🎃 Halloween" href="/categoria/halloween" videos={toRow(byCat('halloween'))} />
+    <CategoryRow title="🎃 Halloween" href="/categoria/halloween/" videos={toRow(byCat('halloween'))} />
   )}
 
   {byCat('camping-naturaleza').length > 0 && (
-    <CategoryRow title="Camping y Naturaleza" href="/categoria/camping-naturaleza" videos={toRow(byCat('camping-naturaleza'))} />
+    <CategoryRow title="Camping y Naturaleza" href="/categoria/camping-naturaleza/" videos={toRow(byCat('camping-naturaleza'))} />
   )}
 
   {byCat('navidad-regalos').length > 0 && (
-    <CategoryRow title="🎄 Navidad y Regalos" href="/categoria/navidad-regalos" videos={toRow(byCat('navidad-regalos'))} />
+    <CategoryRow title="🎄 Navidad y Regalos" href="/categoria/navidad-regalos/" videos={toRow(byCat('navidad-regalos'))} />
   )}
 
   {byCat('parques-acuaticos').length > 0 && (
-    <CategoryRow title="Parques Acuáticos" href="/categoria/parques-acuaticos" videos={toRow(byCat('parques-acuaticos'))} />
+    <CategoryRow title="Parques Acuáticos" href="/categoria/parques-acuaticos/" videos={toRow(byCat('parques-acuaticos'))} />
   )}
 
   {byCat('vacaciones-familia').length > 0 && (
-    <CategoryRow title="Vacaciones en Familia" href="/categoria/vacaciones-familia" videos={toRow(byCat('vacaciones-familia'))} />
+    <CategoryRow title="Vacaciones en Familia" href="/categoria/vacaciones-familia/" videos={toRow(byCat('vacaciones-familia'))} />
   )}
 
   {byCat('playas-costa').length > 0 && (
-    <CategoryRow title="Playas y Costa" href="/categoria/playas-costa" videos={toRow(byCat('playas-costa'))} />
+    <CategoryRow title="Playas y Costa" href="/categoria/playas-costa/" videos={toRow(byCat('playas-costa'))} />
   )}
 
   {byCat('vlogs-familia').length > 0 && (
-    <CategoryRow title="Vlogs de Familia" href="/categoria/vlogs-familia" videos={toRow(byCat('vlogs-familia'))} />
+    <CategoryRow title="Vlogs de Familia" href="/categoria/vlogs-familia/" videos={toRow(byCat('vlogs-familia'))} />
   )}
 
   <!-- Productos Amazon -->
@@ -179,20 +179,20 @@ function formatViews(n: number) {
   <section class="blog-teaser">
     <div class="blog-teaser-hd">
       <h2>Del blog</h2>
-      <a href="/blog" class="see-all">Ver todos los artículos <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      <a href="/blog/" class="see-all">Ver todos los artículos <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
     </div>
     <div class="blog-grid">
-      <a href="/blog/juegos-y-retos-para-hacer-en-casa-con-ninos" class="blog-card">
+      <a href="/blog/juegos-y-retos-para-hacer-en-casa-con-ninos/" class="blog-card">
         <span class="blog-cat">Para niños</span>
         <h3>Juegos y retos para hacer en casa con niños</h3>
         <p>Las mejores ideas de juegos para entretener a los niños en casa sin gastar casi nada.</p>
       </a>
-      <a href="/blog/halloween-con-ninos-ideas-disfraces-y-actividades" class="blog-card">
+      <a href="/blog/halloween-con-ninos-ideas-disfraces-y-actividades/" class="blog-card">
         <span class="blog-cat">Halloween</span>
         <h3>Halloween con niños: disfraces caseros e ideas</h3>
         <p>Cómo celebrar Halloween en familia con disfraces fáciles y actividades que funcionan de verdad.</p>
       </a>
-      <a href="/blog/parque-warner-madrid-con-ninos-guia-completa" class="blog-card">
+      <a href="/blog/parque-warner-madrid-con-ninos-guia-completa/" class="blog-card">
         <span class="blog-cat">Parques</span>
         <h3>Parque Warner Madrid con niños: guía completa</h3>
         <p>Todo lo que necesitas saber antes de ir: qué ver, cómo organizarlo y si merece la pena.</p>
