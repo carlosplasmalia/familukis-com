@@ -27,7 +27,7 @@ if (videos.length === 0) return;
         : title
       }
     </h2>
-    {href && <a href={href} class="nrow-see-all">Ver todos <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>}
+    {href && <a href={href} class="nrow-see-all" aria-label={`Ver todos los vídeos de ${title}`}>Ver todos <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>}
   </div>
   <div class="nrow-scroll">
     {videos.map(v => (

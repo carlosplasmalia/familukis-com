@@ -1,6 +1,6 @@
 ---
-title: "24 horas aprendiendo GUITARRA ¡NIÑO de 9 AÑOS! aprende en un dia!"
-seoTitle: "24 horas aprendiendo GUITARRA ¡NIÑO de 9 AÑOS! aprende en un dia"
+title: "24 horas aprendiendo GUITARRA ¡NIÑO de 9 AÑOS! aprende en un día!"
+seoTitle: "24 horas aprendiendo GUITARRA ¡NIÑO de 9 AÑOS! aprende en un día"
 description: "En este video, Óliver un niño de 9 años aprende a tocar la guitarra en un solo día. ¡Mira cómo lo hace! Aprender un nuevo instrumento musical es posible para todos, ¡incluso para los más pequeños! Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro NUEVO LIBRO !📚👉🏻."
 seoDescription: "En este video, Óliver un niño de 9 años aprende a tocar la guitarra en un solo día. ¡Mira cómo lo hace! Aprender un nuevo instrumento musical es..."
 videoId: "DE4uNEfc0PU"
@@ -12,7 +12,7 @@ duracion: "17:13"
 featured: false
 ---
 
-Los retos de 24 horas son nuestro formato favorito para llevar la aventura al extremo. 24 horas aprendiendo GUITARRA ¡NIÑO de 9 AÑOS! aprende en un dia! fue uno de los más intensos que hemos grabado.
+Los retos de 24 horas son nuestro formato favorito para llevar la aventura al extremo. 24 horas aprendiendo GUITARRA ¡NIÑO de 9 AÑOS! aprende en un día! fue uno de los más intensos que hemos grabado.
 
 ## La estrategia
 
