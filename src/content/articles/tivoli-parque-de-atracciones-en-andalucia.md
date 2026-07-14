@@ -31,3 +31,5 @@ El parque de atracciones Tivoli tiene un encanto y una personalidad que lo hace 
 
 ### Un final emocionante
 Al final de nuestra aventura en el parque de atracciones Tivoli, hemos decidido probar una de las atracciones más emocionantes del parque. La atracción ha sido un momento de adrenalina y emoción, y nos ha dejado con ganas de más. Nosotros hemos disfrutado de un momento de diversión y alegría, y hemos podido compartir nuestra experiencia con nuestros seres queridos. El parque de atracciones Tivoli es un lugar que nos ha ofrecido un día de diversión y emoción, y nos ha hecho querer volver.
+
+Si vais a pasar unos días por la Costa del Sol y el calor aprieta, echa un ojo también a nuestra comparativa de los [mejores parques acuáticos de Andalucía con niños](/blog/mejores-parques-acuaticos-andalucia-con-ninos/), que combina de maravilla con la visita a Tivoli.

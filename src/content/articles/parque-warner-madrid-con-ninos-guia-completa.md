@@ -8,12 +8,12 @@ categoria: "parques-atracciones"
 tags: ["parque warner", "madrid", "parque de atracciones", "niños", "atracciones", "san martín de la vega", "warner beach", "DC superheroes"]
 relatedVideoIds: ["694N41EGZQ4", "FD6e4D5OQKY", "3P0tLsJYpKQ"]
 featured: true
-lastModified: "2026-07-03"
+lastModified: "2026-07-14"
 rating: 4.2
 reviewCount: 1
 faqs:
   - q: "¿A partir de qué edad merece la pena ir a Parque Warner con niños?"
-    a: "A partir de 5-6 años los niños pueden aprovechar bastante el parque, sobre todo la zona Cartoon Village y DC Super Friends. Para las atracciones más emocionantes (Superman, Batman) se necesitan al menos 1,20-1,40 m de altura. Con niños de menos de 4 años el parque puede quedarse corto."
+    a: "A partir de 5-6 años los niños pueden aprovechar bastante el parque, sobre todo la zona Cartoon Village y DC Super Friends. Para las atracciones más emocionantes (Superman, Batman Arkham Asylum) se necesita llegar a 1,32 m de altura. Con niños de menos de 4 años el parque puede quedarse corto."
   - q: "¿Se puede llevar comida a Parque Warner?"
     a: "Sí, Parque Warner permite acceso con mochila y comida propia. Hay zonas de picnic dentro del parque. Es la opción más económica para familias numerosas."
   - q: "¿Cuándo hay menos colas en Parque Warner?"
@@ -47,13 +47,13 @@ Parque Warner está dividido en cinco zonas temáticas. No intentes hacerlo todo
 
 La zona de los personajes clásicos de Warner: Bugs Bunny, el Pato Lucas, Piolín. Tiene casitas visitables, zonas de fotos y varias atracciones sin restricción de altura. Los peques que no dan la talla para las atracciones grandes encuentran aquí su territorio.
 
-La Aventura de Scooby-Doo (disparo láser montado) no tiene mínimo de altura y es uno de los mejores rides del parque para toda la familia.
+La Aventura de Scooby-Doo (disparo láser montado) no tiene mínimo de altura (los menores de 1,10 m suben acompañados de un adulto) y es uno de los mejores rides del parque para toda la familia.
 
 ### DC Superheroes World (las atracciones para los mayores)
 
-Aquí está Superman: La Atracción, la montaña rusa más demandada del parque. Exige 1,40 m de altura. Si tus hijos miden más de 1,35 m, haz esta atracción nada más abrir — la cola crece exponencialmente.
+Aquí está Superman: La Atracción de Acero, la montaña rusa más demandada del parque. Exige 1,32 m de altura. Si tus hijos ya llegan a esa marca, haz esta atracción nada más abrir, porque la cola crece exponencialmente.
 
-Batman La Fuga está aquí también (mínimo 1,20 m). Es intensa pero más corta que Superman.
+Batman: Arkham Asylum está aquí también (mínimo 1,32 m). Es intensa pero más corta que Superman. Y desde hace poco la estrella de la zona es Batman: Gotham City Escape, que se puede montar desde 1,30 m.
 
 ### Hollywood Boulevard
 
@@ -61,7 +61,7 @@ La entrada principal y zona de espectáculos. Los shows de acrobacias y efectos 
 
 ### Old West Territory
 
-Zona temática del Oeste con atracciones de nivel medio. El Tren de la Mina es el clásico: susto moderado, sin restricción de altura para ir acompañado, y muy rejugable. Los niños de 6-10 años suelen repetirlo dos o tres veces.
+Zona temática del Oeste con atracciones de nivel medio. Los Carros de la Mina es el clásico: susto moderado, mínimo de 1,20 m (acompañados hasta 1,30), y muy rejugable. Los niños de 6-10 años suelen repetirlo dos o tres veces.
 
 ### Movie World Studios
 
@@ -75,12 +75,15 @@ Antes de ir, mide a tus hijos. Evita la conversación difícil delante de la atr
 
 | Atracción | Altura mínima |
 |---|---|
-| Superman | 1,40 m |
-| Batman La Fuga | 1,20 m |
-| El Tren de la Mina | Sin mínimo (acompañado) |
-| Aventura Scooby-Doo | Sin mínimo |
-| Cartoon Village (mayoría) | Sin mínimo |
-| Warner Beach toboganes | 1,20 m (toboganes rápidos) |
+| Superman: La Atracción de Acero | 1,32 m |
+| Batman: Arkham Asylum | 1,32 m |
+| Batman: Gotham City Escape | 1,30 m |
+| Coaster Express | 1,21 m |
+| Los Carros de la Mina | 1,20 m (acompañados hasta 1,30) |
+| Aventura Scooby-Doo | Sin mínimo (acompañados hasta 1,10) |
+| Cartoon Village (mayoría) | Sin mínimo o desde 80 cm-1,05 m |
+
+Tenemos las 32 atracciones con sus alturas oficiales, los casos con acompañante y las alturas máximas en nuestra [tabla completa de alturas mínimas de Parque Warner](/blog/altura-minima-atracciones-parque-warner/).
 
 ---
 
