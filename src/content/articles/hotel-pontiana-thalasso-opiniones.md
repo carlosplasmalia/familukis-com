@@ -133,7 +133,7 @@ Reservando con **Ultra Todo Incluido y a partir de 4 noches** se activa el acces
 
 El **circuito interior de thalasso** con agua marina calentada, chorros, camas de burbujas y contrastes está incluido en cualquier régimen de estancia. Es un espacio tranquilo, con horarios amplios y bastante bien cuidado. Nos gustó especialmente el chorro cervical y la zona de camas calientes, que son de esas cosas que no encuentras en un resort de este tipo.
 
-Los **tratamientos personalizados** (masajes, envolturas, ritual thalasso completo, protocolos de belleza) se pagan aparte. Aquí entra la ventaja del código: 5% de descuento al ser huésped del hotel, y 20% de descuento si te alojas en habitación premium con Ultra Todo Incluido. Sobre precios de spa a la carta esos porcentajes se notan.
+Los **tratamientos personalizados** (masajes, envolturas, ritual thalasso completo, protocolos de belleza) se pagan aparte. Los clientes con habitación Marine Gardens Club Premium y régimen Ultra Todo Incluido tienen un 20% de descuento en todos los tratamientos, que sobre precios de spa a la carta se nota bastante.
 
 Las **piscinas exteriores** están integradas con el balneario, con zona de hamacas amplia y con área VIP para clientes con habitación premium y UTI. En agosto el ambiente sigue siendo tranquilo, muy diferente al de las piscinas de los otros hoteles del resort.
 

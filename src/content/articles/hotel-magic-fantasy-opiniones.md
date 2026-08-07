@@ -87,7 +87,7 @@ En cambio, si el plan es más variado (parque acuático un día, parque de atrac
 
 ## ¿Compensa el Ultra Todo Incluido en el Magic Fantasy?
 
-La respuesta corta: **desde 4 noches en adelante, sí**. Es cuando se activa el pack Mega Escapada Magic con 2 accesos al Parque Acuático Polinesia por persona, 1 acceso al Magic Show, 1 acceso a Magic Dino Land y 1 turno al Thalasso Exterior. Sumado por separado, ese conjunto sale por bastante más de los 125€ de diferencia entre Todo Incluido y Ultra Todo Incluido.
+La respuesta corta: **desde 4 noches en adelante, sí**. Es cuando se activa el pack Mega Escapada Magic con 2 accesos al Parque Acuático Polinesia por persona, 1 acceso al Magic Show, 2 accesos a Magic Land y 1 turno al Thalasso Exterior. Sumado por separado, ese conjunto sale por bastante más de los 125€ de diferencia entre Todo Incluido y Ultra Todo Incluido.
 
 Para escapadas cortas (1-3 noches) el UTI se queda en poco más que welcome pack y bebidas premium en más bares, y no acaba de compensar. Ahí el Todo Incluido normal a 369€ por noche cumple perfectamente.
 
