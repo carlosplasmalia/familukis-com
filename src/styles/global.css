@@ -293,3 +293,28 @@ button { cursor: pointer; font-family: inherit; }
 .prose a:hover { opacity: 0.8; }
 
 .prose strong { color: var(--text); font-weight: 600; }
+
+.prose table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin: 2rem 0;
+  max-width: 100%;
+  white-space: nowrap;
+}
+.prose thead th {
+  background: var(--surface-2);
+  color: var(--text);
+  font-weight: 700;
+  text-align: left;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--border);
+}
+.prose tbody td {
+  padding: 0.55rem 1rem;
+  border: 1px solid var(--border);
+  color: var(--text-2);
+}
+.prose tbody tr:hover { background: rgba(255,255,255,0.03); }

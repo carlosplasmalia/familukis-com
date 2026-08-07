@@ -6,8 +6,8 @@ seoDescription: "Opiniones del Hotel Magic Fantasy en Magic World Resort: tarifa
 date: "2026-08-06"
 categoria: "magic-world"
 tags: ["hotel magic fantasy", "magic world resort", "opiniones", "oropesa del mar", "hotel familiar", "temático", "precios"]
-relatedVideoIds: ["UOt1plTwQK0", "i-HxTZZRAgQ", "MNS6NZl2pjI"]
-featured: false
+relatedVideoIds: ["tih8ZPgCogQ", "i-HxTZZRAgQ", "MNS6NZl2pjI"]
+featured: true
 rating: 4.2
 reviewCount: 1
 lastModified: "2026-08-06"
