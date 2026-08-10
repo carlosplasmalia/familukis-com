@@ -2,7 +2,7 @@
 title: "Los DINOSAURIOS que llegaron en CAMIÓN que hicieron creer que  ¡ERAN REALES!"
 seoTitle: "Los DINOSAURIOS que llegaron en CAMIÓN que hicieron creer que..."
 description: "Hoy en las aventuras de los familukis os mostramos  los dinosaurios que han llegado misteriosamente a nuestra ciudad. Es impresionante ver cómo se mueven y como parpadean. Son dinosaurios reales o bueno casi reales porque se mueven y dan la impresión de estar vivos. Si buscas plan en familia y te gu."
-seoDescription: "Hoy en las aventuras de los familukis os mostramos los dinosaurios que han llegado misteriosamente a nuestra ciudad. Es impresionante ver cómo se..."
+seoDescription: "Hoy en las aventuras de los familukis os mostramos los dinosaurios que han llegado misteriosamente a nuestra ciudad. Es impresionante ver cómo se."
 videoId: "koeOwAwF8c0"
 publishedAt: "2023-06-03"
 categoria: "para-ninos"

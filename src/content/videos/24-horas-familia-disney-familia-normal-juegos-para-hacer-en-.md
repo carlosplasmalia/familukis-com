@@ -2,7 +2,7 @@
 title: "24 horas Familia DISNEY 🥊  Familia Normal // Juegos para hacer en casa"
 seoTitle: "24 horas Familia DISNEY Familia Normal // Juegos para hacer..."
 description: "¿Te gusta el mundo de Disney? ¿No sabes qué hacer en casa cuando estás aburrido y buscas ideas fáciles? Hoy nos divertimos con el filtro Disney  ¿Cómo sería una familia real convertida en personaje Disney? Descúbrelo y dale al play. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te gusta el mundo de Disney? ¿No sabes qué hacer en casa cuando estás aburrido y buscas ideas fáciles? Hoy nos divertimos con el filtro Disney ¿Cómo..."
+seoDescription: "¿Te gusta el mundo de Disney? ¿No sabes qué hacer en casa cuando estás aburrido y buscas ideas fáciles? Hoy nos divertimos con el filtro Disney ¿Cómo."
 videoId: "4mS6y408v50"
 publishedAt: "2021-08-27"
 categoria: "para-ninos"

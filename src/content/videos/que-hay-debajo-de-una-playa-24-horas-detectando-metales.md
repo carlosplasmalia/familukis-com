@@ -2,7 +2,7 @@
 title: "¿Que Hay DEBAJO de una PLAYA?? 24 horas DETECTANDO METALES"
 seoTitle: "Que Hay DEBAJO de una PLAYA?? 24 horas DETECTANDO METALES"
 description: "Hoy pasamos 24 horas buscando tesoros con un detector de metales en familia ¿Qué encontraremos? ¿Oro, plata una cámara de acción? Ven a descubrirlo. Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy pasamos 24 horas buscando tesoros con un detector de metales en familia ¿Qué encontraremos? ¿Oro, plata una cámara de acción? Ven a descubrirlo...."
+seoDescription: "Hoy pasamos 24 horas buscando tesoros con un detector de metales en familia ¿Qué encontraremos? ¿Oro, plata una cámara de acción? Ven a descubrirlo."
 videoId: "w38HIgNvUtI"
 publishedAt: "2023-03-17"
 categoria: "playas-costa"

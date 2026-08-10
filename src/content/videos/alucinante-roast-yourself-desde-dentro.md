@@ -2,7 +2,7 @@
 title: "ALUCINANTE 🔥ROAST YOURSELF 🔥Desde dentro"
 seoTitle: "ALUCINANTE ROAST YOURSELF Desde dentro"
 description: "¿Os gustan los Roast Yourself Challenge? ¡No te pierdas cómo se hace y se vive desde dentro el Roast Yourself de FAMILIA CARAMELUCHI! ¡Descúbrelo familuki! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "¿Os gustan los Roast Yourself Challenge? ¡No te pierdas cómo se hace y se vive desde dentro el Roast Yourself de FAMILIA CARAMELUCHI! ¡Descúbrelo..."
+seoDescription: "¿Os gustan los Roast Yourself Challenge? ¡No te pierdas cómo se hace y se vive desde dentro el Roast Yourself de FAMILIA CARAMELUCHI! ¡Descúbrelo."
 videoId: "oDSsyTk3imI"
 publishedAt: "2018-11-20"
 categoria: "retos-challenges"

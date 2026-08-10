@@ -2,7 +2,7 @@
 title: "¡Nos HECHIZAN! ¿Romperemos el CONJURO? + SORTEAMOS JUGUETES Srta Pepis"
 seoTitle: "Nos HECHIZAN! ¿Romperemos el CONJURO? + SORTEAMOS JUGUETES..."
 description: "¿Os gustan los retos con juguetes divertidos y originales? Hoy ponemos a prueba nuestra creatividad con #SrtaPepis. ¿Seremos capaces de romper el hechizo? Centro de uñas Srta pepis: Recuerda dejar tu comentario si quieres ganar un centro de uñas de fantasía de #BellezaSrtaPepis con #DisetJuguetes. S."
-seoDescription: "¿Os gustan los retos con juguetes divertidos y originales? Hoy ponemos a prueba nuestra creatividad con #SrtaPepis. ¿Seremos capaces de romper el..."
+seoDescription: "¿Os gustan los retos con juguetes divertidos y originales? Hoy ponemos a prueba nuestra creatividad con #SrtaPepis. ¿Seremos capaces de romper el."
 videoId: "NVe0lnmCRaI"
 publishedAt: "2017-11-07"
 categoria: "camping-naturaleza"

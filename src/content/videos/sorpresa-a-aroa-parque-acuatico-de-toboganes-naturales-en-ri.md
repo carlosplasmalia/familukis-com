@@ -2,7 +2,7 @@
 title: "SORPRESA a AROA ¡¡PARQUE ACUÁTICO de TOBOGANES NATURALES! en RIO VERDE"
 seoTitle: "SORPRESA a AROA ¡¡PARQUE ACUÁTICO de TOBOGANES NATURALES! en..."
 description: "¿Te gustan los parques acuáticos y los saltos al agua? Hoy sorprendemos a Aroa y descubrimos la ruta del Río Verde en Otívar (Granada). Un paraje Natural repleto de saltos y toboganes naturales que sin duda es una bonita experiencia para compartir en familia. Recomendamos como siempre id informados."
-seoDescription: "¿Te gustan los parques acuáticos y los saltos al agua? Hoy sorprendemos a Aroa y descubrimos la ruta del Río Verde en Otívar (Granada). Un paraje..."
+seoDescription: "¿Te gustan los parques acuáticos y los saltos al agua? Hoy sorprendemos a Aroa y descubrimos la ruta del Río Verde en Otívar (Granada). Un paraje."
 videoId: "4hnT4jDQNBk"
 publishedAt: "2020-08-04"
 categoria: "parques-acuaticos"

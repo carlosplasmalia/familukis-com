@@ -2,7 +2,7 @@
 title: "¿ESTAMOS EN MASTERCHEF? Youtubers cocinando CHALLENGE."
 seoTitle: "ESTAMOS EN MASTERCHEF? Youtubers cocinando CHALLENGE."
 description: "¿Os gusta MasterChef Junior y los concursos de cocina? ¿Si? Pues hoy os traemos un reto en el que cocinamos con otras familias Youtubers en la localidad de Nerja (Málaga) ¿Quien ganará? ¡Descúbrelo! El mejor regalo para un familuki ¡Camisetas oficiales! Familia Royitos: Happy Ohoana: DaddyHappy Vlog."
-seoDescription: "¿Os gusta MasterChef Junior y los concursos de cocina? ¿Si? Pues hoy os traemos un reto en el que cocinamos con otras familias Youtubers en la..."
+seoDescription: "¿Os gusta MasterChef Junior y los concursos de cocina? ¿Si? Pues hoy os traemos un reto en el que cocinamos con otras familias Youtubers en la."
 videoId: "aWCUXYRBvik"
 publishedAt: "2018-05-08"
 categoria: "retos-challenges"

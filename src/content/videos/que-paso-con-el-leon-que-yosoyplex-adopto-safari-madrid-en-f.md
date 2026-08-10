@@ -2,7 +2,7 @@
 title: "¿Qué pasó con el LEÓN que @YoSoyPlex adoptó? ¡Safari Madrid en FAMILIA!"
 seoTitle: "Qué pasó con el LEÓN que @YoSoyPlex adoptó? ¡Safari Madrid en..."
 description: "@YoSoyPlex  adoptó un león y hemos ido 3 años después a ver que ha sucedido. Únete a nuestra familia en Safari Madrid para ver más videos y saber que fue do los leones que adoptó YosoyPlex. (Vídeo colaboración no remunerada con Safari Madrid  que facilitó la entrada  gratuíta y la grabación  de la a."
-seoDescription: "@YoSoyPlex adoptó un león y hemos ido 3 años después a ver que ha sucedido. Únete a nuestra familia en Safari Madrid para ver más videos y saber que..."
+seoDescription: "@YoSoyPlex adoptó un león y hemos ido 3 años después a ver que ha sucedido. Únete a nuestra familia en Safari Madrid para ver más videos y saber que."
 videoId: "74btGpSdyVM"
 publishedAt: "2024-09-22"
 categoria: "para-ninos"

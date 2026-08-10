@@ -2,7 +2,7 @@
 title: "Tu FAMILIA en una peli con IA ¡Así lo hicimos!"
 seoTitle: "Tu FAMILIA en una peli con IA ¡Así lo hicimos"
 description: "¿Cómo hacer vídeos con inteligencia artificial? En este video te muestro cómo usé inteligencia artificial para transformar a mi familia en personajes de Dragon Ball. 😱⚡ Te enseño el paso a paso, los prompts que utilicé y cómo lograr resultados increíbles con esta herramienta. ¡No te lo pierdas! 📌 ¿Q."
-seoDescription: "¿Cómo hacer vídeos con inteligencia artificial? En este video te muestro cómo usé inteligencia artificial para transformar a mi familia en personajes..."
+seoDescription: "¿Cómo hacer vídeos con inteligencia artificial? En este video te muestro cómo usé inteligencia artificial para transformar a mi familia en personajes."
 videoId: "kFKdFrRhzDg"
 publishedAt: "2025-02-09"
 categoria: "para-ninos"

@@ -2,7 +2,7 @@
 title: "¿¿QUÍEN me conoce MÁS?? HIJOS Vs PADRES ¡¡Juego divertido!!"
 seoTitle: "QUÍEN me conoce MÁS?? HIJOS Vs PADRES ¡¡Juego divertido"
 description: "¿Te gustan los juegos divertidos? Hoy Mamá se ha inventado un juego muy divertido que tú también podrás hacer en casa con la familia ¿Te animas? ¡Dale al Play! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te gustan los juegos divertidos? Hoy Mamá se ha inventado un juego muy divertido que tú también podrás hacer en casa con la familia ¿Te animas? ¡Dale..."
+seoDescription: "¿Te gustan los juegos divertidos? Hoy Mamá se ha inventado un juego muy divertido que tú también podrás hacer en casa con la familia ¿Te animas? ¡Dale."
 videoId: "rWXagYn5QfY"
 publishedAt: "2021-01-29"
 categoria: "para-ninos"

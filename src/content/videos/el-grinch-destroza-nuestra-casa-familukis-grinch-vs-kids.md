@@ -2,7 +2,7 @@
 title: "El GRINCH destroza nuestra casa 🏚// Familukis // GRINCH vs KIDS"
 seoTitle: "El GRINCH destroza nuestra casa // Familukis // GRINCH vs KIDS"
 description: "El grinch ha venido a destrozar nuestra nueva casa, pero los niños no se lo pondrán fácil ¿Lograrán detener a \"El Grinch\" y escapar ? ¡Descúbrelo! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "El grinch ha venido a destrozar nuestra nueva casa, pero los niños no se lo pondrán fácil ¿Lograrán detener a \"El Grinch\" y escapar ? ¡Descúbrelo! El..."
+seoDescription: "El grinch ha venido a destrozar nuestra nueva casa, pero los niños no se lo pondrán fácil ¿Lograrán detener a \"El Grinch\" y escapar ? ¡Descúbrelo! El."
 videoId: "tkLjPVMp00I"
 publishedAt: "2018-12-28"
 categoria: "vlogs-familia"

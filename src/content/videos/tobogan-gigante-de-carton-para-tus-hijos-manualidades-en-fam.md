@@ -2,7 +2,7 @@
 title: "TOBOGÁN GIGANTE de CARTÓN PARA TUS HIJOS // Manualidades EN FAMILIA"
 seoTitle: "TOBOGÁN GIGANTE de CARTÓN PARA TUS HIJOS // Manualidades EN..."
 description: "¿Se te agotan las ideas para hacer actividades en familia? Hoy hemos fabricado un tobogán gigante de cartón en las escaleras de casa. Solo necesitamos cartón y precinto para fabricar un tobogán gigante que hará que tus hijos se lo pasen en grande ¡Descúbrelo!."
-seoDescription: "¿Se te agotan las ideas para hacer actividades en familia? Hoy hemos fabricado un tobogán gigante de cartón en las escaleras de casa. Solo necesitamos..."
+seoDescription: "¿Se te agotan las ideas para hacer actividades en familia? Hoy hemos fabricado un tobogán gigante de cartón en las escaleras de casa. Solo necesitamos."
 videoId: "F7IbMoIC5AM"
 publishedAt: "2020-09-25"
 categoria: "parques-acuaticos"

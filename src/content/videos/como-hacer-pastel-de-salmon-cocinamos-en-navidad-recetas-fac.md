@@ -2,7 +2,7 @@
 title: "Como hacer PASTEL de Salmón ¡COCINAMOS EN NAVIDAD! // Recetas fáciles y rápidas con niños"
 seoTitle: "Como hacer PASTEL de Salmón ¡COCINAMOS EN NAVIDAD! // Recetas..."
 description: "¿Te gusta cocinar? ¿Si? Pues descúbre como hacer una receta para Navidad fácil, sencilla y para toda la familia. Con este pastel de salmón serás el chef más distinguido de tu familia estas Navidades ¿Te apuntas a hacer esta receta fácil para navidad? Pues no lo dudes y dale al Play y mira como Carli."
-seoDescription: "¿Te gusta cocinar? ¿Si? Pues descúbre como hacer una receta para Navidad fácil, sencilla y para toda la familia. Con este pastel de salmón serás el..."
+seoDescription: "¿Te gusta cocinar? ¿Si? Pues descúbre como hacer una receta para Navidad fácil, sencilla y para toda la familia. Con este pastel de salmón serás el."
 videoId: "yKr41Y3YEN8"
 publishedAt: "2016-12-20"
 categoria: "navidad-regalos"

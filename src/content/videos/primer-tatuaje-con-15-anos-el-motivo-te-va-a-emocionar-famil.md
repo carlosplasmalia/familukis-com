@@ -2,7 +2,7 @@
 title: "PRIMER TATUAJE con 15 años El motivo te va a EMOCIONAR // Familia Familukis"
 seoTitle: "PRIMER TATUAJE con 15 años El motivo te va a EMOCIONAR //..."
 description: "Aroa se ha hecho un tatuaje a los 15 años ¿Porqué hemos dejado a nuestra hija hacerse un tatuaje? ¿Qué motivo a elegido nuestra hija para tatuarse? ¿Duele o no duele hacerse un tatuaje? ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Aroa se ha hecho un tatuaje a los 15 años ¿Porqué hemos dejado a nuestra hija hacerse un tatuaje? ¿Qué motivo a elegido nuestra hija para tatuarse?..."
+seoDescription: "Aroa se ha hecho un tatuaje a los 15 años ¿Porqué hemos dejado a nuestra hija hacerse un tatuaje? ¿Qué motivo a elegido nuestra hija para tatuarse?"
 videoId: "x1SKLicDBtM"
 publishedAt: "2021-09-17"
 categoria: "para-ninos"

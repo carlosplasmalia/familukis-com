@@ -2,7 +2,7 @@
 title: "PRIMER BAÑO de MAX en la PISCINA 💦 🐶Nos bañamos con nuestro cachorro"
 seoTitle: "PRIMER BAÑO de MAX en la PISCINA Nos bañamos con nuestro cachorro"
 description: "¿Queréis saber como es la vida de nuestra mascota? Max ya está casi recuperado y para celebrarlo hemos montado una piscina dentro de casa y nos hemos bañado con nuestro cachorro en la alberca ¡Descúbrelo! Encuentra todo lo que necesitas para un verano redondo en:."
-seoDescription: "¿Queréis saber como es la vida de nuestra mascota? Max ya está casi recuperado y para celebrarlo hemos montado una piscina dentro de casa y nos hemos..."
+seoDescription: "¿Queréis saber como es la vida de nuestra mascota? Max ya está casi recuperado y para celebrarlo hemos montado una piscina dentro de casa y nos hemos."
 videoId: "cHlbD9NbDUE"
 publishedAt: "2019-05-21"
 categoria: "para-ninos"

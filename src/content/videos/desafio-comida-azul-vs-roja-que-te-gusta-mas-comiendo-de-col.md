@@ -2,7 +2,7 @@
 title: "Desafío Comida AZUL Vs. ROJA ¿Qué te GUSTA MÁS?  comiendo de colores"
 seoTitle: "Desafío Comida AZUL Vs. ROJA ¿Qué te GUSTA MÁS? comiendo de..."
 description: "¿Que te gusta más? ¿La comida ROJA o la comida AZUL? Ven a conocer con nosotros el desafío de la comida de colores con nuestra Family ¡Comenta tus productos de comida preferido y juega con nosotros! Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Que te gusta más? ¿La comida ROJA o la comida AZUL? Ven a conocer con nosotros el desafío de la comida de colores con nuestra Family ¡Comenta tus..."
+seoDescription: "¿Que te gusta más? ¿La comida ROJA o la comida AZUL? Ven a conocer con nosotros el desafío de la comida de colores con nuestra Family ¡Comenta tus."
 videoId: "cD-LJv6i6Ao"
 publishedAt: "2023-04-11"
 categoria: "para-ninos"

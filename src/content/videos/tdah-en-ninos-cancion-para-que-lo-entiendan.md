@@ -2,7 +2,7 @@
 title: "TDAH en NIÑOS Canción  para  que lo ENTIENDAN"
 seoTitle: "TDAH en NIÑOS Canción para que lo ENTIENDAN"
 description: "Descubre \"¡soy TDAH!\", una canción para niños con TDAH única que te llevará al mundo de Óliver, un niño con la condición de  (Trastorno por Déficit de Atención e Hiperactividad). Este emocionante videoclip está creado para inspirar a niños con TDAH, educar a quienes no lo tienen y fomentar la empatí."
-seoDescription: "Descubre \"¡soy TDAH!\", una canción para niños con TDAH única que te llevará al mundo de Óliver, un niño con la condición de (Trastorno por Déficit de..."
+seoDescription: "Descubre \"¡soy TDAH!\", una canción para niños con TDAH única que te llevará al mundo de Óliver, un niño con la condición de (Trastorno por Déficit de."
 videoId: "GHnaO9vc55E"
 publishedAt: "2025-01-30"
 categoria: "para-ninos"

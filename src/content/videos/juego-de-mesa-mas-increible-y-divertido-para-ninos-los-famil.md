@@ -2,7 +2,7 @@
 title: "JUEGO de mesa MÁS INCREÍBLE y divertido para NIÑOS // Los Familukis"
 seoTitle: "JUEGO de mesa MÁS INCREÍBLE y divertido para NIÑOS // Los..."
 description: "Hoy estrenamos un juego de mesa increíblemente divertido para jugar en familia ¿Te gusta divertirte con juegos sencillos y entretenidos? Pues dale al play y ¡Descúbrelo! Síguenos en instagram:."
-seoDescription: "Hoy estrenamos un juego de mesa increíblemente divertido para jugar en familia ¿Te gusta divertirte con juegos sencillos y entretenidos? Pues dale al..."
+seoDescription: "Hoy estrenamos un juego de mesa increíblemente divertido para jugar en familia ¿Te gusta divertirte con juegos sencillos y entretenidos? Pues dale al."
 videoId: "Srxm6mHCiSo"
 publishedAt: "2017-11-28"
 categoria: "para-ninos"

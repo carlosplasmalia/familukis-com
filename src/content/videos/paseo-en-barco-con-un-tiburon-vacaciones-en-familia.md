@@ -2,7 +2,7 @@
 title: "PASEO en BARCO con ¡UN TIBURÓN! 🦈 // Vacaciones en FAMILIA"
 seoTitle: "PASEO en BARCO con ¡UN TIBURÓN! // Vacaciones en FAMILIA"
 description: "¿Te gusta ir de vacaciones con la familia? En el vídeo de hoy zarpamos desde Tarifa para visitar un barco en el que nos asaltará un TIBURÓN. No os perdáis este vídeo para niños y familias ¡Descúbrelo!."
-seoDescription: "¿Te gusta ir de vacaciones con la familia? En el vídeo de hoy zarpamos desde Tarifa para visitar un barco en el que nos asaltará un TIBURÓN. No os..."
+seoDescription: "¿Te gusta ir de vacaciones con la familia? En el vídeo de hoy zarpamos desde Tarifa para visitar un barco en el que nos asaltará un TIBURÓN. No os."
 videoId: "fMp_rH09YMQ"
 publishedAt: "2019-08-20"
 categoria: "vacaciones-familia"

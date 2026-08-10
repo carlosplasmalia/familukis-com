@@ -8,6 +8,14 @@ categoria: "parques-atracciones"
 tags: ["Windobona", "túnel de viento", "experiencias en familia", "parques de atracciones", "juegos y juguetes en familia"]
 relatedVideoIds: ["0-gSCFVoayo"]
 featured: false
+rating: 4.8
+faqs:
+  - q: "¿A partir de qué edad se puede entrar al túnel de viento de Windobona?"
+    a: "Windobona acepta participantes a partir de 4 años. Los niños pequeños deben ir acompañados de un adulto dentro del túnel. No hay límite máximo de edad."
+  - q: "¿Hace falta experiencia previa para hacer vuelo interior en Windobona?"
+    a: "No. Antes de entrar al túnel os dan una breve formación de postura y señales. Un instructor os acompaña dentro del túnel durante toda la sesión, así que no hace falta ninguna experiencia previa."
+  - q: "¿Cuánto dura una sesión en Windobona Madrid?"
+    a: "Las sesiones estándar suelen durar unos 2 minutos de vuelo real dentro del túnel, que equivalen aproximadamente a 8 salidas en paracaídas. El tiempo total en las instalaciones (equipo, formación, vuelo) es de unos 45-60 minutos."
 ---
 
 ## Nuestra aventura en el túnel del viento

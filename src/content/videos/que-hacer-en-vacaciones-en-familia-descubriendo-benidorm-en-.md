@@ -2,7 +2,7 @@
 title: "¿Qué hacer EN VACACIONES en FAMILIA? Descubriendo Benidorm en BICICLETA ELÉCTRICA"
 seoTitle: "Qué hacer EN VACACIONES en FAMILIA? Descubriendo Benidorm en..."
 description: "¿Te gustan los planes en familia? Quieres saber qué cosas se hacen en vacaciones? ¿Te gusta el turismo activo en familia? Hoy viajamos por primera vez en unas bicicletas eléctricas y descubriremos un Benidorm increíble y repleto de historias. Bienvenidos a nuestras vacaciones familias. ¡Descubre nue."
-seoDescription: "¿Te gustan los planes en familia? Quieres saber qué cosas se hacen en vacaciones? ¿Te gusta el turismo activo en familia? Hoy viajamos por primera vez..."
+seoDescription: "¿Te gustan los planes en familia? Quieres saber qué cosas se hacen en vacaciones? ¿Te gusta el turismo activo en familia? Hoy viajamos por primera vez."
 videoId: "coWMhxLkkC0"
 publishedAt: "2021-07-07"
 categoria: "vacaciones-familia"

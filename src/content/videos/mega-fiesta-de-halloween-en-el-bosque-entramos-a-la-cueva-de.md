@@ -2,7 +2,7 @@
 title: "MEGA FIESTA de HALLOWEEN en el bosque ¡ENTRAMOS a la cueva del TERROR!"
 seoTitle: "MEGA FIESTA de HALLOWEEN en el bosque ¡ENTRAMOS a la cueva..."
 description: "¿Qué se puede hacer en halloween? Si se te han acabado las ideas para hacer en halloween con tu familia y amigos, en el vídeo de hoy hacemos una mega fiesta del día de muertos, fácil y sencilla para hacer en casa. Nosotros nos hemos ido a celebrarlo al bosque terrorífico y nos hemos adentrado en la."
-seoDescription: "¿Qué se puede hacer en halloween? Si se te han acabado las ideas para hacer en halloween con tu familia y amigos, en el vídeo de hoy hacemos una mega..."
+seoDescription: "¿Qué se puede hacer en halloween? Si se te han acabado las ideas para hacer en halloween con tu familia y amigos, en el vídeo de hoy hacemos una mega."
 videoId: "Lmj4IaG89oI"
 publishedAt: "2021-10-27"
 categoria: "halloween"

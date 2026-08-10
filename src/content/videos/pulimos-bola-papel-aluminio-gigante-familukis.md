@@ -2,7 +2,7 @@
 title: "Pulimos BOLA papel ALUMINIO ¡¡GIGANTE!! // Familukis"
 seoTitle: "Pulimos BOLA papel ALUMINIO ¡¡GIGANTE"
 description: "Hoy batimos el record del nuevo reto japonés Puliendo bola de papel de aluminio. Hemos querido hacer este maravilloso experimento con papel de aluminio y luego hemos pulido la gigantesca bola en un taller de carpintería de aluminio y pulido ¡Ha quedado genial! ¿Te apuntas? Síguenos en instagram:."
-seoDescription: "Hoy batimos el record del nuevo reto japonés Puliendo bola de papel de aluminio. Hemos querido hacer este maravilloso experimento con papel de aluminio..."
+seoDescription: "Hoy batimos el record del nuevo reto japonés Puliendo bola de papel de aluminio. Hemos querido hacer este maravilloso experimento con papel de aluminio."
 videoId: "7-Hri1TiRUI"
 publishedAt: "2018-04-20"
 categoria: "retos-challenges"

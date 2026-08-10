@@ -2,7 +2,7 @@
 title: "NIÑOS REACCIONANDO A TECNOLOGÍA ANTIGUA // Juegos y Juguetes en Familia"
 seoTitle: "NIÑOS REACCIONANDO A TECNOLOGÍA ANTIGUA // Juegos y Juguetes..."
 description: "Hola #Familukis! Hoy nos hemos ido al trabajo de papá a descubrir cosas antiguas ¿Creeis que somos capaces de hacer funcionar algunos de éstos cacharros? ¡Descúbrelo en éste reto de reaccionado a cosas antiguas! Podéis encontrar cualquiera de los artículos del vídeo en: Un saludo Familukis!."
-seoDescription: "Hola #Familukis! Hoy nos hemos ido al trabajo de papá a descubrir cosas antiguas ¿Creeis que somos capaces de hacer funcionar algunos de éstos..."
+seoDescription: "Hola #Familukis! Hoy nos hemos ido al trabajo de papá a descubrir cosas antiguas ¿Creeis que somos capaces de hacer funcionar algunos de éstos."
 videoId: "mihQP_Yq0tE"
 publishedAt: "2017-03-21"
 categoria: "retos-challenges"

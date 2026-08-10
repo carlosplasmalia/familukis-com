@@ -2,7 +2,7 @@
 title: "¿QUÉ DIBUJA AROA en mi ESPALDA? Juegos DE DIBUJO para hacer en CASA"
 seoTitle: "QUÉ DIBUJA AROA en mi ESPALDA? Juegos DE DIBUJO para hacer en..."
 description: "¿Os gusta dibujar? ¿que hacer cuando estás aburrido? Hoy os traemos un juego divertido para hacer en casa con tus amigos o en familia. Además Aroa ha dibujado una cosa muy chula en la pared de su habitación ¿Te animas a descubrirlo? ¡Dale al play! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Os gusta dibujar? ¿que hacer cuando estás aburrido? Hoy os traemos un juego divertido para hacer en casa con tus amigos o en familia. Además Aroa ha..."
+seoDescription: "¿Os gusta dibujar? ¿que hacer cuando estás aburrido? Hoy os traemos un juego divertido para hacer en casa con tus amigos o en familia. Además Aroa ha."
 videoId: "8i5tZpMSDSs"
 publishedAt: "2020-05-20"
 categoria: "para-ninos"

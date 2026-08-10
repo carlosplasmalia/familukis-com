@@ -2,7 +2,7 @@
 title: "¡3 MARKER CHALLENGE! edition DIBUJOS animados BRILLANTES."
 seoTitle: "3 MARKER CHALLENGE! edition DIBUJOS animados BRILLANTES."
 description: "¡Hola Familukis! Hoy os traemos el reto 3 marker challenge o el reto de los rotuladores brillantes. ¿Os gustan los retos divertidos en familia? ¿Os gusta colorear? Pues no ps perdáis el 3 marker challenge edición BRLLANTE ¿Nos acompañais? ¡Dale al Play! Síguenos en instagram:."
-seoDescription: "¡Hola Familukis! Hoy os traemos el reto 3 marker challenge o el reto de los rotuladores brillantes. ¿Os gustan los retos divertidos en familia? ¿Os..."
+seoDescription: "¡Hola Familukis! Hoy os traemos el reto 3 marker challenge o el reto de los rotuladores brillantes. ¿Os gustan los retos divertidos en familia? ¿Os."
 videoId: "jZQyEmDvPSI"
 publishedAt: "2018-03-16"
 categoria: "retos-challenges"

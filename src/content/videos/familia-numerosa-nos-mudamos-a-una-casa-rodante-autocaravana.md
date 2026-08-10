@@ -2,7 +2,7 @@
 title: "FAMILIA NUMEROSA 👨‍👩‍👧‍👦 ¡¡NOS MUDAMOS a una CASA RODANTE!! // Autocaravana familliar"
 seoTitle: "FAMILIA NUMEROSA ¡¡NOS MUDAMOS a una CASA RODANTE!! //..."
 description: "¿Te gustaría saber cómo es nuestra autocaravana para familias numerosas? ¿Quieres conocer nuestra casa rodante? ¿Te gustan las furgonetas camper de familia numerosa? Dale al play y descubre la mejor autocaravana de 6 personas que hemos probado. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te gustaría saber cómo es nuestra autocaravana para familias numerosas? ¿Quieres conocer nuestra casa rodante? ¿Te gustan las furgonetas camper de..."
+seoDescription: "¿Te gustaría saber cómo es nuestra autocaravana para familias numerosas? ¿Quieres conocer nuestra casa rodante? ¿Te gustan las furgonetas camper de."
 videoId: "C5Vuwo-qUiE"
 publishedAt: "2021-03-02"
 categoria: "camping-naturaleza"

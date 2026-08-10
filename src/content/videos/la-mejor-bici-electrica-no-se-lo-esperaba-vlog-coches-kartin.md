@@ -2,7 +2,7 @@
 title: "La mejor BICI ELECTRICA ¡NO SE LO ESPERABA!  + Vlog coches karting 🚲 fiido bike"
 seoTitle: "La mejor BICI ELECTRICA ¡NO SE LO ESPERABA! + Vlog coches..."
 description: "Nos encantan las bicicletas eléctricas así que ¡Ya tenemos las nuestras para disfrutarlas en familia!  Y es que nos encanta todo lo que tenga que ver con formas de movilidad ecológicas. Además os enseñaremos uno de los planazos estrella para hacer en familia y con amigos ¡Carreras de coches en uno d."
-seoDescription: "Nos encantan las bicicletas eléctricas así que ¡Ya tenemos las nuestras para disfrutarlas en familia! Y es que nos encanta todo lo que tenga que ver..."
+seoDescription: "Nos encantan las bicicletas eléctricas así que ¡Ya tenemos las nuestras para disfrutarlas en familia! Y es que nos encanta todo lo que tenga que ver."
 videoId: "WATXg6VqdXw"
 publishedAt: "2021-10-20"
 categoria: "vlogs-familia"

@@ -2,7 +2,7 @@
 title: "24 horas de ZOMBI 🧟‍♂️ + ¡SUSTO A AROA!"
 seoTitle: "24 horas de ZOMBI + ¡SUSTO A AROA"
 description: "Sabemos lo que os gustan los vídeos en los que nos maquillamos en la época de Halloween. Por eso hoy Papiluki ha ido a que lo maquillen como un auténtico zombie a la escuela de maquillaje DNI School en Málaga. Tendrá que pasar un día completo maquillado de zombi ¿Será capaz de hacerlo y asustar a Ar."
-seoDescription: "Sabemos lo que os gustan los vídeos en los que nos maquillamos en la época de Halloween. Por eso hoy Papiluki ha ido a que lo maquillen como un..."
+seoDescription: "Sabemos lo que os gustan los vídeos en los que nos maquillamos en la época de Halloween. Por eso hoy Papiluki ha ido a que lo maquillen como un."
 videoId: "RstsdNp7V_Q"
 publishedAt: "2020-10-30"
 categoria: "halloween"

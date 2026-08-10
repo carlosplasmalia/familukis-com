@@ -2,7 +2,7 @@
 title: "24 horas en la ¡¡NUEVA PISCINA DEL JARDÍN!! + día de la madre"
 seoTitle: "24 horas en la ¡¡NUEVA PISCINA DEL JARDÍN!! + día de la madre"
 description: "El verano ya toca a la puerta de cientos de hogares y familias, pero con el confinamiento las piscinas públicas están cerradas, así que nosotros nos hemos montado una piscina en casa y hemos pasado un día completo genial en la familia ¿Quieres darte un chapuzón virtual con nosotros en esta alberca?."
-seoDescription: "El verano ya toca a la puerta de cientos de hogares y familias, pero con el confinamiento las piscinas públicas están cerradas, así que nosotros nos..."
+seoDescription: "El verano ya toca a la puerta de cientos de hogares y familias, pero con el confinamiento las piscinas públicas están cerradas, así que nosotros nos."
 videoId: "CmSUU5huBL8"
 publishedAt: "2020-05-06"
 categoria: "para-ninos"

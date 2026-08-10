@@ -2,7 +2,7 @@
 title: "¿RETOS EN LA PISCINA? ¡¡Mejor!! COMPETICIÓN familias YOUTUBERS"
 seoTitle: "RETOS EN LA PISCINA? ¡¡Mejor!! COMPETICIÓN familias YOUTUBERS"
 description: "¿Estáis cansados de ver siempre los mismos vídeos saltos en la piscina? Hoy nos hemos currado un reto de piscina más divertido. Más divertido aún que el de hacer gimnasia en la piscina ¿No crees? ¡Descúbrelo dando a al play! Canal de nuestros amigos: El mejor regalo para un Familuki ¡Camisetas ofici."
-seoDescription: "¿Estáis cansados de ver siempre los mismos vídeos saltos en la piscina? Hoy nos hemos currado un reto de piscina más divertido. Más divertido aún que..."
+seoDescription: "¿Estáis cansados de ver siempre los mismos vídeos saltos en la piscina? Hoy nos hemos currado un reto de piscina más divertido. Más divertido aún que."
 videoId: "jlrJqDaRXWg"
 publishedAt: "2018-09-18"
 categoria: "retos-challenges"

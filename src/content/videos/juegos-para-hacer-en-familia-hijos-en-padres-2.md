@@ -2,7 +2,7 @@
 title: "JUEGOS para HACER en FAMILIA ¡¡HIJOS en PADRES 2!!"
 seoTitle: "JUEGOS para HACER en FAMILIA ¡¡HIJOS en PADRES 2"
 description: "¿Quieres que tus hijos sientan empatía al ver cómo sus padres se convierten en hijos? Hoy traemos el segundo episodio de la serie de \"Hijos se convierten en padres\". Dale al Play y ¡Diviértete! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Quieres que tus hijos sientan empatía al ver cómo sus padres se convierten en hijos? Hoy traemos el segundo episodio de la serie de \"Hijos se..."
+seoDescription: "¿Quieres que tus hijos sientan empatía al ver cómo sus padres se convierten en hijos? Hoy traemos el segundo episodio de la serie de \"Hijos se."
 videoId: "XEzMn1X9Uww"
 publishedAt: "2020-12-22"
 categoria: "para-ninos"

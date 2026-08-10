@@ -2,7 +2,7 @@
 title: "¡Vuelta al COLE! 📚✏️ Material escolar ¡NUEVO y RECICLADO! 🌍 2022-23 //  Los familukis"
 seoTitle: "Vuelta al COLE! Material escolar ¡NUEVO y RECICLADO! 2022-23..."
 description: "¿Queréis ver cual es nuestro material escolar? Hoy cumplimos con la tradicional vuelta al cole y os mostramos nuestros útiles escolares ¡Gracias por acompañarnos como cada año. Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Queréis ver cual es nuestro material escolar? Hoy cumplimos con la tradicional vuelta al cole y os mostramos nuestros útiles escolares ¡Gracias por..."
+seoDescription: "¿Queréis ver cual es nuestro material escolar? Hoy cumplimos con la tradicional vuelta al cole y os mostramos nuestros útiles escolares ¡Gracias por."
 videoId: "pJiMZE9MQgI"
 publishedAt: "2022-09-09"
 categoria: "para-ninos"

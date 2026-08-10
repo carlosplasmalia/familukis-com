@@ -2,7 +2,7 @@
 title: "PRIMERA NOCHE en la CASA RODANTE // Acampada en Autobús vivienda + reformas"
 seoTitle: "PRIMERA NOCHE en la CASA RODANTE // Acampada en Autobús..."
 description: "Las reformas de nuestra casa rodante van viento en popa, pero ¿Cómo es pasar una noche en nuestra vivienda sobre ruedas? Hoy nos preparamos para acampar y además ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Las reformas de nuestra casa rodante van viento en popa, pero ¿Cómo es pasar una noche en nuestra vivienda sobre ruedas? Hoy nos preparamos para..."
+seoDescription: "Las reformas de nuestra casa rodante van viento en popa, pero ¿Cómo es pasar una noche en nuestra vivienda sobre ruedas? Hoy nos preparamos para."
 videoId: "A8nRXgf_UK8"
 publishedAt: "2022-04-27"
 categoria: "para-ninos"

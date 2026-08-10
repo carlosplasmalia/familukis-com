@@ -2,7 +2,7 @@
 title: "Descubre los BICHOS más PELIGROSOS y VENENOSOS 🕷// Familukis"
 seoTitle: "Descubre los BICHOS más PELIGROSOS y VENENOSOS"
 description: "Hemos conseguido algunos de los bichos más peligrosos y venenosos del planeta con la colección de RBA de National Geographic ¡Descubrela! Puedes suscribirte a la colección de bichos:  o puedes conseguirla cada semana en tu quiosco. El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en."
-seoDescription: "Hemos conseguido algunos de los bichos más peligrosos y venenosos del planeta con la colección de RBA de National Geographic ¡Descubrela! Puedes..."
+seoDescription: "Hemos conseguido algunos de los bichos más peligrosos y venenosos del planeta con la colección de RBA de National Geographic ¡Descubrela! Puedes."
 videoId: "OE44KApQvN0"
 publishedAt: "2018-08-30"
 categoria: "para-ninos"

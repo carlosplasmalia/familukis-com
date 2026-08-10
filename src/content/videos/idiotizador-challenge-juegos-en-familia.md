@@ -2,7 +2,7 @@
 title: "IDIOTIZADOR CHALLENGE 😦 // JUEGOS EN FAMILIA"
 seoTitle: "IDIOTIZADOR CHALLENGE // JUEGOS EN FAMILIA"
 description: "Hoy en juegos y juguetes en familia os traemos el reto del ¡Idiotizador challenge! El idiotizador es una app que funciona con unos auriculares y el micrófono del teléfono. Cuando alguien se pone los auriculares, su voz empieza a escucharse con retardo y entonces le es dificilísimo hablar con normali."
-seoDescription: "Hoy en juegos y juguetes en familia os traemos el reto del ¡Idiotizador challenge! El idiotizador es una app que funciona con unos auriculares y el..."
+seoDescription: "Hoy en juegos y juguetes en familia os traemos el reto del ¡Idiotizador challenge! El idiotizador es una app que funciona con unos auriculares y el."
 videoId: "PStoOofcjcU"
 publishedAt: "2016-04-22"
 categoria: "retos-challenges"

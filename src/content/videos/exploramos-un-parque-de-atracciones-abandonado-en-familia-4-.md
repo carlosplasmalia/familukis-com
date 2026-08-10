@@ -2,7 +2,7 @@
 title: "EXPLORAMOS un PARQUE de ATRACCIONES ABANDONADO en FAMILIA ¡4 años de abandono!"
 seoTitle: "EXPLORAMOS un PARQUE de ATRACCIONES ABANDONADO en FAMILIA ¡4..."
 description: "¡Mira como quedó este parque de diversiones después de 4 años cerrado! Si te gustan los vídeos de urbex  en parques de atracciones abandonados o parques acuáticos abandonados el vídeo de hoy te va a encantar. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¡Mira como quedó este parque de diversiones después de 4 años cerrado! Si te gustan los vídeos de urbex en parques de atracciones abandonados o parques..."
+seoDescription: "¡Mira como quedó este parque de diversiones después de 4 años cerrado! Si te gustan los vídeos de urbex en parques de atracciones abandonados o parques."
 videoId: "ZTaS6BLwNsk"
 publishedAt: "2022-04-23"
 categoria: "parques-atracciones"

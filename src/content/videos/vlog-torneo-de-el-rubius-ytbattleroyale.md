@@ -2,7 +2,7 @@
 title: "Vlog TORNEO de EL RUBIUS #Ytbattleroyale"
 seoTitle: "Vlog TORNEO de EL RUBIUS #Ytbattleroyale"
 description: "Familukis hemos estado en el torneo presencial organizado por \"El Rubius\" en el que 100 youtubers jugaron al Fortnite ¡Descúbrelo! Contenido Extra: El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "Familukis hemos estado en el torneo presencial organizado por \"El Rubius\" en el que 100 youtubers jugaron al Fortnite ¡Descúbrelo! Contenido Extra:..."
+seoDescription: "Familukis hemos estado en el torneo presencial organizado por \"El Rubius\" en el que 100 youtubers jugaron al Fortnite ¡Descúbrelo! Contenido Extra:."
 videoId: "2FH83Nr5Xf0"
 publishedAt: "2018-06-25"
 categoria: "vlogs-familia"

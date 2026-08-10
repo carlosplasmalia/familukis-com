@@ -2,7 +2,7 @@
 title: "Momentos + GRACIOSOS rewind 😂😂😂 de Los FAMILUKIS"
 seoTitle: "Momentos + GRACIOSOS rewind de Los FAMILUKIS"
 description: "Hola Familuks ¿Queréis ver los mejores momentos del canal durante el 2017? Pues revive con nosotros los momentos más graciosos e increíbles del año ¡Descúbrelos! Síguenos en instagram:."
-seoDescription: "Hola Familuks ¿Queréis ver los mejores momentos del canal durante el 2017? Pues revive con nosotros los momentos más graciosos e increíbles del año..."
+seoDescription: "Hola Familuks ¿Queréis ver los mejores momentos del canal durante el 2017? Pues revive con nosotros los momentos más graciosos e increíbles del año."
 videoId: "thGdL0pwnA8"
 publishedAt: "2018-01-12"
 categoria: "para-ninos"

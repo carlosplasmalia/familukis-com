@@ -2,7 +2,7 @@
 title: "¡HOUSE TOUR de nuestra NUEVA CASA! + tiramos a papá al agua // Familukis"
 seoTitle: "HOUSE TOUR de nuestra NUEVA CASA! + tiramos a papá al agua"
 description: "Hola Familukis ¡Hoy os enseñamos nuestra nueva casa! Sabemos que teníais muchas ganas de este HOUSE TOUR y por eso ha llegado la hora de mostraros por fin ¡Nuestra nueva casa! Bienvenidos a nuestro hogar. Descubre los colchones mas confortables para tú habitación 👉👉👉 ¡Un abrazo familukis!."
-seoDescription: "Hola Familukis ¡Hoy os enseñamos nuestra nueva casa! Sabemos que teníais muchas ganas de este HOUSE TOUR y por eso ha llegado la hora de mostraros por..."
+seoDescription: "Hola Familukis ¡Hoy os enseñamos nuestra nueva casa! Sabemos que teníais muchas ganas de este HOUSE TOUR y por eso ha llegado la hora de mostraros por."
 videoId: "xLGR-CcfVHc"
 publishedAt: "2019-03-15"
 categoria: "vlogs-familia"

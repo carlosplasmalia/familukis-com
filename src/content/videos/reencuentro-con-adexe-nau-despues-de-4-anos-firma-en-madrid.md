@@ -2,7 +2,7 @@
 title: "REENCUENTRO con ADEXE & NAU después de 4 años + FIRMA EN MADRID"
 seoTitle: "REENCUENTRO con ADEXE & NAU después de 4 años + FIRMA EN MADRID"
 description: "¿Conocéis a los cantantes Adexe y Nau? Después de 4 años nos reencontramos con los artistas y firmamos nuestro cómic en el mismo lugar que ellos han firmado su disco. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Conocéis a los cantantes Adexe y Nau? Después de 4 años nos reencontramos con los artistas y firmamos nuestro cómic en el mismo lugar que ellos han..."
+seoDescription: "¿Conocéis a los cantantes Adexe y Nau? Después de 4 años nos reencontramos con los artistas y firmamos nuestro cómic en el mismo lugar que ellos han."
 videoId: "ZSathNg-R9c"
 publishedAt: "2019-11-19"
 categoria: "para-ninos"

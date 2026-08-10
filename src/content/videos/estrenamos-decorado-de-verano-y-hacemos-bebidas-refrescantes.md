@@ -2,7 +2,7 @@
 title: "ESTRENAMOS DECORADO DE VERANO Y hacemos BEBIDAS REFRESCANTES// Juegos y Juguetes en Familia"
 seoTitle: "ESTRENAMOS DECORADO DE VERANO Y hacemos BEBIDAS..."
 description: "Youtube nos invitó a su taller de producción y hemos tenido la oportunidad de grabar en un plató ambientado en la playa. Para sacarle partido hemos querido realizar unos cócteles de fruta sin alcohol para niños ¡Descúbrelo!."
-seoDescription: "Youtube nos invitó a su taller de producción y hemos tenido la oportunidad de grabar en un plató ambientado en la playa. Para sacarle partido hemos..."
+seoDescription: "Youtube nos invitó a su taller de producción y hemos tenido la oportunidad de grabar en un plató ambientado en la playa. Para sacarle partido hemos."
 videoId: "vO5YFFsiltc"
 publishedAt: "2017-05-26"
 categoria: "playas-costa"

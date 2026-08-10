@@ -16,6 +16,7 @@ faqs:
     a: "El ahorro en temporada media (septiembre) respecto a julio-agosto puede ser del 20-35% en la estancia según el tipo de hotel y fechas exactas. Además, el resort está notablemente menos lleno, lo que mejora la experiencia."
   - q: "¿Está el parque acuático de Magic World Resort abierto en septiembre?"
     a: "El parque acuático de Magic World Resort suele estar abierto durante todo septiembre. El agua sigue estando a buena temperatura y las colas son mucho más cortas que en agosto. Conviene confirmar fechas exactas en la web oficial antes de reservar."
+rating: 4.7
 ---
 
 Después de varios veranos en Magic World Resort en plena temporada alta, el año pasado probamos algo diferente: fuimos la segunda semana de septiembre. No sabíamos muy bien qué esperar. La sorpresa fue buena.

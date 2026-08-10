@@ -2,7 +2,7 @@
 title: "Preguntas de AMOR 💘 a AMIGOS Youtubers // Los Familukis"
 seoTitle: "Preguntas de AMOR a AMIGOS Youtubers // Los Familukis"
 description: "San Valentín está cerca y hemos querido aprovechar un evento de Youtubers para hacer preguntas sobre el amor a algunos de nuestro amigos  Youtubers ¿Quieres sorprenderte con sus respuestas? ¡Descúbrelo dando al Play! Nuestros amigos: Jugando con Aby: Aitana y Compañía: Familia Panda: Los Jaritos:."
-seoDescription: "San Valentín está cerca y hemos querido aprovechar un evento de Youtubers para hacer preguntas sobre el amor a algunos de nuestro amigos Youtubers..."
+seoDescription: "San Valentín está cerca y hemos querido aprovechar un evento de Youtubers para hacer preguntas sobre el amor a algunos de nuestro amigos Youtubers."
 videoId: "k3NliZlRhFk"
 publishedAt: "2018-02-06"
 categoria: "para-ninos"

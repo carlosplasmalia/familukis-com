@@ -2,7 +2,7 @@
 title: "VACACIONES en FAMILIA #3 😎CARLITOS pisa una 💩💩💩 // Piau Engaly 🏞"
 seoTitle: "VACACIONES en FAMILIA #3 CARLITOS pisa una // Piau Engaly"
 description: "Nuestras vacaciones en familia tocan su fin. En este último Vlog en familia os mostraremos una ruta impresionante en la estación de Piau Engaly ¡Todo un lujo! Descenderemos por cañones de piedra y agua y visitaremos un restaurante con mucho ritmo. ¿Quieres hacer este viaje? ¡Descúbrelo! No podemos d."
-seoDescription: "Nuestras vacaciones en familia tocan su fin. En este último Vlog en familia os mostraremos una ruta impresionante en la estación de Piau Engaly ¡Todo..."
+seoDescription: "Nuestras vacaciones en familia tocan su fin. En este último Vlog en familia os mostraremos una ruta impresionante en la estación de Piau Engaly ¡Todo."
 videoId: "BgbXMHUmud8"
 publishedAt: "2017-09-01"
 categoria: "vacaciones-familia"

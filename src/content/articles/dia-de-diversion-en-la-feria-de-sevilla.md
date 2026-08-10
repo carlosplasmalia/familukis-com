@@ -8,6 +8,14 @@ categoria: "parques-atracciones"
 tags: ["Feria de Sevilla", "Día de la madre", "Paseos en coche de caballos", "Comida típica", "Diversión en familia"]
 relatedVideoIds: ["tvY2bbxaLHY"]
 featured: false
+rating: 4.7
+faqs:
+  - q: "¿Cuándo se celebra la Feria de Sevilla?"
+    a: "La Feria de Abril de Sevilla se celebra normalmente dos semanas después de Semana Santa, entre finales de abril y principios de mayo. Las fechas exactas cambian cada año. La feria dura seis días oficiales aunque el ambiente y las casetas empiezan antes."
+  - q: "¿Es la Feria de Sevilla apta para familias con niños pequeños?"
+    a: "Completamente. El Real de la Feria tiene una zona de atracciones para niños muy completa, y durante el día el ambiente es familiar y tranquilo. A partir de las 22:00 la feria se anima más para adultos, pero el mediodía y la tarde son el momento ideal con niños."
+  - q: "¿Cuánto dinero hay que llevar a la Feria de Sevilla con niños?"
+    a: "Lo más variable son las atracciones (las casetas son de invitación o tienen ticket bar propio). Para las atracciones de los niños calcular unos 20-30€ por niño dependiendo de cuánto quieran subirse. Las raciones de comida en los restaurantes y casetas externas tienen precio normal."
 ---
 
 ## Nuestra aventura en la feria

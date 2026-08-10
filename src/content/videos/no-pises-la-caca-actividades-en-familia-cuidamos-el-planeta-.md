@@ -2,7 +2,7 @@
 title: "¡NO PISES LA CACA! Actividades en FAMILIA // Cuidamos el planeta // Familukis"
 seoTitle: "NO PISES LA CACA! Actividades en FAMILIA // Cuidamos el planeta"
 description: "Cuidar el planeta es una de las mejores actividades que puedes hacer en familia. Hoy os enseñamos como recogemos la basura de uno de nuestros rincones preferidos y nos encontramos con un desagradable montón de caca. El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:  jueg."
-seoDescription: "Cuidar el planeta es una de las mejores actividades que puedes hacer en familia. Hoy os enseñamos como recogemos la basura de uno de nuestros rincones..."
+seoDescription: "Cuidar el planeta es una de las mejores actividades que puedes hacer en familia. Hoy os enseñamos como recogemos la basura de uno de nuestros rincones."
 videoId: "p8gj38IZ1B0"
 publishedAt: "2019-02-01"
 categoria: "para-ninos"

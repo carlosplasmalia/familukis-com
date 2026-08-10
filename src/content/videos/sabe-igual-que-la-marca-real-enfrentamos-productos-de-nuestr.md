@@ -2,7 +2,7 @@
 title: "¿SABE IGUAL que la  MARCA Real?  Enfrentamos PRODUCTOS de nuestra compra."
 seoTitle: "SABE IGUAL que la MARCA Real? Enfrentamos PRODUCTOS de..."
 description: "¡Hola a todos! En este video, hacemos un reto en el que intentamos averiguar cuál es la marca real de un producto probándolo sin saber cual es cada cual. Utilizamos diferentes productos, como por ejemplo las famosas galletas Oreo y su versión de marca blanca. ¿Podremos distinguir entre la marca real."
-seoDescription: "¡Hola a todos! En este video, hacemos un reto en el que intentamos averiguar cuál es la marca real de un producto probándolo sin saber cual es cada..."
+seoDescription: "¡Hola a todos! En este video, hacemos un reto en el que intentamos averiguar cuál es la marca real de un producto probándolo sin saber cual es cada."
 videoId: "uiNp-DBQEzI"
 publishedAt: "2023-08-02"
 categoria: "retos-challenges"

@@ -2,7 +2,7 @@
 title: "¿Mcdonal´s O Burger king? ¡¡ADIVINA la HAMBURGUESA!! + Conocemos a nuestra MODERADORA"
 seoTitle: "Mcdonal´s O Burger king? ¡¡ADIVINA la HAMBURGUESA!! +..."
 description: "¿Eres capaz de distinguir entre una hamburguesa de McDonald's y una de Burger King solo por su sabor? ¡Nosotros pusimos a prueba nuestro paladar en este emocionante desafío! Nos tapamos los ojos y probamos diferentes hamburguesas de McDonald's y Burger King para adivinar de qué restaurante eran. ¿Lo."
-seoDescription: "¿Eres capaz de distinguir entre una hamburguesa de McDonald's y una de Burger King solo por su sabor? ¡Nosotros pusimos a prueba nuestro paladar en..."
+seoDescription: "¿Eres capaz de distinguir entre una hamburguesa de McDonald's y una de Burger King solo por su sabor? ¡Nosotros pusimos a prueba nuestro paladar en."
 videoId: "lHYs5beSMgc"
 publishedAt: "2023-02-18"
 categoria: "retos-challenges"

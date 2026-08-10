@@ -8,6 +8,14 @@ categoria: "parques-atracciones"
 tags: ["Familukis", "escondite", "parque de trampolines", "retos", "diversión en familia"]
 relatedVideoIds: ["zkeU9X-Es2I"]
 featured: false
+rating: 4.1
+faqs:
+  - q: "¿Se puede jugar al escondite en un parque de trampolines?"
+    a: "Sí, y es uno de los juegos más divertidos que se pueden hacer. Los parques de trampolines tienen zonas de foam, pasillos y niveles diferentes que lo convierten en una experiencia completamente diferente al escondite clásico."
+  - q: "¿Hay normas de seguridad específicas en los parques de trampolines?"
+    a: "Sí. Las normas principales son: solo un saltador por trampolín a la vez, prohibido saltar cerca del borde, siempre con calcetines antideslizantes y sin ropa con cremalleras o botones metálicos que puedan dañar las superficies."
+  - q: "¿Cuánto dura una visita a un parque de trampolines?"
+    a: "Las sesiones estándar son de 60 o 90 minutos. Con niños que tienen mucha energía, 90 minutos suele ser el tiempo ideal: el suficiente para probar todas las zonas sin llegar al agotamiento total."
 ---
 
 ## Nuestro día en el parque de trampolines

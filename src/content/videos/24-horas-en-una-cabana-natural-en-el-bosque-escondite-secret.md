@@ -2,7 +2,7 @@
 title: "24 HORAS en una CABAÑA NATURAL en el BOSQUE // Escondite secreto FAMILUKIS"
 seoTitle: "24 HORAS en una CABAÑA NATURAL en el BOSQUE // Escondite..."
 description: "¿Tenéis algún rincón especial que visitáis en familia? Hoy estaremos durante 24 horas en nuestro refugio cabaña natural en el bosque ¡No digas nada! Es un secreto, jijijij. El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "¿Tenéis algún rincón especial que visitáis en familia? Hoy estaremos durante 24 horas en nuestro refugio cabaña natural en el bosque ¡No digas nada! Es..."
+seoDescription: "¿Tenéis algún rincón especial que visitáis en familia? Hoy estaremos durante 24 horas en nuestro refugio cabaña natural en el bosque ¡No digas nada! Es."
 videoId: "6L2bnAIXc_A"
 publishedAt: "2019-02-15"
 categoria: "camping-naturaleza"

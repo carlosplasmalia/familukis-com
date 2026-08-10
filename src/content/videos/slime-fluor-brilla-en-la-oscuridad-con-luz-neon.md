@@ -2,7 +2,7 @@
 title: "SLIME FLUOR ¡BRILLA en la oscuridad! CON LUZ NEON"
 seoTitle: "SLIME FLUOR ¡BRILLA en la oscuridad! CON LUZ NEON"
 description: "Hacer manualidades en familia es genial ¿No crees? Hoy os enseñamos a hacer slime fluorescente que se ilumina en la oscuridad con luz negra. Además os dejamos el link del Slime Fluor de nuestros amigos del canal \"Los Jaritos\":  y el de ItarteVlogs: Pinturas de neón: Luz negra: Síguenos en instagram:."
-seoDescription: "Hacer manualidades en familia es genial ¿No crees? Hoy os enseñamos a hacer slime fluorescente que se ilumina en la oscuridad con luz negra. Además os..."
+seoDescription: "Hacer manualidades en familia es genial ¿No crees? Hoy os enseñamos a hacer slime fluorescente que se ilumina en la oscuridad con luz negra. Además os."
 videoId: "baUoDInscqw"
 publishedAt: "2018-02-20"
 categoria: "retos-challenges"

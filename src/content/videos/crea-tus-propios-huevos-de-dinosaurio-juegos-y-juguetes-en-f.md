@@ -2,7 +2,7 @@
 title: "CREA TUS PROPIOS HUEVOS DE DINOSAURIO // Juegos y Juguetes en Familia"
 seoTitle: "CREA TUS PROPIOS HUEVOS DE DINOSAURIO // Juegos y Juguetes en..."
 description: "¿Te gustaría crear tus propios huevos sorpresa de dinosaurio fácilmente? Descubre como Carlitos y Mamá hacen sus propios huevos de dinosaurio ¿Te animas a hacerlos?."
-seoDescription: "¿Te gustaría crear tus propios huevos sorpresa de dinosaurio fácilmente? Descubre como Carlitos y Mamá hacen sus propios huevos de dinosaurio ¿Te..."
+seoDescription: "¿Te gustaría crear tus propios huevos sorpresa de dinosaurio fácilmente? Descubre como Carlitos y Mamá hacen sus propios huevos de dinosaurio ¿Te."
 videoId: "s1jgtP5F2pc"
 publishedAt: "2017-05-16"
 categoria: "camping-naturaleza"

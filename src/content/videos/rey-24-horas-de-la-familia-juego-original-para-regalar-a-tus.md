@@ -2,7 +2,7 @@
 title: "Rey 24 horas de la FAMILIA ¡Juego original para REGALAR a TUS HIJOS!"
 seoTitle: "Rey 24 horas de la FAMILIA ¡Juego original para REGALAR a TUS..."
 description: "Óliver recibió un regalo muy especial para su cumpleaños ¡Ser rey de la casa durante 24 horas! ¿Seremos capaces de decirle Si a todo durante un día completo? ¡Dale al play y únete a nuestra famiily! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Óliver recibió un regalo muy especial para su cumpleaños ¡Ser rey de la casa durante 24 horas! ¿Seremos capaces de decirle Si a todo durante un día..."
+seoDescription: "Óliver recibió un regalo muy especial para su cumpleaños ¡Ser rey de la casa durante 24 horas! ¿Seremos capaces de decirle Si a todo durante un día."
 videoId: "-um8muuaV-M"
 publishedAt: "2021-06-02"
 categoria: "vlogs-familia"

@@ -2,7 +2,7 @@
 title: "DESMONTANDO un AUTOBÚS escolar ¡COMIENZA LA REFORMA de nuestra CASA RODANTE!"
 seoTitle: "DESMONTANDO un AUTOBÚS escolar ¡COMIENZA LA REFORMA de..."
 description: "¿Queréis saber cómo nos hemos encontrado en un autobús escolar después de 16 años de servicio? Hoy continuamos con el proyecto de nuestra casa rodante. Las reformas ya han empezado y éste es el primer paso para ver el estado de nuestro motorhome ¡Suscríbete para seguir ésta serie! ¡Descubre nuestro."
-seoDescription: "¿Queréis saber cómo nos hemos encontrado en un autobús escolar después de 16 años de servicio? Hoy continuamos con el proyecto de nuestra casa rodante...."
+seoDescription: "¿Queréis saber cómo nos hemos encontrado en un autobús escolar después de 16 años de servicio? Hoy continuamos con el proyecto de nuestra casa rodante."
 videoId: "a8j_qvG4hQQ"
 publishedAt: "2021-06-26"
 categoria: "para-ninos"

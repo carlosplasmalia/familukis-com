@@ -2,7 +2,7 @@
 title: "PRIMER día de PISCINA y Aroa ¡Se hace un PIERCING en el OMBLIGO! / Vlogs familiares"
 seoTitle: "PRIMER día de PISCINA y Aroa ¡Se hace un PIERCING en el..."
 description: "¿Quieres saber como arrancamos el verano? Hoy Aroa se pone un piercing, Inahuguramos la piscina y visitamos a nuestros amigos de \"Bus Home\" para ayudarles con su casa rodante. ¡Descubre nuestro cómic!📚👉🏻 Conviértete en miembro de este canal para disfrutar de ventajas: Entra en nuestro Discord."
-seoDescription: "¿Quieres saber como arrancamos el verano? Hoy Aroa se pone un piercing, Inahuguramos la piscina y visitamos a nuestros amigos de \"Bus Home\" para..."
+seoDescription: "¿Quieres saber como arrancamos el verano? Hoy Aroa se pone un piercing, Inahuguramos la piscina y visitamos a nuestros amigos de \"Bus Home\" para."
 videoId: "Cjgswof-lno"
 publishedAt: "2022-06-15"
 categoria: "vlogs-familia"

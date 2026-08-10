@@ -2,7 +2,7 @@
 title: "¡Fiesta en FAMILIA! Plan OTOÑO 2024 + Decoración ¡Nueva Casa!"
 seoTitle: "Fiesta en FAMILIA! Plan OTOÑO 2024 + Decoración ¡Nueva Casa"
 description: "Conviértete en miembro de este canal para disfrutar de ventajas: (Vídeo colaboración no remunerada con La organización del evento  que facilitó la entrada y la grabación  de la actividad) ¡Descubre nuestro NUEVO LIBRO !📚👉🏻."
-seoDescription: "Conviértete en miembro de este canal para disfrutar de ventajas: (Vídeo colaboración no remunerada con La organización del evento que facilitó la..."
+seoDescription: "Conviértete en miembro de este canal para disfrutar de ventajas: (Vídeo colaboración no remunerada con La organización del evento que facilitó la."
 videoId: "vI16pPdpO4Q"
 publishedAt: "2024-10-09"
 categoria: "vlogs-familia"

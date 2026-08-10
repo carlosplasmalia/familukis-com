@@ -2,7 +2,7 @@
 title: "MANUALIDADES FÁCILES // bote de la calma // Juegos y Juguetes en familia"
 seoTitle: "MANUALIDADES FÁCILES // bote de la calma // Juegos y Juguetes..."
 description: "Hoy os queremos enseñar manualidades fáciles para hacer en casa y en ésta ocasión os enseñamos a hacer vuestro propio bote de la calma con purpurina. Es una manualidad muy fácil y divertida para hacer con niño, además de una fantástica manera de hacer manualidades antiestres. Nuestro bote de la calm."
-seoDescription: "Hoy os queremos enseñar manualidades fáciles para hacer en casa y en ésta ocasión os enseñamos a hacer vuestro propio bote de la calma con purpurina...."
+seoDescription: "Hoy os queremos enseñar manualidades fáciles para hacer en casa y en ésta ocasión os enseñamos a hacer vuestro propio bote de la calma con purpurina."
 videoId: "bn-gQiuveaI"
 publishedAt: "2016-10-14"
 categoria: "para-ninos"

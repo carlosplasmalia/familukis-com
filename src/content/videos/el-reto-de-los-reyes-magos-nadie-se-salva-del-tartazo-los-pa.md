@@ -2,7 +2,7 @@
 title: "El RETO de los REYES MAGOS  ¡Nadie se salva del TARTAZO!  Los padres hi..."
 seoTitle: "El RETO de los REYES MAGOS ¡Nadie se salva del TARTAZO! Los..."
 description: "¿Buscas juegos divertidos para hacer en Navidad con tu familia? 🎄 ¡Prueba este reto del TARTAZO! Hoy nos disfrazamos (literalmente metemos la cabeza en un cartón 🤣) de Reyes Magos y Roscón para poner a prueba a nuestros hijos. Les hacemos preguntas sobre nosotros y si no aciertan rápido... ¡SPLASH!."
-seoDescription: "¿Buscas juegos divertidos para hacer en Navidad con tu familia? ¡Prueba este reto del TARTAZO! Hoy nos disfrazamos (literalmente metemos la cabeza en..."
+seoDescription: "¿Buscas juegos divertidos para hacer en Navidad con tu familia? ¡Prueba este reto del TARTAZO! Hoy nos disfrazamos (literalmente metemos la cabeza en."
 videoId: "-56BPlFkVl8"
 publishedAt: "2025-12-12"
 categoria: "navidad-regalos"

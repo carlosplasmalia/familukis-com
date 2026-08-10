@@ -2,7 +2,7 @@
 title: "La CATÁSTROFE que ACABÓ con el PUEBLO y la vida normal de todos sus habitantes"
 seoTitle: "La CATÁSTROFE que ACABÓ con el PUEBLO y la vida normal de..."
 description: "Hoy Nos vamos a Chipre para adentrarnos en Pendaya un pueblo fantasma  del que algunos habitantes se niegan a marcharse a pesar del peligro que corren en él. Adentraos con nosotros en éste pueblo abandonado. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy Nos vamos a Chipre para adentrarnos en Pendaya un pueblo fantasma del que algunos habitantes se niegan a marcharse a pesar del peligro que corren..."
+seoDescription: "Hoy Nos vamos a Chipre para adentrarnos en Pendaya un pueblo fantasma del que algunos habitantes se niegan a marcharse a pesar del peligro que corren."
 videoId: "ZL9uAgHNQg4"
 publishedAt: "2022-04-01"
 categoria: "halloween"

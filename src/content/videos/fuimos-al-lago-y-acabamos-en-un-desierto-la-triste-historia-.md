@@ -2,7 +2,7 @@
 title: "Fuimos al LAGO y acabamos en un DESIERTO ¡La TRISTE historia del PANTANO del CHORRO!"
 seoTitle: "Fuimos al LAGO y acabamos en un DESIERTO ¡La TRISTE historia..."
 description: "Hoy os enseñamos parte de nuestras vacaciones en familia en un lago del que hemos salido muy tristes. La sequía acecha y uno de nuestros parques hinchables preferidos en medio de un lago se está convirtiendo en un desierto ¡Ven a descubrirlo y a saber cómo podemos cuidar el medio ambiente y la natur."
-seoDescription: "Hoy os enseñamos parte de nuestras vacaciones en familia en un lago del que hemos salido muy tristes. La sequía acecha y uno de nuestros parques..."
+seoDescription: "Hoy os enseñamos parte de nuestras vacaciones en familia en un lago del que hemos salido muy tristes. La sequía acecha y uno de nuestros parques."
 videoId: "aQ2DVrZoNVc"
 publishedAt: "2023-08-25"
 categoria: "camping-naturaleza"

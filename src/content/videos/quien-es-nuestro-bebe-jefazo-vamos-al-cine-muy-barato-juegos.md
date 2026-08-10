@@ -2,7 +2,7 @@
 title: "¿QUIEN ES NUESTRO BEBÉ JEFAZO? + ¡Vamos al cine muy barato! // Juegos y juguetes en familia"
 seoTitle: "QUIEN ES NUESTRO BEBÉ JEFAZO? + ¡Vamos al cine muy barato! //..."
 description: "¿Te gustaría ir al cine a ver El Bebé Jefazo? Hoy en juegos y juguetes en familia te enseñamos quién es nuestro bebé jefazo y te animamos a visitar el cine en su día del espectador. Esperamos que os guste el vídeo. ¡Un abrazo familukis!."
-seoDescription: "¿Te gustaría ir al cine a ver El Bebé Jefazo? Hoy en juegos y juguetes en familia te enseñamos quién es nuestro bebé jefazo y te animamos a visitar el..."
+seoDescription: "¿Te gustaría ir al cine a ver El Bebé Jefazo? Hoy en juegos y juguetes en familia te enseñamos quién es nuestro bebé jefazo y te animamos a visitar el."
 videoId: "P-oUlfbljz8"
 publishedAt: "2017-04-21"
 categoria: "para-ninos"

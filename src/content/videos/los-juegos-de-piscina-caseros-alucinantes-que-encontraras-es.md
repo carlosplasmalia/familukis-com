@@ -2,7 +2,7 @@
 title: "Los JUEGOS de PISCINA caseros + alucinantes que encontrarás estas 24 horas."
 seoTitle: "Los JUEGOS de PISCINA caseros + alucinantes que encontrarás..."
 description: "¿Te gustan los saltos en la piscina? ¿No sabes qué hacer cuando estás aburrido en la piscina? Hoy hemos preparado a nuestros hijos unos juegos alucinantes para hacer en la pileta. Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te gustan los saltos en la piscina? ¿No sabes qué hacer cuando estás aburrido en la piscina? Hoy hemos preparado a nuestros hijos unos juegos..."
+seoDescription: "¿Te gustan los saltos en la piscina? ¿No sabes qué hacer cuando estás aburrido en la piscina? Hoy hemos preparado a nuestros hijos unos juegos."
 videoId: "6PxbG4LgygU"
 publishedAt: "2022-08-13"
 categoria: "para-ninos"

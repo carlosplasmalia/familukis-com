@@ -2,7 +2,7 @@
 title: "Me caigo en LAGOS TRISTAINA HELADOS // Que hacer en Andorra en familia"
 seoTitle: "Me caigo en LAGOS TRISTAINA HELADOS // Que hacer en Andorra..."
 description: "Familias hoy visitamos los lagos tristaina en familia y encontramos una casa refugio. Además Carlitos se cae al Lago helado y Linda muere de vértigo en el telecabina y el telesilla ¿Quieres saber que hacer en Andorra de vacaciones? ¡Dale al play! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Familias hoy visitamos los lagos tristaina en familia y encontramos una casa refugio. Además Carlitos se cae al Lago helado y Linda muere de vértigo en..."
+seoDescription: "Familias hoy visitamos los lagos tristaina en familia y encontramos una casa refugio. Además Carlitos se cae al Lago helado y Linda muere de vértigo en."
 videoId: "W7FotVjB0hM"
 publishedAt: "2021-08-31"
 categoria: "vacaciones-familia"

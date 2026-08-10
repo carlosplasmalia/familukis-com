@@ -6,6 +6,7 @@ seoDescription: "Enviar maletas por mensajería: precios reales 2026, comparativ
 date: "2026-07-04"
 categoria: "vacaciones-familia"
 tags: ["maletas", "equipaje", "enviar maleta", "vueling", "ryanair", "ahorro viajes", "sinmaletas", "familia numerosa"]
+ogImage: "/blog-maletas-avion-familia.webp"
 relatedVideoIds: []
 featured: false
 lastModified: "2026-07-04"

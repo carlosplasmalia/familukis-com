@@ -2,7 +2,7 @@
 title: "CUMPLEAÑOS DE CARLITOS + VIDEOS SORPRESA DE YOUTUBERS AMIGOS"
 seoTitle: "CUMPLEAÑOS DE CARLITOS + VIDEOS SORPRESA DE YOUTUBERS AMIGOS"
 description: "Hola #Familukis! ¿Os gustan las fiestas de cumpleaños? Pues hoy queremos que formes parte de la fiesta de cumpleaños de Carlitos y disfrutes con nosotros de una grata sorpresa de sus amigos Youtubers. Canales que han participado: La diversión de Martina: Manita Chucherías: Juegos y Juguetes de Ares:."
-seoDescription: "Hola #Familukis! ¿Os gustan las fiestas de cumpleaños? Pues hoy queremos que formes parte de la fiesta de cumpleaños de Carlitos y disfrutes con..."
+seoDescription: "Hola #Familukis! ¿Os gustan las fiestas de cumpleaños? Pues hoy queremos que formes parte de la fiesta de cumpleaños de Carlitos y disfrutes con."
 videoId: "6jw_sHPgea4"
 publishedAt: "2017-06-30"
 categoria: "para-ninos"

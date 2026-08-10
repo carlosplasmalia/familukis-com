@@ -2,7 +2,7 @@
 title: "PADRES se hacen PRUEBA de ADN y descubren que TIENEN PRIMOS perdidos // Regalo original My heritage"
 seoTitle: "PADRES se hacen PRUEBA de ADN y descubren que TIENEN PRIMOS..."
 description: "¿Conoces los Test de ADN de Myheritage? Consigue uno aquí:  y usa el código \"LOSFAMILUKIS\" para envío gratis. No hay regalo más original que un test para conocer tus antepasados y completar tu árbol genealógico. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Conoces los Test de ADN de Myheritage? Consigue uno aquí: y usa el código \"LOSFAMILUKIS\" para envío gratis. No hay regalo más original que un test..."
+seoDescription: "¿Conoces los Test de ADN de Myheritage? Consigue uno aquí: y usa el código \"LOSFAMILUKIS\" para envío gratis. No hay regalo más original que un test."
 videoId: "fNJhH9k_CHc"
 publishedAt: "2022-03-29"
 categoria: "retos-challenges"

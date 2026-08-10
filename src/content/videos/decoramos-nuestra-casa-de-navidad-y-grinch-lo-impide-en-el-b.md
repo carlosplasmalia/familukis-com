@@ -2,7 +2,7 @@
 title: "Decoramos nuestra CASA de NAVIDAD y GRINCH lo impide en el BLACK FRIDAY"
 seoTitle: "Decoramos nuestra CASA de NAVIDAD y GRINCH lo impide en el..."
 description: "Hola Familias ¿Queréis crear una navidad especial a vuestros hijos? Este vídeo está dirigido a esos Papis que quieren hacer una decoración navideña 2023 especial con sus hijos y sorprenderles disfrazados ¿Quien se apunta? Además nos ha pillado justo en el Black Friday y alguien evitará que Maricompr."
-seoDescription: "Hola Familias ¿Queréis crear una navidad especial a vuestros hijos? Este vídeo está dirigido a esos Papis que quieren hacer una decoración navideña..."
+seoDescription: "Hola Familias ¿Queréis crear una navidad especial a vuestros hijos? Este vídeo está dirigido a esos Papis que quieren hacer una decoración navideña."
 videoId: "0Xyqdhim7zM"
 publishedAt: "2023-11-24"
 categoria: "navidad-regalos"

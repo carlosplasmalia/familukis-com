@@ -8,6 +8,14 @@ categoria: "parques-atracciones"
 tags: ["Familukis", "parque de trampolines", "diversión en familia", "saltos y competiciones", "día de aventuras"]
 relatedVideoIds: ["m8YH7eRxB8A"]
 featured: false
+rating: 4.2
+faqs:
+  - q: "¿Qué edad mínima tienen los parques de trampolines en Málaga?"
+    a: "La mayoría de parques de trampolines en Málaga aceptan niños a partir de 3 años, aunque las zonas de trampolín libre suelen tener restricción de altura mínima (alrededor de 1 metro). Hay zonas específicas para los más pequeños con trampolines de menor altura."
+  - q: "¿Hay que llevar calcetines especiales a los parques de trampolines?"
+    a: "Sí. Es obligatorio llevar calcetines antideslizantes. La mayoría de los parques los venden en la entrada si no los traéis de casa, aunque es más barato comprarlos aparte."
+  - q: "¿Cuánto cuesta una sesión en un parque de trampolines en Málaga?"
+    a: "Los precios varían según el parque y la duración, pero de media una sesión de 60 minutos para niños ronda los 8-12€. Muchos parques tienen precios especiales en grupos o cumpleaños que salen más económicos."
 ---
 
 ## Una aventura emocionante en el parque de trampolines

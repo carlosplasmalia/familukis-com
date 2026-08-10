@@ -2,7 +2,7 @@
 title: "VIDEOJUEGOS PARA NIÑOS // MAX CAPITULO #1 // Max The Curse of Brotherhood Walkthrough"
 seoTitle: "VIDEOJUEGOS PARA NIÑOS // MAX CAPITULO #1 // Max The Curse of..."
 description: "Hoy os presentamos nuestro primer Gameplay. Queremos compartir con vosotros éste juego para niños y mayores que es para nosotros uno de los mejores que hemos jugado en Xbox 360. El juego se llama Max The Curse of Brotherhood Walkthrough y es una pasada. Si os gusta el gameplay podéis comentarlo y si."
-seoDescription: "Hoy os presentamos nuestro primer Gameplay. Queremos compartir con vosotros éste juego para niños y mayores que es para nosotros uno de los mejores que..."
+seoDescription: "Hoy os presentamos nuestro primer Gameplay. Queremos compartir con vosotros éste juego para niños y mayores que es para nosotros uno de los mejores que."
 videoId: "FmLsBFo1oEk"
 publishedAt: "2016-05-14"
 categoria: "para-ninos"

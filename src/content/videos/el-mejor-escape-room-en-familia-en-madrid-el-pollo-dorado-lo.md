@@ -2,7 +2,7 @@
 title: "El mejor Escape Room en familia en Madrid 🐔 El Pollo Dorado - ¡Lo pasamos genial!"
 seoTitle: "El mejor Escape Room en familia en Madrid El Pollo Dorado -..."
 description: "¿Buscas un plan inolvidable con niños en Madrid? 🚨 ¡Atención familias! Hoy nos enfrentamos al **Escape Room El Pollo Dorado**, una experiencia increíble en **Fox in a Box Madrid**. ¡Sigue leyendo para n 15%de descuento!  (Video colaboración con Fox in a Box que nos facilitó el acceso y grabación) 🧩."
-seoDescription: "¿Buscas un plan inolvidable con niños en Madrid? ¡Atención familias! Hoy nos enfrentamos al **Escape Room El Pollo Dorado**, una experiencia increíble..."
+seoDescription: "¿Buscas un plan inolvidable con niños en Madrid? ¡Atención familias! Hoy nos enfrentamos al **Escape Room El Pollo Dorado**, una experiencia increíble."
 videoId: "dYv3lOwdVMA"
 publishedAt: "2025-05-12"
 categoria: "para-ninos"

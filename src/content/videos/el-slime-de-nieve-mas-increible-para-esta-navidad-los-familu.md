@@ -2,7 +2,7 @@
 title: "El SLIME de NIEVE más INCREÍBLE☃️ para esta NAVIDAD🎄 Los Familukis"
 seoTitle: "El SLIME de NIEVE más INCREÍBLE para esta NAVIDAD Los Familukis"
 description: "¿Te gustan las actividades navideñas en familia? ¿Sí? Hoy os enseñamos a hacer slime de nieve o Snow Slime de hielo. Recordad que para hacer este Slime de nieve tendréis que hacerlo bajo la supervisión de vuestros padres. Síguenos en instagram:."
-seoDescription: "¿Te gustan las actividades navideñas en familia? ¿Sí? Hoy os enseñamos a hacer slime de nieve o Snow Slime de hielo. Recordad que para hacer este Slime..."
+seoDescription: "¿Te gustan las actividades navideñas en familia? ¿Sí? Hoy os enseñamos a hacer slime de nieve o Snow Slime de hielo. Recordad que para hacer este Slime."
 videoId: "7QesSLCPXcs"
 publishedAt: "2017-12-12"
 categoria: "navidad-regalos"

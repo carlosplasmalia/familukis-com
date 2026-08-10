@@ -2,7 +2,7 @@
 title: "¿QUEDARÁ IGUAL? 🎂 Recetas para hacer en casa EN FAMILIA // Tarta de Harry Potter"
 seoTitle: "QUEDARÁ IGUAL? Recetas para hacer en casa EN FAMILIA // Tarta..."
 description: "Hoy nuestra familia se enfrenta a una tarta temática de Harry Potter ¿Seremos capaz de crear un pastel delicioso y original en familia? Disfruta de esta expectativa VS realidad con este pastel temático de Harry Potter para halloween 2020. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy nuestra familia se enfrenta a una tarta temática de Harry Potter ¿Seremos capaz de crear un pastel delicioso y original en familia? Disfruta de..."
+seoDescription: "Hoy nuestra familia se enfrenta a una tarta temática de Harry Potter ¿Seremos capaz de crear un pastel delicioso y original en familia? Disfruta de."
 videoId: "mn2ZGKxjbs8"
 publishedAt: "2020-10-21"
 categoria: "halloween"

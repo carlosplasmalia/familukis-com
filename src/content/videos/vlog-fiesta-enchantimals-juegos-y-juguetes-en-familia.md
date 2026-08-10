@@ -2,7 +2,7 @@
 title: "Vlog fiesta ENCHANTIMALS // Juegos y Juguetes en Familia"
 seoTitle: "Vlog fiesta ENCHANTIMALS // Juegos y Juguetes en Familia"
 description: "Las muñecas Enchantimals han llegado a España y hemos asistido a la fiesta que se ha celebrado en Madrid para darles la bienvenida ¿Te apuntas a la fiesta en The Magic Forest? Descubre nuestro Vlog en familia. Síguenos en instagram:."
-seoDescription: "Las muñecas Enchantimals han llegado a España y hemos asistido a la fiesta que se ha celebrado en Madrid para darles la bienvenida ¿Te apuntas a la..."
+seoDescription: "Las muñecas Enchantimals han llegado a España y hemos asistido a la fiesta que se ha celebrado en Madrid para darles la bienvenida ¿Te apuntas a la."
 videoId: "sACJBgZcARo"
 publishedAt: "2017-09-22"
 categoria: "para-ninos"

@@ -2,7 +2,7 @@
 title: "PARQUE ACUÁTICO en ¡UN PANTANO! muy loco ¡Hacemos Super Saltos!"
 seoTitle: "PARQUE ACUÁTICO en ¡UN PANTANO! muy loco ¡Hacemos Super Saltos"
 description: "Hoy visitamos un parque acuático en familia ¡En un pantano! Un lugar ideal para ir en familia y disfrutar de la naturaleza mientras te diviertes ano saltos mucho mejor que en la piscina ¡Dale al Play y únete a nuestra familia! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy visitamos un parque acuático en familia ¡En un pantano! Un lugar ideal para ir en familia y disfrutar de la naturaleza mientras te diviertes ano..."
+seoDescription: "Hoy visitamos un parque acuático en familia ¡En un pantano! Un lugar ideal para ir en familia y disfrutar de la naturaleza mientras te diviertes ano."
 videoId: "GRuHHL1x0cM"
 publishedAt: "2021-09-03"
 categoria: "parques-acuaticos"

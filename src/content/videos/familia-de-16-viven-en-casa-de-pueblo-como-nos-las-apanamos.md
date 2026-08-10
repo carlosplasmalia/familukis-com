@@ -2,7 +2,7 @@
 title: "Familia de 16 Viven en CASA de PUEBLO 👨‍👩‍👧‍👦 ¿Cómo nos las apañamos??"
 seoTitle: "Familia de 16 Viven en CASA de PUEBLO ¿Cómo nos las apañamos"
 description: "¿Te gustaría saber cómo vivimos nuestra familia numerosa en una casa de piedra en el pueblo?  Hoy cambiamos nuestra casa  para hacer una convivencia especial ¿Quieres saber más sobre el mundo del turismo en familia?  No re pierdas nuestros vídeos.Conviértete en miembro de este canal para disfrutar d."
-seoDescription: "¿Te gustaría saber cómo vivimos nuestra familia numerosa en una casa de piedra en el pueblo? Hoy cambiamos nuestra casa para hacer una convivencia..."
+seoDescription: "¿Te gustaría saber cómo vivimos nuestra familia numerosa en una casa de piedra en el pueblo? Hoy cambiamos nuestra casa para hacer una convivencia."
 videoId: "IY0AGlJRQFU"
 publishedAt: "2024-01-19"
 categoria: "vacaciones-familia"

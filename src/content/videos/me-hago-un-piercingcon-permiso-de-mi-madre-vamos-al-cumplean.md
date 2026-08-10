@@ -2,7 +2,7 @@
 title: "¿Me hago UN PIERCING?😀con PERMISO de mi MADRE + vamos al cumpleaños DE CHLOÉ"
 seoTitle: "Me hago UN PIERCING?con PERMISO de mi MADRE + vamos al..."
 description: "¿Aroa se hace un Piercing?  Tiene muchas ganas pero le da miedo hacérselo ¿Conseguirá superar este reto? ¡Descúbrelo! También vamos al cumpleaños de Chloé del canal Elisa de Saro."
-seoDescription: "¿Aroa se hace un Piercing? Tiene muchas ganas pero le da miedo hacérselo ¿Conseguirá superar este reto? ¡Descúbrelo! También vamos al cumpleaños de..."
+seoDescription: "¿Aroa se hace un Piercing? Tiene muchas ganas pero le da miedo hacérselo ¿Conseguirá superar este reto? ¡Descúbrelo! También vamos al cumpleaños de."
 videoId: "g7Xu-dJbZ_U"
 publishedAt: "2019-03-01"
 categoria: "vlogs-familia"

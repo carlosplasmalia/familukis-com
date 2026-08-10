@@ -2,7 +2,7 @@
 title: "PARQUE ACUATICO GIGANTE vs CASITA de MADERA // Retos verano 2019"
 seoTitle: "PARQUE ACUATICO GIGANTE vs CASITA de MADERA // Retos verano 2019"
 description: "Hoy os traemos un vídeo refrescante para el verano 2019 ¿Os acordáis de nuestro parque acuático? Pues hoy el parque de agua se enfrenta a la cabaña de madera. Prepara tus globos de agua que empezamos."
-seoDescription: "Hoy os traemos un vídeo refrescante para el verano 2019 ¿Os acordáis de nuestro parque acuático? Pues hoy el parque de agua se enfrenta a la cabaña de..."
+seoDescription: "Hoy os traemos un vídeo refrescante para el verano 2019 ¿Os acordáis de nuestro parque acuático? Pues hoy el parque de agua se enfrenta a la cabaña de."
 videoId: "M2C6yULsnJg"
 publishedAt: "2019-06-18"
 categoria: "parques-acuaticos"

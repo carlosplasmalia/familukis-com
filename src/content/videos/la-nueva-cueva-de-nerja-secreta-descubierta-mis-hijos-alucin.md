@@ -2,7 +2,7 @@
 title: "La nueva Cueva de Nerja SECRETA Descubierta Mis HIJOS  Alucinan ¡Asentamiento Humano Oculto!"
 seoTitle: "La nueva Cueva de Nerja SECRETA Descubierta Mis HIJOS..."
 description: "Joel \"EL Novio de mi hija\"  no conocía una de las cuevas más maravillosas que se pueden visitar y es que tras mas de 80 días en la familia había que llevarlo a conocer uno de los lugares en los que su fama da la \"Vuelta al mundo\" ¡La Cueva de Nerja! Además en  ésta visita estaremos rodeados de talen."
-seoDescription: "Joel \"EL Novio de mi hija\" no conocía una de las cuevas más maravillosas que se pueden visitar y es que tras mas de 80 días en la familia había que..."
+seoDescription: "Joel \"EL Novio de mi hija\" no conocía una de las cuevas más maravillosas que se pueden visitar y es que tras mas de 80 días en la familia había que."
 videoId: "RFp2yJS9we4"
 publishedAt: "2023-06-07"
 categoria: "vacaciones-familia"

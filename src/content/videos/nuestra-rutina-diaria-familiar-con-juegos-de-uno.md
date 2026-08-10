@@ -2,7 +2,7 @@
 title: "NUESTRA RUTINA diaria FAMILIAR con JUEGOS DE UNO"
 seoTitle: "NUESTRA RUTINA diaria FAMILIAR con JUEGOS DE UNO"
 description: "¿Te gustan los juegos de cartas UNO y jugar con amigos y familia? ¿Te gustaría ver cómo ha sido nuestro día con un juego divertido que podéis hacer en casa toda la familia? En el vídeo de hoy jugamos en familia a \"UNO que va\" que sin duda hará que la rutina en familia sea mucho más divertida ¿Te ape."
-seoDescription: "¿Te gustan los juegos de cartas UNO y jugar con amigos y familia? ¿Te gustaría ver cómo ha sido nuestro día con un juego divertido que podéis hacer en..."
+seoDescription: "¿Te gustan los juegos de cartas UNO y jugar con amigos y familia? ¿Te gustaría ver cómo ha sido nuestro día con un juego divertido que podéis hacer en."
 videoId: "f4rfZ4FxP8k"
 publishedAt: "2020-09-11"
 categoria: "vlogs-familia"

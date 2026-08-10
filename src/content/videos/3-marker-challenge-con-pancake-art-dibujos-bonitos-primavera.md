@@ -2,7 +2,7 @@
 title: "3 MARKER CHALLENGE con PANCAKE art //  dibujos bonitos PRIMAVERA"
 seoTitle: "3 MARKER CHALLENGE con PANCAKE art // dibujos bonitos PRIMAVERA"
 description: "¿Que pasa si mezclas el reto 3 Marker challenge con el Pancake art Challenge? Con motivo de la #primavera hemos hecho esta mezcla de retos con motivos primaverales. Familias y niños ¿Estáis preparados para encender vuestras cocinas? Pues sacad vuestros rotuladores brillantes comestibles, el recetari."
-seoDescription: "¿Que pasa si mezclas el reto 3 Marker challenge con el Pancake art Challenge? Con motivo de la #primavera hemos hecho esta mezcla de retos con motivos..."
+seoDescription: "¿Que pasa si mezclas el reto 3 Marker challenge con el Pancake art Challenge? Con motivo de la #primavera hemos hecho esta mezcla de retos con motivos."
 videoId: "Omnyvv60IxA"
 publishedAt: "2018-04-06"
 categoria: "camping-naturaleza"

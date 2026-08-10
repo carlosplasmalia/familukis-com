@@ -2,7 +2,7 @@
 title: "EL MUSEO MAS DIVERTIDO DEL MUNDO ¡Es Alucinante!"
 seoTitle: "EL MUSEO MAS DIVERTIDO DEL MUNDO ¡Es Alucinante"
 description: "Hemos descubierto uno de los museos mas divertidos del mundo ¿Quieres descubrir el museo de la creatividad? ¡Dale al play y viaja con nosotros al museo. Museo de la imaginación: ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hemos descubierto uno de los museos mas divertidos del mundo ¿Quieres descubrir el museo de la creatividad? ¡Dale al play y viaja con nosotros al..."
+seoDescription: "Hemos descubierto uno de los museos mas divertidos del mundo ¿Quieres descubrir el museo de la creatividad? ¡Dale al play y viaja con nosotros al."
 videoId: "fxA6BohWw88"
 publishedAt: "2020-01-28"
 categoria: "para-ninos"

@@ -2,7 +2,7 @@
 title: "24 horas aprendiendo GUITARRA ¡NIÑO de 9 AÑOS! aprende en un día!"
 seoTitle: "24 horas aprendiendo GUITARRA ¡NIÑO de 9 AÑOS! aprende en un día"
 description: "En este video, Óliver un niño de 9 años aprende a tocar la guitarra en un solo día. ¡Mira cómo lo hace! Aprender un nuevo instrumento musical es posible para todos, ¡incluso para los más pequeños! Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro NUEVO LIBRO !📚👉🏻."
-seoDescription: "En este video, Óliver un niño de 9 años aprende a tocar la guitarra en un solo día. ¡Mira cómo lo hace! Aprender un nuevo instrumento musical es..."
+seoDescription: "En este video, Óliver un niño de 9 años aprende a tocar la guitarra en un solo día. ¡Mira cómo lo hace! Aprender un nuevo instrumento musical es."
 videoId: "DE4uNEfc0PU"
 publishedAt: "2025-04-21"
 categoria: "para-ninos"

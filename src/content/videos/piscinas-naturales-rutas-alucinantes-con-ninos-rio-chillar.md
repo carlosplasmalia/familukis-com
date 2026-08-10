@@ -2,7 +2,7 @@
 title: "PISCINAS NATURALES // Rutas ALUCINANTES con NIÑOS // Río CHILLAR"
 seoTitle: "PISCINAS NATURALES // Rutas ALUCINANTES con NIÑOS // Río CHILLAR"
 description: "Hola Familias. Hoy os mostramos una de las rutas más alucinantes que hemos visitado en familia. Piscinas naturales, cascadas, desfiladeros increíbles y naturaleza en su máxima expresión ¡Dale al play y descúbrelo! Mas info:."
-seoDescription: "Hola Familias. Hoy os mostramos una de las rutas más alucinantes que hemos visitado en familia. Piscinas naturales, cascadas, desfiladeros increíbles y..."
+seoDescription: "Hola Familias. Hoy os mostramos una de las rutas más alucinantes que hemos visitado en familia. Piscinas naturales, cascadas, desfiladeros increíbles y."
 videoId: "i-pXvyFxOnQ"
 publishedAt: "2019-09-06"
 categoria: "camping-naturaleza"

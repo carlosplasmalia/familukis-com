@@ -2,7 +2,7 @@
 title: "El mejor REGALO + original que HAS VISTO NUNCA ¡¡SORPRESAS para hacer EN FAMILIA!!"
 seoTitle: "El mejor REGALO + original que HAS VISTO NUNCA ¡¡SORPRESAS..."
 description: "Hoy os enseñamos un regalo super original para cumpleaños, día de la madre, día del padre, regalos para navidades o para lo que se te ocurra ¿te gustan las actividades en familia y te has quedado sin ideas? Consigue \"Reto Adventur\" Aquí: Utiliza el código FAMILUKIS10 y empieza a crear momentos inolv."
-seoDescription: "Hoy os enseñamos un regalo super original para cumpleaños, día de la madre, día del padre, regalos para navidades o para lo que se te ocurra ¿te gustan..."
+seoDescription: "Hoy os enseñamos un regalo super original para cumpleaños, día de la madre, día del padre, regalos para navidades o para lo que se te ocurra ¿te gustan."
 videoId: "tNHEVqBSj8w"
 publishedAt: "2022-06-11"
 categoria: "navidad-regalos"

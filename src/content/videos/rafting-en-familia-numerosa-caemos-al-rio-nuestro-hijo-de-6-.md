@@ -2,7 +2,7 @@
 title: "Rafting en FAMILIA Numerosa ¡¡CAEMOS al río!! NUESTRO hijo DE 6 AÑOS ¡SOLO EN LA BARCA! "
 seoTitle: "Rafting en FAMILIA Numerosa ¡¡CAEMOS al río!! NUESTRO hijo DE..."
 description: "Hoy nuestra familia numerosa nos aventuramos a realizar Rafting con los chicos de \"Ocio Aventura Cerro Gordo\" y os enseñaremos lo divertida que es hacer ésta actividad con la family ¡Súbete a bordo y dale al play! Reserva aquí tu aventura: Conviértete en miembro de este canal para disfrutar de venta."
-seoDescription: "Hoy nuestra familia numerosa nos aventuramos a realizar Rafting con los chicos de \"Ocio Aventura Cerro Gordo\" y os enseñaremos lo divertida que es..."
+seoDescription: "Hoy nuestra familia numerosa nos aventuramos a realizar Rafting con los chicos de \"Ocio Aventura Cerro Gordo\" y os enseñaremos lo divertida que es."
 videoId: "pjswekN7mPE"
 publishedAt: "2022-08-27"
 categoria: "para-ninos"

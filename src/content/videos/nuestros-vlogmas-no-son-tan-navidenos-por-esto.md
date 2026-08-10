@@ -2,7 +2,7 @@
 title: "Nuestros VlogMas NO son tan NAVIDEÑOS por esto..."
 seoTitle: "Nuestros VlogMas NO son tan NAVIDEÑOS por esto..."
 description: "Hoy volvemos a los VlogMas aunque son un poco diferentes. Esperamos que toda la ayuda que \"Ángel Gaitán\" ha llevado de parte de todas esas personas solidarias que aportaron su donativo sirva para hacer un poquito mejor las navidedas de las familias Valencianas. Conviértete en miembro de este canal p."
-seoDescription: "Hoy volvemos a los VlogMas aunque son un poco diferentes. Esperamos que toda la ayuda que \"Ángel Gaitán\" ha llevado de parte de todas esas personas..."
+seoDescription: "Hoy volvemos a los VlogMas aunque son un poco diferentes. Esperamos que toda la ayuda que \"Ángel Gaitán\" ha llevado de parte de todas esas personas."
 videoId: "8vqLkSVVfrQ"
 publishedAt: "2024-12-16"
 categoria: "vlogs-familia"

@@ -2,7 +2,7 @@
 title: "¿Quién es más probable QUÉ? Most Likely to CHALLEGE con AMIGOS Youtubers (ElaShow)"
 seoTitle: "Quién es más probable QUÉ? Most Likely to CHALLEGE con AMIGOS..."
 description: "¿Te gustan los retos con amigos? Pues no te pierdas el Challenge, ¿Quién es más probable qué? o también conocido como  Most Likely to CHALLEGE. Esta vez con nuestra amiga del canal ElaShow: Síguenos en instagram:."
-seoDescription: "¿Te gustan los retos con amigos? Pues no te pierdas el Challenge, ¿Quién es más probable qué? o también conocido como Most Likely to CHALLEGE. Esta vez..."
+seoDescription: "¿Te gustan los retos con amigos? Pues no te pierdas el Challenge, ¿Quién es más probable qué? o también conocido como Most Likely to CHALLEGE. Esta vez."
 videoId: "DAoJogZWnmk"
 publishedAt: "2018-02-15"
 categoria: "retos-challenges"

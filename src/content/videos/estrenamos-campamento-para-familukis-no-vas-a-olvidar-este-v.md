@@ -2,7 +2,7 @@
 title: "¡¡ESTRENAMOS CAMPAMENTO ⛺ para FAMILUKIS!! No vas a OLVIDAR éste VERANO 2022"
 seoTitle: "ESTRENAMOS CAMPAMENTO para FAMILUKIS!! No vas a OLVIDAR éste..."
 description: "Inscríbete en el campamento familuki 👉🏻 Tenemos muchas ganas de pasar unos días con vosotros en uno de los mejores hoteles rurales que vamos a convertir en el mejor campamento de vuestras vidas. Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Inscríbete en el campamento familuki Tenemos muchas ganas de pasar unos días con vosotros en uno de los mejores hoteles rurales que vamos a convertir..."
+seoDescription: "Inscríbete en el campamento familuki Tenemos muchas ganas de pasar unos días con vosotros en uno de los mejores hoteles rurales que vamos a convertir."
 videoId: "zbB09s2AHoU"
 publishedAt: "2022-05-29"
 categoria: "para-ninos"

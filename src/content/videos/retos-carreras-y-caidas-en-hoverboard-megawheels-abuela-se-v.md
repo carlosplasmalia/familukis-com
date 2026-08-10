@@ -2,7 +2,7 @@
 title: "RETOS, CARRERAS Y CAÍDAS EN HOVERBOARD MEGAWHEELS +Abuela se vuelve loca"
 seoTitle: "RETOS, CARRERAS Y CAÍDAS EN HOVERBOARD MEGAWHEELS +Abuela se..."
 description: "¿Te gustaría saber cuántas cosas divertidas se pueden hacer con un Hoverboard? ¿Si? Hemos hecho un circuito para sacarle el máximo provecho a los Hoverboard Megawheels. ¿Quieres verlo? Pues no lo dudes y dale al play ¡Descúbrelo! Dónde encontrar Megawheels Hoverboard: Aquí al mejor precio y eficient."
-seoDescription: "¿Te gustaría saber cuántas cosas divertidas se pueden hacer con un Hoverboard? ¿Si? Hemos hecho un circuito para sacarle el máximo provecho a los..."
+seoDescription: "¿Te gustaría saber cuántas cosas divertidas se pueden hacer con un Hoverboard? ¿Si? Hemos hecho un circuito para sacarle el máximo provecho a los."
 videoId: "3QcJIN0V10c"
 publishedAt: "2017-04-28"
 categoria: "para-ninos"

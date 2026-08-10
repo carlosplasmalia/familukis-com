@@ -2,7 +2,7 @@
 title: "*¡VACACIONES en FAMILIA? ‍‍‍ Magic World 2026  es tu DESTINO IDEAL. ** ¡No te lo PIERDAS!"
 seoTitle: "VACACIONES en FAMILIA? Magic World 2026 es tu DESTINO IDEAL...."
 description: "¿Quieres vivir unas vacaciones inolvidables en \"magic world\"'?  Entra con nuestro código: Así es el nuevo \"Magic World\" antes conocido como \"Marina Dor\" ¿Quieres saber cóno son unas vacaciones en un resort de lujo con ultra todo incluído? (Vídeo colaboración de código de Afiliación con Magic World)."
-seoDescription: "¿Quieres vivir unas vacaciones inolvidables en \"magic world\"'? Entra con nuestro código: Así es el nuevo \"Magic World\" antes conocido como \"Marina..."
+seoDescription: "¿Quieres vivir unas vacaciones inolvidables en \"magic world\"'? Entra con nuestro código: Así es el nuevo \"Magic World\" antes conocido como \"Marina."
 videoId: "hwqqUTfIOtA"
 publishedAt: "2024-07-25"
 categoria: "magic-world"

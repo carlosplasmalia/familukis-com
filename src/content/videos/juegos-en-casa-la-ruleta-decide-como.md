@@ -2,7 +2,7 @@
 title: "JUEGOS EN CASA // LA RULETA decide COMO..."
 seoTitle: "JUEGOS EN CASA // LA RULETA decide COMO..."
 description: "Familias hoy hemos querido premiar a nuestros pequeños con un juego que muy divertido que nos hemos inventado. Es una mezcla entre el famoso juego \"Pasapalabra\" y \"La ruleta de la suerte elige\" que decidirá la suerte de mamá ¿Quieres ver cómo termina? ¡dale al play! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Familias hoy hemos querido premiar a nuestros pequeños con un juego que muy divertido que nos hemos inventado. Es una mezcla entre el famoso juego..."
+seoDescription: "Familias hoy hemos querido premiar a nuestros pequeños con un juego que muy divertido que nos hemos inventado. Es una mezcla entre el famoso juego."
 videoId: "3o1MnsJGgyg"
 publishedAt: "2020-05-02"
 categoria: "para-ninos"

@@ -2,7 +2,7 @@
 title: "REACCIÓN de Nuestra NUEVA MASCOTA a SU mochila de Viajes"
 seoTitle: "REACCIÓN de Nuestra NUEVA MASCOTA a SU mochila de Viajes"
 description: "¿Cómo hemos viajado con nuestras mascotas en la nueva casa rodante? Hoy os damos una idea fácil para reciclar vuestras viejas mochilas y convertirlas en un invento para hacer turismo con vuestras mascotas. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Cómo hemos viajado con nuestras mascotas en la nueva casa rodante? Hoy os damos una idea fácil para reciclar vuestras viejas mochilas y convertirlas..."
+seoDescription: "¿Cómo hemos viajado con nuestras mascotas en la nueva casa rodante? Hoy os damos una idea fácil para reciclar vuestras viejas mochilas y convertirlas."
 videoId: "5GhGGicU9SM"
 publishedAt: "2021-04-17"
 categoria: "vacaciones-familia"

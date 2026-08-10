@@ -2,7 +2,7 @@
 title: "Rutina de Super MADRE 3 Hijos + 5 Mascotas ¡Nuevas Mascotas!"
 seoTitle: "Rutina de Super MADRE 3 Hijos + 5 Mascotas ¡Nuevas Mascotas"
 description: "¿Que rutina diaria está siguiendo Linda para no parar en casa? 3 Hijos y 3 mascotas no eran suficientes ¡Hemos adoptado nuevos cachorros a la familia! ¿Nos acompañáis? ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Que rutina diaria está siguiendo Linda para no parar en casa? 3 Hijos y 3 mascotas no eran suficientes ¡Hemos adoptado nuevos cachorros a la familia!..."
+seoDescription: "¿Que rutina diaria está siguiendo Linda para no parar en casa? 3 Hijos y 3 mascotas no eran suficientes ¡Hemos adoptado nuevos cachorros a la familia!"
 videoId: "dP5J8j9x8-k"
 publishedAt: "2022-02-08"
 categoria: "vlogs-familia"

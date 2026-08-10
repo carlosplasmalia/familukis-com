@@ -2,7 +2,7 @@
 title: "Nuestra VIDA en la MONTAÑA // Así hemos vivido en la Sierra."
 seoTitle: "Nuestra VIDA en la MONTAÑA // Así hemos vivido en la Sierra."
 description: "¿Cómo será nuestra nueva vida? ¿Iremos a la playa, montaña, una finca? Hoy os enseñamos cómo sería nuestra vida en la sierra rodeados de naturaleza. Hemos podido vivir esta experiencia gracias a nuestros familiares que nos han acogido unos días en su hogar para poder vivir de primera mano con nuestr."
-seoDescription: "¿Cómo será nuestra nueva vida? ¿Iremos a la playa, montaña, una finca? Hoy os enseñamos cómo sería nuestra vida en la sierra rodeados de naturaleza...."
+seoDescription: "¿Cómo será nuestra nueva vida? ¿Iremos a la playa, montaña, una finca? Hoy os enseñamos cómo sería nuestra vida en la sierra rodeados de naturaleza."
 videoId: "4hEgnRm4P3w"
 publishedAt: "2024-01-26"
 categoria: "playas-costa"

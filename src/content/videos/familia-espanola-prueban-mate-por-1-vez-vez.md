@@ -2,7 +2,7 @@
 title: "Familia Española prueban MATE 🧉 por 🇦🇷1ª  vez vez!!"
 seoTitle: "Familia Española prueban MATE por 1ª vez vez"
 description: "¡Únete a nosotros en este divertido experimento culinario! En este vídeo, podrás ver la reacción de nuestra familia española al probar la comida argentina por primera vez. Nos aventuramos a comprar y cocinar los productos típicos recomendados por nuestros seguidores, y el resultado no podría ser más."
-seoDescription: "¡Únete a nosotros en este divertido experimento culinario! En este vídeo, podrás ver la reacción de nuestra familia española al probar la comida..."
+seoDescription: "¡Únete a nosotros en este divertido experimento culinario! En este vídeo, podrás ver la reacción de nuestra familia española al probar la comida."
 videoId: "PEAxyTAk0n4"
 publishedAt: "2023-04-26"
 categoria: "retos-challenges"

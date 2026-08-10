@@ -2,7 +2,7 @@
 title: "¡¡Increíble SLIME GIGANTE!! 😱¿Metemos dentro a Carlitos?"
 seoTitle: "Increíble SLIME GIGANTE!! ¿Metemos dentro a Carlitos"
 description: "Hacemos un slime gigante mezclando todos nuestros eslaim en un challenge para niños de Slime ¡Increíble! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "Hacemos un slime gigante mezclando todos nuestros eslaim en un challenge para niños de Slime ¡Increíble! El mejor regalo para un Familuki ¡Camisetas..."
+seoDescription: "Hacemos un slime gigante mezclando todos nuestros eslaim en un challenge para niños de Slime ¡Increíble! El mejor regalo para un Familuki ¡Camisetas."
 videoId: "W3gQSZxuiWc"
 publishedAt: "2018-08-03"
 categoria: "retos-challenges"

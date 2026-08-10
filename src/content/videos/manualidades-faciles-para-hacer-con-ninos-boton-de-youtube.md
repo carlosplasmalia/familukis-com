@@ -2,7 +2,7 @@
 title: "MANUALIDADES FACILES PARA HACER CON NIÑOS // BOTÓN DE YOUTUBE"
 seoTitle: "MANUALIDADES FACILES PARA HACER CON NIÑOS // BOTÓN DE YOUTUBE"
 description: "¿Te gustaría aprender a hacer el botón de youtube para colgarlo en tu habitación? Hoy te enseñamos a hacer manualidades con niños creando un botón de youtube de papel maché. Es ideal para todos esos pequeños Youtubers que les gusten las manualidades fáciles y quieran decorar sus habitaciones."
-seoDescription: "¿Te gustaría aprender a hacer el botón de youtube para colgarlo en tu habitación? Hoy te enseñamos a hacer manualidades con niños creando un botón de..."
+seoDescription: "¿Te gustaría aprender a hacer el botón de youtube para colgarlo en tu habitación? Hoy te enseñamos a hacer manualidades con niños creando un botón de."
 videoId: "XbJMluNqT9E"
 publishedAt: "2016-08-24"
 categoria: "para-ninos"

@@ -2,7 +2,7 @@
 title: "TRENZAS a lo GTA6 ¿Cómo quedan?"
 seoTitle: "TRENZAS a lo GTA6 ¿Cómo quedan"
 description: "Contenido ¿Te imaginas un cambio de look como si fuesen \"personajes de GTA6\"? MIS HIJOS se lanzan a hacerse unas TRENZAS ÉPICAS y el resultado te va a dejar sin palabras ¡Como nos dejaron a toda la Familia! Reacciones divertidísimas de toda la familia. Momentos de humor, sorpresas y retos inesperado."
-seoDescription: "Contenido ¿Te imaginas un cambio de look como si fuesen \"personajes de GTA6\"? MIS HIJOS se lanzan a hacerse unas TRENZAS ÉPICAS y el resultado te va..."
+seoDescription: "Contenido ¿Te imaginas un cambio de look como si fuesen \"personajes de GTA6\"? MIS HIJOS se lanzan a hacerse unas TRENZAS ÉPICAS y el resultado te va."
 videoId: "W7mOhHAVLJE"
 publishedAt: "2026-02-15"
 categoria: "retos-challenges"

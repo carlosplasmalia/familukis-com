@@ -2,7 +2,7 @@
 title: "BATIDO DE UNICORNIO ¡SUPER FÁCIL!  // Smoothie challenge // Juegos y Juguetes en Familia"
 seoTitle: "BATIDO DE UNICORNIO ¡SUPER FÁCIL! // Smoothie challenge //..."
 description: "No creerás lo delicioso que está este batido de unicornio. Esta receta os resultará muy fácil, es ideal para hacer con niños en casa ¿Te animas? Crea tu propio frappé de unicornio ¡Descúbrelo!."
-seoDescription: "No creerás lo delicioso que está este batido de unicornio. Esta receta os resultará muy fácil, es ideal para hacer con niños en casa ¿Te animas? Crea..."
+seoDescription: "No creerás lo delicioso que está este batido de unicornio. Esta receta os resultará muy fácil, es ideal para hacer con niños en casa ¿Te animas? Crea."
 videoId: "QZz9SLFamZI"
 publishedAt: "2017-05-02"
 categoria: "retos-challenges"

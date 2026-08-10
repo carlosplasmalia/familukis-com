@@ -2,7 +2,7 @@
 title: "💄 TIN FOIL MakeUp CHALLENGE!!💄 RETO Maquillaje con PAPEL DE ALUMINIO 😂"
 seoTitle: "TIN FOIL MakeUp CHALLENGE!! RETO Maquillaje con PAPEL DE ALUMINIO"
 description: "Hola Familukis! Nos han retado a hacer el reto Tin Foil Challenge Makeup y nos hemos maquillado a lo bestia. Si te gustan los retos para niños y en familia no lo dudes y dale al Play! Cadena Tin Foil Makeup Challenge: - Mikeltube - AbreloToys - Sílvia Sánchez - Juega Ainhoa - Los Juguetes de Arantxa."
-seoDescription: "Hola Familukis! Nos han retado a hacer el reto Tin Foil Challenge Makeup y nos hemos maquillado a lo bestia. Si te gustan los retos para niños y en..."
+seoDescription: "Hola Familukis! Nos han retado a hacer el reto Tin Foil Challenge Makeup y nos hemos maquillado a lo bestia. Si te gustan los retos para niños y en."
 videoId: "cCTgQ3gaZy4"
 publishedAt: "2017-08-08"
 categoria: "retos-challenges"

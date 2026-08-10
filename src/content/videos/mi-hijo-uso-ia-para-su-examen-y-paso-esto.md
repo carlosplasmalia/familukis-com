@@ -2,7 +2,7 @@
 title: "MI HIJO usó IA para su EXAMEN Y pasó esto..."
 seoTitle: "MI HIJO usó IA para su EXAMEN Y pasó esto..."
 description: "¡Aprobar exámenes ahora es más sencillo gracias a la inteligencia artificial! En este video, te mostramos cómo la tecnologia puede ser tu aliada perfecta para el estudio. Descubre los mejores tips de estudio y aprende como estudiar con ia, y también como estudiar con chatgpt para optimizar tu tiempo."
-seoDescription: "¡Aprobar exámenes ahora es más sencillo gracias a la inteligencia artificial! En este video, te mostramos cómo la tecnologia puede ser tu aliada..."
+seoDescription: "¡Aprobar exámenes ahora es más sencillo gracias a la inteligencia artificial! En este video, te mostramos cómo la tecnologia puede ser tu aliada."
 videoId: "xCg1Vnfk-60"
 publishedAt: "2025-10-22"
 categoria: "para-ninos"

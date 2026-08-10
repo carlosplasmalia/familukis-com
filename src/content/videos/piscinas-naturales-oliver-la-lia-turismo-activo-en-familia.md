@@ -2,7 +2,7 @@
 title: "Piscinas NATURALES  ¡ÓLIVER la lía! [TURISMO ACTIVO en FAMILIA]"
 seoTitle: "Piscinas NATURALES ¡ÓLIVER la lía! [TURISMO ACTIVO en FAMILIA]"
 description: "¿Te gusta el turismo activo en familia? Hoy nos bañamos en unas piscinas naturales, mas conocidas como \"fuentes del Algar\". Además para llegar a ellas nos montaremos en un 4x4 y nuestra familia conocerá el lado mas aventurero de Benidorm ¿Quieres enterarte de los mejores planes para hacer en vacacio."
-seoDescription: "¿Te gusta el turismo activo en familia? Hoy nos bañamos en unas piscinas naturales, mas conocidas como \"fuentes del Algar\". Además para llegar a..."
+seoDescription: "¿Te gusta el turismo activo en familia? Hoy nos bañamos en unas piscinas naturales, mas conocidas como \"fuentes del Algar\". Además para llegar a."
 videoId: "KJoCzuJIw8I"
 publishedAt: "2021-07-18"
 categoria: "vacaciones-familia"

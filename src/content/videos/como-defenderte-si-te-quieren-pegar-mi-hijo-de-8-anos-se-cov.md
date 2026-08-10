@@ -2,7 +2,7 @@
 title: "Como DEFENDERTE si te quieren PEGAR ¡Mi hijo de 8 años se covierte en LUCHADOR!"
 seoTitle: "Como DEFENDERTE si te quieren PEGAR ¡Mi hijo de 8 años se..."
 description: "Hoy os enseñamos una herramienta para defenderos ante los  que hacen bullying en clase. Os presentamos las clases de artes marciales en OSF Aranjuez en la primera clase de Óliver como pequeño guerrero. ¿Son realmente las clases de artes marciales para niños? Ven a descubrirlo en nuestro gimnasio fav."
-seoDescription: "Hoy os enseñamos una herramienta para defenderos ante los que hacen bullying en clase. Os presentamos las clases de artes marciales en OSF Aranjuez en..."
+seoDescription: "Hoy os enseñamos una herramienta para defenderos ante los que hacen bullying en clase. Os presentamos las clases de artes marciales en OSF Aranjuez en."
 videoId: "mrWT4EFNO4w"
 publishedAt: "2024-10-23"
 categoria: "para-ninos"

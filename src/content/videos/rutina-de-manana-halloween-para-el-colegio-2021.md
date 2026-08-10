@@ -2,7 +2,7 @@
 title: "RUTINA de mañana Halloween para el colegio 🎃 2021"
 seoTitle: "RUTINA de mañana Halloween para el colegio 2021"
 description: "Hoy veremos la rutina de nuestro día de halloween para el colegio y fabricamos disfraces fáciles y originales para halloween 2021 ¿Te unes a la fiesta del dia de muertos en familia? ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy veremos la rutina de nuestro día de halloween para el colegio y fabricamos disfraces fáciles y originales para halloween 2021 ¿Te unes a la fiesta..."
+seoDescription: "Hoy veremos la rutina de nuestro día de halloween para el colegio y fabricamos disfraces fáciles y originales para halloween 2021 ¿Te unes a la fiesta."
 videoId: "KEEXff4L3eU"
 publishedAt: "2021-10-29"
 categoria: "halloween"

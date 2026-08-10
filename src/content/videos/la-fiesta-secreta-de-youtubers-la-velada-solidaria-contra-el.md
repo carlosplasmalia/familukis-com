@@ -2,7 +2,7 @@
 title: "La fiesta SECRETA de YOUTUBERS + La Velada SOLIDARIA contra el CÁNCER Infantíl"
 seoTitle: "La fiesta SECRETA de YOUTUBERS + La Velada SOLIDARIA contra..."
 description: "¡Hola! En este emocionante video, te llevaré detrás de escena de una fiesta de Youtube , donde conocí a algunos de los Youtubers más famosos de la plataforma @SezarBlue@viplajo @VíctorSanchego @MrPaulFerrer @CenandoconPablo y otros muchos creadores.  Pero eso no es todo, al día siguiente me preparé."
-seoDescription: "¡Hola! En este emocionante video, te llevaré detrás de escena de una fiesta de Youtube , donde conocí a algunos de los Youtubers más famosos de la..."
+seoDescription: "¡Hola! En este emocionante video, te llevaré detrás de escena de una fiesta de Youtube , donde conocí a algunos de los Youtubers más famosos de la."
 videoId: "9sdtr83JHAc"
 publishedAt: "2023-02-22"
 categoria: "retos-challenges"

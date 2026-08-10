@@ -2,7 +2,7 @@
 title: "Reto PANCAKE art challenge ESPECIAL ¿Comemos BICHOS?"
 seoTitle: "Reto PANCAKE art challenge ESPECIAL ¿Comemos BICHOS"
 description: "Hoy es Viernes 13 y para celebrarlo hemos realizado el reto pancake art challenge EXTREMO. Descubre cómo hemos jugado en familia con este divertido reto disfrazados de personajes misteriosos. Síguenos en instagram:."
-seoDescription: "Hoy es Viernes 13 y para celebrarlo hemos realizado el reto pancake art challenge EXTREMO. Descubre cómo hemos jugado en familia con este divertido..."
+seoDescription: "Hoy es Viernes 13 y para celebrarlo hemos realizado el reto pancake art challenge EXTREMO. Descubre cómo hemos jugado en familia con este divertido."
 videoId: "52pb7lslsEs"
 publishedAt: "2017-10-13"
 categoria: "retos-challenges"

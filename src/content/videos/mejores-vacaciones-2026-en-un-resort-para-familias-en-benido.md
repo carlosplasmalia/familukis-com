@@ -2,7 +2,7 @@
 title: "Mejores VACACIONES 2026 en un RESORT para FAMILIAS en BENIDORM // Tour por MAGIC ROBIN HOOD"
 seoTitle: "Mejores VACACIONES 2026 en un RESORT para FAMILIAS en..."
 description: "Ven al mejor resort de Vacaciones:  ¿Cuáles son los mejores hoteles para ir con niños? ¿Dónde ir de vacaciones con todo incluido? Hoy os traemos un destino ideal para familias y niños en Benidorm ¡Magic Robin Hood Resort! Además en ésta nueva serie os mostraremos el lado más aventurero, divertido y."
-seoDescription: "Ven al mejor resort de Vacaciones: ¿Cuáles son los mejores hoteles para ir con niños? ¿Dónde ir de vacaciones con todo incluido? Hoy os traemos un..."
+seoDescription: "Ven al mejor resort de Vacaciones: ¿Cuáles son los mejores hoteles para ir con niños? ¿Dónde ir de vacaciones con todo incluido? Hoy os traemos un."
 videoId: "RffMuuc7r8M"
 publishedAt: "2021-06-30"
 categoria: "vacaciones-familia"

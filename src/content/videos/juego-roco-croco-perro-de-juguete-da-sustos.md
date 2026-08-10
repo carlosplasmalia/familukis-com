@@ -2,7 +2,7 @@
 title: "JUEGO ROCO CROCO // PERRO DE JUGUETE DA SUSTOS"
 seoTitle: "JUEGO ROCO CROCO // PERRO DE JUGUETE DA SUSTOS"
 description: "Hoy en juegos y juguetes en familia os traemos al juego de Roco Croco. Un juego muy divertido con el que pasar muchas horas de diversión. Tendrás que demostrar su habilidad para robarle los huesos a Roco Croco ¿Crees que podrás robarle todos sus huesos a éste perro de juguete? Si os ha gustado el ví."
-seoDescription: "Hoy en juegos y juguetes en familia os traemos al juego de Roco Croco. Un juego muy divertido con el que pasar muchas horas de diversión. Tendrás que..."
+seoDescription: "Hoy en juegos y juguetes en familia os traemos al juego de Roco Croco. Un juego muy divertido con el que pasar muchas horas de diversión. Tendrás que."
 videoId: "YyACG9T9Cf8"
 publishedAt: "2016-02-21"
 categoria: "para-ninos"

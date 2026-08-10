@@ -2,7 +2,7 @@
 title: "CAMBIO de LOOK ¡¡EXTREMO!! de FANTASÍA ¿Arriesgado tinte de pelo?"
 seoTitle: "CAMBIO de LOOK ¡¡EXTREMO!! de FANTASÍA ¿Arriesgado tinte de pelo"
 description: "Mamiluki siempre ha querido hacer un cambio de look extremo en el color de su pelo. Por eso ha cambiado el color de su cabello ¿Cómo le quedará en nuevo peinado? ¡Descubre nuestro cómic!📚👉🏻 Batseñal:."
-seoDescription: "Mamiluki siempre ha querido hacer un cambio de look extremo en el color de su pelo. Por eso ha cambiado el color de su cabello ¿Cómo le quedará en..."
+seoDescription: "Mamiluki siempre ha querido hacer un cambio de look extremo en el color de su pelo. Por eso ha cambiado el color de su cabello ¿Cómo le quedará en."
 videoId: "cZbCjOIcqpA"
 publishedAt: "2020-01-24"
 categoria: "para-ninos"

@@ -2,7 +2,7 @@
 title: "DISPARANDO CON DRONE A MUÑECO DE VASOS // Juegos y Juguetes en Familia"
 seoTitle: "DISPARANDO CON DRONE A MUÑECO DE VASOS // Juegos y Juguetes..."
 description: "Hemos querido reciclar nuestro muñeco de nieve con vasos con un nuevo vídeo. Ponemos a prueba a nuestro Drone Parrot ¡Descúbrelo! Hoy en Juegos y Juguetes en familia lo hemos pasado genial haciendo volar nuestro drone. Primero hemos realizado una competición de derribar torres y luego hemos querido."
-seoDescription: "Hemos querido reciclar nuestro muñeco de nieve con vasos con un nuevo vídeo. Ponemos a prueba a nuestro Drone Parrot ¡Descúbrelo! Hoy en Juegos y..."
+seoDescription: "Hemos querido reciclar nuestro muñeco de nieve con vasos con un nuevo vídeo. Ponemos a prueba a nuestro Drone Parrot ¡Descúbrelo! Hoy en Juegos y."
 videoId: "aPlH-wBmGnc"
 publishedAt: "2017-01-13"
 categoria: "camping-naturaleza"

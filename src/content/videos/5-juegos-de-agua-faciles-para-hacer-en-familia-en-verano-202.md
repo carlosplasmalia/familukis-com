@@ -2,7 +2,7 @@
 title: "5 JUEGOS de AGUA fáciles para HACER EN FAMILIA en VERANO 2020"
 seoTitle: "5 JUEGOS de AGUA fáciles para HACER EN FAMILIA en VERANO 2020"
 description: "¿Os gustan los juegos con globos de agua, en la piscina o de carreras en el jardín de vuestra casa? Pues hoy os traemos 5 ideas divertidas para hacer juegos de agua para hacer en casa durante este verano 2020 ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Os gustan los juegos con globos de agua, en la piscina o de carreras en el jardín de vuestra casa? Pues hoy os traemos 5 ideas divertidas para hacer..."
+seoDescription: "¿Os gustan los juegos con globos de agua, en la piscina o de carreras en el jardín de vuestra casa? Pues hoy os traemos 5 ideas divertidas para hacer."
 videoId: "P6RpLBLO0bo"
 publishedAt: "2020-05-27"
 categoria: "para-ninos"

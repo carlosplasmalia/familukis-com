@@ -2,7 +2,7 @@
 title: "¿CÓMO deja Los REGALOS 🎁 en la CASA RODANTE? // Navidad en AUTOCARAVANA"
 seoTitle: "CÓMO deja Los REGALOS en la CASA RODANTE? // Navidad en..."
 description: "Hoy abrimos nuestros regalos de navidad en familia en nuestra autocaravana o casa rodante. ¿Quieres saber cómo hemos vivido éstas navidades en nuestro motorhome? ¡Dale al play! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy abrimos nuestros regalos de navidad en familia en nuestra autocaravana o casa rodante. ¿Quieres saber cómo hemos vivido éstas navidades en nuestro..."
+seoDescription: "Hoy abrimos nuestros regalos de navidad en familia en nuestra autocaravana o casa rodante. ¿Quieres saber cómo hemos vivido éstas navidades en nuestro."
 videoId: "-lF3hjakrzk"
 publishedAt: "2022-01-02"
 categoria: "navidad-regalos"

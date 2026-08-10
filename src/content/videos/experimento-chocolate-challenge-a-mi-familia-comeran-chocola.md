@@ -2,7 +2,7 @@
 title: "EXPERIMENTO ¡¡CHOCOLATE CHALLENGE!! a mi FAMILIA  ¿Comerán chocolate?"
 seoTitle: "EXPERIMENTO ¡¡CHOCOLATE CHALLENGE!! a mi FAMILIA ¿Comerán..."
 description: "Hoy Linda pone a prueba a toda la familia con un experimente en el que el resto de familiares tendrán que poner a prueba su fuerza de voluntad por comer ¿Serán capaces de evitar comer chocolate? ¡Dale al Play! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy Linda pone a prueba a toda la familia con un experimente en el que el resto de familiares tendrán que poner a prueba su fuerza de voluntad por..."
+seoDescription: "Hoy Linda pone a prueba a toda la familia con un experimente en el que el resto de familiares tendrán que poner a prueba su fuerza de voluntad por."
 videoId: "jTD6kCAZr-Q"
 publishedAt: "2020-05-22"
 categoria: "retos-challenges"

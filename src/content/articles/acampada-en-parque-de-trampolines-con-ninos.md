@@ -8,6 +8,14 @@ categoria: "parques-atracciones"
 tags: ["Familukis", "parque de trampolines", "acampada", "aventura familiar", "diversión infantil"]
 relatedVideoIds: ["4p-gI1Jd9Hs"]
 featured: false
+rating: 4.3
+faqs:
+  - q: "¿Cómo funciona una acampada en un parque de trampolines?"
+    a: "Las acampadas en parques de trampolines suelen incluir una noche de saltos ilimitados (generalmente de 19:00 a 23:00), cena, película o actividad nocturna, y duermen en el propio parque en sacos de dormir sobre las superficies blandas. Por la mañana suele haber desayuno y una sesión más de saltos antes de salir."
+  - q: "¿Qué hay que llevar a una acampada en parque de trampolines?"
+    a: "Saco de dormir, ropa cómoda para dormir, calcetines antideslizantes (o los compráis allí), algo de merienda si permitido, y productos de higiene básica. La mayoría de parques proporcionan la cena y el desayuno incluidos en el precio."
+  - q: "¿A partir de qué edad es recomendable la acampada en parque de trampolines?"
+    a: "La edad mínima habitual es 5-6 años, aunque varía según el parque. Lo más importante es que el niño sea capaz de pasar la noche fuera de casa sin ansiedad. Para niños entre 7 y 12 años es una experiencia perfecta."
 ---
 
 ## Nuestra aventura en el parque de trampolines

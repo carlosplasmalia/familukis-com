@@ -2,7 +2,7 @@
 title: "¡Llamamos a Espíritus en Mansión encantada con el JUEGO de Terror! Atmosfear"
 seoTitle: "Llamamos a Espíritus en Mansión encantada con el JUEGO de..."
 description: "¿Quieres saber si existen los espíritus? Hoy nos adentramos en una mansión encantada y veréis si contactamos con fantasmas con un juego mejor que la Ouija. Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Quieres saber si existen los espíritus? Hoy nos adentramos en una mansión encantada y veréis si contactamos con fantasmas con un juego mejor que la..."
+seoDescription: "¿Quieres saber si existen los espíritus? Hoy nos adentramos en una mansión encantada y veréis si contactamos con fantasmas con un juego mejor que la."
 videoId: "7eRNoo0qaBY"
 publishedAt: "2022-11-12"
 categoria: "halloween"

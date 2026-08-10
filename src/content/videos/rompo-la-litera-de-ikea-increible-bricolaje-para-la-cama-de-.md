@@ -2,7 +2,7 @@
 title: "¡¡ROMPO la LITERA de IKEA!! increíble BRICOLAJE para la cama de tu PERRO o mascota"
 seoTitle: "ROMPO la LITERA de IKEA!! increíble BRICOLAJE para la cama de..."
 description: "¿Te gusta el bricolaje? En el vídeo de hoy veréis como convertimos una litera de ikea en camas para nuestras mascotas ¡Increíble transformación! PUBLICIDAD: Y si os interesa consigue yeedi 2 hybrid con un mejor precio ingresando éste código promocional: YSON8QEA ( Solo hasta el 20 de Junio de 2021)."
-seoDescription: "¿Te gusta el bricolaje? En el vídeo de hoy veréis como convertimos una litera de ikea en camas para nuestras mascotas ¡Increíble transformación!..."
+seoDescription: "¿Te gusta el bricolaje? En el vídeo de hoy veréis como convertimos una litera de ikea en camas para nuestras mascotas ¡Increíble transformación!"
 videoId: "YPSxhluiToQ"
 publishedAt: "2021-06-18"
 categoria: "para-ninos"

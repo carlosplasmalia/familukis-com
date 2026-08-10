@@ -2,7 +2,7 @@
 title: "SQUISHY vs BURBUJAS Reto bajo el AGUA // Familukis"
 seoTitle: "SQUISHY vs BURBUJAS Reto bajo el AGUA"
 description: "Muchos esperabais un nuevo reto de #Squishy ¡Lo hemos vuelto a hacer! Pero le hemos añadido un poco de dificultad y diversión ¿Quieres saber como hemos realizado el challenge de los squishy? Descúbrelo en este nuevo vídeo. Síguenos en instagram:."
-seoDescription: "Muchos esperabais un nuevo reto de #Squishy ¡Lo hemos vuelto a hacer! Pero le hemos añadido un poco de dificultad y diversión ¿Quieres saber como hemos..."
+seoDescription: "Muchos esperabais un nuevo reto de #Squishy ¡Lo hemos vuelto a hacer! Pero le hemos añadido un poco de dificultad y diversión ¿Quieres saber como hemos."
 videoId: "DQWUnqsvmwE"
 publishedAt: "2018-02-27"
 categoria: "retos-challenges"

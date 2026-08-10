@@ -2,7 +2,7 @@
 title: "VIAJAMOS a ¡PARQUE DE ATRACCIONES EXTREMO! en FAMILIA"
 seoTitle: "VIAJAMOS a ¡PARQUE DE ATRACCIONES EXTREMO! en FAMILIA"
 description: "¿Te gustan los parque de atracciones? hoy viajamos a conocer el parque de atracciones virtual más divertido y extremo de España. En el podrás ser cualquier personaje que te imagines y podrás desde viajar al viejo oeste contra zombies, hasta montar en la montaña rusa mas extrema y loca que jamás has."
-seoDescription: "¿Te gustan los parque de atracciones? hoy viajamos a conocer el parque de atracciones virtual más divertido y extremo de España. En el podrás ser..."
+seoDescription: "¿Te gustan los parque de atracciones? hoy viajamos a conocer el parque de atracciones virtual más divertido y extremo de España. En el podrás ser."
 videoId: "lZR0einQFPA"
 publishedAt: "2020-09-18"
 categoria: "halloween"

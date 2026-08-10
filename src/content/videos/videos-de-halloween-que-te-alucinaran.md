@@ -2,7 +2,7 @@
 title: "VÍDEOS DE 🎃HALLOWEEN que te ¡ALUCINARÁN!😱"
 seoTitle: "VÍDEOS DE HALLOWEEN que te ¡ALUCINARÁN"
 description: "Si te sientes aburrido en Halloween 18 ¡ESTOS VÍDEOS TE VAN A EMOCIONAR! ¿Te gustan las historias de halloween para niños? ¡Descúbrelo! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "Si te sientes aburrido en Halloween 18 ¡ESTOS VÍDEOS TE VAN A EMOCIONAR! ¿Te gustan las historias de halloween para niños? ¡Descúbrelo! El mejor regalo..."
+seoDescription: "Si te sientes aburrido en Halloween 18 ¡ESTOS VÍDEOS TE VAN A EMOCIONAR! ¿Te gustan las historias de halloween para niños? ¡Descúbrelo! El mejor regalo."
 videoId: "nyMKrk4JAds"
 publishedAt: "2018-10-30"
 categoria: "halloween"

@@ -2,7 +2,7 @@
 title: "SLIME  con HUEVOS 🥚 ¡¡ESLIME No son mis MANOS!!"
 seoTitle: "SLIME con HUEVOS ¡¡ESLIME No son mis MANOS"
 description: "Hola Familukis. Hoy hacemos el reto Slime con huevos pero además le añadimos una dificultad y lo hacemos con estas no son mis manos ¡Descúbrelo! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "Hola Familukis. Hoy hacemos el reto Slime con huevos pero además le añadimos una dificultad y lo hacemos con estas no son mis manos ¡Descúbrelo! El..."
+seoDescription: "Hola Familukis. Hoy hacemos el reto Slime con huevos pero además le añadimos una dificultad y lo hacemos con estas no son mis manos ¡Descúbrelo! El."
 videoId: "sIBo0uNi10E"
 publishedAt: "2018-07-13"
 categoria: "retos-challenges"

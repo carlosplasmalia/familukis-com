@@ -2,7 +2,7 @@
 title: "DESCUBRIMOS el HOTEL de GATOS + GRANDE del MUNDO"
 seoTitle: "DESCUBRIMOS el HOTEL de GATOS + GRANDE del MUNDO"
 description: "Hoy vais a viajar con nosotros al país de los gatos, donde habitan más de un millón de felinos de todas las razas que puedas imaginar ¡Incluso tienen un hotel! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy vais a viajar con nosotros al país de los gatos, donde habitan más de un millón de felinos de todas las razas que puedas imaginar ¡Incluso tienen..."
+seoDescription: "Hoy vais a viajar con nosotros al país de los gatos, donde habitan más de un millón de felinos de todas las razas que puedas imaginar ¡Incluso tienen."
 videoId: "0mf1xCp-TMk"
 publishedAt: "2022-04-19"
 categoria: "vacaciones-familia"

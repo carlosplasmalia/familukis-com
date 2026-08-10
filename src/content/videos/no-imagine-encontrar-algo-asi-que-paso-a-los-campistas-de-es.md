@@ -2,7 +2,7 @@
 title: "No IMAGINÉ encontrar ALGO ASÍ ¿Que Pasó a los CAMPISTAS de éste LUGAR ABANDONADO?"
 seoTitle: "No IMAGINÉ encontrar ALGO ASÍ ¿Que Pasó a los CAMPISTAS de..."
 description: "¿Te gustan los vídeos de  casas o mansiones abandonadas? Hoy os traemos algo diferente y especial ¡Un camping abandonado! Con una historia desconocida para la gran mayoría e incluso para los más expertos en Urbex. Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro cóm."
-seoDescription: "¿Te gustan los vídeos de casas o mansiones abandonadas? Hoy os traemos algo diferente y especial ¡Un camping abandonado! Con una historia desconocida..."
+seoDescription: "¿Te gustan los vídeos de casas o mansiones abandonadas? Hoy os traemos algo diferente y especial ¡Un camping abandonado! Con una historia desconocida."
 videoId: "CW2zwst7Rjg"
 publishedAt: "2023-01-11"
 categoria: "camping-naturaleza"

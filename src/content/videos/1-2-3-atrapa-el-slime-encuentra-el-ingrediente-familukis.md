@@ -2,7 +2,7 @@
 title: "1 2 3 ¡¡ATRAPA EL SLIME!! 😱 Encuentra el ingrediente // Familukis"
 seoTitle: "1 2 3 ¡¡ATRAPA EL SLIME!! Encuentra el ingrediente"
 description: "¡Hola familukis! Hoy jugamos a 123 atrapa el slime. Tienes que ser rápido y buscar el slime antes que tu contrincante. Además descubrirás los ingredientes para saber cómo hacer slime sin borax muy fácil.El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "¡Hola familukis! Hoy jugamos a 123 atrapa el slime. Tienes que ser rápido y buscar el slime antes que tu contrincante. Además descubrirás los..."
+seoDescription: "¡Hola familukis! Hoy jugamos a 123 atrapa el slime. Tienes que ser rápido y buscar el slime antes que tu contrincante. Además descubrirás los."
 videoId: "HMZozXsYGSk"
 publishedAt: "2018-09-25"
 categoria: "retos-challenges"

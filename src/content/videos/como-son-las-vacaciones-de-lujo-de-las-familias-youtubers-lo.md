@@ -2,7 +2,7 @@
 title: "¿CÓMO son las VACACIONES DE LUJO de las FAMILIAS YOUTUBERS? // Los familukis"
 seoTitle: "CÓMO son las VACACIONES DE LUJO de las FAMILIAS YOUTUBERS? //..."
 description: "Si alguna vez te has preguntado como son las vacaciones de las familias youtubers hoy te invitamos a acompañarnos en las nuestras ¡Han sido de lujo! y no precisamente por que hayamos disfrutado de imponentes hoteles, grandes yates, parques acuáticos o grandes lujos ¿No te lo crees? Descúbrelo."
-seoDescription: "Si alguna vez te has preguntado como son las vacaciones de las familias youtubers hoy te invitamos a acompañarnos en las nuestras ¡Han sido de lujo! y..."
+seoDescription: "Si alguna vez te has preguntado como son las vacaciones de las familias youtubers hoy te invitamos a acompañarnos en las nuestras ¡Han sido de lujo! y."
 videoId: "du7SaFC5Zeo"
 publishedAt: "2019-03-19"
 categoria: "vacaciones-familia"

@@ -2,7 +2,7 @@
 title: "¡VOY AL COLE! ✏️  Haul MATERIAL ESCOLAR 2018-19 📚VUELTA al COLE // CARLITOS"
 seoTitle: "VOY AL COLE! Haul MATERIAL ESCOLAR 2018-19 VUELTA al COLE //..."
 description: "¿Que lleva Carlitos en su mochila? Si quieres descubrir el material escolar 2018-19 de Carlitos ¡Dale al play! y descubre su vuelta al cole. El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "¿Que lleva Carlitos en su mochila? Si quieres descubrir el material escolar 2018-19 de Carlitos ¡Dale al play! y descubre su vuelta al cole. El mejor..."
+seoDescription: "¿Que lleva Carlitos en su mochila? Si quieres descubrir el material escolar 2018-19 de Carlitos ¡Dale al play! y descubre su vuelta al cole. El mejor."
 videoId: "h6CrAyBBUUY"
 publishedAt: "2018-09-11"
 categoria: "para-ninos"

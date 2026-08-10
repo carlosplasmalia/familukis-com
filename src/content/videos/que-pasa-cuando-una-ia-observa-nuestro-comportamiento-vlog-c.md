@@ -2,7 +2,7 @@
 title: "¿Qué Pasa Cuando una IA Observa Nuestro Comportamiento? Vlog Camping Almayate"
 seoTitle: "Qué Pasa Cuando una IA Observa Nuestro Comportamiento? Vlog..."
 description: "La Inteligencia Artificial puede hacer cosas increíbles pero ¿Qué ocurre cuando la ponemos a observar lo cotidiano durante 24 horas? Hoy viajamos a Camping Alamayate en compañia de la #IA Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro NUEVO LIBRO !📚👉🏻."
-seoDescription: "La Inteligencia Artificial puede hacer cosas increíbles pero ¿Qué ocurre cuando la ponemos a observar lo cotidiano durante 24 horas? Hoy viajamos a..."
+seoDescription: "La Inteligencia Artificial puede hacer cosas increíbles pero ¿Qué ocurre cuando la ponemos a observar lo cotidiano durante 24 horas? Hoy viajamos a."
 videoId: "A_3NSf4Oi1s"
 publishedAt: "2025-10-29"
 categoria: "camping-naturaleza"

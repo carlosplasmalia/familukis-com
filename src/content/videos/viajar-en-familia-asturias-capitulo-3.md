@@ -2,7 +2,7 @@
 title: "VIAJAR EN FAMILIA // ASTURIAS CAPITULO 3"
 seoTitle: "VIAJAR EN FAMILIA // ASTURIAS CAPITULO 3"
 description: "¿Os gusta viajar en familia? ¿Viajes con niños? Hoy en juegos y juguetes en familia  queremos que nos acompañéis en nuestro viaje a Asturias. En éste tercer capítulo visitaremos un centro multiaventura en Cangas de Onís. Aroa y papá montarán a caballo y verán unos paisajes preciosos. Después visitar."
-seoDescription: "¿Os gusta viajar en familia? ¿Viajes con niños? Hoy en juegos y juguetes en familia queremos que nos acompañéis en nuestro viaje a Asturias. En éste..."
+seoDescription: "¿Os gusta viajar en familia? ¿Viajes con niños? Hoy en juegos y juguetes en familia queremos que nos acompañéis en nuestro viaje a Asturias. En éste."
 videoId: "QQYrh4MPJ9w"
 publishedAt: "2016-08-05"
 categoria: "playas-costa"

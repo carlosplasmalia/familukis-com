@@ -2,7 +2,7 @@
 title: "COMIENDO todo ESTO  durante ¡¡UN AÑO!! La Serie de COMIDA definitiva."
 seoTitle: "COMIENDO todo ESTO durante ¡¡UN AÑO!! La Serie de COMIDA..."
 description: "¿Te gustan los retos de comida? Hoy los Familukis os mostramos la increíble serie de los últimos vídeos de comida que hemos hecho. Comiendo verde, comiendo azul, comiendo rojo y algún que otro vídeo sorprendente. Descubre con nosotros cómo monetizar tu pasión por viajar: Creando contenido digital qu."
-seoDescription: "¿Te gustan los retos de comida? Hoy los Familukis os mostramos la increíble serie de los últimos vídeos de comida que hemos hecho. Comiendo verde,..."
+seoDescription: "¿Te gustan los retos de comida? Hoy los Familukis os mostramos la increíble serie de los últimos vídeos de comida que hemos hecho. Comiendo verde."
 videoId: "NgcwN3klDv0"
 publishedAt: "2024-04-03"
 categoria: "vacaciones-familia"

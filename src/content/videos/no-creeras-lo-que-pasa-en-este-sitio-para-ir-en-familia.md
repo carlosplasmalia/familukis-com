@@ -2,7 +2,7 @@
 title: "NO CREERÁS lo que pasa en este SITIO para ir en FAMILIA."
 seoTitle: "NO CREERÁS lo que pasa en este SITIO para ir en FAMILIA."
 description: "Si te gustan los vídeos de 24 horas hoy pasamos un día entero disfrutando de las actividades que planeamos después del Cumpleaños de Óliver. Mira que alucinantes que son los monstertrucks y el gran espectáculo del que disfrutamos en familia. En \"Los Familukis\", fusionamos el encanto del turismo y la."
-seoDescription: "Si te gustan los vídeos de 24 horas hoy pasamos un día entero disfrutando de las actividades que planeamos después del Cumpleaños de Óliver. Mira que..."
+seoDescription: "Si te gustan los vídeos de 24 horas hoy pasamos un día entero disfrutando de las actividades que planeamos después del Cumpleaños de Óliver. Mira que."
 videoId: "Q-Y2i1lhM_0"
 publishedAt: "2024-03-17"
 categoria: "vacaciones-familia"

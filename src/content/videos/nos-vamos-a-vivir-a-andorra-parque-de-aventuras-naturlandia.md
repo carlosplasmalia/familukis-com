@@ -2,7 +2,7 @@
 title: "Nos vamos a vivir a ANDORRA // Parque de aventuras Naturlandia"
 seoTitle: "Nos vamos a vivir a ANDORRA // Parque de aventuras Naturlandia"
 description: "Hoy visitamos Andorra junto a nuestros amigos del canal FamilyTube. Visitaremos Naturlandia y conoceremos lo mejor del turismo en Andorra. Además nuestros amigos @LosPolo nos acogerán en tierras Andorranas y disfrutaremos de unos días en el país de los Youtubers. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy visitamos Andorra junto a nuestros amigos del canal FamilyTube. Visitaremos Naturlandia y conoceremos lo mejor del turismo en Andorra. Además..."
+seoDescription: "Hoy visitamos Andorra junto a nuestros amigos del canal FamilyTube. Visitaremos Naturlandia y conoceremos lo mejor del turismo en Andorra. Además."
 videoId: "HV38MZTw6PA"
 publishedAt: "2021-08-19"
 categoria: "vacaciones-familia"

@@ -2,7 +2,7 @@
 title: "¡Aquí se ESCONDEN Los REYES MAGOS!  Puy du Fou Vlogmas 2"
 seoTitle: "Aquí se ESCONDEN Los REYES MAGOS! Puy du Fou Vlogmas 2"
 description: "Hoy visitamos Puy du Fou para descubrir que es el lufar donde pasarán los Reyes magos antes de empezar a repartir regalos en Navidad. (Vídeo en colaboración con Puy du Fou que nos facilitó la entrada y la grabación en las instalaciones) Conviértete en miembro de este canal para disfrutar de ventajas."
-seoDescription: "Hoy visitamos Puy du Fou para descubrir que es el lufar donde pasarán los Reyes magos antes de empezar a repartir regalos en Navidad. (Vídeo en..."
+seoDescription: "Hoy visitamos Puy du Fou para descubrir que es el lufar donde pasarán los Reyes magos antes de empezar a repartir regalos en Navidad. (Vídeo en."
 videoId: "JuAIQxXUGMI"
 publishedAt: "2024-12-02"
 categoria: "navidad-regalos"

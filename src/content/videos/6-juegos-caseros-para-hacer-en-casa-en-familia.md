@@ -2,7 +2,7 @@
 title: "6 JUEGOS CASEROS para HACER EN CASA  🏠en FAMILIA"
 seoTitle: "6 JUEGOS CASEROS para HACER EN CASA en FAMILIA"
 description: "¿Estáis aburridos en casa? Hoy traemos 6 juegos divertidos ¡¡Y CASEROS!! para hacer con la familia en estos días en los que pasamos tantas horas juntos. Esperamos que estos retos en familia os gusten y os animen a hacer estos días un poco más amenos. ¡Os queremos familias! ¡Descubre nuestro cómic!📚👉."
-seoDescription: "¿Estáis aburridos en casa? Hoy traemos 6 juegos divertidos ¡¡Y CASEROS!! para hacer con la familia en estos días en los que pasamos tantas horas..."
+seoDescription: "¿Estáis aburridos en casa? Hoy traemos 6 juegos divertidos ¡¡Y CASEROS!! para hacer con la familia en estos días en los que pasamos tantas horas."
 videoId: "kgnZvceVQMQ"
 publishedAt: "2020-03-20"
 categoria: "retos-challenges"

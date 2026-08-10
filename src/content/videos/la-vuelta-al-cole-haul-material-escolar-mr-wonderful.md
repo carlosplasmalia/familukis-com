@@ -2,7 +2,7 @@
 title: "LA VUELTA AL COLE // HAUL MATERIAL ESCOLAR MR WONDERFUL"
 seoTitle: "LA VUELTA AL COLE // HAUL MATERIAL ESCOLAR MR WONDERFUL"
 description: "¿Ya has preparado la vuelta al cole? Hoy os enseñamos un haul del material escolar de Aroa para su vuelta al cole 2016-2017 Hemos comprado algunas cositas muy chulas en la tienda de Mr. Wonderful. Nos encantaría saber cómo es tu material escolar, mochila, estuche, lapiceros, gomas de borrar, rotulad."
-seoDescription: "¿Ya has preparado la vuelta al cole? Hoy os enseñamos un haul del material escolar de Aroa para su vuelta al cole 2016-2017 Hemos comprado algunas..."
+seoDescription: "¿Ya has preparado la vuelta al cole? Hoy os enseñamos un haul del material escolar de Aroa para su vuelta al cole 2016-2017 Hemos comprado algunas."
 videoId: "v0SEgfF8FHQ"
 publishedAt: "2016-09-09"
 categoria: "para-ninos"

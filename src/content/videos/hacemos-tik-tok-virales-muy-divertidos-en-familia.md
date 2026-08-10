@@ -2,7 +2,7 @@
 title: "HACEMOS TIK TOK ¡¡VIRALES!! MUY DIVERTIDOS en FAMILIA"
 seoTitle: "HACEMOS TIK TOK ¡¡VIRALES!! MUY DIVERTIDOS en FAMILIA"
 description: "¿Te gustan los vídeos de tiktok virales? ¿Quieres divertirte viendo los retos de tiktok más virales? Hoy os enseñamos como hacemos tik tok en familia para  que vosotros podáis hacerlo en casa. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te gustan los vídeos de tiktok virales? ¿Quieres divertirte viendo los retos de tiktok más virales? Hoy os enseñamos como hacemos tik tok en familia..."
+seoDescription: "¿Te gustan los vídeos de tiktok virales? ¿Quieres divertirte viendo los retos de tiktok más virales? Hoy os enseñamos como hacemos tik tok en familia."
 videoId: "4iO9OgfycEM"
 publishedAt: "2020-04-03"
 categoria: "retos-challenges"

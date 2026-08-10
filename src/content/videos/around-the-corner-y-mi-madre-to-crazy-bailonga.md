@@ -2,7 +2,7 @@
 title: "Around The Corner y MI MADRE to CRAZY BAILONGA 💃"
 seoTitle: "Around The Corner y MI MADRE to CRAZY BAILONGA"
 description: "Mamá se ha vuelto loca en la segunda firma de Around The Corner en Madrid ¿Quieres ver cómo hemos vivido este fantástico día?¡Descúbrelo! Síguenos en instagram:."
-seoDescription: "Mamá se ha vuelto loca en la segunda firma de Around The Corner en Madrid ¿Quieres ver cómo hemos vivido este fantástico día?¡Descúbrelo! Síguenos en..."
+seoDescription: "Mamá se ha vuelto loca en la segunda firma de Around The Corner en Madrid ¿Quieres ver cómo hemos vivido este fantástico día?¡Descúbrelo! Síguenos en."
 videoId: "IGuD4z4hlrc"
 publishedAt: "2018-01-30"
 categoria: "para-ninos"

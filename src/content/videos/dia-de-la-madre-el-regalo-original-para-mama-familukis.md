@@ -2,7 +2,7 @@
 title: "Día de la MADRE el regalo + ORIGINAL para MAMÁ // Familukis"
 seoTitle: "Día de la MADRE el regalo + ORIGINAL para MAMÁ"
 description: "¡Hola Familukis! Hoy es el día de la madre y para sorprender a mamá le hemos preparado un regalo original para el día de la madre muy emotivo. Se trata de una canción personalizada que nos han compuesto los chicos de canciona: ¿Que os a parecido este regalo tan original? Consigue nuestras camisetas."
-seoDescription: "¡Hola Familukis! Hoy es el día de la madre y para sorprender a mamá le hemos preparado un regalo original para el día de la madre muy emotivo. Se trata..."
+seoDescription: "¡Hola Familukis! Hoy es el día de la madre y para sorprender a mamá le hemos preparado un regalo original para el día de la madre muy emotivo. Se trata."
 videoId: "eK3W4eT_lbE"
 publishedAt: "2018-05-06"
 categoria: "para-ninos"

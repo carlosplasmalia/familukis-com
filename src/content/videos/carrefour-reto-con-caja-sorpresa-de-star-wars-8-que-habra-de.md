@@ -2,7 +2,7 @@
 title: "🔴  ¡¡Carrefour RETO con CAJA SORPRESA de Star Wars 8 ¿¿Qué habrá dentro??"
 seoTitle: "Carrefour RETO con CAJA SORPRESA de Star Wars 8 ¿¿Qué habrá..."
 description: "Carrefour nos ha enviado una caja sorpresa del episodio 8 de Star wars con un montón de juegos y juguetes en su interior ¿Que habrá dentro de la caja? ¡Descúbrelo! #StarwarsCarrefour Síguenos en instagram:."
-seoDescription: "Carrefour nos ha enviado una caja sorpresa del episodio 8 de Star wars con un montón de juegos y juguetes en su interior ¿Que habrá dentro de la caja?..."
+seoDescription: "Carrefour nos ha enviado una caja sorpresa del episodio 8 de Star wars con un montón de juegos y juguetes en su interior ¿Que habrá dentro de la caja?"
 videoId: "Ivsmtu6NAtQ"
 publishedAt: "2017-09-05"
 categoria: "retos-challenges"

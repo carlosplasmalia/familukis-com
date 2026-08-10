@@ -2,7 +2,7 @@
 title: "¡La Nueva IA Que Está REVOLUCIONANDO Los Videos En 2025!"
 seoTitle: "La Nueva IA Que Está REVOLUCIONANDO Los Videos En 2025"
 description: "¡Bienvenidos a Los Familukis! En este vídeo, descubre cómo transformamos ideas locas en escenarios inolvidables con Hailuo, la innovadora herramienta de IA para vídeos generativos. Cada miembro de la familia decide el destino del otro: desde emocionantes aventuras en mundos de videojuegos hasta situ."
-seoDescription: "¡Bienvenidos a Los Familukis! En este vídeo, descubre cómo transformamos ideas locas en escenarios inolvidables con Hailuo, la innovadora herramienta..."
+seoDescription: "¡Bienvenidos a Los Familukis! En este vídeo, descubre cómo transformamos ideas locas en escenarios inolvidables con Hailuo, la innovadora herramienta."
 videoId: "YUeO54Tlo3U"
 publishedAt: "2025-03-02"
 categoria: "para-ninos"

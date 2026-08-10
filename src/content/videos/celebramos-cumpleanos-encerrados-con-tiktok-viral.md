@@ -2,7 +2,7 @@
 title: "CELEBRAMOS CUMPLEAÑOS encerrados CON TIKTOK VIRAL"
 seoTitle: "CELEBRAMOS CUMPLEAÑOS encerrados CON TIKTOK VIRAL"
 description: "Es difícil celebrar un cumpleaños cuando todas las familias estamos confinados en casa, así que para entretenernos Mamá y papá se han puesto a hacer virales de tiktok muy divertidos. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Es difícil celebrar un cumpleaños cuando todas las familias estamos confinados en casa, así que para entretenernos Mamá y papá se han puesto a hacer..."
+seoDescription: "Es difícil celebrar un cumpleaños cuando todas las familias estamos confinados en casa, así que para entretenernos Mamá y papá se han puesto a hacer."
 videoId: "ZxJOawr5OEE"
 publishedAt: "2020-04-10"
 categoria: "vlogs-familia"

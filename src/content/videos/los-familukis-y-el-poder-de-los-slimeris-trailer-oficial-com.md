@@ -2,7 +2,7 @@
 title: "LOS FAMILUKIS y el PODER de los SLIMERIS // TRAILER oficial // Cómic de SUPER HEROES"
 seoTitle: "LOS FAMILUKIS y el PODER de los SLIMERIS // TRAILER oficial..."
 description: "Se el primero en conseguirlo 👉 llegó la hora ¡¡Ya está aquí!! ponte cómodo sube el volumen y dale al play. Ya llegó la historia de super héroes para toda la familia ¡Increíble!."
-seoDescription: "Se el primero en conseguirlo llegó la hora ¡¡Ya está aquí!! ponte cómodo sube el volumen y dale al play. Ya llegó la historia de super héroes para toda..."
+seoDescription: "Se el primero en conseguirlo llegó la hora ¡¡Ya está aquí!! ponte cómodo sube el volumen y dale al play. Ya llegó la historia de super héroes para toda."
 videoId: "UDezpWRdBns"
 publishedAt: "2019-09-10"
 categoria: "para-ninos"

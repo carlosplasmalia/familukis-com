@@ -2,7 +2,7 @@
 title: "PINCHAMOS el coche EN EL BOSQUE y ¡¡NO TENEMOS COBERTURA!!"
 seoTitle: "PINCHAMOS el coche EN EL BOSQUE y ¡¡NO TENEMOS COBERTURA"
 description: "¿Te imaginas ir con tu familia por el bosque y pinchar el coche en medio de la nada? ¿Y si vas a llamar y encima no tienes cobertura en el móvil? En el vídeo de hoy pasamos 24 horas de viaje y convivencia con amigos ¡Descúbrelo! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te imaginas ir con tu familia por el bosque y pinchar el coche en medio de la nada? ¿Y si vas a llamar y encima no tienes cobertura en el móvil? En el..."
+seoDescription: "¿Te imaginas ir con tu familia por el bosque y pinchar el coche en medio de la nada? ¿Y si vas a llamar y encima no tienes cobertura en el móvil? En el."
 videoId: "OM2XYNAT7oE"
 publishedAt: "2020-01-04"
 categoria: "camping-naturaleza"

@@ -2,7 +2,7 @@
 title: "MANUALIDADES DE EMOJIS QUE LUCEN EN LA OSCURIDAD // Cojín de Emoji"
 seoTitle: "MANUALIDADES DE EMOJIS QUE LUCEN EN LA OSCURIDAD // Cojín de..."
 description: "Se acerca Emoji la película y para celebrarlo queremos enseñarte a hacer estas manualidades fáciles. Así fabricamos cojines de emojis que lucen en la oscuridad ¡Descúbrelo!."
-seoDescription: "Se acerca Emoji la película y para celebrarlo queremos enseñarte a hacer estas manualidades fáciles. Así fabricamos cojines de emojis que lucen en la..."
+seoDescription: "Se acerca Emoji la película y para celebrarlo queremos enseñarte a hacer estas manualidades fáciles. Así fabricamos cojines de emojis que lucen en la."
 videoId: "ZkGLUPJ3uQY"
 publishedAt: "2017-05-30"
 categoria: "para-ninos"

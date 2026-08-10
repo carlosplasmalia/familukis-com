@@ -2,7 +2,7 @@
 title: "COMPETICIÓN en LA PISCINA ¡¡DE NOCHE!! con FAMILIAS YOUTUBERS"
 seoTitle: "COMPETICIÓN en LA PISCINA ¡¡DE NOCHE!! con FAMILIAS YOUTUBERS"
 description: "Hoy volvemos a la piscina, esta vez por la noche para hacer una competición junto a nuestros amigos del canal @losjaritos1023 ¿Que familia se alzará con el triunfo? Dale al Play y descúbrelo. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy volvemos a la piscina, esta vez por la noche para hacer una competición junto a nuestros amigos del canal @losjaritos1023 ¿Que familia se alzará..."
+seoDescription: "Hoy volvemos a la piscina, esta vez por la noche para hacer una competición junto a nuestros amigos del canal @losjaritos1023 ¿Que familia se alzará."
 videoId: "Za3DUSfSSB0"
 publishedAt: "2020-08-07"
 categoria: "para-ninos"

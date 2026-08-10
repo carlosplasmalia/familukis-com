@@ -2,7 +2,7 @@
 title: "Hemos decidido EMPEZAR de CERO."
 seoTitle: "Hemos decidido EMPEZAR de CERO."
 description: "Primero fuimos Juegos y Juguetes en Familia, luego Los Familukis, y ahora, tras una década de aventuras, viajes y risas, hemos decidido hacer un reset. YouTube ya no es lo que era. Los algoritmos premian el ruido, la exageración, el drama. Pero nosotros creemos que todavía hay espacio para la calma,."
-seoDescription: "Primero fuimos Juegos y Juguetes en Familia, luego Los Familukis, y ahora, tras una década de aventuras, viajes y risas, hemos decidido hacer un reset...."
+seoDescription: "Primero fuimos Juegos y Juguetes en Familia, luego Los Familukis, y ahora, tras una década de aventuras, viajes y risas, hemos decidido hacer un reset."
 videoId: "pYV8bJw0-Ao"
 publishedAt: "2025-10-09"
 categoria: "para-ninos"

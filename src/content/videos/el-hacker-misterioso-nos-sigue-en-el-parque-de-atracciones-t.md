@@ -2,7 +2,7 @@
 title: "EL HACKER misterioso NOS SIGUE en el PARQUE DE ATRACCIONES 🎢TIVOLI"
 seoTitle: "EL HACKER misterioso NOS SIGUE en el PARQUE DE ATRACCIONES TIVOLI"
 description: "Hemos pasado un día en el parque de atracciones, pero el hacker nos ha seguido ¿Que creéis que tramará? Descubre uno de los parques de atracciones más familiares y mágicos que hemos visitado."
-seoDescription: "Hemos pasado un día en el parque de atracciones, pero el hacker nos ha seguido ¿Que creéis que tramará? Descubre uno de los parques de atracciones más..."
+seoDescription: "Hemos pasado un día en el parque de atracciones, pero el hacker nos ha seguido ¿Que creéis que tramará? Descubre uno de los parques de atracciones más."
 videoId: "dLZJn7VQWmU"
 publishedAt: "2019-07-16"
 categoria: "parques-atracciones"

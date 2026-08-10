@@ -2,7 +2,7 @@
 title: "¡Primera vez en AUTOCARAVANA! Desastre inminete en la CASA RODANTE // RECAP"
 seoTitle: "Primera vez en AUTOCARAVANA! Desastre inminete en la CASA..."
 description: "Hoy os enseñamos como ha sido nuestro primer viaje en casa rodante o autocaravana ¿Dónde ir en familia?  Así son los primeros pasos en autocaravana. Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro NUEVO LIBRO !📚👉🏻."
-seoDescription: "Hoy os enseñamos como ha sido nuestro primer viaje en casa rodante o autocaravana ¿Dónde ir en familia? Así son los primeros pasos en autocaravana...."
+seoDescription: "Hoy os enseñamos como ha sido nuestro primer viaje en casa rodante o autocaravana ¿Dónde ir en familia? Así son los primeros pasos en autocaravana."
 videoId: "XQItihCrcbA"
 publishedAt: "2024-08-07"
 categoria: "camping-naturaleza"

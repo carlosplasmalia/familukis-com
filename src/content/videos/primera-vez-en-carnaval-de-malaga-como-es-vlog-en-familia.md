@@ -2,7 +2,7 @@
 title: "Primera Vez en CARNAVAL De MÁLAGA // ¿Cómo es? Vlog en Familia"
 seoTitle: "Primera Vez en CARNAVAL De MÁLAGA // ¿Cómo es? Vlog en Familia"
 description: "¿Te gustan las fiestas de disfraces? Hoy el color vuelve al canal en forma de Carnaval ¡Vente a descubrir los Carnavales de Málaga 2022 en el que nos hemos disfrazado de Dragon Ball. Los mejores disfraces en: ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te gustan las fiestas de disfraces? Hoy el color vuelve al canal en forma de Carnaval ¡Vente a descubrir los Carnavales de Málaga 2022 en el que nos..."
+seoDescription: "¿Te gustan las fiestas de disfraces? Hoy el color vuelve al canal en forma de Carnaval ¡Vente a descubrir los Carnavales de Málaga 2022 en el que nos."
 videoId: "bbXBJe6YbPE"
 publishedAt: "2022-03-01"
 categoria: "para-ninos"

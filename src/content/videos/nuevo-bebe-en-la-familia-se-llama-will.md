@@ -2,7 +2,7 @@
 title: "NUEVO BEBÉ en la Familia 👶  Se llama Will"
 seoTitle: "NUEVO BEBÉ en la Familia Se llama Will"
 description: "Hoy conoceréis a nuestro nuevo Bebé Reborn. Se llama Will y es una creación de Baby Soul Reborn. Si queréis conocer o adoptar un bebé Reborn no dudéis en escribir a Estefi, una artista que hace creaciones Reborn alucinantes. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy conoceréis a nuestro nuevo Bebé Reborn. Se llama Will y es una creación de Baby Soul Reborn. Si queréis conocer o adoptar un bebé Reborn no dudéis..."
+seoDescription: "Hoy conoceréis a nuestro nuevo Bebé Reborn. Se llama Will y es una creación de Baby Soul Reborn. Si queréis conocer o adoptar un bebé Reborn no dudéis."
 videoId: "J1gCTUJ0I5I"
 publishedAt: "2022-03-04"
 categoria: "para-ninos"

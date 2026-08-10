@@ -2,7 +2,7 @@
 title: "Este es el ÚLTIMO CUMPLEAÑOS de mi HIJO porque nos..."
 seoTitle: "Este es el ÚLTIMO CUMPLEAÑOS de mi HIJO porque nos..."
 description: "Mi hijo Óliver ha querido celebrar su cumpleaños en uno de sus parque de trampolines preferido. Será su último año viviendo en Málga así que nos despediremos de este lugar que tanta diversión y buenos momentos nos ha traído. Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre."
-seoDescription: "Mi hijo Óliver ha querido celebrar su cumpleaños en uno de sus parque de trampolines preferido. Será su último año viviendo en Málga así que nos..."
+seoDescription: "Mi hijo Óliver ha querido celebrar su cumpleaños en uno de sus parque de trampolines preferido. Será su último año viviendo en Málga así que nos."
 videoId: "3mfuDrCbVYU"
 publishedAt: "2024-03-13"
 categoria: "parques-atracciones"

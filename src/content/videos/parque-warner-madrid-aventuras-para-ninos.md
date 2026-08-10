@@ -2,7 +2,7 @@
 title: "PARQUE WARNER MADRID 🎢 // Aventuras para niños"
 seoTitle: "PARQUE WARNER MADRID // Aventuras para niños"
 description: "Nuestro viaje al parque warner de Madrid ha sido increíble. Una experiencia única para disfrutar de un día en familia. Atracciones parque warner como el correcaminos, superman o batman son ideales para los más mayores. La zona infantil es genial, sobre todo la aventura de Scooby Doo. Las atracciones."
-seoDescription: "Nuestro viaje al parque warner de Madrid ha sido increíble. Una experiencia única para disfrutar de un día en familia. Atracciones parque warner como..."
+seoDescription: "Nuestro viaje al parque warner de Madrid ha sido increíble. Una experiencia única para disfrutar de un día en familia. Atracciones parque warner como."
 videoId: "694N41EGZQ4"
 publishedAt: "2016-07-08"
 categoria: "parques-atracciones"

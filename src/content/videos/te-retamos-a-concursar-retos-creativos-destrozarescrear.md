@@ -2,7 +2,7 @@
 title: "¡TE RETAMOS A CONCURSAR! // Retos creativos #DestrozarEsCrear"
 seoTitle: "TE RETAMOS A CONCURSAR! // Retos creativos #DestrozarEsCrear"
 description: "¡Hola Familukis! Para participar en este reto creativo podéis hacerlo en la Web: También podéis participar a través de facebook: ¿Dónde encontrar el libro? Aquí: ¿Os gustan los retos? ¿Te gustaría potenciar tu creatividad? Descúbre los libros \"Destroza este diario\" y \"Busca el tesoro en tus bolsillo."
-seoDescription: "¡Hola Familukis! Para participar en este reto creativo podéis hacerlo en la Web: También podéis participar a través de facebook: ¿Dónde encontrar el..."
+seoDescription: "¡Hola Familukis! Para participar en este reto creativo podéis hacerlo en la Web: También podéis participar a través de facebook: ¿Dónde encontrar el."
 videoId: "nbq86YjGQ8c"
 publishedAt: "2017-04-07"
 categoria: "retos-challenges"

@@ -2,7 +2,7 @@
 title: "CASA RODANTE + impresionante que he visto EN UNA FURGONETA camper"
 seoTitle: "CASA RODANTE + impresionante que he visto EN UNA FURGONETA camper"
 description: "¿Puede una furgoneta convertirse en una casa rodante? Os está encantado la serie de casas sobre ruedas, así que hoy os traemos el house tour de una furgoneta camperizada y conoceréis todos sus rincones ¿Os apuntáis familias? ¡Dale al play! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Puede una furgoneta convertirse en una casa rodante? Os está encantado la serie de casas sobre ruedas, así que hoy os traemos el house tour de una..."
+seoDescription: "¿Puede una furgoneta convertirse en una casa rodante? Os está encantado la serie de casas sobre ruedas, así que hoy os traemos el house tour de una."
 videoId: "2B-LpGB6vbk"
 publishedAt: "2021-05-18"
 categoria: "para-ninos"

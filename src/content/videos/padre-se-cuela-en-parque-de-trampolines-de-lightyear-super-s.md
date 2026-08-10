@@ -2,7 +2,7 @@
 title: "Padre SE CUELA en PARQUE de TRAMPOLINES  de Lightyear + SUPER SALTOS gimnasio Olímpico"
 seoTitle: "Padre SE CUELA en PARQUE de TRAMPOLINES de Lightyear + SUPER..."
 description: "Familias hoy volvemos a Altitude Trampoline Park y me pongo en la piel de Lightyear, el protagonista de la nueva película de Disney Pixar para celebrar el cumple de Óliver y hacerlo más divertido disfrazado de Buzz Lightyear ¿Nos acompañas? ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Familias hoy volvemos a Altitude Trampoline Park y me pongo en la piel de Lightyear, el protagonista de la nueva película de Disney Pixar para celebrar..."
+seoDescription: "Familias hoy volvemos a Altitude Trampoline Park y me pongo en la piel de Lightyear, el protagonista de la nueva película de Disney Pixar para celebrar."
 videoId: "6ZVQ-YYG2VI"
 publishedAt: "2022-03-16"
 categoria: "parques-atracciones"

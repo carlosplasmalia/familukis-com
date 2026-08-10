@@ -2,7 +2,7 @@
 title: "50 COSAS SOBRE CARLITOS // Juegos y Juguetes en Familia"
 seoTitle: "50 COSAS SOBRE CARLITOS // Juegos y Juguetes en Familia"
 description: "¿Quieres saber que se le pasa a un niño de 5 años por la cabeza en su 50 cosas sobre mi? ¿Si? Descúbre el 50 cosas sobre mi de Carlitos, estamos seguro de que muchas cosas os sorprenderán. Gracias a todos los familukis por apoyar el vídeo de 50 cosas sobre Aroa y por hacer posible que Juegos y Jugue."
-seoDescription: "¿Quieres saber que se le pasa a un niño de 5 años por la cabeza en su 50 cosas sobre mi? ¿Si? Descúbre el 50 cosas sobre mi de Carlitos, estamos seguro..."
+seoDescription: "¿Quieres saber que se le pasa a un niño de 5 años por la cabeza en su 50 cosas sobre mi? ¿Si? Descúbre el 50 cosas sobre mi de Carlitos, estamos seguro."
 videoId: "YKniabWwHlo"
 publishedAt: "2017-01-03"
 categoria: "para-ninos"

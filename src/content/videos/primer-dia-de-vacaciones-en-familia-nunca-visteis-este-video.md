@@ -2,7 +2,7 @@
 title: "PRIMER DÍA de ¡VACACIONES! en familia + NUNCA VISTEIS éste vídeo con @losjaritos1023"
 seoTitle: "PRIMER DÍA de ¡VACACIONES! en familia + NUNCA VISTEIS éste..."
 description: "Nuestro primer día de vacaciones en la playa ha sido eliminado. Hemos agregado contenido extra con nuestro amigos @losjaritos1023 cuando vinieron de vacaciones a Málaga y hemos recortando la parte de la constricción de arena que hacía conflicto con Youtube. Mango busca hogar + Info aquí: Conviértete."
-seoDescription: "Nuestro primer día de vacaciones en la playa ha sido eliminado. Hemos agregado contenido extra con nuestro amigos @losjaritos1023 cuando vinieron de..."
+seoDescription: "Nuestro primer día de vacaciones en la playa ha sido eliminado. Hemos agregado contenido extra con nuestro amigos @losjaritos1023 cuando vinieron de."
 videoId: "Gx3bl7JpZpM"
 publishedAt: "2022-05-27"
 categoria: "playas-costa"

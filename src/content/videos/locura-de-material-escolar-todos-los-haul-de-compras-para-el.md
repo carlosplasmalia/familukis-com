@@ -2,7 +2,7 @@
 title: "¡LOCURA de Material ESCOLAR! Todos los Haul de Compras para el Colegio 2025"
 seoTitle: "LOCURA de Material ESCOLAR! Todos los Haul de Compras para el..."
 description: "Bienvenidos a “Familia en Bus”, el canal donde las ruedas de la aventura nunca dejan de girar y cada destino es una nueva página en nuestro diario familiar. Sumérgete con nosotros en un viaje sin igual, donde el marketing digital y la pasión por descubrir nuevos horizontes se fusionan para crear con."
-seoDescription: "Bienvenidos a “Familia en Bus”, el canal donde las ruedas de la aventura nunca dejan de girar y cada destino es una nueva página en nuestro diario..."
+seoDescription: "Bienvenidos a “Familia en Bus”, el canal donde las ruedas de la aventura nunca dejan de girar y cada destino es una nueva página en nuestro diario."
 videoId: "OcCYKrjsJUU"
 publishedAt: "2025-09-07"
 categoria: "camping-naturaleza"

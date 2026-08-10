@@ -2,7 +2,7 @@
 title: "Tom & Jerry ¡¡Se MUEVEN En el JARDÍN de nuestra CASA!!"
 seoTitle: "Tom & Jerry ¡¡Se MUEVEN En el JARDÍN de nuestra CASA"
 description: "Unos peluches se mueven en el Jardín ¿No te has enterado aún del estreno en cines de la nueva película de Tom & Jerry 2021? Hoy el gato y el ratón mas divertidos de las pantallas se cuelan en nuestro jardín para invitarnos a ver su nueva película ¿Quieres ir a verla en familia? ¡No te quedes sin tus."
-seoDescription: "Unos peluches se mueven en el Jardín ¿No te has enterado aún del estreno en cines de la nueva película de Tom & Jerry 2021? Hoy el gato y el ratón mas..."
+seoDescription: "Unos peluches se mueven en el Jardín ¿No te has enterado aún del estreno en cines de la nueva película de Tom & Jerry 2021? Hoy el gato y el ratón mas."
 videoId: "b1rksr-WEFU"
 publishedAt: "2021-03-26"
 categoria: "para-ninos"

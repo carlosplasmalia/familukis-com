@@ -2,7 +2,7 @@
 title: "Día de REYES MAGOS 2021🎁 Cabalgata + ¡ALUCINANTE! en familia"
 seoTitle: "Día de REYES MAGOS 2021 Cabalgata + ¡ALUCINANTE! en familia"
 description: "En el vídeo de hoy os enseñaremos la cabalgata de reyes Magos 2021 más alucinante que hemos visto en Vélez Málaga ¡Nos han regalado una bolsita que contiene alguna que otra sorpresa! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "En el vídeo de hoy os enseñaremos la cabalgata de reyes Magos 2021 más alucinante que hemos visto en Vélez Málaga ¡Nos han regalado una bolsita que..."
+seoDescription: "En el vídeo de hoy os enseñaremos la cabalgata de reyes Magos 2021 más alucinante que hemos visto en Vélez Málaga ¡Nos han regalado una bolsita que."
 videoId: "CNxH6PTv3ww"
 publishedAt: "2021-01-08"
 categoria: "navidad-regalos"

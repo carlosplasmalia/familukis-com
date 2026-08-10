@@ -2,7 +2,7 @@
 title: "Toboganes GIGANTES actividades EN FAMILIA en SNOWZONE MADRID"
 seoTitle: "Toboganes GIGANTES actividades EN FAMILIA en SNOWZONE MADRID"
 description: "¿Quieres saber cómo es vivir la experiencia de ir a una pista de nieve gigante en familia? Hoy descubrimos junto a nuestros amigos @losjaritos1023 la pista de nieve Snowzone en Madrid Xanadú. Nosotros hemos ido sin tener mucha idea, así que os vamos a dar unas cuantas recomendaciones si queréis disf."
-seoDescription: "¿Quieres saber cómo es vivir la experiencia de ir a una pista de nieve gigante en familia? Hoy descubrimos junto a nuestros amigos @losjaritos1023 la..."
+seoDescription: "¿Quieres saber cómo es vivir la experiencia de ir a una pista de nieve gigante en familia? Hoy descubrimos junto a nuestros amigos @losjaritos1023 la."
 videoId: "0MYm7P5ylqM"
 publishedAt: "2020-08-11"
 categoria: "parques-acuaticos"

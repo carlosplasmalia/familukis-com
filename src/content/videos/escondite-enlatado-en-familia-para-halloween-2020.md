@@ -2,7 +2,7 @@
 title: "ESCONDITE ENLATADO en FAMILIA para HALLOWEEN 2020"
 seoTitle: "ESCONDITE ENLATADO en FAMILIA para HALLOWEEN 2020"
 description: "¿Te gusta el escondite enlatado? ¿No sabes qué hacer en Halloween 2020? Pues hoy hemos mezclado el juego del escondite enlatado en familia con temática halloween. Creemos que es una actividad ideal para hacer en familia en una fecha tan especial para los diminutos de la casa ¡Preparad vuestros terro."
-seoDescription: "¿Te gusta el escondite enlatado? ¿No sabes qué hacer en Halloween 2020? Pues hoy hemos mezclado el juego del escondite enlatado en familia con temática..."
+seoDescription: "¿Te gusta el escondite enlatado? ¿No sabes qué hacer en Halloween 2020? Pues hoy hemos mezclado el juego del escondite enlatado en familia con temática."
 videoId: "x-R2WVGEzTM"
 publishedAt: "2020-10-14"
 categoria: "halloween"

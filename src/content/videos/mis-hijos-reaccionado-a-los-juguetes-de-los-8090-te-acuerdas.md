@@ -2,7 +2,7 @@
 title: "Mis hijos REACCIONADO a los ¡JUGUETES de los 80/90 ! 😱¿Te acuerdas?"
 seoTitle: "Mis hijos REACCIONADO a los ¡JUGUETES de los 80/90 ! ¿Te acuerdas"
 description: "¿Cómo eran los anuncios de juguetes de los 80´s y los 90´s? ¿Cómo reaccionarán nuestros hijos al ver los juguetes con los que nosotros soñábamos? Hoy viajamos al pasado y os traemos ¡Los juguetes que nos vieron crecer! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Cómo eran los anuncios de juguetes de los 80´s y los 90´s? ¿Cómo reaccionarán nuestros hijos al ver los juguetes con los que nosotros soñábamos? Hoy..."
+seoDescription: "¿Cómo eran los anuncios de juguetes de los 80´s y los 90´s? ¿Cómo reaccionarán nuestros hijos al ver los juguetes con los que nosotros soñábamos? Hoy."
 videoId: "L_kQaEdyncc"
 publishedAt: "2020-12-18"
 categoria: "para-ninos"

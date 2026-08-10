@@ -2,7 +2,7 @@
 title: "Me hago MI PRIMER TATUAJE 😱con permiso de mi MADRE en la quedada // Familukis"
 seoTitle: "Me hago MI PRIMER TATUAJE con permiso de mi MADRE en la quedada"
 description: "Ha sido genial conoceros y pasar esta experiencia con vosotros familukis. Además Aroa se hizo un Tatuaje ¿Quieres verlo? ¡Dale al play! Canal de Queloque: El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "Ha sido genial conoceros y pasar esta experiencia con vosotros familukis. Además Aroa se hizo un Tatuaje ¿Quieres verlo? ¡Dale al play! Canal de..."
+seoDescription: "Ha sido genial conoceros y pasar esta experiencia con vosotros familukis. Además Aroa se hizo un Tatuaje ¿Quieres verlo? ¡Dale al play! Canal de."
 videoId: "xxviblNeVVQ"
 publishedAt: "2019-01-29"
 categoria: "para-ninos"

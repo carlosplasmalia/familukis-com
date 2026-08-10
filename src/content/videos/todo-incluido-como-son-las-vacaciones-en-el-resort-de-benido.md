@@ -2,7 +2,7 @@
 title: "¡TODO INCLUÍDO! ¿CÓMO son las VACACIONES en el resort de Benidorm Alicante?"
 seoTitle: "TODO INCLUÍDO! ¿CÓMO son las VACACIONES en el resort de..."
 description: "¿Quieres saber cómo es un resort todo incluido, con accesos a parques acuáticos, parques de atracciones, instalaciones con animación para toda la familia y un montón de actividades para hacer turismo en Benidorm? ¡Dale al play y ven a ver cómo han sido nuestras vacaciones de lujo de la mano de Visit."
-seoDescription: "¿Quieres saber cómo es un resort todo incluido, con accesos a parques acuáticos, parques de atracciones, instalaciones con animación para toda la..."
+seoDescription: "¿Quieres saber cómo es un resort todo incluido, con accesos a parques acuáticos, parques de atracciones, instalaciones con animación para toda la."
 videoId: "icF6rY0LVns"
 publishedAt: "2022-07-06"
 categoria: "parques-atracciones"

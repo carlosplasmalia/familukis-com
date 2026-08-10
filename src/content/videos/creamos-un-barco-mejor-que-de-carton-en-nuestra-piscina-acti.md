@@ -2,7 +2,7 @@
 title: "CREAMOS un BARCO MEJOR que de CARTÓN en nuestra PISCINA // Actividades en familia"
 seoTitle: "CREAMOS un BARCO MEJOR que de CARTÓN en nuestra PISCINA //..."
 description: "¿Os gustan los vídeos de retos en la piscina? Pues hoy nos hemos propuesto a fabricar una embarcación gigante y mejor que de cartón, para hacerla flotar el barco gigante en nuestra piscina ¡Descúbrelo!."
-seoDescription: "¿Os gustan los vídeos de retos en la piscina? Pues hoy nos hemos propuesto a fabricar una embarcación gigante y mejor que de cartón, para hacerla..."
+seoDescription: "¿Os gustan los vídeos de retos en la piscina? Pues hoy nos hemos propuesto a fabricar una embarcación gigante y mejor que de cartón, para hacerla."
 videoId: "dB1RDRdChq8"
 publishedAt: "2019-08-13"
 categoria: "retos-challenges"

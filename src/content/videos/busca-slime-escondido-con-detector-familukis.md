@@ -2,7 +2,7 @@
 title: "Busca SLIME ESCONDIDO con DETECTOR // Familukis"
 seoTitle: "Busca SLIME ESCONDIDO con DETECTOR"
 description: "¿Te gustan los retos de Slime a escondidas? ¿Sí? Hoy os traemos un reto divertido en el que verás cómo buscamos slime con un detector de metales ¿Encontraremos slime de oro? ¡Descúbrelo! Síguenos en instagram:."
-seoDescription: "¿Te gustan los retos de Slime a escondidas? ¿Sí? Hoy os traemos un reto divertido en el que verás cómo buscamos slime con un detector de metales..."
+seoDescription: "¿Te gustan los retos de Slime a escondidas? ¿Sí? Hoy os traemos un reto divertido en el que verás cómo buscamos slime con un detector de metales."
 videoId: "r3fTUMFzGNE"
 publishedAt: "2018-05-15"
 categoria: "retos-challenges"

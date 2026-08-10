@@ -2,7 +2,7 @@
 title: "Vlog VACACIONES en NUEVO COCHE // Familukis"
 seoTitle: "Vlog VACACIONES en NUEVO COCHE"
 description: "¡Hola familukis! ¿Nos acompañáis en un viaje a Portugal en nuestro nuevo coche de Goldcar? ¡Descúbrelo! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "¡Hola familukis! ¿Nos acompañáis en un viaje a Portugal en nuestro nuevo coche de Goldcar? ¡Descúbrelo! El mejor regalo para un Familuki ¡Camisetas..."
+seoDescription: "¡Hola familukis! ¿Nos acompañáis en un viaje a Portugal en nuestro nuevo coche de Goldcar? ¡Descúbrelo! El mejor regalo para un Familuki ¡Camisetas."
 videoId: "Nl9jz1R2hRQ"
 publishedAt: "2018-07-24"
 categoria: "vacaciones-familia"

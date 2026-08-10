@@ -2,7 +2,7 @@
 title: "1 + 👨‍👩‍👧‍👦 ¡ABRIENDO  regalos 🎁 de REYES MAGOS ! + Vlog CABALGATA de VÉLEZ"
 seoTitle: "1 + ¡ABRIENDO regalos de REYES MAGOS ! + Vlog CABALGATA de VÉLEZ"
 description: "¿Más regalos de Reyes Magos en 2023? Éste año hay un par de zapatos + en casa de Los familukis. Además en el día de reyes nos subimos a las carrozas en la cabalgata de Vélez-Málaga. Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Más regalos de Reyes Magos en 2023? Éste año hay un par de zapatos + en casa de Los familukis. Además en el día de reyes nos subimos a las carrozas en..."
+seoDescription: "¿Más regalos de Reyes Magos en 2023? Éste año hay un par de zapatos + en casa de Los familukis. Además en el día de reyes nos subimos a las carrozas en."
 videoId: "_NMhrPYh-2A"
 publishedAt: "2023-01-08"
 categoria: "navidad-regalos"

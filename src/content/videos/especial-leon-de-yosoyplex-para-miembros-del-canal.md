@@ -2,7 +2,7 @@
 title: "¡Especial León de YosoyPlex para MIEMBROS del CANAL!"
 seoTitle: "Especial León de YosoyPlex para MIEMBROS del CANAL"
 description: "¡Gracias por el apoyo! (Vídeo colaboración no remunerada con Safari Madrid  que facilitó la entrada  gratuíta y la grabación  de la actividad) Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro NUEVO LIBRO !📚👉🏻."
-seoDescription: "¡Gracias por el apoyo! (Vídeo colaboración no remunerada con Safari Madrid que facilitó la entrada gratuíta y la grabación de la actividad) Conviértete..."
+seoDescription: "¡Gracias por el apoyo! (Vídeo colaboración no remunerada con Safari Madrid que facilitó la entrada gratuíta y la grabación de la actividad) Conviértete."
 videoId: "AYhupT8--hA"
 publishedAt: "2024-09-20"
 categoria: "para-ninos"

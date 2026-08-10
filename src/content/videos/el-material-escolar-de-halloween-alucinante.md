@@ -2,7 +2,7 @@
 title: "El MATERIAL ESCOLAR de Halloween + ¡ALUCINANTE!"
 seoTitle: "El MATERIAL ESCOLAR de Halloween + ¡ALUCINANTE"
 description: "¿Te gustan los vídeos de útiles escolares o material escolar 2018-19? Hoy os traemos un vídeo con todo tipo de artículos alucinantes. El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "¿Te gustan los vídeos de útiles escolares o material escolar 2018-19? Hoy os traemos un vídeo con todo tipo de artículos alucinantes. El mejor regalo..."
+seoDescription: "¿Te gustan los vídeos de útiles escolares o material escolar 2018-19? Hoy os traemos un vídeo con todo tipo de artículos alucinantes. El mejor regalo."
 videoId: "8W8QjA83kCc"
 publishedAt: "2018-10-19"
 categoria: "halloween"

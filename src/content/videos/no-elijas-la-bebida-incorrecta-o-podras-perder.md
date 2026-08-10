@@ -2,7 +2,7 @@
 title: "¡NO ❌ elijas la BEBIDA incorrecta ! o podras perder…"
 seoTitle: "NO elijas la BEBIDA incorrecta ! o podras perder…"
 description: "¿Te gustan los retos divertidos? Hoy ponemos a prueba a nuestra familia con este reto divertido ?Sabrías diferenciar el sabor de la cocacola original de la de Mercadona, Lidl, Día, Carrefour o incluso de la Pepsi? Descúbrelo! Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre."
-seoDescription: "¿Te gustan los retos divertidos? Hoy ponemos a prueba a nuestra familia con este reto divertido ?Sabrías diferenciar el sabor de la cocacola original..."
+seoDescription: "¿Te gustan los retos divertidos? Hoy ponemos a prueba a nuestra familia con este reto divertido ?Sabrías diferenciar el sabor de la cocacola original."
 videoId: "9FQuYen1ylQ"
 publishedAt: "2023-09-12"
 categoria: "retos-challenges"

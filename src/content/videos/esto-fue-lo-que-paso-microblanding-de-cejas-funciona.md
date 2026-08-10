@@ -2,7 +2,7 @@
 title: "ESTO FUE LO QUE PASÓ 🙈// Microblanding de cejas ¿Funciona?"
 seoTitle: "ESTO FUE LO QUE PASÓ // Microblanding de cejas ¿Funciona"
 description: "En el vídeo de hoy mamiluki se hace micropigmentacion en las cejas también llamado microblanding. Al principio asusta un poco, pero luego el resultado es genial en el centro lashesandgo."
-seoDescription: "En el vídeo de hoy mamiluki se hace micropigmentacion en las cejas también llamado microblanding. Al principio asusta un poco, pero luego el resultado..."
+seoDescription: "En el vídeo de hoy mamiluki se hace micropigmentacion en las cejas también llamado microblanding. Al principio asusta un poco, pero luego el resultado."
 videoId: "mXE1JWWHDvI"
 publishedAt: "2019-07-02"
 categoria: "para-ninos"

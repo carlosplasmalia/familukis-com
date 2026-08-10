@@ -2,7 +2,7 @@
 title: "NUEVAS MASCOTAS ¡¡sorpresa!! + cachorros bebés y Vlog con EL NUEVO IPHONE 13 pro max"
 seoTitle: "NUEVAS MASCOTAS ¡¡sorpresa!! + cachorros bebés y Vlog con EL..."
 description: "Hace unos días que tenemos nuevas mascotas en casa de acogida. Pero sus hermanos cachorros aún no han encontrado hogar, así que les hemos hecho una sesión de fotos con iphone para ver si éstos perros encuentran hogar. Además ponemos a prueba el modo cine del nuevo Iphone 13 pro max. Si quieres adopt."
-seoDescription: "Hace unos días que tenemos nuevas mascotas en casa de acogida. Pero sus hermanos cachorros aún no han encontrado hogar, así que les hemos hecho una..."
+seoDescription: "Hace unos días que tenemos nuevas mascotas en casa de acogida. Pero sus hermanos cachorros aún no han encontrado hogar, así que les hemos hecho una."
 videoId: "xtGsdPr17qc"
 publishedAt: "2021-09-29"
 categoria: "retos-challenges"

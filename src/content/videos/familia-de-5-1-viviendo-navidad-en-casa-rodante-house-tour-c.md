@@ -2,7 +2,7 @@
 title: "Familia de 5 +1 👨‍👩‍👧‍👦 VIVIENDO Navidad en CASA RODANTE House tour// Capítulo 1"
 seoTitle: "Familia de 5 +1 VIVIENDO Navidad en CASA RODANTE House tour//..."
 description: "Bienvenidas familias al capítulo 1 dónde conoceréis nuestra casa rodante. Nos preparamos para vivir la navidad en Autocaravana ¿Nos acompañas al viaje? ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Bienvenidas familias al capítulo 1 dónde conoceréis nuestra casa rodante. Nos preparamos para vivir la navidad en Autocaravana ¿Nos acompañas al viaje?..."
+seoDescription: "Bienvenidas familias al capítulo 1 dónde conoceréis nuestra casa rodante. Nos preparamos para vivir la navidad en Autocaravana ¿Nos acompañas al viaje?"
 videoId: "qwx1oPbgZaM"
 publishedAt: "2021-12-28"
 categoria: "navidad-regalos"

@@ -2,7 +2,7 @@
 title: "BEBE COME PAPILLA // Juegos y Juguetes en Familia"
 seoTitle: "BEBE COME PAPILLA // Juegos y Juguetes en Familia"
 description: "Hoy queremos enseñaros cómo nuestro bebé come papilla. Oliver es un bebé muy grande que come papilla y sus hermanos le han preparado la comida para enseñaros como le dan de comer su papilla. No es tarea fácil dar de comer papilla a un bebé. Papá lo ha intentado y no ha tenido mucha suerte. Esperamos."
-seoDescription: "Hoy queremos enseñaros cómo nuestro bebé come papilla. Oliver es un bebé muy grande que come papilla y sus hermanos le han preparado la comida para..."
+seoDescription: "Hoy queremos enseñaros cómo nuestro bebé come papilla. Oliver es un bebé muy grande que come papilla y sus hermanos le han preparado la comida para."
 videoId: "rYMqQdLdwWs"
 publishedAt: "2016-09-07"
 categoria: "para-ninos"

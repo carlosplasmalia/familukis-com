@@ -2,7 +2,7 @@
 title: "12 horas EN EL BOSQUE *RUTAS en FAMILIA* + COGEMOS CASTAÑAS"
 seoTitle: "12 horas EN EL BOSQUE *RUTAS en FAMILIA* + COGEMOS CASTAÑAS"
 description: "Otoño es una fecha ideal para hacer rutas en familia, es por eso que hoy hemos pasado 12 horas en el bosque y os lo hemos contado. En la escapada de hoy, recolectaremos castañas, visitaremos un teepee indio y encontraremos un tesoro escondido entre las rocas ¿Nos acompañas? ¡Descubre nuestro cómic!📚."
-seoDescription: "Otoño es una fecha ideal para hacer rutas en familia, es por eso que hoy hemos pasado 12 horas en el bosque y os lo hemos contado. En la escapada de..."
+seoDescription: "Otoño es una fecha ideal para hacer rutas en familia, es por eso que hoy hemos pasado 12 horas en el bosque y os lo hemos contado. En la escapada de."
 videoId: "Tmd_Fa6qvuw"
 publishedAt: "2019-10-11"
 categoria: "camping-naturaleza"

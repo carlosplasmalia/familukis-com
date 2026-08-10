@@ -8,6 +8,14 @@ categoria: "parques-atracciones"
 tags: ["Parque Warner Madrid", "Aventuras para niños", "Parques de Atracciones", "Día de diversión", "Familia"]
 relatedVideoIds: ["694N41EGZQ4"]
 featured: false
+rating: 4.5
+faqs:
+  - q: "¿Cuánto tiempo hace falta para ver Parque Warner Madrid con niños?"
+    a: "Lo ideal es dedicar un día completo (de apertura a cierre). Las familias con niños pequeños suelen centrarse en Hollywood Boulevard y la zona DC Comics. Si queréis hacer las montañas rusas grandes, madrugad para las primeras filas del día."
+  - q: "¿Qué zona de Parque Warner es mejor para niños pequeños?"
+    a: "La zona Cartoon Village y el área de Superman: La Atracción de Acero tienen las atracciones más familiares. Para niños entre 3 y 7 años, el Cartoon Village es el mejor punto de partida porque concentra atracciones sin altura mínima."
+  - q: "¿Merece la pena ir a Parque Warner en verano con niños?"
+    a: "Merece la pena, pero en julio y agosto las colas son largas. Nuestra recomendación: ir en junio o septiembre cuando las colas son menores y el parque acuático (Warner Beach) también está abierto."
 ---
 
 ## Nuestro día en el Parque Warner Madrid

@@ -2,7 +2,7 @@
 title: "¡NUEVO! imitando FOTOS #TUMBLR // Familukis"
 seoTitle: "NUEVO! imitando FOTOS #TUMBLR"
 description: "Imitando fotos Tumblr es uno de los retos divertidos que más nos gusta hacer. Esta vez también hemos hecho un creando fotos tumblr y para ello hemos contado con nuestra familuki y amiga Cristina. Como estaba lloviendo hemos tenido que hacer el reto imitando fotos tumblr en casa  ¿Te animas a ver est."
-seoDescription: "Imitando fotos Tumblr es uno de los retos divertidos que más nos gusta hacer. Esta vez también hemos hecho un creando fotos tumblr y para ello hemos..."
+seoDescription: "Imitando fotos Tumblr es uno de los retos divertidos que más nos gusta hacer. Esta vez también hemos hecho un creando fotos tumblr y para ello hemos."
 videoId: "iw6kDAmwdcU"
 publishedAt: "2018-03-23"
 categoria: "vacaciones-familia"

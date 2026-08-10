@@ -2,7 +2,7 @@
 title: "¡NUEVA RUTINA de SÁBADO! Bañamos a PANTHER por PRIMERA VEZ"
 seoTitle: "NUEVA RUTINA de SÁBADO! Bañamos a PANTHER por PRIMERA VEZ"
 description: "Hoy os enseñamos una día cotidiano de fin de semana en el que bañaremos por primera nuestra mascota Panther. Además visitaremos el museo de automoción y conoceréis los juegos educativos de Clementoni: ¿Te gustaría ver cómo es nuestra rutina familiar? ¡Dale al play! ¡Nuestro cómic dedicado por nosotr."
-seoDescription: "Hoy os enseñamos una día cotidiano de fin de semana en el que bañaremos por primera nuestra mascota Panther. Además visitaremos el museo de automoción..."
+seoDescription: "Hoy os enseñamos una día cotidiano de fin de semana en el que bañaremos por primera nuestra mascota Panther. Además visitaremos el museo de automoción."
 videoId: "ell17eeDDfc"
 publishedAt: "2020-11-10"
 categoria: "vlogs-familia"

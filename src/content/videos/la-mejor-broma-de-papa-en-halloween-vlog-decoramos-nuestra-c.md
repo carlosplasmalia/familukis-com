@@ -2,7 +2,7 @@
 title: "La mejor BROMA de papá en HALLOWEEN 🎃 👻  VLOG decoramos nuestra CASA"
 seoTitle: "La mejor BROMA de papá en HALLOWEEN VLOG decoramos nuestra CASA"
 description: "¿Te gustan las bromas graciosas o de terror? Pues hoy papá se ha preparado para dar a la familia un susto como la fiesta de Halloween se merece. También hemos decorado nuestra casa con un montón de motivos del día de Halloween ¿Quieres descubrirlo? Pues dale al Play Familuki! Síguenos en instagram:."
-seoDescription: "¿Te gustan las bromas graciosas o de terror? Pues hoy papá se ha preparado para dar a la familia un susto como la fiesta de Halloween se merece...."
+seoDescription: "¿Te gustan las bromas graciosas o de terror? Pues hoy papá se ha preparado para dar a la familia un susto como la fiesta de Halloween se merece."
 videoId: "JIjBoGARm8E"
 publishedAt: "2017-10-10"
 categoria: "halloween"

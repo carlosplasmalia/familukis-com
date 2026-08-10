@@ -2,7 +2,7 @@
 title: "Dejamos a MI HIJA y su NOVIO en CASA y Nos MUDAMOS de NUEVO??"
 seoTitle: "Dejamos a MI HIJA y su NOVIO en CASA y Nos MUDAMOS de NUEVO"
 description: "Hoy continuamos con nuestras vacaciones en familia sin mi Hija y su novio. Nos ha gustado tanto el viaje que estamos pensando en mudarnos ¿Qué opináis? ¡Descubre nuestro cómic!📚👉🏻 Conviértete en miembro de este canal para disfrutar de ventajas:."
-seoDescription: "Hoy continuamos con nuestras vacaciones en familia sin mi Hija y su novio. Nos ha gustado tanto el viaje que estamos pensando en mudarnos ¿Qué opináis?..."
+seoDescription: "Hoy continuamos con nuestras vacaciones en familia sin mi Hija y su novio. Nos ha gustado tanto el viaje que estamos pensando en mudarnos ¿Qué opináis?"
 videoId: "06DgIXmrdZY"
 publishedAt: "2023-08-15"
 categoria: "vacaciones-familia"

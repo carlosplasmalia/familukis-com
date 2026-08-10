@@ -2,7 +2,7 @@
 title: "24 horas EN EL GIMNASIO contra FAMILIA YOUTUBER"
 seoTitle: "24 horas EN EL GIMNASIO contra FAMILIA YOUTUBER"
 description: "Hoy vistamos el gimnasio OSF en Aranjuez para hacer un juego divertido junto a otra intrépida familia ¡¡@Los Jaritos!! Regístrate en Letyshops:  y ahorra en tus compras online. activar el cashback en un click. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy vistamos el gimnasio OSF en Aranjuez para hacer un juego divertido junto a otra intrépida familia ¡¡@Los Jaritos!! Regístrate en Letyshops: y..."
+seoDescription: "Hoy vistamos el gimnasio OSF en Aranjuez para hacer un juego divertido junto a otra intrépida familia ¡¡@Los Jaritos!! Regístrate en Letyshops: y."
 videoId: "gBtGGVnvYKM"
 publishedAt: "2020-08-25"
 categoria: "para-ninos"

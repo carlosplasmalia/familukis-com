@@ -2,7 +2,7 @@
 title: "UNBOXING SORPRESA // Juegos y Juguetes en Familia"
 seoTitle: "UNBOXING SORPRESA // Juegos y Juguetes en Familia"
 description: "Llevábamos mucho tiempo esperando este unboxing y hoy por fin te lo podemos enseñar. Hemos tenido que desplazarnos a otra ciudad para conseguirlo pero finalmente ya podemos enseñarlo en el canal. Esperamos que lo disfrutéis tanto como nosotros."
-seoDescription: "Llevábamos mucho tiempo esperando este unboxing y hoy por fin te lo podemos enseñar. Hemos tenido que desplazarnos a otra ciudad para conseguirlo pero..."
+seoDescription: "Llevábamos mucho tiempo esperando este unboxing y hoy por fin te lo podemos enseñar. Hemos tenido que desplazarnos a otra ciudad para conseguirlo pero."
 videoId: "DNdAIhh4BUI"
 publishedAt: "2017-03-07"
 categoria: "para-ninos"

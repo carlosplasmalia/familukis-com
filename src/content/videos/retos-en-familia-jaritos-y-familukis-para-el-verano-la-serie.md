@@ -2,7 +2,7 @@
 title: "Retos en FAMILIA Jaritos y Familukis para el VERANO \"La serie\""
 seoTitle: "Retos en Familia — Jaritos y Familukis para el Verano"
 description: "Si te gustan los retos en la alberca o piscina  hoy hemos unido toda la diversión de Los familukis con @losjaritos1023\"Los Jaritos\" ¿Estáis listos para las risas y diversión en familia? Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro NUEVO LIBRO !📚👉🏻."
-seoDescription: "Si te gustan los retos en la alberca o piscina hoy hemos unido toda la diversión de Los familukis con @losjaritos1023\"Los Jaritos\" ¿Estáis listos..."
+seoDescription: "Si te gustan los retos en la alberca o piscina hoy hemos unido toda la diversión de Los familukis con @losjaritos1023\"Los Jaritos\" ¿Estáis listos."
 videoId: "aHrYnDyDoC8"
 publishedAt: "2024-05-26"
 categoria: "retos-challenges"

@@ -2,7 +2,7 @@
 title: "Mi HIJA entra al Pasaje del TERROR + ¡¡GRANDE!! de ESPAÑA con @MartinaDAntiochia en Isla Mágica"
 seoTitle: "Mi HIJA entra al Pasaje del TERROR + ¡¡GRANDE!! de ESPAÑA con..."
 description: "¿Cómo es #halloween2022 en el parque temático Isla Mágica? La diversión y el terror están asegurados porque han unido 2 pasajes y ampliado uno de ellos. Hoy lo visitamos éste maravilloso parque de diversiones con @MartinaDAntiochia y @gonzalosarfatti ¡Dale al play! Conviértete en miembro de este can."
-seoDescription: "¿Cómo es #halloween2022 en el parque temático Isla Mágica? La diversión y el terror están asegurados porque han unido 2 pasajes y ampliado uno de..."
+seoDescription: "¿Cómo es #halloween2022 en el parque temático Isla Mágica? La diversión y el terror están asegurados porque han unido 2 pasajes y ampliado uno de."
 videoId: "BaWQbuBy4nk"
 publishedAt: "2022-10-28"
 categoria: "halloween"

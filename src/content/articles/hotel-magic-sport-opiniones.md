@@ -10,6 +10,13 @@ relatedVideoIds: ["i-HxTZZRAgQ", "UOt1plTwQK0", "MNS6NZl2pjI"]
 featured: false
 rating: 4.4
 reviewCount: 1
+faqs:
+  - q: "¿El Hotel Magic Sport incluye el acceso al parque acuático?"
+    a: "Sí. Los huéspedes del Hotel Magic Sport tienen acceso a las instalaciones de Magic World Resort, incluido el parque acuático, con la pulsera que se entrega al hacer el check-in. No hay coste adicional durante los días de estancia."
+  - q: "¿Cuál es la diferencia entre el Hotel Magic Sport y el Magic Tropical Splash?"
+    a: "El Hotel Magic Sport tiene más instalaciones deportivas propias (pádel, voleibol) y suele tener precio algo inferior. El Magic Tropical Splash está ubicado justo al lado del parque acuático, ideal si el agua es la prioridad del viaje. Para familias que quieren equilibrio entre deporte, piscina y precio, el Magic Sport es la mejor opción."
+  - q: "¿Cuándo es mejor reservar el Hotel Magic Sport para conseguir buen precio?"
+    a: "Lo ideal es reservar con 3 o 4 meses de antelación para verano. En temporada media (junio y septiembre) los precios son entre un 25 y un 40% más bajos que en julio y agosto, y el parque sigue abierto con todas las instalaciones."
 ---
 
 El **Hotel Magic Sport** es uno de los hoteles más populares dentro de Magic World Resort y, en nuestra experiencia, el que mejor equilibrio tiene entre precio, instalaciones y diversión para familias con niños. Llevamos varias estancias allí y en este artículo te contamos todo lo que necesitas saber antes de reservar.

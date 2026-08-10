@@ -2,7 +2,7 @@
 title: "😱CAÍDAS GRACIOSAS //¿Que hacer con NIÑOS en SIERRA NEVADA si NO vas a Esquiar?"
 seoTitle: "CAÍDAS GRACIOSAS //¿Que hacer con NIÑOS en SIERRA NEVADA si..."
 description: "¿Te gusta la nieve? ¿Quieres conocer una de las mejores estaciones de esquí de España? Hoy tras la tormenta Filomena, visitamos Sierra Nevada. Hemos pasado un día increíble en familia que te servirá como guía para no cometer los errores que nosotros cometimos ¡Dale al play y acompáñanos en ésta hela."
-seoDescription: "¿Te gusta la nieve? ¿Quieres conocer una de las mejores estaciones de esquí de España? Hoy tras la tormenta Filomena, visitamos Sierra Nevada. Hemos..."
+seoDescription: "¿Te gusta la nieve? ¿Quieres conocer una de las mejores estaciones de esquí de España? Hoy tras la tormenta Filomena, visitamos Sierra Nevada. Hemos."
 videoId: "OOzFw5TW8cs"
 publishedAt: "2021-01-15"
 categoria: "camping-naturaleza"

@@ -2,7 +2,7 @@
 title: "House tour 🏠 ¡POR FIN enseñamos nuesta CASA! // Familukis"
 seoTitle: "House tour ¡POR FIN enseñamos nuesta CASA"
 description: "Ha llegado la hora de enseñaros nuestra casa ¿Queréis ver nuestro hogar? ¡Descúbrelo! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "Ha llegado la hora de enseñaros nuestra casa ¿Queréis ver nuestro hogar? ¡Descúbrelo! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos..."
+seoDescription: "Ha llegado la hora de enseñaros nuestra casa ¿Queréis ver nuestro hogar? ¡Descúbrelo! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos."
 videoId: "hpxWbahBx2s"
 publishedAt: "2018-11-02"
 categoria: "para-ninos"

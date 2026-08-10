@@ -2,7 +2,7 @@
 title: "Reyes Magos CHALLENGE Navidad // Los familukis"
 seoTitle: "Reyes Magos CHALLENGE Navidad // Los familukis"
 description: "Ha llegado el día de los Reyes Magos y para celebrarlo hemos realizado un reto en familia muy divertido el ¡Reto Reyes magos challenge! ¿Te animas a verlo? ¡Descúbrelo y dale al play! Síguenos en instagram:."
-seoDescription: "Ha llegado el día de los Reyes Magos y para celebrarlo hemos realizado un reto en familia muy divertido el ¡Reto Reyes magos challenge! ¿Te animas a..."
+seoDescription: "Ha llegado el día de los Reyes Magos y para celebrarlo hemos realizado un reto en familia muy divertido el ¡Reto Reyes magos challenge! ¿Te animas a."
 videoId: "QSF5LKeu5DU"
 publishedAt: "2018-01-05"
 categoria: "navidad-regalos"

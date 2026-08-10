@@ -2,7 +2,7 @@
 title: "EXCURSIONES CON NIÑOS // EL BOSQUE ENCANTADO"
 seoTitle: "EXCURSIONES CON NIÑOS // EL BOSQUE ENCANTADO"
 description: "Hoy en Juegos y Juguetes en familia nos vamos de excursión con niños al bosque encantado y al pantano de San Juan. ¿Quieres pasar un día agradable y en familia? No lo dudes, descubre un lugar increíble y lleno de magia. Para cerrar la excursión con niños nos fuimos a merendar al pantano de San Juan."
-seoDescription: "Hoy en Juegos y Juguetes en familia nos vamos de excursión con niños al bosque encantado y al pantano de San Juan. ¿Quieres pasar un día agradable y en..."
+seoDescription: "Hoy en Juegos y Juguetes en familia nos vamos de excursión con niños al bosque encantado y al pantano de San Juan. ¿Quieres pasar un día agradable y en."
 videoId: "zXuUUbxZoOY"
 publishedAt: "2016-04-08"
 categoria: "camping-naturaleza"

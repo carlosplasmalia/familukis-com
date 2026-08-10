@@ -2,7 +2,7 @@
 title: "24 HORAS fabricando HELADOS  hacemos ¡¡Masterchef Junior  EN FAMILIA!!"
 seoTitle: "24 HORAS fabricando HELADOS hacemos ¡¡Masterchef Junior EN..."
 description: "¿Queréis saber cómo se hacen auténticos helados artesanos? Hoy visitamos el obrador de Gioelia en Fuengirola para hacer un concurso tipo \"MasterChef Junior\" de helados en el que nos enfrentaremos a otro equipo y pintaremos de sabor y aromas a frutas naturales nuestros helados caseros de frutas cremo."
-seoDescription: "¿Queréis saber cómo se hacen auténticos helados artesanos? Hoy visitamos el obrador de Gioelia en Fuengirola para hacer un concurso tipo \"MasterChef..."
+seoDescription: "¿Queréis saber cómo se hacen auténticos helados artesanos? Hoy visitamos el obrador de Gioelia en Fuengirola para hacer un concurso tipo \"MasterChef."
 videoId: "8CNriIBrxQQ"
 publishedAt: "2020-07-31"
 categoria: "para-ninos"

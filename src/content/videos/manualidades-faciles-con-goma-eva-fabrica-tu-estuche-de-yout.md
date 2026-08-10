@@ -2,7 +2,7 @@
 title: "MANUALIDADES FÁCILES CON GOMA EVA // Fabríca tu estuche de Youtube // Juegos y Juguetes en Familia"
 seoTitle: "MANUALIDADES FÁCILES CON GOMA EVA // Fabríca tu estuche de..."
 description: "¿Quieres hacer manualidades fáciles y bonitas? ¿Sí? Descúbre cómo hacer un estuche réplica del botón de Youtube. Si te gusta Youtube y las manualidades no puedes dejar pasar este tutorial para hacer manualidades. Nos encantan la manualidades y si son en familia mucho mejor. ¿Te ha gustado el vídeo?."
-seoDescription: "¿Quieres hacer manualidades fáciles y bonitas? ¿Sí? Descúbre cómo hacer un estuche réplica del botón de Youtube. Si te gusta Youtube y las manualidades..."
+seoDescription: "¿Quieres hacer manualidades fáciles y bonitas? ¿Sí? Descúbre cómo hacer un estuche réplica del botón de Youtube. Si te gusta Youtube y las manualidades."
 videoId: "rJeFLHO594s"
 publishedAt: "2017-04-18"
 categoria: "para-ninos"

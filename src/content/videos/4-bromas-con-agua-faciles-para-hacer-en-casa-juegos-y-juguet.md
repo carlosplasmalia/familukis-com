@@ -2,7 +2,7 @@
 title: "4 BROMAS CON AGUA FÁCILES PARA HACER EN CASA // Juegos y Juguetes en Familia"
 seoTitle: "4 BROMAS CON AGUA FÁCILES PARA HACER EN CASA // Juegos y..."
 description: "¿Te gusta gastar bromas? Descúbre 4 bromas divertidas con agua fáciles de realizar y aptas para toda la familia. ¿Quieres ser el rey de las bromas este verano? Pues dale al Play #familuki. Un abrazo!."
-seoDescription: "¿Te gusta gastar bromas? Descúbre 4 bromas divertidas con agua fáciles de realizar y aptas para toda la familia. ¿Quieres ser el rey de las bromas este..."
+seoDescription: "¿Te gusta gastar bromas? Descúbre 4 bromas divertidas con agua fáciles de realizar y aptas para toda la familia. ¿Quieres ser el rey de las bromas este."
 videoId: "tfFyvvrGUmU"
 publishedAt: "2017-06-27"
 categoria: "retos-challenges"

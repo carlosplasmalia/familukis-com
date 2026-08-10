@@ -2,7 +2,7 @@
 title: "¡¡El agua ES LAVA!! 🔥Retos en la PISCINA con amigos🔥// FAMILUKIS"
 seoTitle: "El agua ES LAVA!! Retos en la PISCINA con amigos"
 description: "Hoy hemos invitado a un montón de amigos para hacer el challenge ¡La piscina es lava también conocido como ¡el agua es lava! Descúbre el vídeo de Funclub  👉👉👉 El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "Hoy hemos invitado a un montón de amigos para hacer el challenge ¡La piscina es lava también conocido como ¡el agua es lava! Descúbre el vídeo de..."
+seoDescription: "Hoy hemos invitado a un montón de amigos para hacer el challenge ¡La piscina es lava también conocido como ¡el agua es lava! Descúbre el vídeo de."
 videoId: "TYJpwYlbNxY"
 publishedAt: "2018-08-10"
 categoria: "retos-challenges"

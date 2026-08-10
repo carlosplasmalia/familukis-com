@@ -2,7 +2,7 @@
 title: "COMO HACER un TIPI de los INDIOS FÁCIL con niños // Los Familukis"
 seoTitle: "COMO HACER un TIPI de los INDIOS FÁCIL con niños // Los Familukis"
 description: "Familukis hoy os enseñamos una forma divertida de pasar la tarde con vuestros amigos o familia haciendo un Tipi o cabaña para indios muy fácil. Además pasaremos un día fantástico en el campo con nuestros amigos y familia ¿No sabes como hacer un teepee? nosostros te enseñamos a fabricarlo ¿Te apuntas."
-seoDescription: "Familukis hoy os enseñamos una forma divertida de pasar la tarde con vuestros amigos o familia haciendo un Tipi o cabaña para indios muy fácil. Además..."
+seoDescription: "Familukis hoy os enseñamos una forma divertida de pasar la tarde con vuestros amigos o familia haciendo un Tipi o cabaña para indios muy fácil. Además."
 videoId: "qxkH-lt5-aM"
 publishedAt: "2018-04-17"
 categoria: "vacaciones-familia"

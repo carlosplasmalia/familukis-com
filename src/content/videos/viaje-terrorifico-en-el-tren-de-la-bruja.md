@@ -2,7 +2,7 @@
 title: "VIAJE TERRORÍFICO 👻 EN EL TREN DE LA BRUJA"
 seoTitle: "VIAJE TERRORÍFICO EN EL TREN DE LA BRUJA"
 description: "Hoy en juegos y juguetes nos hemos ido de feria al pueblo de la abuela. Hemos montado en el tren de la bruja, en el canguro loco y en los coches  de choque. ¿Nos acompañais? Pues dale al Play! ¿Que atracción os ha gustado más?  Podéis escribirlo en los comentarios ;)."
-seoDescription: "Hoy en juegos y juguetes nos hemos ido de feria al pueblo de la abuela. Hemos montado en el tren de la bruja, en el canguro loco y en los coches de..."
+seoDescription: "Hoy en juegos y juguetes nos hemos ido de feria al pueblo de la abuela. Hemos montado en el tren de la bruja, en el canguro loco y en los coches de."
 videoId: "0PE70ncx72w"
 publishedAt: "2016-05-06"
 categoria: "halloween"

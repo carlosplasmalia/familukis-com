@@ -2,7 +2,7 @@
 title: "El AUTÉNTICO PAPÁ NOEL EN SU CASA 🏠"
 seoTitle: "El AUTÉNTICO PAPÁ NOEL EN SU CASA"
 description: "Visitamos la casa de Santa Claus y le entregamos nuestra carta ¿Quieres ver su casa real? ¡No es de cartón! ¡Descubre el house tour de navidad de Papá Noel! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "Visitamos la casa de Santa Claus y le entregamos nuestra carta ¿Quieres ver su casa real? ¡No es de cartón! ¡Descubre el house tour de navidad de Papá..."
+seoDescription: "Visitamos la casa de Santa Claus y le entregamos nuestra carta ¿Quieres ver su casa real? ¡No es de cartón! ¡Descubre el house tour de navidad de Papá."
 videoId: "pokm6-y5_5o"
 publishedAt: "2018-12-11"
 categoria: "navidad-regalos"

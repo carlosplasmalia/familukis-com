@@ -2,7 +2,7 @@
 title: "LUCHAMOS contra El CANCER y Necesitamos tú AYUDA"
 seoTitle: "LUCHAMOS contra El CANCER y Necesitamos tú AYUDA"
 description: "Compra tu entrada solidaria contra el cáncer infantil: Ven a conocernos en esta velada Solidaria y vamos a darle batalla al cáncer infantil que organiza @angelgaitanoficial."
-seoDescription: "Compra tu entrada solidaria contra el cáncer infantil: Ven a conocernos en esta velada Solidaria y vamos a darle batalla al cáncer infantil que..."
+seoDescription: "Compra tu entrada solidaria contra el cáncer infantil: Ven a conocernos en esta velada Solidaria y vamos a darle batalla al cáncer infantil que."
 videoId: "kHJh1mbhpwY"
 publishedAt: "2022-12-01"
 categoria: "para-ninos"

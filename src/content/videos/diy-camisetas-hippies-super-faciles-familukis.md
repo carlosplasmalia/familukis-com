@@ -2,7 +2,7 @@
 title: "DIY CAMISETAS Hippies ¡SÚPER FÁCILES! // Familukis"
 seoTitle: "DIY CAMISETAS Hippies ¡SÚPER FÁCILES"
 description: "En este vídeo os enseñamos como hacer camisetas personalizadas hippies de una manera muy fácil ¡Descubre como hacer manualidades con niños muy divertidas! Pintura para camisetas: ¿Quieres 25 Eur de descuentos en alojamientos para tus viajes? consíguelo: Síguenos en instagram:."
-seoDescription: "En este vídeo os enseñamos como hacer camisetas personalizadas hippies de una manera muy fácil ¡Descubre como hacer manualidades con niños muy..."
+seoDescription: "En este vídeo os enseñamos como hacer camisetas personalizadas hippies de una manera muy fácil ¡Descubre como hacer manualidades con niños muy."
 videoId: "lp6gxx5bRs8"
 publishedAt: "2018-04-24"
 categoria: "vacaciones-familia"

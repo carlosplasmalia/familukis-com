@@ -2,7 +2,7 @@
 title: "FACE SWAP CHALLENGE ESPAÑOL // ESPECIAL 1000 SUSCRIPTORES"
 seoTitle: "FACE SWAP CHALLENGE ESPAÑOL // ESPECIAL 1000 SUSCRIPTORES"
 description: "Hola amigos, hoy os queremos enseñas la app Face Swap. Una aplicación muy divertida con la que podrás cambiar tu cara con amigos, familiares, youtubers, famosos e incluso mascotas. Hemos querido dedicar este vídeo a nuestros más de 1000 suscriptores que hacéis posible que juegos y juguetes en famili."
-seoDescription: "Hola amigos, hoy os queremos enseñas la app Face Swap. Una aplicación muy divertida con la que podrás cambiar tu cara con amigos, familiares,..."
+seoDescription: "Hola amigos, hoy os queremos enseñas la app Face Swap. Una aplicación muy divertida con la que podrás cambiar tu cara con amigos, familiares."
 videoId: "ACjgTl1Z13E"
 publishedAt: "2016-04-15"
 categoria: "retos-challenges"

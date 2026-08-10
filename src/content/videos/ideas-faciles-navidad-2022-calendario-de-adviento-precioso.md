@@ -2,7 +2,7 @@
 title: "IDEAS FÁCILES Navidad 2022  ¡CALENDARIO DE ADVIENTO PRECIOSO!"
 seoTitle: "IDEAS FÁCILES Navidad 2022 ¡CALENDARIO DE ADVIENTO PRECIOSO"
 description: "¿Te gustan las ideas fáciles? Hoy Linda os trae una manera de hacer vuestro propio calendario de adviento casero ideal para decorar la casa durante el mes de Diciembre. ¡Dale al Play y únete a nuestra familia! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te gustan las ideas fáciles? Hoy Linda os trae una manera de hacer vuestro propio calendario de adviento casero ideal para decorar la casa durante el..."
+seoDescription: "¿Te gustan las ideas fáciles? Hoy Linda os trae una manera de hacer vuestro propio calendario de adviento casero ideal para decorar la casa durante el."
 videoId: "Lwh0MGP0UN0"
 publishedAt: "2020-11-27"
 categoria: "navidad-regalos"

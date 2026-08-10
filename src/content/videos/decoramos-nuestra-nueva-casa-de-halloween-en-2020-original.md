@@ -2,7 +2,7 @@
 title: "DECORAMOS NUESTRA NUEVA CASA de HALLOWEEN en 2020 ¡ORIGINAL!"
 seoTitle: "DECORAMOS NUESTRA NUEVA CASA de HALLOWEEN en 2020 ¡ORIGINAL"
 description: "¿Te gustaría decorar tu casa en halloween 2020? ¿Quieres que tu casa luzca con una decoración original en halloween? hoy convertimos nuestro hogar en Howards ¿Quieres descubrir cómo ha quedado? ¡Dale al play! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te gustaría decorar tu casa en halloween 2020? ¿Quieres que tu casa luzca con una decoración original en halloween? hoy convertimos nuestro hogar en..."
+seoDescription: "¿Te gustaría decorar tu casa en halloween 2020? ¿Quieres que tu casa luzca con una decoración original en halloween? hoy convertimos nuestro hogar en."
 videoId: "aKEUyoRaS7Y"
 publishedAt: "2020-10-16"
 categoria: "halloween"

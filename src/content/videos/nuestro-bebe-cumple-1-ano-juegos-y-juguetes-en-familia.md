@@ -2,7 +2,7 @@
 title: "NUESTRO BEBÉ CUMPLE 1 AÑO // Juegos y Juguetes en Familia"
 seoTitle: "NUESTRO BEBÉ CUMPLE 1 AÑO // Juegos y Juguetes en Familia"
 description: "¿Os gustaría acompañarnos en el cumpleaños de nuestro bebé Oliver? Sois muchos los familukis que lo estáis viendo crecer y hemos querido compartir este día con vosotros. Gracias por seguir acompañándonos en cada vídeo familukis."
-seoDescription: "¿Os gustaría acompañarnos en el cumpleaños de nuestro bebé Oliver? Sois muchos los familukis que lo estáis viendo crecer y hemos querido compartir este..."
+seoDescription: "¿Os gustaría acompañarnos en el cumpleaños de nuestro bebé Oliver? Sois muchos los familukis que lo estáis viendo crecer y hemos querido compartir este."
 videoId: "UfYXiWT-Xwk"
 publishedAt: "2017-03-17"
 categoria: "para-ninos"

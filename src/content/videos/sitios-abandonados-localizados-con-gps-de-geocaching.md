@@ -2,7 +2,7 @@
 title: "SITIOS ABANDONADOS localizados con GPS de GEOCACHING"
 seoTitle: "SITIOS ABANDONADOS localizados con GPS de GEOCACHING"
 description: "¡Hola Familuki! ¿Te gustaría ver como es un lugar abandonado de batalla? Hoy descubrimos un sitio sorprendente abandonado gracias a Geocahing, una aplicación que utiliza el GPS de tu teléfono móvil para buscar tesoros ¡Descúbrelo! Descúbre el vídeo de los Garma Lobo: ¿Quieres visitar estos Búnkeres?."
-seoDescription: "¡Hola Familuki! ¿Te gustaría ver como es un lugar abandonado de batalla? Hoy descubrimos un sitio sorprendente abandonado gracias a Geocahing, una..."
+seoDescription: "¡Hola Familuki! ¿Te gustaría ver como es un lugar abandonado de batalla? Hoy descubrimos un sitio sorprendente abandonado gracias a Geocahing, una."
 videoId: "-U-G0lbGyt0"
 publishedAt: "2017-06-09"
 categoria: "para-ninos"

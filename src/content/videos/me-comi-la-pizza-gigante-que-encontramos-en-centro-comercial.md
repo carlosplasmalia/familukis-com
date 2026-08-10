@@ -2,7 +2,7 @@
 title: "Me COMÍ la ¡¡PIZZA GIGANTE!! que  ENCONTRAMOS en CENTRO comercial ALUCINANTE Xmadrid"
 seoTitle: "Me COMÍ la ¡¡PIZZA GIGANTE!! que ENCONTRAMOS en CENTRO..."
 description: "¿Te gustan los vídeos de comida Gigante? Hoy nos enfrentamos a la pizza gigante de Kilómetros de Pizza . Una aventura sin igual en Xmadrid, el centro comercial más original y divertido de Madrid. En este vídeo, descubrirás una experiencia única: lanzamiento de hachas, una pizza gigante de varios met."
-seoDescription: "¿Te gustan los vídeos de comida Gigante? Hoy nos enfrentamos a la pizza gigante de Kilómetros de Pizza . Una aventura sin igual en Xmadrid, el centro..."
+seoDescription: "¿Te gustan los vídeos de comida Gigante? Hoy nos enfrentamos a la pizza gigante de Kilómetros de Pizza . Una aventura sin igual en Xmadrid, el centro."
 videoId: "NkEAydvA1lE"
 publishedAt: "2023-03-08"
 categoria: "para-ninos"

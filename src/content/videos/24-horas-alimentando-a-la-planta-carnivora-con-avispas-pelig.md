@@ -2,7 +2,7 @@
 title: "24 HORAS alimentando a la PLANTA CARNÍVORA con ¡AVISPAS PELIGROSAS!"
 seoTitle: "24 HORAS alimentando a la PLANTA CARNÍVORA con ¡AVISPAS..."
 description: "Hoy pasamos un día comprando nuestras plantas carnívoras y alimentándolas con avispas peligrosas. Sin duda las plantas carnívoras son un regalo original sobre todo para los más pequeños de la casa ¿Te animas a ver cómo damos de comer a nuestra planta carnívora durante 24 horas? ¡Dale al play! ¡Descu."
-seoDescription: "Hoy pasamos un día comprando nuestras plantas carnívoras y alimentándolas con avispas peligrosas. Sin duda las plantas carnívoras son un regalo..."
+seoDescription: "Hoy pasamos un día comprando nuestras plantas carnívoras y alimentándolas con avispas peligrosas. Sin duda las plantas carnívoras son un regalo."
 videoId: "jqkCbSrYpbI"
 publishedAt: "2020-07-03"
 categoria: "para-ninos"

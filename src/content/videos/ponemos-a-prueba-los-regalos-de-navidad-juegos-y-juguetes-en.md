@@ -2,7 +2,7 @@
 title: "PONEMOS A PRUEBA LOS REGALOS DE NAVIDAD // juegos y juguetes en familia"
 seoTitle: "PONEMOS A PRUEBA LOS REGALOS DE NAVIDAD // juegos y juguetes..."
 description: "Hoy abrimos los regalos de navidad de Carlos y los ponemos a prueba ¿Te gustaría descubrir los regalos de navidad para niños más chulos del momento? Pues Carlos y su tío Manolo os quieren mostrar como fue nuestra noche de Navidad y los regalos de Papá Noel nos dejó en casa de la abuela ¿Te animas a."
-seoDescription: "Hoy abrimos los regalos de navidad de Carlos y los ponemos a prueba ¿Te gustaría descubrir los regalos de navidad para niños más chulos del momento?..."
+seoDescription: "Hoy abrimos los regalos de navidad de Carlos y los ponemos a prueba ¿Te gustaría descubrir los regalos de navidad para niños más chulos del momento?"
 videoId: "AYY1knvAE0E"
 publishedAt: "2016-12-27"
 categoria: "navidad-regalos"

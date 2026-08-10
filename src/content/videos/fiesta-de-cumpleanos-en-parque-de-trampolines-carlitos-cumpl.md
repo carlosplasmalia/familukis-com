@@ -2,7 +2,7 @@
 title: "FIESTA de CUMPLEAÑOS en PARQUE de TRAMPOLINES ¡Carlitos CUMPLE 10!"
 seoTitle: "FIESTA de CUMPLEAÑOS en PARQUE de TRAMPOLINES ¡Carlitos CUMPLE 10"
 description: "¿Queréis descubrir un lugar ideal para celebrar vuestro cumpleaños en familia? Hoy preparamos la fiesta de cumpleaños de nuestro hijo Carlitos en un parque de trampolines ¿Quieres saltar con nosotros, abrir los regalos y descubrir cómo ha sido nuestro vlog? ¡Dale al play! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Queréis descubrir un lugar ideal para celebrar vuestro cumpleaños en familia? Hoy preparamos la fiesta de cumpleaños de nuestro hijo Carlitos en un..."
+seoDescription: "¿Queréis descubrir un lugar ideal para celebrar vuestro cumpleaños en familia? Hoy preparamos la fiesta de cumpleaños de nuestro hijo Carlitos en un."
 videoId: "Klla5ykzR8k"
 publishedAt: "2021-07-21"
 categoria: "parques-atracciones"

@@ -2,7 +2,7 @@
 title: "Probando COMIDA de 👽ASTRONAUTA + Curiosidades del Espacio // Familukis"
 seoTitle: "Probando COMIDA de ASTRONAUTA + Curiosidades del Espacio"
 description: "Descubre como es la comida que llevan al espacio los astronautas. Además revelaremos algunas curiosidades de la vida de los tripulantes de una nave en el espacio exterior ¿Cómo van al baño los astronautas? ¿Se ha jugado alguna vez al golf en la luna? ¿Que le pasa a tu cuerpo cuando subes al espacio?."
-seoDescription: "Descubre como es la comida que llevan al espacio los astronautas. Además revelaremos algunas curiosidades de la vida de los tripulantes de una nave en..."
+seoDescription: "Descubre como es la comida que llevan al espacio los astronautas. Además revelaremos algunas curiosidades de la vida de los tripulantes de una nave en."
 videoId: "_SjNSjDjao8"
 publishedAt: "2018-02-02"
 categoria: "retos-challenges"

@@ -2,7 +2,7 @@
 title: "Anunciamos QUEDADA + FAMILIAS Youtubers // Familukis"
 seoTitle: "Anunciamos QUEDADA + FAMILIAS Youtubers"
 description: "Por fin podemos anunciar la quedada que tanto tiempo llevamos queriendo hacer. En esta primera quedada nos reuniremos 3 familias Youtubers para hacer de nuestro paso por Nerja una experiencia inolvidables tanto para vosotros como para nosotros ¿Queréis saber más sobre esta quedada? Pues dale al play."
-seoDescription: "Por fin podemos anunciar la quedada que tanto tiempo llevamos queriendo hacer. En esta primera quedada nos reuniremos 3 familias Youtubers para hacer..."
+seoDescription: "Por fin podemos anunciar la quedada que tanto tiempo llevamos queriendo hacer. En esta primera quedada nos reuniremos 3 familias Youtubers para hacer."
 videoId: "qXbUCZoq7l8"
 publishedAt: "2018-03-18"
 categoria: "para-ninos"

@@ -2,7 +2,7 @@
 title: "PRIMER DÍA DE COLEGIO 20-2021 + SORPRESA a FAMILUKIS"
 seoTitle: "PRIMER DÍA DE COLEGIO 20-2021 + SORPRESA a FAMILUKIS"
 description: "Hoy os queremos contar como ha sido el primer día de cole que hemos vivido en familia. Ha sido una noche de nervios porque teníamos muchas ganas de que nuestros hijos volvieran a clase. Además tenemos una sorpresa preparada para todos los que queráis conocernos ¿Os apuntáis? Consigue nuestro cómic d."
-seoDescription: "Hoy os queremos contar como ha sido el primer día de cole que hemos vivido en familia. Ha sido una noche de nervios porque teníamos muchas ganas de que..."
+seoDescription: "Hoy os queremos contar como ha sido el primer día de cole que hemos vivido en familia. Ha sido una noche de nervios porque teníamos muchas ganas de que."
 videoId: "5YYzWh9-E1A"
 publishedAt: "2020-09-15"
 categoria: "vlogs-familia"

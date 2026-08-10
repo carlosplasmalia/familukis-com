@@ -2,7 +2,7 @@
 title: "+ de 24 HORAS ¡¡TRANSFORMANDO el JARDÍN de NUESTRA CASA!! en Familia"
 seoTitle: "+ de 24 HORAS ¡¡TRANSFORMANDO el JARDÍN de NUESTRA CASA!! en..."
 description: "Hoy nos enfrentamos a un nuevo desafío ¡Reformar durante más de 24 horas nuestro desastroso jardín en familia! ¿Conseguiremos transformarlo y convertir las reformas de nuestro jardín en un pequeño paraíso? Manomano 👉 ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy nos enfrentamos a un nuevo desafío ¡Reformar durante más de 24 horas nuestro desastroso jardín en familia! ¿Conseguiremos transformarlo y convertir..."
+seoDescription: "Hoy nos enfrentamos a un nuevo desafío ¡Reformar durante más de 24 horas nuestro desastroso jardín en familia! ¿Conseguiremos transformarlo y convertir."
 videoId: "zrlI1WLveqo"
 publishedAt: "2020-09-29"
 categoria: "para-ninos"

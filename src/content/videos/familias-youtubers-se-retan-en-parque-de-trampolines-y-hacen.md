@@ -2,7 +2,7 @@
 title: "FAMILIAS Youtubers se RETAN en PARQUE de TRAMPOLINES  y Hacen ¡SUPER SALTOS!"
 seoTitle: "FAMILIAS Youtubers se RETAN en PARQUE de TRAMPOLINES y Hacen..."
 description: "¿Te gustan los parque de trampolines o camas elásticas? Hoy con motivo del cumpleaños de Altitude en Málaga nos han organizado unos retos divertidos para hacer en familia y competiremos contra otros Youtubers ¿Nos acompañaís? Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre."
-seoDescription: "¿Te gustan los parque de trampolines o camas elásticas? Hoy con motivo del cumpleaños de Altitude en Málaga nos han organizado unos retos divertidos..."
+seoDescription: "¿Te gustan los parque de trampolines o camas elásticas? Hoy con motivo del cumpleaños de Altitude en Málaga nos han organizado unos retos divertidos."
 videoId: "ymNVugATHQE"
 publishedAt: "2022-11-16"
 categoria: "parques-atracciones"

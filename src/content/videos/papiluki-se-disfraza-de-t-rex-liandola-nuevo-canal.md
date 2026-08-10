@@ -2,7 +2,7 @@
 title: "Papiluki se disfraza de T-REX liándola + NUEVO CANAL"
 seoTitle: "Papiluki se disfraza de T-REX liándola + NUEVO CANAL"
 description: "Papá se ha disfrazado de Tiranosaurio Rex y se ha metido a la una pista de hielo ¿Podrá patinar sin caerse? y lo más importante ¿Le atraparán los monitores? ¡Descúbrelo! Síguenos en instagram:."
-seoDescription: "Papá se ha disfrazado de Tiranosaurio Rex y se ha metido a la una pista de hielo ¿Podrá patinar sin caerse? y lo más importante ¿Le atraparán los..."
+seoDescription: "Papá se ha disfrazado de Tiranosaurio Rex y se ha metido a la una pista de hielo ¿Podrá patinar sin caerse? y lo más importante ¿Le atraparán los."
 videoId: "-FFrjjFjZbI"
 publishedAt: "2018-01-23"
 categoria: "camping-naturaleza"

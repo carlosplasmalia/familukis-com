@@ -2,7 +2,7 @@
 title: "BROMA a FAMILIA CARAMELUCHI ¡Los metemos dentro de una JAULA DE TIBURONES // Familukis"
 seoTitle: "BROMA a FAMILIA CARAMELUCHI ¡Los metemos dentro de una JAULA..."
 description: "¿Te gustan las aventuras marinas? No te puedes perder esta experiencia con tiburones ideal para toda la familia. El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "¿Te gustan las aventuras marinas? No te puedes perder esta experiencia con tiburones ideal para toda la familia. El mejor regalo para un Familuki..."
+seoDescription: "¿Te gustan las aventuras marinas? No te puedes perder esta experiencia con tiburones ideal para toda la familia. El mejor regalo para un Familuki."
 videoId: "rmglA_f7gbE"
 publishedAt: "2019-01-15"
 categoria: "retos-challenges"

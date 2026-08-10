@@ -2,7 +2,7 @@
 title: "ESCONDITE ENLATADO ¡¡PERDEMOS A ÓLIVER!! en nuestra NUEVA CASA"
 seoTitle: "ESCONDITE ENLATADO ¡¡PERDEMOS A ÓLIVER!! en nuestra NUEVA CASA"
 description: "Familias ¿Os aburrís durante estos días de confinamiento? Hoy os traemos un juego muy divertido para hacer en casa en familia ¡ESCONDITE ENLATADO!  es muy divertido e ideal para combatir el aburrimiento. ¡Descubre nuestro cómic!📚👉🏻 #Quedateencasa."
-seoDescription: "Familias ¿Os aburrís durante estos días de confinamiento? Hoy os traemos un juego muy divertido para hacer en casa en familia ¡ESCONDITE ENLATADO! es..."
+seoDescription: "Familias ¿Os aburrís durante estos días de confinamiento? Hoy os traemos un juego muy divertido para hacer en casa en familia ¡ESCONDITE ENLATADO! es."
 videoId: "26Lyd9tbPnU"
 publishedAt: "2020-04-18"
 categoria: "vlogs-familia"

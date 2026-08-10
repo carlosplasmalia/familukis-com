@@ -2,7 +2,7 @@
 title: "IMITANDO fotos TUMBLR en FAMILIA // Sorteo sesión de FOTOS con FAMILUKIS"
 seoTitle: "IMITANDO fotos TUMBLR en FAMILIA // Sorteo sesión de FOTOS..."
 description: "¿Te gustan los retos divertidos como imitando fotos tumblr? ¿Te gustaría tener una sesión de fotos con nosotros? Reserva en este enlace tu sesión fotográfica  (CONCURSO FINALIZADO) Esperamos que os guste el vídeo. Síguenos en instagram:."
-seoDescription: "¿Te gustan los retos divertidos como imitando fotos tumblr? ¿Te gustaría tener una sesión de fotos con nosotros? Reserva en este enlace tu sesión..."
+seoDescription: "¿Te gustan los retos divertidos como imitando fotos tumblr? ¿Te gustaría tener una sesión de fotos con nosotros? Reserva en este enlace tu sesión."
 videoId: "VZiZmjJDO7E"
 publishedAt: "2017-10-06"
 categoria: "retos-challenges"

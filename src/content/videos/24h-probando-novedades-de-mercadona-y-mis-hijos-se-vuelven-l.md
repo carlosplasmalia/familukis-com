@@ -2,7 +2,7 @@
 title: "24h probando NOVEDADES de MERCADONA y mis hijos SE VUELVEN locos con las COMPRAS"
 seoTitle: "24h probando NOVEDADES de MERCADONA y mis hijos SE VUELVEN..."
 description: "¿Te gustan las compras de Mercadona y ver video reacciones a sus novedades? 24 horas reaccionando a estos nuevos productos de mercadona de Junio 2023. ¡Descubre nuestro NUEVO libro!!📚👉🏻 Conviértete en miembro de este canal para disfrutar de ventajas:."
-seoDescription: "¿Te gustan las compras de Mercadona y ver video reacciones a sus novedades? 24 horas reaccionando a estos nuevos productos de mercadona de Junio 2023...."
+seoDescription: "¿Te gustan las compras de Mercadona y ver video reacciones a sus novedades? 24 horas reaccionando a estos nuevos productos de mercadona de Junio 2023."
 videoId: "kvwzcTcILxk"
 publishedAt: "2023-06-09"
 categoria: "para-ninos"

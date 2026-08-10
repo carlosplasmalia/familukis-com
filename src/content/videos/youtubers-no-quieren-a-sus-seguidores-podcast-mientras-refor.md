@@ -2,7 +2,7 @@
 title: "Youtubers NO QUIEREN a sus SEGUIDORES!? PODCAST mientras reformamos nuestra CASA RODANTE"
 seoTitle: "Youtubers NO QUIEREN a sus SEGUIDORES!? PODCAST mientras..."
 description: "¡No te pierdas este podcast tan entretenido y lleno de anécdotas! En este vídeo, compartimos nuestra experiencia tras 8 años de creación de contenido en YouTube, así como nuestras vivencias memos afortunadas con otros creadores. Pero no solo hablamos de eso. Mientras grabamos el podcast, también nos."
-seoDescription: "¡No te pierdas este podcast tan entretenido y lleno de anécdotas! En este vídeo, compartimos nuestra experiencia tras 8 años de creación de contenido..."
+seoDescription: "¡No te pierdas este podcast tan entretenido y lleno de anécdotas! En este vídeo, compartimos nuestra experiencia tras 8 años de creación de contenido."
 videoId: "jT7-8pTCDTw"
 publishedAt: "2023-04-28"
 categoria: "para-ninos"

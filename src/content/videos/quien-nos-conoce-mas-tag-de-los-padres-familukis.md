@@ -2,7 +2,7 @@
 title: "¿QUIEN nos conoce más? TAG de los PADRES // Familukis"
 seoTitle: "QUIEN nos conoce más? TAG de los PADRES"
 description: "El tag de los papás ha llegado a nuestro canal. Además Mamiluki ha creado una máquina con la que el tag de los padres se convierte en uno de los retos más divertidos de Youtube."
-seoDescription: "El tag de los papás ha llegado a nuestro canal. Además Mamiluki ha creado una máquina con la que el tag de los padres se convierte en uno de los retos..."
+seoDescription: "El tag de los papás ha llegado a nuestro canal. Además Mamiluki ha creado una máquina con la que el tag de los padres se convierte en uno de los retos."
 videoId: "xsGBxHywihs"
 publishedAt: "2019-04-16"
 categoria: "retos-challenges"

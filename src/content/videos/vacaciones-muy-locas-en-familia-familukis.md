@@ -2,7 +2,7 @@
 title: "VACACIONES muy LOCAS en familia // Familukis"
 seoTitle: "VACACIONES muy LOCAS en familia"
 description: "Hola Familukis hoy os traemos nuestras primeras vacaciones de 2018 ¿Queréis ver como han sido? ¡Dale al Play! Familia Royitos: Happy Ohoana: El mundo de Mia: DaddyHappy Vlogs: Familia Carameluchi: Cristina Life:."
-seoDescription: "Hola Familukis hoy os traemos nuestras primeras vacaciones de 2018 ¿Queréis ver como han sido? ¡Dale al Play! Familia Royitos: Happy Ohoana: El mundo..."
+seoDescription: "Hola Familukis hoy os traemos nuestras primeras vacaciones de 2018 ¿Queréis ver como han sido? ¡Dale al Play! Familia Royitos: Happy Ohoana: El mundo."
 videoId: "kc3PRXiIuQU"
 publishedAt: "2018-06-01"
 categoria: "vacaciones-familia"

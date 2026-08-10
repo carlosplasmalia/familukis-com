@@ -2,7 +2,7 @@
 title: "RETOS en la MANSION con FAMILIAS YOUTUBERS // tag del youtuber"
 seoTitle: "RETOS en la MANSION con FAMILIAS YOUTUBERS // tag del youtuber"
 description: "Hoy nos henos juntado con amigos Youtubers en una mansión para hacer un reto en el que competiremos diferentes familias. El tag del youtuber está apunto de comenzar ¡Dale al play y descúbre como es la casa de los retos!."
-seoDescription: "Hoy nos henos juntado con amigos Youtubers en una mansión para hacer un reto en el que competiremos diferentes familias. El tag del youtuber está..."
+seoDescription: "Hoy nos henos juntado con amigos Youtubers en una mansión para hacer un reto en el que competiremos diferentes familias. El tag del youtuber está."
 videoId: "jK7fTNvEbL0"
 publishedAt: "2019-03-26"
 categoria: "retos-challenges"

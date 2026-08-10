@@ -2,7 +2,7 @@
 title: "Fabricamos un libro 📕 GIGANTE MISTERIOSO 👤 con CHALLENGE mentales // Los familukis"
 seoTitle: "Fabricamos un libro GIGANTE MISTERIOSO con CHALLENGE mentales..."
 description: "¿Te gustan los CHALLENGE creativos? ¿Sí? Hoy mamá ha fabricado un libro gigante llamado Escape Book lleno de misterios ¿Serán capaces los familukis de superar todas las pruebas? ¡Descúbrelo dandole al Play! ¿Quieres conseguir el libro? Síguenos en instagram:."
-seoDescription: "¿Te gustan los CHALLENGE creativos? ¿Sí? Hoy mamá ha fabricado un libro gigante llamado Escape Book lleno de misterios ¿Serán capaces los familukis de..."
+seoDescription: "¿Te gustan los CHALLENGE creativos? ¿Sí? Hoy mamá ha fabricado un libro gigante llamado Escape Book lleno de misterios ¿Serán capaces los familukis de."
 videoId: "wrvRQYwX3OU"
 publishedAt: "2018-01-02"
 categoria: "retos-challenges"

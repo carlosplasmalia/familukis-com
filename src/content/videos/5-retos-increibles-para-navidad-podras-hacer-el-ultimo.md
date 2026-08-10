@@ -2,7 +2,7 @@
 title: "5 RETOS INCREÍBLES para NAVIDAD ¿Podrás hacer el último?"
 seoTitle: "5 RETOS INCREÍBLES para NAVIDAD ¿Podrás hacer el último"
 description: "¿Te gustan los retos y Juegos Navideños? En el vídeo de hoy os enseñamos a hacer 5 juegos o retos navideños para esta Navidad 2019-20 ¿Te apuntas? Dale al play y descúbrelo. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te gustan los retos y Juegos Navideños? En el vídeo de hoy os enseñamos a hacer 5 juegos o retos navideños para esta Navidad 2019-20 ¿Te apuntas? Dale..."
+seoDescription: "¿Te gustan los retos y Juegos Navideños? En el vídeo de hoy os enseñamos a hacer 5 juegos o retos navideños para esta Navidad 2019-20 ¿Te apuntas? Dale."
 videoId: "DNIWzSGypXg"
 publishedAt: "2019-12-06"
 categoria: "navidad-regalos"

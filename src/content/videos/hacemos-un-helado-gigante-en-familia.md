@@ -2,7 +2,7 @@
 title: "HACEMOS un HELADO ¡¡GIGANTE!! en FAMILIA"
 seoTitle: "HACEMOS un HELADO ¡¡GIGANTE!! en FAMILIA"
 description: "¿Te gusta el helado, las paletas y los polos? Hoy fabricamos un dulce helado gigante junto a los maestros heladeros de \"Heladería Valentino\" ¡Descúbrelo!."
-seoDescription: "¿Te gusta el helado, las paletas y los polos? Hoy fabricamos un dulce helado gigante junto a los maestros heladeros de \"Heladería Valentino\"..."
+seoDescription: "¿Te gusta el helado, las paletas y los polos? Hoy fabricamos un dulce helado gigante junto a los maestros heladeros de \"Heladería Valentino\"."
 videoId: "_eDe5ttUNOg"
 publishedAt: "2019-07-26"
 categoria: "para-ninos"

@@ -2,7 +2,7 @@
 title: "Visitamos  CASA  DEL TERROR  EN FAMILIA que tiene el Payaso de…"
 seoTitle: "Visitamos CASA DEL TERROR EN FAMILIA que tiene el Payaso de…"
 description: "Si te gustan las cassas del terror y te dan miedo los payasos hoy podrás adentrarte en un lugar increíble llenos de misterio y sustos en familia. Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro NUEVO LIBRO !📚👉🏻."
-seoDescription: "Si te gustan las cassas del terror y te dan miedo los payasos hoy podrás adentrarte en un lugar increíble llenos de misterio y sustos en familia...."
+seoDescription: "Si te gustan las cassas del terror y te dan miedo los payasos hoy podrás adentrarte en un lugar increíble llenos de misterio y sustos en familia."
 videoId: "_EA1gZRzdfU"
 publishedAt: "2023-10-20"
 categoria: "halloween"

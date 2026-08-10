@@ -2,7 +2,7 @@
 title: "JUEGOS fáciles y DIVERTIDOS caseros // VLOG Juegos y Juguetes en Familia"
 seoTitle: "JUEGOS fáciles y DIVERTIDOS caseros // VLOG Juegos y Juguetes..."
 description: "¿Te gustan los juegos divertidos para hacer en casa y con la familia? Hoy nos hemos inventado un juego con una sábana y un dado. Descúbre un Vlog en familia con muchas sorpresas ¡Descúbrelo! Nuestras sábanas: Dado de goma espuma: Síguenos en instagram: ¡Un abrazo familukis!."
-seoDescription: "¿Te gustan los juegos divertidos para hacer en casa y con la familia? Hoy nos hemos inventado un juego con una sábana y un dado. Descúbre un Vlog en..."
+seoDescription: "¿Te gustan los juegos divertidos para hacer en casa y con la familia? Hoy nos hemos inventado un juego con una sábana y un dado. Descúbre un Vlog en."
 videoId: "dIiL9yi6Axs"
 publishedAt: "2017-09-26"
 categoria: "para-ninos"

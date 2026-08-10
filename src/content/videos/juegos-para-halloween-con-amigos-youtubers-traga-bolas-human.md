@@ -2,7 +2,7 @@
 title: "Juegos para HALLOWEEN con amigos Youtubers // Traga bolas humano ¡¡Muy loco!!"
 seoTitle: "Juegos para HALLOWEEN con amigos Youtubers // Traga bolas..."
 description: "Nos hemos juntado para este #Halloween con nuestros amigos #Youtubers de \"La diversión de Martina\" \"Carla Art\" y \"Elashow\" para hacer una serie de Juegos para #halloween18 ¡Increíbles! Canal de \"La Diversión De Martina\": Canal de Karla Art: Canal de Dad´n kids: El mejor regalo para un Familuki ¡Cami."
-seoDescription: "Nos hemos juntado para este #Halloween con nuestros amigos #Youtubers de \"La diversión de Martina\" \"Carla Art\" y \"Elashow\" para hacer una serie..."
+seoDescription: "Nos hemos juntado para este #Halloween con nuestros amigos #Youtubers de \"La diversión de Martina\" \"Carla Art\" y \"Elashow\" para hacer una serie."
 videoId: "PzJsJluxJfY"
 publishedAt: "2018-10-16"
 categoria: "halloween"

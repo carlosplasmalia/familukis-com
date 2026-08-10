@@ -2,7 +2,7 @@
 title: "¡NUEVA CASA 2020! 🏡como SOBREVIVIR A 3 MUDANZAS EN 1 AÑO (Resumen 2019)"
 seoTitle: "NUEVA CASA 2020! como SOBREVIVIR A 3 MUDANZAS EN 1 AÑO..."
 description: "No os lo vais a creer pero durante este año pasado nos hemos cambiado de casa en 3 ocasiones con sus respectivas 3 mudanzas. Y entre medias de este Kaos hemos intentado ofreceros un montón de planes y actividades en familia ¿Quieres descubrir cómo ha sido? ¡Dale al Play! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "No os lo vais a creer pero durante este año pasado nos hemos cambiado de casa en 3 ocasiones con sus respectivas 3 mudanzas. Y entre medias de este..."
+seoDescription: "No os lo vais a creer pero durante este año pasado nos hemos cambiado de casa en 3 ocasiones con sus respectivas 3 mudanzas. Y entre medias de este."
 videoId: "hXGcbOId6pg"
 publishedAt: "2020-01-14"
 categoria: "vlogs-familia"

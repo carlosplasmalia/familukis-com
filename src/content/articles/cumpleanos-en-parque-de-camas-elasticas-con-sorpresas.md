@@ -8,6 +8,14 @@ categoria: "parques-atracciones"
 tags: ["Familukis", "cumpleaños", "parque de trampolines", "actividades infantiles", "fiestas de cumpleaños"]
 relatedVideoIds: ["E7NsrLC4NDo"]
 featured: false
+rating: 4.4
+faqs:
+  - q: "¿Cómo se organiza un cumpleaños en un parque de trampolines?"
+    a: "La mayoría de parques de trampolines tienen paquetes de cumpleaños que incluyen tiempo de salto reservado, zona de mesas para la celebración y acceso al buffet de dulces o la tarta. Conviene reservar con al menos 2 semanas de antelación, más en fin de semana."
+  - q: "¿Cuánto cuesta un cumpleaños en un parque de trampolines?"
+    a: "Los paquetes básicos rondan los 15-25€ por niño e incluyen 60-90 minutos de salto y zona reservada. Los paquetes más completos con catering, decoración y más tiempo pueden superar los 35-40€ por niño."
+  - q: "¿Qué edad es ideal para celebrar un cumpleaños en un parque de trampolines?"
+    a: "Funciona especialmente bien para niños de 6 a 12 años. Para los más pequeños (3-5 años) también hay opciones adaptadas, aunque las fiestas más épicas y movidas son para los mayores de 7 que pueden disfrutar de todas las zonas del parque."
 ---
 
 ## Nuestro día en el parque de trampolines

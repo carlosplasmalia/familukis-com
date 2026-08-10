@@ -2,7 +2,7 @@
 title: "La hamburguesa que no puedes perderte en Andalucía 🍔🤤 #Shorts"
 seoTitle: "La hamburguesa que no puedes perderte en Andalucía #Shorts"
 description: "La técnica definitiva para comer una Smash Burger sin mancharte 😂 Familia Familukis en La Granja, uno de sus restaurantes favoritos de Andalucía. Smash Burgers de categoría."
-seoDescription: "La técnica definitiva para comer una Smash Burger sin mancharte Familia Familukis en La Granja, uno de sus restaurantes favoritos de Andalucía. Smash..."
+seoDescription: "La técnica definitiva para comer una Smash Burger sin mancharte Familia Familukis en La Granja, uno de sus restaurantes favoritos de Andalucía. Smash."
 videoId: "n9WwA0r096c"
 publishedAt: "2026-06-05"
 categoria: "para-ninos"

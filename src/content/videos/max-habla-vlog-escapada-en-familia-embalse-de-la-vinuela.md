@@ -2,7 +2,7 @@
 title: "MAX HABLA + VLOG ESCAPADA en FAMILIA (EMBALSE DE LA VIÑUELA)"
 seoTitle: "MAX HABLA + VLOG ESCAPADA en FAMILIA (EMBALSE DE LA VIÑUELA)"
 description: "Ahora resulta que nuestro PERRO HABLA, bueno no del todo 😉También os enseñamos un plan viajero alternativo para ir a pasar el fin de semana a un lugar increíble como es \"El embalse de la Viñuela\" ¿Os apuntáis al plan? Descubre nuestro cómic!📚👉🏻 Walkie:."
-seoDescription: "Ahora resulta que nuestro PERRO HABLA, bueno no del todo También os enseñamos un plan viajero alternativo para ir a pasar el fin de semana a un lugar..."
+seoDescription: "Ahora resulta que nuestro PERRO HABLA, bueno no del todo También os enseñamos un plan viajero alternativo para ir a pasar el fin de semana a un lugar."
 videoId: "GkKpFJagdcw"
 publishedAt: "2020-01-17"
 categoria: "vacaciones-familia"

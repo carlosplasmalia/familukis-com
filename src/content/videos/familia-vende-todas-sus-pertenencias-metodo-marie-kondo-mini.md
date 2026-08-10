@@ -2,7 +2,7 @@
 title: "¡ ¡¡FAMILIA VENDE TODAS sus PERTENENCIAS!! / Método MARIE KONDO Minimalista."
 seoTitle: "¡¡FAMILIA VENDE TODAS sus PERTENENCIAS!! / Método MARIE KONDO..."
 description: "¿Conoces el método Marie Kondo? En casa hemos acumulado durante años mil objetos que no necesitamos. Ipads antíguos, cámaras, teléfonos y un sin fin de artículos que hemos acumulado tras años de compras. Hoy sacamos todo lo que no necesitamos y vendemos todo lo que no necesitamos en nuestra casa con."
-seoDescription: "¿Conoces el método Marie Kondo? En casa hemos acumulado durante años mil objetos que no necesitamos. Ipads antíguos, cámaras, teléfonos y un sin fin de..."
+seoDescription: "¿Conoces el método Marie Kondo? En casa hemos acumulado durante años mil objetos que no necesitamos. Ipads antíguos, cámaras, teléfonos y un sin fin de."
 videoId: "twMjcareNvQ"
 publishedAt: "2021-10-06"
 categoria: "para-ninos"

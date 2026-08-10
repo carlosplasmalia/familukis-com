@@ -2,7 +2,7 @@
 title: "CHISTES para MORIRSE de RISA en FAMILIA  😂 + BROMA a AROA"
 seoTitle: "CHISTES para MORIRSE de RISA en FAMILIA + BROMA a AROA"
 description: "¿Te gustan los chistes graciosos? En el vídeo de hoy nos acompaña Tylor Tuskmon, el personaje mas bromista de las serie de Disney \"Monstruos a la obra\" y nos enseñará a contar chistes que matan de risa ¿Quieres ser el alma de la fiesta éstas navidades? Descubre al Mr Taylor Tuskmon 👉."
-seoDescription: "¿Te gustan los chistes graciosos? En el vídeo de hoy nos acompaña Tylor Tuskmon, el personaje mas bromista de las serie de Disney \"Monstruos a la..."
+seoDescription: "¿Te gustan los chistes graciosos? En el vídeo de hoy nos acompaña Tylor Tuskmon, el personaje mas bromista de las serie de Disney \"Monstruos a la."
 videoId: "WVt7GLMvLBM"
 publishedAt: "2021-12-17"
 categoria: "navidad-regalos"

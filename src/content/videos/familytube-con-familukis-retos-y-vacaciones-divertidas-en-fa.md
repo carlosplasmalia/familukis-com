@@ -2,7 +2,7 @@
 title: "FamilyTube con Familukis RETOS y VACACIONES DIVERTIDAS en FAMILIA"
 seoTitle: "FamilyTube con Familukis RETOS y VACACIONES DIVERTIDAS en FAMILIA"
 description: "Hoy hemos recopilado lo mejor de nuestros vídeos con FamilyTube, Mikeltube, LeoTube, Mamatube y papá Gorila. Un viaje al pasado con el que disfrutaremos de nuestros mejores momentos con la familia Youtuber Family Tube y otros creadores. ¡Descubre nuestro NUEVO libro!📚👉🏻 Conviértete en miembro de est."
-seoDescription: "Hoy hemos recopilado lo mejor de nuestros vídeos con FamilyTube, Mikeltube, LeoTube, Mamatube y papá Gorila. Un viaje al pasado con el que..."
+seoDescription: "Hoy hemos recopilado lo mejor de nuestros vídeos con FamilyTube, Mikeltube, LeoTube, Mamatube y papá Gorila. Un viaje al pasado con el que."
 videoId: "ors_mDfKM-E"
 publishedAt: "2023-07-15"
 categoria: "vacaciones-familia"

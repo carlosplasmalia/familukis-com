@@ -2,7 +2,7 @@
 title: "¡¡El REGALO de SAN VALENTÍN ❤️+ ORIGINAL que jamás has visto // Familukis"
 seoTitle: "El REGALO de SAN VALENTÍN + ORIGINAL que jamás has visto"
 description: "¡Hola familukis! hoy hemos descubierto el regalo más original y creativo para el día de San Valentín. Además visitaremos lugares ideales para visitar en pareja o en familia. El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "¡Hola familukis! hoy hemos descubierto el regalo más original y creativo para el día de San Valentín. Además visitaremos lugares ideales para visitar..."
+seoDescription: "¡Hola familukis! hoy hemos descubierto el regalo más original y creativo para el día de San Valentín. Además visitaremos lugares ideales para visitar."
 videoId: "95Ztr38XUfU"
 publishedAt: "2019-02-05"
 categoria: "para-ninos"

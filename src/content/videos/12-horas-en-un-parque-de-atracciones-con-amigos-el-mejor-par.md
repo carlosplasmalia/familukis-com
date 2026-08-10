@@ -2,7 +2,7 @@
 title: "12 HORAS en un PARQUE DE ATRACCIONES con AMIGOS 🎢¿El mejor parque de atracciones de mi país?"
 seoTitle: "12 HORAS en un PARQUE DE ATRACCIONES con AMIGOS ¿El mejor..."
 description: "Hoy visitamos por primera durante 12 horas un parque de atracciones con nuestra familia y amigos youtubers. Montañas rusas, atracciones de agua, zona infantil y una convivencia que te sorprenderá. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy visitamos por primera durante 12 horas un parque de atracciones con nuestra familia y amigos youtubers. Montañas rusas, atracciones de agua, zona..."
+seoDescription: "Hoy visitamos por primera durante 12 horas un parque de atracciones con nuestra familia y amigos youtubers. Montañas rusas, atracciones de agua, zona."
 videoId: "YUd1VOi7Fq4"
 publishedAt: "2019-10-01"
 categoria: "parques-atracciones"

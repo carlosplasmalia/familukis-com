@@ -2,7 +2,7 @@
 title: "4 JUEGOS DE AGUA PARA NIÑOS + Vlog familiar // Juegos y Juguetes en Familia"
 seoTitle: "4 JUEGOS DE AGUA PARA NIÑOS + Vlog familiar // Juegos y..."
 description: "Descúbre 4 juegos en para niños y disfruta con tus amigos de ideas para retos en verano. Además podrás ver nuestro Vlog familiar antes del reto de los juegos de agua ¿Te animas a ser el rey del verano? ¡Dale al Play!."
-seoDescription: "Descúbre 4 juegos en para niños y disfruta con tus amigos de ideas para retos en verano. Además podrás ver nuestro Vlog familiar antes del reto de los..."
+seoDescription: "Descúbre 4 juegos en para niños y disfruta con tus amigos de ideas para retos en verano. Además podrás ver nuestro Vlog familiar antes del reto de los."
 videoId: "OzJ-JdG4aac"
 publishedAt: "2017-07-04"
 categoria: "retos-challenges"

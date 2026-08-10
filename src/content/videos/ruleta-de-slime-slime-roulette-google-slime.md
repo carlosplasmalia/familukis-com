@@ -2,7 +2,7 @@
 title: "RULETA de SLIME // slime roulette // Google Slime"
 seoTitle: "RULETA de SLIME // slime roulette // Google Slime"
 description: "Slime Roulete o ruleta de slime es uno de los challenge más buscados de google ¿Que tienen de especial este juego para niños? ¡Descúbrelo! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "Slime Roulete o ruleta de slime es uno de los challenge más buscados de google ¿Que tienen de especial este juego para niños? ¡Descúbrelo! El mejor..."
+seoDescription: "Slime Roulete o ruleta de slime es uno de los challenge más buscados de google ¿Que tienen de especial este juego para niños? ¡Descúbrelo! El mejor."
 videoId: "GVw8ih9dPEk"
 publishedAt: "2018-07-20"
 categoria: "retos-challenges"

@@ -2,7 +2,7 @@
 title: "ASÍ era un Game Play en 2016"
 seoTitle: "ASÍ era un Game Play en 2016"
 description: "¿Os gustan los videojuegos para niños? Hoy en Juegos y juguetes en familia os queremos enseñar juegos de Xbox 360 en Español para niños. Como invitado especial hoy nos acompaña Erik, uno de los mejores amigos del colegio de Carlos. ¿Quien ganará la carrera en éste videojuego llamado Doritos crash of."
-seoDescription: "¿Os gustan los videojuegos para niños? Hoy en Juegos y juguetes en familia os queremos enseñar juegos de Xbox 360 en Español para niños. Como invitado..."
+seoDescription: "¿Os gustan los videojuegos para niños? Hoy en Juegos y juguetes en familia os queremos enseñar juegos de Xbox 360 en Español para niños. Como invitado."
 videoId: "qtxk7kWEjt4"
 publishedAt: "2016-06-10"
 categoria: "para-ninos"

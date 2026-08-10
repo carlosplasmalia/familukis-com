@@ -2,7 +2,7 @@
 title: "RECETAS DE GALLETAS FACILES"
 seoTitle: "RECETAS DE GALLETAS FACILES"
 description: "Receta de galletas fáciles Ingredientes: 3 huevos 250 Gr de azúcar 8,8 Gr de glasificante de repostería (Suelen ser sobres de 2,2 Gr Nosotros los compramos en Mercadona) 750 Gr de harina de trigo 1 Vaso de Aceite de Oliva El horno tiene lo ponemos a 180 grados y vigilamos hasta que las galletas qued."
-seoDescription: "Receta de galletas fáciles Ingredientes: 3 huevos 250 Gr de azúcar 8,8 Gr de glasificante de repostería (Suelen ser sobres de 2,2 Gr Nosotros los..."
+seoDescription: "Receta de galletas fáciles Ingredientes: 3 huevos 250 Gr de azúcar 8,8 Gr de glasificante de repostería (Suelen ser sobres de 2,2 Gr Nosotros los."
 videoId: "ly-1q-Bbho0"
 publishedAt: "2016-01-17"
 categoria: "para-ninos"

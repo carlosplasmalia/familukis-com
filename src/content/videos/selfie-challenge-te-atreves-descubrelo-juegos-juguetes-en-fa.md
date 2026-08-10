@@ -2,7 +2,7 @@
 title: "Selfie ¡¡CHALLENGE!! ¿TE ATREVES? ¡Descúbrelo! // Juegos & Juguetes en Familia"
 seoTitle: "Selfie ¡¡CHALLENGE!! ¿TE ATREVES? ¡Descúbrelo! // Juegos &..."
 description: "¡Hola Familukis!  Hoy os traemos un reto divertido que se ha inventado mamá. Es el ¡SELFIE CHALLENGE! Un reto en el que tenemos que realizar 10 Selfies cada uno en situaciones muy graciosas ¿Te lo vas a perder? Síguenos en instagram:."
-seoDescription: "¡Hola Familukis! Hoy os traemos un reto divertido que se ha inventado mamá. Es el ¡SELFIE CHALLENGE! Un reto en el que tenemos que realizar 10 Selfies..."
+seoDescription: "¡Hola Familukis! Hoy os traemos un reto divertido que se ha inventado mamá. Es el ¡SELFIE CHALLENGE! Un reto en el que tenemos que realizar 10 Selfies."
 videoId: "ieaNHRARr0w"
 publishedAt: "2017-09-15"
 categoria: "retos-challenges"

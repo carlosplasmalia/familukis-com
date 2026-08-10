@@ -2,7 +2,7 @@
 title: "#Manualidades SUPER FÁCILES! con mi AMIGA // Familukis"
 seoTitle: "#Manualidades SUPER FÁCILES! con mi AMIGA"
 description: "Hola amigos hoy os traemos un vídeo para que aprendáis a hacer marcapáginas o marcadores muy originales de todos los coleres y formas. También leeremos vuestros algunos de comentarios mientras hacemos manualidades. Síguenos en instagram:."
-seoDescription: "Hola amigos hoy os traemos un vídeo para que aprendáis a hacer marcapáginas o marcadores muy originales de todos los coleres y formas. También leeremos..."
+seoDescription: "Hola amigos hoy os traemos un vídeo para que aprendáis a hacer marcapáginas o marcadores muy originales de todos los coleres y formas. También leeremos."
 videoId: "hsmn22sh-8c"
 publishedAt: "2018-03-13"
 categoria: "para-ninos"

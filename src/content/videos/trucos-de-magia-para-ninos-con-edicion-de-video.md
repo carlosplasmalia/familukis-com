@@ -2,7 +2,7 @@
 title: "TRUCOS DE MAGIA PARA NIÑOS ✨ CON EDICIÓN DE VÍDEO"
 seoTitle: "TRUCOS DE MAGIA PARA NIÑOS CON EDICIÓN DE VÍDEO"
 description: "Hola chicos! Hoy en juegos y juguetes en familia os vamos a enseñar unos trucos de magia que hemos aprendido a hacer con edición de vídeo. Son trucos de magia para niños muy fáciles de hacer con cualquier programa de edición. Esperamos que os gusten. Muchas gracias por visitar el canal."
-seoDescription: "Hola chicos! Hoy en juegos y juguetes en familia os vamos a enseñar unos trucos de magia que hemos aprendido a hacer con edición de vídeo. Son trucos..."
+seoDescription: "Hola chicos! Hoy en juegos y juguetes en familia os vamos a enseñar unos trucos de magia que hemos aprendido a hacer con edición de vídeo. Son trucos."
 videoId: "FT88vDGI5M8"
 publishedAt: "2016-05-28"
 categoria: "para-ninos"

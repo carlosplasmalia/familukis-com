@@ -2,7 +2,7 @@
 title: "24 HORAS ¡¡ACAMPANDO en el JARDÍN!!⛺ CONSTRUIMOS un CAMPING en FAMILIA"
 seoTitle: "24 HORAS ¡¡ACAMPANDO en el JARDÍN!! CONSTRUIMOS un CAMPING en..."
 description: "Si te gustan los vídeos de 24 horas éste os va a encantar familias. Hoy hemos construido un #CAMPING familiar en el jardín de casa y hemos acampado en él. Acompáñanos en estas mini #vacaciones en casa ¿Te apuntas a acampar en el Jardín durante 24 horas con tu familia? Consigue tus propios aqua drago."
-seoDescription: "Si te gustan los vídeos de 24 horas éste os va a encantar familias. Hoy hemos construido un #CAMPING familiar en el jardín de casa y hemos acampado en..."
+seoDescription: "Si te gustan los vídeos de 24 horas éste os va a encantar familias. Hoy hemos construido un #CAMPING familiar en el jardín de casa y hemos acampado en."
 videoId: "agbq5VALvnQ"
 publishedAt: "2020-06-03"
 categoria: "parques-acuaticos"

@@ -2,7 +2,7 @@
 title: "¡Saltamos en PARACAIDAS! 🪂  + Parque acuático MAGIC ROBIN HOOD // Parasailing perfecto"
 seoTitle: "Saltamos en PARACAIDAS! + Parque acuático MAGIC ROBIN HOOD //..."
 description: "¿Te gustaría vivir una experiencia de turismo activo en familia alucinante? ¿Quieres ver cómo es el parque acuático de Magic Robin Hood Resort? Si quieres divertirte con nuestras aventuras en familias ¡Dale al play y no te quedes atrás! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te gustaría vivir una experiencia de turismo activo en familia alucinante? ¿Quieres ver cómo es el parque acuático de Magic Robin Hood Resort? Si..."
+seoDescription: "¿Te gustaría vivir una experiencia de turismo activo en familia alucinante? ¿Quieres ver cómo es el parque acuático de Magic Robin Hood Resort? Si."
 videoId: "wykM72O9ixw"
 publishedAt: "2021-07-23"
 categoria: "parques-acuaticos"

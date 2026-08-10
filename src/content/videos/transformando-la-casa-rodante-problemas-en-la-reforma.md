@@ -2,7 +2,7 @@
 title: "TRANSFORMANDO la CASA RODANTE ¡¡Problemas en la reforma!!"
 seoTitle: "TRANSFORMANDO la CASA RODANTE ¡¡Problemas en la reforma"
 description: "¿Cómo va nuestro proyecto de camperizar una csasa rodante de 9 metros? Hoy los familukis os enseñamos los avences de unos meses concentrados en un solo vídeo ¿Vienes a descubrirlo? Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro NUEVO LIBRO !📚👉🏻."
-seoDescription: "¿Cómo va nuestro proyecto de camperizar una csasa rodante de 9 metros? Hoy los familukis os enseñamos los avences de unos meses concentrados en un solo..."
+seoDescription: "¿Cómo va nuestro proyecto de camperizar una csasa rodante de 9 metros? Hoy los familukis os enseñamos los avences de unos meses concentrados en un solo."
 videoId: "KbFsKnLTOU0"
 publishedAt: "2024-02-21"
 categoria: "para-ninos"

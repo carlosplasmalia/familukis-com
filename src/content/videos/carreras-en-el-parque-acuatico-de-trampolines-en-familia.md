@@ -2,7 +2,7 @@
 title: "CARRERAS en EL PARQUE ACUÁTICO ¡¡DE TRAMPOLINES!! en FAMILIA"
 seoTitle: "CARRERAS en EL PARQUE ACUÁTICO ¡¡DE TRAMPOLINES!! en FAMILIA"
 description: "¿Te gustan los parques acuáticos? ¿Te apasionan los parques de trampolines? hoy visitamos Waterfun, que es una mezcla entre parque acuático y de trampolines en medio del mar. Además hemos quedado con otra familia para disputar carreras en familia ¿Que te parece éstos planes en familia? ¡Descubre nue."
-seoDescription: "¿Te gustan los parques acuáticos? ¿Te apasionan los parques de trampolines? hoy visitamos Waterfun, que es una mezcla entre parque acuático y de..."
+seoDescription: "¿Te gustan los parques acuáticos? ¿Te apasionan los parques de trampolines? hoy visitamos Waterfun, que es una mezcla entre parque acuático y de."
 videoId: "EN0OlVB4Kbc"
 publishedAt: "2020-09-01"
 categoria: "parques-acuaticos"

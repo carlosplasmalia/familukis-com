@@ -2,7 +2,7 @@
 title: "Cómo hacer TIENDA de CAMPAÑA ¡¡ Por 5 € !! en FAMILIA"
 seoTitle: "Cómo hacer TIENDA de CAMPAÑA ¡¡ Por 5 € !! en FAMILIA"
 description: "¿Buscáis actividades para hacer en casa? Hoy hacemos una tienda de campaña barata por solo 5 Euros ¿Será capaz de resistir nuestro refugio? Además conoceréis a nuestras nuevas mascotas. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Buscáis actividades para hacer en casa? Hoy hacemos una tienda de campaña barata por solo 5 Euros ¿Será capaz de resistir nuestro refugio? Además..."
+seoDescription: "¿Buscáis actividades para hacer en casa? Hoy hacemos una tienda de campaña barata por solo 5 Euros ¿Será capaz de resistir nuestro refugio? Además."
 videoId: "WjsRwTEHqp8"
 publishedAt: "2021-11-16"
 categoria: "camping-naturaleza"

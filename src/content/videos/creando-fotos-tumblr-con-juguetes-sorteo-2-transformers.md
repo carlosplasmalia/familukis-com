@@ -2,7 +2,7 @@
 title: "Creando fotos TUMBLR con ¡¡JUGUETES!! + Sorteo 2 TRANSFORMERS"
 seoTitle: "Creando fotos TUMBLR con ¡¡JUGUETES!! + Sorteo 2 TRANSFORMERS"
 description: "¡SORTEAMOS 2 JUGUETES ALUCINANTES! Hoy hemos creado fotos Tumblr con juguetes de la película Transformers. Los chicos de Hasbro nos han retado a hacer un unboxing de juguetes y a crear fotos Tumblr con ellos ¿Quieres ver el resultado? ¡Dale al Play! Para participar en el sorteo dale LIKE a este víde."
-seoDescription: "¡SORTEAMOS 2 JUGUETES ALUCINANTES! Hoy hemos creado fotos Tumblr con juguetes de la película Transformers. Los chicos de Hasbro nos han retado a hacer..."
+seoDescription: "¡SORTEAMOS 2 JUGUETES ALUCINANTES! Hoy hemos creado fotos Tumblr con juguetes de la película Transformers. Los chicos de Hasbro nos han retado a hacer."
 videoId: "qU9wbIaFWTY"
 publishedAt: "2017-11-03"
 categoria: "camping-naturaleza"

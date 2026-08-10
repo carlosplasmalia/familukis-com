@@ -2,7 +2,7 @@
 title: "La verdad sobre el BALNEARIO de Marina d’Or… ¿Sigue siendo espectacular con Magic World?"
 seoTitle: "La verdad sobre el BALNEARIO de Marina d’Or… ¿Sigue siendo..."
 description: "Contenido patrocinado de afiliación: Vacaciones en MAgic World con descuento:   ¿Estás pensando en visitar el balneario de Magic World (antigua Marina d’Or)? En este vídeo te enseñamos cómo es por dentro, qué servicios ofrece, si sigue siendo tan espectacular como antes y si merece la pena venir con."
-seoDescription: "Contenido patrocinado de afiliación: Vacaciones en MAgic World con descuento: ¿Estás pensando en visitar el balneario de Magic World (antigua Marina..."
+seoDescription: "Contenido patrocinado de afiliación: Vacaciones en MAgic World con descuento: ¿Estás pensando en visitar el balneario de Magic World (antigua Marina."
 videoId: "ePFWjitgVVs"
 publishedAt: "2025-07-12"
 categoria: "magic-world"

@@ -2,7 +2,7 @@
 title: "¡JUEGOS DE DIBUJO! ✏️  con SUSCRIPTORES Pinturillo 2 ¡momentos divertidos!"
 seoTitle: "JUEGOS DE DIBUJO! con SUSCRIPTORES Pinturillo 2 ¡momentos..."
 description: "Hoy os traémos Pinturillo 2 un juego de dibujo para hece e casa fácil y divertido para jugar en familia o con amigos ¡Nosotros lo hemos jugado con fans! ¿Quieres jugar con nosotros? Siguenos en Insta👉🏻   dale a Like y haremos más vídeos en familia de Pinturillo 2 ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy os traémos Pinturillo 2 un juego de dibujo para hece e casa fácil y divertido para jugar en familia o con amigos ¡Nosotros lo hemos jugado con..."
+seoDescription: "Hoy os traémos Pinturillo 2 un juego de dibujo para hece e casa fácil y divertido para jugar en familia o con amigos ¡Nosotros lo hemos jugado con."
 videoId: "ZATQ5xbJEJE"
 publishedAt: "2021-02-19"
 categoria: "para-ninos"

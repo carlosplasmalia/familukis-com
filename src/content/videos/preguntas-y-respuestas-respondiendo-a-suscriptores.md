@@ -2,7 +2,7 @@
 title: "PREGUNTAS Y RESPUESTAS // Respondiendo a Suscriptores"
 seoTitle: "PREGUNTAS Y RESPUESTAS // Respondiendo a Suscriptores"
 description: "¿Quieres conocernos un poco más? Hoy respondemos a las preguntas de nuestros Familukis. Hemos intentado poner las preguntas que más se han repetido y también las que más nos han gustado. Esperamos que is guste el vídeo y recordad que la vida en familia ¡Se vive mejor!."
-seoDescription: "¿Quieres conocernos un poco más? Hoy respondemos a las preguntas de nuestros Familukis. Hemos intentado poner las preguntas que más se han repetido y..."
+seoDescription: "¿Quieres conocernos un poco más? Hoy respondemos a las preguntas de nuestros Familukis. Hemos intentado poner las preguntas que más se han repetido y."
 videoId: "Msu1yVufYEA"
 publishedAt: "2017-02-10"
 categoria: "para-ninos"

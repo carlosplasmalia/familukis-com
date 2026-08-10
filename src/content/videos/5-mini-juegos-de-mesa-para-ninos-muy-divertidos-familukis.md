@@ -2,7 +2,7 @@
 title: "5 MINI JUEGOS de MESA para NIÑOS ¡¡Muy divertidos!! // Familukis"
 seoTitle: "5 MINI JUEGOS de MESA para NIÑOS ¡¡Muy divertidos"
 description: "Sabemos lo mucho que os gusta jugar con vuestros hermanos, familiares y amigos. Es por eso que hoy os traemos 5 juegos de mesa en miniatura para disfrutar en familia o con amigos. El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:  mejores juegos de mesa juegos para niños."
-seoDescription: "Sabemos lo mucho que os gusta jugar con vuestros hermanos, familiares y amigos. Es por eso que hoy os traemos 5 juegos de mesa en miniatura para..."
+seoDescription: "Sabemos lo mucho que os gusta jugar con vuestros hermanos, familiares y amigos. Es por eso que hoy os traemos 5 juegos de mesa en miniatura para."
 videoId: "lrBTV706ang"
 publishedAt: "2019-01-05"
 categoria: "para-ninos"

@@ -2,7 +2,7 @@
 title: "¡La liamos con MAQUILLAJE FLUORESCENTE ¿#Slime fluorescente? ¡No! // familukis"
 seoTitle: "La liamos con MAQUILLAJE FLUORESCENTE ¿#Slime fluorescente? ¡No"
 description: "Si te gustó nuestro reto del slime fluorescente no te puedes perder el reto del maquillaje extremo fluorescente. Esta vez mamiluki ha sido maquillada por los pequeños. Media cara maquillada por Carlitos y otra mitad maquillada por Aroa. ¿Que te parece este reto Make Up challenge? ¿Quieres que nos pi."
-seoDescription: "Si te gustó nuestro reto del slime fluorescente no te puedes perder el reto del maquillaje extremo fluorescente. Esta vez mamiluki ha sido maquillada..."
+seoDescription: "Si te gustó nuestro reto del slime fluorescente no te puedes perder el reto del maquillaje extremo fluorescente. Esta vez mamiluki ha sido maquillada."
 videoId: "I2LIymkea30"
 publishedAt: "2018-03-02"
 categoria: "retos-challenges"

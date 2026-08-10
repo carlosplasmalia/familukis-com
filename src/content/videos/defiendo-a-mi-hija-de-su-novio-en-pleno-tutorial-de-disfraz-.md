@@ -2,7 +2,7 @@
 title: "Defiendo a mi HIJA de su NOVIO en pleno TUTORIAL de DISFRAZ de COCHE Twingo de la canción de Shakira"
 seoTitle: "Defiendo a mi HIJA de su NOVIO en pleno TUTORIAL de DISFRAZ..."
 description: "¡Prepárate para un vídeo lleno de diversión y manualidades! En este episodio, te enseñamos cómo hacer un disfraz de coche modelo Twingo inspirado en la canción de @Shakira y @Bizarrap  Pero eso no es todo, también hay momentos de risa y emoción mientras Joel, el Novio de mi Hija intenta hacer una br."
-seoDescription: "¡Prepárate para un vídeo lleno de diversión y manualidades! En este episodio, te enseñamos cómo hacer un disfraz de coche modelo Twingo inspirado en la..."
+seoDescription: "¡Prepárate para un vídeo lleno de diversión y manualidades! En este episodio, te enseñamos cómo hacer un disfraz de coche modelo Twingo inspirado en la."
 videoId: "uB51uND-fVM"
 publishedAt: "2023-03-02"
 categoria: "retos-challenges"

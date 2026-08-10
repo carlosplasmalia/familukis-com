@@ -2,7 +2,7 @@
 title: "VACACIONES de LUJO en la CASA RODANTE ¡¡VOLVEMOS A NUESTRO PUEBLO!!"
 seoTitle: "VACACIONES de LUJO en la CASA RODANTE ¡¡VOLVEMOS A NUESTRO PUEBLO"
 description: "¿Quieres conocer la casa rodante más lujosa? ¿te gustaría conocer uno de los mejores camping de la comunidad de madrid? Hoy nos vamos de vacaciones en familia para reencontrarnos con nuestras personas favoritas. Si te gustan las autocaravanas y los viajes en famila ¡Dale al play! ¡Descubre nuestro c."
-seoDescription: "¿Quieres conocer la casa rodante más lujosa? ¿te gustaría conocer uno de los mejores camping de la comunidad de madrid? Hoy nos vamos de vacaciones en..."
+seoDescription: "¿Quieres conocer la casa rodante más lujosa? ¿te gustaría conocer uno de los mejores camping de la comunidad de madrid? Hoy nos vamos de vacaciones en."
 videoId: "bqyToUZ6S-E"
 publishedAt: "2021-05-29"
 categoria: "camping-naturaleza"

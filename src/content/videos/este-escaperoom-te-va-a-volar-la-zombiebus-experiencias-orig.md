@@ -2,7 +2,7 @@
 title: "Este ESCAPEROOM te va a volar la 🤯 // Zombiebus experiencias originales."
 seoTitle: "Este ESCAPEROOM te va a volar la // Zombiebus experiencias..."
 description: "¿Buscas planes originales y diferentes? Hoy os presentamos el ZombieBus ¡No es una \"Casa Rodante\" es un autobús  #escaperoom Una experiencia increíble que podrás vivir en Madrid. Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro NUEVO LIBRO !📚👉🏻."
-seoDescription: "¿Buscas planes originales y diferentes? Hoy os presentamos el ZombieBus ¡No es una \"Casa Rodante\" es un autobús #escaperoom Una experiencia increíble..."
+seoDescription: "¿Buscas planes originales y diferentes? Hoy os presentamos el ZombieBus ¡No es una \"Casa Rodante\" es un autobús #escaperoom Una experiencia increíble."
 videoId: "ZIY7PR5zF6Q"
 publishedAt: "2024-01-12"
 categoria: "halloween"

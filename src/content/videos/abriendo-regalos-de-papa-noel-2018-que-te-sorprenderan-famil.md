@@ -2,7 +2,7 @@
 title: "¡ABRIENDO REGALOS de PAPÁ NOEL 2018 🎁que te SORPRENDERÁN // FAMILUKIS"
 seoTitle: "ABRIENDO REGALOS de PAPÁ NOEL 2018 que te SORPRENDERÁN"
 description: "¿Que regalos nos ha traído Papá Noel en 2018? Descubre como ha sido nuestra noche buena y la sorpresa de Santa Claus Real. El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "¿Que regalos nos ha traído Papá Noel en 2018? Descubre como ha sido nuestra noche buena y la sorpresa de Santa Claus Real. El mejor regalo para un..."
+seoDescription: "¿Que regalos nos ha traído Papá Noel en 2018? Descubre como ha sido nuestra noche buena y la sorpresa de Santa Claus Real. El mejor regalo para un."
 videoId: "0xTKuCSPYjY"
 publishedAt: "2018-12-26"
 categoria: "navidad-regalos"

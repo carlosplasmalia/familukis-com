@@ -2,7 +2,7 @@
 title: "BUSCANDO la mejor MASCOTA para ADOPTAR + Excursión en familia"
 seoTitle: "BUSCANDO la mejor MASCOTA para ADOPTAR + Excursión en familia"
 description: "Hoy visitamos el refugio de animales Apariv donde nos encontraremos con infinidad de mascotas que necesitan una familia para que les quiera ¿Quieres tener una mascota? ¿Te gustan los perros? Dale al play y acompáñanos en esta aventura. ¡No compres! Adopta: ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy visitamos el refugio de animales Apariv donde nos encontraremos con infinidad de mascotas que necesitan una familia para que les quiera ¿Quieres..."
+seoDescription: "Hoy visitamos el refugio de animales Apariv donde nos encontraremos con infinidad de mascotas que necesitan una familia para que les quiera ¿Quieres."
 videoId: "6z-r9vdWsgw"
 publishedAt: "2021-02-02"
 categoria: "camping-naturaleza"

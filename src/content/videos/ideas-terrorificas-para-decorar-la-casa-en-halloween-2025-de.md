@@ -2,7 +2,7 @@
 title: "IDEAS TERRORÍFICAS para DECORAR la CASA en HALLOWEEN 2025 | Decoración Familiar Halloween"
 seoTitle: "IDEAS TERRORÍFICAS para DECORAR la CASA en HALLOWEEN 2025 |..."
 description: "¡TRANSFORMA tu CASA en una CASA EMBRUJADA!   Ideas terroríficas de decoración Halloween 2025 🎯 LO QUE DESCUBRIRÁS EN ESTE VÍDEO: • Ideas únicas para decorar toda la casa en Halloween • Calaveras, arañas, ratas y decoraciones escalofriantes • Trucos fáciles para crear ambiente terrorífico • Decoracio."
-seoDescription: "¡TRANSFORMA tu CASA en una CASA EMBRUJADA! Ideas terroríficas de decoración Halloween 2025 LO QUE DESCUBRIRÁS EN ESTE VÍDEO: • Ideas únicas para..."
+seoDescription: "¡TRANSFORMA tu CASA en una CASA EMBRUJADA! Ideas terroríficas de decoración Halloween 2025 LO QUE DESCUBRIRÁS EN ESTE VÍDEO: • Ideas únicas para."
 videoId: "nS-r6fbX11Q"
 publishedAt: "2016-10-25"
 categoria: "halloween"

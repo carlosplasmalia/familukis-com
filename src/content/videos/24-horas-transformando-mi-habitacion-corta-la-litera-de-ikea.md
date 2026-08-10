@@ -2,7 +2,7 @@
 title: "24 horas TRANSFORMANDO MI HABITACIÓN ¡¡CORTA LA LITERA DE IKEA!!"
 seoTitle: "24 horas TRANSFORMANDO MI HABITACIÓN ¡¡CORTA LA LITERA DE IKEA"
 description: "Si te gustan los vídeos de reforma y decoración  hoy mamiluki se ha propuesto transformar la habitación de los pequeños y cortar la litera de Ikea en 2 y convertirlas en camas. Pero Aroa y Papiluki no están muy convencidos e intentarán que mamá no haga la reforma ¿Lo conseguirá? ¡Descubre nuestro có."
-seoDescription: "Si te gustan los vídeos de reforma y decoración hoy mamiluki se ha propuesto transformar la habitación de los pequeños y cortar la litera de Ikea en 2..."
+seoDescription: "Si te gustan los vídeos de reforma y decoración hoy mamiluki se ha propuesto transformar la habitación de los pequeños y cortar la litera de Ikea en 2."
 videoId: "lPSdvhvRsZs"
 publishedAt: "2020-11-03"
 categoria: "para-ninos"

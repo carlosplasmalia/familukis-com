@@ -2,7 +2,7 @@
 title: "COMO HACER JABÓN CASERO // JABONES NATURALES DE GLICERINA // Juegos y juguetes en familia"
 seoTitle: "COMO HACER JABÓN CASERO // JABONES NATURALES DE GLICERINA //..."
 description: "Hoy en juegos y juguetes en familia os enseñamos a hacer vuestro propio jabón casero y natural de glicerina. Además le vamos a dar un toque personalizado a nuestro jabón casero dandole la forma del botón de Youtube. ¿Te gustan las manualidades con niños? no te pierdas esta fabricación de jabón caser."
-seoDescription: "Hoy en juegos y juguetes en familia os enseñamos a hacer vuestro propio jabón casero y natural de glicerina. Además le vamos a dar un toque..."
+seoDescription: "Hoy en juegos y juguetes en familia os enseñamos a hacer vuestro propio jabón casero y natural de glicerina. Además le vamos a dar un toque."
 videoId: "MOhxidYX1j0"
 publishedAt: "2016-10-04"
 categoria: "para-ninos"

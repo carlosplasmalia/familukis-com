@@ -2,7 +2,7 @@
 title: "PRIMERA compra de FAMILIA numerosa en CASA RODANTE 👨‍👩‍👧‍👦 + Ruta de las pasarelas DÍA 3"
 seoTitle: "PRIMERA compra de FAMILIA numerosa en CASA RODANTE + Ruta de..."
 description: "¿Quieres ver vídeos de autovaranas para principiantes? ¿Te gustaría ver cómo es nuestro día a día en una casa rodante? ¿Cómo es la compra semanal en el supermercado? ¡Descubre nuestra serie en autocaravana! Hoy con la Ruta de las pasarelas! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Quieres ver vídeos de autovaranas para principiantes? ¿Te gustaría ver cómo es nuestro día a día en una casa rodante? ¿Cómo es la compra semanal en el..."
+seoDescription: "¿Quieres ver vídeos de autovaranas para principiantes? ¿Te gustaría ver cómo es nuestro día a día en una casa rodante? ¿Cómo es la compra semanal en el."
 videoId: "iTFSruhObBo"
 publishedAt: "2021-03-16"
 categoria: "camping-naturaleza"

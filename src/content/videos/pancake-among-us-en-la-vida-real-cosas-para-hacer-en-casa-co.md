@@ -2,7 +2,7 @@
 title: "Pancake AMONG US en la VIDA REAL // Cosas para hacer en CASA contra el ABURRIMIENTO en familia"
 seoTitle: "Pancake AMONG US en la VIDA REAL // Cosas para hacer en CASA..."
 description: "¿Te gusta Among us en la vida real? ¿Nos sabes qué hacer cuando estás aburrido? Hoy os enseñamos cómo hacer Pancake de Among Us en la vida real. Una actividad para hacer en casa ideal para hacer en familia en ésta nueva época de cuarentena y restricciones. Colorantes alimenticios: ¡Descubre nuestro."
-seoDescription: "¿Te gusta Among us en la vida real? ¿Nos sabes qué hacer cuando estás aburrido? Hoy os enseñamos cómo hacer Pancake de Among Us en la vida real. Una..."
+seoDescription: "¿Te gusta Among us en la vida real? ¿Nos sabes qué hacer cuando estás aburrido? Hoy os enseñamos cómo hacer Pancake de Among Us en la vida real. Una."
 videoId: "VpA3Dq5-5yQ"
 publishedAt: "2021-01-23"
 categoria: "para-ninos"

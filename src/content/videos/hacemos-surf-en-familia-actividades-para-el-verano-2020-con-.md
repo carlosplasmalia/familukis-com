@@ -2,7 +2,7 @@
 title: "Hacemos SURF EN FAMILIA 🏄Actividades PARA EL VERANO 2020  con NIÑOS"
 seoTitle: "Hacemos SURF EN FAMILIA Actividades PARA EL VERANO 2020 con NIÑOS"
 description: "Hoy visitamos una escuela de Surf y os contamos como nos hemos equipado para esta actividad en familia ¡Disfruta del surf con tus hijos! y vive el verano 2020 con un montón de juegos de agua. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy visitamos una escuela de Surf y os contamos como nos hemos equipado para esta actividad en familia ¡Disfruta del surf con tus hijos! y vive el..."
+seoDescription: "Hoy visitamos una escuela de Surf y os contamos como nos hemos equipado para esta actividad en familia ¡Disfruta del surf con tus hijos! y vive el."
 videoId: "h5M2mlCmeUk"
 publishedAt: "2020-06-12"
 categoria: "para-ninos"

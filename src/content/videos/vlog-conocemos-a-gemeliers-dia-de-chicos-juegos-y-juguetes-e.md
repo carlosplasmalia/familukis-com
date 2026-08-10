@@ -2,7 +2,7 @@
 title: "#VLOG CONOCEMOS A GEMELIERS + DÍA DE CHICOS // Juegos y juguetes en Familia"
 seoTitle: "#VLOG CONOCEMOS A GEMELIERS + DÍA DE CHICOS // Juegos y..."
 description: "¿Te gustan los Gemeliers? Descubre como hemos vivido la firma de libros y discos en Madrid. ¡Hemos conocido a Gemeliers! y queríamos contarlo en este Vlog. Por otro lado Carlitos y papá se han ido a pasar un día de chicos y han visto la película canta. Jesus y Daniel son dos niños adorables que nos."
-seoDescription: "¿Te gustan los Gemeliers? Descubre como hemos vivido la firma de libros y discos en Madrid. ¡Hemos conocido a Gemeliers! y queríamos contarlo en este..."
+seoDescription: "¿Te gustan los Gemeliers? Descubre como hemos vivido la firma de libros y discos en Madrid. ¡Hemos conocido a Gemeliers! y queríamos contarlo en este."
 videoId: "A9YvyqeurSo"
 publishedAt: "2017-01-17"
 categoria: "para-ninos"

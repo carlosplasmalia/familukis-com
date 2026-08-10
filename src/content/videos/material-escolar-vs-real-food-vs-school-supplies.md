@@ -2,7 +2,7 @@
 title: "MATERIAL ESCOLAR vs ✏️ REAL FOOD🍎 vs School Supplies"
 seoTitle: "MATERIAL ESCOLAR vs REAL FOOD vs School Supplies"
 description: "Hoy os retamos a descubrir Material escolar vs realidad, conocido como REAL FOOD vs School Supplies ¿Podrás averiguar quien es quien? El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "Hoy os retamos a descubrir Material escolar vs realidad, conocido como REAL FOOD vs School Supplies ¿Podrás averiguar quien es quien? El mejor regalo..."
+seoDescription: "Hoy os retamos a descubrir Material escolar vs realidad, conocido como REAL FOOD vs School Supplies ¿Podrás averiguar quien es quien? El mejor regalo."
 videoId: "mUf-GS7ygWs"
 publishedAt: "2018-11-06"
 categoria: "retos-challenges"

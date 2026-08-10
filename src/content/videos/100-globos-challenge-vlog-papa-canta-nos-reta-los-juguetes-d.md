@@ -2,7 +2,7 @@
 title: "🎈 100 Globos CHALLENGE🎈 Vlog ¡¡Papá CANTA!! Nos reta Los Juguetes de ARANTXA y retamos a..."
 seoTitle: "100 Globos CHALLENGE Vlog ¡¡Papá CANTA!! Nos reta Los..."
 description: "Los Juguetes de Arantxa nos ha retado a hacer el 100 GLOBOS CHALLENGE!!! Tambien hemos hecho un vlog en familia en el que papá se ha animado a cantar ¿Que tal cantará? Retamos a otro canal amigo ¿Quién será? ¡No te lo puedes perder! Síguenos en instagram: Canales que participan en el reto: Ideas Fac."
-seoDescription: "Los Juguetes de Arantxa nos ha retado a hacer el 100 GLOBOS CHALLENGE!!! Tambien hemos hecho un vlog en familia en el que papá se ha animado a cantar..."
+seoDescription: "Los Juguetes de Arantxa nos ha retado a hacer el 100 GLOBOS CHALLENGE!!! Tambien hemos hecho un vlog en familia en el que papá se ha animado a cantar."
 videoId: "WBbtzO29TMs"
 publishedAt: "2017-09-08"
 categoria: "retos-challenges"

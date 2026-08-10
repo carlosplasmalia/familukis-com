@@ -2,7 +2,7 @@
 title: "¡¡CARNAVAL 24 horas!! en Mijas // Vlog en familia  // Familukis"
 seoTitle: "CARNAVAL 24 horas!! en Mijas // Vlog en familia"
 description: "¿Te gustan las fiestas de disfraces?  Pues acompañadnos en nuestro primer carnaval en el pueblo de Mijas y disfruta del colorido y la felicidad de este carnaval 2019. Esperamos que os guste este vlog en familia."
-seoDescription: "¿Te gustan las fiestas de disfraces? Pues acompañadnos en nuestro primer carnaval en el pueblo de Mijas y disfruta del colorido y la felicidad de este..."
+seoDescription: "¿Te gustan las fiestas de disfraces? Pues acompañadnos en nuestro primer carnaval en el pueblo de Mijas y disfruta del colorido y la felicidad de este."
 videoId: "vavS2clH3Pw"
 publishedAt: "2019-03-05"
 categoria: "para-ninos"

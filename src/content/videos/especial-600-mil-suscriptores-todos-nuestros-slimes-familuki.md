@@ -2,7 +2,7 @@
 title: "¡¡ESPECIAL 600 MIL SUSCRIPTORES!! Todos nuestros SLIMES // Familukis"
 seoTitle: "ESPECIAL 600 MIL SUSCRIPTORES!! Todos nuestros SLIMES"
 description: "Hoy nos habéis dado la sorpresa al llegar a los 600.000 Suscriptores y para celebrarlo hemos pensado hacer una mezcla de todos nuestros slimes desde que empezamos ¡Gracias familukis por acompañarnos siempre! Os queremos ❤️❤️❤️ El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en insta."
-seoDescription: "Hoy nos habéis dado la sorpresa al llegar a los 600.000 Suscriptores y para celebrarlo hemos pensado hacer una mezcla de todos nuestros slimes desde..."
+seoDescription: "Hoy nos habéis dado la sorpresa al llegar a los 600.000 Suscriptores y para celebrarlo hemos pensado hacer una mezcla de todos nuestros slimes desde."
 videoId: "aXg79lhqi6c"
 publishedAt: "2018-09-23"
 categoria: "para-ninos"

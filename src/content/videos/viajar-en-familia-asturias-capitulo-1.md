@@ -2,7 +2,7 @@
 title: "VIAJAR EN FAMILIA // ASTURIAS CAPITULO #1"
 seoTitle: "VIAJAR EN FAMILIA // ASTURIAS CAPITULO #1"
 description: "Viajar en familia y viajar con niños es genial ¿No crees? Hoy queremos viajar con niños por España, concretamente a Asturias. Asturias es un lugar maravilloso para viajar con niños. Sus playas, sus montañas, su clima fresco, su gastronomía y sus gentes son la excusa perfecta para ir de vacaciones a."
-seoDescription: "Viajar en familia y viajar con niños es genial ¿No crees? Hoy queremos viajar con niños por España, concretamente a Asturias. Asturias es un lugar..."
+seoDescription: "Viajar en familia y viajar con niños es genial ¿No crees? Hoy queremos viajar con niños por España, concretamente a Asturias. Asturias es un lugar."
 videoId: "iK--g10VBtA"
 publishedAt: "2016-07-22"
 categoria: "playas-costa"

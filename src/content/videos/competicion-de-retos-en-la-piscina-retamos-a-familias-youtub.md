@@ -2,7 +2,7 @@
 title: "COMPETICIÓN de RETOS en LA PISCINA (Retamos a FAMILIAS Youtubers)"
 seoTitle: "COMPETICIÓN de RETOS en LA PISCINA (Retamos a FAMILIAS Youtubers)"
 description: "Sabemos lo que os gustan los saltos y los retos en la piscina. Por ese motivo hoy hemos invitado a familias youtubers a competir en nuestra alberca ¿Lograrán pasar las pruebas de los familukis y cruzar la piscina sin mojarse? ¡Descúbrelo!."
-seoDescription: "Sabemos lo que os gustan los saltos y los retos en la piscina. Por ese motivo hoy hemos invitado a familias youtubers a competir en nuestra alberca..."
+seoDescription: "Sabemos lo que os gustan los saltos y los retos en la piscina. Por ese motivo hoy hemos invitado a familias youtubers a competir en nuestra alberca."
 videoId: "p_WpUdEhyPA"
 publishedAt: "2019-08-09"
 categoria: "retos-challenges"

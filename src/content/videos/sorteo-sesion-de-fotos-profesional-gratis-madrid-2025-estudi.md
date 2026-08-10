@@ -2,7 +2,7 @@
 title: "🎁 SORTEO: Sesión de Fotos Profesional GRATIS Madrid 2025 - Estudios Fotográficos Familias ✨"
 seoTitle: "SORTEO: Sesión de Fotos Profesional GRATIS Madrid 2025 -..."
 description: "🎁 SORTEO EXCLUSIVO: Sesión de Fotos Profesional GRATIS Madrid 2025 📍 ¿Buscas fotografía familiar profesional en Madrid? ¡Esta es tu oportunidad! Sorteamos una sesión fotográfica completa GRATIS en estudios fotográficos de Madrid. 💸 VALOR DEL PREMIO: Sesión profesional valorada en 300€ 📍 UBICACIÓN: E."
-seoDescription: "SORTEO EXCLUSIVO: Sesión de Fotos Profesional GRATIS Madrid 2025 ¿Buscas fotografía familiar profesional en Madrid? ¡Esta es tu oportunidad! Sorteamos..."
+seoDescription: "SORTEO EXCLUSIVO: Sesión de Fotos Profesional GRATIS Madrid 2025 ¿Buscas fotografía familiar profesional en Madrid? ¡Esta es tu oportunidad! Sorteamos."
 videoId: "1LCySa175gA"
 publishedAt: "2016-11-08"
 categoria: "para-ninos"

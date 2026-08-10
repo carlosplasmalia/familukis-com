@@ -2,7 +2,7 @@
 title: "Las CASAS RODANTES + PEQUEÑAS del mundo ¡Reaccionando a casas!"
 seoTitle: "Las CASAS RODANTES + PEQUEÑAS del mundo ¡Reaccionando a casas"
 description: "Así son las casa rodantes o motorhome + pequeños del mundo ¿Cómo será el interior? ¿Se podrá viajar en una autocaravana tan pequeña al igual que en una más grande? ¡Descúbrelo! Vídeos originales Micro Camper Japonesa: Mini Camper: Tuk tuk Camper: Conviértete en miembro de este canal para disfrutar d."
-seoDescription: "Así son las casa rodantes o motorhome + pequeños del mundo ¿Cómo será el interior? ¿Se podrá viajar en una autocaravana tan pequeña al igual que en una..."
+seoDescription: "Así son las casa rodantes o motorhome + pequeños del mundo ¿Cómo será el interior? ¿Se podrá viajar en una autocaravana tan pequeña al igual que en una."
 videoId: "DiZmn0dM72I"
 publishedAt: "2022-05-16"
 categoria: "camping-naturaleza"

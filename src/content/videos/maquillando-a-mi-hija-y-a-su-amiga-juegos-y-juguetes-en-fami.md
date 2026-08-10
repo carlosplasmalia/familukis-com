@@ -2,7 +2,7 @@
 title: "MAQUILLANDO A MI HIJA Y A SU AMIGA // Juegos y Juguetes en Familia"
 seoTitle: "MAQUILLANDO A MI HIJA Y A SU AMIGA // Juegos y Juguetes en..."
 description: "¡La venganza ha llegado! Después del reto \"Maquillando a mi padre\" Hoy por fin se cumple la venganza del reto de maquillaje ¿Queréis ver como papá maquilla a Aroa y a su amiga Carla? Pues no lo dudes y dale al play. Esperamos que os guste familukis."
-seoDescription: "¡La venganza ha llegado! Después del reto \"Maquillando a mi padre\" Hoy por fin se cumple la venganza del reto de maquillaje ¿Queréis ver como papá..."
+seoDescription: "¡La venganza ha llegado! Después del reto \"Maquillando a mi padre\" Hoy por fin se cumple la venganza del reto de maquillaje ¿Queréis ver como papá."
 videoId: "bOLufHaGwuM"
 publishedAt: "2017-03-14"
 categoria: "retos-challenges"

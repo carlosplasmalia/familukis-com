@@ -2,7 +2,7 @@
 title: "Mi HIJA ELIGE mis OUTFITS PARA NAVIDAD y FIN DE AÑO 2019-2020"
 seoTitle: "Mi HIJA ELIGE mis OUTFITS PARA NAVIDAD y FIN DE AÑO 2019-2020"
 description: "Ayer nos fuimos de compras y nos lo pasamos genial buscando un outfit para navidad ¿Queréis ver los modelos de ropa que Aroa me eligió, no os lo perdáis porque algunos me quedan realmente ridículos ¿Y tú? ¿Ya te has comprado la ropa para esta navidad? ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Ayer nos fuimos de compras y nos lo pasamos genial buscando un outfit para navidad ¿Queréis ver los modelos de ropa que Aroa me eligió, no os lo..."
+seoDescription: "Ayer nos fuimos de compras y nos lo pasamos genial buscando un outfit para navidad ¿Queréis ver los modelos de ropa que Aroa me eligió, no os lo."
 videoId: "NI95ej_jlvs"
 publishedAt: "2019-12-21"
 categoria: "navidad-regalos"

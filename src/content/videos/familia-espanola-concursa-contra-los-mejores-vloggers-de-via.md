@@ -2,7 +2,7 @@
 title: "FAMILIA Española Concursa CONTRA los MEJORES VLOGGERS de viajes ¡DEL MUNDO!"
 seoTitle: "FAMILIA Española Concursa CONTRA los MEJORES VLOGGERS de..."
 description: "Familias estamos dentro del mejor concurso de Vloggers de viajes. Hoy pelearemos por rascar las mejores imágenes en el primer museo de esculturas submarinas del mundo que se encuentra en la localidad Chipriota de Ayia Napa. Solo vosotros podréis decidir si nos alzamos con el premio al mejor Video Vl."
-seoDescription: "Familias estamos dentro del mejor concurso de Vloggers de viajes. Hoy pelearemos por rascar las mejores imágenes en el primer museo de esculturas..."
+seoDescription: "Familias estamos dentro del mejor concurso de Vloggers de viajes. Hoy pelearemos por rascar las mejores imágenes en el primer museo de esculturas."
 videoId: "s2VtbXqFKBQ"
 publishedAt: "2022-03-22"
 categoria: "vlogs-familia"

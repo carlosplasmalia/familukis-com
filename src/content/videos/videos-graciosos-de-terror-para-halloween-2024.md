@@ -2,7 +2,7 @@
 title: "Videos GRACIOSOS de TERROR ¡Para Halloween 2024!"
 seoTitle: "Videos GRACIOSOS de TERROR ¡Para Halloween 2024"
 description: "¿Quien recuerda el vídeo que hicimos con Lara de Tremending Girls o Hermanos Tremending? Hoy familia es un día para la nostalgia en el día de llos muertos y os traemos un recap para que recordéis nuestros primeros vídeos de #halloween para este 2024 . Conviértete en miembro de este canal para disfru."
-seoDescription: "¿Quien recuerda el vídeo que hicimos con Lara de Tremending Girls o Hermanos Tremending? Hoy familia es un día para la nostalgia en el día de llos..."
+seoDescription: "¿Quien recuerda el vídeo que hicimos con Lara de Tremending Girls o Hermanos Tremending? Hoy familia es un día para la nostalgia en el día de llos."
 videoId: "msYfvSWsM_I"
 publishedAt: "2024-09-25"
 categoria: "halloween"

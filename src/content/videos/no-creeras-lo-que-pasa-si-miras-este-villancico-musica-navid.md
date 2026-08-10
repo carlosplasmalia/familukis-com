@@ -2,7 +2,7 @@
 title: "NO creerás LO QUE PASA SI MIRAS 👀 Este VILLANCICO // Música Navideña 2017"
 seoTitle: "NO creerás LO QUE PASA SI MIRAS Este VILLANCICO // Música..."
 description: "¿Que pasa si miras esta canción navideña? Pues que puedes ayudar a un montón de niños de la asociación niños con cáncer: Recuerda que cuanto más compartáis el vídeo más dinero recaudaremos para la asociación. No olvidéis enseñárselo a toda la familia y decirles que lo compartan en sus redes sociales."
-seoDescription: "¿Que pasa si miras esta canción navideña? Pues que puedes ayudar a un montón de niños de la asociación niños con cáncer: Recuerda que cuanto más..."
+seoDescription: "¿Que pasa si miras esta canción navideña? Pues que puedes ayudar a un montón de niños de la asociación niños con cáncer: Recuerda que cuanto más."
 videoId: "fi5bpG3GtiA"
 publishedAt: "2017-12-15"
 categoria: "navidad-regalos"

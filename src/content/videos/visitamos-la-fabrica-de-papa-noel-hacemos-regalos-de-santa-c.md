@@ -2,7 +2,7 @@
 title: "VISITAMOS LA FÁBRICA DE PAPÁ NOÉL ¡¡HACEMOS REGALOS de Santa Claus!"
 seoTitle: "VISITAMOS LA FÁBRICA DE PAPÁ NOÉL ¡¡HACEMOS REGALOS de Santa..."
 description: "Santa Claus tiene muchas fábricas repartidas por el mundo y hoy visitamos una fábrica de Papá Noél en la que ayudaremos a sus Elfos a envolver regalos, ha fabricar juguetes o incluso a hacer manualidades. Descubre nuestro cómic!📚👉🏻 ¿Quieres ir a la fábrica de Santa a conocerlo, estar con su Elfos, v."
-seoDescription: "Santa Claus tiene muchas fábricas repartidas por el mundo y hoy visitamos una fábrica de Papá Noél en la que ayudaremos a sus Elfos a envolver regalos,..."
+seoDescription: "Santa Claus tiene muchas fábricas repartidas por el mundo y hoy visitamos una fábrica de Papá Noél en la que ayudaremos a sus Elfos a envolver regalos."
 videoId: "RIsFWF3CUFY"
 publishedAt: "2019-12-10"
 categoria: "navidad-regalos"

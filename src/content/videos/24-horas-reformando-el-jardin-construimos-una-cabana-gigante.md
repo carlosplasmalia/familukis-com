@@ -2,7 +2,7 @@
 title: "24 Horas ¡¡REFORMANDO EL JARDÍN!! construimos una CABAÑA GIGANTE"
 seoTitle: "24 Horas ¡¡REFORMANDO EL JARDÍN!! construimos una CABAÑA GIGANTE"
 description: "Hoy empezamos las reformas del Jardín y vamos a pasar un día completo arreglándolo , pero para ellos tenemos que reciclar nuestro árbol navideño y convertirlo en una cabaña gigante. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy empezamos las reformas del Jardín y vamos a pasar un día completo arreglándolo , pero para ellos tenemos que reciclar nuestro árbol navideño y..."
+seoDescription: "Hoy empezamos las reformas del Jardín y vamos a pasar un día completo arreglándolo , pero para ellos tenemos que reciclar nuestro árbol navideño y."
 videoId: "191EMMWm2Hg"
 publishedAt: "2022-02-25"
 categoria: "para-ninos"

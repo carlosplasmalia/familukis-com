@@ -2,7 +2,7 @@
 title: "Buscando TESOROS EN EL RÍO pescamos una BICICLETA"
 seoTitle: "Buscando TESOROS EN EL RÍO pescamos una BICICLETA"
 description: "¿Te gusta buscar tesoros en el río? ¿Te gustaría encontrar tesoros de una manera fácil y sorprendente? ¿Quieres disfrutar de una actividad al aire libre y además contribuir con el medio ambiente? ¡Descúbre cómo buscar tesoros en familia y con niños con un simple imán de neodimio. En esta búsqueda de."
-seoDescription: "¿Te gusta buscar tesoros en el río? ¿Te gustaría encontrar tesoros de una manera fácil y sorprendente? ¿Quieres disfrutar de una actividad al aire..."
+seoDescription: "¿Te gusta buscar tesoros en el río? ¿Te gustaría encontrar tesoros de una manera fácil y sorprendente? ¿Quieres disfrutar de una actividad al aire."
 videoId: "czC0cLIx2hs"
 publishedAt: "2018-04-03"
 categoria: "camping-naturaleza"

@@ -2,7 +2,7 @@
 title: "24 HORAS en ¡¡LA FERIA!! 🎢ATRACCIONES ¡¡ALUCINANTES!!"
 seoTitle: "24 HORAS en ¡¡LA FERIA!! ATRACCIONES ¡¡ALUCINANTES"
 description: "¿Te gustan las ferias y las atracciones? Hoy visitamos la FERIA DE SEVILLA y montamos en atracciones alucinantes ¿Quieres ver como son 24 horas de feria? descúbrelo."
-seoDescription: "¿Te gustan las ferias y las atracciones? Hoy visitamos la FERIA DE SEVILLA y montamos en atracciones alucinantes ¿Quieres ver como son 24 horas de..."
+seoDescription: "¿Te gustan las ferias y las atracciones? Hoy visitamos la FERIA DE SEVILLA y montamos en atracciones alucinantes ¿Quieres ver como son 24 horas de."
 videoId: "tvY2bbxaLHY"
 publishedAt: "2019-05-10"
 categoria: "parques-atracciones"

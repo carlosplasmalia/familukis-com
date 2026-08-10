@@ -2,7 +2,7 @@
 title: "24 horas en MICROPOLIX Ciudad ¡¡SOLO NIÑOS!! y Mi hijo Se hace RICO negociando."
 seoTitle: "24 horas en MICROPOLIX Ciudad ¡¡SOLO NIÑOS!! y Mi hijo Se..."
 description: "Existe una ciudad ¡Solo para niños! En la que puedes elegir oficios ganar dinero y gastarlo en cosas tan geniales como ir al super o alquilar un coche. Nosotros hemos pasado 24 horas de tiempix dentro de Micrópolix ¡Dale al play y ven a descubrirlo en familia! Conviértete en miembro de este canal pa."
-seoDescription: "Existe una ciudad ¡Solo para niños! En la que puedes elegir oficios ganar dinero y gastarlo en cosas tan geniales como ir al super o alquilar un coche...."
+seoDescription: "Existe una ciudad ¡Solo para niños! En la que puedes elegir oficios ganar dinero y gastarlo en cosas tan geniales como ir al super o alquilar un coche."
 videoId: "XhiqhA64A1w"
 publishedAt: "2023-01-04"
 categoria: "para-ninos"

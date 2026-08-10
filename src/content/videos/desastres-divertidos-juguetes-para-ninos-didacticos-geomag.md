@@ -2,7 +2,7 @@
 title: "DESASTRES DIVERTIDOS // Juguetes para niños didacticos // Geomag"
 seoTitle: "DESASTRES DIVERTIDOS // Juguetes para niños didacticos // Geomag"
 description: "Hoy os traemos un juego magnético llamado Geomag. Carlitos ha tenido unos cuantos problemas a la hora de hacer su construcción, pero al final todo ha salido genial. Familukis ¿Queréis descubrir cómo nos han salido nuestras construcciones? Entra en el vídeo y descubre un juego didáctico para niños qu."
-seoDescription: "Hoy os traemos un juego magnético llamado Geomag. Carlitos ha tenido unos cuantos problemas a la hora de hacer su construcción, pero al final todo ha..."
+seoDescription: "Hoy os traemos un juego magnético llamado Geomag. Carlitos ha tenido unos cuantos problemas a la hora de hacer su construcción, pero al final todo ha."
 videoId: "XTMat9c5iaU"
 publishedAt: "2017-01-06"
 categoria: "para-ninos"

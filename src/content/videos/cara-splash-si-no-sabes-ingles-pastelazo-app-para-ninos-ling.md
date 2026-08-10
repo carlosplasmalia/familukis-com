@@ -2,7 +2,7 @@
 title: "Cara SPLASH si no sabes inglés ¡PASTELAZO! + App para NIÑOS LingoKids"
 seoTitle: "Cara SPLASH si no sabes inglés ¡PASTELAZO! + App para NIÑOS..."
 description: "Hemos mezclado el reto de Cara Splash o PieFace  con una especie de pasapalabra ¿Quieres ver que locura nos ha salido? ¡Descúbrelo! Tambien descubrimos LingoKids  una App genial para aprender inglés jugando. Síguenos en instagram:."
-seoDescription: "Hemos mezclado el reto de Cara Splash o PieFace con una especie de pasapalabra ¿Quieres ver que locura nos ha salido? ¡Descúbrelo! Tambien descubrimos..."
+seoDescription: "Hemos mezclado el reto de Cara Splash o PieFace con una especie de pasapalabra ¿Quieres ver que locura nos ha salido? ¡Descúbrelo! Tambien descubrimos."
 videoId: "oEwaClKxtSw"
 publishedAt: "2017-10-20"
 categoria: "parques-acuaticos"

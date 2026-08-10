@@ -2,7 +2,7 @@
 title: "RECREAMOS FOTOS de la INFANCIA con ¡¡FAMILIA YOUTUBER!! Nuestros recuerdos."
 seoTitle: "RECREAMOS FOTOS de la INFANCIA con ¡¡FAMILIA YOUTUBER!!..."
 description: "¿Te gustaría descubrir cómo eran Aroa Familuki y Agustín cuando eran pequeños? ¿Sabéis desde cuándo nos conocemos estas dos familias Youtubers? Ven a descubrir nuestro álbum de fotos y mira como intentamos recrear \"Fotos Timblr\" junto a nuestros amigos @losjaritos1023 . ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te gustaría descubrir cómo eran Aroa Familuki y Agustín cuando eran pequeños? ¿Sabéis desde cuándo nos conocemos estas dos familias Youtubers? Ven a..."
+seoDescription: "¿Te gustaría descubrir cómo eran Aroa Familuki y Agustín cuando eran pequeños? ¿Sabéis desde cuándo nos conocemos estas dos familias Youtubers? Ven a."
 videoId: "HbLS8UVeiHA"
 publishedAt: "2020-07-21"
 categoria: "para-ninos"

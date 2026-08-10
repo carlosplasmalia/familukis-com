@@ -2,7 +2,7 @@
 title: "IDEAS 24 horas  DECORANDO nuestra NUEVA CASA 🏠 en NAVIDAD 2019 🎄"
 seoTitle: "IDEAS 24 horas DECORANDO nuestra NUEVA CASA en NAVIDAD 2019"
 description: "Nuestra nueva casa necesitaba un toque navideño así que hemos decidido pasar un día entero decorando nuestro hogar de navidad ¿Quieres tener ideas para decorar tu casa? ¡Dale al Play! ¡Descubre nuestro cómic!📚👉🏻 Visita nuestra Web para ver los materiales:."
-seoDescription: "Nuestra nueva casa necesitaba un toque navideño así que hemos decidido pasar un día entero decorando nuestro hogar de navidad ¿Quieres tener ideas para..."
+seoDescription: "Nuestra nueva casa necesitaba un toque navideño así que hemos decidido pasar un día entero decorando nuestro hogar de navidad ¿Quieres tener ideas para."
 videoId: "Q4zFHiM8Z9Y"
 publishedAt: "2019-11-22"
 categoria: "navidad-regalos"

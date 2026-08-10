@@ -2,7 +2,7 @@
 title: "SLIME por TELEPATÍA // Twin Telepathy Slime Challenge // familukis"
 seoTitle: "SLIME por TELEPATÍA // Twin Telepathy Slime Challenge"
 description: "Familukis hoy os traemos Slime por telepatía ¿Te gustan los retos de Slime? Pues dale al play y mira como hacemos un diy slime por telepatía ¡Descúbrelo! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "Familukis hoy os traemos Slime por telepatía ¿Te gustan los retos de Slime? Pues dale al play y mira como hacemos un diy slime por telepatía..."
+seoDescription: "Familukis hoy os traemos Slime por telepatía ¿Te gustan los retos de Slime? Pues dale al play y mira como hacemos un diy slime por telepatía."
 videoId: "CXNut_vf_L0"
 publishedAt: "2018-07-27"
 categoria: "retos-challenges"

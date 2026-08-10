@@ -2,7 +2,7 @@
 title: "24 h comiendo las HAMBURGUESAS +  buenas del PLANETA con el NOVIO de mi HIJA."
 seoTitle: "24 h comiendo las HAMBURGUESAS + buenas del PLANETA con el..."
 description: "Las mejores hamburgueserías se han reunido en nuestra ciudad y hoy buscamos la Burger definitiva. Nos acompaña el novio de mi hija que se ha convertido ya en otro miembro de la familia al que le encantan estos eventos  gastronómicos. Disfruta del evento de hamburguesas mas importante en Familia. ¡De."
-seoDescription: "Las mejores hamburgueserías se han reunido en nuestra ciudad y hoy buscamos la Burger definitiva. Nos acompaña el novio de mi hija que se ha convertido..."
+seoDescription: "Las mejores hamburgueserías se han reunido en nuestra ciudad y hoy buscamos la Burger definitiva. Nos acompaña el novio de mi hija que se ha convertido."
 videoId: "Ay_WkX_x8-8"
 publishedAt: "2023-05-30"
 categoria: "para-ninos"

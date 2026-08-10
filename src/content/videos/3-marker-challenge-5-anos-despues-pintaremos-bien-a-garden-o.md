@@ -2,7 +2,7 @@
 title: "3 MARKER Challenge ¡¡ 5 AÑOS después!! ¿PINTAREMOS bien a GARDEN OF BANBAN?"
 seoTitle: "3 MARKER Challenge ¡¡ 5 AÑOS después!! ¿PINTAREMOS bien a..."
 description: "¿Recordáis 3 marker challenge? El reto viral de 2018 que hicieron youtubers famosos como \"Jugando con Aby\" \"Itarte Vlogs\"  \"Las ratitas\" y por supuesto \"Juegos y juguetes en familia\".  Hoy revivimos el reto 5 años después con personajes como los de Garden of Banban ¿Quieres realizar una actividad di."
-seoDescription: "¿Recordáis 3 marker challenge? El reto viral de 2018 que hicieron youtubers famosos como \"Jugando con Aby\" \"Itarte Vlogs\" \"Las ratitas\" y por..."
+seoDescription: "¿Recordáis 3 marker challenge? El reto viral de 2018 que hicieron youtubers famosos como \"Jugando con Aby\" \"Itarte Vlogs\" \"Las ratitas\" y por."
 videoId: "X9J_ezJtSjk"
 publishedAt: "2023-05-13"
 categoria: "retos-challenges"

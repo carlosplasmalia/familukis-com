@@ -2,7 +2,7 @@
 title: "¡Yo NUNCA nunca! RETO con JUEGO Pingüino LOCO // Juegos y Juguetes en Familia"
 seoTitle: "Yo NUNCA nunca! RETO con JUEGO Pingüino LOCO // Juegos y..."
 description: "Hoy mezclamos el juego del Pingüino loco con el reto ¡Yo nunca, nunca! ¿Quieres ver si mamiluki se ha tirado un pedete en público? ¿O si carlitos se ha caído en público? Descúbre las preguntas incómodas en el vídeo ¡No pierdas nuestro Yo nunca, nunca! ¿Te ha gustado el juego del Pingüino loco? Consí."
-seoDescription: "Hoy mezclamos el juego del Pingüino loco con el reto ¡Yo nunca, nunca! ¿Quieres ver si mamiluki se ha tirado un pedete en público? ¿O si carlitos se ha..."
+seoDescription: "Hoy mezclamos el juego del Pingüino loco con el reto ¡Yo nunca, nunca! ¿Quieres ver si mamiluki se ha tirado un pedete en público? ¿O si carlitos se ha."
 videoId: "DVqNmwef8mo"
 publishedAt: "2017-11-17"
 categoria: "retos-challenges"

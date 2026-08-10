@@ -2,7 +2,7 @@
 title: "Retos en la PISCINA 🏊¡Atrapa el hinchable!"
 seoTitle: "Retos en la PISCINA ¡Atrapa el hinchable"
 description: "Hoy hemos hecho un reto en la piscina con amigos e hinchables de agua ¡Descubre que hacer con tus amigos en verano cuando estás aburrido! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "Hoy hemos hecho un reto en la piscina con amigos e hinchables de agua ¡Descubre que hacer con tus amigos en verano cuando estás aburrido! El mejor..."
+seoDescription: "Hoy hemos hecho un reto en la piscina con amigos e hinchables de agua ¡Descubre que hacer con tus amigos en verano cuando estás aburrido! El mejor."
 videoId: "Kauuju5S7KU"
 publishedAt: "2018-08-17"
 categoria: "retos-challenges"

@@ -10,6 +10,13 @@ relatedVideoIds: ["dLZJn7VQWmU"]
 featured: false
 rating: 3.8
 reviewCount: 1
+faqs:
+  - q: "¿Merece la pena Tivoli World Benalmádena con niños pequeños?"
+    a: "Sí, especialmente para niños de 4 a 10 años. Tivoli tiene una buena selección de atracciones familiares y los shows nocturnos son un plus para quienes van a dormir cerca. Para niños más mayores que busquen montañas rusas de alto nivel, el parque se queda algo corto."
+  - q: "¿Cuánto cuestan las entradas a Tivoli World en 2026?"
+    a: "Las entradas varían según la modalidad y temporada. Lo más habitual son las entradas combinadas para atracciones y espectáculos. Conviene consultar la web oficial o comprar online con antelación para conseguir descuento."
+  - q: "¿A qué hora abren los espectáculos de Tivoli World?"
+    a: "Tivoli World es especialmente conocido por sus espectáculos nocturnos, que suelen empezar a partir de las 21:00 en temporada alta. Si vais con niños pequeños, tened en cuenta el horario para no llegar tarde a las atracciones."
 ---
 
 ## Nuestra aventura en el parque de atracciones Tivoli

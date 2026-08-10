@@ -2,7 +2,7 @@
 title: "PIZZA CHALLENGE del AREA 51 👽¿TIENES LO QUE HAY QUE TENER para comer PIZZA ALIEN?"
 seoTitle: "PIZZA CHALLENGE del AREA 51 ¿TIENES LO QUE HAY QUE TENER para..."
 description: "Sabéis lo mucho que nos gusta enseñaros retos divertidos y originales en familia. Es por eso que hoy visitamos \"Pizzería Vendetta\" En el Rincón de la Victoria para fabricar las pizzas mas extrañas que has podido ver ¿Te atreves a probar nuestras pizzas del AREA 51? ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Sabéis lo mucho que nos gusta enseñaros retos divertidos y originales en familia. Es por eso que hoy visitamos \"Pizzería Vendetta\" En el Rincón de la..."
+seoDescription: "Sabéis lo mucho que nos gusta enseñaros retos divertidos y originales en familia. Es por eso que hoy visitamos \"Pizzería Vendetta\" En el Rincón de la."
 videoId: "cr0x46h6zZc"
 publishedAt: "2019-09-27"
 categoria: "retos-challenges"

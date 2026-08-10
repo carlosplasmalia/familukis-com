@@ -2,7 +2,7 @@
 title: "NOVEDADES de Mercadona de VERANO + compras PRIMARK con mi hija"
 seoTitle: "NOVEDADES de Mercadona de VERANO + compras PRIMARK con mi hija"
 description: "Ven a descubrir lo mejor de Mercadona que ha llegado para verano. Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro NUEVO LIBRO !📚👉🏻."
-seoDescription: "Ven a descubrir lo mejor de Mercadona que ha llegado para verano. Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro..."
+seoDescription: "Ven a descubrir lo mejor de Mercadona que ha llegado para verano. Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro."
 videoId: "IemA0aQx4KY"
 publishedAt: "2024-06-16"
 categoria: "para-ninos"

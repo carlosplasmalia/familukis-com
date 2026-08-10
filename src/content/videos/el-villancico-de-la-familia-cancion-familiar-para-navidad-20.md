@@ -2,7 +2,7 @@
 title: "EL VILLANCICO DE LA FAMILIA (Canción FAMILIAR para NAVIDAD 2020/21)"
 seoTitle: "EL VILLANCICO DE LA FAMILIA (Canción FAMILIAR para NAVIDAD..."
 description: "Pon banda sonora a ésta navidad 2020-21 con el villancico de la familia. Esperamos que os guste éste videoclip y música que hemos realizado desde casa. ¡Feliz Naviduki! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Pon banda sonora a ésta navidad 2020-21 con el villancico de la familia. Esperamos que os guste éste videoclip y música que hemos realizado desde casa...."
+seoDescription: "Pon banda sonora a ésta navidad 2020-21 con el villancico de la familia. Esperamos que os guste éste videoclip y música que hemos realizado desde casa."
 videoId: "X9r4xDXbx2M"
 publishedAt: "2020-11-24"
 categoria: "navidad-regalos"

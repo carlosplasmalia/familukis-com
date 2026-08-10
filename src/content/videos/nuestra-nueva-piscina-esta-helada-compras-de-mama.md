@@ -2,7 +2,7 @@
 title: "NUESTRA NUEVA PISCINA ¡¡ESTÁ HELADA!! + Compras de mamá"
 seoTitle: "NUESTRA NUEVA PISCINA ¡¡ESTÁ HELADA!! + Compras de mamá"
 description: "Hoy estrenamos la nueva piscina de la nueva casa y nos damos un chapuzón helado. Además Linda os mostrará sus compras de ropa ¡Acompáñanos! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy estrenamos la nueva piscina de la nueva casa y nos damos un chapuzón helado. Además Linda os mostrará sus compras de ropa ¡Acompáñanos! ¡Descubre..."
+seoDescription: "Hoy estrenamos la nueva piscina de la nueva casa y nos damos un chapuzón helado. Además Linda os mostrará sus compras de ropa ¡Acompáñanos! ¡Descubre."
 videoId: "bhLRqhkv6PE"
 publishedAt: "2020-01-31"
 categoria: "vlogs-familia"

@@ -2,7 +2,7 @@
 title: "QUE PASA SI TE MAQUILLA TU HIJA CON UNA AMIGA // Maquillando a papá"
 seoTitle: "QUE PASA SI TE MAQUILLA TU HIJA CON UNA AMIGA // Maquillando..."
 description: "¿Que pasa si te maquilla tu hija? ¿Y si además viene su amiga y le ayuda a maquillarte? Hoy en el canal os traemos el vídeo de maquillando a papá. ¿Que os parece el resultado de éstas pequeñas maquilladoras? A la familia nos ha asombrado como ha quedado maquillado papá y lo bien que lo han hecho Aro."
-seoDescription: "¿Que pasa si te maquilla tu hija? ¿Y si además viene su amiga y le ayuda a maquillarte? Hoy en el canal os traemos el vídeo de maquillando a papá. ¿Que..."
+seoDescription: "¿Que pasa si te maquilla tu hija? ¿Y si además viene su amiga y le ayuda a maquillarte? Hoy en el canal os traemos el vídeo de maquillando a papá. ¿Que."
 videoId: "St_nSUXRArk"
 publishedAt: "2016-09-13"
 categoria: "para-ninos"

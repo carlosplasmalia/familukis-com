@@ -2,7 +2,7 @@
 title: "🔥  ESTE BOTÓN DE PLATA OS PERTENECE #FAMILUKIS 🔥 Juegos y Juguetes en Familia"
 seoTitle: "ESTE BOTÓN DE PLATA OS PERTENECE #FAMILUKIS Juegos y Juguetes..."
 description: "¡Hemos recibido el botón de plata de Youtube! Gracias #Familukis por caminar a nuestro lado y hacer que esta comunidad cada vez sea más grande. Este botón de plata os pertenece amigos."
-seoDescription: "¡Hemos recibido el botón de plata de Youtube! Gracias #Familukis por caminar a nuestro lado y hacer que esta comunidad cada vez sea más grande. Este..."
+seoDescription: "¡Hemos recibido el botón de plata de Youtube! Gracias #Familukis por caminar a nuestro lado y hacer que esta comunidad cada vez sea más grande. Este."
 videoId: "Tx_KAzNt0Ok"
 publishedAt: "2017-06-02"
 categoria: "para-ninos"

@@ -2,7 +2,7 @@
 title: "SALUDANDO A NUESTROS SUSCRIPTORES #1"
 seoTitle: "SALUDANDO A NUESTROS SUSCRIPTORES #1"
 description: "Muchos nos pedís saludos y nos resulta imposible saludaros a todos en un tiempo breve. Así que hemos pensado en hacer vídeos para todos los que nos pedís saluditos y así no tengáis que esperar tanto. Esperamos que os guste la colaboración de nuestro bebé."
-seoDescription: "Muchos nos pedís saludos y nos resulta imposible saludaros a todos en un tiempo breve. Así que hemos pensado en hacer vídeos para todos los que nos..."
+seoDescription: "Muchos nos pedís saludos y nos resulta imposible saludaros a todos en un tiempo breve. Así que hemos pensado en hacer vídeos para todos los que nos."
 videoId: "rnr414T4HyA"
 publishedAt: "2016-07-27"
 categoria: "para-ninos"

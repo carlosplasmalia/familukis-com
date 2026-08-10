@@ -2,7 +2,7 @@
 title: "Hacemos VIDEOCLIP para \"Padre NO hay MÁS que UNO 2\" Canción VERSIÓN FAMILUKIS"
 seoTitle: "Hacemos VIDEOCLIP para \"Padre NO hay MÁS que UNO 2\" Canción..."
 description: "Santiago Segura ha compuesto una canción para padre no hay más que uno 2 y nos ha retado a que hagamos nuestra propia versión. Nuestra amiga @MartinaDAntiochia  nos dijo que teníamos menos de 24 horas para grabar la música y hacer un videoclip, así que Papiluki se ha puesto a los mandos en su cabina."
-seoDescription: "Santiago Segura ha compuesto una canción para padre no hay más que uno 2 y nos ha retado a que hagamos nuestra propia versión. Nuestra amiga..."
+seoDescription: "Santiago Segura ha compuesto una canción para padre no hay más que uno 2 y nos ha retado a que hagamos nuestra propia versión. Nuestra amiga."
 videoId: "_kRcv2qK4zY"
 publishedAt: "2020-07-28"
 categoria: "para-ninos"

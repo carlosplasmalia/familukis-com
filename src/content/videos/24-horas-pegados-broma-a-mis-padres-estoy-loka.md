@@ -2,7 +2,7 @@
 title: "24 horas PEGADOS ¡¡BROMA a mis PADRES!! Estoy LOKA"
 seoTitle: "24 horas PEGADOS ¡¡BROMA a mis PADRES!! Estoy LOKA"
 description: "Aroa nos ha propuesto el reto de 24 horas pegados y lo hemos aceptado ¿Superaremos el reto unidos durante 24 horas dentro de una camiseta? ¡Descúbrelo y dale al play."
-seoDescription: "Aroa nos ha propuesto el reto de 24 horas pegados y lo hemos aceptado ¿Superaremos el reto unidos durante 24 horas dentro de una camiseta? ¡Descúbrelo..."
+seoDescription: "Aroa nos ha propuesto el reto de 24 horas pegados y lo hemos aceptado ¿Superaremos el reto unidos durante 24 horas dentro de una camiseta? ¡Descúbrelo."
 videoId: "uoyA5rCc99A"
 publishedAt: "2019-09-13"
 categoria: "retos-challenges"

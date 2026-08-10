@@ -4,20 +4,20 @@ import { getCollection } from 'astro:content';
 const BASE = 'https://familukis.com';
 
 const STATIC_PAGES = [
-  { url: '/',                         priority: '1.0', changefreq: 'weekly'  },
-  { url: '/blog/',                    priority: '0.9', changefreq: 'daily'   },
-  { url: '/categoria/magic-world/',   priority: '0.8', changefreq: 'weekly'  },
-  { url: '/categoria/para-ninos/',    priority: '0.7', changefreq: 'weekly'  },
-  { url: '/categoria/retos-challenges/', priority: '0.7', changefreq: 'weekly' },
-  { url: '/categoria/halloween/',     priority: '0.6', changefreq: 'monthly' },
-  { url: '/categoria/camping-naturaleza/', priority: '0.6', changefreq: 'monthly' },
-  { url: '/categoria/vacaciones-familia/', priority: '0.6', changefreq: 'monthly' },
-  { url: '/categoria/parques-atracciones/', priority: '0.6', changefreq: 'monthly' },
-  { url: '/categoria/parques-acuaticos/',   priority: '0.6', changefreq: 'monthly' },
-  { url: '/categoria/playas-costa/',        priority: '0.6', changefreq: 'monthly' },
-  { url: '/categoria/navidad-regalos/',     priority: '0.5', changefreq: 'monthly' },
-  { url: '/categoria/vlogs-familia/',       priority: '0.5', changefreq: 'monthly' },
-  { url: '/ranking-canales/',               priority: '0.5', changefreq: 'monthly' },
+  { url: '/',                         priority: '1.0', changefreq: 'weekly',  lastmod: '2026-08-10' },
+  { url: '/blog/',                    priority: '0.9', changefreq: 'weekly',  lastmod: '2026-08-10' },
+  { url: '/categoria/magic-world/',   priority: '0.8', changefreq: 'weekly',  lastmod: '2026-08-10' },
+  { url: '/categoria/para-ninos/',    priority: '0.7', changefreq: 'weekly',  lastmod: '2026-08-10' },
+  { url: '/categoria/retos-challenges/', priority: '0.7', changefreq: 'weekly',  lastmod: '2026-08-10' },
+  { url: '/categoria/halloween/',     priority: '0.6', changefreq: 'monthly', lastmod: '2026-08-10' },
+  { url: '/categoria/camping-naturaleza/', priority: '0.6', changefreq: 'monthly', lastmod: '2026-08-10' },
+  { url: '/categoria/vacaciones-familia/', priority: '0.6', changefreq: 'monthly', lastmod: '2026-08-10' },
+  { url: '/categoria/parques-atracciones/', priority: '0.6', changefreq: 'monthly', lastmod: '2026-08-10' },
+  { url: '/categoria/parques-acuaticos/',   priority: '0.6', changefreq: 'monthly', lastmod: '2026-08-10' },
+  { url: '/categoria/playas-costa/',        priority: '0.6', changefreq: 'monthly', lastmod: '2026-08-10' },
+  { url: '/categoria/navidad-regalos/',     priority: '0.5', changefreq: 'monthly', lastmod: '2026-08-10' },
+  { url: '/categoria/vlogs-familia/',       priority: '0.5', changefreq: 'monthly', lastmod: '2026-08-10' },
+  { url: '/ranking-canales/',               priority: '0.5', changefreq: 'monthly', lastmod: '2026-08-10' },
 ];
 
 function xmlEscape(s: string) {
@@ -32,7 +32,7 @@ export const GET: APIRoute = async () => {
   const items: { loc: string; lastmod: string; priority: string; changefreq: string }[] = [];
 
   for (const p of STATIC_PAGES) {
-    items.push({ loc: `${BASE}${p.url}`, lastmod: today, priority: p.priority, changefreq: p.changefreq });
+    items.push({ loc: `${BASE}${p.url}`, lastmod: p.lastmod, priority: p.priority, changefreq: p.changefreq });
   }
 
   for (const a of articles) {

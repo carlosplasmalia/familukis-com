@@ -2,7 +2,7 @@
 title: "COMO HACER MASCARILLAS caseras FÁCILES  ¡¡SALIMOS A LA CALLE!!"
 seoTitle: "COMO HACER MASCARILLAS caseras FÁCILES ¡¡SALIMOS A LA CALLE"
 description: "¿Quieres hacer mascarillas o pantallas caseras para protegerte cuando salgáis de casa? Hoy os enseñamos con hacer pantallas divertidas para que los vuestros hijos salgan un poco más seguros a la calle y eviten tocarse la cara ¿Te animas a hacer estas mascarillas caseras? Etiquétanos en Instagram par."
-seoDescription: "¿Quieres hacer mascarillas o pantallas caseras para protegerte cuando salgáis de casa? Hoy os enseñamos con hacer pantallas divertidas para que los..."
+seoDescription: "¿Quieres hacer mascarillas o pantallas caseras para protegerte cuando salgáis de casa? Hoy os enseñamos con hacer pantallas divertidas para que los."
 videoId: "pf3fhb-2UAo"
 publishedAt: "2020-04-22"
 categoria: "para-ninos"

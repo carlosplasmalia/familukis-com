@@ -2,7 +2,7 @@
 title: "Carlos gana juguetes pero... ¡nosotros elegimos! 😈🧸 (3/5) #Shorts"
 seoTitle: "Carlos gana juguetes pero... ¡nosotros elegimos! (3/5) #Shorts"
 description: "Carlos ganó juguetes en el mapa... pero las reglas dicen que LOS DEMÁS eligen cuál. ¿Qué le comprarán? 😂 ¡Oliver de compras para su hermano = caos asegurado!."
-seoDescription: "Carlos ganó juguetes en el mapa... pero las reglas dicen que LOS DEMÁS eligen cuál. ¿Qué le comprarán? ¡Oliver de compras para su hermano = caos..."
+seoDescription: "Carlos ganó juguetes en el mapa... pero las reglas dicen que LOS DEMÁS eligen cuál. ¿Qué le comprarán? ¡Oliver de compras para su hermano = caos."
 videoId: "8KwJgOYuJjU"
 publishedAt: "2026-06-08"
 categoria: "para-ninos"

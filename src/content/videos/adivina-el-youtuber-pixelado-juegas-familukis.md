@@ -2,7 +2,7 @@
 title: "Adivina el YOUTUBER pixelado ¿JUEGAS? // Familukis"
 seoTitle: "Adivina el YOUTUBER pixelado ¿JUEGAS"
 description: "¿Quieres jugar con nosotros adivina el youtuber pixelado challenge? ¡Descubre un nuevo reto de youtubers para niños con amigos youtubers! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "¿Quieres jugar con nosotros adivina el youtuber pixelado challenge? ¡Descubre un nuevo reto de youtubers para niños con amigos youtubers! El mejor..."
+seoDescription: "¿Quieres jugar con nosotros adivina el youtuber pixelado challenge? ¡Descubre un nuevo reto de youtubers para niños con amigos youtubers! El mejor."
 videoId: "mFQ7J14K1o4"
 publishedAt: "2018-07-10"
 categoria: "retos-challenges"

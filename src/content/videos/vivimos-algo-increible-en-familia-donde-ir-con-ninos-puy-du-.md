@@ -2,7 +2,7 @@
 title: "VIVIMOS algo INCREÍBLE en Familia // ¿Dónde ir con NIÑOS? Puy du Fou"
 seoTitle: "VIVIMOS algo INCREÍBLE en Familia // ¿Dónde ir con NIÑOS? Puy..."
 description: "En el Vlog de hoy podréis ver como es \"Puy Du Fou\" y vivir con nosotros la mágia de viajar al pasado. Conviértete en miembro de este canal para disfrutar de ventajas:."
-seoDescription: "En el Vlog de hoy podréis ver como es \"Puy Du Fou\" y vivir con nosotros la mágia de viajar al pasado. Conviértete en miembro de este canal para..."
+seoDescription: "En el Vlog de hoy podréis ver como es \"Puy Du Fou\" y vivir con nosotros la mágia de viajar al pasado. Conviértete en miembro de este canal para."
 videoId: "WeSXagKAKT4"
 publishedAt: "2024-01-02"
 categoria: "vacaciones-familia"

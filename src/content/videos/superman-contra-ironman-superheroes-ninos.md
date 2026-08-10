@@ -2,7 +2,7 @@
 title: "SUPERMAN CONTRA IRONMAN // Superhéroes niños"
 seoTitle: "SUPERMAN CONTRA IRONMAN // Superhéroes niños"
 description: "Hoy traemos al canal la lucha entre Superman y Iron Man ¿Quién ganará esta épica batalla? Si os ha gustado el vídeo pasaros por nuestro canal, donde podréis ver no solo vídeos de superhéroes si no también juegos y juguetes para toda la familia. No olvidéis darle a like y suscribiros. Un saludo."
-seoDescription: "Hoy traemos al canal la lucha entre Superman y Iron Man ¿Quién ganará esta épica batalla? Si os ha gustado el vídeo pasaros por nuestro canal, donde..."
+seoDescription: "Hoy traemos al canal la lucha entre Superman y Iron Man ¿Quién ganará esta épica batalla? Si os ha gustado el vídeo pasaros por nuestro canal, donde."
 videoId: "pir8-Rzqgig"
 publishedAt: "2016-01-02"
 categoria: "retos-challenges"

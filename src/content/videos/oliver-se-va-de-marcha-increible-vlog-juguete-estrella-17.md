@@ -2,7 +2,7 @@
 title: "ÓLIVER se va de marcha ¡INCREÍBLE! // Vlog JUGUETE ESTRELLA 17"
 seoTitle: "ÓLIVER se va de marcha ¡INCREÍBLE! // Vlog JUGUETE ESTRELLA 17"
 description: "Hemos sido invitados al evento Juguete estrella 2017 ¿Queréis ver todas las novedades de juguetes para estas navidades? ¡Descúbrelas de la mano de los #familukis! Seguro que Óliver os sorprende,  jijiji Síguenos en instagram:."
-seoDescription: "Hemos sido invitados al evento Juguete estrella 2017 ¿Queréis ver todas las novedades de juguetes para estas navidades? ¡Descúbrelas de la mano de los..."
+seoDescription: "Hemos sido invitados al evento Juguete estrella 2017 ¿Queréis ver todas las novedades de juguetes para estas navidades? ¡Descúbrelas de la mano de los."
 videoId: "ZY1UrF4Sp6A"
 publishedAt: "2017-11-24"
 categoria: "navidad-regalos"

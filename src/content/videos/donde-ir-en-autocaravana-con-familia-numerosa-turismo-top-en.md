@@ -2,7 +2,7 @@
 title: "¿DÓNDE ir en AUTOCARAVANA con familia 👨‍👩‍👧‍👧  NUMEROSA? Turismo TOP en casa rodante"
 seoTitle: "DÓNDE ir en AUTOCARAVANA con familia NUMEROSA? Turismo TOP en..."
 description: "¿Es tu primera vez en una casa rodante? ¿Te preguntas dónde puedo viajar en autocaravana? ¿Qué lugares visitar en autocaravana?  Hoy viajareis con  nuestra familia a un lugar ideal para vuestras vacaciones en autocaravana ¡La eco reserva de Ojén! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Es tu primera vez en una casa rodante? ¿Te preguntas dónde puedo viajar en autocaravana? ¿Qué lugares visitar en autocaravana? Hoy viajareis con..."
+seoDescription: "¿Es tu primera vez en una casa rodante? ¿Te preguntas dónde puedo viajar en autocaravana? ¿Qué lugares visitar en autocaravana? Hoy viajareis con."
 videoId: "AQg3UgTdIok"
 publishedAt: "2021-03-30"
 categoria: "camping-naturaleza"

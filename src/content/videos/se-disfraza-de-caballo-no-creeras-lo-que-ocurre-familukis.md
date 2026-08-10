@@ -2,7 +2,7 @@
 title: "Se DISFRAZA DE CABALLO ¡No creerás lo que ocurre!  // Familukis"
 seoTitle: "Se DISFRAZA DE CABALLO ¡No creerás lo que ocurre"
 description: "¿Te gustan los vídeos de caballos? ¿Quieres ver cómo reaccionan los caballos al ver disfrazado a papá de equino? Hoy nos hemos desplazado hasta la \"Cuadra Bella Vista\" para conocer a estos nobles cuadrúpedos amigos. También realizaremos una broma a modo de experimento para ver como reaccionan los ca."
-seoDescription: "¿Te gustan los vídeos de caballos? ¿Quieres ver cómo reaccionan los caballos al ver disfrazado a papá de equino? Hoy nos hemos desplazado hasta la..."
+seoDescription: "¿Te gustan los vídeos de caballos? ¿Quieres ver cómo reaccionan los caballos al ver disfrazado a papá de equino? Hoy nos hemos desplazado hasta la."
 videoId: "d4pC3a8yvys"
 publishedAt: "2018-04-13"
 categoria: "retos-challenges"

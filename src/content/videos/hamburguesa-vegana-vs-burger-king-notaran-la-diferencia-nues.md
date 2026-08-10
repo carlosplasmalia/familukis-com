@@ -2,7 +2,7 @@
 title: "Hamburguesa VEGANA vs Burger king ¿Notarán la diferencia nuestros hijos?"
 seoTitle: "Hamburguesa VEGANA vs Burger king ¿Notarán la diferencia..."
 description: "Hoy ponemos a prueba la NUEVA Hamburguesa vegana de BURGER KING ¿Notarán el engaño nuestros hijos? Además iremos de cumpleaños a un sitio muy singular ¿Nos acompañas? ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy ponemos a prueba la NUEVA Hamburguesa vegana de BURGER KING ¿Notarán el engaño nuestros hijos? Además iremos de cumpleaños a un sitio muy singular..."
+seoDescription: "Hoy ponemos a prueba la NUEVA Hamburguesa vegana de BURGER KING ¿Notarán el engaño nuestros hijos? Además iremos de cumpleaños a un sitio muy singular."
 videoId: "d7KqUbPf66M"
 publishedAt: "2021-11-05"
 categoria: "retos-challenges"

@@ -8,6 +8,14 @@ categoria: "parques-acuaticos"
 tags: ["Parque Acuático", "Familukis", "Diversión Familiar", "Toboganes de Agua", "Verano"]
 relatedVideoIds: ["_ojaCJT34Po"]
 featured: false
+rating: 4.3
+faqs:
+  - q: "¿Qué llevar a un parque acuático con niños para que el día salga bien?"
+    a: "Lo esencial: protector solar (reaplica cada dos horas), toallas absorbentes, bañador de recambio para los niños, crocs o sandalias de goma, y algo de snack para los momentos entre atracciones. Una mochila impermeable pequeña facilita mucho el día."
+  - q: "¿Cuánto duran las colas en un parque acuático en verano?"
+    a: "En julio y agosto las colas en los toboganes más populares pueden llegar a 30-45 minutos. Ir entre semana reduce las esperas considerablemente. La estrategia es ir primero a los toboganes más grandes cuando el parque abre y dejar los familiares para media tarde."
+  - q: "¿A partir de qué edad pueden usar los toboganes los niños?"
+    a: "Depende del tobogán. Los parques acuáticos tienen restricciones de altura, no de edad. Los toboganes familiares suelen permitir a niños a partir de 90-100 cm con acompañante adulto. Los toboganes más extremos requieren generalmente 1,20 o 1,30 metros sin restricción de acompañante."
 ---
 
 ## Una aventura emocionante en el parque acuático

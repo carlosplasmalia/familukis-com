@@ -2,7 +2,7 @@
 title: "ADOPTAMOS un GATITO ¡¡CALLEJERO!! Nueva MASCOTA en la FAMILIA"
 seoTitle: "ADOPTAMOS un GATITO ¡¡CALLEJERO!! Nueva MASCOTA en la FAMILIA"
 description: "¿Quieres saber cómo hemos rescatado a nuestra nueva mascota? En el vídeo de hoy nuestra familia adopta a Silver, un bebé de gatito que necesitaba muchos cuidados. Descubre nuestra reacción al conocer a nuestra nueva mascota. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Quieres saber cómo hemos rescatado a nuestra nueva mascota? En el vídeo de hoy nuestra familia adopta a Silver, un bebé de gatito que necesitaba..."
+seoDescription: "¿Quieres saber cómo hemos rescatado a nuestra nueva mascota? En el vídeo de hoy nuestra familia adopta a Silver, un bebé de gatito que necesitaba."
 videoId: "z5SEyYuD8ZI"
 publishedAt: "2020-10-06"
 categoria: "para-ninos"

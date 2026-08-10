@@ -2,7 +2,7 @@
 title: "BUSCANDO PITUFOS EN LA ALDEA ESCONDIDA DE SLIME // Juegos y Juguetes en Familia"
 seoTitle: "BUSCANDO PITUFOS EN LA ALDEA ESCONDIDA DE SLIME // Juegos y..."
 description: "¿Te gustan los pitufos en la aldea escondida? Descúbre un reto para niños en el que tendrás que buscar todos los pitufos de la aldea escondida en Slime baff o Glibbi Slime. ¿Donde encontrar Slime? Aquí: Esperamos que este reto divertido con slime os guste. Un saludo #Familukis!."
-seoDescription: "¿Te gustan los pitufos en la aldea escondida? Descúbre un reto para niños en el que tendrás que buscar todos los pitufos de la aldea escondida en Slime..."
+seoDescription: "¿Te gustan los pitufos en la aldea escondida? Descúbre un reto para niños en el que tendrás que buscar todos los pitufos de la aldea escondida en Slime."
 videoId: "-p9WK9OiNmE"
 publishedAt: "2017-04-11"
 categoria: "retos-challenges"

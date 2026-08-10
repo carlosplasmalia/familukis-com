@@ -2,7 +2,7 @@
 title: "Manualidades NAVIDAD + ¡ORIGINALES! para hacer en casa"
 seoTitle: "Manualidades NAVIDAD + ¡ORIGINALES! para hacer en casa"
 description: "Si te gusta la decoración navideña hoy hacemos manualidades increíbles para hacer la decoración de tu hogar en navidad ¿Quieres ser el alma de la fiesta navideña? Sorprende a tus familiares y amigos con estos sencillos y vistosos trucos para navidad. Pulsa para saber mas de Roborock H7 👉 ¡Descubre n."
-seoDescription: "Si te gusta la decoración navideña hoy hacemos manualidades increíbles para hacer la decoración de tu hogar en navidad ¿Quieres ser el alma de la..."
+seoDescription: "Si te gusta la decoración navideña hoy hacemos manualidades increíbles para hacer la decoración de tu hogar en navidad ¿Quieres ser el alma de la."
 videoId: "nh4OpszwzCI"
 publishedAt: "2021-12-04"
 categoria: "navidad-regalos"

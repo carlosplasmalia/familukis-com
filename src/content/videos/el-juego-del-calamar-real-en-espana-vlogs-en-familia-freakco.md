@@ -2,7 +2,7 @@
 title: "EL JUEGO DEL CALAMAR ¡¡REAL!! En España  // Vlogs en Familia // freakcon"
 seoTitle: "EL JUEGO DEL CALAMAR ¡¡REAL!! En España // Vlogs en Familia..."
 description: "Luz roja luz verde.... El juego del calamar ¡Ahora podrás sentirlo en tu piel! ¿Dónde? Entra a descubrir uno de los eventos Freakis mas importantes de España ¡FreakCon! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Luz roja luz verde.... El juego del calamar ¡Ahora podrás sentirlo en tu piel! ¿Dónde? Entra a descubrir uno de los eventos Freakis mas importantes de..."
+seoDescription: "Luz roja luz verde.... El juego del calamar ¡Ahora podrás sentirlo en tu piel! ¿Dónde? Entra a descubrir uno de los eventos Freakis mas importantes de."
 videoId: "x5FOm1FWeWQ"
 publishedAt: "2022-03-10"
 categoria: "vlogs-familia"

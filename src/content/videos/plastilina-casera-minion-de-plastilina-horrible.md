@@ -2,7 +2,7 @@
 title: "PLASTILINA CASERA // MINION DE PLASTILINA ¡HORRIBLE!"
 seoTitle: "PLASTILINA CASERA // MINION DE PLASTILINA ¡HORRIBLE"
 description: "Hacer plastilina casera con niños es muy fácil. En el vídeo de hoy queremos enseñaros como hemos hecho nuestra plastilina casera. Ingredientes: -Medio vaso de Harina de trigo. -Medio vaso de sal. -Cuatro cucharadas de aceite de girasol -Medio vaso de agua. -Colorantes alimenticios. También hemos rea."
-seoDescription: "Hacer plastilina casera con niños es muy fácil. En el vídeo de hoy queremos enseñaros como hemos hecho nuestra plastilina casera. Ingredientes: -Medio..."
+seoDescription: "Hacer plastilina casera con niños es muy fácil. En el vídeo de hoy queremos enseñaros como hemos hecho nuestra plastilina casera. Ingredientes: -Medio."
 videoId: "IyUe6MZAMGk"
 publishedAt: "2016-02-26"
 categoria: "para-ninos"

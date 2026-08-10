@@ -2,7 +2,7 @@
 title: "LA CASA del TERROR de RAINBOW FRIENDS ¡Ideas para HALLOWEEN en FAMILIA!"
 seoTitle: "LA CASA del TERROR de RAINBOW FRIENDS ¡Ideas para HALLOWEEN..."
 description: "🎃 ¡BIENVENIDOS A LA CASA DEL TERROR DE RAINBOW FRIENDS! 🎃 ¿Te atreves a entrar en nuestro PASAJE DEL TERROR inspirado en el famoso juego RAINBOW FRIENDS? Hemos recreado este emocionante juego en la VIDA REAL para vivir una experiencia de Halloween inolvidable en familia. ¡Diversión, sustos y muchas."
-seoDescription: "¡BIENVENIDOS A LA CASA DEL TERROR DE RAINBOW FRIENDS! ¿Te atreves a entrar en nuestro PASAJE DEL TERROR inspirado en el famoso juego RAINBOW FRIENDS?..."
+seoDescription: "¡BIENVENIDOS A LA CASA DEL TERROR DE RAINBOW FRIENDS! ¿Te atreves a entrar en nuestro PASAJE DEL TERROR inspirado en el famoso juego RAINBOW FRIENDS?"
 videoId: "Ds7IRQpiNtA"
 publishedAt: "2022-10-11"
 categoria: "halloween"

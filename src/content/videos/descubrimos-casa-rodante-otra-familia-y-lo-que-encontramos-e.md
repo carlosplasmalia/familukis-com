@@ -2,7 +2,7 @@
 title: "Descubrimos CASA RODANTE otra FAMILIA y lo que ENCONTRAMOS en ella es ALUCUNANTE"
 seoTitle: "Descubrimos CASA RODANTE otra FAMILIA y lo que ENCONTRAMOS en..."
 description: "Hace tiempo que no viajamos en  \"Casa Rodante\"  y hoy volvemos con nuestra autocaravana de Hermanos Piqueras a un camping de lujo. Además conoceremos la autocaravana más increíble que hemos visto hasta ahora ya que está camperizada de maravilla por nuestros amigos @FAMILIACUPLE ¡Descubre nuestro NUE."
-seoDescription: "Hace tiempo que no viajamos en \"Casa Rodante\" y hoy volvemos con nuestra autocaravana de Hermanos Piqueras a un camping de lujo. Además conoceremos..."
+seoDescription: "Hace tiempo que no viajamos en \"Casa Rodante\" y hoy volvemos con nuestra autocaravana de Hermanos Piqueras a un camping de lujo. Además conoceremos."
 videoId: "HTb5MxbkCiE"
 publishedAt: "2023-07-30"
 categoria: "camping-naturaleza"

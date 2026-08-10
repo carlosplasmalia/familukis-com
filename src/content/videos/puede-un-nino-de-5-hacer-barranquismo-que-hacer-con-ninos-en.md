@@ -2,7 +2,7 @@
 title: "¿PUEDE un NIÑO de 5 hacer BARRANQUISMO?  Que hacer con niños en  familia 👨‍👨‍👧‍👦"
 seoTitle: "PUEDE un NIÑO de 5 hacer BARRANQUISMO? Que hacer con niños en..."
 description: "¿No te atreves a hacer barranquismo con niños y en familia? ¿Puede hacer un niño descenso de cañones? ¿Quieres averiguar cómo es el turismo activo en familia? Bienvenidos una vez más a una nueva aventura en la que nos deslizaremos por un parque acuático natural. Además descubriremos curiosidades de."
-seoDescription: "¿No te atreves a hacer barranquismo con niños y en familia? ¿Puede hacer un niño descenso de cañones? ¿Quieres averiguar cómo es el turismo activo en..."
+seoDescription: "¿No te atreves a hacer barranquismo con niños y en familia? ¿Puede hacer un niño descenso de cañones? ¿Quieres averiguar cómo es el turismo activo en."
 videoId: "UGxahuOIWXc"
 publishedAt: "2021-08-08"
 categoria: "parques-acuaticos"

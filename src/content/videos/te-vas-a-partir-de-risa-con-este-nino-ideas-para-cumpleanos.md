@@ -2,7 +2,7 @@
 title: "¡Te vas a PARTIR DE RÍSA con éste NIÑO! + ideas para CUMPLEAÑOS"
 seoTitle: "Te vas a PARTIR DE RÍSA con éste NIÑO! + ideas para CUMPLEAÑOS"
 description: "Si quieres saber como hemos preparado una fiesta de cumpleaños maravillosa ¡Descubre este vlog familiar lleno de humor y momentos increíbles!  Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Si quieres saber como hemos preparado una fiesta de cumpleaños maravillosa ¡Descubre este vlog familiar lleno de humor y momentos increíbles!..."
+seoDescription: "Si quieres saber como hemos preparado una fiesta de cumpleaños maravillosa ¡Descubre este vlog familiar lleno de humor y momentos increíbles!"
 videoId: "ZchdCPrQL1w"
 publishedAt: "2022-06-18"
 categoria: "vlogs-familia"

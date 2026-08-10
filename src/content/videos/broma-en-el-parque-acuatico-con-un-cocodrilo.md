@@ -2,7 +2,7 @@
 title: "BROMA en el PARQUE ACUÁTICO 💦¡¡CON UN COCODRILO!!"
 seoTitle: "BROMA en el PARQUE ACUÁTICO ¡¡CON UN COCODRILO"
 description: "Hola familias. Hoy hemos visitado el parque acuático de plataformas hinchables Water Fun en Málaga. Un lugar ideal para visitar en familia estas vacaciones y disfrutar de un día en la playa con actividades en el agua con niños ¿Nos acompañas en esta aventura en familia?."
-seoDescription: "Hola familias. Hoy hemos visitado el parque acuático de plataformas hinchables Water Fun en Málaga. Un lugar ideal para visitar en familia estas..."
+seoDescription: "Hola familias. Hoy hemos visitado el parque acuático de plataformas hinchables Water Fun en Málaga. Un lugar ideal para visitar en familia estas."
 videoId: "4CL73u_QAgw"
 publishedAt: "2019-08-06"
 categoria: "parques-acuaticos"

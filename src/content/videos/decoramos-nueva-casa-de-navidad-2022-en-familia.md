@@ -2,7 +2,7 @@
 title: "Decoramos NUEVA CASA 🏡¡¡de NAVIDAD! 2022! 🎁🎄en FAMILIA"
 seoTitle: "Decoramos NUEVA CASA ¡¡de NAVIDAD! 2022! en FAMILIA"
 description: "Biemvenidos a la decoración  navideña de nuestra casa. Hoy verás algo que nunca se ha visto en decoración de navidad para el hogar y es que Linda ha creado algo mágico que te sorprenderá.Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Biemvenidos a la decoración navideña de nuestra casa. Hoy verás algo que nunca se ha visto en decoración de navidad para el hogar y es que Linda ha..."
+seoDescription: "Biemvenidos a la decoración navideña de nuestra casa. Hoy verás algo que nunca se ha visto en decoración de navidad para el hogar y es que Linda ha."
 videoId: "3pPRPTaB6PE"
 publishedAt: "2022-11-23"
 categoria: "navidad-regalos"

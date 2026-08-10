@@ -2,7 +2,7 @@
 title: "Visitando SUPERmercado ¡¡AMERICANO!! + GRANDE en España en Familia"
 seoTitle: "Visitando SUPERmercado ¡¡AMERICANO!! + GRANDE en España en..."
 description: "Hoy visitamos el supermercado americano mas grande que existe en España, hablamos de Costco, un lugar con productos gigantes, el SuperMercado Americano de Madrid. En este video haremos una visita completa al Super de usa, mostraremos todos los productos que hay, desde Pizzas, hasta productos congela."
-seoDescription: "Hoy visitamos el supermercado americano mas grande que existe en España, hablamos de Costco, un lugar con productos gigantes, el SuperMercado Americano..."
+seoDescription: "Hoy visitamos el supermercado americano mas grande que existe en España, hablamos de Costco, un lugar con productos gigantes, el SuperMercado Americano."
 videoId: "bFxt097pe2o"
 publishedAt: "2023-01-14"
 categoria: "para-ninos"

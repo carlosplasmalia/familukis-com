@@ -2,7 +2,7 @@
 title: "MEJORES MOMENTOS Rewind 2018 // Los familukis"
 seoTitle: "MEJORES MOMENTOS Rewind 2018 // Los familukis"
 description: "Hoy os mostramos los mejores momentos de nuestro canal ¡Bienvenidos a Youtube Rewind 2018 de \"Los Familukis!\" El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "Hoy os mostramos los mejores momentos de nuestro canal ¡Bienvenidos a Youtube Rewind 2018 de \"Los Familukis!\" El mejor regalo para un Familuki..."
+seoDescription: "Hoy os mostramos los mejores momentos de nuestro canal ¡Bienvenidos a Youtube Rewind 2018 de \"Los Familukis!\" El mejor regalo para un Familuki."
 videoId: "s3_aj0B1VEE"
 publishedAt: "2019-01-03"
 categoria: "para-ninos"

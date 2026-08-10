@@ -2,7 +2,7 @@
 title: "DINOSAURIO me lanza SLIME // Familukis"
 seoTitle: "DINOSAURIO me lanza SLIME"
 description: "¿Te gustan los dinosaurios? Hoy un dinosaurio lanza slime a Carlitos y nos encontramos con pequeños dinosaurios llamados untamed Raptors ¿Quien será el culpable de que a Carlitos le lancen Slime? ¡Descúbrelo! Consigue tus dinosaurios en El corte inglés: El mejor regalo para un Familuki ¡Camisetas of."
-seoDescription: "¿Te gustan los dinosaurios? Hoy un dinosaurio lanza slime a Carlitos y nos encontramos con pequeños dinosaurios llamados untamed Raptors ¿Quien será el..."
+seoDescription: "¿Te gustan los dinosaurios? Hoy un dinosaurio lanza slime a Carlitos y nos encontramos con pequeños dinosaurios llamados untamed Raptors ¿Quien será el."
 videoId: "xkC5nTvGRDA"
 publishedAt: "2018-06-15"
 categoria: "camping-naturaleza"

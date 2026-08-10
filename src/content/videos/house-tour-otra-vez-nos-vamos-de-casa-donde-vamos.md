@@ -2,7 +2,7 @@
 title: "HOUSE TOUR ¡Otra vez NOS VAMOS DE CASA! 🏡*¿DÓNDE vamos?"
 seoTitle: "HOUSE TOUR ¡Otra vez NOS VAMOS DE CASA! *¿DÓNDE vamos"
 description: "Nos hemos marchado de nuestra casa y hemos emprendido un nuevo viaje ¿Dónde hemos ido esta vez? Además una Youtuber se viene a vivir con nosotros y alguien muy especial nos reformará el salón. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Nos hemos marchado de nuestra casa y hemos emprendido un nuevo viaje ¿Dónde hemos ido esta vez? Además una Youtuber se viene a vivir con nosotros y..."
+seoDescription: "Nos hemos marchado de nuestra casa y hemos emprendido un nuevo viaje ¿Dónde hemos ido esta vez? Además una Youtuber se viene a vivir con nosotros y."
 videoId: "B3e_f7ncuFU"
 publishedAt: "2019-09-20"
 categoria: "vacaciones-familia"

@@ -2,7 +2,7 @@
 title: "ACTIVIDADES PARA NIÑOS // Danco Aventura"
 seoTitle: "ACTIVIDADES PARA NIÑOS // Danco Aventura"
 description: "¿Te atreves a trepar por los árboles con nosotros? Anímate a descubrir una nueva aventura para niños muy pero que muy apasionante. Hemos descubierto Danko Aventura en Aranjuez, un lugar maravilloso para hacer actividades en familia. Gincanas de humor amarillo, tirolinas por encima del río, tiro con."
-seoDescription: "¿Te atreves a trepar por los árboles con nosotros? Anímate a descubrir una nueva aventura para niños muy pero que muy apasionante. Hemos descubierto..."
+seoDescription: "¿Te atreves a trepar por los árboles con nosotros? Anímate a descubrir una nueva aventura para niños muy pero que muy apasionante. Hemos descubierto."
 videoId: "QoSjEyO3TDo"
 publishedAt: "2016-12-16"
 categoria: "para-ninos"

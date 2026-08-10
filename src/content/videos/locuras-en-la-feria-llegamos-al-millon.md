@@ -2,7 +2,7 @@
 title: "LOCURAS en LA FERIA ¡¡LLEGAMOS AL MILLÓN!!"
 seoTitle: "LOCURAS en LA FERIA ¡¡LLEGAMOS AL MILLÓN"
 description: "Llegó la feria de nuestra ciudad y hemos disfrutado de un montón de atracciones extremas con amigos y familia ¿Te subes con nosotros a la montaña rusa? Además hemos recibido la placa del millón de suscriptores con la que nuestros amigos nos gastaron una broma."
-seoDescription: "Llegó la feria de nuestra ciudad y hemos disfrutado de un montón de atracciones extremas con amigos y familia ¿Te subes con nosotros a la montaña rusa?..."
+seoDescription: "Llegó la feria de nuestra ciudad y hemos disfrutado de un montón de atracciones extremas con amigos y familia ¿Te subes con nosotros a la montaña rusa?"
 videoId: "yI1tAsP61nM"
 publishedAt: "2019-08-27"
 categoria: "parques-atracciones"

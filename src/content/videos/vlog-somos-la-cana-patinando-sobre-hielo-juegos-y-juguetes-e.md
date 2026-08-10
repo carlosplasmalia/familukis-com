@@ -2,7 +2,7 @@
 title: "#VLOG SOMOS LA CAÑA PATINANDO SOBRE HIELO // Juegos y Juguetes en Familia"
 seoTitle: "#VLOG SOMOS LA CAÑA PATINANDO SOBRE HIELO // Juegos y..."
 description: "Patinar sobre hielo en familia es lo más ¿No te lo crees? ¡Descúbrelo en este vídeo patinado sobre hielo! Hoy en Juegos y Juguetes en familia nos hemos ido a las pistas de hielo de Valdemoro en Madrid para patinar sobre hielo y nos lo hemos pasado genial. En ésta ocasión hemos patinado con algunos a."
-seoDescription: "Patinar sobre hielo en familia es lo más ¿No te lo crees? ¡Descúbrelo en este vídeo patinado sobre hielo! Hoy en Juegos y Juguetes en familia nos hemos..."
+seoDescription: "Patinar sobre hielo en familia es lo más ¿No te lo crees? ¡Descúbrelo en este vídeo patinado sobre hielo! Hoy en Juegos y Juguetes en familia nos hemos."
 videoId: "IigE2qW7xX4"
 publishedAt: "2017-01-24"
 categoria: "para-ninos"

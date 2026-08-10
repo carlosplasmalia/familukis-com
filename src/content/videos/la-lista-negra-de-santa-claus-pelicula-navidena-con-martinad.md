@@ -2,7 +2,7 @@
 title: "LA LISTA NEGRA de SANTA CLAUS // Película Navideña con @MartinaDAntiochia ¿Regalos de navidad?"
 seoTitle: "LA LISTA NEGRA de SANTA CLAUS // Película Navideña con..."
 description: "¿Te gustan las películas navideñas? Hoy hemos creado nuestra propia película de Disney casera grabada en unas pocas horas con nuestra amiga @MartinaDAntiochia y @gonzalosarfatti  ¡Arranca la navidad de la mejor manera! ¿Conseguiremos los regalos de navidad? Conviértete en miembro de este canal para."
-seoDescription: "¿Te gustan las películas navideñas? Hoy hemos creado nuestra propia película de Disney casera grabada en unas pocas horas con nuestra amiga..."
+seoDescription: "¿Te gustan las películas navideñas? Hoy hemos creado nuestra propia película de Disney casera grabada en unas pocas horas con nuestra amiga."
 videoId: "veJDxCl7JK0"
 publishedAt: "2022-12-03"
 categoria: "navidad-regalos"

@@ -2,7 +2,7 @@
 title: "CAMPERIZAR un AUTOBÚS ¡Sin ser MANITAS! ¿Conseguiremos instalar las claraboyas en la casa rodante?"
 seoTitle: "CAMPERIZAR un AUTOBÚS ¡Sin ser MANITAS! ¿Conseguiremos..."
 description: "Si te gustan las camperizaciones de furgonetas no te pierdas nuestra serie de camperizando un Bus. No somos muy manitas y las reformas integrales se dificultan ¿Conseguiremos instalar las nuevas claraboyas? Nuestra serie desde el principio aquí 👉🏻 Conviértete en miembro de este canal para disfrutar."
-seoDescription: "Si te gustan las camperizaciones de furgonetas no te pierdas nuestra serie de camperizando un Bus. No somos muy manitas y las reformas integrales se..."
+seoDescription: "Si te gustan las camperizaciones de furgonetas no te pierdas nuestra serie de camperizando un Bus. No somos muy manitas y las reformas integrales se."
 videoId: "olVIwvAns_o"
 publishedAt: "2022-09-30"
 categoria: "para-ninos"

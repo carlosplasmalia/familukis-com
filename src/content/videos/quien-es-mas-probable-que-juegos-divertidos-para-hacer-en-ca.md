@@ -2,7 +2,7 @@
 title: "¿QUIEN ES MÁS PROBABLE QUE? JUEGOS DIVERTIDOS para hacer EN CASA  en FAMILIA"
 seoTitle: "QUIEN ES MÁS PROBABLE QUE? JUEGOS DIVERTIDOS para hacer EN..."
 description: "¿Te gustan los juegos para hacer en casa en #familia? ¿Buscas retos de Tiktok constantemente? Hoy os proponemos QUIEN ES MÁS PROBABLE QUE con Harina con el que las risas en casa están aseguradas. Ideal para #Quedateencasa #conmigo #yomequedoencasa ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te gustan los juegos para hacer en casa en #familia? ¿Buscas retos de Tiktok constantemente? Hoy os proponemos QUIEN ES MÁS PROBABLE QUE con Harina..."
+seoDescription: "¿Te gustan los juegos para hacer en casa en #familia? ¿Buscas retos de Tiktok constantemente? Hoy os proponemos QUIEN ES MÁS PROBABLE QUE con Harina."
 videoId: "SKZpNv6alpQ"
 publishedAt: "2020-04-07"
 categoria: "retos-challenges"

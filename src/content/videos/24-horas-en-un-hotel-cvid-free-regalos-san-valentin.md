@@ -2,7 +2,7 @@
 title: "24 horas en un HOTEL C🦠VID free + REGALOS San Valentín"
 seoTitle: "24 horas en un HOTEL CVID free + REGALOS San Valentín"
 description: "Descubre nuestro 24 horas en un hotel en San Valentín ¿Dónde viajar en 2021? ¿Cómo hemos hecho para que nuestros hijos nos dejen estar tranquilos en la habitación del hotel Rincón Sol? ¿Dónde viajar en 2021 covid? Hemos pasado un día completo disfrutando de un San Valentín atípico y que nunca olvida."
-seoDescription: "Descubre nuestro 24 horas en un hotel en San Valentín ¿Dónde viajar en 2021? ¿Cómo hemos hecho para que nuestros hijos nos dejen estar tranquilos en la..."
+seoDescription: "Descubre nuestro 24 horas en un hotel en San Valentín ¿Dónde viajar en 2021? ¿Cómo hemos hecho para que nuestros hijos nos dejen estar tranquilos en la."
 videoId: "40kgLOnt5E4"
 publishedAt: "2021-02-16"
 categoria: "vacaciones-familia"

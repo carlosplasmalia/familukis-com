@@ -2,7 +2,7 @@
 title: "¡¡COMEMOS ORO!! + Rutina Crossfit y Vlog pre Navidad"
 seoTitle: "COMEMOS ORO!! + Rutina Crossfit y Vlog pre Navidad"
 description: "Puede comerse el oro? ¿Te gustaría saber cómo es la rutina de nuestra familia numerosa antes de Navidad? Hoy os regalamos un trocito de nuestra rutina de fin de semana. Además exploraremos lugares abandonados y nos acompañaréis en nuestra clase de Crossfit ¿Te apuntas? ¡Descubre nuestro cómic!📚👉🏻 nu."
-seoDescription: "Puede comerse el oro? ¿Te gustaría saber cómo es la rutina de nuestra familia numerosa antes de Navidad? Hoy os regalamos un trocito de nuestra rutina..."
+seoDescription: "Puede comerse el oro? ¿Te gustaría saber cómo es la rutina de nuestra familia numerosa antes de Navidad? Hoy os regalamos un trocito de nuestra rutina."
 videoId: "Liu45EZUjCg"
 publishedAt: "2021-11-26"
 categoria: "navidad-regalos"

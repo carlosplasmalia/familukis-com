@@ -2,7 +2,7 @@
 title: "EXPERIMENTO FÁCIL que dejará ALUCINADO a todo el mundo."
 seoTitle: "EXPERIMENTO FÁCIL que dejará ALUCINADO a todo el mundo."
 description: "¿Te gustan los experimentos caseros? Hoy traemos un experimento fácil para hacer en casa con los más pequeños y sorprender a toda la familia. También es un experimento ideal para llevar al colegio. Enlaces de afiliación 👇👇👇 Luz ultravioleta: Fluoresceína sódica: Consigue nuestro Comic:."
-seoDescription: "¿Te gustan los experimentos caseros? Hoy traemos un experimento fácil para hacer en casa con los más pequeños y sorprender a toda la familia. También..."
+seoDescription: "¿Te gustan los experimentos caseros? Hoy traemos un experimento fácil para hacer en casa con los más pequeños y sorprender a toda la familia. También."
 videoId: "Eq3ccc2XiO0"
 publishedAt: "2020-02-04"
 categoria: "para-ninos"

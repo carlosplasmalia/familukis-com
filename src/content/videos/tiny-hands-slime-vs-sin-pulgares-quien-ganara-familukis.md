@@ -2,7 +2,7 @@
 title: "TINY HANDS 👐SLIME vs Sin PULGARES ¿Quien ganará? // Familukis"
 seoTitle: "TINY HANDS SLIME vs Sin PULGARES ¿Quien ganará"
 description: "¿Se puede hacer #slime con el reto de las manos miniatura o tiny hands? ¿Ganará sin pulgares a las manitas pequeñas? ¡Descúbrelo! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "¿Se puede hacer #slime con el reto de las manos miniatura o tiny hands? ¿Ganará sin pulgares a las manitas pequeñas? ¡Descúbrelo! El mejor regalo para..."
+seoDescription: "¿Se puede hacer #slime con el reto de las manos miniatura o tiny hands? ¿Ganará sin pulgares a las manitas pequeñas? ¡Descúbrelo! El mejor regalo para."
 videoId: "aZ4_BrKA3pI"
 publishedAt: "2018-10-02"
 categoria: "retos-challenges"

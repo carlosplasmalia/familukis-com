@@ -2,7 +2,7 @@
 title: "¿Quién conoce mejor a su MADRE? RETO navideño ¡PRIMERO en COMPLETAR  GANA!"
 seoTitle: "Quién conoce mejor a su MADRE? RETO navideño ¡PRIMERO en..."
 description: "Hoy os traemos un reto navideño en el que os divertiréis un montón en familia. Si te gustan los videos de navidad 2022, los regalos, papá Noel y los vídeos divertidos ¡Bienvenido a tu canal! Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy os traemos un reto navideño en el que os divertiréis un montón en familia. Si te gustan los videos de navidad 2022, los regalos, papá Noel y los..."
+seoDescription: "Hoy os traemos un reto navideño en el que os divertiréis un montón en familia. Si te gustan los videos de navidad 2022, los regalos, papá Noel y los."
 videoId: "vVsOHkWKvTM"
 publishedAt: "2022-12-09"
 categoria: "navidad-regalos"

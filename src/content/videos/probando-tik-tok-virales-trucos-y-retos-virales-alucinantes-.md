@@ -2,7 +2,7 @@
 title: "Probando TIK TOK VIRALES 😱Trucos y retos VIRALES ALUCINANTES de TIKTOK"
 seoTitle: "Probando TIK TOK VIRALES Trucos y retos VIRALES ALUCINANTES..."
 description: "¿Te gustan los vídeos de probando life hacks de tiktok? ¿También los trucos y retos virales tik tok? Pues hoy no te puedes perder este divertido vídeo en Familia en el que hemos intentado hacer retos de TIKTOK ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te gustan los vídeos de probando life hacks de tiktok? ¿También los trucos y retos virales tik tok? Pues hoy no te puedes perder este divertido vídeo..."
+seoDescription: "¿Te gustan los vídeos de probando life hacks de tiktok? ¿También los trucos y retos virales tik tok? Pues hoy no te puedes perder este divertido vídeo."
 videoId: "5Uw0h3DVBlo"
 publishedAt: "2020-03-10"
 categoria: "retos-challenges"

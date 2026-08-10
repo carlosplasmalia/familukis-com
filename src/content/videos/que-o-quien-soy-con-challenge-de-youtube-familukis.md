@@ -2,7 +2,7 @@
 title: "¿QUÉ o QUIEN soy? con CHALLENGE de Youtube // Familukis"
 seoTitle: "QUÉ o QUIEN soy? con CHALLENGE de Youtube"
 description: "Si te gusta Youtube este Challenge del \"Qué o quien soy\" te va a encantar. Hoy os traemos una nueva e inédita versión del \"Que o quien soy Challenge\" con tendencias o retos de Youtube ¿Que te parece la idea? ¡Descúbrelo y dale al play! Síguenos en instagram:."
-seoDescription: "Si te gusta Youtube este Challenge del \"Qué o quien soy\" te va a encantar. Hoy os traemos una nueva e inédita versión del \"Que o quien soy..."
+seoDescription: "Si te gusta Youtube este Challenge del \"Qué o quien soy\" te va a encantar. Hoy os traemos una nueva e inédita versión del \"Que o quien soy."
 videoId: "pqDrTevtwkQ"
 publishedAt: "2018-02-23"
 categoria: "retos-challenges"

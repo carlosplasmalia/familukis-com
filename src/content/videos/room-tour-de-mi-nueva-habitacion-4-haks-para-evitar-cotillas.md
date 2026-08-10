@@ -2,7 +2,7 @@
 title: "ROOM TOUR de MI NUEVA HABITACIÓN + 4 Haks para evitar COTILLAS // Aroa Familuki"
 seoTitle: "ROOM TOUR de MI NUEVA HABITACIÓN + 4 Haks para evitar..."
 description: "¡Por fin podéis ver el ROOM TOUR de la NUEVA HABITACION de Aroa! ¿Estáis cansados de que entren a vuestra habitación sin permiso? Hoy te enseñamos 4 haacks para detectar intrusos. El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "¡Por fin podéis ver el ROOM TOUR de la NUEVA HABITACION de Aroa! ¿Estáis cansados de que entren a vuestra habitación sin permiso? Hoy te enseñamos 4..."
+seoDescription: "¡Por fin podéis ver el ROOM TOUR de la NUEVA HABITACION de Aroa! ¿Estáis cansados de que entren a vuestra habitación sin permiso? Hoy te enseñamos 4."
 videoId: "d8DirPRJX7g"
 publishedAt: "2019-02-22"
 categoria: "para-ninos"

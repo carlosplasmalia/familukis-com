@@ -2,7 +2,7 @@
 title: "Familia de 8 en 1 CASA RODANTE 👨‍👩‍👧‍👦  House Tour ¡Cama secreta! en AUTOCARAVANA"
 seoTitle: "Familia de 8 en 1 CASA RODANTE House Tour ¡Cama secreta! en..."
 description: "¿Te gustaría saber cómo vivimos nuestra familia numerosa en una autocaravana perfilada? Ya hemos probado el modelo de autocaravana capuchina que alquilamos en Hermanos Piqueras. Hoy cambiamos nuestra casa rodante para valorar cual de las 2 nos gusta más ¿Quieres saber más sobre el mundo del turismo."
-seoDescription: "¿Te gustaría saber cómo vivimos nuestra familia numerosa en una autocaravana perfilada? Ya hemos probado el modelo de autocaravana capuchina que..."
+seoDescription: "¿Te gustaría saber cómo vivimos nuestra familia numerosa en una autocaravana perfilada? Ya hemos probado el modelo de autocaravana capuchina que."
 videoId: "Ga7l4P4JGMg"
 publishedAt: "2021-04-10"
 categoria: "camping-naturaleza"

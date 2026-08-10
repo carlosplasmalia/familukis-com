@@ -2,7 +2,7 @@
 title: "EL RETO de DIBUJO DEFINITIVO para AUMENTAR LA CREATIVIDAD con @AntonioGarcíaVillarán"
 seoTitle: "EL RETO de DIBUJO DEFINITIVO para AUMENTAR LA CREATIVIDAD con..."
 description: "¿Te gustan los retos de dibujo? ¿Quieres saber cómo aumentar la creatividad? Si ya habéis visto nuestros vídeos de dibujo como 3 marker challenge éste reto de arte te va a encantar. Además contamos con la presencia del artista @AntonioGarcíaVillarán ¡No te lo pierdas! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te gustan los retos de dibujo? ¿Quieres saber cómo aumentar la creatividad? Si ya habéis visto nuestros vídeos de dibujo como 3 marker challenge éste..."
+seoDescription: "¿Te gustan los retos de dibujo? ¿Quieres saber cómo aumentar la creatividad? Si ya habéis visto nuestros vídeos de dibujo como 3 marker challenge éste."
 videoId: "O_Ebk8yTuTc"
 publishedAt: "2020-02-06"
 categoria: "retos-challenges"

@@ -2,7 +2,7 @@
 title: "24 HORAS con LOBOS // Vlog VIAJE  con MI HIJO ¡¡Alucinante!!"
 seoTitle: "24 HORAS con LOBOS // Vlog VIAJE con MI HIJO ¡¡Alucinante"
 description: "Descubre junto a nosotros como son y viven los lobos. Hemos pasado 24 horas visitando Lobopark, Antequera y la escarpada zona de \"El torcal\" ¿Quieres descubrir este viaje? ¡Dale al play! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Descubre junto a nosotros como son y viven los lobos. Hemos pasado 24 horas visitando Lobopark, Antequera y la escarpada zona de \"El torcal\" ¿Quieres..."
+seoDescription: "Descubre junto a nosotros como son y viven los lobos. Hemos pasado 24 horas visitando Lobopark, Antequera y la escarpada zona de \"El torcal\" ¿Quieres."
 videoId: "GGHhyXhAw_U"
 publishedAt: "2019-12-17"
 categoria: "vacaciones-familia"

@@ -6,6 +6,7 @@ seoDescription: "Parking aeropuerto Madrid, Barcelona, Málaga y Valencia: preci
 date: "2026-07-04"
 categoria: "vacaciones-familia"
 tags: ["parking aeropuerto", "aparcamiento aeropuerto", "ahorro viajes", "aeropuerto Barajas", "aeropuerto Barcelona", "familia numerosa", "vacaciones"]
+ogImage: "/blog-viaje-organizado-familia.webp"
 relatedVideoIds: []
 featured: false
 lastModified: "2026-07-04"

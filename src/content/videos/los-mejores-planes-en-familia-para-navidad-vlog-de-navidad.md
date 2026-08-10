@@ -2,7 +2,7 @@
 title: "Los MEJORES PLANES en FAMILIA para NAVIDAD (Vlog de navidad)"
 seoTitle: "Los MEJORES PLANES en FAMILIA para NAVIDAD (Vlog de navidad)"
 description: "Hola familias en el Vlogmas de hoy viajamos en familia al mercadillo navideño de Málaga y descubrimos el Belén municipal. Además nos han invitado a una boda en plena pandemia ¿Nos acompañáis? Canal de  @GrafikLandia  👈 Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hola familias en el Vlogmas de hoy viajamos en familia al mercadillo navideño de Málaga y descubrimos el Belén municipal. Además nos han invitado a una..."
+seoDescription: "Hola familias en el Vlogmas de hoy viajamos en familia al mercadillo navideño de Málaga y descubrimos el Belén municipal. Además nos han invitado a una."
 videoId: "sLSgJkxV600"
 publishedAt: "2020-12-16"
 categoria: "navidad-regalos"

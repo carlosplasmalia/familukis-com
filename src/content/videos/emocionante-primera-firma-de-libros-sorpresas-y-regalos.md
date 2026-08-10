@@ -2,7 +2,7 @@
 title: "EMOCIONANTE primera FIRMA DE LIBROS + sorpresas y ¡¡REGALOS!!"
 seoTitle: "EMOCIONANTE primera FIRMA DE LIBROS + sorpresas y ¡¡REGALOS"
 description: "¿Os gustaría ver cómo reaccionamos a nuestra primera firma de libros y cómo ha sido conocer a nuestros familukis? Además hemos recibido muchos regalos y hemos regalado pulseras a todos los asistentes. También hay una sorpresa para las próximas firmas de libros que no te puedes perder: Barcelona 👉Sáb."
-seoDescription: "¿Os gustaría ver cómo reaccionamos a nuestra primera firma de libros y cómo ha sido conocer a nuestros familukis? Además hemos recibido muchos regalos..."
+seoDescription: "¿Os gustaría ver cómo reaccionamos a nuestra primera firma de libros y cómo ha sido conocer a nuestros familukis? Además hemos recibido muchos regalos."
 videoId: "kIX7nOX4zwg"
 publishedAt: "2019-11-08"
 categoria: "vlogs-familia"

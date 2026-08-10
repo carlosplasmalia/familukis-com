@@ -2,7 +2,7 @@
 title: "¿Cómo es HALLOWEEN 2020 en un PARQUE de ATRACCIONES? ¡PASAMOS MIEDO con LA DIVERSIÓN DE MARTINA"
 seoTitle: "Cómo es HALLOWEEN 2020 en un PARQUE de ATRACCIONES? ¡PASAMOS..."
 description: "¿Quieres saber cómo se celebra Halloween 2020 en un parque de atracciones? Hoy viajamos en familia a Isla Mágica en Sevilla junto a nuestra amiga del canal \"@MartinaDAntiochia \" ¿Quieres saber si hemos pasado miedo en la casa del terror? ¡Dale al play! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Quieres saber cómo se celebra Halloween 2020 en un parque de atracciones? Hoy viajamos en familia a Isla Mágica en Sevilla junto a nuestra amiga del..."
+seoDescription: "¿Quieres saber cómo se celebra Halloween 2020 en un parque de atracciones? Hoy viajamos en familia a Isla Mágica en Sevilla junto a nuestra amiga del."
 videoId: "vZaJw-ixNuA"
 publishedAt: "2020-10-27"
 categoria: "halloween"

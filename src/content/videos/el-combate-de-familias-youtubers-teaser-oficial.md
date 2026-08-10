@@ -2,7 +2,7 @@
 title: "\"EL COMBATE\" de FAMILIAS YOUTUBERS Teaser oficial"
 seoTitle: "\"EL COMBATE\" de FAMILIAS YOUTUBERS Teaser oficial"
 description: "Hoy os mostramos el trailer oficial del primer enfrentamiento entre familias Youtubers en el ring. Muy atentos al canal próximamente estrenaremos. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy os mostramos el trailer oficial del primer enfrentamiento entre familias Youtubers en el ring. Muy atentos al canal próximamente estrenaremos...."
+seoDescription: "Hoy os mostramos el trailer oficial del primer enfrentamiento entre familias Youtubers en el ring. Muy atentos al canal próximamente estrenaremos."
 videoId: "1D-6zdqPLK4"
 publishedAt: "2020-08-22"
 categoria: "para-ninos"

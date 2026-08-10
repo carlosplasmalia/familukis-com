@@ -2,7 +2,7 @@
 title: "PODCAST ¿Seremos BUENOS PADRES? ¡¡¡MIEDO!! en el EMBARAZO y la CRIANZA 1x04"
 seoTitle: "PODCAST ¿Seremos BUENOS PADRES? ¡¡¡MIEDO!! en el EMBARAZO y..."
 description: "Hoy en el #Podcast \"Pensando en Alto\" Reflexionamos sobre los miedos que los padres sentimos y que en ocasiones nos roban la paz ¿Seremos buenos padres? ¿Cómo afrontamos las dificultades en el embarazo y la crianza? ¿Tenemos tiempo para nosotros? Los miedos nos asaltan desde el momento en el que nos."
-seoDescription: "Hoy en el #Podcast \"Pensando en Alto\" Reflexionamos sobre los miedos que los padres sentimos y que en ocasiones nos roban la paz ¿Seremos buenos..."
+seoDescription: "Hoy en el #Podcast \"Pensando en Alto\" Reflexionamos sobre los miedos que los padres sentimos y que en ocasiones nos roban la paz ¿Seremos buenos."
 videoId: "ob4at0TdfwI"
 publishedAt: "2023-02-09"
 categoria: "parques-atracciones"

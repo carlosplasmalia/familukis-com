@@ -2,7 +2,7 @@
 title: "imitamos RETOS de TIKTOK ¡¡DIVERTIDOS!! para hacer en CASA en FAMILIA"
 seoTitle: "imitamos RETOS de TIKTOK ¡¡DIVERTIDOS!! para hacer en CASA en..."
 description: "Si te aburres durante éstos días en casa te proponemos hacer estos retos fáciles de tiktok para imitarlos en familia ¿Te gustan los vídeos de imitando tiktoks virales? pues este te va a encantar también hacerlo. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Si te aburres durante éstos días en casa te proponemos hacer estos retos fáciles de tiktok para imitarlos en familia ¿Te gustan los vídeos de imitando..."
+seoDescription: "Si te aburres durante éstos días en casa te proponemos hacer estos retos fáciles de tiktok para imitarlos en familia ¿Te gustan los vídeos de imitando."
 videoId: "8G0Jm2o-N0k"
 publishedAt: "2020-03-24"
 categoria: "retos-challenges"

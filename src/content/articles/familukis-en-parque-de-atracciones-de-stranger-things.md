@@ -8,6 +8,14 @@ categoria: "parques-atracciones"
 tags: ["Familukis", "Parque de Atracciones", "Stranger Things", "Día de Terror", "Aventuras en Familia"]
 relatedVideoIds: ["42ht_qz5mmw"]
 featured: false
+rating: 4.3
+faqs:
+  - q: "¿Qué es el parque temático de Stranger Things?"
+    a: "Se trata de una experiencia temática o evento temporal basado en la serie Stranger Things de Netflix, con escenografía inmersiva de la serie, actores, atracciones temáticas y zonas de foto. No es un parque permanente sino una experiencia de temporada."
+  - q: "¿Es apto para niños pequeños el evento de Stranger Things?"
+    a: "Depende de la edad y lo que aguanten de sustos. La atmósfera es oscura y tiene elementos de terror suave. Para niños menores de 8 años que sean impresionables, puede resultar intenso. Para mayores de 10 que conozcan la serie, es una experiencia muy especial."
+  - q: "¿Se puede ir al evento de Stranger Things sin haber visto la serie?"
+    a: "Se puede ir, pero se disfruta muchísimo más si conocéis la serie. Los guiños, los escenarios y los personajes tienen mucho más sentido para los fans. Si vais con niños que no han visto la serie, puede que la experiencia les resulte menos especial."
 ---
 
 ## Una aventura emocionante en un parque de atracciones

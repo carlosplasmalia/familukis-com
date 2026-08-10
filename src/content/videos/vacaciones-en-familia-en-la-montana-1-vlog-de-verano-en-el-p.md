@@ -2,7 +2,7 @@
 title: "¡¡VACACIONES en Familia en la Montaña #1!! Vlog de Verano en el Pirineo Francés"
 seoTitle: "VACACIONES en Familia en la Montaña #1!! Vlog de Verano en el..."
 description: "¿Te gusta viajar en familia?  ¿Sí? ¡Descúbre un Vlog de viajes y aventuras en familia que te dejará alucinado. Acompañanos en un viaje por el Pirineo Francés de la mano de Viajes Aran y Pyrenees 2 Vallees: En esta primera etapa llegaremos a la estación Francesa de Peyragudes y nos instalaremos en \"L."
-seoDescription: "¿Te gusta viajar en familia? ¿Sí? ¡Descúbre un Vlog de viajes y aventuras en familia que te dejará alucinado. Acompañanos en un viaje por el Pirineo..."
+seoDescription: "¿Te gusta viajar en familia? ¿Sí? ¡Descúbre un Vlog de viajes y aventuras en familia que te dejará alucinado. Acompañanos en un viaje por el Pirineo."
 videoId: "l9RdYhqt7w8"
 publishedAt: "2017-08-18"
 categoria: "camping-naturaleza"

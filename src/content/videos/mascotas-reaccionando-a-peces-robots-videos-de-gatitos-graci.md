@@ -2,7 +2,7 @@
 title: "MASCOTAS reaccionando a 🐟 ¡¡Peces ROBOTS!! Videos de GATITOS graciosos 🐈  Bebés"
 seoTitle: "MASCOTAS reaccionando a ¡¡Peces ROBOTS!! Videos de GATITOS..."
 description: "¿Te gustan los vídeos de gatitos graciosos? ¿Quieres divertirte con vídeos de risa de gatos? Hoy nuestra nueva mascota reacciona a RoboFish de bandai. Unos peces anímatrónicos fascinantes ¡Descubrelos! 👉🏻 (Éste vídeo ha sido patrocinado por Bandai España)."
-seoDescription: "¿Te gustan los vídeos de gatitos graciosos? ¿Quieres divertirte con vídeos de risa de gatos? Hoy nuestra nueva mascota reacciona a RoboFish de bandai...."
+seoDescription: "¿Te gustan los vídeos de gatitos graciosos? ¿Quieres divertirte con vídeos de risa de gatos? Hoy nuestra nueva mascota reacciona a RoboFish de bandai."
 videoId: "gsKs_O61sD0"
 publishedAt: "2021-03-09"
 categoria: "para-ninos"

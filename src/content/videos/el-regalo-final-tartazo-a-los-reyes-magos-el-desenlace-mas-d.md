@@ -2,7 +2,7 @@
 title: "EL REGALO  FINAL ¡Tartazo a los REYES MAGOS!  El desenlace más divertido de Navidad (Sale mal)"
 seoTitle: "EL REGALO FINAL ¡Tartazo a los REYES MAGOS! El desenlace más..."
 description: "¡Llegamos a la FINAL del Reto del Tartazo Navideño! 🍰 Parte 3. Después de muchas risas y mucha nata, hoy decidimos quién es el ganador definitivo de nuestro juego de \"Reyes Magos vs Roscón\". Es el momento de la verdad: ¿Ganarán los padres o los hijos? El perdedor se lleva el pastelazo más grande de."
-seoDescription: "¡Llegamos a la FINAL del Reto del Tartazo Navideño! Parte 3. Después de muchas risas y mucha nata, hoy decidimos quién es el ganador definitivo de..."
+seoDescription: "¡Llegamos a la FINAL del Reto del Tartazo Navideño! Parte 3. Después de muchas risas y mucha nata, hoy decidimos quién es el ganador definitivo de."
 videoId: "cquOE9my3-s"
 publishedAt: "2025-12-12"
 categoria: "navidad-regalos"

@@ -2,7 +2,7 @@
 title: "INCREÍBLE decoración NAVIDEÑA🎄 en la FAMILUKIHOUSE 🏠 ¡Descúbrela Familuki!"
 seoTitle: "INCREÍBLE decoración NAVIDEÑA en la FAMILUKIHOUSE ¡Descúbrela..."
 description: "¿Te gusta decorar tu casa en navidad en familia? ¿Sí? Descubre nuestra increíble decoración navideña. Gracias a nuestros amigos de ManoMano.es por colaborar con el canal y hacer posible esta fantástica decoración. Nuestras compras navideñas: Síguenos en instagram:."
-seoDescription: "¿Te gusta decorar tu casa en navidad en familia? ¿Sí? Descubre nuestra increíble decoración navideña. Gracias a nuestros amigos de ManoMano.es por..."
+seoDescription: "¿Te gusta decorar tu casa en navidad en familia? ¿Sí? Descubre nuestra increíble decoración navideña. Gracias a nuestros amigos de ManoMano.es por."
 videoId: "omm6aHGL8d8"
 publishedAt: "2017-12-01"
 categoria: "navidad-regalos"

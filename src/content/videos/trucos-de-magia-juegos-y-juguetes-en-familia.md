@@ -2,7 +2,7 @@
 title: "TRUCOS DE MAGIA // Juegos y Juguetes en Familia"
 seoTitle: "TRUCOS DE MAGIA // Juegos y Juguetes en Familia"
 description: "Participa en éste truco de magia en el que tú eres el protagonista. ¿No te lo crees? Descubre como Carlitos el Mago Rock adivina a través de la pantalla tu carta y la elimina del mazo. Hoy te leemos la mente con un juego de cartas sorprendente. Seguro que te va a encantar éste truco de magia. Si te."
-seoDescription: "Participa en éste truco de magia en el que tú eres el protagonista. ¿No te lo crees? Descubre como Carlitos el Mago Rock adivina a través de la..."
+seoDescription: "Participa en éste truco de magia en el que tú eres el protagonista. ¿No te lo crees? Descubre como Carlitos el Mago Rock adivina a través de la."
 videoId: "tdduyQHhUJs"
 publishedAt: "2016-11-11"
 categoria: "para-ninos"

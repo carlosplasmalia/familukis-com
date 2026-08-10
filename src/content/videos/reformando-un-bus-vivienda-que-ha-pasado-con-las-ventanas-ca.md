@@ -2,7 +2,7 @@
 title: "Reformando UN BUS Vivienda ¿Qué ha PASADO con las VENTANAS? Cap.10"
 seoTitle: "Reformando UN BUS Vivienda ¿Qué ha PASADO con las VENTANAS?..."
 description: "¿Cómo es una reforma de un autobús vivienda o casa rodante? En el vídeo de hoy reemplazamos los cristales por planchas de poliéster. Una obra que va a requerir de una precisión milimétrica para que la restauración sea perfecta. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Cómo es una reforma de un autobús vivienda o casa rodante? En el vídeo de hoy reemplazamos los cristales por planchas de poliéster. Una obra que va a..."
+seoDescription: "¿Cómo es una reforma de un autobús vivienda o casa rodante? En el vídeo de hoy reemplazamos los cristales por planchas de poliéster. Una obra que va a."
 videoId: "UHdOFeAkjlI"
 publishedAt: "2022-02-15"
 categoria: "para-ninos"

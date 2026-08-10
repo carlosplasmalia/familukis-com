@@ -2,7 +2,7 @@
 title: "Creamos EL DISFRAZ perfecto PARA HALLOWEEN a nuestro HIJO ¡Ideas para LA NOCHE de los MUERTOS 2022!"
 seoTitle: "Creamos EL DISFRAZ perfecto PARA HALLOWEEN a nuestro HIJO..."
 description: "Hoy hacemos el disfraz para halloween más original que hemos hecho a nuestro hijo de 6 años ¡Ataúd de vampiro con ruedas! si te gustan los vídeos de halloween y ver como decoramos o nuestras compras de halloween no te pierdas ésta temporada del día de los muertos 2022 Conviértete en miembro de este."
-seoDescription: "Hoy hacemos el disfraz para halloween más original que hemos hecho a nuestro hijo de 6 años ¡Ataúd de vampiro con ruedas! si te gustan los vídeos de..."
+seoDescription: "Hoy hacemos el disfraz para halloween más original que hemos hecho a nuestro hijo de 6 años ¡Ataúd de vampiro con ruedas! si te gustan los vídeos de."
 videoId: "dQFu7mrFh6c"
 publishedAt: "2022-10-05"
 categoria: "halloween"

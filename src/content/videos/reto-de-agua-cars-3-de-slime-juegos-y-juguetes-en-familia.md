@@ -2,7 +2,7 @@
 title: "Reto de agua CARS 3 de ¡SLIME! // Juegos y Juguetes en Familia"
 seoTitle: "Reto de agua CARS 3 de ¡SLIME! // Juegos y Juguetes en Familia"
 description: "¿Te gustan los retos de piscina? Acompáñanos y descubre nuestro hinchable de Cars en la que haremos un reto con Slime dentro de Rayo Mcqueen. ¿Quieres Jugar con Slime o moco de Gorila? Gracias por acompañarnos en cada vídeo #Familuki."
-seoDescription: "¿Te gustan los retos de piscina? Acompáñanos y descubre nuestro hinchable de Cars en la que haremos un reto con Slime dentro de Rayo Mcqueen. ¿Quieres..."
+seoDescription: "¿Te gustan los retos de piscina? Acompáñanos y descubre nuestro hinchable de Cars en la que haremos un reto con Slime dentro de Rayo Mcqueen. ¿Quieres."
 videoId: "k2WF1Axsodo"
 publishedAt: "2017-07-21"
 categoria: "retos-challenges"

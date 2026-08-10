@@ -2,7 +2,7 @@
 title: "AVENTURAS con HÉROES del MANGA en Familia // conocemos a Doraemon// Los familukis"
 seoTitle: "AVENTURAS con HÉROES del MANGA en Familia // conocemos a..."
 description: "Hoy nos vamos a conocer a Doraemon, Novita, Shinchan y un montón de personajes de cómic en el evento \"Heroes del Manga\" de Madrid. Un evento para familias y niños que no os podéis perder. ¿No sabéis dónde ir con niños? Pues no os perdáis nuestros vlogs para familias. ¿Quieres 25 Eur de descuentos en."
-seoDescription: "Hoy nos vamos a conocer a Doraemon, Novita, Shinchan y un montón de personajes de cómic en el evento \"Heroes del Manga\" de Madrid. Un evento para..."
+seoDescription: "Hoy nos vamos a conocer a Doraemon, Novita, Shinchan y un montón de personajes de cómic en el evento \"Heroes del Manga\" de Madrid. Un evento para."
 videoId: "6QSBQmX7ZKw"
 publishedAt: "2018-04-10"
 categoria: "vacaciones-familia"

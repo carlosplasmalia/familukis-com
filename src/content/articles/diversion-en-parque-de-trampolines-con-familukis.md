@@ -8,6 +8,14 @@ categoria: "parques-atracciones"
 tags: ["Familukis", "parque de trampolines", "diversión familiar", "saltos en camas elásticas", "entretenimiento para niños"]
 relatedVideoIds: ["-eAjWcy95gs"]
 featured: false
+rating: 4.1
+faqs:
+  - q: "¿Qué zonas suele tener un parque de trampolines?"
+    a: "Los parques de trampolines modernos suelen incluir: zona de trampolines libres, piscina de foam, zona de dodgeball (pelota prisionero), zonas de parkour, escalada, y a veces laser tag o realidad virtual. El tamaño y zonas varían mucho según el parque."
+  - q: "¿Es seguro un parque de trampolines para niños?"
+    a: "Con las normas de seguridad bien seguidas, sí. Los parques tienen personal vigilando y las superficies están acolchadas. El riesgo principal son los golpes entre saltadores, por eso la regla de un solo saltador por trampolín es la más importante."
+  - q: "¿Qué ropa es mejor llevar a un parque de trampolines?"
+    a: "Ropa cómoda y ajustada que no se enganche: mallas o pantalones deportivos y camiseta. Nada de cremalleras ni correas que sobresalgan. Los calcetines antideslizantes son imprescindibles (obligatorios en todos los parques)."
 ---
 
 ## Una aventura en el parque de trampolines

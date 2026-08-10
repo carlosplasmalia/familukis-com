@@ -2,7 +2,7 @@
 title: "SLIME sin TELEPATIA ¿Que hay en LA CAJA?"
 seoTitle: "SLIME sin TELEPATIA ¿Que hay en LA CAJA"
 description: "Si te gustan los juegos de slime caseros sin telepatia este te va a encantar. Hoy te presentamos ¿Que hay en la caja? Slime casero de la suerte ¡Descúbrelo! comsigue el mejor pegamento para tu slime: El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "Si te gustan los juegos de slime caseros sin telepatia este te va a encantar. Hoy te presentamos ¿Que hay en la caja? Slime casero de la suerte..."
+seoDescription: "Si te gustan los juegos de slime caseros sin telepatia este te va a encantar. Hoy te presentamos ¿Que hay en la caja? Slime casero de la suerte."
 videoId: "vFF9vSvQdBc"
 publishedAt: "2018-06-26"
 categoria: "retos-challenges"

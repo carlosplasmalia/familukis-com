@@ -2,7 +2,7 @@
 title: "RUTINA de Familia NUMEROSA REAL ¡SIN EDITAR! con Vaiana 2 de DIsney #vlogmas"
 seoTitle: "RUTINA de Familia NUMEROSA REAL ¡SIN EDITAR! con Vaiana 2 de..."
 description: "¿Te gustan los vídeos de rutinas familiares de mañana, rutina de noche, o rutina de vacaciones? Hoy vamos a la premiere de \"Vaiana 2\" de Disney y os traemos una rutina real sin editar. Dadle un like si te gusta este tipo de contenido. ¡Descubre nuestro NUEVO LIBRO !📚👉🏻."
-seoDescription: "¿Te gustan los vídeos de rutinas familiares de mañana, rutina de noche, o rutina de vacaciones? Hoy vamos a la premiere de \"Vaiana 2\" de Disney y os..."
+seoDescription: "¿Te gustan los vídeos de rutinas familiares de mañana, rutina de noche, o rutina de vacaciones? Hoy vamos a la premiere de \"Vaiana 2\" de Disney y os."
 videoId: "fYnSHOaBMv4"
 publishedAt: "2024-12-01"
 categoria: "vacaciones-familia"

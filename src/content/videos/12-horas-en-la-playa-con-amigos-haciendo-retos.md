@@ -2,7 +2,7 @@
 title: "12 HORAS en LA PLAYA con AMIGOS haciendo RETOS"
 seoTitle: "12 HORAS en LA PLAYA con AMIGOS haciendo RETOS"
 description: "Estas vacaciones están siendo una pasada y lo estamos disfrutando con nuestros amigos haciendo retos en la playa muy divertidos ¿Te apuntas a este 12 horas en la playa junto a nosotros?."
-seoDescription: "Estas vacaciones están siendo una pasada y lo estamos disfrutando con nuestros amigos haciendo retos en la playa muy divertidos ¿Te apuntas a este 12..."
+seoDescription: "Estas vacaciones están siendo una pasada y lo estamos disfrutando con nuestros amigos haciendo retos en la playa muy divertidos ¿Te apuntas a este 12."
 videoId: "jKfM8fazqoY"
 publishedAt: "2019-08-30"
 categoria: "playas-costa"

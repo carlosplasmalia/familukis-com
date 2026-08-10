@@ -2,7 +2,7 @@
 title: "¡NUEVA MASCOTA en CASA!  nuestra REACCIÓN al conocer a MAX"
 seoTitle: "NUEVA MASCOTA en CASA! nuestra REACCIÓN al conocer a MAX"
 description: "Hoy os queremos presentar a nuestra nueva mascota. hemos adoptado a MAX. Es un perro de la raza podenco de tan solo 8 semanas con el que estamos seguros de que lo vamos a pasar muy bien en familia."
-seoDescription: "Hoy os queremos presentar a nuestra nueva mascota. hemos adoptado a MAX. Es un perro de la raza podenco de tan solo 8 semanas con el que estamos..."
+seoDescription: "Hoy os queremos presentar a nuestra nueva mascota. hemos adoptado a MAX. Es un perro de la raza podenco de tan solo 8 semanas con el que estamos."
 videoId: "om0CtupFjnA"
 publishedAt: "2019-03-08"
 categoria: "para-ninos"

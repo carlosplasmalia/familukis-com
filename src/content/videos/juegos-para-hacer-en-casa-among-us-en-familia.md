@@ -2,7 +2,7 @@
 title: "JUEGOS para HACER EN CASA ¡AMONG US! en FAMILIA"
 seoTitle: "JUEGOS para HACER EN CASA ¡AMONG US! en FAMILIA"
 description: "Hoy sacamos de las pantallas el juego Among Us para jugarlo en familia en la vida real ¿Descubriremos quién es el impostor? ¡Diviértete en familia con este vídeo y no te olvides jugar en casa con amigos y  familiares! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy sacamos de las pantallas el juego Among Us para jugarlo en familia en la vida real ¿Descubriremos quién es el impostor? ¡Diviértete en familia con..."
+seoDescription: "Hoy sacamos de las pantallas el juego Among Us para jugarlo en familia en la vida real ¿Descubriremos quién es el impostor? ¡Diviértete en familia con."
 videoId: "NvnLt2yZUKM"
 publishedAt: "2020-09-22"
 categoria: "para-ninos"

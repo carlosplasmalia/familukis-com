@@ -2,7 +2,7 @@
 title: "DISFRACES PARA NIÑOS // ENSEÑANDO MI COFRE DE DISFRACES"
 seoTitle: "DISFRACES PARA NIÑOS // ENSEÑANDO MI COFRE DE DISFRACES"
 description: "Hoy queremos mostraros nuestro cofre de disfraces para niños de Carlos. En primer lugar tenéis el disfraz de tortuga ninja, después disfraz de Batman, luego disfraz de Spiderman y para finalizar disfraz de Ironman. ¿Que disfraz os gusta más?."
-seoDescription: "Hoy queremos mostraros nuestro cofre de disfraces para niños de Carlos. En primer lugar tenéis el disfraz de tortuga ninja, después disfraz de Batman,..."
+seoDescription: "Hoy queremos mostraros nuestro cofre de disfraces para niños de Carlos. En primer lugar tenéis el disfraz de tortuga ninja, después disfraz de Batman."
 videoId: "2ZbvUlokiso"
 publishedAt: "2016-02-16"
 categoria: "para-ninos"

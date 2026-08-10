@@ -2,7 +2,7 @@
 title: "Los FAMILUKIS reaccionan a PRIMERA VEZ viajando en AVIÓN + VLOGS Viaje Barcelona"
 seoTitle: "Los FAMILUKIS reaccionan a PRIMERA VEZ viajando en AVIÓN +..."
 description: "Hemos viajado hacia Barcelona y montado por primera vez en avión en familia ¿Quieres ver la REACCIÓN de Aroa, Óliver y Carlitos cuando el aeroplano despega? ¡Dale al play! Fechas de las firmas de nuestro primer libro: 🔥16 De Noviembre🔥Carrefour C.c Las Rosas 12:00 🔥23 De Noviembre🔥CArrefour C.c Gran."
-seoDescription: "Hemos viajado hacia Barcelona y montado por primera vez en avión en familia ¿Quieres ver la REACCIÓN de Aroa, Óliver y Carlitos cuando el aeroplano..."
+seoDescription: "Hemos viajado hacia Barcelona y montado por primera vez en avión en familia ¿Quieres ver la REACCIÓN de Aroa, Óliver y Carlitos cuando el aeroplano."
 videoId: "9SB23YAse4E"
 publishedAt: "2019-11-12"
 categoria: "vacaciones-familia"

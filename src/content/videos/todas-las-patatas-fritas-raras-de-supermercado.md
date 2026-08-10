@@ -2,7 +2,7 @@
 title: "¡¡TODAS las PATATAS Fritas RARAS!! de SUPERMERCADO"
 seoTitle: "TODAS las PATATAS Fritas RARAS!! de SUPERMERCADO"
 description: "Hoy visitamos el supermercado para comprar las PATATAS FRITAS más raras que hemos probado. Si te gustan los retos ven a probar y disfruta viendo concursar a todos los miembros de la family. ¿Que miembro de nuestra familia numerosa tendrá el paladar más afilado? Descubre un nuevo reto de comida con l."
-seoDescription: "Hoy visitamos el supermercado para comprar las PATATAS FRITAS más raras que hemos probado. Si te gustan los retos ven a probar y disfruta viendo..."
+seoDescription: "Hoy visitamos el supermercado para comprar las PATATAS FRITAS más raras que hemos probado. Si te gustan los retos ven a probar y disfruta viendo."
 videoId: "jQz_PddtkDo"
 publishedAt: "2023-10-06"
 categoria: "retos-challenges"

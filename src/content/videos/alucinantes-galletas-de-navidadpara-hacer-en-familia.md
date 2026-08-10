@@ -2,7 +2,7 @@
 title: "¡Alucinantes GALLETAS DE NAVIDAD!🍪Para hacer en FAMILIA"
 seoTitle: "Alucinantes GALLETAS DE NAVIDAD!Para hacer en FAMILIA"
 description: "¿Os gusta compartir momentos en familia? ¿Si? Pues hoy os mostramos como hacer unas deliciosas galletas de navidad en familia ¡Descúbrelo! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "¿Os gusta compartir momentos en familia? ¿Si? Pues hoy os mostramos como hacer unas deliciosas galletas de navidad en familia ¡Descúbrelo! El mejor..."
+seoDescription: "¿Os gusta compartir momentos en familia? ¿Si? Pues hoy os mostramos como hacer unas deliciosas galletas de navidad en familia ¡Descúbrelo! El mejor."
 videoId: "O5MGAR3-mCI"
 publishedAt: "2018-12-07"
 categoria: "navidad-regalos"

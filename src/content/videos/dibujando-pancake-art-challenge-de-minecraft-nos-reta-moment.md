@@ -2,7 +2,7 @@
 title: "Dibujando PANCAKE art CHALLENGE de MINECRAFT // Nos reta MOMENTOS DIVERTIDOS y retamos a..."
 seoTitle: "Dibujando PANCAKE art CHALLENGE de MINECRAFT // Nos reta..."
 description: "Hoy nos han retado a dibujar Minecraft con Pancake Art Challenge o reto de las tortitas ¿Quieres saber cómo nos ha quedado? No lo dudes y dale al play. Queremos agradecer a nuestros amigos de Momentos Divertidos que nos han retado podéis visitar aquí su canal: Tambien hemos retado a un canal que cad."
-seoDescription: "Hoy nos han retado a dibujar Minecraft con Pancake Art Challenge o reto de las tortitas ¿Quieres saber cómo nos ha quedado? No lo dudes y dale al play...."
+seoDescription: "Hoy nos han retado a dibujar Minecraft con Pancake Art Challenge o reto de las tortitas ¿Quieres saber cómo nos ha quedado? No lo dudes y dale al play."
 videoId: "wRVuxLPfJUk"
 publishedAt: "2017-09-19"
 categoria: "retos-challenges"

@@ -2,7 +2,7 @@
 title: "VACACIONES EN FAMILIA 👨‍👨‍👧‍👧 // ASTURIAS TRAILER-TEASER 🎬"
 seoTitle: "VACACIONES EN FAMILIA // ASTURIAS TRAILER-TEASER"
 description: "Estamos encantados de presentaros nuestra nueva serie. ¡Vacaciones en familia! Nos hemos ido a Asturias y nos lo hemos pasado genial. ¿Te animas a descubrir Asturias con nosotros? Estreno el próximo viernes 22 de Julio de 2016. Music: Jamendo licensing - Title: Inspiration - Artist: Cleric."
-seoDescription: "Estamos encantados de presentaros nuestra nueva serie. ¡Vacaciones en familia! Nos hemos ido a Asturias y nos lo hemos pasado genial. ¿Te animas a..."
+seoDescription: "Estamos encantados de presentaros nuestra nueva serie. ¡Vacaciones en familia! Nos hemos ido a Asturias y nos lo hemos pasado genial. ¿Te animas a."
 videoId: "tUDnPO4USD8"
 publishedAt: "2016-07-20"
 categoria: "playas-costa"

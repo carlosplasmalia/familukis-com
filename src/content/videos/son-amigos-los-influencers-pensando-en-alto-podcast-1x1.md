@@ -2,7 +2,7 @@
 title: "¿Son AMIGOS los INFLUENCERS? / Pensando en alto Podcast 1x1"
 seoTitle: "Son AMIGOS los INFLUENCERS? / Pensando en alto Podcast 1x1"
 description: "¿Es la amistad verdadera en los grupos de influencers o es todo por sacar partido y ganar seguidores? ¡Bienvenidos al podcas piloto de \"Pensando en Alto\" Dirigidos a todos los que estéis interesados en temas de crianza, educación, amistad y maneras de hacer familia. Siéntete como en casa y entra en."
-seoDescription: "¿Es la amistad verdadera en los grupos de influencers o es todo por sacar partido y ganar seguidores? ¡Bienvenidos al podcas piloto de \"Pensando en..."
+seoDescription: "¿Es la amistad verdadera en los grupos de influencers o es todo por sacar partido y ganar seguidores? ¡Bienvenidos al podcas piloto de \"Pensando en."
 videoId: "W5zlIQ3Ujw8"
 publishedAt: "2023-06-18"
 categoria: "para-ninos"

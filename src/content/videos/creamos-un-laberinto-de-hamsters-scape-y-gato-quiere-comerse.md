@@ -2,7 +2,7 @@
 title: "¡CREAMOS un LABERINTO de HÁMSTERS Scape 🐹  y GATO quiere comerse a las NUEVAS MASCOTAS"
 seoTitle: "CREAMOS un LABERINTO de HÁMSTERS Scape y GATO quiere comerse..."
 description: "¡NUEVOS Hamsters Mazeo Hámster Scape se enfrentan en un emocionante LABERINTO! En este video, adoptamos un par de hamsters llamados Machitas y Alvin. Después de llevarlos a casa, les construimos un laberinto con diferentes túneles y pruebas. El primero que llegue al final se lleva un premio de comid."
-seoDescription: "¡NUEVOS Hamsters Mazeo Hámster Scape se enfrentan en un emocionante LABERINTO! En este video, adoptamos un par de hamsters llamados Machitas y Alvin...."
+seoDescription: "¡NUEVOS Hamsters Mazeo Hámster Scape se enfrentan en un emocionante LABERINTO! En este video, adoptamos un par de hamsters llamados Machitas y Alvin."
 videoId: "0yHzvqp-SLw"
 publishedAt: "2023-08-29"
 categoria: "retos-challenges"

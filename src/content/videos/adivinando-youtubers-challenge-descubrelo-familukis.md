@@ -2,7 +2,7 @@
 title: "ADIVINANDO YOUTUBERS challenge ¡¡Descúbrelo!! // Familukis"
 seoTitle: "ADIVINANDO YOUTUBERS challenge ¡¡Descúbrelo"
 description: "¿Te gustan los retos divertidos? Juega con nosotros y adivina el Youtuber con nosotros ¿Te atreves a hacer este challenge? En este reto nos acompañan  otras familias Youtubers que son. Happy Ohoana: DaddyHappy Vlogs: El mundo de Mia: ¿Quieres 25 Eur de descuentos en alojamientos para tus viajes? con."
-seoDescription: "¿Te gustan los retos divertidos? Juega con nosotros y adivina el Youtuber con nosotros ¿Te atreves a hacer este challenge? En este reto nos acompañan..."
+seoDescription: "¿Te gustan los retos divertidos? Juega con nosotros y adivina el Youtuber con nosotros ¿Te atreves a hacer este challenge? En este reto nos acompañan."
 videoId: "shOsWCpIKBI"
 publishedAt: "2018-04-27"
 categoria: "vacaciones-familia"

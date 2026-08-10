@@ -2,7 +2,7 @@
 title: "24 Horas Comiendo Verde"
 seoTitle: "24 Horas Comiendo Verde"
 description: "Hoy nuestros hijos nos han pedido hacer el reto de 24 horas comiendo de color verde ¿Quieres que hagamos más video de comiendo comida de colores? Déjanos un comentario con cual sería el color que quieres vernos comer. Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro."
-seoDescription: "Hoy nuestros hijos nos han pedido hacer el reto de 24 horas comiendo de color verde ¿Quieres que hagamos más video de comiendo comida de colores?..."
+seoDescription: "Hoy nuestros hijos nos han pedido hacer el reto de 24 horas comiendo de color verde ¿Quieres que hagamos más video de comiendo comida de colores?"
 videoId: "B8RtyTNoAaQ"
 publishedAt: "2023-01-31"
 categoria: "camping-naturaleza"

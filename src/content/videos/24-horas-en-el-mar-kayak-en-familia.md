@@ -2,7 +2,7 @@
 title: "24 horas EN EL MAR ¡Kayak en FAMILIA!"
 seoTitle: "24 horas EN EL MAR ¡Kayak en FAMILIA"
 description: "¿Te gustaría descubrir lugares marinos increíbles subido en Kayak? Hoy visitamos unas cuevas con los chicos de Awa Water Sports ¿podremos resistir contra viento y marea? Además Óliver se enfada mucho con mamá. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te gustaría descubrir lugares marinos increíbles subido en Kayak? Hoy visitamos unas cuevas con los chicos de Awa Water Sports ¿podremos resistir..."
+seoDescription: "¿Te gustaría descubrir lugares marinos increíbles subido en Kayak? Hoy visitamos unas cuevas con los chicos de Awa Water Sports ¿podremos resistir."
 videoId: "k2USNX-xH38"
 publishedAt: "2021-09-07"
 categoria: "para-ninos"

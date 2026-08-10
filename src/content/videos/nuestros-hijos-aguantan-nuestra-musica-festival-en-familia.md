@@ -2,7 +2,7 @@
 title: "¿Nuestros HIJOS aguantan nuestra MÚSICA? ¡FESTIVAL en FAMILIA!"
 seoTitle: "Nuestros HIJOS aguantan nuestra MÚSICA? ¡FESTIVAL en FAMILIA"
 description: "¿Qué pasa si llevas a tus hijos a una rave de los 90? ¿Buscas un plan diferente para disfrutar con tus hijos? Te presentamos \"En Familia\" by DJ Neal, un festival familiar en Bonamara Móstoles donde padres e hijos comparten música, buen rollo… ¡y muchos bailes! (Video colaboración con los organizador."
-seoDescription: "¿Qué pasa si llevas a tus hijos a una rave de los 90? ¿Buscas un plan diferente para disfrutar con tus hijos? Te presentamos \"En Familia\" by DJ Neal,..."
+seoDescription: "¿Qué pasa si llevas a tus hijos a una rave de los 90? ¿Buscas un plan diferente para disfrutar con tus hijos? Te presentamos \"En Familia\" by DJ Neal."
 videoId: "FmI25j47tTs"
 publishedAt: "2025-06-18"
 categoria: "para-ninos"

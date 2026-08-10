@@ -2,7 +2,7 @@
 title: "SLIME en la PISCINA retos de VERANO // Familukis"
 seoTitle: "SLIME en la PISCINA retos de VERANO"
 description: "En el vídeo de hoy vamos a construir nuestra propia piscina y haremos el reto \"Slime en la piscina\" No es una \"Piscina Olímpica\" pero seguro que nos divertimos muchísimo. Las mejores piscinas están en Manomano: El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "En el vídeo de hoy vamos a construir nuestra propia piscina y haremos el reto \"Slime en la piscina\" No es una \"Piscina Olímpica\" pero seguro que..."
+seoDescription: "En el vídeo de hoy vamos a construir nuestra propia piscina y haremos el reto \"Slime en la piscina\" No es una \"Piscina Olímpica\" pero seguro que."
 videoId: "JG26sm7A4Yk"
 publishedAt: "2018-07-06"
 categoria: "retos-challenges"

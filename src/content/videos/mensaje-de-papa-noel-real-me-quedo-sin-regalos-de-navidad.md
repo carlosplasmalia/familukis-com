@@ -2,7 +2,7 @@
 title: "MENSAJE DE PAPÁ NOEL REAL ¿ME QUEDO SIN REGALOS DE NAVIDAD?"
 seoTitle: "MENSAJE DE PAPÁ NOEL REAL ¿ME QUEDO SIN REGALOS DE NAVIDAD"
 description: "Hemos recibido la llamada de Santa claus desde el Polo Norte y descubriremos si Carlitos y Papiluki están en la lista de buenos o de los malos ¿Tendremos regalos ésta navidad 2020-21? ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hemos recibido la llamada de Santa claus desde el Polo Norte y descubriremos si Carlitos y Papiluki están en la lista de buenos o de los malos..."
+seoDescription: "Hemos recibido la llamada de Santa claus desde el Polo Norte y descubriremos si Carlitos y Papiluki están en la lista de buenos o de los malos."
 videoId: "SemZR9NtyzQ"
 publishedAt: "2020-12-08"
 categoria: "navidad-regalos"

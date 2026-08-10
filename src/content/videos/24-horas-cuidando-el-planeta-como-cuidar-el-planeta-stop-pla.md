@@ -2,7 +2,7 @@
 title: "24 HORAS cuidando EL PLANETA 🌍¿Cómo cuidar el planeta? STOP PLÁSTICOS"
 seoTitle: "24 HORAS cuidando EL PLANETA ¿Cómo cuidar el planeta? STOP..."
 description: "Hoy os traemos un video de 24 horas un poco diferente. Familias queremos animaros a colaborar cuidando el planeta en vuestras escapadas en familiares y por eso hemos estado un día recogiendo basura en el monte. No entendemos como en la era de la información aún existen personas que llenen de plástic."
-seoDescription: "Hoy os traemos un video de 24 horas un poco diferente. Familias queremos animaros a colaborar cuidando el planeta en vuestras escapadas en familiares y..."
+seoDescription: "Hoy os traemos un video de 24 horas un poco diferente. Familias queremos animaros a colaborar cuidando el planeta en vuestras escapadas en familiares y."
 videoId: "BAQVsZNZDwE"
 publishedAt: "2019-11-15"
 categoria: "vacaciones-familia"

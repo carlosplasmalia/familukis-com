@@ -2,7 +2,7 @@
 title: "IDEAS para HALLOWEEN 2019 *RECETAS para día DE LOS MUERTOS*"
 seoTitle: "IDEAS para HALLOWEEN 2019 *RECETAS para día DE LOS MUERTOS"
 description: "¿Quieres sorprender a tus invitados el día de Halloween? Pues descubre como impresionar con esta receta para el día de los muertos que no dejará a nadie indiferente. Afilad vuestros cubiertos y ¡Buen provecho en vuestra cena de Halloween 2019! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Quieres sorprender a tus invitados el día de Halloween? Pues descubre como impresionar con esta receta para el día de los muertos que no dejará a..."
+seoDescription: "¿Quieres sorprender a tus invitados el día de Halloween? Pues descubre como impresionar con esta receta para el día de los muertos que no dejará a."
 videoId: "0AWzQl-CI7A"
 publishedAt: "2019-10-08"
 categoria: "halloween"

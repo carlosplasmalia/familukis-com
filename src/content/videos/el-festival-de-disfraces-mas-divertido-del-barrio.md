@@ -2,7 +2,7 @@
 title: "¡El Festival de Disfraces Más DIVERTIDO del Barrio!"
 seoTitle: "El Festival de Disfraces Más DIVERTIDO del Barrio"
 description: "¿Te gustan las fiestas de disfraces? Pues te invitamos a que nos acompañes en este Vlog de nuestros carnavales 2017. Esperamos que nuestros disfraces os gusten tanto como a nosotros, podréis encontrarlos en la web de Funidelia: Nos ha encantado hacer este Vlog en familia. Gracias por seguirnos en ca."
-seoDescription: "¿Te gustan las fiestas de disfraces? Pues te invitamos a que nos acompañes en este Vlog de nuestros carnavales 2017. Esperamos que nuestros disfraces..."
+seoDescription: "¿Te gustan las fiestas de disfraces? Pues te invitamos a que nos acompañes en este Vlog de nuestros carnavales 2017. Esperamos que nuestros disfraces."
 videoId: "V7KRm2FQ2_M"
 publishedAt: "2017-02-28"
 categoria: "para-ninos"

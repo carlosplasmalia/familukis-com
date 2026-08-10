@@ -2,7 +2,7 @@
 title: "MANUALIDADES FACILES con niños // PATRULLA CANINA la revista"
 seoTitle: "MANUALIDADES FACILES con niños // PATRULLA CANINA la revista"
 description: "¿Te gusta la patrulla canina? hoy la revista de Paw Patrol nos enseña a fabricar una cometa ¿Quieres saber cómo se hace? ¡Consigue tu revista! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "¿Te gusta la patrulla canina? hoy la revista de Paw Patrol nos enseña a fabricar una cometa ¿Quieres saber cómo se hace? ¡Consigue tu revista! El mejor..."
+seoDescription: "¿Te gusta la patrulla canina? hoy la revista de Paw Patrol nos enseña a fabricar una cometa ¿Quieres saber cómo se hace? ¡Consigue tu revista! El mejor."
 videoId: "FOXZRAkNAg0"
 publishedAt: "2018-06-22"
 categoria: "para-ninos"

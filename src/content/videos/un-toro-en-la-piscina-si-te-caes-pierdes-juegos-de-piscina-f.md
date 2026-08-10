@@ -2,7 +2,7 @@
 title: "UN TORO EN LA PISCINA !! SI TE CAES PIERDES (JUEGOS DE PISCINA) // familukis"
 seoTitle: "UN TORO EN LA PISCINA !! SI TE CAES PIERDES (JUEGOS DE PISCINA)"
 description: "¿Te gustan los retos en la piscina? Hoy hacemos un reto con un toro hinchable en nuestra piscina. El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "¿Te gustan los retos en la piscina? Hoy hacemos un reto con un toro hinchable en nuestra piscina. El mejor regalo para un Familuki ¡Camisetas..."
+seoDescription: "¿Te gustan los retos en la piscina? Hoy hacemos un reto con un toro hinchable en nuestra piscina. El mejor regalo para un Familuki ¡Camisetas."
 videoId: "ekDqqniFyEY"
 publishedAt: "2018-07-17"
 categoria: "retos-challenges"

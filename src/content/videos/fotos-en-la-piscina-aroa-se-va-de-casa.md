@@ -2,7 +2,7 @@
 title: "FOTOS en LA PISCINA + AROA ¡¡SE VA DE CASA!!"
 seoTitle: "FOTOS en LA PISCINA + AROA ¡¡SE VA DE CASA"
 description: "¿Te gustan los vídeos en la piscina? En el vídeo de hoy hacemos fotografía acuática bajo el agua con Gopro . Además Aroa dejará la familia por unos días y nos abandona. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te gustan los vídeos en la piscina? En el vídeo de hoy hacemos fotografía acuática bajo el agua con Gopro . Además Aroa dejará la familia por unos..."
+seoDescription: "¿Te gustan los vídeos en la piscina? En el vídeo de hoy hacemos fotografía acuática bajo el agua con Gopro . Además Aroa dejará la familia por unos."
 videoId: "pg3DbrZEYBE"
 publishedAt: "2021-09-24"
 categoria: "para-ninos"

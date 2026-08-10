@@ -2,7 +2,7 @@
 title: "MANUALIDADES FACILES PARA HACER EN CASA // medidor de altura"
 seoTitle: "MANUALIDADES FACILES PARA HACER EN CASA // medidor de altura"
 description: "Hoy queremos enseñaros a hacer manualidades fáciles para hacer en casa y para ello hemos fabricado un medidor de altura. Un medidor de altura es genial para ver cómo vais creciendo a lo largo del año y además os divertiremos haciendo ésta manualidades tan fáciles que todos podréis hacer en casa con."
-seoDescription: "Hoy queremos enseñaros a hacer manualidades fáciles para hacer en casa y para ello hemos fabricado un medidor de altura. Un medidor de altura es genial..."
+seoDescription: "Hoy queremos enseñaros a hacer manualidades fáciles para hacer en casa y para ello hemos fabricado un medidor de altura. Un medidor de altura es genial."
 videoId: "Cag8QpkJXHA"
 publishedAt: "2016-08-31"
 categoria: "para-ninos"

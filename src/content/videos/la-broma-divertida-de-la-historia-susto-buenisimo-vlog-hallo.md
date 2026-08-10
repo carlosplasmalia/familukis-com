@@ -2,7 +2,7 @@
 title: "La BROMA + DIVERTIDA de la Historia ¡SUSTO BUENÍSIMO! Vlog HALLOWEEN en familia"
 seoTitle: "La BROMA + DIVERTIDA de la Historia ¡SUSTO BUENÍSIMO! Vlog..."
 description: "¿Te gustan las bromas graciosas y divertidas? ¿Quieres dar un susto de miedo para el día de halloween o los santos inocentes? ¿Te gustaría acompañarnos en el día de truco o trato? Hoy te enseñamos la broma mas fácil para hacer en casa en el que solo necesitarás un papel impreso y precinto transparen."
-seoDescription: "¿Te gustan las bromas graciosas y divertidas? ¿Quieres dar un susto de miedo para el día de halloween o los santos inocentes? ¿Te gustaría acompañarnos..."
+seoDescription: "¿Te gustan las bromas graciosas y divertidas? ¿Quieres dar un susto de miedo para el día de halloween o los santos inocentes? ¿Te gustaría acompañarnos."
 videoId: "vg59T4ylw-E"
 publishedAt: "2021-11-02"
 categoria: "halloween"

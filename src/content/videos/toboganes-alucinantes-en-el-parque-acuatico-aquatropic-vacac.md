@@ -2,7 +2,7 @@
 title: "TOBOGANES ALUCINANTES en el PARQUE ACUÁTICO Aquatropic // VACACIONES en FAMILIA"
 seoTitle: "TOBOGANES ALUCINANTES en el PARQUE ACUÁTICO Aquatropic //..."
 description: "¿Te gustan los parque acuáticos? Hoy os mostramos como es el parque de atracciones acuático \"Aquatropic\" en Almuñécar y sus toboganes súper rápidos. Además os contaremos si se pude llevar comida, o si hay instalaciones divertidas para los mas pequeños de la casa ¿Nos acompañas en este Vlog de verano."
-seoDescription: "¿Te gustan los parque acuáticos? Hoy os mostramos como es el parque de atracciones acuático \"Aquatropic\" en Almuñécar y sus toboganes súper rápidos...."
+seoDescription: "¿Te gustan los parque acuáticos? Hoy os mostramos como es el parque de atracciones acuático \"Aquatropic\" en Almuñécar y sus toboganes súper rápidos."
 videoId: "xTr1ubooWvU"
 publishedAt: "2020-07-24"
 categoria: "parques-acuaticos"

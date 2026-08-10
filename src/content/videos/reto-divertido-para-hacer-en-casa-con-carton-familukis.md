@@ -2,7 +2,7 @@
 title: "Reto DIVERTIDO para hacer en CASA con Cartón // Familukis"
 seoTitle: "Reto DIVERTIDO para hacer en CASA con Cartón"
 description: "¿Te gustan los retos divertidos? Hoy os traemos un challenge divertido para hacer en casa con niños. Se trata de un juego en el que recilaremos el cartón de nuestras cajas vacías para hacer un decorado y jugar con el ¿Te animas? Consigue la camiseta oficial del canal \"La vida en familia se vive mejo."
-seoDescription: "¿Te gustan los retos divertidos? Hoy os traemos un challenge divertido para hacer en casa con niños. Se trata de un juego en el que recilaremos el..."
+seoDescription: "¿Te gustan los retos divertidos? Hoy os traemos un challenge divertido para hacer en casa con niños. Se trata de un juego en el que recilaremos el."
 videoId: "tzgLua_3LZk"
 publishedAt: "2018-05-01"
 categoria: "retos-challenges"

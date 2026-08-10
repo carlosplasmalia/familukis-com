@@ -2,7 +2,7 @@
 title: "¿TENEMOS un nuevo BEBÉ en CAMINO?? // Los familukis"
 seoTitle: "TENEMOS un nuevo BEBÉ en CAMINO?? // Los familukis"
 description: "Mamiluki nos sorprendía con la noticia de que tendríamos un nuevo bebé. ¡Casi nos da un patatús! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "Mamiluki nos sorprendía con la noticia de que tendríamos un nuevo bebé. ¡Casi nos da un patatús! El mejor regalo para un Familuki ¡Camisetas..."
+seoDescription: "Mamiluki nos sorprendía con la noticia de que tendríamos un nuevo bebé. ¡Casi nos da un patatús! El mejor regalo para un Familuki ¡Camisetas."
 videoId: "GU2JxHU1BHk"
 publishedAt: "2019-01-25"
 categoria: "para-ninos"

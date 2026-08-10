@@ -2,7 +2,7 @@
 title: "Familia crea TIKTOKS imposibles NAVIDEÑOS 🎄 ¡VIRALES y SÚPER DIVERTIDOS!"
 seoTitle: "Familia crea TIKTOKS imposibles NAVIDEÑOS ¡VIRALES y SÚPER..."
 description: "Si os gusta la navidad hoy os proponemos un plan en familia. Ven a descubrir como nos lo pasamos grabando  #Ytshorts y tiktoks virales navideños. No olvides tu pijama navideño y haz con tu Family y amigos la navidad 2023 más divertida. Conviértete en miembro de este canal para disfrutar de ventajas:."
-seoDescription: "Si os gusta la navidad hoy os proponemos un plan en familia. Ven a descubrir como nos lo pasamos grabando #Ytshorts y tiktoks virales navideños. No..."
+seoDescription: "Si os gusta la navidad hoy os proponemos un plan en familia. Ven a descubrir como nos lo pasamos grabando #Ytshorts y tiktoks virales navideños. No."
 videoId: "hKPw4MObMKk"
 publishedAt: "2023-12-15"
 categoria: "navidad-regalos"

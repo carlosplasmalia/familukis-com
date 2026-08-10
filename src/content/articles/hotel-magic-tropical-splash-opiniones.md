@@ -10,6 +10,13 @@ relatedVideoIds: ["Uhp-CIretuw", "JXAO97o66oA", "hwqqUTfIOtA"]
 featured: false
 rating: 4.2
 reviewCount: 1
+faqs:
+  - q: "¿El Hotel Magic Tropical Splash tiene acceso directo al parque acuático?"
+    a: "Sí, es el hotel del resort con mejor ubicación respecto al parque acuático. Desde las habitaciones al agua hay literalmente unos pasos, lo que supone una ventaja enorme en temporada alta cuando quieres coger sitio temprano."
+  - q: "¿A partir de qué edad es recomendable el Hotel Magic Tropical Splash?"
+    a: "Es ideal para niños a partir de 2 años. La zona infantil de agua tiene chorros y toboganes pequeños para los más bebés, y a partir de 6 o 7 años ya pueden disfrutar de la mayoría de los toboganes del parque acuático."
+  - q: "¿Se puede reservar solo el hotel sin el parque?"
+    a: "No. El Hotel Magic Tropical Splash es un hotel dentro del resort y las estancias siempre incluyen el acceso a las instalaciones de Magic World. No existe opción de reservar solo alojamiento sin el parque."
 ---
 
 Si estáis buscando un hotel donde el agua sea el protagonista absoluto de las vacaciones, el **Hotel Magic Tropical Splash** es probablemente la mejor opción dentro de Magic World Resort. Hemos hecho el room tour completo, hemos probado las instalaciones con nuestros hijos y aquí os contamos nuestra opinión honesta.

@@ -2,7 +2,7 @@
 title: "LA REVANCHA! Reto Gominola GIGANTE vs PEQUEÑA  (Parte 2)"
 seoTitle: "LA REVANCHA! Reto Gominola GIGANTE vs PEQUEÑA (Parte 2)"
 description: "¡Volvemos con la PARTE 2 del Reto de la Gominola GIGANTE! 🍭 La revancha final. Si te quedaste con ganas de más, aquí seguimos jugando a Piedra, Papel o Tijera para ver quién se lleva las mejores chuches y a quién le tocan las miniaturas. ¡Las risas continúan! ¿No has visto la Parte 1? ¡Mírala aquí p."
-seoDescription: "¡Volvemos con la PARTE 2 del Reto de la Gominola GIGANTE! La revancha final. Si te quedaste con ganas de más, aquí seguimos jugando a Piedra, Papel o..."
+seoDescription: "¡Volvemos con la PARTE 2 del Reto de la Gominola GIGANTE! La revancha final. Si te quedaste con ganas de más, aquí seguimos jugando a Piedra, Papel o."
 videoId: "Ml4xclZ-ZV4"
 publishedAt: "2025-12-12"
 categoria: "retos-challenges"

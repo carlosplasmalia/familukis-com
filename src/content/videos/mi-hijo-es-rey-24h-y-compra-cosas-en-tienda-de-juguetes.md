@@ -2,7 +2,7 @@
 title: "Mi hijo es Rey 24h y ¡COMPRA cosas en TIENDA de JUGUETES!"
 seoTitle: "Mi hijo es Rey 24h y ¡COMPRA cosas en TIENDA de JUGUETES"
 description: "Mi hijo es el rey durante 24 horas y toda la family hacemos lo que el quiere. Además visitamos una tienda de juguetes súper barata ¿Te gustan los retos en familia?  pulsa el play y dale a like. Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro NUEVO LIBRO !📚👉🏻."
-seoDescription: "Mi hijo es el rey durante 24 horas y toda la family hacemos lo que el quiere. Además visitamos una tienda de juguetes súper barata ¿Te gustan los retos..."
+seoDescription: "Mi hijo es el rey durante 24 horas y toda la family hacemos lo que el quiere. Además visitamos una tienda de juguetes súper barata ¿Te gustan los retos."
 videoId: "9Wz9N6vyMO8"
 publishedAt: "2024-05-29"
 categoria: "retos-challenges"

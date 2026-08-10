@@ -2,7 +2,7 @@
 title: "TÚ ERES EL ESPECIAL 100.000 SUSCRIPTORES // Juegos y Juguetes en Familia"
 seoTitle: "TÚ ERES EL ESPECIAL 100.000 SUSCRIPTORES // Juegos y Juguetes..."
 description: "¡Hola Familuki! Tú eres genial ¿Sabes? Y por eso te mereces un vídeo especial. Prepárate para un Vlog cómo nunca hemos producido en el canal y descúbre un poco más sobre Juegos y Juguetes en Familia. Hemos querido que el canal tenga un nuevo aspecto y hemos traído nuevas ideas para que disfrutes com."
-seoDescription: "¡Hola Familuki! Tú eres genial ¿Sabes? Y por eso te mereces un vídeo especial. Prepárate para un Vlog cómo nunca hemos producido en el canal y descúbre..."
+seoDescription: "¡Hola Familuki! Tú eres genial ¿Sabes? Y por eso te mereces un vídeo especial. Prepárate para un Vlog cómo nunca hemos producido en el canal y descúbre."
 videoId: "gQwcmyi1nGg"
 publishedAt: "2017-02-07"
 categoria: "para-ninos"

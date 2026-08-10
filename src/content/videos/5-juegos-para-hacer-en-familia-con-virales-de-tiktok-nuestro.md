@@ -2,7 +2,7 @@
 title: "5 JUEGOS para hacer EN FAMILIA con VIRALES de TIKTOK + nuestro PERRO Karateka"
 seoTitle: "5 JUEGOS para hacer EN FAMILIA con VIRALES de TIKTOK +..."
 description: "¿Te gustan los juegos para hacer en casa con la familia? Hoy os traemos 5 divertidos y sencillos juegos en el que pondremos a prueba a padres e hijos con virales de tiktok ¡Descubrelos y dale al play! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te gustan los juegos para hacer en casa con la familia? Hoy os traemos 5 divertidos y sencillos juegos en el que pondremos a prueba a padres e hijos..."
+seoDescription: "¿Te gustan los juegos para hacer en casa con la familia? Hoy os traemos 5 divertidos y sencillos juegos en el que pondremos a prueba a padres e hijos."
 videoId: "1B0aLM5UgKg"
 publishedAt: "2021-01-26"
 categoria: "retos-challenges"

@@ -2,7 +2,7 @@
 title: "Rutina Familiar de DOMINGO Sale de Control con estas Gafas de realidad virtual"
 seoTitle: "Rutina Familiar de DOMINGO Sale de Control con estas Gafas de..."
 description: "¿Te gustan los vídeos de rutina de familia? Hoy hacemos una rutina diaria un poco especial a la que le hemos añadido las gafas Vr de nuestro hijo para mezclar la realidad con mundos digitales. Si buscas ahorrar y te Interesan nuestros articulos de wallapop no dudes en pásarte: En “Los Familukis”, fu."
-seoDescription: "¿Te gustan los vídeos de rutina de familia? Hoy hacemos una rutina diaria un poco especial a la que le hemos añadido las gafas Vr de nuestro hijo para..."
+seoDescription: "¿Te gustan los vídeos de rutina de familia? Hoy hacemos una rutina diaria un poco especial a la que le hemos añadido las gafas Vr de nuestro hijo para."
 videoId: "tHxR4wgRZG4"
 publishedAt: "2024-02-28"
 categoria: "vacaciones-familia"

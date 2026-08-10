@@ -2,7 +2,7 @@
 title: "¿Cómo es la PELUQUERÍA + FAMOSA de Madrid? Visitamos al peluquero de los famosos Manuel Zamorano"
 seoTitle: "Cómo es la PELUQUERÍA + FAMOSA de Madrid? Visitamos al..."
 description: "¿Quieres descubrir cuál es la mejor peluquería de Madrid? Hoy visitamos al peluquero de los famosos Manuel Zamorano que es colaborador en el programa de telecinco \"Sálvame\". Muchos ya sabíais que Manuel a parte de un gran peluquero es el hermano de Papiluki ¡Bienvenidos al Peluquería tour de éste lu."
-seoDescription: "¿Quieres descubrir cuál es la mejor peluquería de Madrid? Hoy visitamos al peluquero de los famosos Manuel Zamorano que es colaborador en el programa..."
+seoDescription: "¿Quieres descubrir cuál es la mejor peluquería de Madrid? Hoy visitamos al peluquero de los famosos Manuel Zamorano que es colaborador en el programa."
 videoId: "1Swh01FbADg"
 publishedAt: "2021-07-02"
 categoria: "para-ninos"

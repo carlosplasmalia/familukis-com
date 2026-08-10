@@ -2,7 +2,7 @@
 title: "5 FORMAS de hacer POMPAS de JABON ¡¡DENTRO DE UNA BURBUJA!!"
 seoTitle: "5 FORMAS de hacer POMPAS de JABON ¡¡DENTRO DE UNA BURBUJA"
 description: "Hoy ponemos a prueba 5 productos para hacer pompas ALUCINANTES. Además nos metemos dentro de una pompa gigante ¿Quieres saber cómo hacemos pompas gigantes de jabón?  ¿Te gustan las actividades para hacer en casa y en familia? ¡Dale al Play! (Video patrocinado por Furnise) Funrise Juguetes (IG): Funr."
-seoDescription: "Hoy ponemos a prueba 5 productos para hacer pompas ALUCINANTES. Además nos metemos dentro de una pompa gigante ¿Quieres saber cómo hacemos pompas..."
+seoDescription: "Hoy ponemos a prueba 5 productos para hacer pompas ALUCINANTES. Además nos metemos dentro de una pompa gigante ¿Quieres saber cómo hacemos pompas."
 videoId: "rher_3sy-Bc"
 publishedAt: "2021-05-07"
 categoria: "retos-challenges"

@@ -2,7 +2,7 @@
 title: "4 SMOOTHIES refrescantes FÁCILES para hacer en Casa // Juegos y Juguetes en Familia"
 seoTitle: "4 SMOOTHIES refrescantes FÁCILES para hacer en Casa // Juegos..."
 description: "¿Te gustan las bebidas refrescantes? ¿Sí? Hoy os traemos un Smoothie Challenge muy fácil para hacer en casa con niños. Si te aburres este verano puedes hacer deliciosas recetas de Smoothies o batidos para niños ¿Quieres saber la receta de estos deliciosos Batidos refrescantes? Pues no te pierdas nue."
-seoDescription: "¿Te gustan las bebidas refrescantes? ¿Sí? Hoy os traemos un Smoothie Challenge muy fácil para hacer en casa con niños. Si te aburres este verano puedes..."
+seoDescription: "¿Te gustan las bebidas refrescantes? ¿Sí? Hoy os traemos un Smoothie Challenge muy fácil para hacer en casa con niños. Si te aburres este verano puedes."
 videoId: "AsZgCdUUrpk"
 publishedAt: "2017-08-22"
 categoria: "retos-challenges"

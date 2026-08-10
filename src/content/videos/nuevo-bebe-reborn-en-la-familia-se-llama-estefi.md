@@ -2,7 +2,7 @@
 title: "NUEVO BEBÉ Reborn en la FAMILIA 👶Se llama ESTEFI"
 seoTitle: "NUEVO BEBÉ Reborn en la FAMILIA Se llama ESTEFI"
 description: "Familias hoy hemos adoptado un bebé reborn de Baby Soul Reborn. Gracias a nuestra amiga Estefanía por hacernos llegar a esta preciosa niña reborn hiperrealista."
-seoDescription: "Familias hoy hemos adoptado un bebé reborn de Baby Soul Reborn. Gracias a nuestra amiga Estefanía por hacernos llegar a esta preciosa niña reborn..."
+seoDescription: "Familias hoy hemos adoptado un bebé reborn de Baby Soul Reborn. Gracias a nuestra amiga Estefanía por hacernos llegar a esta preciosa niña reborn."
 videoId: "wBBRJhNNhgY"
 publishedAt: "2019-04-30"
 categoria: "para-ninos"

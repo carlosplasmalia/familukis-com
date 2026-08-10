@@ -2,7 +2,7 @@
 title: "3 COLORS of glue ¿SLIME? ¡¡LAVA!! //Familukis"
 seoTitle: "3 COLORS of glue ¿SLIME? ¡¡LAVA"
 description: "¿Te gustaría fabricar una lámpara 3 colors of glue Slime de lava challenge? ¡Descúbre un nuevo vídeo! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "¿Te gustaría fabricar una lámpara 3 colors of glue Slime de lava challenge? ¡Descúbre un nuevo vídeo! El mejor regalo para un Familuki ¡Camisetas..."
+seoDescription: "¿Te gustaría fabricar una lámpara 3 colors of glue Slime de lava challenge? ¡Descúbre un nuevo vídeo! El mejor regalo para un Familuki ¡Camisetas."
 videoId: "lfgEDePojR0"
 publishedAt: "2018-07-03"
 categoria: "retos-challenges"

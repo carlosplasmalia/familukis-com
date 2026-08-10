@@ -2,7 +2,7 @@
 title: "JUEGOS DE AGUA ¡EXTREMOS! sobre el río // Juegos y Juguetes en familia piscina"
 seoTitle: "JUEGOS DE AGUA ¡EXTREMOS! sobre el río // Juegos y Juguetes..."
 description: "¿Te gustan los juegos de agua en la piscina, en el mar o en el río? Pues anímate a descubrir un nuevo Vlog en familia en el que hacemos retos de agua challenge junto a nuestros amigos \"Los Garma Lobo\" ¿Quieres hacer Paddle Surf como nosotros? Informante: AranViajes: Escuela de Piragüismo: Gracias #F."
-seoDescription: "¿Te gustan los juegos de agua en la piscina, en el mar o en el río? Pues anímate a descubrir un nuevo Vlog en familia en el que hacemos retos de agua..."
+seoDescription: "¿Te gustan los juegos de agua en la piscina, en el mar o en el río? Pues anímate a descubrir un nuevo Vlog en familia en el que hacemos retos de agua."
 videoId: "mX37JSn-hCk"
 publishedAt: "2017-08-01"
 categoria: "camping-naturaleza"

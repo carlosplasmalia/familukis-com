@@ -2,7 +2,7 @@
 title: "24 horas GRABANDO el VIDEOCLIP \"FÍSICA o QUÍMICA\" de @MartinaDAntiochia"
 seoTitle: "24 horas GRABANDO el VIDEOCLIP \"FÍSICA o QUÍMICA\" de..."
 description: "Nuestra amiga del canal @La Diversion de Martina ha querido que Papá le haga el videoclip de FÍSICA O QUÍMICA oficial. Ha sido un reto en el que hemos tenido solo 24 horas para crear este videoclip ¿Cómo ha sido el detrás de cámaras o Making of de física o química? ¡Descúbrelo! ¡Descubre nuestro cóm."
-seoDescription: "Nuestra amiga del canal @La Diversion de Martina ha querido que Papá le haga el videoclip de FÍSICA O QUÍMICA oficial. Ha sido un reto en el que hemos..."
+seoDescription: "Nuestra amiga del canal @La Diversion de Martina ha querido que Papá le haga el videoclip de FÍSICA O QUÍMICA oficial. Ha sido un reto en el que hemos."
 videoId: "lXCLW7rBWdk"
 publishedAt: "2020-06-26"
 categoria: "retos-challenges"

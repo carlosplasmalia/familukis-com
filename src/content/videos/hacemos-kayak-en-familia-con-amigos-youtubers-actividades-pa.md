@@ -2,7 +2,7 @@
 title: "Hacemos KAYAK en FAMILIA con AMIGOS YOUTUBERS // Actividades para el VERANO"
 seoTitle: "Hacemos KAYAK en FAMILIA con AMIGOS YOUTUBERS // Actividades..."
 description: "En el vídeo de hoy os subiréis a nuestro kayak y viviréis aventuras en familia. Hoy visitamos Educare Aventura un lugar donde podrás hacer deporte de aventura y kayak con toda la familia. Reservas Kayak en: Descubre nuestro cómic!📚👉🏻."
-seoDescription: "En el vídeo de hoy os subiréis a nuestro kayak y viviréis aventuras en familia. Hoy visitamos Educare Aventura un lugar donde podrás hacer deporte de..."
+seoDescription: "En el vídeo de hoy os subiréis a nuestro kayak y viviréis aventuras en familia. Hoy visitamos Educare Aventura un lugar donde podrás hacer deporte de."
 videoId: "rQiiMi1PHQI"
 publishedAt: "2020-07-14"
 categoria: "para-ninos"

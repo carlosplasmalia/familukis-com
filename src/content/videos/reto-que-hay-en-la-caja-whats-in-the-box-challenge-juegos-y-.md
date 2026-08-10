@@ -2,7 +2,7 @@
 title: "RETO ¿QUE HAY EN LA CAJA?  whats in the box CHALLENGE // Juegos y Juguetes"
 seoTitle: "RETO ¿QUE HAY EN LA CAJA? whats in the box CHALLENGE //..."
 description: "Que hay en la caja Challenge es un reto muy divertido que consiste en adivinar que objeto o animal hay dentro de una caja. Este reto es una competición con el canal Juegos e historias para niños. Podéis ver quien es el ganador en las anotaciones finales del este vídeo. Esperamos que os guste familuk."
-seoDescription: "Que hay en la caja Challenge es un reto muy divertido que consiste en adivinar que objeto o animal hay dentro de una caja. Este reto es una competición..."
+seoDescription: "Que hay en la caja Challenge es un reto muy divertido que consiste en adivinar que objeto o animal hay dentro de una caja. Este reto es una competición."
 videoId: "f8xKelBZi7A"
 publishedAt: "2017-06-13"
 categoria: "retos-challenges"

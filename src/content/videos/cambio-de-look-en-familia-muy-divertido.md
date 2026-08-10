@@ -2,7 +2,7 @@
 title: "Cambio de look ¡EN FAMILIA! 💇Muy divertido"
 seoTitle: "Cambio de look ¡EN FAMILIA! Muy divertido"
 description: "Si te gusta divertirte con los cambios de look de youtubers, este vídeo te va a encantar ¡Descúbrelo! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "Si te gusta divertirte con los cambios de look de youtubers, este vídeo te va a encantar ¡Descúbrelo! El mejor regalo para un Familuki ¡Camisetas..."
+seoDescription: "Si te gusta divertirte con los cambios de look de youtubers, este vídeo te va a encantar ¡Descúbrelo! El mejor regalo para un Familuki ¡Camisetas."
 videoId: "_fxCXjGzhQw"
 publishedAt: "2018-10-23"
 categoria: "para-ninos"

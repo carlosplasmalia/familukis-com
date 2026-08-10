@@ -2,7 +2,7 @@
 title: "La IMPRESIONANTE Casa RODATE construída POR ESTA MUJER Está quedando INCREÍNBLE"
 seoTitle: "La IMPRESIONANTE Casa RODATE construída POR ESTA MUJER Está..."
 description: "El proceso de éste Bus vivienda está siendo una dura tarea. Hoy en las reforma integral de nuestra casa rodante quitamos el aire acondicionado del tejado y desmontamos parte del tejado y ventanas para poder convertir nuestro autobús en una vivienda ¿Nos acompañas en la camperización de nuestro vehíc."
-seoDescription: "El proceso de éste Bus vivienda está siendo una dura tarea. Hoy en las reforma integral de nuestra casa rodante quitamos el aire acondicionado del..."
+seoDescription: "El proceso de éste Bus vivienda está siendo una dura tarea. Hoy en las reforma integral de nuestra casa rodante quitamos el aire acondicionado del."
 videoId: "53Gsn9jNUpc"
 publishedAt: "2022-04-16"
 categoria: "para-ninos"

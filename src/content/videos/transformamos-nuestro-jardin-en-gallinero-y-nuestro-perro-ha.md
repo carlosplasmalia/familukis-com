@@ -2,7 +2,7 @@
 title: "TRANSFORMAMOS nuestro JARDÍN en GALLINERO y nuestro PERRO hace algo que no esperábamos."
 seoTitle: "TRANSFORMAMOS nuestro JARDÍN en GALLINERO y nuestro PERRO..."
 description: "¿Cómo es el proceso de cría e incubación de las gallinas? ¿Cómo construir un gallinero en el jardín? Hoy nos metemos en la piel de una familia de granjeros para vivir la experiencia de cría de gallinas de primera mano. Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestr."
-seoDescription: "¿Cómo es el proceso de cría e incubación de las gallinas? ¿Cómo construir un gallinero en el jardín? Hoy nos metemos en la piel de una familia de..."
+seoDescription: "¿Cómo es el proceso de cría e incubación de las gallinas? ¿Cómo construir un gallinero en el jardín? Hoy nos metemos en la piel de una familia de."
 videoId: "Qw8sR4ZvYIE"
 publishedAt: "2023-07-11"
 categoria: "para-ninos"

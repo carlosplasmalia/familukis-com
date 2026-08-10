@@ -2,7 +2,7 @@
 title: "Hacemos reto DORITOS ROULETTE en la ruta de las caras // Juegos y Juguetes en Familia"
 seoTitle: "Hacemos reto DORITOS ROULETTE en la ruta de las caras //..."
 description: "Hola familukis! Hoy hacemos el reto de los Doritos picantes o Doritos Roulette en un lugar fantástico. Hablamos de la ruta de las cara en Buendía (Cuenca) Una ruta ideal para hacer con niños e incluso con con bebés. La ruta de la caras nos ha resultado espectacular y como guinda del pastel acabamos."
-seoDescription: "Hola familukis! Hoy hacemos el reto de los Doritos picantes o Doritos Roulette en un lugar fantástico. Hablamos de la ruta de las cara en Buendía..."
+seoDescription: "Hola familukis! Hoy hacemos el reto de los Doritos picantes o Doritos Roulette en un lugar fantástico. Hablamos de la ruta de las cara en Buendía."
 videoId: "HwOfThNiSfw"
 publishedAt: "2017-03-24"
 categoria: "retos-challenges"

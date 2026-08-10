@@ -2,7 +2,7 @@
 title: "IMITANDO FOTOS Tumblr + #Vlog ¡VACACIONES! // sesión fotos Juegos y Juguetes en Familia"
 seoTitle: "IMITANDO FOTOS Tumblr + #Vlog ¡VACACIONES! // sesión fotos..."
 description: "¿Te gustan los retos IMITANDO FOTOS TUMBLR? Hoy os mostramos un Vlog de familia creando fotos Tumblr que hemos realizado durante nuestras vacaciones en Alcoceber ¡Descúbrelo!."
-seoDescription: "¿Te gustan los retos IMITANDO FOTOS TUMBLR? Hoy os mostramos un Vlog de familia creando fotos Tumblr que hemos realizado durante nuestras vacaciones en..."
+seoDescription: "¿Te gustan los retos IMITANDO FOTOS TUMBLR? Hoy os mostramos un Vlog de familia creando fotos Tumblr que hemos realizado durante nuestras vacaciones en."
 videoId: "I86L57HBXH8"
 publishedAt: "2017-08-04"
 categoria: "vacaciones-familia"

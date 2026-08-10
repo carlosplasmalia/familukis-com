@@ -2,7 +2,7 @@
 title: "Pedimos ¡¡REGALOS 🎁 de NAVIDAD!! en el HOTEL y algo PASA con EL BUZÓN"
 seoTitle: "Pedimos ¡¡REGALOS de NAVIDAD!! en el HOTEL y algo PASA con EL..."
 description: "Santa Claus está recibiendo las cartas de los regalos de navidad para nuestra Family. Además veréis la cantidad de actividades que pueden hacerse en éste Resort de Lujo en Navidad. (Publi) ¿Quieres pasar una navidad increíble? Entra aquí e introduce nuestro código \"MAGICLOSFAMILUKIS\" para una navida."
-seoDescription: "Santa Claus está recibiendo las cartas de los regalos de navidad para nuestra Family. Además veréis la cantidad de actividades que pueden hacerse en..."
+seoDescription: "Santa Claus está recibiendo las cartas de los regalos de navidad para nuestra Family. Además veréis la cantidad de actividades que pueden hacerse en."
 videoId: "2Fs-obj9kKw"
 publishedAt: "2022-12-22"
 categoria: "magic-world"

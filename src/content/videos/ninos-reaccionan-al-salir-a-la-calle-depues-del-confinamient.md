@@ -2,7 +2,7 @@
 title: "NIÑOS REACCIONAN al SALIR a LA CALLE DEPUÉS DEL CONFINAMIENTO"
 seoTitle: "NIÑOS REACCIONAN al SALIR a LA CALLE DEPUÉS DEL CONFINAMIENTO"
 description: "Hace mucho tiempo que las familias de gran parte del mundo estamos confinadas en casa. En España al fin los niños pueden salir a las calles con algunas restricciones. Nosotros los hemos vivido así en famillia ¿Nos acompañas en este vlog familiar? ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hace mucho tiempo que las familias de gran parte del mundo estamos confinadas en casa. En España al fin los niños pueden salir a las calles con algunas..."
+seoDescription: "Hace mucho tiempo que las familias de gran parte del mundo estamos confinadas en casa. En España al fin los niños pueden salir a las calles con algunas."
 videoId: "yCLTowjPXss"
 publishedAt: "2020-04-29"
 categoria: "vlogs-familia"

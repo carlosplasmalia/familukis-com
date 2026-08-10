@@ -2,7 +2,7 @@
 title: "FAMILIA REACCIONANDO a LLAMADA de PAPÁ NOÉL real ¿Somos buenos?"
 seoTitle: "FAMILIA REACCIONANDO a LLAMADA de PAPÁ NOÉL real ¿Somos buenos"
 description: "Hola familias. En el vídeo de hoy recibiremos un vídeo desde el Polo Norte que en el que Santa Claus real nos pone a prueba y nos dirá si hemos sido buenos durante todo el año ¿Tendremos el día de navidad todos nuestros regalos bajo el árbol? 'Descúbrelo y dale al play Nuestro cómic firmado por noso."
-seoDescription: "Hola familias. En el vídeo de hoy recibiremos un vídeo desde el Polo Norte que en el que Santa Claus real nos pone a prueba y nos dirá si hemos sido..."
+seoDescription: "Hola familias. En el vídeo de hoy recibiremos un vídeo desde el Polo Norte que en el que Santa Claus real nos pone a prueba y nos dirá si hemos sido."
 videoId: "Dv5tyBFraws"
 publishedAt: "2020-12-04"
 categoria: "navidad-regalos"

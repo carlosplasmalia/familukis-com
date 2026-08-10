@@ -2,7 +2,7 @@
 title: "¡Vuelta al COLE! 📚✏️ Material escolar BEBÉ 2018-19 // Familukis"
 seoTitle: "Vuelta al COLE! Material escolar BEBÉ 2018-19"
 description: "Te gustaría saber que lleva un #bebé como #MaterialEscolar a su guardería. Descubre los útiles escolares 2018-19 de de Óliver. El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "Te gustaría saber que lleva un #bebé como #MaterialEscolar a su guardería. Descubre los útiles escolares 2018-19 de de Óliver. El mejor regalo para un..."
+seoDescription: "Te gustaría saber que lleva un #bebé como #MaterialEscolar a su guardería. Descubre los útiles escolares 2018-19 de de Óliver. El mejor regalo para un."
 videoId: "tNvc3I1HMvk"
 publishedAt: "2018-08-31"
 categoria: "para-ninos"

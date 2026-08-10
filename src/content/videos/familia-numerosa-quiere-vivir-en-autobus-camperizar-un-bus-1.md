@@ -2,7 +2,7 @@
 title: "FAMILIA NUMEROSA 👨‍👩‍👧‍👦 quiere VIVIR en AUTOBÚS / Camperizar un BUS #1"
 seoTitle: "FAMILIA NUMEROSA quiere VIVIR en AUTOBÚS / Camperizar un BUS #1"
 description: "Nuestra familia numerosa está en la búsqueda de un autobús que será nuestra casa rodante ¿Qué autobús podemos camperizar? ¿Cómo se camperiza? tenemos un montón de dudas y esperamos que ésta serie de vídeos os ayuden en vuestras campreizaciones ¿Nos acompañáis? ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Nuestra familia numerosa está en la búsqueda de un autobús que será nuestra casa rodante ¿Qué autobús podemos camperizar? ¿Cómo se camperiza? tenemos..."
+seoDescription: "Nuestra familia numerosa está en la búsqueda de un autobús que será nuestra casa rodante ¿Qué autobús podemos camperizar? ¿Cómo se camperiza? tenemos."
 videoId: "UeTA6CKFlEs"
 publishedAt: "2021-05-14"
 categoria: "para-ninos"

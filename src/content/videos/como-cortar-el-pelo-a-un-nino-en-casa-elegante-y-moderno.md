@@ -2,7 +2,7 @@
 title: "¿COMO CORTAR el PELO a un NIÑO EN CASA? ELEGANTE Y MODERNO"
 seoTitle: "COMO CORTAR el PELO a un NIÑO EN CASA? ELEGANTE Y MODERNO"
 description: "¿No sabes qué hacer estos días en casa con los pelos de tus hijos? ¿Quieres aprender a hacer un corte de pelo para niños fácil y rápido con degradado? Hoy a portamos nuestro granito de arena para aquellas familias que no podáis salir de vuestra casa ¡Quédate en casa #Conmigo! Adelante ese cambio de."
-seoDescription: "¿No sabes qué hacer estos días en casa con los pelos de tus hijos? ¿Quieres aprender a hacer un corte de pelo para niños fácil y rápido con degradado?..."
+seoDescription: "¿No sabes qué hacer estos días en casa con los pelos de tus hijos? ¿Quieres aprender a hacer un corte de pelo para niños fácil y rápido con degradado?"
 videoId: "q4ixKUX5J3s"
 publishedAt: "2020-03-27"
 categoria: "para-ninos"

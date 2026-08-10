@@ -2,7 +2,7 @@
 title: "SQUISHY vs SLIME vs REAL food sin TELEPATIA // Familukis"
 seoTitle: "SQUISHY vs SLIME vs REAL food sin TELEPATIA"
 description: "¿Te gusta el slime por telepatia? Pues esto no tienen nada que ver jijiji  ¿Te gusta hacer slime casero? ¿Y los retos squishy vs real food? Si es así no te pierdas el nuevo challenge para hacer en casa."
-seoDescription: "¿Te gusta el slime por telepatia? Pues esto no tienen nada que ver jijiji ¿Te gusta hacer slime casero? ¿Y los retos squishy vs real food? Si es así no..."
+seoDescription: "¿Te gusta el slime por telepatia? Pues esto no tienen nada que ver jijiji ¿Te gusta hacer slime casero? ¿Y los retos squishy vs real food? Si es así no."
 videoId: "EAzJ6usDXAI"
 publishedAt: "2018-06-29"
 categoria: "retos-challenges"

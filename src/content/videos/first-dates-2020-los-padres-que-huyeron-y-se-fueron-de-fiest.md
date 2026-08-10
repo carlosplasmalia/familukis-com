@@ -2,7 +2,7 @@
 title: "FIRST DATES 2020 👩‍❤️‍👨 Los padres que huyeron y ¡¡SE FUERON DE FIESTA!!"
 seoTitle: "FIRST DATES 2020 Los padres que huyeron y ¡¡SE FUERON DE FIESTA"
 description: "Así ha sido la primera cita o First Dates 2020 solos y en pareja ¿Quieres saber qué ocurrió el día de San Valentín. Los papás también necesitamos nuestro tiempo en pareja ¿No crees? Dale al play y descubre este vlog. ¡Nuestro cómic!📚👉🏻."
-seoDescription: "Así ha sido la primera cita o First Dates 2020 solos y en pareja ¿Quieres saber qué ocurrió el día de San Valentín. Los papás también necesitamos..."
+seoDescription: "Así ha sido la primera cita o First Dates 2020 solos y en pareja ¿Quieres saber qué ocurrió el día de San Valentín. Los papás también necesitamos."
 videoId: "uCJRxI7a24E"
 publishedAt: "2020-02-26"
 categoria: "vlogs-familia"

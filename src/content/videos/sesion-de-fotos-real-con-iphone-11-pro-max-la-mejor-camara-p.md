@@ -2,7 +2,7 @@
 title: "SESIÓN de FOTOS REAL con IPHONE 11 Pro Max // La mejor cámara PARA VLOG"
 seoTitle: "SESIÓN de FOTOS REAL con IPHONE 11 Pro Max // La mejor cámara..."
 description: "Hemos puesto a prueba el nuevo Iphone 11 Pro Max con una sesión de fotos Tumblr en Familia en dos escenarios Navideños diferentes. El primer decorado en casa y otro nocturno en un centro comercial. También hemos visitado la casita de Papá Noél para hacerle fotos ¡Descubre este Vlogmas y dale al play."
-seoDescription: "Hemos puesto a prueba el nuevo Iphone 11 Pro Max con una sesión de fotos Tumblr en Familia en dos escenarios Navideños diferentes. El primer decorado..."
+seoDescription: "Hemos puesto a prueba el nuevo Iphone 11 Pro Max con una sesión de fotos Tumblr en Familia en dos escenarios Navideños diferentes. El primer decorado."
 videoId: "uPQ6z9utfW0"
 publishedAt: "2019-11-29"
 categoria: "navidad-regalos"

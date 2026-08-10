@@ -2,7 +2,7 @@
 title: "¡La Hamburguesería + ÉPICA! con Show de TERROR pasamos más miedo que en five nights at freddy's."
 seoTitle: "La Hamburguesería + ÉPICA! con Show de TERROR pasamos más..."
 description: "¡Bienvenidos a una experiencia única en la hamburguesería Grillaera en Málaga! Este Halloween, decidimos explorar este famoso restaurante con show en vivo, y lo que encontramos fue más allá de lo imaginado. Pero eso no es todo, también nos sumergimos en un reto viral de TikTok para descubrir si una."
-seoDescription: "¡Bienvenidos a una experiencia única en la hamburguesería Grillaera en Málaga! Este Halloween, decidimos explorar este famoso restaurante con show en..."
+seoDescription: "¡Bienvenidos a una experiencia única en la hamburguesería Grillaera en Málaga! Este Halloween, decidimos explorar este famoso restaurante con show en."
 videoId: "LBYTMZJ0-es"
 publishedAt: "2023-11-05"
 categoria: "halloween"

@@ -2,7 +2,7 @@
 title: "Increíble 7 CUMPLEAÑOS  en Family  ¡¡CINE con TOBOGANES!! y Realidad Virtual."
 seoTitle: "Increíble 7 CUMPLEAÑOS en Family ¡¡CINE con TOBOGANES!! y..."
 description: "Hoy os preparamos un CUMPLEAÑOS en Family muy especial: ¡nuestro cumpleaños de CINE y  realidad virtual! Sí, sí, habéis leído bien. Hemos celebrado nuestro cumpleaños en una sala de cine Yelmo Junior y en Virtual Revolution un super cenrto de realidad virtual. ¿Queréis ver cómo fue? ¡DADLE AL PLAY!."
-seoDescription: "Hoy os preparamos un CUMPLEAÑOS en Family muy especial: ¡nuestro cumpleaños de CINE y realidad virtual! Sí, sí, habéis leído bien. Hemos celebrado..."
+seoDescription: "Hoy os preparamos un CUMPLEAÑOS en Family muy especial: ¡nuestro cumpleaños de CINE y realidad virtual! Sí, sí, habéis leído bien. Hemos celebrado."
 videoId: "-JTqOBfR5YM"
 publishedAt: "2023-03-15"
 categoria: "parques-acuaticos"

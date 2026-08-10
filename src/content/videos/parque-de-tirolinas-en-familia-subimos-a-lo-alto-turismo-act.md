@@ -2,7 +2,7 @@
 title: "PARQUE de TIROLINAS en FAMILIA ¡Subimos a lo + ALTO! // Turismo activo"
 seoTitle: "PARQUE de TIROLINAS en FAMILIA ¡Subimos a lo + ALTO! //..."
 description: "Hoy nos tiramos por unas tirolinas en familia y os contamos cómo lo hemos vivido con peques de diferentes edades. Si te gusta el turismo activo en familia y quieres visitar uno de los mejores parques de tirolinas de España ¡Dale al play! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy nos tiramos por unas tirolinas en familia y os contamos cómo lo hemos vivido con peques de diferentes edades. Si te gusta el turismo activo en..."
+seoDescription: "Hoy nos tiramos por unas tirolinas en familia y os contamos cómo lo hemos vivido con peques de diferentes edades. Si te gusta el turismo activo en."
 videoId: "wHt9apkuYeU"
 publishedAt: "2021-07-30"
 categoria: "vacaciones-familia"

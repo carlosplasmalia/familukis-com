@@ -2,7 +2,7 @@
 title: "PARACAIDISMO en FAMILIA ¿VOLARÁN los NIÑOS? Viajamos a Madrid al TÚNEL del VIENTO."
 seoTitle: "PARACAIDISMO en FAMILIA ¿VOLARÁN los NIÑOS? Viajamos a Madrid..."
 description: "Después de 5 años volvemos al túnel del viento en Madird y veremos si ésta vez nuestro familia numerosa es capaz de afrontar el reto. ¿Quieres volar en éste centro de paracaidismo de interior? Pulsa aquí👉🏻 Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Después de 5 años volvemos al túnel del viento en Madird y veremos si ésta vez nuestro familia numerosa es capaz de afrontar el reto. ¿Quieres volar en..."
+seoDescription: "Después de 5 años volvemos al túnel del viento en Madird y veremos si ésta vez nuestro familia numerosa es capaz de afrontar el reto. ¿Quieres volar en."
 videoId: "IsjQ09spcAM"
 publishedAt: "2022-09-17"
 categoria: "parques-atracciones"

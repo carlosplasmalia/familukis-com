@@ -2,7 +2,7 @@
 title: "¿Qué COMIDA soy? Juegos para hacer en CASA cuando estas aburrido 2024"
 seoTitle: "Qué COMIDA soy? Juegos para hacer en CASA cuando estas..."
 description: "Hoy retomamos un clásico del canal ¿Que comida soy? descubre como hemos hecho este juego para hacer en casa cuando estes aburrido. Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro NUEVO LIBRO !📚👉🏻 Descubre con nosotros cómo monetizar tu pasión por viajar: Creando co."
-seoDescription: "Hoy retomamos un clásico del canal ¿Que comida soy? descubre como hemos hecho este juego para hacer en casa cuando estes aburrido. Conviértete en..."
+seoDescription: "Hoy retomamos un clásico del canal ¿Que comida soy? descubre como hemos hecho este juego para hacer en casa cuando estes aburrido. Conviértete en."
 videoId: "k7WcPx8t7Vk"
 publishedAt: "2024-04-25"
 categoria: "vacaciones-familia"

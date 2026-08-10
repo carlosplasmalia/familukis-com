@@ -2,7 +2,7 @@
 title: "24 horas ¡SIENDO VEGANOS! FAMILIA NUMEROSA probando COMIDA VEGAN"
 seoTitle: "24 horas ¡SIENDO VEGANOS! FAMILIA NUMEROSA probando COMIDA VEGAN"
 description: "¿Cómo sería la vida en una familia vegana? Hoy experimentamos comiendo durante 24 horas comida basada en plantas ¿Seremos capaces de comernos todo? ¡Descúbrelo! Nuestra tienda vegana: ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Cómo sería la vida en una familia vegana? Hoy experimentamos comiendo durante 24 horas comida basada en plantas ¿Seremos capaces de comernos todo?..."
+seoDescription: "¿Cómo sería la vida en una familia vegana? Hoy experimentamos comiendo durante 24 horas comida basada en plantas ¿Seremos capaces de comernos todo?"
 videoId: "YjeWpwiJ0P0"
 publishedAt: "2020-11-17"
 categoria: "para-ninos"

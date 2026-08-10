@@ -2,7 +2,7 @@
 title: "¿Son los videojuegos máquinas de crear psicópatas? + redes sociales en adolescentes y plagas"
 seoTitle: "Son los videojuegos máquinas de crear psicópatas? + redes..."
 description: "¡Bienvenidos a un nuevo capítulo de  \"Pensando en Alto\" ! Hoy nos enfocamos en el mundo de los vídeo juegos ¿Son los culpables de tantos desordenes psicológicos entre los adolescentes? ¿Niños y adolescentes deberían tener redes sociales? ¿Qué está pasando con la aparición de enfermedades ya olvidada."
-seoDescription: "¡Bienvenidos a un nuevo capítulo de \"Pensando en Alto\" ! Hoy nos enfocamos en el mundo de los vídeo juegos ¿Son los culpables de tantos desordenes..."
+seoDescription: "¡Bienvenidos a un nuevo capítulo de \"Pensando en Alto\" ! Hoy nos enfocamos en el mundo de los vídeo juegos ¿Son los culpables de tantos desordenes."
 videoId: "VqnxCnHawe8"
 publishedAt: "2023-07-08"
 categoria: "para-ninos"

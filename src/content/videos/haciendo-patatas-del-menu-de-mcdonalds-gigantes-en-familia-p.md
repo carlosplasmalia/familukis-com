@@ -2,7 +2,7 @@
 title: "Haciendo PATATAS del Menú de McDonald's ¡GIGANTES!  en familia ¿Podremos hacerlo?"
 seoTitle: "Haciendo PATATAS del Menú de McDonald's ¡GIGANTES! en..."
 description: "¿Te gusta la comida de  McDonal´s? ¿Quieres saber cómo creamos sus patatas gigantes y multiplicamos su tamaño x20?  Si eres fan de la comida este vídeo en el que cocinamos en familia te va a encantar. ¡Descubre nuestro NUEVO libro! 📚👉🏻 Conviértete en miembro de este canal para disfrutar de ventajas:."
-seoDescription: "¿Te gusta la comida de McDonal´s? ¿Quieres saber cómo creamos sus patatas gigantes y multiplicamos su tamaño x20? Si eres fan de la comida este vídeo..."
+seoDescription: "¿Te gusta la comida de McDonal´s? ¿Quieres saber cómo creamos sus patatas gigantes y multiplicamos su tamaño x20? Si eres fan de la comida este vídeo."
 videoId: "IiYWrODC3FQ"
 publishedAt: "2023-06-20"
 categoria: "para-ninos"

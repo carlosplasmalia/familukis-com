@@ -2,7 +2,7 @@
 title: "NIÑOS Vs ADULTOS 💪Mi padre ¿SOBREVIVIRÁ al gimnasio? ¡MIRA COMO QUEDÓ! tipos de padres cosas tipicas"
 seoTitle: "NIÑOS Vs ADULTOS Mi padre ¿SOBREVIVIRÁ al gimnasio? ¡MIRA..."
 description: "¿Sobrevivirá nuestro padre a un entrenamiento de niños vs adultos? ¿De qué madera está hecho nuestro padre? ¿podrá este adulto hacer todos los retos que le proponemos los niños? ¡Dale al play y pon a tu padre en forma con este entrenamiento del gimnasio!! Apuntate a nuestro gimnasio: El mejor regalo."
-seoDescription: "¿Sobrevivirá nuestro padre a un entrenamiento de niños vs adultos? ¿De qué madera está hecho nuestro padre? ¿podrá este adulto hacer todos los retos..."
+seoDescription: "¿Sobrevivirá nuestro padre a un entrenamiento de niños vs adultos? ¿De qué madera está hecho nuestro padre? ¿podrá este adulto hacer todos los retos."
 videoId: "Wutu4eQNDMI"
 publishedAt: "2018-09-07"
 categoria: "retos-challenges"

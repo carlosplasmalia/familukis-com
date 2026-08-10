@@ -2,7 +2,7 @@
 title: "24h con NIÑOS Skaters demasiado Buenos"
 seoTitle: "24h con NIÑOS Skaters demasiado Buenos"
 description: "hoy visitamos Skatepark Málaga y pasamos un día con niños skaters que no tienen miedo a nada. Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro NUEVO LIBRO !📚👉🏻."
-seoDescription: "hoy visitamos Skatepark Málaga y pasamos un día con niños skaters que no tienen miedo a nada. Conviértete en miembro de este canal para disfrutar de..."
+seoDescription: "hoy visitamos Skatepark Málaga y pasamos un día con niños skaters que no tienen miedo a nada. Conviértete en miembro de este canal para disfrutar de."
 videoId: "IXOIBoineGw"
 publishedAt: "2024-02-09"
 categoria: "para-ninos"

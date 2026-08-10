@@ -2,7 +2,7 @@
 title: "24 horas GRABANDO con @MartinaDAntiochia el vídeo de GLOW su nuevo perfume"
 seoTitle: "24 horas GRABANDO con @MartinaDAntiochia el vídeo de GLOW su..."
 description: "¿Te gustaría ver como grabamos el anuncio del nuevo perfume de @MartinaDAntiochia? Ha sido genial `pasar un día con nuestra amiga y ponernos manos a la obra con el rodaje de su nuevo spot. Acompañanos en este 24 horas con La diversión de Martina. ¡Descubre nuestro cómic!📚👉🏻 Consigue el perfume:."
-seoDescription: "¿Te gustaría ver como grabamos el anuncio del nuevo perfume de @MartinaDAntiochia? Ha sido genial `pasar un día con nuestra amiga y ponernos manos a la..."
+seoDescription: "¿Te gustaría ver como grabamos el anuncio del nuevo perfume de @MartinaDAntiochia? Ha sido genial `pasar un día con nuestra amiga y ponernos manos a la."
 videoId: "i6LoMKx2kys"
 publishedAt: "2019-12-13"
 categoria: "para-ninos"

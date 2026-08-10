@@ -2,7 +2,7 @@
 title: "¡VOLAMOS en PARQUE de TRAMPOLINES con FAMILIAS Youtubers! Lanzamos a@losjaritos1023"
 seoTitle: "VOLAMOS en PARQUE de TRAMPOLINES con FAMILIAS Youtubers!..."
 description: "Hemos descubierto el parque de trampolines Altitude en Madrid y es algo alucinante. Además el resto de la familia pedirá truco o trato en nuestro antiguo pueblo ¿Nos acompañas? Conviértete en miembro de este canal para disfrutar de ventajas: ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hemos descubierto el parque de trampolines Altitude en Madrid y es algo alucinante. Además el resto de la familia pedirá truco o trato en nuestro..."
+seoDescription: "Hemos descubierto el parque de trampolines Altitude en Madrid y es algo alucinante. Además el resto de la familia pedirá truco o trato en nuestro."
 videoId: "HrEfx3CyBS8"
 publishedAt: "2022-11-02"
 categoria: "parques-atracciones"

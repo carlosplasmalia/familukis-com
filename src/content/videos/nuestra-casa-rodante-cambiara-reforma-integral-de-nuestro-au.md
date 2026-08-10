@@ -2,7 +2,7 @@
 title: "NUESTRA CASA RODANTE cambiará ¡REFORMA INTEGRAL de nuestro AUTOBÚS!"
 seoTitle: "NUESTRA CASA RODANTE cambiará ¡REFORMA INTEGRAL de nuestro..."
 description: "¡Hoy en la reforma integral de nuestra casa sobre ruedas tenemos el orgullo de presentaros al mejor equipo de camperización de Málaga! Estamos muy orgullosos de que nos ayuden con el proyecto y esperamos que puedan ayudarte en el tuyo. Puedes encontrarles aquí: ¡Cameperizan tu furgoneta, camión, avi."
-seoDescription: "¡Hoy en la reforma integral de nuestra casa sobre ruedas tenemos el orgullo de presentaros al mejor equipo de camperización de Málaga! Estamos muy..."
+seoDescription: "¡Hoy en la reforma integral de nuestra casa sobre ruedas tenemos el orgullo de presentaros al mejor equipo de camperización de Málaga! Estamos muy."
 videoId: "kx14sShIkBg"
 publishedAt: "2022-05-25"
 categoria: "para-ninos"

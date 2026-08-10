@@ -2,7 +2,7 @@
 title: "JUEGOS  RAMDOM // PARA NIÑOS // wrestle jump"
 seoTitle: "JUEGOS RAMDOM // PARA NIÑOS // wrestle jump"
 description: "Hola hoy en Juegos y juguetes en familia os queremos enseñar el juego más ramdom y absurdo al que hemos jugado. Westrel Jump es un juego en el que tienes que luchar saltando y el primero que de con su cabeza contra el suelo o pared pierde. ¡Tan divertido como absurdo! ¿Te ha gustado el vídeo? Únete."
-seoDescription: "Hola hoy en Juegos y juguetes en familia os queremos enseñar el juego más ramdom y absurdo al que hemos jugado. Westrel Jump es un juego en el que..."
+seoDescription: "Hola hoy en Juegos y juguetes en familia os queremos enseñar el juego más ramdom y absurdo al que hemos jugado. Westrel Jump es un juego en el que."
 videoId: "U-KczmBSBxg"
 publishedAt: "2016-06-03"
 categoria: "para-ninos"

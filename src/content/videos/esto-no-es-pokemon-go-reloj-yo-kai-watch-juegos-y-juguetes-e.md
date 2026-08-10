@@ -2,7 +2,7 @@
 title: "ESTO NO ES POKEMON GO // RELOJ YO KAI WATCH // JUEGOS Y JUGUETES EN FAMILIA"
 seoTitle: "ESTO NO ES POKEMON GO // RELOJ YO KAI WATCH // JUEGOS Y..."
 description: "Si te gusta Pokemon Go pero también te apasionan los Yo Kai Watch hemos juntado los dos mundos para hacer un vídeo que esperamos que os resulte divertido. En éste vídeo os enseñaremos el Yo Kai Watch en Español de Carlitos, pero alguien de Pokemon Go quiere sabotear el protagonismo a los Yo Kai. ¿Ad."
-seoDescription: "Si te gusta Pokemon Go pero también te apasionan los Yo Kai Watch hemos juntado los dos mundos para hacer un vídeo que esperamos que os resulte..."
+seoDescription: "Si te gusta Pokemon Go pero también te apasionan los Yo Kai Watch hemos juntado los dos mundos para hacer un vídeo que esperamos que os resulte."
 videoId: "46PqwRNE7xk"
 publishedAt: "2016-09-30"
 categoria: "para-ninos"

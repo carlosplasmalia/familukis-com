@@ -2,7 +2,7 @@
 title: "Nos tiramos por TOBOGANES GIGANTES en Parque acuático 24 horas // Familia Familukis"
 seoTitle: "Nos tiramos por TOBOGANES GIGANTES en Parque acuático 24..."
 description: "Si te gustan los parques acuáticos hoy nos subimos por toboganes gigantes durante un día entero. ¿Quieres ver super toboganes y cómo han sido nuestras vacaciones? Dale al play y baja súper rapido con nosotros. Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Si te gustan los parques acuáticos hoy nos subimos por toboganes gigantes durante un día entero. ¿Quieres ver super toboganes y cómo han sido nuestras..."
+seoDescription: "Si te gustan los parques acuáticos hoy nos subimos por toboganes gigantes durante un día entero. ¿Quieres ver super toboganes y cómo han sido nuestras."
 videoId: "wnkR31k3lvA"
 publishedAt: "2021-08-12"
 categoria: "parques-acuaticos"

@@ -2,7 +2,7 @@
 title: "ARRUINANDO el BUFFET LIBRE con mi hijo: ¡no quedó nada!"
 seoTitle: "ARRUINANDO el BUFFET LIBRE con mi hijo: ¡no quedó nada"
 description: "BUFFET LIBRE: Mi hijo arruina el restaurante comiendo TODO . (Colaboración con la cadena hotelelra Magic World) Hoy hemos puesto a prueba al buffet más grande que hemos encontrado, pero no fui yo… fue mi hijo quien decidió que nada podía quedar en las bandejas. 🍕🍔🍗 Desde las primeras cucharadas de p."
-seoDescription: "BUFFET LIBRE: Mi hijo arruina el restaurante comiendo TODO . (Colaboración con la cadena hotelelra Magic World) Hoy hemos puesto a prueba al buffet más..."
+seoDescription: "BUFFET LIBRE: Mi hijo arruina el restaurante comiendo TODO . (Colaboración con la cadena hotelelra Magic World) Hoy hemos puesto a prueba al buffet más."
 videoId: "gvrpZ-AHdss"
 publishedAt: "2025-08-26"
 categoria: "magic-world"

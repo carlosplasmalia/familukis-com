@@ -2,7 +2,7 @@
 title: "RETO 24 HORAS con un ROBOT🤖¿Pasara la prueba de la familia? // Familukis"
 seoTitle: "RETO 24 HORAS con un ROBOT¿Pasara la prueba de la familia"
 description: "Familukis hemos puesto a prueba a un robot durante 24 horas ¿Creéis que roborock S5 podrá con todas las pruebas que le pondremos durante el día a día de nuestra familia numerosa? ¡Descúbrelo! Si os gusta nuestro robot de limpieza podréis conseguirlo aquí:  o en la página oficial Roborock:  donde pod."
-seoDescription: "Familukis hemos puesto a prueba a un robot durante 24 horas ¿Creéis que roborock S5 podrá con todas las pruebas que le pondremos durante el día a día..."
+seoDescription: "Familukis hemos puesto a prueba a un robot durante 24 horas ¿Creéis que roborock S5 podrá con todas las pruebas que le pondremos durante el día a día."
 videoId: "M5hZUfR_mq4"
 publishedAt: "2019-02-19"
 categoria: "retos-challenges"

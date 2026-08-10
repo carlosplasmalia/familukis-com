@@ -2,7 +2,7 @@
 title: "¡¡Solo 24 horas para GRABAR VIDEOCLIP PROFESIONAL!! ¿Conseguiremos hacerlo?"
 seoTitle: "Solo 24 horas para GRABAR VIDEOCLIP PROFESIONAL!!..."
 description: "Hoy los familukis tenemos 24 horas para grabar el nuevo videoclip de @MartinaDAntiochia y @gonzalosarfatti ¿Cómo lo vamos a hacer? Improvisando casi todo y con una sola cámara ¿Podremos conseguirlo? ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy los familukis tenemos 24 horas para grabar el nuevo videoclip de @MartinaDAntiochia y @gonzalosarfatti ¿Cómo lo vamos a hacer? Improvisando casi..."
+seoDescription: "Hoy los familukis tenemos 24 horas para grabar el nuevo videoclip de @MartinaDAntiochia y @gonzalosarfatti ¿Cómo lo vamos a hacer? Improvisando casi."
 videoId: "JR0Qtc3zMqI"
 publishedAt: "2021-10-12"
 categoria: "para-ninos"

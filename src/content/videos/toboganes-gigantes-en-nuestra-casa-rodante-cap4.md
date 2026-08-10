@@ -2,7 +2,7 @@
 title: "¡TOBOGANES GIGANTES! en nuestra Casa Rodante // cap.4"
 seoTitle: "TOBOGANES GIGANTES! en nuestra Casa Rodante // cap.4"
 description: "Familias hoy nuestra casa rodante nos lleva a descubrir un parque con toboganes gigantes. Además decoramos nuestra autocaravana ¿Family os subís a una nueva aventura? ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Familias hoy nuestra casa rodante nos lleva a descubrir un parque con toboganes gigantes. Además decoramos nuestra autocaravana ¿Family os subís a una..."
+seoDescription: "Familias hoy nuestra casa rodante nos lleva a descubrir un parque con toboganes gigantes. Además decoramos nuestra autocaravana ¿Family os subís a una."
 videoId: "J0ivJDs0vMg"
 publishedAt: "2022-01-14"
 categoria: "parques-acuaticos"

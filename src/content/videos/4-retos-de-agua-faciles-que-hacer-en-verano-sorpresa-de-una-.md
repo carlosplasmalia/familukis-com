@@ -2,7 +2,7 @@
 title: "4 RETOS de agua FÁCILES ¿QUÉ HACER EN VERANO? + Sorpresa de una Familuki"
 seoTitle: "4 RETOS de agua FÁCILES ¿QUÉ HACER EN VERANO? + Sorpresa de..."
 description: "¡Hola Familukis! Hemos realizado 4 Juegos fáciles de agua para niños con juguetes hinchables ¿Quieres divertirte ? Descubre cómo son estas 4 pruebas de agua en y diviértete este verano con tu familia y amigos. No hay mejor manera que sofocar el calor dentro del agua ¿Verdad? Si te ha gustado el víde."
-seoDescription: "¡Hola Familukis! Hemos realizado 4 Juegos fáciles de agua para niños con juguetes hinchables ¿Quieres divertirte ? Descubre cómo son estas 4 pruebas de..."
+seoDescription: "¡Hola Familukis! Hemos realizado 4 Juegos fáciles de agua para niños con juguetes hinchables ¿Quieres divertirte ? Descubre cómo son estas 4 pruebas de."
 videoId: "Nr3rU88B79k"
 publishedAt: "2017-08-15"
 categoria: "retos-challenges"

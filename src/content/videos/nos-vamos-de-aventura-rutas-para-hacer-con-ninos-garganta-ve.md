@@ -2,7 +2,7 @@
 title: "¡¡NOS VAMOS DE AVENTURA!! Rutas para hacer CON NIÑOS // Garganta VERDE"
 seoTitle: "NOS VAMOS DE AVENTURA!! Rutas para hacer CON NIÑOS //..."
 description: "Hoy Mamiluki se aventura a hacer una ruta con los niños y a descender por paredes verticales haciendo rappel por el cañón de \"La garganta Verde\" en Granada de la mano de la empresa de turismo activo \"Sur Aventura\": Si te gustan los Vlogs familiares y de Aventura en familia no te lo puedes perder. ¡D."
-seoDescription: "Hoy Mamiluki se aventura a hacer una ruta con los niños y a descender por paredes verticales haciendo rappel por el cañón de \"La garganta Verde\" en..."
+seoDescription: "Hoy Mamiluki se aventura a hacer una ruta con los niños y a descender por paredes verticales haciendo rappel por el cañón de \"La garganta Verde\" en."
 videoId: "1tvVGVYwu1U"
 publishedAt: "2020-09-08"
 categoria: "vacaciones-familia"

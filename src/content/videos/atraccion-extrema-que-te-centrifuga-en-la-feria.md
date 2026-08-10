@@ -2,7 +2,7 @@
 title: "ATRACCIÓN EXTREMA que te CENTRIFUGA en la FERIA"
 seoTitle: "ATRACCIÓN EXTREMA que te CENTRIFUGA en la FERIA"
 description: "¡Hola familukis! Hoy hemos pasado un día en la #feria y nos hemos montado en #atracciones muy chulas ¡Pero ojo! Hemos descubierto la atracción mas extrema de la feria que hará que tu cuerpo experimente una velocidad suprema ¿Nos acompañas a la feria? El mejor regalo para un Familuki ¡Camisetas ofici."
-seoDescription: "¡Hola familukis! Hoy hemos pasado un día en la #feria y nos hemos montado en #atracciones muy chulas ¡Pero ojo! Hemos descubierto la atracción mas..."
+seoDescription: "¡Hola familukis! Hoy hemos pasado un día en la #feria y nos hemos montado en #atracciones muy chulas ¡Pero ojo! Hemos descubierto la atracción mas."
 videoId: "vRXccvyz5hw"
 publishedAt: "2018-09-06"
 categoria: "parques-atracciones"

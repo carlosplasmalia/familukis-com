@@ -2,7 +2,7 @@
 title: "DESMONTAMOS AUTOBÚS escolar con + de 25 años // CAMPERIZACIÓN Motor Home"
 seoTitle: "DESMONTAMOS AUTOBÚS escolar con + de 25 años // CAMPERIZACIÓN..."
 description: "Continuamos la camperización de nuestro autobús para convertirlo en nuestra casa rodante ¿Seremos capaces de hacer todas las reformas que queremos hacer y convertirlo en una autocaravana o motorhome? ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Continuamos la camperización de nuestro autobús para convertirlo en nuestra casa rodante ¿Seremos capaces de hacer todas las reformas que queremos..."
+seoDescription: "Continuamos la camperización de nuestro autobús para convertirlo en nuestra casa rodante ¿Seremos capaces de hacer todas las reformas que queremos."
 videoId: "uq88bVuVJto"
 publishedAt: "2021-11-12"
 categoria: "camping-naturaleza"

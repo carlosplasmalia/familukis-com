@@ -2,7 +2,7 @@
 title: "Mi primera vez en una HAMBURGUESERÍA y los clientes ALUCINAN con algo nunca visto."
 seoTitle: "Mi primera vez en una HAMBURGUESERÍA y los clientes ALUCINAN..."
 description: "Si te gusta \"Pesadilla en la cocina\" Hoy hemos preparado un programa que no tiene nada que envidiar  al de \"Alberto Chicote\" y es que hoy nuestra Linda se pone en la piel de la Hamburguesería mas loca de todo el mundo @gRILLAERA ¿Pasará el periodo de prueba en los fogones de este restaurante? Convié."
-seoDescription: "Si te gusta \"Pesadilla en la cocina\" Hoy hemos preparado un programa que no tiene nada que envidiar al de \"Alberto Chicote\" y es que hoy nuestra..."
+seoDescription: "Si te gusta \"Pesadilla en la cocina\" Hoy hemos preparado un programa que no tiene nada que envidiar al de \"Alberto Chicote\" y es que hoy nuestra."
 videoId: "bh8bTaiFLdM"
 publishedAt: "2023-07-04"
 categoria: "retos-challenges"

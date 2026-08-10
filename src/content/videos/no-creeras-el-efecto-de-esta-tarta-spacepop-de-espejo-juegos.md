@@ -2,7 +2,7 @@
 title: "NO CREERÁS el EFECTO 😱  de esta TARTA SPACEPOP de espejo // Juegos y Juguetes en Familia"
 seoTitle: "NO CREERÁS el EFECTO de esta TARTA SPACEPOP de espejo //..."
 description: "¿Te gusta divertirte en familia? ¡No te lo pierdas! Hemos hecho una tarta con un efecto espejo alucinante de #SpacePop ¿Quieres verlo? Pues no lo dudes y dale al play familuki. ¿Te gusta la serie SpacePop? Disfrútala cada Jueves: Síguenos en instagram:."
-seoDescription: "¿Te gusta divertirte en familia? ¡No te lo pierdas! Hemos hecho una tarta con un efecto espejo alucinante de #SpacePop ¿Quieres verlo? Pues no lo dudes..."
+seoDescription: "¿Te gusta divertirte en familia? ¡No te lo pierdas! Hemos hecho una tarta con un efecto espejo alucinante de #SpacePop ¿Quieres verlo? Pues no lo dudes."
 videoId: "6gUN-5ZYfWo"
 publishedAt: "2017-11-21"
 categoria: "para-ninos"

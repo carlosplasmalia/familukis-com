@@ -2,7 +2,7 @@
 title: "ÁRBOL de NAVIDAD + ÉPICO que jamás has visto // Ideas en 5 minutos para decoración Navideña"
 seoTitle: "ÁRBOL de NAVIDAD + ÉPICO que jamás has visto // Ideas en 5..."
 description: "¿Te gusta la decoración navideña? Hoy os enseñamos a hacer un árbol de navidad gigante de Fieltro en el que esperamos Papá Noél y los Reyes magos nos dejen sus REGALOS DE NAVIDAD. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te gusta la decoración navideña? Hoy os enseñamos a hacer un árbol de navidad gigante de Fieltro en el que esperamos Papá Noél y los Reyes magos nos..."
+seoDescription: "¿Te gusta la decoración navideña? Hoy os enseñamos a hacer un árbol de navidad gigante de Fieltro en el que esperamos Papá Noél y los Reyes magos nos."
 videoId: "DZkkmiAROPI"
 publishedAt: "2021-12-01"
 categoria: "navidad-regalos"

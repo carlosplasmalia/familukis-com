@@ -2,7 +2,7 @@
 title: "DECORACIÓN & REFORMAS en nuestra NUEVA CASA 🏠¡ANTES Y DESPUÉS!"
 seoTitle: "DECORACIÓN & REFORMAS en nuestra NUEVA CASA ¡ANTES Y DESPUÉS"
 description: "Hoy decoramos de arriba abajo el salón de nuestra nueva casa con la ayuda de una decoradora e interiorista. Si quieres inspirarte y ver un cambio radical de deco antes y después  ¡Dale al play y disfruta de esta reforma! Este vídeo ha sido patrocinado por \"Ana Mesa Diseño de interiores\" 👉🏻 y \"Mueble."
-seoDescription: "Hoy decoramos de arriba abajo el salón de nuestra nueva casa con la ayuda de una decoradora e interiorista. Si quieres inspirarte y ver un cambio..."
+seoDescription: "Hoy decoramos de arriba abajo el salón de nuestra nueva casa con la ayuda de una decoradora e interiorista. Si quieres inspirarte y ver un cambio."
 videoId: "7oGPS4oyCdE"
 publishedAt: "2020-02-11"
 categoria: "vlogs-familia"

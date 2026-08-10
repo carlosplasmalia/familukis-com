@@ -2,7 +2,7 @@
 title: "RETO EL SUELO ES LAVA + Vlog // The floor is lava"
 seoTitle: "RETO EL SUELO ES LAVA + Vlog // The floor is lava"
 description: "Hola Familukis! El suelo es lava es un reto muy divertido que puedes disfrutar con amigos o con la familia. Nosotros hemos querido hacer este The floor is lava challenge en familia ¿Quieres descubrirlo? Pues dale al Play! Un abrazo familukis!."
-seoDescription: "Hola Familukis! El suelo es lava es un reto muy divertido que puedes disfrutar con amigos o con la familia. Nosotros hemos querido hacer este The floor..."
+seoDescription: "Hola Familukis! El suelo es lava es un reto muy divertido que puedes disfrutar con amigos o con la familia. Nosotros hemos querido hacer este The floor."
 videoId: "Yrmt6FvZ0-U"
 publishedAt: "2017-06-16"
 categoria: "retos-challenges"

@@ -2,7 +2,7 @@
 title: "Mi Familia Descubrió 10 Juegos Increíbles Para Hacer En Casa"
 seoTitle: "Mi Familia Descubrió 10 Juegos Increíbles Para Hacer En Casa"
 description: "Descubre 10 juegos divertidos para hacer en casa cuando estás aburrido en familia. ¡Diviértete y crea recuerdos inolvidables con estos increíbles juegos caseros!."
-seoDescription: "Descubre 10 juegos divertidos para hacer en casa cuando estás aburrido en familia. ¡Diviértete y crea recuerdos inolvidables con estos increíbles..."
+seoDescription: "Descubre 10 juegos divertidos para hacer en casa cuando estás aburrido en familia. ¡Diviértete y crea recuerdos inolvidables con estos increíbles."
 videoId: "VAVDr-uIFGs"
 publishedAt: "2025-03-23"
 categoria: "para-ninos"

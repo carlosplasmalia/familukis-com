@@ -2,7 +2,7 @@
 title: "El RETO del doblaje #2 Doblando a YOUTUBERS // Los Familukis"
 seoTitle: "El RETO del doblaje #2 Doblando a YOUTUBERS // Los Familukis"
 description: "Papá y mamá nos han retado desde su canal Papilukis para hecer el reto del doblaje o Doblando Youtubers. ¿Os animáis a participar? ¿Si? pues mira el vídeo y después baja el volumen para ponerle tu voz y compartidlo con nosotros con el Hastag #DoblandoYoutubers. Mikeltube: AbreloToys: ItarteVlogs: Ol."
-seoDescription: "Papá y mamá nos han retado desde su canal Papilukis para hecer el reto del doblaje o Doblando Youtubers. ¿Os animáis a participar? ¿Si? pues mira el..."
+seoDescription: "Papá y mamá nos han retado desde su canal Papilukis para hecer el reto del doblaje o Doblando Youtubers. ¿Os animáis a participar? ¿Si? pues mira el."
 videoId: "XdGQ3x3AO4I"
 publishedAt: "2018-01-26"
 categoria: "retos-challenges"

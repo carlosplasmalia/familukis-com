@@ -2,7 +2,7 @@
 title: "Así es el Parque Warner EN NAVIDAD ¡Vamos en LA CASA RODANTE!"
 seoTitle: "Así es el Parque Warner EN NAVIDAD ¡Vamos en LA CASA RODANTE"
 description: "Seguimos nuestro viaje en autocaravana. Ésta vez visitamos el \"Parque Warner\" en Madrid. Conócelo junto a nosotros en estas fechas navideñas y valora si es una buena opción visitar éste parque de atracciones. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Seguimos nuestro viaje en autocaravana. Ésta vez visitamos el \"Parque Warner\" en Madrid. Conócelo junto a nosotros en estas fechas navideñas y valora..."
+seoDescription: "Seguimos nuestro viaje en autocaravana. Ésta vez visitamos el \"Parque Warner\" en Madrid. Conócelo junto a nosotros en estas fechas navideñas y valora."
 videoId: "FD6e4D5OQKY"
 publishedAt: "2022-01-06"
 categoria: "navidad-regalos"

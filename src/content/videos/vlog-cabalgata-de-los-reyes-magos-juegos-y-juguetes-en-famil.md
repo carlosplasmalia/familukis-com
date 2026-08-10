@@ -2,7 +2,7 @@
 title: "Vlog CABALGATA DE LOS REYES MAGOS // Juegos y Juguetes en Familia"
 seoTitle: "Vlog CABALGATA DE LOS REYES MAGOS // Juegos y Juguetes en Familia"
 description: "Descubre la noche de Reyes Magos de Juegos y Juguetes en familia. Un Vlog en el que hemos conocido de cerca a los Reyes Magos de Oriente y en que Carlos, Aroa y Óliver abren algunos de sus regalos ¿Te lo vas a perder? Esperamos que os guste el vídeo familukis."
-seoDescription: "Descubre la noche de Reyes Magos de Juegos y Juguetes en familia. Un Vlog en el que hemos conocido de cerca a los Reyes Magos de Oriente y en que..."
+seoDescription: "Descubre la noche de Reyes Magos de Juegos y Juguetes en familia. Un Vlog en el que hemos conocido de cerca a los Reyes Magos de Oriente y en que."
 videoId: "8onU8KZ2o00"
 publishedAt: "2017-01-10"
 categoria: "navidad-regalos"

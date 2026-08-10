@@ -2,7 +2,7 @@
 title: "VLOGMAS ¿Que hacer en NAVIDADES 2019? Feria + pista de hielo // Turismo Navideño"
 seoTitle: "VLOGMAS ¿Que hacer en NAVIDADES 2019? Feria + pista de hielo..."
 description: "Nos encanta la #Navidad2019 y hacer #Vlogmas en familia para daros ideas de de donde ir con niños. Hoy visitamos dos pueblos Malagueños que han teñido sus calles de navidad, Fuengirola y Benalmádena. Hemos visitado un mercadillo navideño, patinado sobre hielo, visitado un feria y acabamos tomando ch."
-seoDescription: "Nos encanta la #Navidad2019 y hacer #Vlogmas en familia para daros ideas de de donde ir con niños. Hoy visitamos dos pueblos Malagueños que han teñido..."
+seoDescription: "Nos encanta la #Navidad2019 y hacer #Vlogmas en familia para daros ideas de de donde ir con niños. Hoy visitamos dos pueblos Malagueños que han teñido."
 videoId: "a-XZmvpq4rQ"
 publishedAt: "2019-12-03"
 categoria: "navidad-regalos"

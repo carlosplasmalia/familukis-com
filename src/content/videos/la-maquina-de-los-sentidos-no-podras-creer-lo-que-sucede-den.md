@@ -2,7 +2,7 @@
 title: "¡La MÁQUINA de los SENTIDOS ! NO  podrás creer lo que sucede dentro."
 seoTitle: "La MÁQUINA de los SENTIDOS ! NO podrás creer lo que sucede..."
 description: "Mamiluki ha fabricado la maquina de los sentidos con ruleta ¿Queréis ver cómo funciona? ¡Descúbrelo y dale al play! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "Mamiluki ha fabricado la maquina de los sentidos con ruleta ¿Queréis ver cómo funciona? ¡Descúbrelo y dale al play! El mejor regalo para un Familuki..."
+seoDescription: "Mamiluki ha fabricado la maquina de los sentidos con ruleta ¿Queréis ver cómo funciona? ¡Descúbrelo y dale al play! El mejor regalo para un Familuki."
 videoId: "a-Hw50pSmkg"
 publishedAt: "2018-09-14"
 categoria: "para-ninos"

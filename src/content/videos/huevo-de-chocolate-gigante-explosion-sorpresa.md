@@ -2,7 +2,7 @@
 title: "HUEVO DE CHOCOLATE GIGANTE  🎉 // ¡EXPLOSIÓN SORPRESA!"
 seoTitle: "HUEVO DE CHOCOLATE GIGANTE // ¡EXPLOSIÓN SORPRESA"
 description: "¿No sabes cómo hacer un huevo kinder gigante? Pues nosotros tampoco... Pero nos lo hemos pasado en grande pringándonos de chocolate. Y es que  no existe mejor manera de pasar el tiempo en familia que haciendo cosas divertidas. ¿Te atreves a hacer un huevo kinder gigante? Pues esperamos que os salga."
-seoDescription: "¿No sabes cómo hacer un huevo kinder gigante? Pues nosotros tampoco... Pero nos lo hemos pasado en grande pringándonos de chocolate. Y es que no existe..."
+seoDescription: "¿No sabes cómo hacer un huevo kinder gigante? Pues nosotros tampoco... Pero nos lo hemos pasado en grande pringándonos de chocolate. Y es que no existe."
 videoId: "3ERyFKjQVyM"
 publishedAt: "2016-03-25"
 categoria: "para-ninos"

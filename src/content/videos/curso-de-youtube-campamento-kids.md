@@ -2,7 +2,7 @@
 title: "CURSO DE YOUTUBE // Campamento Kids"
 seoTitle: "CURSO DE YOUTUBE // Campamento Kids"
 description: "¿Te gustaría ser Youtuber? ¿Si? Pues hemos descubierto la academia para niños Youtubers y hemos colaborado en el vídeo promocional de su curso de youtube. ¿Eres de la zona sur de Madrid y quieres aprender cómo es un set de rodaje? ¿Quieres aprender el manejo de cámaras, iluminación y sonido? ¿Te gus."
-seoDescription: "¿Te gustaría ser Youtuber? ¿Si? Pues hemos descubierto la academia para niños Youtubers y hemos colaborado en el vídeo promocional de su curso de..."
+seoDescription: "¿Te gustaría ser Youtuber? ¿Si? Pues hemos descubierto la academia para niños Youtubers y hemos colaborado en el vídeo promocional de su curso de."
 videoId: "azDcwnBqHiU"
 publishedAt: "2016-10-07"
 categoria: "para-ninos"

@@ -2,7 +2,7 @@
 title: "RETO NAVIDEÑO Martina VS Familukis ¿Quien ganará?"
 seoTitle: "RETO NAVIDEÑO Martina VS Familukis ¿Quien ganará"
 description: "¿Te gustan los retos de navidad? Hoy nos enfrentamos al canal \"La diversión de Martina\" en una Gymkana navideña con diferentes pruebas ¡Descúbrelo familuki! No olvides pasarte por el canal de Martina: El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "¿Te gustan los retos de navidad? Hoy nos enfrentamos al canal \"La diversión de Martina\" en una Gymkana navideña con diferentes pruebas ¡Descúbrelo..."
+seoDescription: "¿Te gustan los retos de navidad? Hoy nos enfrentamos al canal \"La diversión de Martina\" en una Gymkana navideña con diferentes pruebas ¡Descúbrelo."
 videoId: "yjXwBP6ieY0"
 publishedAt: "2018-12-14"
 categoria: "navidad-regalos"

@@ -2,7 +2,7 @@
 title: "24 HORAS FOTOS TUMBLR  en el PARQUE DE ATRACCIONES 🎢de STRANGER THINGS// En familia"
 seoTitle: "24 HORAS FOTOS TUMBLR en el PARQUE DE ATRACCIONES de STRANGER..."
 description: "Hoy visitamos un parque de atracciones durante todo el día para hacer una sesión de fotos Tumblr a lo Strangrer Things ¿Te animas a descubrirlo con nosotros? ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy visitamos un parque de atracciones durante todo el día para hacer una sesión de fotos Tumblr a lo Strangrer Things ¿Te animas a descubrirlo con..."
+seoDescription: "Hoy visitamos un parque de atracciones durante todo el día para hacer una sesión de fotos Tumblr a lo Strangrer Things ¿Te animas a descubrirlo con."
 videoId: "42ht_qz5mmw"
 publishedAt: "2019-10-29"
 categoria: "parques-atracciones"

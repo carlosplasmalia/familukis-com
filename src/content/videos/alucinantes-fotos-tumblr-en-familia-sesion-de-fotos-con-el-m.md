@@ -2,7 +2,7 @@
 title: "ALUCINANTES fotos TUMBLR en FAMILIA ¡¡Sesión de fotos con él móvil!!"
 seoTitle: "ALUCINANTES fotos TUMBLR en FAMILIA ¡¡Sesión de fotos con él..."
 description: "Hola familukis. Hoy cada miembro de la familia se convierte en fotógrafo y planteará fotos navideñas para hacer en familia ¿Quién hará la mejor foto? Henos hecho las mejores fotos con el móvil  en casa. El mejor robot aspirador está aquí: ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hola familukis. Hoy cada miembro de la familia se convierte en fotógrafo y planteará fotos navideñas para hacer en familia ¿Quién hará la mejor foto?..."
+seoDescription: "Hola familukis. Hoy cada miembro de la familia se convierte en fotógrafo y planteará fotos navideñas para hacer en familia ¿Quién hará la mejor foto?"
 videoId: "nZE3cSc43EI"
 publishedAt: "2021-12-21"
 categoria: "para-ninos"

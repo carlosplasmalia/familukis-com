@@ -2,7 +2,7 @@
 title: "CANTAMOS LIKE con LA DIVERSION DE MARTINA // Familukis"
 seoTitle: "CANTAMOS LIKE con LA DIVERSION DE MARTINA"
 description: "Hoy ha venido a vernos nuestra amiga del canal \"La diversión de Martina\" y hemos cantado junto a ella su canción \"Like\". También os enseñamos el montaje de nuestra cabaña ¡Descúbrelo! Descubre mano mano:."
-seoDescription: "Hoy ha venido a vernos nuestra amiga del canal \"La diversión de Martina\" y hemos cantado junto a ella su canción \"Like\". También os enseñamos el..."
+seoDescription: "Hoy ha venido a vernos nuestra amiga del canal \"La diversión de Martina\" y hemos cantado junto a ella su canción \"Like\". También os enseñamos el."
 videoId: "2bwFJmEV_Zs"
 publishedAt: "2019-04-09"
 categoria: "para-ninos"

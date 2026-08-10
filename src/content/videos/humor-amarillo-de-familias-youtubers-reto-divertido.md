@@ -2,7 +2,7 @@
 title: "HUMOR Amarillo de FAMILIAS YOUTUBERS// Reto DIVERTIDO"
 seoTitle: "HUMOR Amarillo de FAMILIAS YOUTUBERS// Reto DIVERTIDO"
 description: "De los creadores de no caigas en la piscina incorrecta o no empujes la caja incorrecta, llega un nuevo reto de humor amarillo de Youtubers ideal para toda la familia!."
-seoDescription: "De los creadores de no caigas en la piscina incorrecta o no empujes la caja incorrecta, llega un nuevo reto de humor amarillo de Youtubers ideal para..."
+seoDescription: "De los creadores de no caigas en la piscina incorrecta o no empujes la caja incorrecta, llega un nuevo reto de humor amarillo de Youtubers ideal para."
 videoId: "yXteF404j14"
 publishedAt: "2019-05-03"
 categoria: "retos-challenges"

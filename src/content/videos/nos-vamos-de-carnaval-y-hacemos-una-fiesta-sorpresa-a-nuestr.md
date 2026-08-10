@@ -2,7 +2,7 @@
 title: "NOS VAMOS DE CARNAVAL y HACEMOS una FIESTA SORPRESA a nuestro amigo"
 seoTitle: "NOS VAMOS DE CARNAVAL y HACEMOS una FIESTA SORPRESA a nuestro..."
 description: "Hoy nos disfrazamos y vamos a una fiesta donde vamos a hacer juegos muy divertidos. Apúntate a nuestro carnaval 2020 ¡Dale al play! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy nos disfrazamos y vamos a una fiesta donde vamos a hacer juegos muy divertidos. Apúntate a nuestro carnaval 2020 ¡Dale al play! ¡Descubre nuestro..."
+seoDescription: "Hoy nos disfrazamos y vamos a una fiesta donde vamos a hacer juegos muy divertidos. Apúntate a nuestro carnaval 2020 ¡Dale al play! ¡Descubre nuestro."
 videoId: "WRCBAskOOtE"
 publishedAt: "2020-02-28"
 categoria: "para-ninos"

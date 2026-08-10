@@ -2,7 +2,7 @@
 title: "CONSTRUIMOS una CASITA de MADERA 🏠¡¡CON PISCINA!!💦"
 seoTitle: "CONSTRUIMOS una CASITA de MADERA ¡¡CON PISCINA"
 description: "Nuestros padres han construido una casita de de madera con piscina ¡Descubre la cabaña de madera para niños más increíble que se ha visto! descubre ni casita de madera. Encuentra todo lo que necesitas en."
-seoDescription: "Nuestros padres han construido una casita de de madera con piscina ¡Descubre la cabaña de madera para niños más increíble que se ha visto! descubre ni..."
+seoDescription: "Nuestros padres han construido una casita de de madera con piscina ¡Descubre la cabaña de madera para niños más increíble que se ha visto! descubre ni."
 videoId: "zm0SQoeC0Zc"
 publishedAt: "2019-05-24"
 categoria: "para-ninos"

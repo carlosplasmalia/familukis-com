@@ -2,7 +2,7 @@
 title: "VISITAMOS LA FÁBRICA DE PAPÁ NOEL EN SESEÑA // Juegos y Juguetes en Familia"
 seoTitle: "VISITAMOS LA FÁBRICA DE PAPÁ NOEL EN SESEÑA // Juegos y..."
 description: "Hoy os queremos enseñar la fábrica de Papá Noel en su fábrica de Seseña (Toledo) Carlitos, Aroa y Óliver fueron muy emocionados a visitar a Papá Noel. En la fábrica de Santa Claus conocimos a los Elfos, que son muy simpáticos y trabajadores. Tambien vimos montones de regalos listos para ser repartid."
-seoDescription: "Hoy os queremos enseñar la fábrica de Papá Noel en su fábrica de Seseña (Toledo) Carlitos, Aroa y Óliver fueron muy emocionados a visitar a Papá Noel...."
+seoDescription: "Hoy os queremos enseñar la fábrica de Papá Noel en su fábrica de Seseña (Toledo) Carlitos, Aroa y Óliver fueron muy emocionados a visitar a Papá Noel."
 videoId: "ui3wyjDHIy0"
 publishedAt: "2016-12-23"
 categoria: "navidad-regalos"

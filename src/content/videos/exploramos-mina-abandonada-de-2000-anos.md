@@ -2,7 +2,7 @@
 title: "Exploramos MINA ABANDONADA de 2000 Años."
 seoTitle: "Exploramos MINA ABANDONADA de 2000 Años."
 description: "¡La aventura familiar más increíble que hemos vivido! Nos adentramos en la misteriosa Cueva de Villacampa en Noblejas, una mina romana de más de 2000 años de antigüedad, donde vivimos una experiencia única junto a Óliver. 🦇 Lo que encontramos dentro nos dejó sin palabras: ✅ Un tesoro de Geocaching q."
-seoDescription: "¡La aventura familiar más increíble que hemos vivido! Nos adentramos en la misteriosa Cueva de Villacampa en Noblejas, una mina romana de más de 2000..."
+seoDescription: "¡La aventura familiar más increíble que hemos vivido! Nos adentramos en la misteriosa Cueva de Villacampa en Noblejas, una mina romana de más de 2000."
 videoId: "b2t2562yFAQ"
 publishedAt: "2025-09-24"
 categoria: "para-ninos"

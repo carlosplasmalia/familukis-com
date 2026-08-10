@@ -2,7 +2,7 @@
 title: "IMITANDO FOTOS ANTIGUAS 📸de PEQUEÑOS en FAMILIA"
 seoTitle: "IMITANDO FOTOS ANTIGUAS de PEQUEÑOS en FAMILIA"
 description: "Hoy hacemos un viaje al pasado e intentamos recrear fotos antiguas de cuando los niños eran un poco más pequeños. Os invitamos a probar esta actividad en familia con vuestros hijos ¡Es divertidísimo! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy hacemos un viaje al pasado e intentamos recrear fotos antiguas de cuando los niños eran un poco más pequeños. Os invitamos a probar esta actividad..."
+seoDescription: "Hoy hacemos un viaje al pasado e intentamos recrear fotos antiguas de cuando los niños eran un poco más pequeños. Os invitamos a probar esta actividad."
 videoId: "fKGeP7RUAUM"
 publishedAt: "2020-06-30"
 categoria: "vacaciones-familia"

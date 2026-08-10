@@ -2,7 +2,7 @@
 title: "Abriendo REGALOS  🎁 de los REYES MAGOS  magos 2022 // Familukis"
 seoTitle: "Abriendo REGALOS de los REYES MAGOS magos 2022"
 description: "Hola familias. Hoy abrimos nuestros regalos de reyes 2022  y además visitamos la cabalgata estática de Vélez Málaga en nuestra casa rodante o Autocaravana ¿Te unes a nuestra aventura? ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hola familias. Hoy abrimos nuestros regalos de reyes 2022 y además visitamos la cabalgata estática de Vélez Málaga en nuestra casa rodante o..."
+seoDescription: "Hola familias. Hoy abrimos nuestros regalos de reyes 2022 y además visitamos la cabalgata estática de Vélez Málaga en nuestra casa rodante o."
 videoId: "5LbCnFk60ow"
 publishedAt: "2022-01-19"
 categoria: "navidad-regalos"

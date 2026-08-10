@@ -2,7 +2,7 @@
 title: "Saltos EN LA PISCINA CUBIERTA + Abrimos REGALO azul SOLIDARIO FUNDAME"
 seoTitle: "Saltos EN LA PISCINA CUBIERTA + Abrimos REGALO azul SOLIDARIO..."
 description: "Nos ha encantado viajar a conoceros en la gira de la firma de nuestro libro y además hemos abierto un montón de regalos originales entre ellos un regalo azul solidario de la fundación FUNDAME contra la atrofia muscular espinal 👉 También ha habido tiempo para el juego en este viaje y hemos realizado."
-seoDescription: "Nos ha encantado viajar a conoceros en la gira de la firma de nuestro libro y además hemos abierto un montón de regalos originales entre ellos un..."
+seoDescription: "Nos ha encantado viajar a conoceros en la gira de la firma de nuestro libro y además hemos abierto un montón de regalos originales entre ellos un."
 videoId: "S6JtKBcjbnU"
 publishedAt: "2019-11-26"
 categoria: "camping-naturaleza"

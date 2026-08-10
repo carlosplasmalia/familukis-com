@@ -2,7 +2,7 @@
 title: "COMO hacer HUERTO urbano ECOLÓGICO en CASA en FAMILIA ¡¡NO SALIMOS DE CASA!!"
 seoTitle: "COMO hacer HUERTO urbano ECOLÓGICO en CASA en FAMILIA ¡¡NO..."
 description: "¿Estáis encerrados en casa? Hoy os enseñamos a hacer vuestro primer huerto urbano en casa. Una actividad ideal, divertida y sana para cultivar tu propia comida. Además sabréis que sembrar en el mes de febrero. ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Estáis encerrados en casa? Hoy os enseñamos a hacer vuestro primer huerto urbano en casa. Una actividad ideal, divertida y sana para cultivar tu..."
+seoDescription: "¿Estáis encerrados en casa? Hoy os enseñamos a hacer vuestro primer huerto urbano en casa. Una actividad ideal, divertida y sana para cultivar tu."
 videoId: "EiWG8nhhBAE"
 publishedAt: "2021-02-09"
 categoria: "para-ninos"

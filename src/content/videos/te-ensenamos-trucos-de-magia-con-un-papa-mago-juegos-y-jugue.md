@@ -2,7 +2,7 @@
 title: "TE ENSEÑAMOS TRUCOS DE MAGIA CON UN PAPÁ MAGO // Juegos y Juguetes en Familia"
 seoTitle: "TE ENSEÑAMOS TRUCOS DE MAGIA CON UN PAPÁ MAGO // Juegos y..."
 description: "¿Te gusta la magia? Descúbre unos trucos fáciles de la mano de un papá mago. Esperamos que disfrutéis de estos trucos faciles. Queremos agradecer a un papá mago la oportunidad que nos ha dado para hacer este Vlog en familia."
-seoDescription: "¿Te gusta la magia? Descúbre unos trucos fáciles de la mano de un papá mago. Esperamos que disfrutéis de estos trucos faciles. Queremos agradecer a un..."
+seoDescription: "¿Te gusta la magia? Descúbre unos trucos fáciles de la mano de un papá mago. Esperamos que disfrutéis de estos trucos faciles. Queremos agradecer a un."
 videoId: "znP6XX9FAAU"
 publishedAt: "2017-05-23"
 categoria: "para-ninos"

@@ -2,7 +2,7 @@
 title: "Adoptamos ¡NUEVOS Bebés GATITOS! 🐈 🐈‍⬛  ¿Quieres uno?"
 seoTitle: "Adoptamos ¡NUEVOS Bebés GATITOS! ¿Quieres uno"
 description: "¿Te gustan los vídeos de gatitos? ¿Quieres ver nuestros nueva camada de bebés gatitos? ¿Te gustaría tener uno? ¡Dale al play y descubre cómo adoptar un bebé gatito de los familukis! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te gustan los vídeos de gatitos? ¿Quieres ver nuestros nueva camada de bebés gatitos? ¿Te gustaría tener uno? ¡Dale al play y descubre cómo adoptar un..."
+seoDescription: "¿Te gustan los vídeos de gatitos? ¿Quieres ver nuestros nueva camada de bebés gatitos? ¿Te gustaría tener uno? ¡Dale al play y descubre cómo adoptar un."
 videoId: "qGpGL9V9ti0"
 publishedAt: "2021-06-04"
 categoria: "para-ninos"

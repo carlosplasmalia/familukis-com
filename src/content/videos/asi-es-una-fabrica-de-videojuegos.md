@@ -2,7 +2,7 @@
 title: "Así es una Fábrica de Videojuegos"
 seoTitle: "Así es una Fábrica de Videojuegos"
 description: "Hoy visitamos las oficinas de Evad y su escuela de videojuegos. Un lugar alucinante donde hemos pasado un día increíble en familia. Vente a descubrir cómo ser un creador de videojuegos de PlayStation y los mejores estudios de videojuegos. Conviértete en miembro de este canal para disfrutar de ventaj."
-seoDescription: "Hoy visitamos las oficinas de Evad y su escuela de videojuegos. Un lugar alucinante donde hemos pasado un día increíble en familia. Vente a descubrir..."
+seoDescription: "Hoy visitamos las oficinas de Evad y su escuela de videojuegos. Un lugar alucinante donde hemos pasado un día increíble en familia. Vente a descubrir."
 videoId: "2OGu-IpLkQA"
 publishedAt: "2024-02-02"
 categoria: "para-ninos"

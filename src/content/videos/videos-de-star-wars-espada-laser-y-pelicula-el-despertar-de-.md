@@ -2,7 +2,7 @@
 title: "Videos De Star Wars // ESPADA LASER Y PELÍCULA EL DESPERTAR DE LA FUERZA."
 seoTitle: "Videos De Star Wars // ESPADA LASER Y PELÍCULA EL DESPERTAR..."
 description: "Hoy os queremos mostrar una nueva aventura. Nos hemos ido al cine a ver la película de Star Wars episodio 7 El despertar de la fuerza, pero no sin antes pasarnos a comprar una espada láser como buenos caballeros Jedi. Para nuestra sorpresa en el camino vimos a un personaje que seguro que os sonará."
-seoDescription: "Hoy os queremos mostrar una nueva aventura. Nos hemos ido al cine a ver la película de Star Wars episodio 7 El despertar de la fuerza, pero no sin..."
+seoDescription: "Hoy os queremos mostrar una nueva aventura. Nos hemos ido al cine a ver la película de Star Wars episodio 7 El despertar de la fuerza, pero no sin."
 videoId: "zAcHVqhAZ1k"
 publishedAt: "2015-12-20"
 categoria: "para-ninos"

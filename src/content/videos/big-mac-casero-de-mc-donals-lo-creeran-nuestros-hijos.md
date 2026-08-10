@@ -2,7 +2,7 @@
 title: "BIG MAC ¡¡CASERO!! de Mc Donals ¿Lo creerán NUESTROS HIJOS?"
 seoTitle: "BIG MAC ¡¡CASERO!! de Mc Donals ¿Lo creerán NUESTROS HIJOS"
 description: "Hoy creamos desde casa una de las hamburguesas más famosas del planeta el \"Big Mac\" de Mc Donal´s ¿Descubrirán nuestros hijos el engaño? ¿Habremos conseguido la receta de la salsa secreta del Big Mac? ¡Descúbrelo y dale al play! Receta con ingredientes aquí 👉🏻 ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy creamos desde casa una de las hamburguesas más famosas del planeta el \"Big Mac\" de Mc Donal´s ¿Descubrirán nuestros hijos el engaño? ¿Habremos..."
+seoDescription: "Hoy creamos desde casa una de las hamburguesas más famosas del planeta el \"Big Mac\" de Mc Donal´s ¿Descubrirán nuestros hijos el engaño? ¿Habremos."
 videoId: "TRmoQMJqgBQ"
 publishedAt: "2020-11-06"
 categoria: "para-ninos"

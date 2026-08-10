@@ -2,7 +2,7 @@
 title: "CABEZA MOJADA challenge o Wet Head // Juegos y Juguetes en Familia"
 seoTitle: "CABEZA MOJADA challenge o Wet Head // Juegos y Juguetes en..."
 description: "Hola familukis! Hoy queremos jugar al cabeza mojada challenge también conocido como wet head. Descúbre juegos y retos divertidos con este maravilloso juego para niños."
-seoDescription: "Hola familukis! Hoy queremos jugar al cabeza mojada challenge también conocido como wet head. Descúbre juegos y retos divertidos con este maravilloso..."
+seoDescription: "Hola familukis! Hoy queremos jugar al cabeza mojada challenge también conocido como wet head. Descúbre juegos y retos divertidos con este maravilloso."
 videoId: "oM6MV1gYvaw"
 publishedAt: "2017-07-07"
 categoria: "retos-challenges"

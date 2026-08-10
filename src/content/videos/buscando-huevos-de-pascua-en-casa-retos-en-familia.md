@@ -2,7 +2,7 @@
 title: "BUSCANDO ¡HUEVOS DE PASCUA! en CASA // Retos EN FAMILIA"
 seoTitle: "BUSCANDO ¡HUEVOS DE PASCUA! en CASA // Retos EN FAMILIA"
 description: "No podía faltar durante la pascua nuestra tradición de buscar huevos de chocolate por nuestra casa. Una actividad ideal para hacer en familia ¿Quien encontrará más? ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "No podía faltar durante la pascua nuestra tradición de buscar huevos de chocolate por nuestra casa. Una actividad ideal para hacer en familia ¿Quien..."
+seoDescription: "No podía faltar durante la pascua nuestra tradición de buscar huevos de chocolate por nuestra casa. Una actividad ideal para hacer en familia ¿Quien."
 videoId: "9aT2Rol4nM8"
 publishedAt: "2020-04-14"
 categoria: "retos-challenges"

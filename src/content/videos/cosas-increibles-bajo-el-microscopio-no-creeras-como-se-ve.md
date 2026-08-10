@@ -2,7 +2,7 @@
 title: "Cosas INCREÍBLES bajo el MICROSCOPIO 🔬NO CREERAS COMO SE VE."
 seoTitle: "Cosas INCREÍBLES bajo el MICROSCOPIO NO CREERAS COMO SE VE."
 description: "¿Quieres saber cómo es la cara de un gusano bajo el #microscopio aumentada x1000? ¿Quieres saber como de increíbles se ven cosas cotidianas al microscopio? ¡Descubre #cosasquenosabias ! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "¿Quieres saber cómo es la cara de un gusano bajo el #microscopio aumentada x1000? ¿Quieres saber como de increíbles se ven cosas cotidianas al..."
+seoDescription: "¿Quieres saber cómo es la cara de un gusano bajo el #microscopio aumentada x1000? ¿Quieres saber como de increíbles se ven cosas cotidianas al."
 videoId: "6gdZwp514xQ"
 publishedAt: "2018-10-05"
 categoria: "para-ninos"

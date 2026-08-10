@@ -2,7 +2,7 @@
 title: "IDEAS para CUMPLEAÑOS con C🦠VID ¡FIESTA de CUMPLEAÑOS en casa EN FAMILIA!"
 seoTitle: "IDEAS para CUMPLEAÑOS con CVID ¡FIESTA de CUMPLEAÑOS en casa..."
 description: "Hoy celebramos el cumpleaños de Óliver y os damos alguna idea de Juegos para hacer en casa en estos días tan difíciles para nuestros pequeños. Entra y diviértete en nuestra fiesta de cumpleaños ¿Te apuntas? ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy celebramos el cumpleaños de Óliver y os damos alguna idea de Juegos para hacer en casa en estos días tan difíciles para nuestros pequeños. Entra y..."
+seoDescription: "Hoy celebramos el cumpleaños de Óliver y os damos alguna idea de Juegos para hacer en casa en estos días tan difíciles para nuestros pequeños. Entra y."
 videoId: "4zKyznswLl0"
 publishedAt: "2021-03-23"
 categoria: "vlogs-familia"

@@ -2,7 +2,7 @@
 title: "JUEGO COCODRILO QUE MUERDE // Cocodrilo sacamuelas // cocodrilo dentista."
 seoTitle: "JUEGO COCODRILO QUE MUERDE // Cocodrilo sacamuelas //..."
 description: "¿Donde encontrar el juego cocodrilo sacamuelas? Aquí: Hoy en juegos y juguetes en familia os queremos enseñar el juego de cocodrilo sacamuelas, también llamado cocodrilo dentista o Croco Doc Dentist. Pero hemos hecho algo un poco más épico y nos hemos atrevido a jugar sin las pinzas de dentista. El."
-seoDescription: "¿Donde encontrar el juego cocodrilo sacamuelas? Aquí: Hoy en juegos y juguetes en familia os queremos enseñar el juego de cocodrilo sacamuelas, también..."
+seoDescription: "¿Donde encontrar el juego cocodrilo sacamuelas? Aquí: Hoy en juegos y juguetes en familia os queremos enseñar el juego de cocodrilo sacamuelas, también."
 videoId: "CQT6PFYMDws"
 publishedAt: "2016-01-07"
 categoria: "para-ninos"

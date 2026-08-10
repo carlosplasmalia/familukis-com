@@ -2,7 +2,7 @@
 title: "NOS MUDAMOS a un ¡¡CASTILLO con PISCINA! Vacaciones ORIGINALES en FAMILIA"
 seoTitle: "NOS MUDAMOS a un ¡¡CASTILLO con PISCINA! Vacaciones..."
 description: "¿Te gustaría saber cómo vivimos en el castillo de monda durante 5 días? Hoy os mostramos un alojamiento singular para relajarse en familia ¡Vacaciones en un castillo con piscina! ¿Quieres hacer le house tour con nosotros? ¡Dale al play! ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "¿Te gustaría saber cómo vivimos en el castillo de monda durante 5 días? Hoy os mostramos un alojamiento singular para relajarse en familia ¡Vacaciones..."
+seoDescription: "¿Te gustaría saber cómo vivimos en el castillo de monda durante 5 días? Hoy os mostramos un alojamiento singular para relajarse en familia ¡Vacaciones."
 videoId: "LUKC2XXtIOA"
 publishedAt: "2021-07-27"
 categoria: "vacaciones-familia"

@@ -2,7 +2,7 @@
 title: "Nos llega CAJA con sorepresas 👶🏻  // Juegos y Juguetes en Familia"
 seoTitle: "Nos llega CAJA con sorepresas // Juegos y Juguetes en Familia"
 description: "¿Quieres probar dulces AMERICANOS? Nosotros los hemos probado con nuestro bebé Óliver ¿Quieres ver nuestra reacción? ¡Pues dale al Play! Consigue nuestros dulces aquí: Síguenos en instagram:."
-seoDescription: "¿Quieres probar dulces AMERICANOS? Nosotros los hemos probado con nuestro bebé Óliver ¿Quieres ver nuestra reacción? ¡Pues dale al Play! Consigue..."
+seoDescription: "¿Quieres probar dulces AMERICANOS? Nosotros los hemos probado con nuestro bebé Óliver ¿Quieres ver nuestra reacción? ¡Pues dale al Play! Consigue."
 videoId: "OdR9hYzAVFs"
 publishedAt: "2017-11-10"
 categoria: "para-ninos"

@@ -2,7 +2,7 @@
 title: "Jenga GIGANTE Extremo // Retamos a una FAMILIA YOUTUBER ¿Quien será?"
 seoTitle: "Jenga GIGANTE Extremo // Retamos a una FAMILIA YOUTUBER..."
 description: "¡Hola Familukis! Hoy os traemos Jenga GIGANTE extremo. Un Juego de mesa para niños al que hemos añadido algunas nuevas reglas ¿Te vienes a jugar al Jenga Gigante con nosotros? Tambien hemos querido retar a una familia a la que admiramos muchísimo ellos son ¡Familia Carameluchi! ¿Aceptarán el reto? V."
-seoDescription: "¡Hola Familukis! Hoy os traemos Jenga GIGANTE extremo. Un Juego de mesa para niños al que hemos añadido algunas nuevas reglas ¿Te vienes a jugar al..."
+seoDescription: "¡Hola Familukis! Hoy os traemos Jenga GIGANTE extremo. Un Juego de mesa para niños al que hemos añadido algunas nuevas reglas ¿Te vienes a jugar al."
 videoId: "78slyWIhPRE"
 publishedAt: "2017-09-29"
 categoria: "para-ninos"

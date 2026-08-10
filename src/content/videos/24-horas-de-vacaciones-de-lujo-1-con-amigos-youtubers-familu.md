@@ -2,7 +2,7 @@
 title: "24 HORAS de VACACIONES de Lujo #1 con amigos youtubers// Familukis"
 seoTitle: "24 HORAS de VACACIONES de Lujo #1 con amigos youtubers"
 description: "Nos hemos ido de vacaciones de lujo junto a Jordi y Bego de \"Momentos divertidos\", Marta de \"Como se hace\" y nuestros amigos \"Los Jaritos\". Bienvenidos a este primer vídeo patrocinado por Aranviajes donde encontrarás una guía perfecta para realizar turismo de aventura en familia. ¡Descubre más! 👉👉👉."
-seoDescription: "Nos hemos ido de vacaciones de lujo junto a Jordi y Bego de \"Momentos divertidos\", Marta de \"Como se hace\" y nuestros amigos \"Los Jaritos\"...."
+seoDescription: "Nos hemos ido de vacaciones de lujo junto a Jordi y Bego de \"Momentos divertidos\", Marta de \"Como se hace\" y nuestros amigos \"Los Jaritos\"."
 videoId: "Mo6G8k96C6I"
 publishedAt: "2019-04-19"
 categoria: "vacaciones-familia"

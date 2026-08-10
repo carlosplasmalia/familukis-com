@@ -2,7 +2,7 @@
 title: "Así es el JARDÍN de luces + IMPRESIONANTE de ..."
 seoTitle: "Así es el JARDÍN de luces + IMPRESIONANTE de ..."
 description: "Hoy descubriremos un lugar ideal para hacer fotografía y disfrutar en familia en el Jardín Botánico de la Concepción. Además nos acompañaréis en las compras navideñas ¿Te unes a la mágia de la navidad? ¡Descubre nuestro cómic!📚👉🏻."
-seoDescription: "Hoy descubriremos un lugar ideal para hacer fotografía y disfrutar en familia en el Jardín Botánico de la Concepción. Además nos acompañaréis en las..."
+seoDescription: "Hoy descubriremos un lugar ideal para hacer fotografía y disfrutar en familia en el Jardín Botánico de la Concepción. Además nos acompañaréis en las."
 videoId: "XSz31q1PT24"
 publishedAt: "2021-12-14"
 categoria: "navidad-regalos"

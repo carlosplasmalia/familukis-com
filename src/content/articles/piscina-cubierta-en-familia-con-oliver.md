@@ -8,6 +8,14 @@ categoria: "parques-acuaticos"
 tags: ["Familukis", "Piscina cubierta", "Día en familia", "Oliver", "Juegos acuáticos"]
 relatedVideoIds: ["8e_TIAyw42g"]
 featured: false
+rating: 4.0
+faqs:
+  - q: "¿A partir de qué edad pueden ir los bebés a una piscina cubierta?"
+    a: "Los bebés pueden ir a piscinas cubiertas a partir de los 3-4 meses si el agua está a temperatura adecuada (mínimo 30°C para bebés). Hay que asegurarse de que la piscina tenga zona de bebés con profundidad mínima y temperatura controlada."
+  - q: "¿Qué diferencia hay entre una piscina cubierta municipal y un centro acuático privado?"
+    a: "Las piscinas municipales son más económicas (1-4€ por persona) pero tienen menos zonas de juego y el agua puede estar más fría. Los centros acuáticos privados tienen más atracciones, toboganes interiores y agua más caliente, pero el precio es mayor (8-20€ por persona)."
+  - q: "¿Cuánto tiempo aguantan los niños en una piscina cubierta?"
+    a: "Los niños más pequeños (2-4 años) se cansan en 60-90 minutos. Los mayores de 6 años pueden aguantar 2-3 horas fácilmente. Lo más importante es sacarlos antes de que lleguen al punto de hipotermia leve (temblores, labios morados), que puede ocurrir aunque el agua esté caliente."
 ---
 
 ## Nuestro día en la piscina cubierta

@@ -2,7 +2,7 @@
 title: "1, 2, 3 ¡¡SLIME!! Juego del Slime casero // Familukis"
 seoTitle: "1, 2, 3 ¡¡SLIME!! Juego del Slime casero"
 description: "¿Te gustan los juegos de Slime? hoy os traemos 1, 2, 3 Slime ¡Si os gusta no dudéis en darle a Like! El mejor regalo para un Familuki ¡Camisetas oficiales!: Síguenos en instagram:."
-seoDescription: "¿Te gustan los juegos de Slime? hoy os traemos 1, 2, 3 Slime ¡Si os gusta no dudéis en darle a Like! El mejor regalo para un Familuki ¡Camisetas..."
+seoDescription: "¿Te gustan los juegos de Slime? hoy os traemos 1, 2, 3 Slime ¡Si os gusta no dudéis en darle a Like! El mejor regalo para un Familuki ¡Camisetas."
 videoId: "s5a5ZXfjNb0"
 publishedAt: "2018-06-05"
 categoria: "retos-challenges"
