@@ -8,6 +8,14 @@ categoria: "parques-acuaticos"
 tags: ["Parque Acuático", "Verano", "Diversión en Casa", "Juegos de Agua", "Familukis"]
 relatedVideoIds: ["wBRtPcPFzRI"]
 featured: false
+lastModified: "2026-08-10"
+faqs:
+  - q: "¿Qué necesito para montar un parque acuático en casa?"
+    a: "Lo básico es un castillo hinchable con tobogán de agua o piscina desmontable, un inflador eléctrico (inflar a mano es agotador), manguera de jardín y protector solar. Para completarlo: pistolas de agua, globos de agua y algún juguete acuático. Con un presupuesto de 50-100€ puedes montar algo que entretiene a los niños toda la tarde."
+  - q: "¿A partir de qué edad se puede usar un castillo hinchable con agua?"
+    a: "La mayoría de castillos hinchables están recomendados a partir de 3 años. Los toboganes acuáticos para niños pequeños tienen altura de caída corta y pendiente suave. Para menores de 3 años es mejor una piscina de bolas o piscina pequeña con poca profundidad y supervisión constante. Siempre revisar las indicaciones de peso y edad del fabricante."
+  - q: "¿Cuánto cuesta montar un parque acuático casero?"
+    a: "Un castillo hinchable básico con tobogán de agua cuesta entre 40 y 80€ en portales de bricolaje o juguetería online. Los accesorios (pistolas de agua, globos) suman otros 10-20€. Si ya tienes una piscina desmontable en casa, el coste puede reducirse mucho. La inversión merece la pena si lo vais a usar varios veranos."
 ---
 
 ## Nuestro verano en casa
