@@ -1,8 +1,8 @@
 ---
 title: "Parque Warner Madrid con niños: guía completa desde nuestra experiencia"
-seoTitle: "Parque Warner Madrid con Niños : Guía Completa Familukis 2026"
+seoTitle: "Parque Warner Madrid con Niños: Lo Que Nadie Cuenta Antes de Ir (2026)"
 description: "Todo lo que necesitas saber antes de ir a Parque Warner con niños: qué atracciones merecen la pena según la edad, cómo organizarlo, alturas mínimas y si vale el precio."
-seoDescription: "Guía de Parque Warner Madrid con niños: atracciones por edades, precios, entradas más baratas, qué llevar y cómo aprovechar el día al máximo con toda la familia."
+seoDescription: "Cuatro niños, un día entero en Warner. Qué merece la cola y qué no, cómo pagar menos y si es mejor ir en verano o esperar a septiembre."
 date: "2026-06-25"
 categoria: "parques-atracciones"
 tags: ["parque warner", "madrid", "parque de atracciones", "niños", "atracciones", "san martín de la vega", "warner beach", "DC superheroes"]
