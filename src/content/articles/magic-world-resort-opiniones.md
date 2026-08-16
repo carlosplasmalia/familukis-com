@@ -9,8 +9,8 @@ tags: ["magic world resort", "opiniones", "resort familiar", "oropesa del mar", 
 relatedVideoIds: ["MNS6NZl2pjI", "UOt1plTwQK0", "i-HxTZZRAgQ", "Uhp-CIretuw"]
 featured: true
 rating: 4.5
-reviewCount: 1
-lastModified: "2026-06-26"
+reviewCount: 3414
+lastModified: "2026-08-16"
 faqs:
   - q: "¿Merece la pena Magic World Resort con niños?"
     a: "Sí, especialmente para familias con niños de 3 a 14 años. La combinación de hotel, parque acuático, parque de atracciones y animación incluida en el precio es difícil de igualar. No es el resort más lujoso de España, pero la comodidad de tenerlo todo en un mismo recinto es su gran ventaja."
@@ -123,6 +123,44 @@ Como embajadores de Magic World Resort, tenemos un **código de descuento exclus
 > **Código: MAGICLOSFAMILUKIS**
 
 Aplícalo al hacer tu reserva en la web oficial de Magic World Resort. El descuento se aplica sobre la tarifa estándar de la estancia.
+
+## Lo que dice Google: 3.414 familias han opinado
+
+Magic World Resort tiene **3,7 sobre 5 en Google** con más de 3.400 reseñas. Un 3,7 sobre una base tan grande dice algo concreto: la mayoría de familias tiene una experiencia correcta o buena, pero no espectacular. Y hay algo que hemos comprobado en todos los destinos familiares: quien lo pasa bien raramente escribe. Quien tiene algo que reclamar, casi siempre. Aquí van las quejas más repetidas, con lo que dicen los que vivieron lo contrario.
+
+### Quejas frecuentes — y lo que responde la mayoría
+
+<div class="review-confrontation">
+<div class="review-negative">
+<span class="stars">★</span>
+<blockquote>"Vacaciones de TERROR... falta de interés en informar en recepción, ya que todas las reservas de distintos servicios se hacen a través de su app, las habitaciones falta de mantenimiento y limpieza..."</blockquote>
+<cite>— Francis C. Reca, Google Maps</cite>
+</div>
+<div class="review-positive">
+<span class="stars">★★★★</span>
+<blockquote>"Hotel enfocado para ir con niños. La comida para mi gusto un poco pobre, pero como digo, está enfocado a niños, y ellos con patatas fritas, pasta y poco más... son felices."</blockquote>
+<cite>— Saray Fernández, Google Maps</cite>
+</div>
+</div>
+
+<div class="review-confrontation">
+<div class="review-negative">
+<span class="stars">★</span>
+<blockquote>"Cuando llegamos eran los viajes de fin de curso de los institutos y cerraron la mitad de las instalaciones solo para ellos. El ruido que generaban... no pegamos ojo. La comida repetitiva y nefasta."</blockquote>
+<cite>— Alba Cortes, Google Maps</cite>
+</div>
+<div class="review-positive">
+<span class="stars">★★★★★</span>
+<blockquote>"Hemos pasado unos días en Magic Games. Nos encantó el recibimiento. Los toboganes son espectaculares y la calidad de los buffets nos sorprendió para bien."</blockquote>
+<cite>— Jose Antonio Salazar, Google Maps</cite>
+</div>
+</div>
+
+### Nuestra lectura de estas reseñas
+
+Las dos quejas negativas son reales y concretas. La de la app y el mantenimiento es una crítica legítima que el resort tiene margen de mejorar. La de los grupos de instituto es un problema de calendario: si vas en junio coincidiendo con los viajes de fin de curso, el ambiente cambia. Nuestro consejo siempre ha sido ir en la primera quincena de julio o en septiembre, precisamente por eso.
+
+Lo que no cambia entre las 3.400 reseñas: los toboganes, la animación y la comodidad de tenerlo todo en el mismo recinto. Eso aparece en positivo una y otra vez.
 
 ## Nuestra valoración final: ¿merece la pena?
 
