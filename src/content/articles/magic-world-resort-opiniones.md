@@ -139,13 +139,13 @@ Magic World Resort es un gran complejo vacacional situado en **Oropesa del Mar, 
 
 La gran ventaja para las familias es no tener que salir del complejo: lo tienes todo a pie. Con niños pequeños, eso vale mucho.
 
-![Familia paseando entre bungalows en Magic World Resort](/blog/magic-world/magic-world-resort-familia-paseo-bungalows.webp)
+![Familia paseando entre bungalows en Magic World Resort](/blog/magic-world/magic-world-resort-familia-paseo-bungalows-v2.webp)
 
 ## Los hoteles: cuál elegir según tu familia
 
 Dentro del resort hay varios hoteles. Nosotros hemos estado en varios y te contamos las diferencias.
 
-![Habitación del hotel en Magic World Resort](/blog/magic-world/magic-world-resort-habitacion-hotel.webp)
+![Habitación del hotel en Magic World Resort](/blog/magic-world/magic-world-resort-habitacion-hotel-v2.webp)
 
 ### Hotel Magic Sport (el más familiar)
 
@@ -163,9 +163,9 @@ Para familias que también buscan relax de adultos, el **Hotel Pontiana Thalasso
 
 El parque acuático de Magic World Resort es **el punto fuerte del resort en verano**. Tiene toboganes para distintos niveles, desde los más suaves para los peques hasta los rápidos para los mayores, y una piscina de olas que siempre llena de niños.
 
-![Tobogán del parque acuático de Magic World Resort en Oropesa del Mar](/blog/magic-world/magic-world-resort-tobogan-parque-acuatico.webp)
+![Tobogán del parque acuático de Magic World Resort en Oropesa del Mar](/blog/magic-world/magic-world-resort-tobogan-parque-acuatico-v2.webp)
 
-![Piscina con palmeras y pantalla gigante en Magic World Resort](/blog/magic-world/magic-world-resort-piscina-palmeras.webp)
+![Piscina con palmeras y pantalla gigante en Magic World Resort](/blog/magic-world/magic-world-resort-piscina-palmeras-v2.webp)
 
 Lo que más nos gusta: el nivel de mantenimiento. El agua está siempre limpia y las instalaciones se ven bien cuidadas. Lo que mejoraría: en agosto las colas en los toboganes grandes pueden ser largas. Recomendamos llegar a primera hora y hacer los toboganes más populares antes de las 11:00.
 
@@ -181,7 +181,7 @@ Un detalle que valoramos: el parque de atracciones está incluido en la estancia
 
 ## Animación y shows: el gran valor añadido
 
-![Show de animación nocturno medieval en Magic World Resort](/blog/magic-world/magic-world-resort-show-medieval-animacion.webp)
+![Show de animación nocturno medieval en Magic World Resort](/blog/magic-world/magic-world-resort-show-medieval-animacion-v2.webp)
 
 La programación de shows y actividades es constante a lo largo del día. Desde talleres para niños por la mañana hasta espectáculos nocturnos en el anfiteatro. En nuestra experiencia, hay suficiente para que los niños estén entretenidos sin parar, lo que también da tiempo a los adultos para descansar.
 
@@ -191,7 +191,7 @@ La animación diurna (deportes acuáticos, juegos en la piscina, gymkanas) está
 
 Siendo honestos, la oferta gastronómica dentro del resort es correcta pero mejorable. Los buffets son amplios y hay opciones para todos (incluidas opciones para intolerancias), pero la calidad no destaca especialmente.
 
-![Buffet restaurante interior del Hotel Pontiana en Magic World Resort](/blog/magic-world/magic-world-resort-buffet-restaurante.webp)
+![Buffet restaurante interior del Hotel Pontiana en Magic World Resort](/blog/magic-world/magic-world-resort-buffet-restaurante-v2.webp)
 
 <div class="video-embed">
 <iframe src="https://www.youtube.com/embed/gvrpZ-AHdss" title="Gastronomía y buffet en Magic World Resort" loading="lazy" allowfullscreen></iframe>
