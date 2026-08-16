@@ -125,6 +125,22 @@ function formatViews(n: number) {
   </div>
 </section>
 
+<!-- Archivo por años -->
+<div class="wrap rows">
+  <div class="years-header"><h2>El archivo</h2></div>
+  <nav class="archive-grid" aria-label="Archivo por años">
+    {(['2015','2016','2017','2018','2019','2020','2021','2022','2023','2024','2025'] as const)
+      .filter(y => byYear(y).length > 0)
+      .map(y => (
+        <a href={`/archivo/${y}/`} class="archive-year-btn">
+          <span>📼 {y}</span>
+          <span class="archive-count">{byYear(y).length} vídeos</span>
+        </a>
+      ))
+    }
+  </nav>
+</div>
+
 <!-- FILAS -->
 <div class="wrap rows">
 
@@ -137,6 +153,9 @@ function formatViews(n: number) {
   )}
 
   <Top10Row title="Para los más nostálgicos 🏆" items={TOP10} />
+
+  <!-- Productos Amazon -->
+  <ProductRow title="Nuestra tienda" products={PRODUCTOS} />
 
   <!-- Lead capture -->
   <LeadCapture />
@@ -176,23 +195,6 @@ function formatViews(n: number) {
   {byCat('vlogs-familia').length > 0 && (
     <CategoryRow title="Vlogs de Familia" href="/categoria/vlogs-familia/" videos={toRow(byCat('vlogs-familia'))} />
   )}
-
-  <!-- Archivo por años -->
-  <div class="years-header"><h2>El archivo</h2></div>
-  <nav class="archive-grid" aria-label="Archivo por años">
-    {(['2015','2016','2017','2018','2019','2020','2021','2022','2023','2024','2025'] as const)
-      .filter(y => byYear(y).length > 0)
-      .map(y => (
-        <a href={`/archivo/${y}/`} class="archive-year-btn">
-          <span>📼 {y}</span>
-          <span class="archive-count">{byYear(y).length} vídeos</span>
-        </a>
-      ))
-    }
-  </nav>
-
-  <!-- Productos Amazon -->
-  <ProductRow title="Nuestra tienda" products={PRODUCTOS} />
 
   <!-- Blog teaser -->
   <section class="blog-teaser">
