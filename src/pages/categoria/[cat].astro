@@ -129,8 +129,12 @@ const recientes = toRow([...catVideos].sort((a,b) => b.data.publishedAt.localeCo
 const mas      = toRow(catVideos.slice(20, 60));
 const aun      = toRow(catVideos.slice(60));
 
+const HERO_OVERRIDE: Record<string, string> = {
+  'magic-world': 'knlzKT9wP9Y',
+};
 const hero = catVideos[0];
-const heroThumb = hero ? `https://img.youtube.com/vi/${hero.data.videoId}/maxresdefault.jpg` : '';
+const heroVideoId = HERO_OVERRIDE[cat] ?? hero?.data.videoId;
+const heroThumb = heroVideoId ? `https://img.youtube.com/vi/${heroVideoId}/maxresdefault.jpg` : '';
 ---
 
 <BaseLayout
