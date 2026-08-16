@@ -131,28 +131,52 @@ Magic World Resort tiene **3,7 sobre 5 en Google** con más de 3.400 reseñas. U
 ### Quejas frecuentes — y lo que responde la mayoría
 
 <div class="review-confrontation">
-<div class="review-negative">
-<span class="stars">★</span>
-<blockquote>"Vacaciones de TERROR... falta de interés en informar en recepción, ya que todas las reservas de distintos servicios se hacen a través de su app, las habitaciones falta de mantenimiento y limpieza..."</blockquote>
-<cite>— Francis C. Reca, Google Maps</cite>
+<div class="review-card negative">
+<div class="review-card-header">
+<img class="review-card-avatar" src="https://lh3.googleusercontent.com/a/ACg8ocL9UlNqR5DRi4ycIyDxjh5nFrT4vVrXvrh6Wcpwk8WYeDzOHQ=s128-c0x00000000-cc-rp-mo" alt="Francis C. Reca" loading="lazy" />
+<div class="review-card-meta">
+<span class="review-card-name">Francis C. Reca</span>
+<span class="review-card-date">Hace 1 mes · Google Maps</span>
 </div>
-<div class="review-positive">
-<span class="stars">★★★★</span>
-<blockquote>"Hotel enfocado para ir con niños. La comida para mi gusto un poco pobre, pero como digo, está enfocado a niños, y ellos con patatas fritas, pasta y poco más... son felices."</blockquote>
-<cite>— Saray Fernández, Google Maps</cite>
+</div>
+<span class="review-card-stars">★☆☆☆☆</span>
+<p class="review-card-text">"Vacaciones de TERROR. Falta de interés en recepción, todas las reservas a través de su app, habitaciones sin mantenimiento ni limpieza, sin colcha y almohadas sin relleno. El bufet, una batalla: cuando algo se acaba, hasta el siguiente turno no se repone. El Thalasso, cutre y con falta de mantenimiento total. Necesito unas vacaciones."</p>
+</div>
+<div class="review-card positive">
+<div class="review-card-header">
+<img class="review-card-avatar" src="https://lh3.googleusercontent.com/a-/ALV-UjW7PXvZz0guHWwGIm-abwiIocdoBWOOCXxEhbDJgdGM_NbkCYYN6w=s128-c0x00000000-cc-rp-mo" alt="Jose Antonio Salazar" loading="lazy" />
+<div class="review-card-meta">
+<span class="review-card-name">Jose Antonio Salazar</span>
+<span class="review-card-date">Hace 3 semanas · Google Maps</span>
+</div>
+</div>
+<span class="review-card-stars">★★★★★</span>
+<p class="review-card-text">"Los toboganes son espectaculares y la comida estaba muy buena. La habitación, aunque no fue la que habíamos solicitado, nos encantó. Nuestra experiencia ha sido de 10 de 10, como dice nuestra hija. Sin duda, esperamos volver."</p>
 </div>
 </div>
 
 <div class="review-confrontation">
-<div class="review-negative">
-<span class="stars">★</span>
-<blockquote>"Cuando llegamos eran los viajes de fin de curso de los institutos y cerraron la mitad de las instalaciones solo para ellos. El ruido que generaban... no pegamos ojo. La comida repetitiva y nefasta."</blockquote>
-<cite>— Alba Cortes, Google Maps</cite>
+<div class="review-card negative">
+<div class="review-card-header">
+<img class="review-card-avatar" src="https://lh3.googleusercontent.com/a/ACg8ocLq0W6MIBwPZh-nGyKc2behTX5R6_g0EvgEFvLutTqbt2KaIg=s128-c0x00000000-cc-rp-mo" alt="Alba Cortes" loading="lazy" />
+<div class="review-card-meta">
+<span class="review-card-name">Alba Cortes</span>
+<span class="review-card-date">Hace 1 mes · Google Maps</span>
 </div>
-<div class="review-positive">
-<span class="stars">★★★★★</span>
-<blockquote>"Hemos pasado unos días en Magic Games. Nos encantó el recibimiento. Los toboganes son espectaculares y la calidad de los buffets nos sorprendió para bien."</blockquote>
-<cite>— Jose Antonio Salazar, Google Maps</cite>
+</div>
+<span class="review-card-stars">★☆☆☆☆</span>
+<p class="review-card-text">"Cuando llegamos eran los viajes de fin de curso y cerraron la mitad de las instalaciones solo para ellos. El ruido era insoportable, no pegamos ojo. El servicio de aperitivos de la piscina también cerrado. La comida repetitiva y nefasta. Los animadores pasaban olímpicamente."</p>
+</div>
+<div class="review-card positive">
+<div class="review-card-header">
+<img class="review-card-avatar" src="https://lh3.googleusercontent.com/a/ACg8ocKWU04kriOBmKY1eCvSDqB2tx6irEbok8wqKHz335y_exifgg=s128-c0x00000000-cc-rp-mo-ba5" alt="Saray Fernández" loading="lazy" />
+<div class="review-card-meta">
+<span class="review-card-name">Saray Fernández</span>
+<span class="review-card-date">Hace 1 mes · Google Maps</span>
+</div>
+</div>
+<span class="review-card-stars">★★★★☆</span>
+<p class="review-card-text">"Tema animación, muy bien, para mayores y niños. Los camareros de piscina, todo bien. Hay variedad de actividades. La Play Zone lo más recomendable de todo."</p>
 </div>
 </div>
 
