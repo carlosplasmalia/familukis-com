@@ -163,10 +163,9 @@ Para familias que también buscan relax de adultos, el **Hotel Pontiana Thalasso
 
 El parque acuático de Magic World Resort es **el punto fuerte del resort en verano**. Tiene toboganes para distintos niveles, desde los más suaves para los peques hasta los rápidos para los mayores, y una piscina de olas que siempre llena de niños.
 
-<div class="foto-par">
-<img src="/blog/magic-world/magic-world-resort-tobogan-parque-acuatico.webp" alt="Tobogán del parque acuático de Magic World Resort" loading="lazy" />
-<img src="/blog/magic-world/magic-world-resort-piscina-palmeras.webp" alt="Piscina con palmeras en Magic World Resort" loading="lazy" />
-</div>
+![Tobogán del parque acuático de Magic World Resort en Oropesa del Mar](/blog/magic-world/magic-world-resort-tobogan-parque-acuatico.webp)
+
+![Piscina con palmeras y pantalla gigante en Magic World Resort](/blog/magic-world/magic-world-resort-piscina-palmeras.webp)
 
 Lo que más nos gusta: el nivel de mantenimiento. El agua está siempre limpia y las instalaciones se ven bien cuidadas. Lo que mejoraría: en agosto las colas en los toboganes grandes pueden ser largas. Recomendamos llegar a primera hora y hacer los toboganes más populares antes de las 11:00.
 

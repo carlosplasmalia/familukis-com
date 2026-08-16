@@ -323,23 +323,9 @@ button { cursor: pointer; font-family: inherit; }
 .prose img:not(.review-card-avatar) {
   display: block;
   width: 100%;
-  max-width: 680px;
-  margin: 2rem auto;
   border-radius: var(--r-lg);
-  box-shadow: 0 6px 24px rgba(0,0,0,0.35);
-}
-
-/* Par de fotos verticales lado a lado */
-.foto-par {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.75rem;
   margin: 2rem 0;
-}
-.foto-par img { max-width: 100% !important; margin: 0 !important; height: 320px; object-fit: cover; }
-@media (max-width: 500px) {
-  .foto-par { grid-template-columns: 1fr; }
-  .foto-par img { height: 240px; }
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
 }
 
 /* ─── VIDEO EMBED ─── */
