@@ -319,6 +319,46 @@ button { cursor: pointer; font-family: inherit; }
 }
 .prose tbody tr:hover { background: rgba(255,255,255,0.03); }
 
+/* ─── PROSE IMAGES ─── */
+.prose img:not(.review-card-avatar) {
+  display: block;
+  width: 100%;
+  max-width: 680px;
+  margin: 2rem auto;
+  border-radius: var(--r-lg);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.35);
+}
+
+/* Par de fotos verticales lado a lado */
+.foto-par {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin: 2rem 0;
+}
+.foto-par img { max-width: 100% !important; margin: 0 !important; height: 320px; object-fit: cover; }
+@media (max-width: 500px) {
+  .foto-par { grid-template-columns: 1fr; }
+  .foto-par img { height: 240px; }
+}
+
+/* ─── VIDEO EMBED ─── */
+.video-embed {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: var(--r-lg);
+  margin: 2rem 0;
+  background: var(--surface-2);
+}
+.video-embed iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  border: 0;
+}
+
 /* ─── REVIEW CONFRONTACIÓN ─── */
 .review-confrontation {
   display: grid;

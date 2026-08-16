@@ -24,9 +24,96 @@ faqs:
 
 Llevamos varios años yendo a Magic World Resort con los peques. Lo conocimos cuando todavía era Marina d'Or, y desde que cambió de nombre hemos vuelto cada temporada porque con cinco hijos es de los pocos sitios donde todo el mundo queda contento. Aquí tienes nuestra opinión completa, con lo bueno, lo mejorable y lo que nadie te cuenta en la web oficial.
 
-## Resumen rápido: pros y contras
+## Lo que dice Google: 3.414 familias han opinado
 
-Si vas con prisa, aquí lo más importante:
+Magic World Resort tiene **3,7 sobre 5 en Google** con más de 3.400 reseñas. Un 3,7 sobre una base tan grande dice algo concreto: la mayoría de familias tiene una experiencia correcta o buena, pero no espectacular. Y hay algo que hemos comprobado en todos los destinos familiares: quien lo pasa bien raramente escribe. Quien tiene algo que reclamar, casi siempre. Aquí van las tres quejas más repetidas, con lo que dicen los que vivieron lo contrario.
+
+### El hotel y el buffet
+
+<div class="review-confrontation">
+<div class="review-card negative">
+<div class="review-card-header">
+<img class="review-card-avatar" src="https://lh3.googleusercontent.com/a/ACg8ocL9UlNqR5DRi4ycIyDxjh5nFrT4vVrXvrh6Wcpwk8WYeDzOHQ=s128-c0x00000000-cc-rp-mo" alt="Francis C. Reca" loading="lazy" />
+<div class="review-card-meta">
+<span class="review-card-name">Francis C. Reca</span>
+<span class="review-card-date">Hace 1 mes · Google Maps</span>
+</div>
+</div>
+<span class="review-card-stars">★☆☆☆☆</span>
+<p class="review-card-text">"Vacaciones de TERROR. Falta de interés en recepción, todas las reservas a través de su app, habitaciones sin mantenimiento ni limpieza. El bufet, una batalla: cuando algo se acaba, hasta el siguiente turno no se repone. Thalasso cutre y con falta de mantenimiento total. Necesito unas vacaciones."</p>
+</div>
+<div class="review-card positive">
+<div class="review-card-header">
+<img class="review-card-avatar" src="https://lh3.googleusercontent.com/a-/ALV-UjW7PXvZz0guHWwGIm-abwiIocdoBWOOCXxEhbDJgdGM_NbkCYYN6w=s128-c0x00000000-cc-rp-mo" alt="Jose Antonio Salazar" loading="lazy" />
+<div class="review-card-meta">
+<span class="review-card-name">Jose Antonio Salazar</span>
+<span class="review-card-date">Hace 3 semanas · Google Maps</span>
+</div>
+</div>
+<span class="review-card-stars">★★★★★</span>
+<p class="review-card-text">"Los toboganes son espectaculares y la comida estaba muy buena. La habitación, aunque no fue la que habíamos solicitado, nos encantó. Nuestra experiencia ha sido de 10 de 10, como dice nuestra hija. Sin duda, esperamos volver."</p>
+</div>
+</div>
+
+### Los animadores y el calendario
+
+<div class="review-confrontation">
+<div class="review-card negative">
+<div class="review-card-header">
+<img class="review-card-avatar" src="https://lh3.googleusercontent.com/a/ACg8ocLq0W6MIBwPZh-nGyKc2behTX5R6_g0EvgEFvLutTqbt2KaIg=s128-c0x00000000-cc-rp-mo" alt="Alba Cortes" loading="lazy" />
+<div class="review-card-meta">
+<span class="review-card-name">Alba Cortes</span>
+<span class="review-card-date">Hace 1 mes · Google Maps</span>
+</div>
+</div>
+<span class="review-card-stars">★☆☆☆☆</span>
+<p class="review-card-text">"Cuando llegamos eran los viajes de fin de curso y cerraron la mitad de las instalaciones solo para ellos. El ruido era insoportable, no pegamos ojo. La comida repetitiva y nefasta. Los animadores pasaban olímpicamente del juego, se dedicaban a dedicarse canciones el uno al otro."</p>
+</div>
+<div class="review-card positive">
+<div class="review-card-header">
+<img class="review-card-avatar" src="https://lh3.googleusercontent.com/a/ACg8ocKWU04kriOBmKY1eCvSDqB2tx6irEbok8wqKHz335y_exifgg=s128-c0x00000000-cc-rp-mo-ba5" alt="Saray Fernández" loading="lazy" />
+<div class="review-card-meta">
+<span class="review-card-name">Saray Fernández</span>
+<span class="review-card-date">Hace 1 mes · Google Maps</span>
+</div>
+</div>
+<span class="review-card-stars">★★★★☆</span>
+<p class="review-card-text">"Tema animación, muy bien, para mayores y niños. Los camareros de piscina, todo bien. Hay variedad de actividades. La Play Zone lo más recomendable de todo. Un camarero llamado Jairo, muy majo y atento, le pongo un 10."</p>
+</div>
+</div>
+
+### El precio y la masificación
+
+<div class="review-confrontation">
+<div class="review-card negative">
+<div class="review-card-header">
+<img class="review-card-avatar" src="https://lh3.googleusercontent.com/a/ACg8ocKfMY-BfaPSs6FodcMRcxJkKIGr9IX7TnXsBsyJC3Lvp20AuA=s128-c0x00000000-cc-rp-mo-ba4" alt="Ana Zumel" loading="lazy" />
+<div class="review-card-meta">
+<span class="review-card-name">Ana Zumel</span>
+<span class="review-card-date">Hace 1 mes · Google Maps</span>
+</div>
+</div>
+<span class="review-card-stars">★★★☆☆</span>
+<p class="review-card-text">"Muchísimo marketing engañoso: no reflejan la realidad de masificación. Cuesta mucho esfuerzo ahorrar casi 3.000€ para una semana y no estar tranquilos. Todo debe ir previamente reservado en la App incluso el buffet. La animación, pese a que algunos lo intentan, es muy mejorable."</p>
+</div>
+<div class="review-card positive">
+<div class="review-card-header">
+<img class="review-card-avatar" src="/favicon-32x32.png" alt="Los Familukis" loading="lazy" />
+<div class="review-card-meta">
+<span class="review-card-name">Los Familukis</span>
+<span class="review-card-date">Embajadores · Varias estancias</span>
+</div>
+</div>
+<span class="review-card-stars">★★★★★</span>
+<p class="review-card-text">"En agosto, tiene razón: el aforo se nota. Por eso siempre recomendamos ir en junio o la primera quincena de septiembre — la experiencia es prácticamente igual, el precio baja entre un 20 y un 30%, y el resort está cómodo. La app también mejora cuando la conoces: nosotros ya llegamos con todo reservado antes de salir de casa."</p>
+</div>
+</div>
+
+### Nuestra lectura
+
+Las tres críticas son reales. El mantenimiento varía según el hotel y la temporada. Los grupos de fin de curso en junio son un problema de calendario evitable. Y la masificación de agosto es la misma que en cualquier destino popular del Mediterráneo. Lo que sí aparece en positivo una y otra vez entre las 3.400 reseñas: los toboganes, la animación cuando el equipo está enchufado, y la comodidad de tenerlo todo sin salir del recinto.
+
+## Resumen rápido: pros y contras
 
 **Lo que más nos gusta:**
 - Todo incluido en el precio (parque acuático + parque de atracciones + animación)
@@ -76,13 +163,16 @@ Para familias que también buscan relax de adultos, el **Hotel Pontiana Thalasso
 
 El parque acuático de Magic World Resort es **el punto fuerte del resort en verano**. Tiene toboganes para distintos niveles, desde los más suaves para los peques hasta los rápidos para los mayores, y una piscina de olas que siempre llena de niños.
 
-![Tobogán del parque acuático de Magic World Resort en Oropesa del Mar](/blog/magic-world/magic-world-resort-tobogan-parque-acuatico.webp)
+<div class="foto-par">
+<img src="/blog/magic-world/magic-world-resort-tobogan-parque-acuatico.webp" alt="Tobogán del parque acuático de Magic World Resort" loading="lazy" />
+<img src="/blog/magic-world/magic-world-resort-piscina-palmeras.webp" alt="Piscina con palmeras en Magic World Resort" loading="lazy" />
+</div>
 
-Lo que más nos gusta: el nivel de mantenimiento. El agua está siempre limpia y las instalaciones se ven bien cuidadas.
+Lo que más nos gusta: el nivel de mantenimiento. El agua está siempre limpia y las instalaciones se ven bien cuidadas. Lo que mejoraría: en agosto las colas en los toboganes grandes pueden ser largas. Recomendamos llegar a primera hora y hacer los toboganes más populares antes de las 11:00.
 
-![Piscina con palmeras y pantalla gigante en Magic World Resort](/blog/magic-world/magic-world-resort-piscina-palmeras.webp)
-
-Lo que mejoraría: en agosto las colas en los toboganes grandes pueden ser largas. Recomendamos llegar a primera hora y hacer los toboganes más populares antes de las 11:00.
+<div class="video-embed">
+<iframe src="https://www.youtube.com/embed/hwqqUTfIOtA" title="Parque acuático Magic World Resort" loading="lazy" allowfullscreen></iframe>
+</div>
 
 ## El parque de atracciones: para todos los tamaños
 
@@ -103,6 +193,10 @@ La animación diurna (deportes acuáticos, juegos en la piscina, gymkanas) está
 Siendo honestos, la oferta gastronómica dentro del resort es correcta pero mejorable. Los buffets son amplios y hay opciones para todos (incluidas opciones para intolerancias), pero la calidad no destaca especialmente.
 
 ![Buffet restaurante interior del Hotel Pontiana en Magic World Resort](/blog/magic-world/magic-world-resort-buffet-restaurante.webp)
+
+<div class="video-embed">
+<iframe src="https://www.youtube.com/embed/gvrpZ-AHdss" title="Gastronomía y buffet en Magic World Resort" loading="lazy" allowfullscreen></iframe>
+</div>
 
 Nosotros solemos salir alguna noche a cenar al pueblo de Oropesa del Mar, que está muy cerca y tiene buenos restaurantes de paella y mariscos. Lo recomendamos como plan alternativo si lleváis varios días.
 
@@ -135,68 +229,6 @@ Como embajadores de Magic World Resort, tenemos un **código de descuento exclus
 > **Código: MAGICLOSFAMILUKIS**
 
 Aplícalo al hacer tu reserva en la web oficial de Magic World Resort. El descuento se aplica sobre la tarifa estándar de la estancia.
-
-## Lo que dice Google: 3.414 familias han opinado
-
-Magic World Resort tiene **3,7 sobre 5 en Google** con más de 3.400 reseñas. Un 3,7 sobre una base tan grande dice algo concreto: la mayoría de familias tiene una experiencia correcta o buena, pero no espectacular. Y hay algo que hemos comprobado en todos los destinos familiares: quien lo pasa bien raramente escribe. Quien tiene algo que reclamar, casi siempre. Aquí van las quejas más repetidas, con lo que dicen los que vivieron lo contrario.
-
-### Quejas frecuentes — y lo que responde la mayoría
-
-<div class="review-confrontation">
-<div class="review-card negative">
-<div class="review-card-header">
-<img class="review-card-avatar" src="https://lh3.googleusercontent.com/a/ACg8ocL9UlNqR5DRi4ycIyDxjh5nFrT4vVrXvrh6Wcpwk8WYeDzOHQ=s128-c0x00000000-cc-rp-mo" alt="Francis C. Reca" loading="lazy" />
-<div class="review-card-meta">
-<span class="review-card-name">Francis C. Reca</span>
-<span class="review-card-date">Hace 1 mes · Google Maps</span>
-</div>
-</div>
-<span class="review-card-stars">★☆☆☆☆</span>
-<p class="review-card-text">"Vacaciones de TERROR. Falta de interés en recepción, todas las reservas a través de su app, habitaciones sin mantenimiento ni limpieza, sin colcha y almohadas sin relleno. El bufet, una batalla: cuando algo se acaba, hasta el siguiente turno no se repone. El Thalasso, cutre y con falta de mantenimiento total. Necesito unas vacaciones."</p>
-</div>
-<div class="review-card positive">
-<div class="review-card-header">
-<img class="review-card-avatar" src="https://lh3.googleusercontent.com/a-/ALV-UjW7PXvZz0guHWwGIm-abwiIocdoBWOOCXxEhbDJgdGM_NbkCYYN6w=s128-c0x00000000-cc-rp-mo" alt="Jose Antonio Salazar" loading="lazy" />
-<div class="review-card-meta">
-<span class="review-card-name">Jose Antonio Salazar</span>
-<span class="review-card-date">Hace 3 semanas · Google Maps</span>
-</div>
-</div>
-<span class="review-card-stars">★★★★★</span>
-<p class="review-card-text">"Los toboganes son espectaculares y la comida estaba muy buena. La habitación, aunque no fue la que habíamos solicitado, nos encantó. Nuestra experiencia ha sido de 10 de 10, como dice nuestra hija. Sin duda, esperamos volver."</p>
-</div>
-</div>
-
-<div class="review-confrontation">
-<div class="review-card negative">
-<div class="review-card-header">
-<img class="review-card-avatar" src="https://lh3.googleusercontent.com/a/ACg8ocLq0W6MIBwPZh-nGyKc2behTX5R6_g0EvgEFvLutTqbt2KaIg=s128-c0x00000000-cc-rp-mo" alt="Alba Cortes" loading="lazy" />
-<div class="review-card-meta">
-<span class="review-card-name">Alba Cortes</span>
-<span class="review-card-date">Hace 1 mes · Google Maps</span>
-</div>
-</div>
-<span class="review-card-stars">★☆☆☆☆</span>
-<p class="review-card-text">"Cuando llegamos eran los viajes de fin de curso y cerraron la mitad de las instalaciones solo para ellos. El ruido era insoportable, no pegamos ojo. El servicio de aperitivos de la piscina también cerrado. La comida repetitiva y nefasta. Los animadores pasaban olímpicamente."</p>
-</div>
-<div class="review-card positive">
-<div class="review-card-header">
-<img class="review-card-avatar" src="https://lh3.googleusercontent.com/a/ACg8ocKWU04kriOBmKY1eCvSDqB2tx6irEbok8wqKHz335y_exifgg=s128-c0x00000000-cc-rp-mo-ba5" alt="Saray Fernández" loading="lazy" />
-<div class="review-card-meta">
-<span class="review-card-name">Saray Fernández</span>
-<span class="review-card-date">Hace 1 mes · Google Maps</span>
-</div>
-</div>
-<span class="review-card-stars">★★★★☆</span>
-<p class="review-card-text">"Tema animación, muy bien, para mayores y niños. Los camareros de piscina, todo bien. Hay variedad de actividades. La Play Zone lo más recomendable de todo."</p>
-</div>
-</div>
-
-### Nuestra lectura de estas reseñas
-
-Las dos quejas negativas son reales y concretas. La de la app y el mantenimiento es una crítica legítima que el resort tiene margen de mejorar. La de los grupos de instituto es un problema de calendario: si vas en junio coincidiendo con los viajes de fin de curso, el ambiente cambia. Nuestro consejo siempre ha sido ir en la primera quincena de julio o en septiembre, precisamente por eso.
-
-Lo que no cambia entre las 3.400 reseñas: los toboganes, la animación y la comodidad de tenerlo todo en el mismo recinto. Eso aparece en positivo una y otra vez.
 
 ## Nuestra valoración final: ¿merece la pena?
 
