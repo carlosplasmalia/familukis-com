@@ -7,7 +7,7 @@ date: "2026-08-17"
 categoria: "vacaciones-familia"
 tags: ["benidorm", "qué hacer en benidorm", "cable ski benidorm", "parasailing benidorm", "excursiones benidorm", "benidorm con niños", "isla de benidorm", "terra mitica", "aqualandia", "4x4 benidorm"]
 relatedVideoIds: ["7s4YfvgfCaM", "wykM72O9ixw", "KJoCzuJIw8I"]
-featured: false
+featured: true
 faqs:
   - q: "¿Qué actividades se pueden hacer en Benidorm?"
     a: "Además de sus playas, Benidorm tiene cable ski, parasailing, excursiones en barco submarino a la isla, parques temáticos (Terra Mítica, Aqualandia, Mundomar), senderismo por Serra Helada, rutas en 4x4 por Sierra Helada, Fuentes del Algar y vida nocturna con espectáculos."
