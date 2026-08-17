@@ -43,11 +43,9 @@ El precio ronda los 15-20 euros por sesión con el equipo incluido. Si podéis, 
 
 A tres kilómetros de la playa está la Isla de Benidorm, pequeña, deshabitada y parte del Parque Natural de Serra Gelada. Desde el puerto salen varias embarcaciones a diario, algunas con fondo de cristal para ver los fondos marinos sin mojarse.
 
-![Vista panorámica de Benidorm desde el mar](/blog/benidorm/frame-05.jpg)
+![Mirador de la Punta Canfali en Benidorm con la isla al fondo](/blog/benidorm/mirador-benidorm.jpg)
 
 La isla tiene senderos cortos por los acantilados y el agua que la rodea es transparente, lo que la convierte en uno de los mejores sitios de la zona para hacer snorkel. No hay servicios en la isla, así que conviene llevar agua y algo de comer si queréis quedaros un rato.
-
-![Excursión en barquita cerca de la isla de Benidorm](/blog/benidorm/frame-06.jpg)
 
 Si preferís algo más cómodo, hay excursiones organizadas en catamarán que combinan la visita a la isla con paradas para nadar en calas. Se reservan en el mismo puerto, casi siempre con margen el mismo día salvo en agosto.
 
