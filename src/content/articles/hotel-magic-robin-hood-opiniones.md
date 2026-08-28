@@ -43,13 +43,13 @@ Esa ubicación es una ventaja disfrazada. Tienes toda la vida de Benidorm a un s
 
 Antes de reservar hay que elegir entre habitación de hotel y cabaña. Si vais más de tres personas, cabaña.
 
-<div class="editorial-grid-2"><figure><img src="/blog/magic-robin-hood/magic-robin-hood-cabanas-nocturnas-iluminacion.webp" alt="Calle de cabañas medievales de Magic Robin Hood iluminadas por la noche" loading="lazy" /></figure><figure><img src="/blog/magic-robin-hood/magic-robin-hood-familia-familukis.webp" alt="Los Familukis en la entrada del complejo Magic Robin Hood" loading="lazy" /></figure></div>
+<div class="editorial-mix"><figure><img src="/blog/magic-robin-hood/magic-robin-hood-cabanas-nocturnas-iluminacion.webp" alt="Calle de cabañas medievales de Magic Robin Hood iluminadas por la noche" loading="lazy" /></figure><figure><img src="/blog/magic-robin-hood/magic-robin-hood-jacuzzi-cabana-privado.webp" alt="Jacuzzi privado en la terraza de una cabaña de Magic Robin Hood" loading="lazy" /></figure></div>
 
 Las cabañas son alojamientos independientes con nombres del universo Robin Hood: Nottingham, Sherwood, Little John. Cada una tiene su porche, su ambiente medieval y bastante más espacio que una habitación estándar. La diferencia de precio se compensa en muy pocos días si valoráis privacidad y espacio.
 
 Las categorías superiores incluyen **jacuzzi privado en la terraza de la cabaña**. Después de un día entero de parque acuático y actividades, meterse ahí es de esas cosas que hacen el viaje distinto.
 
-<div class="editorial-grid-2"><figure><img src="/blog/magic-robin-hood/magic-robin-hood-jacuzzi-cabana-familia.webp" alt="Familia disfrutando del jacuzzi privado de cabaña en Magic Robin Hood" loading="lazy" /></figure><figure><img src="/blog/magic-robin-hood/magic-robin-hood-jacuzzi-cabana-privado.webp" alt="Detalle del jacuzzi privado de una cabaña de Magic Robin Hood" loading="lazy" /></figure></div>
+<figure class="post-media"><img src="/blog/magic-robin-hood/magic-robin-hood-jacuzzi-cabana-familia.webp" alt="Familia disfrutando del jacuzzi privado de la cabaña en Magic Robin Hood" loading="lazy" /></figure>
 
 Las habitaciones del edificio principal también están tematizadas con murales de castillos y decoración cuidada. Perfectas para parejas o familias pequeñas.
 
@@ -57,13 +57,9 @@ Las habitaciones del edificio principal también están tematizadas con murales 
 
 Este es el punto que muchos no descubren hasta que llegan. **Magic Robin Hood tiene parque acuático dentro del recinto**. No hay que salir, no hay que pagar entrada aparte, no hay que coger el coche.
 
-<figure class="post-media"><img src="/blog/magic-robin-hood/magic-robin-hood-parque-acuatico-tobogan.webp" alt="Tobogán de agua del parque acuático de Magic Robin Hood" loading="lazy" /></figure>
+<div class="editorial-mix"><figure><img src="/blog/magic-robin-hood/magic-robin-hood-familia-familukis.webp" alt="Los Familukis dentro del complejo Magic Robin Hood en Alfaz del Pi" loading="lazy" /></figure><figure><img src="/blog/magic-robin-hood/magic-robin-hood-parque-acuatico-tobogan.webp" alt="Tobogán de agua del parque acuático de Magic Robin Hood" loading="lazy" /></figure></div>
 
 Toboganes de varias alturas, río lento para dar vueltas con flotador y piscinas amplias. En un día tranquilo puedes pasar la mañana entera sin repetir. Y para familias con niños de edades distintas es perfecto porque hay zona para cada edad.
-
-Aquí un recorrido en vídeo del resort para que veas por dentro cómo se organiza el complejo:
-
-<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/C55eZBY5D8E" title="Magic Robin Hood recorrido en familia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## Zona de multiaventura: tirolinas y laser tag
 
@@ -85,7 +81,7 @@ Aquí está el gran acierto del hotel: hay algo pensado para cada franja de edad
 
 **Toda la familia:** la **zona de billares y recreativas del Lady Marian** es un plan de tarde perfecto para hacer todos juntos. Máquinas recreativas, billares y mesas de aire, con bar al lado para tomar algo.
 
-<div class="editorial-grid-2"><figure><img src="/blog/magic-robin-hood/magic-robin-hood-minigolf-nocturno.webp" alt="Niños jugando al minigolf de Magic Robin Hood" loading="lazy" /></figure><figure><img src="/blog/magic-robin-hood/magic-robin-hood-espectaculo-ninos-bailando.webp" alt="Niños bailando en el espectáculo nocturno de Magic Robin Hood" loading="lazy" /></figure></div>
+<div class="editorial-mix"><figure><img src="/blog/magic-robin-hood/magic-robin-hood-minigolf-nocturno.webp" alt="Niños jugando al minigolf de Magic Robin Hood" loading="lazy" /></figure><figure><img src="/blog/magic-robin-hood/magic-robin-hood-espectaculo-ninos-bailando.webp" alt="Niños bailando en el espectáculo nocturno de Magic Robin Hood" loading="lazy" /></figure></div>
 
 Y en fechas especiales el resort suma cosas que no siempre están. En **Navidad montan una pista de hielo sintética** dentro del complejo. Es de esas cosas que hacen que los niños recuerden la escapada meses después.
 
@@ -165,10 +161,10 @@ Si estás valorando otros hoteles del grupo, en nuestra [sección completa de Ma
 .post-hero figcaption{font-size:.85rem;color:#888;margin-top:.5rem;text-align:center;font-style:italic}
 .post-media{margin:1.5rem 0}
 .post-media img{width:100%;max-height:520px;object-fit:cover;border-radius:10px;display:block}
-.editorial-grid-2{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:1.5rem 0}
-.editorial-grid-2 figure{margin:0}
-.editorial-grid-2 img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:10px;display:block}
-@media (max-width:640px){.editorial-grid-2{grid-template-columns:1fr}.editorial-grid-2 img{aspect-ratio:16/10}}
+.editorial-mix{display:grid;grid-template-columns:2fr 1fr;gap:.75rem;margin:1.5rem 0;max-height:520px}
+.editorial-mix figure{margin:0;height:100%}
+.editorial-mix img{width:100%;height:100%;max-height:520px;object-fit:cover;border-radius:10px;display:block}
+@media (max-width:640px){.editorial-mix{grid-template-columns:1fr;max-height:none}.editorial-mix img{aspect-ratio:16/10;height:auto}}
 .video-embed{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:10px}
 .video-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
 </style>
