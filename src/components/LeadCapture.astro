@@ -40,6 +40,9 @@ const BREVO_ACTION = "https://9ab7b963.sibforms.com/serve/MUIFADIlif981oRL3CO9Rs
           />
           <input type="hidden" name="locale" value="es" />
           <input type="hidden" name="html_type" value="simple" />
+          <!-- Honeypot antibot: humanos NO lo ven, bots sí lo rellenan -->
+          <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;height:0;width:0;opacity:0" aria-hidden="true" />
+          <input type="text" name="email_address_check" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;height:0;width:0;opacity:0" aria-hidden="true" value="" />
           <label class="lead-check-label">
             <input type="checkbox" name="OPT_IN" required class="lead-check" />
             <span>
@@ -71,13 +74,18 @@ const BREVO_ACTION = "https://9ab7b963.sibforms.com/serve/MUIFADIlif981oRL3CO9Rs
 
 <script>
   const form = document.getElementById('lead-form') as HTMLFormElement | null;
+  const pageLoadedAt = Date.now();
   if (form) {
-    form.addEventListener('submit', () => {
+    form.addEventListener('submit', (e) => {
+      // Antibot 1: honeypot rellenado = bot
+      const hp = form.querySelector('input[name="website"]') as HTMLInputElement | null;
+      if (hp && hp.value) { e.preventDefault(); return; }
+      // Antibot 2: submit demasiado rápido (bots rellenan en <2s)
+      if (Date.now() - pageLoadedAt < 2500) { e.preventDefault(); return; }
+
       const btn = form.querySelector('button') as HTMLButtonElement;
       btn.disabled = true;
       btn.textContent = 'Enviando...';
-      // El form hace POST real a Brevo en el iframe oculto.
-      // Mostramos éxito tras 1.5s, tiempo suficiente para que Brevo responda.
       setTimeout(() => {
         document.getElementById('lead-ready')!.hidden = true;
         document.getElementById('lead-thanks')!.hidden = false;
