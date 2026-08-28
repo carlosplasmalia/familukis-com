@@ -21,7 +21,9 @@ const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
     class="wm-cta"
     onclick="return window.__wmReservaClick && window.__wmReservaClick(this);"
   >
-    <span class="wm-cta-icon" aria-hidden="true">🎡</span>
+    <span class="wm-cta-icon" aria-hidden="true">
+      <img src="/logos/magic-exploradores.webp" alt="" width="44" height="44" loading="lazy" />
+    </span>
     <span class="wm-cta-content">
       <span class="wm-cta-label">{label}</span>
       <span class="wm-cta-sub">{sub}</span>
@@ -120,14 +122,20 @@ const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
   }
   .widget-reserva-magic .wm-cta:active{ transform:translateY(0); }
   .widget-reserva-magic .wm-cta-icon{
-    font-size:1.65rem;
     flex-shrink:0;
     display:inline-flex;
     align-items:center;
     justify-content:center;
-    width:44px; height:44px;
-    background:rgba(255,255,255,.15);
+    width:52px; height:52px;
+    background:#fff;
     border-radius:50%;
+    padding:4px;
+    box-sizing:border-box;
+  }
+  .widget-reserva-magic .wm-cta-icon img{
+    width:100%; height:100%;
+    object-fit:contain;
+    display:block;
   }
   .widget-reserva-magic .wm-cta-label{
     display:block;
