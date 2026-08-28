@@ -32,7 +32,7 @@ Este post recoge nuestra opinión después de varias visitas al resort y los pre
 
 <div class="cta-block">
 <p>Reserva con nuestro código exclusivo y llévate un 3% de descuento adicional aplicado directamente en la web oficial del resort.</p>
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKI" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic World con descuento</a>
+<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic World con descuento</a>
 </div>
 
 ## Qué es el Hotel Magic Fantasy
@@ -103,7 +103,7 @@ Si aún dudáis entre los hoteles del resort, la [guía general de Magic World R
 
 <div class="cta-block">
 <p>En temporada alta la disponibilidad del Fantasy se estrecha rápido. Reservar cuanto antes desde nuestro enlace bloquea la tarifa vigente con el 3% adicional aplicado automáticamente.</p>
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKI" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic Fantasy con descuento</a>
+<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic Fantasy con descuento</a>
 </div>
 
 ---

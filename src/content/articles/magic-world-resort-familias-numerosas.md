@@ -34,7 +34,7 @@ Lo que sí existe, y es lo que usamos nosotros, es nuestro código de embajador:
 
 <div class="cta-block">
 <p>Usa nuestro código en la web oficial y obtén un 3% de descuento adicional en tu reserva.</p>
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKI" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic World con descuento</a>
+<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic World con descuento</a>
 </div>
 
 Si encontráis alguna oferta específica de familia numerosa en algún periodo del año, escribidnos. Nosotros no la hemos visto aplicada de forma sistemática, aunque el resort sí saca promociones puntuales en primavera para reservas anticipadas.
@@ -115,7 +115,7 @@ Para una semana en agosto con toda la tribu, es de las pocas opciones donde hemo
 
 <div class="cta-block">
 <p>Reserva con nuestro código y ahorra un 3% adicional sobre la tarifa oficial. Código: MAGICLOSFAMILUKIS.</p>
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKI" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic World con descuento</a>
+<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic World con descuento</a>
 </div>
 
 Si tenéis dudas específicas sobre habitaciones o sobre cómo organizamos los días con cinco niños de distintas edades, tenemos todos los detalles en nuestra [opinión completa de Magic World Resort](/blog/magic-world-resort-opiniones/).

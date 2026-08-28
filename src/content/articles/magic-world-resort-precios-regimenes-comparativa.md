@@ -32,7 +32,7 @@ Como pasamos allí varias veces al año con los cinco hijos, hemos ido guardando
 
 <div class="cta-block">
 <p>Reserva con nuestro código exclusivo y llévate un 3% de descuento adicional aplicado directamente en la web oficial del resort.</p>
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKI" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic World con descuento</a>
+<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic World con descuento</a>
 </div>
 
 ## Precios reales de agosto de 2026 para 2 adultos y un niño
@@ -175,7 +175,7 @@ Como somos embajadores del resort, tenemos un código que resta un **3% adiciona
 
 <div class="cta-block">
 <p>Sobre una semana en Ultra Todo Incluido en habitación base son unos 58€ de ahorro. En Hall of Fame Pool View con Ultra Todo Incluido son unos 65€. Cuando la reserva pasa de los 2.000€ tampoco es despreciable.</p>
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKI" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic World con descuento</a>
+<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic World con descuento</a>
 </div>
 
 ## Resumen para decidir rápido
