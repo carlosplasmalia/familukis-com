@@ -6,6 +6,7 @@ export interface Props {
 }
 const { hotel = "", marca = "", compacto = false } = Astro.props;
 const PROXY = "https://magic-reservas.plural-soldier.workers.dev/";
+const BREVO_ACTION = "https://9ab7b963.sibforms.com/serve/MUIFADIlif981oRL3CO9RsJ6MZRoDBPdav1100emuwGi9FhnJl6m939M2xMOAUZi33VCaYBEKvLr7fbtkPSVJBn-nvwDuD-UFrdNC7hUEm4makNYhhPrRV3DBZX8ZJT2LzrpYPyjj2sMnzWzDz2-bXnSAJqEl9nR8lf-lx2zv-AAVGhkrwd8u4qplqS3f7i2LK2IAuhfuFwZKQimAg==";
 const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
 ---
 <form
@@ -53,13 +54,27 @@ const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
     </label>
   </div>
 
+  <details class="wm-lead">
+    <summary>📧 Guardar mi búsqueda y recibir novedades (opcional)</summary>
+    <div class="wm-lead-body">
+      <input type="email" class="wm-in-email" placeholder="tu@email.com" autocomplete="email" />
+      <label class="wm-optin">
+        <input type="checkbox" class="wm-in-optin" />
+        <span>Acepto recibir contenido, planes, escapadas y ofertas de Familukis. <a href="/privacidad" target="_blank">Política de privacidad</a>.</span>
+      </label>
+    </div>
+  </details>
+
   <button type="submit" class="wm-cta">
-    Buscar con 3% de descuento
+    Buscar con descuento
     <span class="wm-cta-sub">Código MAGICLOSFAMILUKIS aplicado automáticamente</span>
   </button>
 
   <p class="wm-note">Vas directo al motor oficial con nuestro código bloqueado. Sin banners de terceros. Solo tienes que confirmar la búsqueda.</p>
 </form>
+
+<!-- iframe oculto para el POST fire-and-forget a Brevo -->
+<iframe name={`brevo-lead-${uid}`} style="display:none;width:0;height:0;border:0" aria-hidden="true" title=""></iframe>
 
 <script is:inline>
 (function () {
@@ -91,11 +106,44 @@ const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
     if (!entrada || !salida) return false;
     if (salida <= entrada) { alert("La salida debe ser posterior a la entrada"); return false; }
 
+    const adults = f.querySelector('[name=adults]').value;
+    const children = f.querySelector('.wm-in-children').value;
+
+    // Lead capture opcional a Brevo (fire-and-forget en iframe oculto)
+    var emailInp = f.querySelector('.wm-in-email');
+    var optinInp = f.querySelector('.wm-in-optin');
+    if (emailInp && optinInp && emailInp.value && optinInp.checked && /@/.test(emailInp.value)) {
+      try {
+        var leadForm = document.createElement('form');
+        leadForm.action = "https://9ab7b963.sibforms.com/serve/MUIFADIlif981oRL3CO9RsJ6MZRoDBPdav1100emuwGi9FhnJl6m939M2xMOAUZi33VCaYBEKvLr7fbtkPSVJBn-nvwDuD-UFrdNC7hUEm4makNYhhPrRV3DBZX8ZJT2LzrpYPyjj2sMnzWzDz2-bXnSAJqEl9nR8lf-lx2zv-AAVGhkrwd8u4qplqS3f7i2LK2IAuhfuFwZKQimAg==";
+        leadForm.method = 'POST';
+        leadForm.target = f.parentNode.querySelector('iframe[name^="brevo-lead-"]').name;
+        leadForm.style.display = 'none';
+        var fields = {
+          EMAIL: emailInp.value,
+          OPT_IN: '1',
+          locale: 'es',
+          html_type: 'simple',
+          MAGIC_FECHA_ENTRADA: entrada,
+          MAGIC_FECHA_SALIDA: salida,
+          MAGIC_ADULTOS: adults,
+          MAGIC_NINOS: children,
+          FUENTE: 'widget-reserva-magic',
+        };
+        Object.keys(fields).forEach(function(k){
+          var i = document.createElement('input');
+          i.type = 'hidden'; i.name = k; i.value = fields[k];
+          leadForm.appendChild(i);
+        });
+        document.body.appendChild(leadForm);
+        leadForm.submit();
+      } catch(e) {}
+    }
+
     if (window.gtag) {
       window.gtag("event", "widget_reserva_magic", {
-        entrada, salida,
-        adults: f.querySelector('[name=adults]').value,
-        children: f.querySelector('.wm-in-children').value
+        entrada, salida, adults, children,
+        lead_captured: !!(emailInp && emailInp.value && optinInp && optinInp.checked)
       });
     }
     return true;
@@ -187,4 +235,45 @@ const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
     padding:.85rem 1rem;
   }
   .widget-reserva-magic.compacto .wm-row{ margin-bottom:.55rem; }
+  .widget-reserva-magic .wm-lead{
+    margin:.9rem 0 .3rem;
+    border-top:1px dashed rgba(0,0,0,.08);
+    padding-top:.7rem;
+  }
+  .widget-reserva-magic .wm-lead summary{
+    cursor:pointer;
+    font-size:.82rem;
+    color:#555;
+    font-weight:600;
+    list-style:none;
+    padding:.25rem 0;
+  }
+  .widget-reserva-magic .wm-lead summary::-webkit-details-marker{display:none;}
+  .widget-reserva-magic .wm-lead-body{
+    display:flex;
+    flex-direction:column;
+    gap:.55rem;
+    margin-top:.6rem;
+  }
+  .widget-reserva-magic .wm-in-email{
+    font:inherit;
+    padding:.55rem .7rem;
+    border:1px solid #d3d7de;
+    border-radius:8px;
+    background:#fafbfc;
+  }
+  .widget-reserva-magic .wm-optin{
+    display:flex;
+    align-items:flex-start;
+    gap:.5rem;
+    font-size:.75rem;
+    color:#666;
+    line-height:1.45;
+    cursor:pointer;
+  }
+  .widget-reserva-magic .wm-optin input{
+    margin-top:2px;
+    accent-color:#e50914;
+  }
+  .widget-reserva-magic .wm-optin a{ color:#e50914; text-decoration:underline; }
 </style>
