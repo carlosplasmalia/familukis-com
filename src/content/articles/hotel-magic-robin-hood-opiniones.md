@@ -1,12 +1,12 @@
 ---
 title: "Magic Robin Hood: nuestra opinión honesta tras varias veces con la familia entera"
 seoTitle: "Magic Robin Hood Opiniones 2026: Reseña Real de Padres con 4 Hijos"
-description: "Opinión real y detallada de Magic Robin Hood en Alfaz del Pi: parque acuático, cabañas medievales, multiaventura, laser tag, minigolf, autobuses a Benidorm y todo lo que hace único a este resort familiar."
+description: "Opinión real y detallada de Magic Robin Hood en Alfaz del Pi: parque acuático propio, cabañas medievales, multiaventura, laser tag, minigolf nocturno, autobuses a Benidorm y toda la libertad para los niños."
 seoDescription: "Cabañas medievales, parque acuático propio, tirolinas, laser tag, minigolf nocturno, zona gamer, pista de hielo en Navidad y libertad total para los niños. Reseña real."
 date: "2026-08-28"
 categoria: "magic-world"
 tags: ["magic robin hood", "hotel benidorm", "alfaz del pi", "todo incluido", "cabañas familia", "cadena magic", "familia numerosa", "parque acuático benidorm"]
-relatedVideoIds: ["C55eZBY5D8E", "fDw1Uou2aT8"]
+relatedVideoIds: ["C55eZBY5D8E"]
 featured: true
 lastModified: "2026-08-28"
 ogImage: "/blog/magic-robin-hood/magic-robin-hood-parque-acuatico-vista-aerea.webp"
@@ -14,80 +14,86 @@ rating: 4.8
 reviewCount: 1
 faqs:
   - q: "¿El Magic Robin Hood tiene parque acuático propio?"
-    a: "Sí, Magic Robin Hood tiene parque acuático propio dentro del recinto con toboganes, río lento y piscinas de olas. Es una de las principales razones para elegir este hotel frente a otros de Benidorm sin acuático incluido. No hay que salir del complejo ni pagar entrada aparte."
+    a: "Sí, Magic Robin Hood tiene parque acuático propio dentro del recinto con toboganes, río lento y piscinas amplias. Es una de las razones principales para elegir este hotel frente a otros de Benidorm sin acuático incluido. No hay que salir del complejo ni pagar entrada aparte."
   - q: "¿Es seguro dejar a los niños solos por el resort?"
     a: "Sí, el recinto está cerrado, hay vigilancia 24 horas en la puerta principal y las zonas son transitables sin cruzar carreteras. Los niños desde 8-9 años pueden moverse solos por miniclub, piscinas, minigolf, pista de fútbol o zona gamer sin problema. Es una de las razones por las que las familias con adolescentes lo eligen."
   - q: "¿Cómo funcionan los autobuses a Benidorm desde Magic Robin Hood?"
-    a: "El hotel opera autobuses gratuitos con horarios que bajan a Benidorm centro y te recogen a la vuelta. Depende de la temporada la frecuencia. Es la opción más cómoda si no tienes coche, evitas parking en Benidorm y puedes cenar o pasar la tarde allí sin conducir."
+    a: "El hotel opera autobuses gratuitos con horarios que bajan a Benidorm centro y te recogen a la vuelta. La frecuencia depende de la temporada. Es la opción más cómoda si no tienes coche: evitas parking en Benidorm y puedes cenar o pasar la tarde allí sin conducir."
   - q: "¿Dónde comer en Benidorm si te alojas en Magic Robin Hood?"
-    a: "La cadena Magic tiene locales propios en Benidorm centro donde puedes reservar comida o cena si estás alojado en cualquier hotel del grupo: el Mahui y el Magic Star Café son los principales. Ambos aceptan reserva y suelen ofrecer condiciones especiales para huéspedes de la cadena."
+    a: "La cadena Magic tiene locales propios en Benidorm centro donde puedes reservar comida o cena si estás alojado en cualquier hotel del grupo: el Mahui y el Magic Star Café son los principales. Aceptan reserva y suelen ofrecer condiciones para huéspedes de la cadena."
+  - q: "¿Cómo se pide el almuerzo pícnic para llevar al día de escapada?"
+    a: "Se pide desde la app oficial del hotel, no en recepción. La app permite reservar el almuerzo pícnic con antelación seleccionando fecha y componentes. Al día siguiente lo recoges en el punto que te indican. Va incluido según el régimen contratado."
   - q: "¿Merece la pena Magic Robin Hood con adolescentes?"
-    a: "Sí, es probablemente el hotel de la cadena Magic que mejor funciona con adolescentes. Tienen autonomía por todo el resort, minigolf y pista de fútbol abiertas por la noche, zona gamer, laser tag, zona de billares y recreativas en el Lady Marian, y autobuses para bajar a Benidorm por libre. Se aburren poco."
+    a: "Sí, es probablemente el hotel de la cadena Magic que mejor funciona con adolescentes. Tienen autonomía por todo el resort, minigolf y pista de fútbol abiertas por la noche, zona gamer, laser tag, zona de billares y recreativas del Lady Marian y autobuses para bajar a Benidorm por libre."
 ---
 
-Después de varias temporadas visitando distintos hoteles de la cadena Magic, Magic Robin Hood se ha ganado un puesto fijo en nuestra lista de recomendados. Es el hotel más buscado de todo el grupo Magic en España y, cuando llevas a la familia entera, entiendes exactamente por qué.
+Después de varias temporadas visitando distintos hoteles de la cadena Magic, Magic Robin Hood se ha ganado un puesto fijo en nuestra lista de recomendados. Es el hotel más buscado de todo el grupo Magic en España y, cuando llevas a la familia entera, entiendes por qué.
 
-<img src="/blog/magic-robin-hood/magic-robin-hood-parque-acuatico-vista-aerea.webp" alt="Vista aérea del parque acuático propio de Magic Robin Hood en Alfaz del Pi" loading="eager" />
+<figure class="post-hero"><img src="/blog/magic-robin-hood/magic-robin-hood-parque-acuatico-vista-aerea.webp" alt="Vista aérea del parque acuático propio de Magic Robin Hood en Alfaz del Pi" loading="eager" /><figcaption>Vista aérea del complejo. El parque acuático propio está dentro del recinto: sin coche, sin entradas fuera.</figcaption></figure>
 
-Aquí te contamos qué hace especial al resort, para qué edades funciona y por qué es tan cómodo cuando viajas con niños de edades distintas.
+Aquí te contamos qué hace especial al resort, para qué edades funciona y por qué es de los sitios en los que descansas de verdad con niños.
 
 ## Dónde está Magic Robin Hood
 
 Magic Robin Hood está en **Alfaz del Pi**, un municipio pegado a Benidorm en la costa de Alicante. No es Benidorm ciudad pero está literalmente al lado. En coche, diez minutos al centro. Andando, un cuarto de hora hasta la playa del Albir.
 
-Esa ubicación es una ventaja disfrazada. Tienes toda la vida de Benidorm a un salto, pero duermes lejos del ruido del centro. Con niños que se acuestan pronto es oro puro.
+Esa ubicación es una ventaja disfrazada. Tienes toda la vida de Benidorm a un salto y duermes lejos del ruido del centro. Con niños que se acuestan pronto es oro puro.
 
-## Cabañas y habitaciones: la primera decisión
+## Cabañas medievales: la primera decisión
 
-Antes de reservar hay que elegir entre habitación de hotel y cabaña. Y la respuesta corta es: si vais más de tres personas, cabaña.
+Antes de reservar hay que elegir entre habitación de hotel y cabaña. Si vais más de tres personas, cabaña.
 
-<img src="/blog/magic-robin-hood/magic-robin-hood-cabanas-calle-familia.webp" alt="Familia paseando por la calle de cabañas medievales de Magic Robin Hood" loading="lazy" />
+<div class="editorial-grid-2"><figure><img src="/blog/magic-robin-hood/magic-robin-hood-cabanas-nocturnas-iluminacion.webp" alt="Calle de cabañas medievales de Magic Robin Hood iluminadas por la noche" loading="lazy" /></figure><figure><img src="/blog/magic-robin-hood/magic-robin-hood-familia-familukis.webp" alt="Los Familukis en la entrada del complejo Magic Robin Hood" loading="lazy" /></figure></div>
 
 Las cabañas son alojamientos independientes con nombres del universo Robin Hood: Nottingham, Sherwood, Little John. Cada una tiene su porche, su ambiente medieval y bastante más espacio que una habitación estándar. La diferencia de precio se compensa en muy pocos días si valoráis privacidad y espacio.
 
-Las habitaciones del edificio principal también están tematizadas con murales de castillos y decoración cuidada. Son perfectas para parejas o familias pequeñas de dos o tres personas.
+Las categorías superiores incluyen **jacuzzi privado en la terraza de la cabaña**. Después de un día entero de parque acuático y actividades, meterse ahí es de esas cosas que hacen el viaje distinto.
 
-<img src="/blog/magic-robin-hood/magic-robin-hood-habitacion-tematica-castillo.webp" alt="Habitación temática de Magic Robin Hood con mural de castillo medieval" loading="lazy" />
+<div class="editorial-grid-2"><figure><img src="/blog/magic-robin-hood/magic-robin-hood-jacuzzi-cabana-familia.webp" alt="Familia disfrutando del jacuzzi privado de cabaña en Magic Robin Hood" loading="lazy" /></figure><figure><img src="/blog/magic-robin-hood/magic-robin-hood-jacuzzi-cabana-privado.webp" alt="Detalle del jacuzzi privado de una cabaña de Magic Robin Hood" loading="lazy" /></figure></div>
 
-## El parque acuático propio: lo que muchos no saben
+Las habitaciones del edificio principal también están tematizadas con murales de castillos y decoración cuidada. Perfectas para parejas o familias pequeñas.
 
-Este es el gran diferencial que muchos no descubren hasta que llegan. **Magic Robin Hood tiene parque acuático dentro del recinto**. No hay que salir. No hay que pagar entrada. No hay que coger el coche a Aqualandia.
+## El parque acuático propio: el gran diferencial
 
-<img src="/blog/magic-robin-hood/magic-robin-hood-parque-acuatico-tobogan.webp" alt="Tobogán de agua del parque acuático de Magic Robin Hood" loading="lazy" />
+Este es el punto que muchos no descubren hasta que llegan. **Magic Robin Hood tiene parque acuático dentro del recinto**. No hay que salir, no hay que pagar entrada aparte, no hay que coger el coche.
 
-Toboganes de varias alturas, río lento para dar vueltas con flotador y piscinas amplias. En un día tranquilo puedes pasar la mañana entera ahí sin repetir. Y para familias con niños de edades distintas es perfecto porque hay zonas para cada edad.
+<figure class="post-media"><img src="/blog/magic-robin-hood/magic-robin-hood-parque-acuatico-tobogan.webp" alt="Tobogán de agua del parque acuático de Magic Robin Hood" loading="lazy" /></figure>
 
-Este es uno de los vídeos donde se ve por dentro el resort completo:
+Toboganes de varias alturas, río lento para dar vueltas con flotador y piscinas amplias. En un día tranquilo puedes pasar la mañana entera sin repetir. Y para familias con niños de edades distintas es perfecto porque hay zona para cada edad.
 
-<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/C55eZBY5D8E" title="Magic Robin Hood resort vídeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+Aquí un recorrido en vídeo del resort para que veas por dentro cómo se organiza el complejo:
 
-## La zona de multiaventura: tirolinas y laser tag
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/C55eZBY5D8E" title="Magic Robin Hood recorrido en familia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+
+## Zona de multiaventura: tirolinas y laser tag
 
 Al lado de la piscina hay una zona de multiaventura con tirolinas, puentes de cuerda y estructuras de escalada. Los niños se pasan horas ahí sin querer moverse.
 
-<img src="/blog/magic-robin-hood/magic-robin-hood-multiaventura-tirolinas.webp" alt="Zona de multiaventura con tirolinas y puentes de cuerda en Magic Robin Hood" loading="lazy" />
+<figure class="post-media"><img src="/blog/magic-robin-hood/magic-robin-hood-multiaventura-tirolinas.webp" alt="Zona de multiaventura con tirolinas y puentes de cuerda en Magic Robin Hood" loading="lazy" /></figure>
 
-Y hay laser tag. Esto para nuestros hijos es directamente la actividad favorita del viaje. Se organizan partidas por edades y grupos, y funciona igual de bien con siete años que con quince.
+Y hay **laser tag**. Para nuestros hijos es directamente la actividad favorita del viaje. Se organizan partidas por edades y grupos, y funciona igual de bien con siete años que con quince.
 
 ## Actividades para cada edad: para eso funciona tan bien
 
-Aquí está probablemente el mayor acierto del hotel: hay algo pensado para cada franja de edad, sin que los padres tengan que ir cargando a los niños de un lado a otro.
+Aquí está el gran acierto del hotel: hay algo pensado para cada franja de edad sin que los padres tengan que ir cargando a los niños de un lado a otro.
 
 **Peques (3-6 años):** parque de bolas junto a la piscina, zona kids con manualidades y actividades supervisadas, minidisco de la tarde, personajes disfrazados por el resort.
 
-**Niños (7-12 años):** miniclub con animadores, laser tag, tirolinas, gymkhanas por todo el recinto, futbolín humano gigante, skate park, minigolf.
+**Niños (7-12 años):** miniclub con animadores, laser tag, tirolinas, gymkhanas por todo el recinto, **futbolín humano gigante**, skate park y minigolf.
 
-**Adolescentes (13+ años):** aquí es donde el hotel gana. Tienen libertad total para moverse por el recinto sin adultos porque es seguro y todo está pensado para ellos. Suelen formar grupos y hacen tres cosas de forma casi religiosa: subir a las pistas de fútbol por la noche, jugar al minigolf hasta que apagan las luces, y bajar a la **zona gamer** donde pueden sentirse streamers por un día con equipos y setup preparados.
+**Adolescentes (13+ años):** aquí es donde el hotel gana. Tienen libertad total para moverse por el recinto sin adultos porque es seguro y todo está pensado para ellos. Suelen formar grupos y hacen tres cosas de forma casi religiosa: **subir a las pistas de fútbol por la noche, jugar al minigolf hasta que apagan las luces y bajar a la zona gamer** donde pueden sentirse streamers por un día con equipos preparados.
 
-**Adultos:** también hay recompensa. La **zona de billares y recreativas del Lady Marian** es para ratos sin niños, hay bar cerca y suele haber espectáculo por la noche.
+**Toda la familia:** la **zona de billares y recreativas del Lady Marian** es un plan de tarde perfecto para hacer todos juntos. Máquinas recreativas, billares y mesas de aire, con bar al lado para tomar algo.
 
-Y en fechas especiales el resort suma cosas que no siempre están: en Navidad montan una **pista de hielo sintética** dentro del complejo. Es de esas cosas que hacen que los niños recuerden la escapada durante meses.
+<div class="editorial-grid-2"><figure><img src="/blog/magic-robin-hood/magic-robin-hood-minigolf-nocturno.webp" alt="Niños jugando al minigolf de Magic Robin Hood" loading="lazy" /></figure><figure><img src="/blog/magic-robin-hood/magic-robin-hood-espectaculo-ninos-bailando.webp" alt="Niños bailando en el espectáculo nocturno de Magic Robin Hood" loading="lazy" /></figure></div>
+
+Y en fechas especiales el resort suma cosas que no siempre están. En **Navidad montan una pista de hielo sintética** dentro del complejo. Es de esas cosas que hacen que los niños recuerden la escapada meses después.
 
 ## La libertad de dejar a los niños solos
 
-Este es uno de los factores más difíciles de vender por escrito pero, para nosotros, es determinante. En Magic Robin Hood **puedes dejar a los niños moverse solos** por el resort sin estar pendiente cada segundo.
+Este factor es difícil de vender por escrito pero, para nosotros, es determinante. En Magic Robin Hood **puedes dejar a los niños moverse solos** por el resort sin estar pendiente cada segundo.
 
-Motivos concretos: el recinto está cerrado, hay **vigilancia 24 horas en la puerta principal**, no se cruza ninguna carretera para ir de la habitación a la piscina o al miniclub, el personal está por todas partes y la sensación general es de seguridad total. Ahí un adolescente de doce años puede quedar con otros niños en el laser tag y los padres pueden tomarse un café tranquilos.
+Motivos concretos: el recinto está cerrado, hay **vigilancia 24 horas en la puerta principal**, no se cruza ninguna carretera para ir de la habitación a la piscina o al miniclub, el personal está por todas partes y la sensación general es de seguridad total. Un adolescente de doce años puede quedar con otros niños en el laser tag y los padres toman un café tranquilos.
 
 Esa libertad es lo que hace que en vacaciones descanses de verdad. Con los niños encerrados en la habitación o pegados a ti no descansa nadie.
 
@@ -95,31 +101,31 @@ Esa libertad es lo que hace que en vacaciones descanses de verdad. Con los niño
 
 El buffet del Magic Robin Hood es de los mejores que hemos probado en la cadena. Variedad amplia, esquinas temáticas por país, sección de tapas y aperitivos elaborados, dulce que se ve trabajado.
 
-<img src="/blog/magic-robin-hood/magic-robin-hood-buffet-cena.webp" alt="Detalle de tapas y aperitivos del buffet de cena en Magic Robin Hood" loading="lazy" />
+<figure class="post-media"><img src="/blog/magic-robin-hood/magic-robin-hood-buffet-cena.webp" alt="Detalle de tapas y aperitivos del buffet de cena en Magic Robin Hood" loading="lazy" /></figure>
 
 Los peques comen sin dramas porque hay pasta, arroz, patatas fritas, pollo empanado y todo lo que siempre funciona. Los mayores tenéis variedad de guisos, carne y pescado a la plancha, y ensaladas frescas.
 
-**Un extra útil:** según el régimen que contrates, el hotel puede prepararte un **pícnic para el almuerzo** si sales de escapada un día a la playa o de excursión. Ahorras dinero y comes de calidad. Se pide en recepción la noche antes.
+## Escapadas a Benidorm sin conducir
 
-## Escapadas a Benidorm sin tener que conducir
-
-Aquí es donde la cadena Magic se pone lista y saca ventaja al resto de hoteles de la zona. Aunque estés alojado en Alfaz del Pi, el grupo tiene **infraestructura propia en Benidorm centro**:
+Aquí es donde la cadena Magic saca ventaja al resto de hoteles de la zona. Aunque estés alojado en Alfaz del Pi, el grupo tiene **infraestructura propia en Benidorm centro**:
 
 - **Autobuses gratuitos** que bajan a Benidorm y te recogen. Sin parking, sin conducir, sin dramas.
-- **Mahui**: local del grupo en Benidorm donde puedes reservar bebidas o comida como cliente de cualquier hotel Magic.
-- **Magic Star Café**: otro local del grupo, también aceptando reservas y con condiciones especiales para huéspedes.
+- **Mahui**: bar-restaurante del grupo en Benidorm donde puedes reservar comida o cena.
+- **Magic Star Café**: otro local del grupo, también con reserva y con condiciones especiales para huéspedes.
 
-Esto significa que puedes pasar un día entero en Benidorm centro, comer en un sitio del grupo aprovechando las condiciones de tu régimen, y volver al hotel en autobús gratis. Es una de esas cosas pequeñas que marcan diferencia cuando estás una semana entera.
+Si tienes previsto pasar un día de escapada a la playa o a otro parque, hay un extra útil: **pide el almuerzo pícnic desde la app oficial** el día antes. La app permite reservar el pack seleccionando componentes y al día siguiente lo recoges. Se incluye según el régimen contratado.
 
-Si vas a ir a Benidorm centro con niños, tenemos artículo aparte con [todo lo que hay que hacer en Benidorm con niños](/blog/que-hacer-en-benidorm/) que te va a ser útil desde el primer día.
+Esto significa que puedes pasar un día entero fuera del hotel, comer en un sitio del grupo aprovechando las condiciones de tu régimen, o llevarte el almuerzo pícnic sin pisar recepción. Es una de esas cosas pequeñas que marcan diferencia cuando estás una semana entera.
 
-## Los espectáculos
+Si vas a Benidorm centro con niños, tenemos artículo aparte con [todo lo que hay que hacer en Benidorm con niños](/blog/que-hacer-en-benidorm/) que te va a ser útil desde el primer día.
 
-Cada noche hay espectáculo. Van variando: musicales, comedia, magia, animación con personajes. La calidad es notable, mejor que el estándar de hoteles todo incluido. Y como todo está incluido, no hay que reservar.
+## Espectáculos: no son de relleno
 
-Aquí tenéis otro vídeo, más ambientado en la parte familiar y cotidiana del resort:
+Cada noche hay espectáculo, van variando entre musicales, comedia, magia y animación con personajes. La calidad es notable, por encima del estándar de hoteles todo incluido. Y como todo está incluido, no hay que reservar.
 
-<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/fDw1Uou2aT8" title="Magic Robin Hood familia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+Nuestro favorito es el **Desafío Medieval**, un espectáculo de caballeros y caballos que encaja perfecto con la temática del complejo:
+
+<figure class="post-media"><img src="/blog/magic-robin-hood/magic-robin-hood-desafio-medieval-caballeros.webp" alt="Espectáculo Desafío Medieval con caballeros y caballos en Magic Robin Hood" loading="lazy" /></figure>
 
 ## Para qué familia funciona (y para cuál no tanto)
 
@@ -136,14 +142,14 @@ Aquí tenéis otro vídeo, más ambientado en la parte familiar y cotidiana del 
 
 ## Cuánto sale y truco para reservar bien
 
-Precios muy variables según fechas. Orientativo para familia de cuatro (dos adultos + dos niños) siete noches en ultra todo incluido:
+Orientativo para familia de cuatro (2 adultos + 2 niños) siete noches en ultra todo incluido:
 
 - Temporada baja (noviembre a marzo, sin puentes): 1.100-1.500€
 - Media (abril-junio, septiembre-octubre): 1.500-2.200€
 - Alta (julio-agosto): 2.500-3.500€
 - Puentes fuertes (Constitución, Semana Santa): 1.700-2.400€
 
-**Truco importante:** reservar en la web oficial y con antelación (60 días o más) suele salir hasta un 25% más barato que las plataformas tipo Booking. Además el código de embajador se aplica ahí.
+**Truco:** reservar en la web oficial y con antelación (60 días o más) suele salir hasta un 25% más barato que las plataformas tipo Booking. Además el código de embajador solo se aplica ahí.
 
 ## Reserva con nuestro código
 
@@ -151,9 +157,18 @@ Como embajadores de la cadena Magic tenemos código **MAGICLOSFAMILUKIS** que ap
 
 <a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🏰 Reservar Magic Robin Hood con descuento</a>
 
-Si estás valorando otros hoteles del grupo, en nuestra [sección completa de Magic World Resort](/categoria/magic-world/) tienes todas las reseñas de la cadena, y si aún estás pensando el destino, [qué hacer en Benidorm con niños](/blog/que-hacer-en-benidorm/) te ayuda a decidir si esta zona encaja con lo que buscáis.
+Si estás valorando otros hoteles del grupo, en nuestra [sección completa de Magic World Resort](/categoria/magic-world/) tienes todas las reseñas de la cadena. Y si aún estás decidiendo el destino, [qué hacer en Benidorm con niños](/blog/que-hacer-en-benidorm/) te ayuda a saber si esta zona encaja con lo que buscáis.
 
 <style>
-.video-embed{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px}
+.post-hero{margin:1.5rem 0}
+.post-hero img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;display:block}
+.post-hero figcaption{font-size:.85rem;color:#888;margin-top:.5rem;text-align:center;font-style:italic}
+.post-media{margin:1.5rem 0}
+.post-media img{width:100%;max-height:520px;object-fit:cover;border-radius:10px;display:block}
+.editorial-grid-2{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:1.5rem 0}
+.editorial-grid-2 figure{margin:0}
+.editorial-grid-2 img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:10px;display:block}
+@media (max-width:640px){.editorial-grid-2{grid-template-columns:1fr}.editorial-grid-2 img{aspect-ratio:16/10}}
+.video-embed{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:10px}
 .video-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
 </style>
