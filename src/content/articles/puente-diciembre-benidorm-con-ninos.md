@@ -1,161 +1,151 @@
 ---
-title: "Puente de diciembre en Benidorm con niños: qué hacer, dónde alojarse y cuánto cuesta"
-seoTitle: "Puente Diciembre Benidorm con Niños 2026: Guía Completa y Alojamiento"
-description: "Guía para pasar el puente de la Constitución en Benidorm con niños: qué hacer con frío, dónde alojarse, planes cubiertos, iluminación de Navidad y precios reales del puente."
-seoDescription: "Puente diciembre en Benidorm con familia: qué parques están abiertos, iluminación de Navidad, hoteles familiares con encanto y por qué es el mejor puente calidad-precio."
+title: "Puente de diciembre en Magic Robin Hood: la Navidad en Benidorm que engancha a los niños"
+seoTitle: "Puente Diciembre en Magic Robin Hood 2026: Navidad Real en Benidorm"
+description: "Nuestro puente de diciembre en Magic Robin Hood: pista de hielo, shows de magia, pasacalles navideños, futbillar, foodtrucks, jacuzzis calientes en las cabañas y Benidorm iluminado. Todo lo que hace única la Navidad en el resort."
+seoDescription: "Pista de hielo, shows de magia e hipnosis, pasacalles con personajes, futbillar, foodtrucks, jacuzzi calentito en la cabaña. La escapada navideña que repites cada año."
 date: "2026-08-28"
-categoria: "vacaciones-familia"
-tags: ["puente diciembre", "benidorm", "escapada familia", "constitución", "inmaculada", "navidad", "hoteles benidorm"]
-relatedVideoIds: []
+categoria: "magic-world"
+tags: ["magic robin hood", "puente diciembre", "navidad", "benidorm familia", "escapada navideña", "constitución", "alfaz del pi", "hoteles navidad"]
+relatedVideoIds: ["tU9J7BisBfg"]
 featured: true
 lastModified: "2026-08-28"
+ogImage: "/blog/magic-robin-hood/magic-robin-hood-pista-hielo-navidad.webp"
+rating: 4.9
+reviewCount: 1
 faqs:
-  - q: "¿Merece la pena ir a Benidorm en el puente de diciembre con niños?"
-    a: "Sí, especialmente por precio y ambiente navideño. Benidorm en diciembre tiene temperaturas suaves (15-19ºC de día), iluminación navideña, mercadillos y actividades familiares. Los precios de hoteles son entre 40 y 60% más baratos que en verano. Hay que planificar planes cubiertos por si llueve."
-  - q: "¿Qué se puede hacer en Benidorm en diciembre con niños?"
-    a: "Iluminación navideña por el centro y la playa de Levante, mercadillo de Navidad en la Plaza del Ayuntamiento, Terra Mítica cerrado pero Aqualandia y Mundomar con horarios reducidos. Paseo marítimo, playa (tomar el sol pero baño solo los valientes), Terra Natura (zoo) abierto todo el año."
-  - q: "¿Qué tiempo hace en Benidorm en el puente de diciembre?"
-    a: "Benidorm tiene invierno suave. Temperaturas típicas de 15-19ºC de día y 7-11ºC de noche. Puede llover algún día pero mayormente hay sol. Es de los pocos sitios de España donde puedes estar en manga corta al mediodía en diciembre."
-  - q: "¿Cuánto sale un puente de diciembre en Benidorm para familia de 4?"
-    a: "Depende de hotel y régimen. En hotel familiar con todo incluido (Magic Robin Hood, Magic Natura, similares) sale entre 700 y 1.100€ para 3-4 noches. En apartamento sin comidas puede bajar a 300-500€ el alojamiento. La diferencia con verano es notable."
-  - q: "¿Hay ambiente en Benidorm en diciembre o está muerto?"
-    a: "Benidorm en diciembre no es la fiesta de agosto pero está lejos de estar muerto. Hay ambiente en el centro, restaurantes abiertos, iluminación navideña y turismo nacional y extranjero (muchos ingleses e irlandeses pasan el invierno). Playa de Levante siempre tiene gente paseando."
+  - q: "¿Qué hay preparado en Magic Robin Hood durante el puente de diciembre?"
+    a: "Pista de hielo artificial dentro del recinto, pasacalles diarios con personajes navideños del resort, shows de magia e hipnosis en el teatro, foodtrucks temáticos, futbillar y las actividades habituales del hotel (piscinas, laser tag, minigolf, tirolinas). Todo incluido en el régimen."
+  - q: "¿Los jacuzzis de las cabañas funcionan en diciembre?"
+    a: "Sí, y son una gozada. Los jacuzzis privados en la terraza de las cabañas mantienen temperatura de invierno (unos 38ºC), pensados justo para el frío suave de fuera. Meterse ahí tras un día por Benidorm es la mejor manera de rematar la jornada."
+  - q: "¿Qué tiempo hace en Benidorm en diciembre?"
+    a: "Benidorm tiene microclima suave. Temperaturas de 15 a 19ºC de día y 7 a 11ºC de noche. Puede llover puntualmente pero domina el sol. Es de los pocos sitios de España donde puedes pasear en manga corta al mediodía en pleno diciembre."
+  - q: "¿Cuánto sale un puente diciembre en Magic Robin Hood para familia de 4?"
+    a: "Depende de fechas y régimen. Puente de la Constitución 4 noches en ultra todo incluido para 2 adultos + 2 niños suele estar entre 700 y 1.100 euros. Reservando con dos meses de antelación se pilla mejor tarifa. Con nuestro código MAGICLOSFAMILUKIS aplicas descuento adicional."
+  - q: "¿Merece la pena Magic Robin Hood en Navidad frente a otras escapadas?"
+    a: "Si vas con niños, sí. La combinación de clima suave, programación navideña propia del hotel, pista de hielo, pasacalles, shows y libertad para que los peques se muevan solos por el recinto es difícil de igualar en un puente. Los precios además son un tercio del verano."
 ---
 
-El puente de la Constitución más la Inmaculada (5 al 8 de diciembre según año) es una ventana perfecta para escapada familiar. Y Benidorm, aunque nadie lo asocie con diciembre, es uno de los destinos con mejor relación calidad-precio esos días.
+El puente de la Constitución nos pilla siempre con la duda del mismo plan: quedarnos en Madrid con frío o escaparnos. En 2025 lo tuvimos claro: **Magic Robin Hood en Navidad**. Y desde entonces es fijo cada año.
 
-Se nota que se acaba el verano y toca pensar en el próximo hueco de vacaciones. Este es el que viene, con niños, y aquí va la guía completa.
+<figure class="post-hero"><img src="/blog/magic-robin-hood/magic-robin-hood-pista-hielo-navidad.webp" alt="Pista de hielo artificial en Magic Robin Hood durante el puente de diciembre" loading="eager" /><figcaption>Pista de hielo artificial montada dentro del complejo, sin salir del resort ni pagar entrada aparte.</figcaption></figure>
 
-## Por qué Benidorm funciona en diciembre
+Aquí te contamos qué hace especial el puente de diciembre en Magic Robin Hood con niños. Todo lo que viene es lo que hemos vivido allí, no lo que dice la web oficial.
 
-Tres razones concretas:
+## Benidorm en diciembre: mejor plan de lo que parece
 
-**1. Clima**. Benidorm tiene microclima suave. Temperaturas de 15-19ºC de día en pleno diciembre. No estás en la playa nadando, pero puedes pasear con niños en manga corta al mediodía. Comparado con cualquier plan de puente en el interior (Madrid, Salamanca, Toledo) la diferencia se nota.
+El primer año fuimos con dudas. Benidorm suena a verano y agosto en la mente de todo el mundo. La realidad es que **el microclima de la Costa Blanca hace de la ciudad un destino perfectamente disfrutable en pleno diciembre**. Al mediodía hemos comido en la terraza en manga corta más de una vez.
 
-**2. Precio**. Un hotel familiar con todo incluido que en agosto cuesta 2.500€ en el puente de diciembre puede costar 900€. Es literalmente un tercio. Con niños es la ventana donde tu dinero cunde el triple.
+Temperaturas típicas del puente:
+- 15 a 19 grados de día
+- 7 a 11 grados de noche
+- Sol dominante, alguna lluvia puntual
 
-**3. Ambiente e iluminación navideña**. Benidorm se ilumina entero para Navidad desde primeros de diciembre. Playa de Levante iluminada, calles del centro decoradas, mercadillo en la Plaza del Ayuntamiento. Con niños, el efecto es espectacular.
+Comparado con cualquier escapada al interior peninsular en diciembre, la diferencia se nota nada más bajar del coche.
 
-## Qué hacer con niños en Benidorm en diciembre
+## La Navidad dentro del resort
 
-### Iluminación y ambiente navideño
+Aquí es donde Magic Robin Hood se pone las pilas. El complejo se decora entero para las fechas y monta una programación propia que hace que los niños no quieran salir del hotel.
 
-Es lo primero que os pedirán ver los niños. Recorridos recomendados:
+<div class="editorial-mix"><figure><img src="/blog/magic-robin-hood/magic-robin-hood-entrada-navidad.webp" alt="Entrada iluminada del complejo Magic Robin Hood en diciembre" loading="lazy" /></figure><figure><img src="/blog/magic-robin-hood/magic-robin-hood-navidad-familia-familukis.webp" alt="Los Familukis en Magic Robin Hood durante el puente de Navidad" loading="lazy" /></figure></div>
 
-- **Paseo marítimo de la Playa de Levante iluminado** (2 km) — imprescindible al anochecer
-- **Plaza del Ayuntamiento** con árbol de Navidad gigante y decoración
-- **Calle Gerona** (peatonal) — decoración y ambiente
-- **Mercadillo de Navidad** en Plaza del Ayuntamiento (fechas exactas por año)
+### Pista de hielo artificial
 
-Hora recomendada: 17:30-19:30 (encendido de luces + terrazas todavía cómodas).
+Instalada dentro del recinto, sin salir del hotel. Los niños se pasan las tardes ahí. Alquiler de patines incluido si tu régimen lo cubre. Es de esas cosas que en Madrid pagarías una entrada aparte y aquí las tienes a diez metros de la habitación.
 
-### Parques temáticos
+### Pasacalles con personajes
 
-- **Terra Mítica**: cierra en invierno. Comprobar fechas.
-- **Aqualandia**: cierra hasta primavera.
-- **Mundomar**: abierto con horario reducido invierno. Delfines, pingüinos, focas. Muy familiar.
-- **Terra Natura** (zoo): abierto todo el año. Hipopótamos, elefantes, tigres. Ideal en diciembre porque los animales están más activos por la temperatura suave.
-- **Aqua Natura**: cerrado en invierno pero hay piscina climatizada en el hotel Natura.
+Varias veces al día pasean por el complejo los personajes del resort mezclados con figuras navideñas. Los peques los ven, se hacen fotos, bailan con ellos. Sin cola, sin reservar, sin nada. Simplemente pasas por ahí y ocurre.
 
-### Planes cubiertos si llueve
+### Shows de magia e hipnosis
 
-Diciembre en Benidorm suele tener sol pero puede llover algún día. Alternativas cubiertas:
+El teatro del resort programa por las noches shows específicos de Navidad. Los que más nos han enganchado son los de **magia** (con Pando, un mago que se sabe la fórmula para dejar a los niños con la boca abierta) y los de **hipnosis** para adultos. Alternan entre entretenimiento familiar y adulto, así que hay para todos.
 
-- **La Cala Aventura Park** (a 30 min): centro de ocio infantil cubierto
-- **Cine en La Marina** — algunas salas ponen películas familiares
-- **Bolera del centro comercial La Marina**
-- **Rincón de Loix**: locales con hamburguesas y ocio familiar cubierto
+<figure class="post-media"><img src="/blog/magic-robin-hood/magic-robin-hood-show-magia-pando.webp" alt="Show de magia de Pando el Mago en Magic Robin Hood durante Navidad" loading="lazy" /></figure>
 
-### Playa en diciembre
+### Foodtrucks navideños
 
-Sí, la playa. Cepilla la idea "playa en invierno" y sustitúyela por "paseo por la arena con abrigo y niños jugando en la orilla". El agua está a 15-16ºC (fría pero no imposible para valientes 5 minutos). Es el plan de mañana favorito de todas las familias que van en diciembre.
+Instalados por la zona del recinto durante todo el puente. Hamburguesas, gofres, palomitas, chocolate caliente. Están incluidos en el ultra todo incluido, así que puedes probar y no gastas un euro extra. Los niños alucinan porque es literalmente pedir lo que quieran cada rato.
 
-## Alojamiento: qué opciones tienes
+### Futbillar (fútbol + billar)
 
-Benidorm tiene tres tipos de alojamiento en diciembre:
+Este es el descubrimiento raro del resort. Un campo del tamaño de una habitación grande, pintado como si fuera un tablero de billar gigante, con balones de fútbol como bolas. Se juega con los pies. Es adictivo y no lo hemos visto en ningún otro hotel.
 
-### Hotel familiar con todo incluido
+<figure class="post-media"><img src="/blog/magic-robin-hood/magic-robin-hood-futbillar-navidad.webp" alt="Futbillar en Magic Robin Hood: campo tipo billar con balones de fútbol" loading="lazy" /></figure>
 
-La opción más cómoda con niños. Grandes complejos del grupo Magic o similares. Ventajas:
-- Régimen ultra todo incluido a precio de temporada baja
-- Piscina climatizada en algunos hoteles
-- Miniclub y animación aún operativos (aunque más reducidos que en verano)
+### Actividades habituales que siguen funcionando
 
-**Hoteles top para familia en puente diciembre:**
+Todo lo que ya hace del hotel un imprescindible en verano sigue operativo en Navidad. La [zona de multiaventura y laser tag](/blog/magic-robin-hood-con-ninos/), el minigolf, la piscina climatizada del hotel y la zona kids con manualidades para los peques.
 
-- **Magic Robin Hood** (Alfaz del Pi): cabañas medievales, muy familiar. Nuestro [análisis completo aquí](/blog/hotel-magic-robin-hood-opiniones/).
-- **Magic Natura Animal, Water Park & Polynesian**: ambiente tropical, animales incluidos.
-- **Magic Rock Gardens** (Benidorm): opción céntrica con todo incluido.
-- **Magic Villa Benidorm**: pequeño formato familiar en centro.
+<figure class="post-media"><img src="/blog/magic-robin-hood/magic-robin-hood-laser-tag-navidad.webp" alt="Zona de laser tag de Magic Robin Hood abierta en diciembre" loading="lazy" /></figure>
 
-Precio orientativo: 700-1.100€ para familia de 4 (2 adultos + 2 niños) 3-4 noches en todo incluido.
+Y la **zona de billares y recreativas del Lady Marian**, que en fechas navideñas se convierte en el punto de encuentro de familias enteras. Máquinas recreativas, billares y mesas de aire, bar al lado. Plan de tarde perfecto cuando el resto del día ya lo han dado todo.
 
-### Apartamento vacacional
+<figure class="post-media"><img src="/blog/magic-robin-hood/magic-robin-hood-zona-billar-lady-marian.webp" alt="Zona de billares Lady Marian en Magic Robin Hood" loading="lazy" /></figure>
 
-Más económico si controláis las comidas. Airbnb, Booking, Idealista. Para familia con niños grandes que ya comen fuera sin drama, puede salir por 300-500€ las 3-4 noches. Sin animación ni piscina climatizada.
+## Las cabañas en Navidad: la clave del descanso
 
-### Hotel estándar sin todo incluido
+Aquí es donde el hotel se separa del resto. Las cabañas con jacuzzi privado en la terraza son el broche perfecto del día en fechas frías.
 
-Opción intermedia. Hotel 3-4 estrellas con desayuno, comidas y cenas fuera. 400-700€ para familia de 4. Da libertad para probar restaurantes locales.
+**El jacuzzi funciona con temperatura de invierno**. No es la típica bañera decorativa que puedes usar tres semanas al año. Se mantiene a unos 38 grados, pensada precisamente para meterte cuando fuera hace fresco. Después de un día completo de pista de hielo, paseos por Benidorm y foodtrucks, subir a la terraza de tu cabaña, meterte en el jacuzzi caliente con los peques y ver las estrellas es la escena que hace que quieras repetir cada año.
 
-## Presupuesto total del puente por familia
+Si vas por primera vez, mira nuestra [guía de cabañas de Magic Robin Hood](/blog/magic-robin-hood-cabanas-familia/) para elegir la categoría adecuada. Para Navidad recomendamos las Grand o Superior por el jacuzzi.
 
-Cálculo para familia de 4 personas (2 adultos + 2 niños), 4 noches:
+## Fuera del resort: Benidorm iluminado
 
-| Concepto | Todo incluido | Apartamento |
-|---|---|---|
-| Alojamiento | 900€ | 400€ |
-| Comidas | Incluidas | 300-400€ |
-| Combustible/tren | 100-150€ | 100-150€ |
-| Entradas parques (Mundomar+Terra Natura) | 180€ | 180€ |
-| Extras (souvenirs, algún café) | 50€ | 100€ |
-| **TOTAL** | **~1.230€** | **~1.030€** |
+Aunque tengas mucho dentro, la ciudad merece una salida. Benidorm se ilumina entera para Navidad desde primeros de diciembre.
 
-Con todo incluido calidad-precio suele ganar porque los niños comen ilimitado sin coste añadido y las bebidas van dentro.
+<figure class="post-media"><img src="/blog/magic-robin-hood/magic-robin-hood-paseo-benidorm-diciembre.webp" alt="Paseo por Benidorm iluminado en diciembre con familia" loading="lazy" /></figure>
 
-## Trucos para reservar bien
+**Nuestro plan tipo de una tarde:**
+1. Salir del hotel a las 17:00 en el autobús gratuito del resort
+2. Paseo por el paseo marítimo de la Playa de Levante (iluminación espectacular al anochecer)
+3. Mercadillo de Navidad en la Plaza del Ayuntamiento
+4. Cena en uno de los locales del grupo Magic en el centro (Mahui o Magic Star Café, con condiciones especiales para huéspedes)
+5. Vuelta en el autobús del resort sin conducir ni pagar parking
 
-**1. Reserva ya**. En septiembre-octubre las mejores tarifas y habitaciones vuelan para el puente diciembre.
+Los autobuses funcionan también en fechas navideñas. Es de las cosas que más se agradecen porque conducir en Benidorm centro por Navidad es una odisea.
 
-**2. Sale más barato llegar el viernes tarde-noche que el jueves**. Diferencia mínima en ambiente y mayor en precio.
+Si necesitas más ideas de planes con niños fuera del hotel, tenemos [qué hacer en Benidorm con niños](/blog/que-hacer-en-benidorm/) con todo lo que sí merece la pena y lo que no.
 
-**3. Alfaz del Pi vs. Benidorm centro**: en Alfaz del Pi hoteles más tranquilos y baratos. En Benidorm centro más ambiente pero más caro.
+## Cuánto sale un puente de diciembre en Robin Hood
 
-**4. Familia numerosa**: aplica descuento del título en cualquier hotel del grupo Magic.
+Datos reales de nuestra última reserva y de tarifas actuales:
 
-**5. Nuestro código MAGICLOSFAMILUKIS** aplica descuento adicional en la web oficial. Se acumula con las tarifas promo.
+**Familia 4 personas (2 adultos + 2 niños), 4 noches, ultra todo incluido:**
+- Habitación estándar: 750 a 900 euros
+- Cabaña estándar: 950 a 1.150 euros
+- Cabaña Grand con jacuzzi: 1.150 a 1.400 euros
 
-## El plan tipo de puente ideal
+Con dos meses de antelación se pillan las mejores tarifas. Y aplicando **MAGICLOSFAMILUKIS** en la reserva se acumula descuento a las promos de la web oficial.
 
-Basado en cómo funciona con niños de 5-12 años:
+## Para qué familia funciona bien
 
-**Jueves (llegada por la noche)**
-- Llegada 20:00-21:00, cena en el hotel, minidisco si hay, a dormir pronto
+Este plan es perfecto si:
+- Tenéis hijos de 4 a 14 años que se aburren en escapadas de solo pasear
+- Queréis descansar de verdad y no cocinar ni pensar en la comida
+- Os apetece Navidad con ambiente pero sin frío polar
+- Familia numerosa: la relación precio-actividades es imbatible
 
-**Viernes**
-- Mañana: playa/piscina, paseo por Alfaz o Benidorm
-- Tarde: iluminación por playa Levante al anochecer
-- Cena: en el hotel
-
-**Sábado**
-- Día completo en Terra Natura (zoo) o Mundomar
-- Vuelta al hotel para descanso
-- Mercadillo Navidad Plaza del Ayuntamiento
-- Cena en hotel
-
-**Domingo**
-- Mañana relajada en hotel/piscina
-- Comida
-- Vuelta a casa por la tarde
-
-**Lunes (si tienes 4 noches)**
-- Playa de mañana + Faro del Albir andando
-- Vuelta
+No es la mejor opción si buscáis nieve, esquí, o si preferís un pueblito de montaña con encanto. Aquí el plus es la programación intensa del resort y la comodidad total con niños.
 
 ## Reserva con nuestro código
 
-Aplicable a cualquier hotel del grupo Magic en la reserva vía web oficial:
-
 <a href="/reservar/" class="cta-btn">🎄 Reservar puente diciembre Magic con descuento</a>
 
-Si estás decidiendo entre hoteles, mira nuestra [comparativa Magic Robin Hood vs Magic Natura](/blog/magic-robin-hood-vs-magic-natura/) y la [lista completa de hoteles del grupo Magic](/categoria/magic-world/) para elegir el que mejor encaje.
+El código MAGICLOSFAMILUKIS se aplica automáticamente al reservar desde aquí. El descuento exacto lo ves en el precio final del motor oficial.
+
+Si estás decidiendo entre hoteles del grupo Magic, te ayudan estos dos artículos: [opiniones completas de Magic Robin Hood](/blog/hotel-magic-robin-hood-opiniones/) y la [comparativa Robin Hood vs Magic Natura](/blog/magic-robin-hood-vs-magic-natura/) para saber cuál encaja mejor con tu familia.
+
+Para ver todos los artículos y reseñas de hoteles del complejo en un solo sitio, tienes nuestra [sección completa de Magic World Resort](/categoria/magic-world/) con la lista actualizada.
+
+<style>
+.post-hero{margin:1.5rem 0}
+.post-hero img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;display:block}
+.post-hero figcaption{font-size:.85rem;color:#888;margin-top:.5rem;text-align:center;font-style:italic}
+.post-media{margin:1.5rem 0}
+.post-media img{width:100%;max-height:520px;object-fit:cover;border-radius:10px;display:block}
+.editorial-mix{display:grid;grid-template-columns:2fr 1fr;gap:.75rem;margin:1.5rem 0;max-height:520px}
+.editorial-mix figure{margin:0;height:100%}
+.editorial-mix img{width:100%;height:100%;max-height:520px;object-fit:cover;border-radius:10px;display:block}
+@media (max-width:640px){.editorial-mix{grid-template-columns:1fr;max-height:none}.editorial-mix img{aspect-ratio:16/10;height:auto}}
+</style>
