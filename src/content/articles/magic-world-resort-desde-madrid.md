@@ -84,9 +84,9 @@ Si vas en tren y sales de Oropesa del Mar estación, el taxi hasta el resort son
 
 ## Reserva con nuestro código
 
-Nuestra guía [completa de Magic World Resort](/blog/magic-world-resort-opiniones/) tiene todos los detalles del sitio. Como embajadores del resort tenemos código **MAGICLOSFAMILUKIS** que aplica un 3% de descuento adicional sobre la tarifa web al reservar en la oficial:
+Nuestra guía [completa de Magic World Resort](/blog/magic-world-resort-opiniones/) tiene todos los detalles del sitio. Como embajadores del resort tenemos código **MAGICLOSFAMILUKIS** que aplica un descuento extra de descuento adicional sobre la tarifa web al reservar en la oficial:
 
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic World con descuento</a>
+<a href="/reservar/" class="cta-btn">🎡 Reservar Magic World con descuento</a>
 
 Si te vas a mover por la zona una vez estés allí, no te pierdas nuestra [guía de cómo llegar y qué hay alrededor](/blog/magic-world-resort-como-llegar-mapa/) con recomendaciones de playas cercanas, restaurantes y excursiones para niños.
 

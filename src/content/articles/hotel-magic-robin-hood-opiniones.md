@@ -149,9 +149,9 @@ Orientativo para familia de cuatro (2 adultos + 2 niños) siete noches en ultra 
 
 ## Reserva con nuestro código
 
-Como embajadores de la cadena Magic tenemos código **MAGICLOSFAMILUKIS** que aplica un 3% adicional sobre la tarifa web al reservar en la web oficial. Se acumula con las ofertas activas de la web:
+Como embajadores de la cadena Magic tenemos código **MAGICLOSFAMILUKIS** que aplica un descuento adicional sobre la tarifa web al reservar en la web oficial. Se acumula con las ofertas activas de la web:
 
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🏰 Reservar Magic Robin Hood con descuento</a>
+<a href="/reservar/" class="cta-btn">🏰 Reservar Magic Robin Hood con descuento</a>
 
 Si estás valorando otros hoteles del grupo, en nuestra [sección completa de Magic World Resort](/categoria/magic-world/) tienes todas las reseñas de la cadena. Y si aún estás decidiendo el destino, [qué hacer en Benidorm con niños](/blog/que-hacer-en-benidorm/) te ayuda a saber si esta zona encaja con lo que buscáis.
 

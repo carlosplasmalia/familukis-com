@@ -108,8 +108,8 @@ Al reservar en la web oficial se elige categoría (estándar, family, grand) per
 
 ## Con nuestro código de embajador
 
-Al reservar cualquier cabaña de Magic Robin Hood puedes usar nuestro código **MAGICLOSFAMILUKIS** que aplica un 3% adicional sobre la tarifa web. Se acumula con familia numerosa y otras promos activas de la web oficial:
+Al reservar cualquier cabaña de Magic Robin Hood puedes usar nuestro código **MAGICLOSFAMILUKIS** que aplica un descuento adicional sobre la tarifa web. Se acumula con familia numerosa y otras promos activas de la web oficial:
 
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🏰 Reservar cabaña Magic Robin Hood con descuento</a>
+<a href="/reservar/" class="cta-btn">🏰 Reservar cabaña Magic Robin Hood con descuento</a>
 
 Si aún estás decidiendo entre este hotel y los demás del grupo, tienes nuestra [opinión completa de Magic Robin Hood](/blog/hotel-magic-robin-hood-opiniones/) o mira las [reseñas de Magic World Resort en Oropesa](/categoria/magic-world/) si te interesa comparar con la otra gran opción de la cadena Magic.

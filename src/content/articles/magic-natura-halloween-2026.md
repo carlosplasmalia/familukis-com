@@ -17,7 +17,7 @@ faqs:
   - q: "¿Es apto Halloween en Magic Natura para niños pequeños?"
     a: "Sí. El hotel adapta las actividades por edad. Los talleres y decoración funcionan para peques de 3 años en adelante. El pasaje del terror tiene versión suave para menores de 8-9 años sin sustos fuertes y versión más intensa para niños mayores y adolescentes."
   - q: "¿Cuánto sale el puente de Halloween en Magic Natura?"
-    a: "Un puente de 3-4 noches en régimen todo incluido para familia de 4 personas suele estar entre 800 y 1.200€ según antelación y categoría de habitación. Con el código MAGICLOSFAMILUKIS aplicas 3% adicional. Conviene reservar en septiembre porque en octubre se llena."
+    a: "Un puente de 3-4 noches en régimen todo incluido para familia de 4 personas suele estar entre 800 y 1.200€ según antelación y categoría de habitación. Con el código MAGICLOSFAMILUKIS aplicas descuento adicional. Conviene reservar en septiembre porque en octubre se llena."
   - q: "¿Hay que llevar disfraz o los venden allí?"
     a: "El hotel organiza un baile de disfraces y muchos niños los llevan. Recomendamos llevarlo de casa (más variedad, más barato). El hotel tiene taller para hacer disfraces DIY con materiales incluidos, útil como plan B."
 ---
@@ -119,8 +119,8 @@ Si el hotel se llena o buscas otras opciones del grupo Magic para Halloween:
 
 ## Reserva con nuestro código
 
-Aplica el código **MAGICLOSFAMILUKIS** al reservar en la web oficial y obtienes un 3% adicional sobre la tarifa. Se puede combinar con las promos activas de la web:
+Aplica el código **MAGICLOSFAMILUKIS** al reservar en la web oficial y obtienes un descuento adicional sobre la tarifa. Se puede combinar con las promos activas de la web:
 
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🎃 Reservar Magic Natura Halloween con descuento</a>
+<a href="/reservar/" class="cta-btn">🎃 Reservar Magic Natura Halloween con descuento</a>
 
 Si prefieres comparar antes con el otro hotel estrella de la zona, tienes la [comparativa Magic Robin Hood vs Magic Natura](/blog/magic-robin-hood-vs-magic-natura/) y también nuestro [análisis de Magic Robin Hood](/blog/hotel-magic-robin-hood-opiniones/). Para más opciones de la cadena tienes la [sección completa de hoteles del grupo Magic](/categoria/magic-world/).

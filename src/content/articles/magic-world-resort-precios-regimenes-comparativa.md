@@ -11,7 +11,7 @@ featured: true
 lastModified: "2026-08-06"
 faqs:
   - q: "¿Cuál es el régimen más barato del Hotel Magic Sport?"
-    a: "Alojamiento y Desayuno es el régimen más económico. Para 2 adultos y un niño de 10 años en temporada alta (agosto de 2026), la habitación base del Hotel Magic Sport sale por 326,80€ por noche. Con nuestro código exclusivo se aplica un 3% adicional reservando desde la web oficial."
+    a: "Alojamiento y Desayuno es el régimen más económico. Para 2 adultos y un niño de 10 años en temporada alta (agosto de 2026), la habitación base del Hotel Magic Sport sale por 326,80€ por noche. Con nuestro código exclusivo se aplica un descuento adicional reservando desde la web oficial."
   - q: "¿Cuál es la diferencia real entre Todo Incluido y Ultra Todo Incluido en Magic World?"
     a: "El Todo Incluido cubre buffet, snacks entre horas, bebidas ilimitadas en el buffet y bebidas de primeras marcas en bares y parque acuático del hotel. El Ultra Todo Incluido añade restaurantes temáticos según la estancia, welcome pack y reposición de minibar, accesos a Magic Play Zone, y a partir de 4 noches el pack Mega Escapada Magic con Parque Acuático Polinesia, Magic Show, Magic Dino Land y Thalasso Exterior. El salto sale unos 24€ por noche en habitación base."
   - q: "¿Cuánto cuesta el Ultra Todo Incluido en Magic World Resort para una familia?"
@@ -31,8 +31,8 @@ Como pasamos allí varias veces al año con los cinco hijos, hemos ido guardando
 > **Importante:** todas las tarifas de este post corresponden al **Hotel Magic Sport** en **temporada alta (agosto de 2026)**, la más cara del año. En junio, julio inicial y septiembre las mismas habitaciones y regímenes pueden salir hasta un 35% más baratos.
 
 <div class="cta-block">
-<p>Reserva con nuestro código exclusivo y llévate un 3% de descuento adicional aplicado directamente en la web oficial del resort.</p>
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic World con descuento</a>
+<p>Reserva con nuestro código exclusivo y llévate un descuento adicional aplicado directamente en la web oficial del resort.</p>
+<a href="/reservar/" class="cta-btn">🎡 Reservar Magic World con descuento</a>
 </div>
 
 ## Precios reales de agosto de 2026 para 2 adultos y un niño
@@ -75,7 +75,7 @@ Igual que la anterior pero con terraza que da a la piscina y consola con videoju
 | Todo Incluido | 396,94 € | **2.046,06 €** |
 | Ultra Todo Incluido | 421,21 € | **2.171,18 €** |
 
-Todos los precios llevan el 10% de IVA incluido y son de temporada alta (agosto de 2026). Las tarifas son dinámicas y varían según la ocupación del hotel, así que conviene consultar el día que reserves. Nuestro código exclusivo aplica un 3% adicional sobre estas cifras.
+Todos los precios llevan el 10% de IVA incluido y son de temporada alta (agosto de 2026). Las tarifas son dinámicas y varían según la ocupación del hotel, así que conviene consultar el día que reserves. Nuestro código exclusivo aplica un descuento adicional sobre estas cifras.
 
 ## Qué incluye cada régimen (sin letra pequeña)
 
@@ -171,11 +171,11 @@ Para adulto solo, la habitación doble uso individual está prácticamente al mi
 
 ## Reserva con nuestro código exclusivo
 
-Como somos embajadores del resort, tenemos un código que resta un **3% adicional** sobre la tarifa oficial de la web. Se aplica automáticamente si reserváis desde el botón de aquí abajo, no hay que introducir nada a mano:
+Como somos embajadores del resort, tenemos un código que resta un **descuento adicional** sobre la tarifa oficial de la web. Se aplica automáticamente si reserváis desde el botón de aquí abajo, no hay que introducir nada a mano:
 
 <div class="cta-block">
 <p>Sobre una semana en Ultra Todo Incluido en habitación base son unos 58€ de ahorro. En Hall of Fame Pool View con Ultra Todo Incluido son unos 65€. Cuando la reserva pasa de los 2.000€ tampoco es despreciable.</p>
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic World con descuento</a>
+<a href="/reservar/" class="cta-btn">🎡 Reservar Magic World con descuento</a>
 </div>
 
 ## Resumen para decidir rápido
@@ -194,6 +194,6 @@ Y si buscáis fechas fuera del pico, ir a Magic World Resort en septiembre baja 
 
 ---
 
-*Precios verificados el 6 de agosto de 2026 en la web oficial del resort para 2 adultos y un niño de 10 años, temporada alta de agosto, 5 noches en el Hotel Magic Sport. Las tarifas dinámicas pueden variar en el momento de tu reserva. Nuestro código exclusivo aplica un 3% de descuento adicional sobre la tarifa vigente.*
+*Precios verificados el 6 de agosto de 2026 en la web oficial del resort para 2 adultos y un niño de 10 años, temporada alta de agosto, 5 noches en el Hotel Magic Sport. Las tarifas dinámicas pueden variar en el momento de tu reserva. Nuestro código exclusivo aplica un descuento extra de descuento adicional sobre la tarifa vigente.*
 
 Para ver todos los artículos y reseñas de hoteles del complejo en un solo sitio, tienes nuestra [sección completa de Magic World Resort](/categoria/magic-world/) con la lista actualizada.

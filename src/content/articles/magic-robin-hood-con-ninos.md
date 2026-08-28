@@ -132,8 +132,8 @@ Muchas familias que se alojan una semana en Robin Hood hacen 2-3 días de excurs
 
 ## Reserva con nuestro código
 
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🏰 Reservar Magic Robin Hood con descuento</a>
+<a href="/reservar/" class="cta-btn">🏰 Reservar Magic Robin Hood con descuento</a>
 
-El código **MAGICLOSFAMILUKIS** aplica 3% adicional sobre la tarifa web al reservar en la oficial del grupo Magic.
+El código **MAGICLOSFAMILUKIS** aplica descuento adicional sobre la tarifa web al reservar en la oficial del grupo Magic.
 
 Si aún estás decidiendo, mira nuestro [análisis completo de Magic Robin Hood](/blog/hotel-magic-robin-hood-opiniones/), la [guía de sus cabañas familiares](/blog/magic-robin-hood-cabanas-familia/) o compara con los hoteles de Magic World Resort en Oropesa en nuestra [sección completa del grupo Magic](/categoria/magic-world/).

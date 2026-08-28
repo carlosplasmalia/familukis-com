@@ -1,58 +1,25 @@
 ---
 export interface Props {
-  hotel?: string;
-  marca?: string;
-  compacto?: boolean;
+  label?: string;
+  variant?: "default" | "compact";
 }
-const { hotel = "", marca = "", compacto = false } = Astro.props;
+const { label = "Reservar Magic con descuento Familukis", variant = "default" } = Astro.props;
 const PROXY = "https://magic-reservas.plural-soldier.workers.dev/";
 const BREVO_ACTION = "https://9ab7b963.sibforms.com/serve/MUIFADIlif981oRL3CO9RsJ6MZRoDBPdav1100emuwGi9FhnJl6m939M2xMOAUZi33VCaYBEKvLr7fbtkPSVJBn-nvwDuD-UFrdNC7hUEm4makNYhhPrRV3DBZX8ZJT2LzrpYPyjj2sMnzWzDz2-bXnSAJqEl9nR8lf-lx2zv-AAVGhkrwd8u4qplqS3f7i2LK2IAuhfuFwZKQimAg==";
 const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
 ---
-<form
-  class:list={["widget-reserva-magic", { compacto }]}
-  method="get"
-  action={PROXY}
-  target="_blank"
-  data-uid={uid}
-  onsubmit="return window.__wmReservaSubmit && window.__wmReservaSubmit(this);"
->
-  <!-- El motor Roiback acepta estos por GET y precarga fechas + adultos -->
-  <!-- El codpromo se bloquea automáticamente al llegar (script inyectado en el proxy) -->
-
-  <div class="wm-row wm-dates">
-    <label>
-      <span>Entrada</span>
-      <input type="date" name="arrival" required />
-    </label>
-    <label>
-      <span>Salida</span>
-      <input type="date" name="departure" required />
-    </label>
-  </div>
-
-  <div class="wm-row wm-people">
-    <label>
-      <span>Adultos</span>
-      <select name="adults">
-        <option value="1">1</option>
-        <option value="2" selected>2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-      </select>
-    </label>
-    <label>
-      <span>Niños</span>
-      <select class="wm-in-children">
-        <option value="0" selected>0</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-      </select>
-    </label>
-  </div>
+<div class:list={["widget-reserva-magic", variant]} data-uid={uid}>
+  <a
+    href={PROXY}
+    target="_blank"
+    rel="sponsored noopener"
+    class="wm-cta"
+    onclick="return window.__wmReservaClick && window.__wmReservaClick(this);"
+  >
+    <span class="wm-cta-icon">🎡</span>
+    <span class="wm-cta-label">{label}</span>
+    <span class="wm-cta-sub">Código MAGICLOSFAMILUKIS aplicado automáticamente</span>
+  </a>
 
   <details class="wm-lead">
     <summary>📧 Guardar mi búsqueda y recibir novedades (opcional)</summary>
@@ -65,69 +32,29 @@ const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
     </div>
   </details>
 
-  <button type="submit" class="wm-cta">
-    Buscar con descuento
-    <span class="wm-cta-sub">Código MAGICLOSFAMILUKIS aplicado automáticamente</span>
-  </button>
-
-  <p class="wm-note">Vas directo al motor oficial con nuestro código bloqueado. Sin banners de terceros. Solo tienes que confirmar la búsqueda.</p>
-</form>
-
-<!-- iframe oculto para el POST fire-and-forget a Brevo -->
-<iframe name={`brevo-lead-${uid}`} style="display:none;width:0;height:0;border:0" aria-hidden="true" title=""></iframe>
+  <iframe name={`brevo-lead-${uid}`} style="display:none;width:0;height:0;border:0" aria-hidden="true" title=""></iframe>
+</div>
 
 <script is:inline>
 (function () {
-  if (window.__wmReservaSubmit) return;
+  if (window.__wmReservaClick) return;
 
-  function initForm(f) {
-    const entrada = f.querySelector('[name=arrival]');
-    const salida = f.querySelector('[name=departure]');
-    if (entrada && salida) {
-      const today = new Date();
-      const tomorrow = new Date(today.getTime() + 86400000);
-      entrada.min = today.toISOString().slice(0, 10);
-      salida.min = tomorrow.toISOString().slice(0, 10);
-      entrada.addEventListener('change', () => {
-        if (entrada.value) {
-          const next = new Date(new Date(entrada.value).getTime() + 86400000);
-          salida.min = next.toISOString().slice(0, 10);
-          if (!salida.value || salida.value <= entrada.value) {
-            salida.value = next.toISOString().slice(0, 10);
-          }
-        }
-      });
-    }
-  }
-
-  window.__wmReservaSubmit = function (f) {
-    const entrada = f.querySelector('[name=arrival]').value;
-    const salida = f.querySelector('[name=departure]').value;
-    if (!entrada || !salida) return false;
-    if (salida <= entrada) { alert("La salida debe ser posterior a la entrada"); return false; }
-
-    const adults = f.querySelector('[name=adults]').value;
-    const children = f.querySelector('.wm-in-children').value;
-
-    // Lead capture opcional a Brevo (fire-and-forget en iframe oculto)
-    var emailInp = f.querySelector('.wm-in-email');
-    var optinInp = f.querySelector('.wm-in-optin');
+  window.__wmReservaClick = function (link) {
+    var wrap = link.closest('.widget-reserva-magic');
+    var emailInp = wrap && wrap.querySelector('.wm-in-email');
+    var optinInp = wrap && wrap.querySelector('.wm-in-optin');
     if (emailInp && optinInp && emailInp.value && optinInp.checked && /@/.test(emailInp.value)) {
       try {
         var leadForm = document.createElement('form');
         leadForm.action = "https://9ab7b963.sibforms.com/serve/MUIFADIlif981oRL3CO9RsJ6MZRoDBPdav1100emuwGi9FhnJl6m939M2xMOAUZi33VCaYBEKvLr7fbtkPSVJBn-nvwDuD-UFrdNC7hUEm4makNYhhPrRV3DBZX8ZJT2LzrpYPyjj2sMnzWzDz2-bXnSAJqEl9nR8lf-lx2zv-AAVGhkrwd8u4qplqS3f7i2LK2IAuhfuFwZKQimAg==";
         leadForm.method = 'POST';
-        leadForm.target = f.parentNode.querySelector('iframe[name^="brevo-lead-"]').name;
+        leadForm.target = wrap.querySelector('iframe[name^="brevo-lead-"]').name;
         leadForm.style.display = 'none';
         var fields = {
           EMAIL: emailInp.value,
           OPT_IN: '1',
           locale: 'es',
           html_type: 'simple',
-          MAGIC_FECHA_ENTRADA: entrada,
-          MAGIC_FECHA_SALIDA: salida,
-          MAGIC_ADULTOS: adults,
-          MAGIC_NINOS: children,
           FUENTE: 'widget-reserva-magic',
         };
         Object.keys(fields).forEach(function(k){
@@ -139,17 +66,13 @@ const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
         leadForm.submit();
       } catch(e) {}
     }
-
     if (window.gtag) {
       window.gtag("event", "widget_reserva_magic", {
-        entrada, salida, adults, children,
         lead_captured: !!(emailInp && emailInp.value && optinInp && optinInp.checked)
       });
     }
     return true;
   };
-
-  document.querySelectorAll(".widget-reserva-magic").forEach(initForm);
 })();
 </script>
 
@@ -158,85 +81,47 @@ const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
     background:#fff;
     border:1px solid rgba(0,0,0,.08);
     border-radius:14px;
-    padding:1.5rem 1.5rem 1.25rem;
+    padding:1.5rem;
     box-shadow:0 8px 30px rgba(0,0,0,.06);
-    max-width:760px;
+    max-width:560px;
     margin:1.5rem auto;
     font-family:inherit;
     color:#111;
   }
-  .widget-reserva-magic .wm-row{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:.85rem;
-    margin-bottom:.85rem;
-  }
-  .widget-reserva-magic label{
-    display:flex;
-    flex-direction:column;
-    gap:.25rem;
-    font-size:.82rem;
-    color:#555;
-    font-weight:500;
-  }
-  .widget-reserva-magic input,
-  .widget-reserva-magic select{
-    font:inherit;
-    color:#111;
-    padding:.6rem .75rem;
-    border:1px solid #d3d7de;
-    border-radius:8px;
-    background:#fafbfc;
-    outline:none;
-    transition:border-color .15s,background .15s;
-  }
-  .widget-reserva-magic input:focus,
-  .widget-reserva-magic select:focus{
-    border-color:#e50914;
-    background:#fff;
-  }
   .widget-reserva-magic .wm-cta{
     display:flex;
-    flex-direction:column;
     align-items:center;
     justify-content:center;
-    gap:.15rem;
+    flex-direction:column;
+    gap:.2rem;
     width:100%;
-    padding:.9rem 1rem;
+    padding:1.1rem 1rem;
     background:#e50914;
     color:#fff;
     border:0;
     border-radius:10px;
     font-weight:700;
-    font-size:1rem;
+    font-size:1.05rem;
+    text-decoration:none;
+    text-align:center;
     cursor:pointer;
-    margin-top:.4rem;
     transition:background .15s,transform .05s;
     line-height:1.2;
+    box-sizing:border-box;
   }
   .widget-reserva-magic .wm-cta:hover{ background:#b3060f; }
   .widget-reserva-magic .wm-cta:active{ transform:translateY(1px); }
+  .widget-reserva-magic .wm-cta-icon{ font-size:1.3rem; margin-bottom:.15rem; }
+  .widget-reserva-magic .wm-cta-label{ font-size:1.02rem; }
   .widget-reserva-magic .wm-cta-sub{
     font-size:.72rem;
     font-weight:500;
     opacity:.88;
     letter-spacing:.02em;
+    margin-top:.15rem;
   }
-  .widget-reserva-magic .wm-note{
-    font-size:.72rem;
-    color:#888;
-    text-align:center;
-    margin:.65rem 0 0;
-  }
-  @media (max-width:640px){
-    .widget-reserva-magic{ padding:1.15rem }
-  }
-  .widget-reserva-magic.compacto{
-    padding:.85rem 1rem;
-  }
-  .widget-reserva-magic.compacto .wm-row{ margin-bottom:.55rem; }
   .widget-reserva-magic .wm-lead{
-    margin:.9rem 0 .3rem;
+    margin-top:.85rem;
     border-top:1px dashed rgba(0,0,0,.08);
     padding-top:.7rem;
   }
@@ -247,6 +132,7 @@ const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
     font-weight:600;
     list-style:none;
     padding:.25rem 0;
+    text-align:center;
   }
   .widget-reserva-magic .wm-lead summary::-webkit-details-marker{display:none;}
   .widget-reserva-magic .wm-lead-body{
@@ -261,7 +147,9 @@ const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
     border:1px solid #d3d7de;
     border-radius:8px;
     background:#fafbfc;
+    outline:none;
   }
+  .widget-reserva-magic .wm-in-email:focus{ border-color:#e50914; background:#fff; }
   .widget-reserva-magic .wm-optin{
     display:flex;
     align-items:flex-start;
@@ -276,4 +164,9 @@ const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
     accent-color:#e50914;
   }
   .widget-reserva-magic .wm-optin a{ color:#e50914; text-decoration:underline; }
+  .widget-reserva-magic.compact{
+    padding:1rem;
+    box-shadow:none;
+    border:1px solid rgba(0,0,0,.08);
+  }
 </style>

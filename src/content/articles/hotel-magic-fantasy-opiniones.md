@@ -13,7 +13,7 @@ reviewCount: 1
 lastModified: "2026-08-06"
 faqs:
   - q: "¿Cuánto cuesta el Hotel Magic Fantasy en agosto de 2026?"
-    a: "En temporada alta, la habitación disponible en el Hotel Magic Fantasy sale por 344,51€ por noche en Alojamiento y Desayuno y 393,30€ por noche en Ultra Todo Incluido. Con nuestro código exclusivo se aplica un 3% adicional reservando desde la web oficial."
+    a: "En temporada alta, la habitación disponible en el Hotel Magic Fantasy sale por 344,51€ por noche en Alojamiento y Desayuno y 393,30€ por noche en Ultra Todo Incluido. Con nuestro código exclusivo se aplica un descuento adicional reservando desde la web oficial."
   - q: "¿Es buen hotel el Magic Fantasy para familias con niños?"
     a: "Sí, el Hotel Magic Fantasy es una de las opciones más orientadas a familias con niños dentro del complejo, con temática de fantasía y personajes que enganchan sobre todo a peques de 3 a 10 años. Tiene acceso completo a las instalaciones y animación de Magic World Resort igual que el resto de hoteles."
   - q: "¿Qué diferencia hay entre el Hotel Magic Fantasy y el Hotel Magic Sport?"
@@ -31,8 +31,8 @@ Este post recoge nuestra opinión después de varias visitas al resort y los pre
 > **Importante:** en las fechas de agosto que hemos consultado, el Fantasy tenía solo **una tipología de habitación disponible** (marcada como "última habitación"). Es lo habitual en pleno pico de temporada. Con más antelación suelen aparecer más opciones.
 
 <div class="cta-block">
-<p>Reserva con nuestro código exclusivo y llévate un 3% de descuento adicional aplicado directamente en la web oficial del resort.</p>
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic World con descuento</a>
+<p>Reserva con nuestro código exclusivo y llévate un descuento adicional aplicado directamente en la web oficial del resort.</p>
+<a href="/reservar/" class="cta-btn">🎡 Reservar Magic World con descuento</a>
 </div>
 
 ## Qué es el Hotel Magic Fantasy
@@ -55,7 +55,7 @@ Estas son las tarifas que aparecen para la habitación disponible en agosto de 2
 
 _El "por persona/día" está calculado para ocupación de 3 personas y 5 noches, misma referencia que utilizamos en las tablas de otros hoteles del complejo._
 
-Nuestro código exclusivo aplica un 3% adicional al reservar desde la web oficial.
+Nuestro código exclusivo aplica un descuento adicional al reservar desde la web oficial.
 
 ## Cuánto cuesta cada escalón en el Fantasy
 
@@ -102,12 +102,12 @@ En temporada alta, la disponibilidad se estrecha rápido. En nuestra consulta pa
 Si aún dudáis entre los hoteles del resort, la [guía general de Magic World Resort con todos los hoteles comparados](/blog/magic-world-resort-opiniones/) os va a servir para acabar de decidir.
 
 <div class="cta-block">
-<p>En temporada alta la disponibilidad del Fantasy se estrecha rápido. Reservar cuanto antes desde nuestro enlace bloquea la tarifa vigente con el 3% adicional aplicado automáticamente.</p>
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic Fantasy con descuento</a>
+<p>En temporada alta la disponibilidad del Fantasy se estrecha rápido. Reservar cuanto antes desde nuestro enlace bloquea la tarifa vigente con el descuento adicional aplicado automáticamente.</p>
+<a href="/reservar/" class="cta-btn">🎡 Reservar Magic Fantasy con descuento</a>
 </div>
 
 ---
 
-*Precios verificados el 6 de agosto de 2026 en la web oficial del Hotel Magic Fantasy para 5 noches en agosto de 2026, temporada alta. Las tarifas son dinámicas y pueden variar en el momento de tu reserva. Nuestro código exclusivo aplica un 3% de descuento adicional sobre la tarifa vigente.*
+*Precios verificados el 6 de agosto de 2026 en la web oficial del Hotel Magic Fantasy para 5 noches en agosto de 2026, temporada alta. Las tarifas son dinámicas y pueden variar en el momento de tu reserva. Nuestro código exclusivo aplica un descuento extra de descuento adicional sobre la tarifa vigente.*
 
 Para ver todos los artículos y reseñas de hoteles del complejo en un solo sitio, tienes nuestra [sección completa de Magic World Resort](/categoria/magic-world/) con la lista actualizada.

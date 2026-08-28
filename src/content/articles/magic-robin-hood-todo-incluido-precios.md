@@ -17,7 +17,7 @@ faqs:
   - q: "¿Los niños pagan lo mismo por el todo incluido?"
     a: "No. Los niños de 0 a 2 años suelen ir gratis. De 2 a 12 años pagan 50-70% del precio adulto. Adolescentes desde 12-13 años pagan tarifa adulta. Las condiciones exactas cambian por temporada, conviene confirmar al reservar."
   - q: "¿Cuánto sale una semana ultra todo incluido para 4 personas?"
-    a: "En temporada baja (invierno, primavera fuera de puentes): 900-1.400€ para 2 adultos + 2 niños. En temporada alta (julio-agosto): 2.000-3.200€. En puentes de otoño (Pilar, Todos los Santos, Constitución): 1.200-1.800€. El código MAGICLOSFAMILUKIS aplica 3% adicional sobre estas cifras."
+    a: "En temporada baja (invierno, primavera fuera de puentes): 900-1.400€ para 2 adultos + 2 niños. En temporada alta (julio-agosto): 2.000-3.200€. En puentes de otoño (Pilar, Todos los Santos, Constitución): 1.200-1.800€. El código MAGICLOSFAMILUKIS aplica descuento adicional sobre estas cifras."
   - q: "¿Compensa el ultra todo incluido si no bebo alcohol?"
     a: "Sí, incluso sin alcohol el ultra todo incluido suele compensar por la variedad de snacks entre horas, helados ilimitados, zumos naturales y café. Solo con estas partidas ya se recupera la diferencia respecto al todo incluido básico."
 ---
@@ -115,12 +115,12 @@ La diferencia entre ambos regímenes suele ser 8-12€ por adulto y día. Es dec
 
 **3. Familia numerosa aplica descuento adicional**. Sube documento al reservar.
 
-**4. Combina con nuestro código MAGICLOSFAMILUKIS** — se acumula con las ofertas activas de la web oficial y aplica 3% adicional.
+**4. Combina con nuestro código MAGICLOSFAMILUKIS** — se acumula con las ofertas activas de la web oficial y aplica descuento adicional.
 
 **5. Fuera de temporada la relación calidad-precio es imbatible**. Un puente de mayo o septiembre en Robin Hood cuesta menos que un fin de semana en Madrid y las instalaciones son las mismas que en agosto.
 
 ## Reserva con nuestro código
 
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🏰 Reservar Magic Robin Hood con descuento</a>
+<a href="/reservar/" class="cta-btn">🏰 Reservar Magic Robin Hood con descuento</a>
 
 Si estás valorando Robin Hood, mira también nuestro [análisis completo del hotel Magic Robin Hood](/blog/hotel-magic-robin-hood-opiniones/) o compara con las opciones del grupo Magic en Oropesa dentro de nuestra [sección completa de Magic World Resort](/categoria/magic-world/).

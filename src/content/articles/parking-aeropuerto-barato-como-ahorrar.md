@@ -64,7 +64,7 @@ El truco es reservar con al menos una semana de antelación. Los comparadores mu
 
 Para las fechas de verano reservamos siempre con 2-3 semanas de margen, porque los precios más bajos se agotan. En Navidad y Semana Santa incluso antes.
 
-<a href="https://www.awin1.com/cread.php?awinmid=3495&awinaffid=2956549&ued=https%3A%2F%2Fwww.parkbcp.co.uk%2F" target="_blank" rel="sponsored noopener" class="cta-btn">Comparar parkings en aeropuertos españoles →</a>
+<a href="https://www.awin1.com/cread.php?awinmid=3495&awinaffid=2956549&ued=https%3A%2F%2Fwww.parkbcp.co.uk%2F" class="cta-btn">Comparar parkings en aeropuertos españoles →</a>
 
 ## El error que cometimos la primera vez
 

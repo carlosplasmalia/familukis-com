@@ -84,9 +84,9 @@ Tenemos [reseña completa del Magic Fantasy](/blog/hotel-magic-fantasy-opiniones
 
 ## Reserva con nuestro código
 
-Como embajadores del resort tenemos código de descuento **MAGICLOSFAMILUKIS**. Aplicándolo en la reserva a través de la web oficial obtienes un 3% adicional sobre la tarifa web. Para una semana en régimen de todo incluido para familia de cinco, ese porcentaje son bastantes decenas de euros que te quedas tú.
+Como embajadores del resort tenemos código de descuento **MAGICLOSFAMILUKIS**. Aplicándolo en la reserva a través de la web oficial obtienes un descuento adicional sobre la tarifa web. Para una semana en régimen de todo incluido para familia de cinco, ese porcentaje son bastantes decenas de euros que te quedas tú.
 
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic World con descuento</a>
+<a href="/reservar/" class="cta-btn">🎡 Reservar Magic World con descuento</a>
 
 ## Nuestra recomendación
 

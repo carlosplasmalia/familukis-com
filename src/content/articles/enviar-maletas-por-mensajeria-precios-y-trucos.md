@@ -45,7 +45,7 @@ El funcionamiento es más simple de lo que parece:
 
 Nosotros usamos [Sinmaletas](https://www.awin1.com/cread.php?awinmid=18124&awinaffid=2956549&ued=https%3A%2F%2Fwww.sinmaletas.com%2F), que está especializada justo en esto en España: pones las medidas, eliges día de recogida y te olvidas. La última vez pagamos 22€ por una maleta grande de Valencia a Palma que en el aeropuerto nos habría costado el triple.
 
-<a href="https://www.awin1.com/cread.php?awinmid=18124&awinaffid=2956549&ued=https%3A%2F%2Fwww.sinmaletas.com%2F" target="_blank" rel="sponsored noopener" class="cta-btn">Calcular precio de envío en Sinmaletas →</a>
+<a href="https://www.awin1.com/cread.php?awinmid=18124&awinaffid=2956549&ued=https%3A%2F%2Fwww.sinmaletas.com%2F" class="cta-btn">Calcular precio de envío en Sinmaletas →</a>
 
 ## Cuándo compensa (y cuándo no)
 

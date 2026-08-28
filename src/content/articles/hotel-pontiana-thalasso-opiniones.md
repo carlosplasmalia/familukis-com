@@ -15,7 +15,7 @@ faqs:
   - q: "¿Se puede ir al Hotel Pontiana Thalasso con niños?"
     a: "El Pontiana Thalasso admite estancias con niños en algunas de sus tipologías, pero en las fechas de temporada alta que hemos consultado solo salían disponibles ocupaciones para 2 adultos o para 1 adulto. Es, en la práctica, el hotel del complejo pensado para parejas y bienestar. Si viajáis con peques, encaja mejor el Hotel Magic Sport o el Hotel Magic Tropical Splash."
   - q: "¿Cuánto cuesta el Hotel Pontiana Thalasso para 2 adultos en agosto de 2026?"
-    a: "En temporada alta, la habitación Marine Essence (22 m², 2 adultos) sale por 332,86€ por noche en Alojamiento y Desayuno y 382,38€ por noche en Ultra Todo Incluido. Con nuestro código exclusivo se aplica un 3% de descuento adicional reservando desde la web oficial."
+    a: "En temporada alta, la habitación Marine Essence (22 m², 2 adultos) sale por 332,86€ por noche en Alojamiento y Desayuno y 382,38€ por noche en Ultra Todo Incluido. Con nuestro código exclusivo se aplica un descuento extra de descuento adicional reservando desde la web oficial."
   - q: "¿Qué diferencia hay entre Marine Essence y Marine Gardens Club Premium?"
     a: "Los dos tipos de habitación miden 22 m² y comparten decoración marina. La Marine Gardens Club Premium suma terraza privada con acceso a jardines y cafetera Nespresso, y sobre todo desbloquea los servicios VIP del hotel (check-in exclusivo, área VIP en piscinas, restaurante premium, fast pass en bares y 20% de descuento en tratamientos wellness) siempre y cuando reserves con régimen Ultra Todo Incluido."
   - q: "¿Cuál es el mejor régimen para el Pontiana Thalasso?"
@@ -33,8 +33,8 @@ Este artículo es la review honesta que nos hubiera gustado leer antes de reserv
 > **Antes de nada:** las tarifas que verás más abajo corresponden al **13-18 de agosto de 2026** (5 noches, temporada alta) y son las que aparecen ahora mismo en la web oficial del resort. Son precios dinámicos, así que pueden variar según la ocupación del hotel el día que reserves.
 
 <div class="cta-block">
-<p>Reserva con nuestro código exclusivo y llévate un 3% de descuento adicional aplicado en la web oficial del resort.</p>
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic World con descuento</a>
+<p>Reserva con nuestro código exclusivo y llévate un descuento adicional aplicado en la web oficial del resort.</p>
+<a href="/reservar/" class="cta-btn">🎡 Reservar Magic World con descuento</a>
 </div>
 
 ## Qué es el Hotel Pontiana Thalasso
@@ -108,7 +108,7 @@ Como el Pontiana funciona con precios distintos a los demás hoteles del complej
 | Todo Incluido | 347,92 € | **1.793,41 €** |
 | Ultra Todo Incluido | 372,53 € | **1.920,28 €** |
 
-Nuestro código exclusivo aplica un 3% adicional sobre estas cifras al reservar desde la web oficial del resort.
+Nuestro código exclusivo aplica un descuento adicional sobre estas cifras al reservar desde la web oficial del resort.
 
 ## Cuánto sube cada escalón dentro del Pontiana
 
@@ -170,12 +170,12 @@ No es el mejor plan si viajas con niños pequeños. La configuración de habitac
 Como referencia rápida: nos ha parecido claramente el hotel del resort con mejor relación calidad-nivel dentro de su categoría, aunque el precio por persona y día es prácticamente el doble que el del [Hotel Magic Sport](/blog/hotel-magic-sport-opiniones/). El extra se ve, se toca y se come.
 
 <div class="cta-block">
-<p>Si tenéis clara la fecha, reservar cuanto antes desde nuestro enlace bloquea la tarifa vigente con el 3% adicional aplicado automáticamente.</p>
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Pontiana Thalasso con descuento</a>
+<p>Si tenéis clara la fecha, reservar cuanto antes desde nuestro enlace bloquea la tarifa vigente con el descuento adicional aplicado automáticamente.</p>
+<a href="/reservar/" class="cta-btn">🎡 Reservar Pontiana Thalasso con descuento</a>
 </div>
 
 ---
 
-*Precios verificados el 6 de agosto de 2026 en la web oficial del Hotel Pontiana Thalasso para el rango del 13 al 18 de agosto de 2026, 5 noches. Las tarifas son dinámicas y pueden variar en el momento de tu reserva. Nuestro código exclusivo aplica un 3% de descuento adicional sobre la tarifa vigente.*
+*Precios verificados el 6 de agosto de 2026 en la web oficial del Hotel Pontiana Thalasso para el rango del 13 al 18 de agosto de 2026, 5 noches. Las tarifas son dinámicas y pueden variar en el momento de tu reserva. Nuestro código exclusivo aplica un descuento extra de descuento adicional sobre la tarifa vigente.*
 
 Para ver todos los artículos y reseñas de hoteles del complejo en un solo sitio, tienes nuestra [sección completa de Magic World Resort](/categoria/magic-world/) con la lista actualizada.

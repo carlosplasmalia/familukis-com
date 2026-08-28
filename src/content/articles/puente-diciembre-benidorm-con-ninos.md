@@ -123,7 +123,7 @@ Con todo incluido calidad-precio suele ganar porque los niños comen ilimitado s
 
 **4. Familia numerosa**: aplica descuento del título en cualquier hotel del grupo Magic.
 
-**5. Nuestro código MAGICLOSFAMILUKIS** aplica 3% adicional en la web oficial. Se acumula con las tarifas promo.
+**5. Nuestro código MAGICLOSFAMILUKIS** aplica descuento adicional en la web oficial. Se acumula con las tarifas promo.
 
 ## El plan tipo de puente ideal
 
@@ -156,6 +156,6 @@ Basado en cómo funciona con niños de 5-12 años:
 
 Aplicable a cualquier hotel del grupo Magic en la reserva vía web oficial:
 
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🎄 Reservar puente diciembre Magic con descuento</a>
+<a href="/reservar/" class="cta-btn">🎄 Reservar puente diciembre Magic con descuento</a>
 
 Si estás decidiendo entre hoteles, mira nuestra [comparativa Magic Robin Hood vs Magic Natura](/blog/magic-robin-hood-vs-magic-natura/) y la [lista completa de hoteles del grupo Magic](/categoria/magic-world/) para elegir el que mejor encaje.

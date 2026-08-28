@@ -60,5 +60,5 @@ Para más ideas de vacaciones en familia tenéis nuestra [sección de vacaciones
 
 <div class="cta-block">
   <p>¿Queréis que un agente local os diseñe el itinerario perfecto?</p>
-  <a href="https://www.awin1.com/cread.php?awinmid=62629&awinaffid=2956549&ued=https%3A%2F%2Fwww.evaneos.es%2Fsolicitar-viaje%2F" target="_blank" rel="sponsored noopener" class="cta-btn">Pedir presupuesto sin compromiso en Evaneos →</a>
+  <a href="https://www.awin1.com/cread.php?awinmid=62629&awinaffid=2956549&ued=https%3A%2F%2Fwww.evaneos.es%2Fsolicitar-viaje%2F" class="cta-btn">Pedir presupuesto sin compromiso en Evaneos →</a>
 </div>

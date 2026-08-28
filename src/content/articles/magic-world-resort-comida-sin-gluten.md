@@ -106,8 +106,8 @@ Ese es el resumen honesto de una celíaca que ha pasado por muchos hoteles y ha 
 
 ## Reserva con nuestro código
 
-Como embajadores del resort tenemos código **MAGICLOSFAMILUKIS** con 3% de descuento adicional. Se aplica igual sobre régimen normal o si tienes petición de dieta especial:
+Como embajadores del resort tenemos código **MAGICLOSFAMILUKIS** con descuento exclusivo adicional. Se aplica igual sobre régimen normal o si tienes petición de dieta especial:
 
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic World con descuento</a>
+<a href="/reservar/" class="cta-btn">🎡 Reservar Magic World con descuento</a>
 
 Para conocer el resort a fondo antes de decidir, tienes la [guía completa de Magic World Resort](/blog/magic-world-resort-opiniones/) y también las [reseñas específicas de cada hotel](/categoria/magic-world/) por si quieres comparar (algunos tienen restaurantes a la carta además del buffet, útil si quieres variedad).

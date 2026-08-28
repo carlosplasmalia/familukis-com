@@ -11,7 +11,7 @@ featured: false
 lastModified: "2026-08-10"
 faqs:
   - q: "¿Tiene Magic World Resort descuento para familia numerosa?"
-    a: "Magic World Resort no aplica el Título de Familia Numerosa directamente como descuento en taquilla. Lo que sí puedes hacer es reservar con códigos de embajador como el nuestro (MAGICLOSFAMILUKIS), que aplica un 3% adicional sobre la tarifa web oficial. Para familias numerosas de categoría especial con 5 o más hijos, el ahorro total en varios días se nota."
+    a: "Magic World Resort no aplica el Título de Familia Numerosa directamente como descuento en taquilla. Lo que sí puedes hacer es reservar con códigos de embajador como el nuestro (MAGICLOSFAMILUKIS), que aplica un descuento adicional sobre la tarifa web oficial. Para familias numerosas de categoría especial con 5 o más hijos, el ahorro total en varios días se nota."
   - q: "¿Cuántas habitaciones necesita una familia numerosa en Magic World Resort?"
     a: "La habitación Sports Surprise del Hotel Magic Sport admite hasta 5 personas. Para 2 adultos y 3 hijos, una sola habitación es suficiente. Si sois 2 adultos y 4 o 5 hijos, necesitaréis dos habitaciones, ya sea dos Sports Surprise o una Sports Surprise más una Little Surprise."
   - q: "¿Cuál es el régimen más recomendable para una familia numerosa en Magic World?"
@@ -30,11 +30,11 @@ Vamos al grano porque es la pregunta que más nos hacen.
 
 Magic World Resort **no tiene una tarifa oficial para el Título de Familia Numerosa** que se aplique como descuento directo en la reserva web. No es como el tren o los museos públicos donde presentas el carnet y ya. El resort maneja sus propias promociones y códigos de embajador, y eso es lo que hay.
 
-Lo que sí existe, y es lo que usamos nosotros, es nuestro código de embajador: **MAGICLOSFAMILUKIS**. Aplicándolo en la web oficial de Magic World Resort al hacer la reserva obtienes un **3% de descuento adicional** sobre la tarifa web. No es un porcentaje enorme, pero en una estancia de una semana para siete personas ese 3% son varias decenas de euros que te quedas tú.
+Lo que sí existe, y es lo que usamos nosotros, es nuestro código de embajador: **MAGICLOSFAMILUKIS**. Aplicándolo en la web oficial de Magic World Resort al hacer la reserva obtienes un **descuento exclusivo adicional** sobre la tarifa web. No es un porcentaje enorme, pero en una estancia de una semana para siete personas son varias decenas de euros que te quedas tú.
 
 <div class="cta-block">
-<p>Usa nuestro código en la web oficial y obtén un 3% de descuento adicional en tu reserva.</p>
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic World con descuento</a>
+<p>Usa nuestro código en la web oficial y obtén un descuento adicional en tu reserva.</p>
+<a href="/reservar/" class="cta-btn">🎡 Reservar Magic World con descuento</a>
 </div>
 
 Si encontráis alguna oferta específica de familia numerosa en algún periodo del año, escribidnos. Nosotros no la hemos visto aplicada de forma sistemática, aunque el resort sí saca promociones puntuales en primavera para reservas anticipadas.
@@ -107,15 +107,15 @@ Lo que mejoraría para familias muy numerosas:
 
 ## Nuestra conclusión para familias numerosas
 
-Magic World Resort funciona bien con muchos hijos porque el modelo todo incluido elimina la mayor parte de la fricción del día a día. No encontraréis un descuento oficial por el carnet de familia numerosa, pero sí podéis aplicar nuestro código para un 3% sobre la tarifa web.
+Magic World Resort funciona bien con muchos hijos porque el modelo todo incluido elimina la mayor parte de la fricción del día a día. No encontraréis un descuento oficial por el carnet de familia numerosa, pero sí podéis aplicar nuestro código para un descuento sobre la tarifa web.
 
 Si vais con niños de edades muy distintas, el mayor reto no es el dinero sino la organización: atracciones con diferentes alturas mínimas, horarios de siesta para los pequeños, ritmo de los mayores. Magic World lo gestiona mejor que la mayoría de resorts porque la oferta es suficientemente variada para que cada rango de edad encuentre algo.
 
 Para una semana en agosto con toda la tribu, es de las pocas opciones donde hemos llegado al último día con todos contentos. Y eso, con cinco hijos, no es fácil de conseguir.
 
 <div class="cta-block">
-<p>Reserva con nuestro código y ahorra un 3% adicional sobre la tarifa oficial. Código: MAGICLOSFAMILUKIS.</p>
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic World con descuento</a>
+<p>Reserva con nuestro código y ahorra un descuento adicional sobre la tarifa oficial. Código: MAGICLOSFAMILUKIS.</p>
+<a href="/reservar/" class="cta-btn">🎡 Reservar Magic World con descuento</a>
 </div>
 
 Si tenéis dudas específicas sobre habitaciones o sobre cómo organizamos los días con cinco niños de distintas edades, tenemos todos los detalles en nuestra [opinión completa de Magic World Resort](/blog/magic-world-resort-opiniones/).

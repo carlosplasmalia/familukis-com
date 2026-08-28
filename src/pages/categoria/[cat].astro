@@ -5,7 +5,7 @@ import WidgetReservaMagic from '../../components/WidgetReservaMagic.astro';
 import { getCollection } from 'astro:content';
 import { CATEGORIA_LABELS } from '../../content.config';
 
-const MAGIC_URL = 'https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS';
+const MAGIC_URL = '/reservar/';
 
 export async function getStaticPaths() {
   const videos = (await getCollection('videos')).filter(v => !v.data.hidden);

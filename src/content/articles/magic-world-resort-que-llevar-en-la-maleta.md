@@ -144,9 +144,9 @@ Con estos seis puntos, aunque falte algo lo puedes solucionar allí sin drama.
 
 ## Reserva con nuestro código
 
-Si aún no has reservado, como embajadores tenemos código **MAGICLOSFAMILUKIS** que aplica un 3% adicional sobre la tarifa web:
+Si aún no has reservado, como embajadores tenemos código **MAGICLOSFAMILUKIS** que aplica un descuento adicional sobre la tarifa web:
 
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🎡 Reservar Magic World con descuento</a>
+<a href="/reservar/" class="cta-btn">🎡 Reservar Magic World con descuento</a>
 
 Para más detalles sobre la experiencia general del sitio, tienes la [guía completa de Magic World Resort](/blog/magic-world-resort-opiniones/) con todo lo que necesitas saber. Y si vas por primera vez, mira también [cómo llegar y qué hay alrededor](/blog/magic-world-resort-como-llegar-mapa/).
 

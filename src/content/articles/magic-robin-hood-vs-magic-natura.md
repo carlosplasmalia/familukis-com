@@ -114,8 +114,8 @@ Si tuviéramos que decidir sin más información sobre tu familia: **Natura para
 
 ## Reserva con nuestro código
 
-Aplicando el código **MAGICLOSFAMILUKIS** en la web oficial de Magic Hotels obtienes un 3% adicional sobre la tarifa, en cualquiera de los dos hoteles:
+Aplicando el código **MAGICLOSFAMILUKIS** en la web oficial de Magic Hotels obtienes un descuento adicional sobre la tarifa, en cualquiera de los dos hoteles:
 
-<a href="https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS" target="_blank" rel="sponsored noopener" class="cta-btn">🏰 Reservar Magic con descuento</a>
+<a href="/reservar/" class="cta-btn">🏰 Reservar Magic con descuento</a>
 
 Tienes análisis específico de [Magic Robin Hood](/blog/hotel-magic-robin-hood-opiniones/) y de las [opciones del grupo Magic en Oropesa](/categoria/magic-world/) por si quieres seguir comparando antes de decidir.

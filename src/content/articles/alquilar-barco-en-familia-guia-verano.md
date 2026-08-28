@@ -66,5 +66,5 @@ Para más planes de playa y costa en familia tenéis nuestra [sección de playas
 
 <div class="cta-block">
   <p>¿Listo para buscar vuestro barco para este verano?</p>
-  <a href="https://www.awin1.com/cread.php?awinmid=32683&awinaffid=2956549&ued=https%3A%2F%2Fwww.samboat.es%2Fs%2Fbateaux%2F%3Fcountry%3DES%26nb_passengers%3D4" target="_blank" rel="sponsored noopener" class="cta-btn">Ver barcos disponibles en SamBoat →</a>
+  <a href="https://www.awin1.com/cread.php?awinmid=32683&awinaffid=2956549&ued=https%3A%2F%2Fwww.samboat.es%2Fs%2Fbateaux%2F%3Fcountry%3DES%26nb_passengers%3D4" class="cta-btn">Ver barcos disponibles en SamBoat →</a>
 </div>
