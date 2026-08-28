@@ -5,7 +5,7 @@ export interface Props {
 }
 const { label = "Reservar Magic con descuento Familukis", variant = "default" } = Astro.props;
 const PROXY = "https://magic-reservas.plural-soldier.workers.dev/";
-const BREVO_ACTION = "https://9ab7b963.sibforms.com/serve/MUIFADIlif981oRL3CO9RsJ6MZRoDBPdav1100emuwGi9FhnJl6m939M2xMOAUZi33VCaYBEKvLr7fbtkPSVJBn-nvwDuD-UFrdNC7hUEm4makNYhhPrRV3DBZX8ZJT2LzrpYPyjj2sMnzWzDz2-bXnSAJqEl9nR8lf-lx2zv-AAVGhkrwd8u4qplqS3f7i2LK2IAuhfuFwZKQimAg==";
+const BREVO_ACTION = "https://9ab7b963.sibforms.com/serve/MUIFAPXRQ-W__aWgVPRXoZ3tSR6ujJVM1joRf9CcdjCGJlw5rDRzzzXwHm4vwaMrW_j38TfKNIcDz4tW6VuUJDPyuW7Vb8rEzobYl-TWAAtehqCnIHRp_9m8IWvqIczCTnyuAWQOx6BkPZLR9xBwChW60CIrSfHzjrG9bHL1m2OSTMJc1eJiAP84IzvbVhM7YeFcT22FtRYNkY9hDg==";
 const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
 ---
 <div class:list={["widget-reserva-magic", variant]} data-uid={uid}>
@@ -46,7 +46,7 @@ const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
     if (emailInp && optinInp && emailInp.value && optinInp.checked && /@/.test(emailInp.value)) {
       try {
         var leadForm = document.createElement('form');
-        leadForm.action = "https://9ab7b963.sibforms.com/serve/MUIFADIlif981oRL3CO9RsJ6MZRoDBPdav1100emuwGi9FhnJl6m939M2xMOAUZi33VCaYBEKvLr7fbtkPSVJBn-nvwDuD-UFrdNC7hUEm4makNYhhPrRV3DBZX8ZJT2LzrpYPyjj2sMnzWzDz2-bXnSAJqEl9nR8lf-lx2zv-AAVGhkrwd8u4qplqS3f7i2LK2IAuhfuFwZKQimAg==";
+        leadForm.action = "https://9ab7b963.sibforms.com/serve/MUIFAPXRQ-W__aWgVPRXoZ3tSR6ujJVM1joRf9CcdjCGJlw5rDRzzzXwHm4vwaMrW_j38TfKNIcDz4tW6VuUJDPyuW7Vb8rEzobYl-TWAAtehqCnIHRp_9m8IWvqIczCTnyuAWQOx6BkPZLR9xBwChW60CIrSfHzjrG9bHL1m2OSTMJc1eJiAP84IzvbVhM7YeFcT22FtRYNkY9hDg==";
         leadForm.method = 'POST';
         leadForm.target = wrap.querySelector('iframe[name^="brevo-lead-"]').name;
         leadForm.style.display = 'none';
@@ -56,6 +56,7 @@ const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
           locale: 'es',
           html_type: 'simple',
           FUENTE: 'widget-reserva-magic',
+          email_address_check: '', // honeypot antibot (Brevo lo requiere vacío)
         };
         Object.keys(fields).forEach(function(k){
           var i = document.createElement('input');
