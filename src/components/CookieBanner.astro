@@ -64,6 +64,27 @@
     os.async = true;
     os.src = 'https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js';
     document.head.appendChild(os);
+
+    document.addEventListener('click', function (e) {
+      var a = e.target && e.target.closest ? e.target.closest('a[href*="magichotelgroup.com"]') : null;
+      if (!a) return;
+      var slug = (location.pathname.match(/\/blog\/([^\/]+)/) || location.pathname.match(/\/categoria\/([^\/]+)/) || [,''])[1] || location.pathname;
+      var text = (a.textContent || '').trim().slice(0, 60);
+      var hotel = 'world';
+      var t = text.toLowerCase();
+      if (t.indexOf('fantasy') > -1) hotel = 'fantasy';
+      else if (t.indexOf('tropical') > -1 || t.indexOf('splash') > -1) hotel = 'tropical';
+      else if (t.indexOf('sport') > -1) hotel = 'sport';
+      else if (t.indexOf('pontiana') > -1) hotel = 'pontiana';
+      else if (t.indexOf('robin') > -1) hotel = 'robin';
+      else if (t.indexOf('aqua') > -1) hotel = 'aqua';
+      window.gtag && window.gtag('event', 'click_magic', {
+        hotel: hotel,
+        article: slug,
+        cta_text: text,
+        link_url: a.href,
+      });
+    }, true);
   }
 
   function hideBanner() {

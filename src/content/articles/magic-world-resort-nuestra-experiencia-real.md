@@ -59,3 +59,5 @@ Como embajadores del resort tenemos un código de descuento exclusivo para los s
 > **Código: MAGICLOSFAMILUKIS**
 
 Aplícalo al hacer tu reserva en la web oficial de Magic World Resort. El descuento se aplica directamente sobre la tarifa estándar. No caduca y funciona para todas las modalidades de reserva.
+
+Para ver todos los artículos y reseñas de hoteles del complejo en un solo sitio, tienes nuestra [sección completa de Magic World Resort](/categoria/magic-world/) con la lista actualizada.

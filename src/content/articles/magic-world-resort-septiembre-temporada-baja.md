@@ -74,3 +74,5 @@ Para familias con niños en edad escolar, septiembre tiene otro inconveniente ob
 Si podéis elegir, septiembre — especialmente la primera quincena. El resort está como en agosto pero sin sus inconvenientes. El Mediterráneo en septiembre es impresionante. Y el precio hace que la decisión sea todavía más fácil.
 
 Tenemos también una [guía completa de Magic World Resort con opiniones de todos los hoteles](/blog/magic-world-resort-opiniones/) y una [guía de cómo llegar](/blog/magic-world-resort-como-llegar-mapa/) si estás planificando el viaje desde cero.
+
+Para ver todos los artículos y reseñas de hoteles del complejo en un solo sitio, tienes nuestra [sección completa de Magic World Resort](/categoria/magic-world/) con la lista actualizada.

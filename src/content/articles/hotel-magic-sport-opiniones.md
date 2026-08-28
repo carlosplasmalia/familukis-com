@@ -105,3 +105,5 @@ No es el hotel más lujoso del resort, pero tampoco pretende serlo. Su fuerte es
 ---
 
 *Artículo basado en experiencias reales de los Familukis como embajadores de Magic World Resort. El código de descuento es parte de ese acuerdo.*
+
+Para ver todos los artículos y reseñas de hoteles del complejo en un solo sitio, tienes nuestra [sección completa de Magic World Resort](/categoria/magic-world/) con la lista actualizada.

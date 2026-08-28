@@ -1,8 +1,8 @@
 ---
 title: "Mejores parques acuáticos de Andalucía con niños: los que hemos probado y los que nos faltan"
-seoTitle: "Parques Acuáticos Andalucía con Niños — Los Hemos Probado Todos (2026)"
+seoTitle: "Mejores Parques Acuáticos de Andalucía con Niños 2026 (Comparativa Real)"
 description: "Guía actualizada de parques acuáticos en Andalucía para ir con niños: Aquavelis, Aqualand Torremolinos, Aquamijas y más. Qué merece la pena según las edades de tus hijos."
-seoDescription: "Aquavelis, Aqualand Torremolinos, Aquamijas y varios más. Comparativa real de precios, qué tiene cada uno y cuál elegir según la edad de tus hijos."
+seoDescription: "Aquavelis, Aqualand, Aquamijas y más: comparamos precios, aforo, atracciones y edad ideal. Qué elegir según los años de tus hijos y cuál nos decepcionó."
 date: "2026-07-03"
 categoria: "parques-acuaticos"
 tags: ["parques acuáticos", "Andalucía", "niños", "Málaga", "Aquavelis", "Aqualand", "verano familia", "Costa del Sol"]

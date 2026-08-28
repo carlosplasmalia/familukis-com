@@ -195,3 +195,5 @@ Y si buscáis fechas fuera del pico, ir a Magic World Resort en septiembre baja 
 ---
 
 *Precios verificados el 6 de agosto de 2026 en la web oficial del resort para 2 adultos y un niño de 10 años, temporada alta de agosto, 5 noches en el Hotel Magic Sport. Las tarifas dinámicas pueden variar en el momento de tu reserva. Nuestro código exclusivo aplica un 3% de descuento adicional sobre la tarifa vigente.*
+
+Para ver todos los artículos y reseñas de hoteles del complejo en un solo sitio, tienes nuestra [sección completa de Magic World Resort](/categoria/magic-world/) con la lista actualizada.

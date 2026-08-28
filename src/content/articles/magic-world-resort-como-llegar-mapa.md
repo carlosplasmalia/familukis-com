@@ -107,3 +107,5 @@ Aplicadlo al reservar en la web oficial de Magic World Resort para obtener descu
 ---
 
 *¿Tenéis alguna duda sobre cómo llegar o sobre el resort en general? Dejadnos un comentario o escribidnos directamente. Hemos hecho el trayecto desde varios puntos de España y estamos encantados de ayudar.*
+
+Para ver todos los artículos y reseñas de hoteles del complejo en un solo sitio, tienes nuestra [sección completa de Magic World Resort](/categoria/magic-world/) con la lista actualizada.

@@ -119,3 +119,5 @@ Para una semana en agosto con toda la tribu, es de las pocas opciones donde hemo
 </div>
 
 Si tenéis dudas específicas sobre habitaciones o sobre cómo organizamos los días con cinco niños de distintas edades, tenemos todos los detalles en nuestra [opinión completa de Magic World Resort](/blog/magic-world-resort-opiniones/).
+
+Para ver todos los artículos y reseñas de hoteles del complejo en un solo sitio, tienes nuestra [sección completa de Magic World Resort](/categoria/magic-world/) con la lista actualizada.

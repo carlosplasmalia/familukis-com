@@ -254,3 +254,5 @@ Si tienes dudas sobre algún hotel concreto, las atracciones o cómo organizar e
 ---
 
 *Artículo basado en experiencias reales de los Familukis. El código de descuento es parte de nuestro acuerdo como embajadores del resort.*
+
+Para ver todos los artículos y reseñas de hoteles del complejo en un solo sitio, tienes nuestra [sección completa de Magic World Resort](/categoria/magic-world/) con la lista actualizada.

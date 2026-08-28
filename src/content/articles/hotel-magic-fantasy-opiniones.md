@@ -109,3 +109,5 @@ Si aún dudáis entre los hoteles del resort, la [guía general de Magic World R
 ---
 
 *Precios verificados el 6 de agosto de 2026 en la web oficial del Hotel Magic Fantasy para 5 noches en agosto de 2026, temporada alta. Las tarifas son dinámicas y pueden variar en el momento de tu reserva. Nuestro código exclusivo aplica un 3% de descuento adicional sobre la tarifa vigente.*
+
+Para ver todos los artículos y reseñas de hoteles del complejo en un solo sitio, tienes nuestra [sección completa de Magic World Resort](/categoria/magic-world/) con la lista actualizada.
