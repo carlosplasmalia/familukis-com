@@ -46,7 +46,7 @@ Comparado con cualquier escapada al interior peninsular en diciembre, la diferen
 
 Aquí es donde Magic Robin Hood se pone las pilas. El complejo se decora entero para las fechas y monta una programación propia que hace que los niños no quieran salir del hotel.
 
-<div class="editorial-mix"><figure><img src="/blog/magic-robin-hood/magic-robin-hood-entrada-navidad.webp" alt="Entrada iluminada del complejo Magic Robin Hood en diciembre" loading="lazy" /></figure><figure><img src="/blog/magic-robin-hood/magic-robin-hood-navidad-familia-familukis.webp" alt="Los Familukis en Magic Robin Hood durante el puente de Navidad" loading="lazy" /></figure></div>
+<div class="editorial-2col"><figure><img src="/blog/magic-robin-hood/magic-robin-hood-entrada-navidad.webp" alt="Entrada iluminada del complejo Magic Robin Hood en diciembre" loading="lazy" /></figure><figure><img src="/blog/magic-robin-hood/magic-robin-hood-navidad-familia-familukis.webp" alt="Los Familukis en Magic Robin Hood durante el puente de Navidad" loading="lazy" /></figure></div>
 
 ### Pista de hielo artificial
 
@@ -148,4 +148,8 @@ Para ver todos los artículos y reseñas de hoteles del complejo en un solo siti
 .editorial-mix figure{margin:0;height:100%}
 .editorial-mix img{width:100%;height:100%;max-height:520px;object-fit:cover;border-radius:10px;display:block}
 @media (max-width:640px){.editorial-mix{grid-template-columns:1fr;max-height:none}.editorial-mix img{aspect-ratio:16/10;height:auto}}
+.editorial-2col{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:1.5rem 0}
+.editorial-2col figure{margin:0}
+.editorial-2col img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:10px;display:block}
+@media (max-width:640px){.editorial-2col{grid-template-columns:1fr}}
 </style>
