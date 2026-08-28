@@ -1,9 +1,14 @@
 ---
 export interface Props {
   label?: string;
-  variant?: "default" | "compact";
+  sub?: string;
+  variant?: "default" | "light";
 }
-const { label = "Reservar Magic con descuento Familukis", variant = "default" } = Astro.props;
+const {
+  label = "Reservar Magic con descuento",
+  sub = "Código Familukis aplicado — descubre el precio final",
+  variant = "default",
+} = Astro.props;
 const PROXY = "https://magic-reservas.plural-soldier.workers.dev/";
 const BREVO_ACTION = "https://9ab7b963.sibforms.com/serve/MUIFAPXRQ-W__aWgVPRXoZ3tSR6ujJVM1joRf9CcdjCGJlw5rDRzzzXwHm4vwaMrW_j38TfKNIcDz4tW6VuUJDPyuW7Vb8rEzobYl-TWAAtehqCnIHRp_9m8IWvqIczCTnyuAWQOx6BkPZLR9xBwChW60CIrSfHzjrG9bHL1m2OSTMJc1eJiAP84IzvbVhM7YeFcT22FtRYNkY9hDg==";
 const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
@@ -16,9 +21,12 @@ const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
     class="wm-cta"
     onclick="return window.__wmReservaClick && window.__wmReservaClick(this);"
   >
-    <span class="wm-cta-icon">🎡</span>
-    <span class="wm-cta-label">{label}</span>
-    <span class="wm-cta-sub">Código MAGICLOSFAMILUKIS aplicado automáticamente</span>
+    <span class="wm-cta-icon" aria-hidden="true">🎡</span>
+    <span class="wm-cta-content">
+      <span class="wm-cta-label">{label}</span>
+      <span class="wm-cta-sub">{sub}</span>
+    </span>
+    <span class="wm-cta-arrow" aria-hidden="true">→</span>
   </a>
 
   <details class="wm-lead">
@@ -79,95 +87,141 @@ const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
 
 <style is:global>
   .widget-reserva-magic{
-    background:#fff;
-    border:1px solid rgba(0,0,0,.08);
-    border-radius:14px;
-    padding:1.5rem;
-    box-shadow:0 8px 30px rgba(0,0,0,.06);
-    max-width:560px;
+    max-width:520px;
     margin:1.5rem auto;
     font-family:inherit;
-    color:#111;
   }
   .widget-reserva-magic .wm-cta{
+    position:relative;
     display:flex;
     align-items:center;
     justify-content:center;
-    flex-direction:column;
-    gap:.2rem;
+    gap:.7rem;
     width:100%;
-    padding:1.1rem 1rem;
-    background:#e50914;
+    padding:1.1rem 1.4rem;
+    background:linear-gradient(135deg,#e50914 0%,#b3060f 100%);
     color:#fff;
     border:0;
-    border-radius:10px;
+    border-radius:8px;
     font-weight:700;
-    font-size:1.05rem;
+    font-size:1.02rem;
     text-decoration:none;
-    text-align:center;
+    text-align:left;
     cursor:pointer;
-    transition:background .15s,transform .05s;
-    line-height:1.2;
+    transition:transform .15s ease, box-shadow .15s ease, background .15s;
+    line-height:1.25;
     box-sizing:border-box;
+    box-shadow:0 6px 20px rgba(229,9,20,.25);
+    letter-spacing:-.01em;
   }
-  .widget-reserva-magic .wm-cta:hover{ background:#b3060f; }
-  .widget-reserva-magic .wm-cta:active{ transform:translateY(1px); }
-  .widget-reserva-magic .wm-cta-icon{ font-size:1.3rem; margin-bottom:.15rem; }
-  .widget-reserva-magic .wm-cta-label{ font-size:1.02rem; }
+  .widget-reserva-magic .wm-cta:hover{
+    transform:translateY(-2px);
+    box-shadow:0 10px 28px rgba(229,9,20,.4);
+  }
+  .widget-reserva-magic .wm-cta:active{ transform:translateY(0); }
+  .widget-reserva-magic .wm-cta-icon{
+    font-size:1.65rem;
+    flex-shrink:0;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:44px; height:44px;
+    background:rgba(255,255,255,.15);
+    border-radius:50%;
+  }
+  .widget-reserva-magic .wm-cta-label{
+    display:block;
+    font-size:1rem;
+    line-height:1.25;
+  }
   .widget-reserva-magic .wm-cta-sub{
+    display:block;
     font-size:.72rem;
     font-weight:500;
-    opacity:.88;
-    letter-spacing:.02em;
+    opacity:.85;
+    letter-spacing:.01em;
     margin-top:.15rem;
+    text-transform:none;
   }
+  .widget-reserva-magic .wm-cta-content{
+    display:flex;
+    flex-direction:column;
+    min-width:0;
+    flex:1;
+  }
+  .widget-reserva-magic .wm-cta-arrow{
+    font-size:1.4rem;
+    flex-shrink:0;
+    opacity:.9;
+    transition:transform .15s;
+  }
+  .widget-reserva-magic .wm-cta:hover .wm-cta-arrow{ transform:translateX(4px); }
+
   .widget-reserva-magic .wm-lead{
-    margin-top:.85rem;
-    border-top:1px dashed rgba(0,0,0,.08);
-    padding-top:.7rem;
+    margin-top:.7rem;
   }
   .widget-reserva-magic .wm-lead summary{
     cursor:pointer;
-    font-size:.82rem;
-    color:#555;
-    font-weight:600;
+    font-size:.78rem;
+    color:rgba(255,255,255,.55);
+    font-weight:500;
     list-style:none;
-    padding:.25rem 0;
+    padding:.35rem 0;
     text-align:center;
+    transition:color .15s;
   }
+  .widget-reserva-magic .wm-lead summary:hover{ color:rgba(255,255,255,.8); }
   .widget-reserva-magic .wm-lead summary::-webkit-details-marker{display:none;}
   .widget-reserva-magic .wm-lead-body{
     display:flex;
     flex-direction:column;
     gap:.55rem;
-    margin-top:.6rem;
+    margin-top:.5rem;
+    padding:.9rem;
+    background:rgba(255,255,255,.04);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:8px;
   }
   .widget-reserva-magic .wm-in-email{
     font:inherit;
-    padding:.55rem .7rem;
-    border:1px solid #d3d7de;
-    border-radius:8px;
-    background:#fafbfc;
+    padding:.6rem .8rem;
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:6px;
+    background:rgba(0,0,0,.3);
+    color:#fff;
     outline:none;
+    transition:border-color .15s;
   }
-  .widget-reserva-magic .wm-in-email:focus{ border-color:#e50914; background:#fff; }
+  .widget-reserva-magic .wm-in-email::placeholder{ color:rgba(255,255,255,.35); }
+  .widget-reserva-magic .wm-in-email:focus{ border-color:#e50914; background:rgba(0,0,0,.5); }
   .widget-reserva-magic .wm-optin{
     display:flex;
     align-items:flex-start;
     gap:.5rem;
-    font-size:.75rem;
-    color:#666;
-    line-height:1.45;
+    font-size:.72rem;
+    color:rgba(255,255,255,.55);
+    line-height:1.5;
     cursor:pointer;
   }
   .widget-reserva-magic .wm-optin input{
     margin-top:2px;
     accent-color:#e50914;
+    flex-shrink:0;
   }
   .widget-reserva-magic .wm-optin a{ color:#e50914; text-decoration:underline; }
-  .widget-reserva-magic.compact{
-    padding:1rem;
-    box-shadow:none;
-    border:1px solid rgba(0,0,0,.08);
+
+  /* Variante light (para páginas con fondo claro tipo /reservar/) */
+  .widget-reserva-magic.light .wm-lead summary{ color:#666; }
+  .widget-reserva-magic.light .wm-lead summary:hover{ color:#111; }
+  .widget-reserva-magic.light .wm-lead-body{
+    background:rgba(0,0,0,.02);
+    border-color:rgba(0,0,0,.08);
   }
+  .widget-reserva-magic.light .wm-in-email{
+    background:#fff;
+    border-color:#d3d7de;
+    color:#111;
+  }
+  .widget-reserva-magic.light .wm-in-email::placeholder{ color:#aaa; }
+  .widget-reserva-magic.light .wm-optin{ color:#666; }
 </style>
