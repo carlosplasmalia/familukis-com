@@ -12,7 +12,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
   <div class="legal-wrap">
     <h1>Política de Privacidad</h1>
-    <p class="updated">Última actualización: junio de 2026</p>
+    <p class="updated">Última actualización: agosto de 2026</p>
 
     <h2>1. Responsable del tratamiento</h2>
     <p>
@@ -38,15 +38,52 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       Familukis. Puedes retirar tu consentimiento en cualquier momento.
     </p>
 
-    <h2>4. Encargado del tratamiento</h2>
+    <h2>4. Encargados del tratamiento</h2>
     <p>
-      Los datos se almacenan y procesan a través de <strong>Brevo</strong>
-      (Sendinblue SAS), proveedor de email marketing con sede en la Unión
-      Europea. Puedes consultar su política en{' '}
+      Los datos del formulario de suscripción se almacenan y procesan a través
+      de <strong>Brevo</strong> (Sendinblue SAS), proveedor de email marketing
+      con sede en la Unión Europea. Puedes consultar su política en{' '}
       <a href="https://www.brevo.com/legal/privacypolicy/" target="_blank" rel="noopener">brevo.com</a>.
     </p>
 
-    <h2>5. Plazo de conservación</h2>
+    <h2>5. Reservas hoteleras Magic Hotels</h2>
+    <p>
+      Familukis ofrece un widget de reservas para los hoteles del grupo
+      <strong> Magic Hotels</strong> con nuestro código de embajador
+      <strong> MAGICLOSFAMILUKIS</strong>. Cuando utilizas este widget, la
+      búsqueda de disponibilidad y el proceso de reserva se realizan a través
+      de un proxy inverso técnico alojado en <strong>Cloudflare Workers</strong>
+      (subdominio <em>magic-reservas.plural-soldier.workers.dev</em>) que
+      actúa como intermediario transparente con el motor de reservas oficial
+      de Magic Hotels (Roiback, en <em>reservas.magichotelgroup.com</em>).
+    </p>
+    <p>
+      Durante ese proceso, los datos que introduces en el formulario de
+      confirmación de la reserva (nombre, apellidos, correo electrónico,
+      teléfono, dirección) pasan cifrados por dicho proxy antes de llegar al
+      servidor oficial de Magic Hotels. Familukis <strong>no almacena, no
+      registra ni conserva</strong> ninguno de esos datos: el proxy solo
+      reenvía las peticiones. Los datos son tratados por Magic Hotels según
+      su propia política de privacidad, disponible en su web.
+    </p>
+    <p>
+      Los datos de pago (tarjeta bancaria) <strong>no pasan en ningún
+      momento por Familukis ni por Cloudflare</strong>: se procesan
+      directamente entre tu navegador y el TPV externo del banco (Redsys u
+      otros) contratado por Magic Hotels, siguiendo el estándar PCI-DSS.
+    </p>
+    <p>
+      Cloudflare Inc. actúa como encargado técnico del tratamiento
+      exclusivamente durante el tránsito de datos. Puedes consultar su
+      política de privacidad en{' '}
+      <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">cloudflare.com/privacypolicy</a>.
+      Si prefieres no usar nuestro widget, puedes reservar directamente en
+      la web oficial{' '}
+      <a href="https://www.magichotelgroup.com/" target="_blank" rel="noopener">magichotelgroup.com</a>{' '}
+      introduciendo el código MAGICLOSFAMILUKIS de forma manual.
+    </p>
+
+    <h2>6. Plazo de conservación</h2>
     <p>
       Conservamos tus datos mientras permanezcas suscrito a la lista.
       Puedes darte de baja en cualquier momento usando el enlace incluido
@@ -54,7 +91,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <a href="mailto:hola@familukis.com">hola@familukis.com</a>.
     </p>
 
-    <h2>6. Tus derechos</h2>
+    <h2>7. Tus derechos</h2>
     <p>
       Puedes ejercer en cualquier momento tus derechos de acceso,
       rectificación, supresión, oposición, limitación y portabilidad
@@ -64,7 +101,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       (<a href="https://www.aepd.es" target="_blank" rel="noopener">aepd.es</a>).
     </p>
 
-    <h2>7. Cookies</h2>
+    <h2>8. Cookies</h2>
     <p>
       Consulta nuestra <a href="/cookies">Política de Cookies</a> para
       información detallada sobre el uso de cookies en este sitio.
