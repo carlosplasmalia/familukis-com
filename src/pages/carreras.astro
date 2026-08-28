@@ -1,0 +1,548 @@
+---
+---
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <title>Carreras | Familukis</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%; height: 100%;
+      background: #111;
+      display: flex; align-items: center; justify-content: center;
+      overflow: hidden;
+    }
+    canvas { display: block; touch-action: none; }
+  </style>
+</head>
+<body>
+<canvas id="game"></canvas>
+<script>
+const canvas = document.getElementById('game');
+const ctx = canvas.getContext('2d');
+
+// Virtual resolution
+const VW = 400, VH = 700;
+
+// Road layout
+const ROAD_X = 70, ROAD_W = 260;
+const LANE_W = ROAD_W / 3;
+const LANE_CX = [0, 1, 2].map(i => ROAD_X + LANE_W * i + LANE_W / 2);
+
+// Sprite sizes
+const CAR_W = 58, CAR_H = 96;
+const COIN_SZ = 34, PU_SZ = 42;
+
+// Tuning
+const SPEED_BASE = 260;
+const SPEED_INC = 22;
+const ENEMY_IV_START = 1.6, ENEMY_IV_MIN = 0.72;
+const TURBO_DUR = 3, INVU_DUR = 2;
+
+// Assets
+const ASSET_MAP = {
+  carPlayer:    '/carreras/car-player.png',
+  carBruno:     '/carreras/car-brunotube.png',
+  carMama:      '/carreras/car-mamatube.png',
+  carRed:       '/carreras/car-enemy-red.png',
+  carBlue:      '/carreras/car-enemy-blue.png',
+  carYellow:    '/carreras/car-enemy-yellow.png',
+  carGreen:     '/carreras/car-enemy-green.png',
+  coin:         '/carreras/coin.png',
+  shield:       '/carreras/powerup-shield.png',
+  turbo:        '/carreras/powerup-turbo.png',
+  explosion:    '/carreras/explosion.png',
+};
+const IMG = {};
+const ENEMY_IMGS = ['carRed', 'carBlue', 'carYellow', 'carGreen'];
+
+// Fallback colors for missing assets
+const FALLBACK = {
+  carPlayer:'#f80', carBruno:'#4a0', carMama:'#c8e',
+  carRed:'#e00', carBlue:'#44f',
+  carYellow:'#ff0', carGreen:'#0b0', coin:'#ffd700',
+  shield:'#4af', turbo:'#ff0', explosion:'#f80',
+};
+
+// Characters
+const CHARACTERS = [
+  { id: 'mikeltube', name: 'MikelTube', car: 'carPlayer', color: '#f80', locked: false },
+  { id: 'brunotube', name: 'BrunoTube', car: 'carBruno',  color: '#4a0', locked: false },
+  { id: 'mamatube',  name: 'MamaTube',  car: 'carMama',   color: '#c8e', locked: true  },
+];
+let selectedChar = 0;
+
+// ── State ────────────────────────────────────────────────────────
+let state = 'TITLE'; // TITLE | CHAR_SELECT | PLAYING | DEAD | GAMEOVER
+let player, enemies, coins, powerups, explosions;
+let score, scoreAccum, lives, highScore;
+let speed, gameTime, enemyTimer, coinTimer, puTimer, speedTimer;
+let roadOffset = 0;
+let turboActive, turboTimer, shieldActive;
+let deathTimer = 0;
+
+function rndInt(a, b) { return Math.floor(a + Math.random() * (b - a + 1)); }
+function pickImg() { return ENEMY_IMGS[rndInt(0, 3)]; }
+
+function initGame() {
+  player = { lane: 1, x: LANE_CX[1], y: 560, w: CAR_W, h: CAR_H, invu: 0, car: CHARACTERS[selectedChar].car };
+  enemies = []; coins = []; powerups = []; explosions = [];
+  score = 0; scoreAccum = 0; lives = 3;
+  speed = SPEED_BASE;
+  gameTime = enemyTimer = coinTimer = puTimer = speedTimer = 0;
+  turboActive = false; turboTimer = 0;
+  shieldActive = false;
+  state = 'PLAYING';
+}
+
+// ── Spawners ─────────────────────────────────────────────────────
+function spawnEnemy() {
+  const lane = rndInt(0, 2);
+  enemies.push({ x: LANE_CX[lane], y: -CAR_H - 10, w: CAR_W, h: CAR_H, img: pickImg() });
+}
+function spawnCoin() {
+  const lane = rndInt(0, 2);
+  coins.push({ x: LANE_CX[lane], y: -COIN_SZ, w: COIN_SZ, h: COIN_SZ });
+}
+function spawnPU() {
+  const lane = rndInt(0, 2);
+  const type = Math.random() < 0.5 ? 'shield' : 'turbo';
+  powerups.push({ x: LANE_CX[lane], y: -PU_SZ, w: PU_SZ, h: PU_SZ, type });
+}
+function addExplosion(x, y) { explosions.push({ x, y, t: 0, dur: 0.65 }); }
+
+// ── Collision ─────────────────────────────────────────────────────
+function hits(a, b, s = 0.6) {
+  return Math.abs(a.x - b.x) < (a.w + b.w) * s / 2 &&
+         Math.abs(a.y - b.y) < (a.h + b.h) * s / 2;
+}
+
+// ── Hit player ────────────────────────────────────────────────────
+function hitPlayer() {
+  if (player.invu > 0) return;
+  if (shieldActive) { shieldActive = false; player.invu = INVU_DUR; return; }
+  addExplosion(player.x, player.y);
+  lives--;
+  if (lives <= 0) {
+    if (score > highScore) { highScore = score; localStorage.setItem('carreras-hs', highScore); }
+    state = 'GAMEOVER';
+  } else {
+    state = 'DEAD'; deathTimer = 1.0;
+  }
+}
+
+// ── Update ────────────────────────────────────────────────────────
+function update(dt) {
+  if (state === 'DEAD') {
+    deathTimer -= dt;
+    for (let i = explosions.length - 1; i >= 0; i--) {
+      explosions[i].t += dt;
+      if (explosions[i].t >= explosions[i].dur) explosions.splice(i, 1);
+    }
+    if (deathTimer <= 0) { player.invu = INVU_DUR; state = 'PLAYING'; }
+    return;
+  }
+
+  gameTime += dt;
+  const sp = turboActive ? speed * 2 : speed;
+
+  roadOffset = (roadOffset + sp * dt) % 60;
+
+  // Increase speed every 10s
+  speedTimer += dt;
+  if (speedTimer >= 10) { speedTimer -= 10; speed = Math.min(speed + SPEED_INC, 580); }
+
+  // Smooth player slide to target lane
+  player.x += (LANE_CX[player.lane] - player.x) * Math.min(1, dt * 14);
+  if (player.invu > 0) player.invu -= dt;
+
+  // Turbo countdown
+  if (turboActive) { turboTimer -= dt; if (turboTimer <= 0) turboActive = false; }
+
+  // Enemies
+  enemyTimer += dt;
+  const iv = Math.max(ENEMY_IV_MIN, ENEMY_IV_START - gameTime * 0.05);
+  if (enemyTimer >= iv) { enemyTimer -= iv; spawnEnemy(); }
+  for (let i = enemies.length - 1; i >= 0; i--) {
+    enemies[i].y += sp * dt;
+    if (enemies[i].y > VH + CAR_H) { enemies.splice(i, 1); continue; }
+    if (hits(player, enemies[i])) {
+      addExplosion(enemies[i].x, enemies[i].y);
+      enemies.splice(i, 1);
+      hitPlayer();
+      if (state !== 'PLAYING') return;
+    }
+  }
+
+  // Coins
+  coinTimer += dt;
+  if (coinTimer >= 2) { coinTimer -= 2; spawnCoin(); }
+  for (let i = coins.length - 1; i >= 0; i--) {
+    coins[i].y += sp * dt;
+    if (coins[i].y > VH + COIN_SZ) { coins.splice(i, 1); continue; }
+    if (hits(player, coins[i], 1.0)) { score += 10; coins.splice(i, 1); }
+  }
+
+  // Power-ups
+  puTimer += dt;
+  if (puTimer >= 15) { puTimer -= 15; spawnPU(); }
+  for (let i = powerups.length - 1; i >= 0; i--) {
+    powerups[i].y += sp * dt;
+    if (powerups[i].y > VH + PU_SZ) { powerups.splice(i, 1); continue; }
+    if (hits(player, powerups[i], 1.0)) {
+      const pu = powerups.splice(i, 1)[0];
+      if (pu.type === 'shield') shieldActive = true;
+      else { turboActive = true; turboTimer = TURBO_DUR; }
+    }
+  }
+
+  // Score from surviving
+  scoreAccum += dt * 8;
+  score += Math.floor(scoreAccum);
+  scoreAccum -= Math.floor(scoreAccum);
+
+  // Explosions
+  for (let i = explosions.length - 1; i >= 0; i--) {
+    explosions[i].t += dt;
+    if (explosions[i].t >= explosions[i].dur) explosions.splice(i, 1);
+  }
+}
+
+// ── Draw helpers ──────────────────────────────────────────────────
+function spr(key, x, y, w, h, alpha = 1, rot = 0) {
+  ctx.save();
+  ctx.globalAlpha = alpha;
+  ctx.translate(x, y);
+  if (rot) ctx.rotate(rot);
+  if (IMG[key]) {
+    ctx.drawImage(IMG[key], -w / 2, -h / 2, w, h);
+  } else {
+    ctx.fillStyle = FALLBACK[key] || '#888';
+    ctx.fillRect(-w / 2, -h / 2, w, h);
+  }
+  ctx.restore();
+}
+
+function drawRoad() {
+  // Grass
+  ctx.fillStyle = '#3c7d44';
+  ctx.fillRect(0, 0, VW, VH);
+
+  // Asphalt
+  ctx.fillStyle = '#2e2e2e';
+  ctx.fillRect(ROAD_X, 0, ROAD_W, VH);
+
+  // Side stripes
+  ctx.fillStyle = '#aaa';
+  ctx.fillRect(ROAD_X - 1, 0, 3, VH);
+  ctx.fillRect(ROAD_X + ROAD_W - 2, 0, 3, VH);
+
+  // Lane dashes
+  ctx.fillStyle = '#fff';
+  for (let li = 1; li <= 2; li++) {
+    const lx = Math.round(ROAD_X + LANE_W * li);
+    for (let y = roadOffset - 60; y < VH + 60; y += 50) {
+      ctx.fillRect(lx - 1, y, 2, 28);
+    }
+  }
+
+  // Kerb strips on grass edges
+  const KERB_W = 14;
+  for (let y = roadOffset - 40; y < VH + 40; y += 30) {
+    ctx.fillStyle = (Math.floor(y / 15) % 2 === 0) ? '#f00' : '#fff';
+    ctx.fillRect(ROAD_X - KERB_W, y, KERB_W, 15);
+    ctx.fillRect(ROAD_X + ROAD_W, y, KERB_W, 15);
+  }
+}
+
+function drawHUD() {
+  // Score
+  ctx.save();
+  ctx.fillStyle = '#fff';
+  ctx.font = 'bold 20px Arial, sans-serif';
+  ctx.textAlign = 'left';
+  ctx.fillText(`${score}`, 12, 28);
+  ctx.textAlign = 'right';
+  ctx.fillStyle = '#ffd700';
+  ctx.fillText(`⭐ ${highScore}`, VW - 10, 28);
+
+  // Lives
+  ctx.textAlign = 'left';
+  ctx.font = '22px Arial';
+  for (let i = 0; i < 3; i++) {
+    ctx.fillStyle = i < lives ? '#e44' : '#555';
+    ctx.fillText('♥', 10 + i * 26, 54);
+  }
+
+  // Power-up icons
+  let puX = VW - 14;
+  if (turboActive) {
+    spr('turbo', puX - 18, 50, 32, 32);
+    ctx.fillStyle = '#ff0';
+    ctx.font = 'bold 11px Arial';
+    ctx.textAlign = 'right';
+    ctx.fillText(turboTimer.toFixed(1) + 's', puX - 2, 70);
+    puX -= 44;
+  }
+  if (shieldActive) {
+    spr('shield', puX - 18, 50, 32, 32);
+    puX -= 44;
+  }
+  ctx.restore();
+}
+
+function drawTitleScreen() {
+  ctx.save();
+  ctx.fillStyle = 'rgba(0,0,0,0.6)';
+  ctx.fillRect(0, 0, VW, VH);
+
+  ctx.fillStyle = '#ffd700';
+  ctx.font = 'bold 54px Arial, sans-serif';
+  ctx.textAlign = 'center';
+  ctx.fillText('CARRERAS', VW / 2, 170);
+
+  ctx.fillStyle = '#ccc';
+  ctx.font = '18px Arial';
+  ctx.fillText('familukis.com', VW / 2, 202);
+
+  ctx.fillStyle = '#eee';
+  ctx.font = '17px Arial';
+  ctx.fillText('← → Cambiar carril', VW / 2, 285);
+  ctx.fillText('🪙 Monedas: +10 pts', VW / 2, 315);
+  ctx.fillText('🛡️ Escudo absorbe 1 golpe', VW / 2, 345);
+  ctx.fillText('⚡ Turbo: velocidad ×2', VW / 2, 375);
+
+  if (Math.floor(Date.now() / 550) % 2 === 0) {
+    ctx.fillStyle = '#fff';
+    ctx.font = 'bold 22px Arial';
+    ctx.fillText('ESPACIO / TAP para empezar', VW / 2, 440);
+  }
+
+  if (highScore > 0) {
+    ctx.fillStyle = '#ffd700';
+    ctx.font = '18px Arial';
+    ctx.fillText(`Récord: ${highScore} pts`, VW / 2, 490);
+  }
+
+  spr('carPlayer', VW / 2, 590, CAR_W * 1.3, CAR_H * 1.3);
+  spr('carRed', VW / 2 - 95, 600, CAR_W, CAR_H, 0.65, Math.PI);
+  spr('carBlue', VW / 2 + 95, 600, CAR_W, CAR_H, 0.65, Math.PI);
+  ctx.restore();
+}
+
+function drawCharSelectScreen() {
+  ctx.save();
+  ctx.fillStyle = 'rgba(0,0,0,0.72)';
+  ctx.fillRect(0, 0, VW, VH);
+
+  ctx.fillStyle = '#ffd700';
+  ctx.font = 'bold 32px Arial, sans-serif';
+  ctx.textAlign = 'center';
+  ctx.fillText('ELIGE PERSONAJE', VW / 2, 80);
+
+  const cardW = 100, cardH = 150;
+  const startX = VW / 2 - (CHARACTERS.length * (cardW + 16)) / 2 + cardW / 2 + 8;
+
+  CHARACTERS.forEach((ch, i) => {
+    const cx = startX + i * (cardW + 16);
+    const cy = 300;
+    const sel = i === selectedChar;
+
+    // Card background
+    ctx.fillStyle = sel ? 'rgba(255,215,0,0.25)' : 'rgba(255,255,255,0.07)';
+    ctx.strokeStyle = sel ? '#ffd700' : (ch.locked ? '#555' : '#888');
+    ctx.lineWidth = sel ? 3 : 1.5;
+    ctx.beginPath();
+    ctx.roundRect(cx - cardW / 2, cy - cardH / 2, cardW, cardH, 10);
+    ctx.fill();
+    ctx.stroke();
+
+    // Car sprite (greyed if locked)
+    ctx.globalAlpha = ch.locked ? 0.3 : 1;
+    spr(ch.car, cx, cy - 10, CAR_W * 0.95, CAR_H * 0.95);
+    ctx.globalAlpha = 1;
+
+    // Lock icon
+    if (ch.locked) {
+      ctx.font = '28px Arial';
+      ctx.textAlign = 'center';
+      ctx.fillText('🔒', cx, cy + 46);
+    }
+
+    // Name
+    ctx.fillStyle = ch.locked ? '#666' : (sel ? '#ffd700' : '#ccc');
+    ctx.font = sel ? 'bold 13px Arial' : '12px Arial';
+    ctx.textAlign = 'center';
+    ctx.fillText(ch.name, cx, cy + cardH / 2 - 8);
+  });
+
+  // Arrows hint
+  ctx.fillStyle = '#aaa';
+  ctx.font = '15px Arial';
+  ctx.fillText('◀  ▶  para elegir', VW / 2, 430);
+
+  // Confirm prompt
+  if (Math.floor(Date.now() / 550) % 2 === 0) {
+    const ch = CHARACTERS[selectedChar];
+    ctx.fillStyle = ch.locked ? '#666' : '#fff';
+    ctx.font = 'bold 19px Arial';
+    ctx.fillText(ch.locked ? 'BLOQUEADO' : 'ESPACIO / TAP para jugar', VW / 2, 490);
+  }
+
+  if (highScore > 0) {
+    ctx.fillStyle = '#ffd700';
+    ctx.font = '16px Arial';
+    ctx.fillText(`Récord: ${highScore} pts`, VW / 2, 550);
+  }
+
+  ctx.restore();
+}
+
+function drawGameOverScreen() {
+  ctx.save();
+  ctx.fillStyle = 'rgba(0,0,0,0.72)';
+  ctx.fillRect(0, 0, VW, VH);
+
+  ctx.fillStyle = '#f44';
+  ctx.font = 'bold 56px Arial, sans-serif';
+  ctx.textAlign = 'center';
+  ctx.fillText('FIN', VW / 2, 230);
+
+  ctx.fillStyle = '#fff';
+  ctx.font = 'bold 28px Arial';
+  ctx.fillText(`${score} puntos`, VW / 2, 295);
+
+  ctx.fillStyle = '#ffd700';
+  ctx.font = '22px Arial';
+  ctx.fillText(`Récord: ${highScore}`, VW / 2, 340);
+
+  if (Math.floor(Date.now() / 550) % 2 === 0) {
+    ctx.fillStyle = '#fff';
+    ctx.font = 'bold 20px Arial';
+    ctx.fillText('R / TAP para repetir', VW / 2, 415);
+  }
+  ctx.restore();
+}
+
+function draw() {
+  ctx.clearRect(0, 0, VW, VH);
+  drawRoad();
+
+  if (state === 'TITLE') { drawTitleScreen(); return; }
+  if (state === 'CHAR_SELECT') { drawCharSelectScreen(); return; }
+  if (state === 'GAMEOVER') { drawGameOverScreen(); return; }
+
+  // Coins
+  coins.forEach(c => spr('coin', c.x, c.y, COIN_SZ, COIN_SZ));
+
+  // Power-ups (gentle float)
+  const bob = Math.sin(Date.now() / 300) * 3;
+  powerups.forEach(p => spr(p.type, p.x, p.y + bob, PU_SZ, PU_SZ));
+
+  // Enemies (rotated 180° → coming toward player)
+  enemies.forEach(e => spr(e.img, e.x, e.y, CAR_W, CAR_H, 1, Math.PI));
+
+  // Player (blink when invulnerable)
+  if (state !== 'DEAD' || deathTimer > 0.5) {
+    const alpha = (player.invu > 0 && Math.floor(player.invu * 8) % 2 === 0) ? 0.25 : 1;
+    spr(player.car, player.x, player.y, CAR_W, CAR_H, alpha);
+  }
+
+  // Shield aura
+  if (shieldActive && state === 'PLAYING') {
+    ctx.save();
+    ctx.globalAlpha = 0.45 + Math.sin(Date.now() / 180) * 0.1;
+    ctx.strokeStyle = '#4af';
+    ctx.lineWidth = 3;
+    ctx.beginPath();
+    ctx.arc(player.x, player.y, CAR_W * 0.72, 0, Math.PI * 2);
+    ctx.stroke();
+    ctx.restore();
+  }
+
+  // Explosions
+  explosions.forEach(exp => {
+    const p = exp.t / exp.dur;
+    spr('explosion', exp.x, exp.y, 50 + p * 90, 50 + p * 90, 1 - p);
+  });
+
+  drawHUD();
+}
+
+// ── Input ─────────────────────────────────────────────────────────
+window.addEventListener('keydown', e => {
+  if (state === 'TITLE' && (e.key === ' ' || e.key === 'Enter')) { state = 'CHAR_SELECT'; return; }
+  if (state === 'CHAR_SELECT') {
+    if (e.key === 'ArrowLeft')  { selectedChar = (selectedChar - 1 + CHARACTERS.length) % CHARACTERS.length; e.preventDefault(); return; }
+    if (e.key === 'ArrowRight') { selectedChar = (selectedChar + 1) % CHARACTERS.length; e.preventDefault(); return; }
+    if ((e.key === ' ' || e.key === 'Enter') && !CHARACTERS[selectedChar].locked) { initGame(); return; }
+  }
+  if (state === 'GAMEOVER' && (e.key === 'r' || e.key === 'R' || e.key === ' ' || e.key === 'Enter')) { state = 'CHAR_SELECT'; return; }
+  if (state === 'PLAYING') {
+    if (e.key === 'ArrowLeft')  { player.lane = Math.max(0, player.lane - 1); e.preventDefault(); }
+    if (e.key === 'ArrowRight') { player.lane = Math.min(2, player.lane + 1); e.preventDefault(); }
+  }
+});
+
+canvas.addEventListener('touchstart', e => {
+  e.preventDefault();
+  if (state === 'TITLE') { state = 'CHAR_SELECT'; return; }
+  if (state === 'CHAR_SELECT') {
+    const rect = canvas.getBoundingClientRect();
+    const tx = (e.touches[0].clientX - rect.left) / rect.width * VW;
+    // tap left/right thirds to navigate, center to confirm
+    if (tx < VW / 3) { selectedChar = (selectedChar - 1 + CHARACTERS.length) % CHARACTERS.length; }
+    else if (tx > VW * 2 / 3) { selectedChar = (selectedChar + 1) % CHARACTERS.length; }
+    else if (!CHARACTERS[selectedChar].locked) { initGame(); }
+    return;
+  }
+  if (state === 'GAMEOVER') { state = 'CHAR_SELECT'; return; }
+  if (state === 'PLAYING') {
+    const rect = canvas.getBoundingClientRect();
+    const tx = (e.touches[0].clientX - rect.left) / rect.width * VW;
+    if (tx < VW / 2) player.lane = Math.max(0, player.lane - 1);
+    else             player.lane = Math.min(2, player.lane + 1);
+  }
+}, { passive: false });
+
+// ── Canvas resize ─────────────────────────────────────────────────
+function resize() {
+  const s = Math.min(window.innerWidth / VW, window.innerHeight / VH);
+  canvas.width = VW; canvas.height = VH;
+  canvas.style.width  = Math.floor(VW * s) + 'px';
+  canvas.style.height = Math.floor(VH * s) + 'px';
+}
+window.addEventListener('resize', resize);
+resize();
+
+// ── Game loop ─────────────────────────────────────────────────────
+let lastTs = 0;
+function loop(ts) {
+  const dt = Math.min((ts - lastTs) / 1000, 0.1);
+  lastTs = ts;
+  if (state === 'PLAYING' || state === 'DEAD') update(dt);
+  draw();
+  requestAnimationFrame(loop);
+}
+
+// ── Asset loading ─────────────────────────────────────────────────
+async function loadAssets() {
+  await Promise.all(Object.entries(ASSET_MAP).map(([key, src]) => new Promise(res => {
+    const img = new Image();
+    img.onload = () => { IMG[key] = img; res(); };
+    img.onerror = res;
+    img.src = src;
+  })));
+}
+
+loadAssets().then(() => {
+  highScore = parseInt(localStorage.getItem('carreras-hs') || '0');
+  lastTs = performance.now();
+  requestAnimationFrame(loop);
+});
+</script>
+</body>
+</html>

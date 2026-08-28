@@ -43,7 +43,7 @@ Esa ubicación es una ventaja disfrazada. Tienes toda la vida de Benidorm a un s
 
 Antes de reservar hay que elegir entre habitación de hotel y cabaña. Si vais más de tres personas, cabaña.
 
-<div class="editorial-mix"><figure><img src="/blog/magic-robin-hood/magic-robin-hood-cabanas-nocturnas-iluminacion.webp" alt="Calle de cabañas medievales de Magic Robin Hood iluminadas por la noche" loading="lazy" /></figure><figure><img src="/blog/magic-robin-hood/magic-robin-hood-jacuzzi-cabana-privado.webp" alt="Jacuzzi privado en la terraza de una cabaña de Magic Robin Hood" loading="lazy" /></figure></div>
+<div class="editorial-mix"><figure><img src="/blog/magic-robin-hood/magic-robin-hood-cabanas-nocturnas-iluminacion.webp" alt="Calle de cabañas medievales de Magic Robin Hood iluminadas por la noche" loading="lazy" /></figure><figure><img src="/blog/magic-robin-hood/magic-robin-hood-jacuzzi-cabana-privado-v2.webp" alt="Jacuzzi privado en la terraza de una cabaña de Magic Robin Hood" loading="lazy" /></figure></div>
 
 Las cabañas son alojamientos independientes con nombres del universo Robin Hood: Nottingham, Sherwood, Little John. Cada una tiene su porche, su ambiente medieval y bastante más espacio que una habitación estándar. La diferencia de precio se compensa en muy pocos días si valoráis privacidad y espacio.
 
