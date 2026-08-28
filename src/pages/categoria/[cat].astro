@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CategoryRow from '../../components/CategoryRow.astro';
+import WidgetReservaMagic from '../../components/WidgetReservaMagic.astro';
 import { getCollection } from 'astro:content';
 import { CATEGORIA_LABELS } from '../../content.config';
 
@@ -172,14 +173,14 @@ const heroThumb = heroVideoId ? `https://img.youtube.com/vi/${heroVideoId}/maxre
   )}
 
   {isMagic && (
-    <div class="wrap"><a href={MAGIC_URL} target="_blank" rel="sponsored noopener" class="magic-strip">
-      <div class="ms-left">
-        <span class="ms-tag">Código exclusivo</span>
-        <strong>Reserva en Magic World Resort con descuento</strong>
-        <span class="ms-desc">Usa el código <em>MAGICLOSFAMILUKIS</em> al reservar</span>
+    <section class="wrap widget-section">
+      <div class="widget-header">
+        <span class="widget-eyebrow">Código exclusivo Familukis</span>
+        <h2>Reserva Magic con 3% de descuento adicional</h2>
+        <p>Elige fechas y personas. Al buscar te llevamos al motor oficial con el código <strong>MAGICLOSFAMILUKIS</strong> ya aplicado. Sin banners de terceros.</p>
       </div>
-      <span class="ms-cta">Reservar ahora →</span>
-    </a></div>
+      <WidgetReservaMagic />
+    </section>
   )}
 
   {editorial && (
@@ -244,19 +245,22 @@ const heroThumb = heroVideoId ? `https://img.youtube.com/vi/${heroVideoId}/maxre
   }
   .btn-info:hover { background:rgba(255,255,255,.25); }
 
-  .magic-strip {
-    display:flex; align-items:center; justify-content:space-between; gap:1rem;
-    background:linear-gradient(90deg,#1a0000,#250000);
-    border:1px solid rgba(229,9,20,.3); border-radius:6px;
-    padding:1rem 1.5rem; margin-top:1.75rem; transition:border-color .2s;
+  .widget-section{ margin-top:2rem; }
+  .widget-header{ text-align:center; margin-bottom:1rem; }
+  .widget-eyebrow{
+    font-size:.68rem; font-weight:700; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--accent);
   }
-  .magic-strip:hover { border-color:rgba(229,9,20,.65); }
-  .ms-left { display:flex; flex-direction:column; gap:2px; }
-  .ms-tag { font-size:.65rem; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--accent); }
-  .ms-left strong { font-size:.9rem; color:#fff; }
-  .ms-desc { font-size:.8rem; color:var(--text-2); }
-  .ms-desc em { font-style:normal; color:var(--accent); font-weight:800; }
-  .ms-cta { font-size:.85rem; font-weight:700; color:var(--accent); flex-shrink:0; white-space:nowrap; }
+  .widget-header h2{
+    font-size:clamp(1.2rem,2.5vw,1.6rem);
+    font-weight:800; letter-spacing:-.02em;
+    margin:.4rem 0 .5rem; color:var(--text);
+  }
+  .widget-header p{
+    font-size:.9rem; color:var(--text-2);
+    max-width:560px; margin:0 auto; line-height:1.55;
+  }
+  .widget-header strong{ color:var(--accent); }
 
   .cat-editorial {
     font-size:.92rem; color:var(--text-2); line-height:1.75;
@@ -267,8 +271,4 @@ const heroThumb = heroVideoId ? `https://img.youtube.com/vi/${heroVideoId}/maxre
 
   .cat-rows { padding-top:.5rem; padding-bottom:5rem; }
 
-  @media(max-width:640px){
-    .magic-strip { flex-direction:column; align-items:flex-start; }
-    .ms-cta { display:none; }
-  }
 </style>

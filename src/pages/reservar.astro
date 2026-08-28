@@ -1,0 +1,311 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import WidgetReservaMagic from '../components/WidgetReservaMagic.astro';
+
+const title = "Reservar Magic World y Magic Hotels con 3% de descuento Familukis";
+const description = "Reserva cualquier hotel de la cadena Magic (Magic World Resort, Robin Hood, Natura, Rock Gardens, Cristal Park, Villa Benidorm, Tropical Splash, Villa Luz y Pontiana Thalasso) con el código MAGICLOSFAMILUKIS y 3% extra sobre la tarifa oficial.";
+
+const hoteles = [
+  { nombre: "Magic World Resort", ubi: "Oropesa del Mar (Castellón)", slug: "magic-world-resort-opiniones", tag: "Familia" },
+  { nombre: "Hotel Magic Fantasy", ubi: "Oropesa — Magic World", slug: "hotel-magic-fantasy-opiniones", tag: "Familia" },
+  { nombre: "Hotel Magic Sport", ubi: "Oropesa — Magic World", slug: "hotel-magic-sport-opiniones", tag: "Deportivo" },
+  { nombre: "Magic Tropical Splash", ubi: "Oropesa — Magic World", slug: "hotel-magic-tropical-splash-opiniones", tag: "Todo incluido" },
+  { nombre: "Hotel Pontiana Thalasso 5*", ubi: "Oropesa — Magic World", slug: "hotel-pontiana-thalasso-opiniones", tag: "Adultos / Spa" },
+  { nombre: "Magic Robin Hood", ubi: "Alfaz del Pi (Alicante)", slug: "hotel-magic-robin-hood-opiniones", tag: "Familia · Cabañas" },
+];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": title,
+  "description": description,
+  "url": "https://familukis.com/reservar/",
+  "isPartOf": { "@type": "WebSite", "name": "Familukis", "url": "https://familukis.com" }
+};
+---
+
+<BaseLayout title={title} description={description}>
+  <Fragment slot="head">
+    <link rel="canonical" href="https://familukis.com/reservar/" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content="https://familukis.com/reservar/" />
+    <meta property="og:type" content="website" />
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  </Fragment>
+
+  <main class="reservar">
+    <header class="reservar-hero">
+      <p class="eyebrow">Reservas Magic Hotels · Código exclusivo Familukis</p>
+      <h1>Reservar hoteles Magic con <span class="hl">3% de descuento extra</span></h1>
+      <p class="lead">
+        Nuestro código de embajador <strong>MAGICLOSFAMILUKIS</strong> aplica un 3% adicional sobre la tarifa oficial en cualquier hotel de la cadena Magic. Reserva desde aquí y te llevamos al motor oficial con el código ya aplicado — sin banners de terceros que se lleven el descuento.
+      </p>
+    </header>
+
+    <WidgetReservaMagic />
+
+    <section class="ventajas">
+      <div class="v-card">
+        <div class="v-num">1</div>
+        <h3>3% extra siempre</h3>
+        <p>El código MAGICLOSFAMILUKIS aplica sobre la tarifa oficial. Se acumula a las promos activas de la web y al descuento de familia numerosa.</p>
+      </div>
+      <div class="v-card">
+        <div class="v-num">2</div>
+        <h3>Mejor precio garantizado</h3>
+        <p>La web oficial Magic Hotels aplica precio mínimo. Rara vez Booking o similares bajan de esa tarifa una vez añadido nuestro código.</p>
+      </div>
+      <div class="v-card">
+        <div class="v-num">3</div>
+        <h3>Sin banners de terceros</h3>
+        <p>Nuestro buscador va directo al motor oficial. No abre landings ni pop-ups de afiliados que roban el descuento por el camino.</p>
+      </div>
+      <div class="v-card">
+        <div class="v-num">4</div>
+        <h3>Reseñas reales de familia</h3>
+        <p>Hemos ido varias veces con nuestros cuatro hijos. Tienes nuestras reseñas honestas de cada hotel antes de reservar.</p>
+      </div>
+    </section>
+
+    <section class="hoteles">
+      <h2>Hoteles disponibles con el código</h2>
+      <p class="section-note">El código MAGICLOSFAMILUKIS funciona en todos los hoteles de la cadena Magic. Estos son los que hemos reseñado con detalle:</p>
+      <ul class="hoteles-grid">
+        {hoteles.map(h => (
+          <li class="h-card">
+            <span class="h-tag">{h.tag}</span>
+            <h3>{h.nombre}</h3>
+            <p class="h-ubi">{h.ubi}</p>
+            <a class="h-link" href={`/blog/${h.slug}/`}>Ver reseña completa →</a>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="faq">
+      <h2>Preguntas frecuentes sobre la reserva</h2>
+
+      <details>
+        <summary>¿Cómo se aplica el código MAGICLOSFAMILUKIS?</summary>
+        <p>Se aplica automáticamente cuando reservas desde este buscador. En el motor oficial verás el descuento reflejado en el precio final. Si reservas directamente en la web de Magic sin usar nuestro buscador, tienes que introducir el código manualmente en el campo "Código promocional" antes de confirmar.</p>
+      </details>
+
+      <details>
+        <summary>¿Cuánto ahorro exactamente?</summary>
+        <p>El código aplica un 3% adicional sobre la tarifa web oficial. En una estancia de una semana en régimen de todo incluido para familia de cuatro puede suponer entre 40€ y 100€ según temporada y hotel. Se acumula a las ofertas activas y al carnet de familia numerosa.</p>
+      </details>
+
+      <details>
+        <summary>¿Es más caro reservar aquí que en Booking o similares?</summary>
+        <p>No. La web oficial Magic Hotels aplica su política de "mejor precio garantizado" y suele ser el canal más barato. Añadiendo el 3% del código, en la práctica es la opción más económica para reservar cualquier hotel de la cadena.</p>
+      </details>
+
+      <details>
+        <summary>¿Qué condiciones de cancelación tengo?</summary>
+        <p>Las condiciones de cancelación son las de la tarifa que elijas en el motor oficial Magic Hotels. Hay tarifas flexibles (cancelación gratuita hasta 24-48h antes) y tarifas no reembolsables (más baratas). Nuestro código funciona con ambas.</p>
+      </details>
+
+      <details>
+        <summary>¿Los niños pagan lo mismo?</summary>
+        <p>No. La política estándar es: bebés de 0-2 años gratis, niños de 2-12 años pagan un porcentaje reducido (50-70% de la tarifa adulto) y adolescentes desde 12-13 años pagan tarifa adulta. En el buscador debes indicar cuántos niños y sus edades para que el precio sea correcto.</p>
+      </details>
+
+      <details>
+        <summary>¿Aplica familia numerosa?</summary>
+        <p>Sí. El descuento de familia numerosa se aplica presentando el carnet en el hotel (o subiéndolo al reservar) y es adicional al 3% del código MAGICLOSFAMILUKIS. Se suman los dos descuentos.</p>
+      </details>
+
+      <details>
+        <summary>¿Cómo os beneficia a los Familukis?</summary>
+        <p>Cuando alguien reserva con nuestro código, recibimos una pequeña comisión de embajador que no encarece el precio para el usuario (al contrario, tú pagas menos y nosotros recibimos un porcentaje). Es lo que nos permite mantener el blog y seguir reseñando hoteles con honestidad.</p>
+      </details>
+    </section>
+
+    <section class="cta-final">
+      <p>¿Aún no sabes qué hotel elegir?</p>
+      <a href="/categoria/magic-world/" class="cta-link">Ver todas nuestras reseñas de la cadena Magic →</a>
+    </section>
+  </main>
+</BaseLayout>
+
+<style>
+  .reservar{
+    max-width:900px;
+    margin:0 auto;
+    padding:3rem 1.25rem 5rem;
+  }
+  .reservar-hero{ text-align:center; margin-bottom:1.5rem; }
+  .eyebrow{
+    font-size:.7rem;
+    text-transform:uppercase;
+    letter-spacing:.14em;
+    color:#e50914;
+    font-weight:700;
+    margin:0 0 .8rem;
+  }
+  .reservar h1{
+    font-size:clamp(1.8rem,4vw,2.6rem);
+    font-weight:800;
+    letter-spacing:-.02em;
+    line-height:1.15;
+    margin:0 0 1rem;
+    color:var(--text);
+  }
+  .hl{ color:#e50914 }
+  .lead{
+    font-size:1.03rem;
+    color:var(--text-2);
+    line-height:1.6;
+    max-width:640px;
+    margin:0 auto;
+  }
+
+  .ventajas{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+    gap:1rem;
+    margin:3rem 0 2rem;
+  }
+  .v-card{
+    background:rgba(255,255,255,0.03);
+    border:1px solid rgba(255,255,255,0.08);
+    border-radius:12px;
+    padding:1.25rem;
+  }
+  .v-num{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:30px;height:30px;
+    background:#e50914;
+    color:#fff;
+    border-radius:8px;
+    font-weight:800;
+    margin-bottom:.6rem;
+    font-size:.9rem;
+  }
+  .v-card h3{
+    font-size:1rem;
+    margin:0 0 .35rem;
+    font-weight:700;
+    color:var(--text);
+  }
+  .v-card p{
+    font-size:.85rem;
+    color:var(--text-2);
+    line-height:1.55;
+    margin:0;
+  }
+
+  .hoteles{ margin:3.5rem 0 2.5rem; }
+  .hoteles h2{
+    font-size:1.4rem;
+    font-weight:800;
+    margin:0 0 .35rem;
+    color:var(--text);
+  }
+  .section-note{
+    font-size:.9rem;
+    color:var(--text-2);
+    margin:0 0 1.2rem;
+  }
+  .hoteles-grid{
+    list-style:none;
+    padding:0;
+    margin:0;
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+    gap:1rem;
+  }
+  .h-card{
+    background:rgba(255,255,255,0.03);
+    border:1px solid rgba(255,255,255,0.08);
+    border-radius:12px;
+    padding:1.15rem;
+    transition:border-color .15s;
+  }
+  .h-card:hover{ border-color:rgba(229,9,20,.45); }
+  .h-tag{
+    display:inline-block;
+    font-size:.68rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    background:rgba(229,9,20,.15);
+    color:#e50914;
+    padding:.2rem .5rem;
+    border-radius:4px;
+    margin-bottom:.55rem;
+    font-weight:600;
+  }
+  .h-card h3{
+    font-size:1rem;
+    font-weight:700;
+    margin:0 0 .2rem;
+    color:var(--text);
+  }
+  .h-ubi{
+    font-size:.8rem;
+    color:var(--text-2);
+    margin:0 0 .7rem;
+  }
+  .h-link{
+    font-size:.82rem;
+    color:#e50914;
+    text-decoration:none;
+    font-weight:600;
+  }
+  .h-link:hover{ text-decoration:underline; }
+
+  .faq{ margin:3.5rem 0 2rem; }
+  .faq h2{
+    font-size:1.4rem;
+    font-weight:800;
+    margin:0 0 1rem;
+    color:var(--text);
+  }
+  .faq details{
+    background:rgba(255,255,255,0.03);
+    border:1px solid rgba(255,255,255,0.08);
+    border-radius:10px;
+    padding:.9rem 1.1rem;
+    margin-bottom:.55rem;
+  }
+  .faq summary{
+    cursor:pointer;
+    font-weight:600;
+    font-size:.95rem;
+    color:var(--text);
+    list-style:none;
+  }
+  .faq summary::-webkit-details-marker{ display:none; }
+  .faq summary::after{
+    content:'+';
+    float:right;
+    color:#e50914;
+    font-weight:700;
+    font-size:1.2rem;
+    transition:transform .15s;
+  }
+  .faq details[open] summary::after{ content:'−'; }
+  .faq p{
+    font-size:.88rem;
+    color:var(--text-2);
+    line-height:1.6;
+    margin:.7rem 0 0;
+  }
+
+  .cta-final{ text-align:center; margin-top:3rem; }
+  .cta-final p{
+    color:var(--text-2);
+    font-size:.95rem;
+    margin:0 0 .5rem;
+  }
+  .cta-link{
+    color:#e50914;
+    text-decoration:none;
+    font-weight:700;
+    font-size:1rem;
+  }
+  .cta-link:hover{ text-decoration:underline; }
+</style>
