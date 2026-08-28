@@ -1,43 +1,39 @@
 ---
 export interface Props {
-  hotel?: string;      // texto libre para el input "destino"
-  marca?: string;      // valor de selectmarcas (opcional). Ej: costa_world | magic_natura | ...
-  compacto?: boolean;  // versión horizontal 1 línea
+  hotel?: string;
+  marca?: string;
+  compacto?: boolean;
 }
 const { hotel = "", marca = "", compacto = false } = Astro.props;
+const PROXY = "https://magic-reservas.violet-supernova.workers.dev/";
 const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
 ---
 <form
   class:list={["widget-reserva-magic", { compacto }]}
-  method="post"
-  action="https://reservas.magichotelgroup.com/bookcore/v4/search-dispo.htm"
+  method="get"
+  action={PROXY}
   target="_blank"
   data-uid={uid}
   onsubmit="return window.__wmReservaSubmit && window.__wmReservaSubmit(this);"
 >
-  <input type="hidden" name="codpromo" value="MAGICLOSFAMILUKIS" />
-  <input type="hidden" name="destino" value={hotel} />
-  <input type="hidden" name="coddestino" value="" />
-  <input type="hidden" name="selectmarcas" value={marca} />
-  <input type="hidden" name="entrada" value="" />
-  <input type="hidden" name="salida" value="" />
-  <input type="hidden" name="occupancies" value="" />
+  <!-- El motor Roiback acepta estos por GET y precarga fechas + adultos -->
+  <!-- El codpromo se bloquea automáticamente al llegar (script inyectado en el proxy) -->
 
   <div class="wm-row wm-dates">
     <label>
       <span>Entrada</span>
-      <input type="date" class="wm-in-entrada" required />
+      <input type="date" name="arrival" required />
     </label>
     <label>
       <span>Salida</span>
-      <input type="date" class="wm-in-salida" required />
+      <input type="date" name="departure" required />
     </label>
   </div>
 
   <div class="wm-row wm-people">
     <label>
       <span>Adultos</span>
-      <select class="wm-in-adults">
+      <select name="adults">
         <option value="1">1</option>
         <option value="2" selected>2</option>
         <option value="3">3</option>
@@ -55,46 +51,29 @@ const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
         <option value="4">4</option>
       </select>
     </label>
-    <label class="wm-ages" hidden>
-      <span>Edades <small>(coma)</small></span>
-      <input type="text" class="wm-in-ages" placeholder="8, 10" pattern="[0-9,\s]*" />
-    </label>
   </div>
 
   <button type="submit" class="wm-cta">
     Buscar con 3% de descuento
-    <span class="wm-cta-sub">Código MAGICLOSFAMILUKIS aplicado</span>
+    <span class="wm-cta-sub">Código MAGICLOSFAMILUKIS aplicado automáticamente</span>
   </button>
 
-  <p class="wm-note">Vas al buscador oficial de Magic Hotels con nuestro código aplicado. Sin banners de terceros.</p>
+  <p class="wm-note">Vas directo al motor oficial con nuestro código bloqueado. Sin banners de terceros. Solo tienes que confirmar la búsqueda.</p>
 </form>
 
 <script is:inline>
 (function () {
   if (window.__wmReservaSubmit) return;
 
-  function fmt(dateStr) {
-    if (!dateStr) return "";
-    const [y, m, d] = dateStr.split("-");
-    return `${d}/${m}/${y}`;
-  }
-
   function initForm(f) {
-    const kids = f.querySelector(".wm-in-children");
-    const ages = f.querySelector(".wm-ages");
-    if (kids && ages) {
-      const toggle = () => { ages.hidden = parseInt(kids.value, 10) === 0; };
-      toggle();
-      kids.addEventListener("change", toggle);
-    }
-    const entrada = f.querySelector(".wm-in-entrada");
-    const salida = f.querySelector(".wm-in-salida");
+    const entrada = f.querySelector('[name=arrival]');
+    const salida = f.querySelector('[name=departure]');
     if (entrada && salida) {
       const today = new Date();
       const tomorrow = new Date(today.getTime() + 86400000);
       entrada.min = today.toISOString().slice(0, 10);
       salida.min = tomorrow.toISOString().slice(0, 10);
-      entrada.addEventListener("change", () => {
+      entrada.addEventListener('change', () => {
         if (entrada.value) {
           const next = new Date(new Date(entrada.value).getTime() + 86400000);
           salida.min = next.toISOString().slice(0, 10);
@@ -107,27 +86,16 @@ const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
   }
 
   window.__wmReservaSubmit = function (f) {
-    const entrada = f.querySelector(".wm-in-entrada").value;
-    const salida = f.querySelector(".wm-in-salida").value;
+    const entrada = f.querySelector('[name=arrival]').value;
+    const salida = f.querySelector('[name=departure]').value;
     if (!entrada || !salida) return false;
     if (salida <= entrada) { alert("La salida debe ser posterior a la entrada"); return false; }
 
-    const adults = parseInt(f.querySelector(".wm-in-adults").value, 10);
-    const kidsN = parseInt(f.querySelector(".wm-in-children").value, 10);
-    const agesRaw = (f.querySelector(".wm-in-ages").value || "").trim();
-    const ages = kidsN > 0
-      ? (agesRaw ? agesRaw.split(/[,\s]+/).filter(Boolean).map(n => parseInt(n, 10)).filter(n => !isNaN(n)) : Array(kidsN).fill(6))
-      : [];
-
-    f.querySelector("[name=entrada]").value = fmt(entrada);
-    f.querySelector("[name=salida]").value = fmt(salida);
-    f.querySelector("[name=occupancies]").value = JSON.stringify([{ adults, children: kidsN, ages }]);
-
     if (window.gtag) {
       window.gtag("event", "widget_reserva_magic", {
-        hotel: f.querySelector("[name=destino]").value || "sin-hotel",
-        marca: f.querySelector("[name=selectmarcas]").value || "sin-marca",
-        adults, children: kidsN, entrada, salida
+        entrada, salida,
+        adults: f.querySelector('[name=adults]').value,
+        children: f.querySelector('.wm-in-children').value
       });
     }
     return true;
@@ -154,9 +122,6 @@ const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
     grid-template-columns:1fr 1fr;
     gap:.85rem;
     margin-bottom:.85rem;
-  }
-  .widget-reserva-magic .wm-people{
-    grid-template-columns:1fr 1fr 2fr;
   }
   .widget-reserva-magic label{
     display:flex;
@@ -217,8 +182,6 @@ const uid = `wm-${Math.random().toString(36).slice(2, 8)}`;
   }
   @media (max-width:640px){
     .widget-reserva-magic{ padding:1.15rem }
-    .widget-reserva-magic .wm-people{ grid-template-columns:1fr 1fr; }
-    .widget-reserva-magic .wm-ages{ grid-column:span 2 }
   }
   .widget-reserva-magic.compacto{
     padding:.85rem 1rem;
