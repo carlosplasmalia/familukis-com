@@ -64,8 +64,6 @@ Aunque es juguetería, Toi Planet tiene una sección escolar completa. Cuando Ar
 
 También vimos mochilas del Real Madrid a 9,99€, incluida la del autobús oficial. Aquí lo interesante es la variedad para edades pequeñas y el precio ajustado.
 
-<div class="editorial-2col"><figure><img src="https://img.youtube.com/vi/I8rXnkHufZ8/hqdefault.jpg" alt="Mochilas escolares en Toi Planet: Pokémon, Fortnite y superhéroes" loading="lazy" /></figure><figure><img src="https://img.youtube.com/vi/I8rXnkHufZ8/mqdefault.jpg" alt="Sección de material escolar en Tédi con bolis originales" loading="lazy" /></figure></div>
-
 ## Manolopolis: material escolar retro estilo Stranger Things
 
 Manolopolis es esa tienda de Madrid a la que Oliver va con patín porque tiene piscina vertical para hacer buceo. Aprovechamos la visita para revisar el rincón escolar. La temática Stranger Things sigue presente pero se nota que la fiebre baja. Aún así hay opciones curiosas:
