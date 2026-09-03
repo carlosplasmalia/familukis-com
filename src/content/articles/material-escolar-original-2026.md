@@ -8,6 +8,7 @@ categoria: "para-ninos"
 tags: ["material escolar", "vuelta al cole", "material escolar 2026", "papelería original", "mochilas escolares", "carpetones", "estuches", "instituto", "colegio"]
 relatedVideoIds: ["I8rXnkHufZ8"]
 featured: true
+affiliated: true
 lastModified: "2026-09-03"
 faqs:
   - q: "¿Cuál es la tienda con el material escolar más original para 2026?"
@@ -138,6 +139,23 @@ Si tuviéramos que quedarnos con cinco productos que jamás habíamos visto en u
 3. **Boli llave inglesa, martillo y destornillador de Tédi**: por 1€, un regalo perfecto
 4. **Estuche cohete con sacapuntas-goma de Tiger**: temática espacio de principio a fin
 5. **Agenda calculadora de Tédi**: 6€ y salidas polémicas garantizadas
+
+## Ofertas de vuelta al cole en Amazon
+
+Si prefieres comprar sin salir de casa, Amazon tiene la **promoción [Back to School](https://www.amazon.es/events/backtoschool/?tag=juegoyjugue-21)** con descuentos en material escolar de todo tipo hasta que se acaba la temporada. Nosotros hemos preparado accesos directos a las categorías que aparecen en el vídeo para que no tengas que buscar tú:
+
+- [Mochilas escolares](https://www.amazon.es/s?k=mochila+escolar&tag=juegoyjugue-21) (Fortnite, Wednesday, Pokémon, Dragon Ball, anime)
+- [Estuches escolares originales](https://www.amazon.es/s?k=estuche+escolar+original&tag=juegoyjugue-21) (Naruto, espacio, Hello Kitty, con relieve)
+- [Carpetones para instituto](https://www.amazon.es/s?k=carpeton+instituto&tag=juegoyjugue-21) (Star Wars, Sonic, Wednesday, Dragon Ball)
+- [Agendas escolares 2026-2027](https://www.amazon.es/s?k=agenda+escolar+2026+2027&tag=juegoyjugue-21) (Snoopy, gatitos, patitos, pastel)
+- [Bolígrafos originales](https://www.amazon.es/s?k=boligrafos+originales+regalo&tag=juegoyjugue-21) (con formas raras, gel, proyectores)
+- [Fiambreras para el cole](https://www.amazon.es/s?k=fiambrera+ninos+cole&tag=juegoyjugue-21) (Dragon Ball, superhéroes, herméticas)
+- [Botellas térmicas para niños](https://www.amazon.es/s?k=botella+termica+ninos&tag=juegoyjugue-21) (sin plástico, con asa, Hello Kitty)
+- [Material escolar Harry Potter](https://www.amazon.es/s?k=material+escolar+harry+potter&tag=juegoyjugue-21) (mochila, estuche, sudaderas Hogwarts)
+- [Neceseres para escuela infantil](https://www.amazon.es/s?k=neceser+escuela+infantil&tag=juegoyjugue-21) (con cepillo, colonia, desodorante)
+- [Rotuladores fluor y crayons](https://www.amazon.es/s?k=rotuladores+fluor+ninos&tag=juegoyjugue-21) (24 colores, pastel, gel)
+
+<small>Como afiliados de Amazon, recibimos una pequeña comisión por las compras cualificadas realizadas a través de estos enlaces, sin coste adicional para ti. Nos ayuda a mantener el blog gratis.</small>
 
 ## El vídeo completo: 15 tiendas en un tour
 
