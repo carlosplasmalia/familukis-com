@@ -70,13 +70,19 @@ const TOP10 = [
 const allVideos = (await getCollection('videos')).filter(v => !v.data.hidden);
 const byViews = [...allVideos].sort((a, b) => (b.data.views ?? 0) - (a.data.views ?? 0));
 
-// Vuelta al cole: vídeos con palabras clave escolares en título, descripción o tags
-const COLE_RE = /(material escolar|vuelta al cole|volver al cole|al cole|colegio|instituto|mochila|papeler|útiles escolares|utiles escolares|primer d[íi]a de (cole|instituto))/i;
-const vueltaAlCole = byViews.filter(v =>
-  COLE_RE.test(v.data.title) ||
-  COLE_RE.test(v.data.description ?? '') ||
-  (v.data.tags ?? []).some(t => COLE_RE.test(t))
-);
+// Vuelta al cole: match sobre título+tags+descripción, con exclusión de falsos positivos frecuentes
+const COLE_STRONG = /(material escolar|vuelta al cole|volver al cole|\bal cole\b|primer d[íi]a de (cole|colegio|instituto)|útiles escolares|utiles escolares|escuela infantil|haul.*(escolar|material.*cole|cole)|papeler[ií]a|\bcolegio\b|\binstituto\b|vueltaalcole)/i;
+const COLE_EXCLUDE_TITLE = /(challenge|marker|navidad|halloween|rutina|carnaval|patatas|fiesta|game play)/i;
+const vueltaAlCole = byViews.filter(v => {
+  const title = v.data.title || '';
+  const desc = v.data.description || '';
+  const tags = v.data.tags ?? [];
+  const haystack = `${title}\n${desc}\n${tags.join(' ')}`;
+  if (!COLE_STRONG.test(haystack)) return false;
+  // exclusión: si el título deja claro que NO es cole y no menciona el término fuerte
+  if (COLE_EXCLUDE_TITLE.test(title) && !/(material escolar|vuelta al cole|primer d[íi]a de (cole|colegio|instituto)|\binstituto\b)/i.test(title)) return false;
+  return true;
+});
 
 // Hero: mejor vídeo visual — no magic-world ni para-ninos (interiores)
 const HERO_CATS = ['parques-atracciones','camping-naturaleza','vacaciones-familia',
@@ -84,8 +90,8 @@ const HERO_CATS = ['parques-atracciones','camping-naturaleza','vacaciones-famili
 const hero = byViews.find(v => HERO_CATS.includes(v.data.categoria)) ?? byViews[0];
 const heroThumb = `https://img.youtube.com/vi/${hero.data.videoId}/maxresdefault.jpg`;
 
-function toRow(vids: typeof allVideos) {
-  return vids.slice(0, 6).map(v => ({
+function toRow(vids: typeof allVideos, limit = 6) {
+  return vids.slice(0, limit).map(v => ({
     videoId: v.data.videoId, title: v.data.title,
     duracion: v.data.duracion, views: v.data.views, slug: v.id,
   }));
@@ -153,7 +159,7 @@ function formatViews(n: number) {
 <div class="wrap rows">
 
   {vueltaAlCole.length > 0 && (
-    <CategoryRow title="🎒 Vuelta al cole" href="/blog/material-escolar-original-2026/" videos={toRow(vueltaAlCole)} />
+    <CategoryRow title="🎒 Vuelta al cole" href="/blog/material-escolar-original-2026/" videos={toRow(vueltaAlCole, 20)} />
   )}
 
   {byCat('magic-world').length > 0 && (
