@@ -146,76 +146,96 @@ Si prefieres comprar sin salir de casa, Amazon tiene la promoción **Back to Sch
 
 <a href="https://www.amazon.es/events/backtoschool/?tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:block; background:linear-gradient(135deg,#FF9900 0%,#FF6B00 100%); color:#000; text-decoration:none; padding:1.25rem 1.5rem; border-radius:10px; margin:1.5rem 0; font-weight:700; text-align:center; box-shadow:0 4px 20px rgba(255,153,0,.25);">🛒 Ver toda la promo Back to School en Amazon <span style="opacity:.7; font-weight:500;">→</span></a>
 
-<div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(180px,1fr)); gap:12px; margin:1.5rem 0 2rem;">
+<div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:14px; margin:1.5rem 0 2rem;">
 
-<a href="https://www.amazon.es/s?k=mochila+escolar&tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:flex; flex-direction:column; align-items:center; gap:.5rem; padding:1.4rem 1rem; background:var(--surface); border:1px solid var(--border); border-radius:10px; color:var(--text); text-decoration:none; text-align:center; transition:transform .15s,border-color .15s;">
-<span style="font-size:2.4rem; line-height:1;">🎒</span>
-<span style="font-weight:700; font-size:.88rem;">Mochilas escolares</span>
-<span style="font-size:.72rem; color:var(--text-2);">Fortnite · Wednesday · Pokémon</span>
-<span style="font-size:.68rem; background:#FF9900; color:#000; padding:3px 10px; border-radius:99px; font-weight:700; margin-top:.3rem;">Ver en Amazon</span>
+<a href="https://www.amazon.es/s?k=mochila+escolar&tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:flex; flex-direction:column; background:var(--surface); border:1px solid var(--border); border-radius:12px; overflow:hidden; color:var(--text); text-decoration:none;">
+<img src="/blog/material-escolar-2026/mochilas.webp" alt="Mochilas escolares Totto de colores en tienda" width="800" height="450" loading="lazy" style="width:100%; aspect-ratio:16/9; object-fit:cover; display:block;" />
+<div style="padding:.85rem 1rem 1.1rem;">
+<span style="display:block; font-weight:700; font-size:.92rem; line-height:1.25;">Mochilas escolares</span>
+<span style="display:block; font-size:.72rem; color:var(--text-2); margin-top:.25rem;">Fortnite · Wednesday · Pokémon</span>
+<span style="display:inline-block; font-size:.68rem; background:#FF9900; color:#000; padding:4px 12px; border-radius:99px; font-weight:700; margin-top:.55rem;">Ver en Amazon →</span>
+</div>
 </a>
 
-<a href="https://www.amazon.es/s?k=estuche+escolar+original&tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:flex; flex-direction:column; align-items:center; gap:.5rem; padding:1.4rem 1rem; background:var(--surface); border:1px solid var(--border); border-radius:10px; color:var(--text); text-decoration:none; text-align:center;">
-<span style="font-size:2.4rem; line-height:1;">✏️</span>
-<span style="font-weight:700; font-size:.88rem;">Estuches originales</span>
-<span style="font-size:.72rem; color:var(--text-2);">Naruto · espacio · Hello Kitty</span>
-<span style="font-size:.68rem; background:#FF9900; color:#000; padding:3px 10px; border-radius:99px; font-weight:700; margin-top:.3rem;">Ver en Amazon</span>
+<a href="https://www.amazon.es/s?k=estuche+escolar+original&tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:flex; flex-direction:column; background:var(--surface); border:1px solid var(--border); border-radius:12px; overflow:hidden; color:var(--text); text-decoration:none;">
+<img src="/blog/material-escolar-2026/estuches.webp" alt="Estuches escolares peluche con ojos en tienda" width="800" height="450" loading="lazy" style="width:100%; aspect-ratio:16/9; object-fit:cover; display:block;" />
+<div style="padding:.85rem 1rem 1.1rem;">
+<span style="display:block; font-weight:700; font-size:.92rem; line-height:1.25;">Estuches originales</span>
+<span style="display:block; font-size:.72rem; color:var(--text-2); margin-top:.25rem;">Naruto · espacio · Hello Kitty</span>
+<span style="display:inline-block; font-size:.68rem; background:#FF9900; color:#000; padding:4px 12px; border-radius:99px; font-weight:700; margin-top:.55rem;">Ver en Amazon →</span>
+</div>
 </a>
 
-<a href="https://www.amazon.es/s?k=carpeton+instituto&tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:flex; flex-direction:column; align-items:center; gap:.5rem; padding:1.4rem 1rem; background:var(--surface); border:1px solid var(--border); border-radius:10px; color:var(--text); text-decoration:none; text-align:center;">
-<span style="font-size:2.4rem; line-height:1;">📂</span>
-<span style="font-weight:700; font-size:.88rem;">Carpetones instituto</span>
-<span style="font-size:.72rem; color:var(--text-2);">Star Wars · Sonic · Dragon Ball</span>
-<span style="font-size:.68rem; background:#FF9900; color:#000; padding:3px 10px; border-radius:99px; font-weight:700; margin-top:.3rem;">Ver en Amazon</span>
+<a href="https://www.amazon.es/s?k=carpeton+instituto&tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:flex; flex-direction:column; background:var(--surface); border:1px solid var(--border); border-radius:12px; overflow:hidden; color:var(--text); text-decoration:none;">
+<img src="/blog/material-escolar-2026/carpetones.webp" alt="Carpetones escolares Baby Yoda y Wednesday" width="800" height="450" loading="lazy" style="width:100%; aspect-ratio:16/9; object-fit:cover; display:block;" />
+<div style="padding:.85rem 1rem 1.1rem;">
+<span style="display:block; font-weight:700; font-size:.92rem; line-height:1.25;">Carpetones instituto</span>
+<span style="display:block; font-size:.72rem; color:var(--text-2); margin-top:.25rem;">Star Wars · Sonic · Dragon Ball</span>
+<span style="display:inline-block; font-size:.68rem; background:#FF9900; color:#000; padding:4px 12px; border-radius:99px; font-weight:700; margin-top:.55rem;">Ver en Amazon →</span>
+</div>
 </a>
 
-<a href="https://www.amazon.es/s?k=agenda+escolar+2026+2027&tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:flex; flex-direction:column; align-items:center; gap:.5rem; padding:1.4rem 1rem; background:var(--surface); border:1px solid var(--border); border-radius:10px; color:var(--text); text-decoration:none; text-align:center;">
-<span style="font-size:2.4rem; line-height:1;">📅</span>
-<span style="font-weight:700; font-size:.88rem;">Agendas 2026-2027</span>
-<span style="font-size:.72rem; color:var(--text-2);">Snoopy · gatitos · pastel</span>
-<span style="font-size:.68rem; background:#FF9900; color:#000; padding:3px 10px; border-radius:99px; font-weight:700; margin-top:.3rem;">Ver en Amazon</span>
+<a href="https://www.amazon.es/s?k=agenda+escolar+2026+2027&tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:flex; flex-direction:column; background:var(--surface); border:1px solid var(--border); border-radius:12px; overflow:hidden; color:var(--text); text-decoration:none;">
+<img src="/blog/material-escolar-2026/agendas.webp" alt="Agendas escolares Mis momentos preferidos y Este será mi año" width="800" height="450" loading="lazy" style="width:100%; aspect-ratio:16/9; object-fit:cover; display:block;" />
+<div style="padding:.85rem 1rem 1.1rem;">
+<span style="display:block; font-weight:700; font-size:.92rem; line-height:1.25;">Agendas 2026-2027</span>
+<span style="display:block; font-size:.72rem; color:var(--text-2); margin-top:.25rem;">Snoopy · gatitos · pastel</span>
+<span style="display:inline-block; font-size:.68rem; background:#FF9900; color:#000; padding:4px 12px; border-radius:99px; font-weight:700; margin-top:.55rem;">Ver en Amazon →</span>
+</div>
 </a>
 
-<a href="https://www.amazon.es/s?k=boligrafos+originales+regalo&tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:flex; flex-direction:column; align-items:center; gap:.5rem; padding:1.4rem 1rem; background:var(--surface); border:1px solid var(--border); border-radius:10px; color:var(--text); text-decoration:none; text-align:center;">
-<span style="font-size:2.4rem; line-height:1;">🖊️</span>
-<span style="font-weight:700; font-size:.88rem;">Bolis originales</span>
-<span style="font-size:.72rem; color:var(--text-2);">Con formas · gel · proyectores</span>
-<span style="font-size:.68rem; background:#FF9900; color:#000; padding:3px 10px; border-radius:99px; font-weight:700; margin-top:.3rem;">Ver en Amazon</span>
+<a href="https://www.amazon.es/s?k=boligrafos+originales+regalo&tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:flex; flex-direction:column; background:var(--surface); border:1px solid var(--border); border-radius:12px; overflow:hidden; color:var(--text); text-decoration:none;">
+<img src="/blog/material-escolar-2026/bolis.webp" alt="Bolígrafos con forma de llave inglesa martillo y destornillador" width="800" height="450" loading="lazy" style="width:100%; aspect-ratio:16/9; object-fit:cover; display:block;" />
+<div style="padding:.85rem 1rem 1.1rem;">
+<span style="display:block; font-weight:700; font-size:.92rem; line-height:1.25;">Bolis originales</span>
+<span style="display:block; font-size:.72rem; color:var(--text-2); margin-top:.25rem;">Con formas · gel · proyectores</span>
+<span style="display:inline-block; font-size:.68rem; background:#FF9900; color:#000; padding:4px 12px; border-radius:99px; font-weight:700; margin-top:.55rem;">Ver en Amazon →</span>
+</div>
 </a>
 
-<a href="https://www.amazon.es/s?k=fiambrera+ninos+cole&tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:flex; flex-direction:column; align-items:center; gap:.5rem; padding:1.4rem 1rem; background:var(--surface); border:1px solid var(--border); border-radius:10px; color:var(--text); text-decoration:none; text-align:center;">
-<span style="font-size:2.4rem; line-height:1;">🍱</span>
-<span style="font-weight:700; font-size:.88rem;">Fiambreras cole</span>
-<span style="font-size:.72rem; color:var(--text-2);">Dragon Ball · superhéroes</span>
-<span style="font-size:.68rem; background:#FF9900; color:#000; padding:3px 10px; border-radius:99px; font-weight:700; margin-top:.3rem;">Ver en Amazon</span>
+<a href="https://www.amazon.es/s?k=fiambrera+ninos+cole&tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:flex; flex-direction:column; background:var(--surface); border:1px solid var(--border); border-radius:12px; overflow:hidden; color:var(--text); text-decoration:none;">
+<img src="/blog/material-escolar-2026/fiambreras.webp" alt="Fiambrera Dragon Ball naranja en tienda" width="800" height="450" loading="lazy" style="width:100%; aspect-ratio:16/9; object-fit:cover; display:block;" />
+<div style="padding:.85rem 1rem 1.1rem;">
+<span style="display:block; font-weight:700; font-size:.92rem; line-height:1.25;">Fiambreras cole</span>
+<span style="display:block; font-size:.72rem; color:var(--text-2); margin-top:.25rem;">Dragon Ball · superhéroes</span>
+<span style="display:inline-block; font-size:.68rem; background:#FF9900; color:#000; padding:4px 12px; border-radius:99px; font-weight:700; margin-top:.55rem;">Ver en Amazon →</span>
+</div>
 </a>
 
-<a href="https://www.amazon.es/s?k=botella+termica+ninos&tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:flex; flex-direction:column; align-items:center; gap:.5rem; padding:1.4rem 1rem; background:var(--surface); border:1px solid var(--border); border-radius:10px; color:var(--text); text-decoration:none; text-align:center;">
-<span style="font-size:2.4rem; line-height:1;">🧃</span>
-<span style="font-weight:700; font-size:.88rem;">Botellas térmicas</span>
-<span style="font-size:.72rem; color:var(--text-2);">Sin plástico · con asa</span>
-<span style="font-size:.68rem; background:#FF9900; color:#000; padding:3px 10px; border-radius:99px; font-weight:700; margin-top:.3rem;">Ver en Amazon</span>
+<a href="https://www.amazon.es/s?k=botella+termica+ninos&tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:flex; flex-direction:column; background:var(--surface); border:1px solid var(--border); border-radius:12px; overflow:hidden; color:var(--text); text-decoration:none;">
+<img src="/blog/material-escolar-2026/botellas.webp" alt="Botellas térmicas de colores para el cole" width="800" height="450" loading="lazy" style="width:100%; aspect-ratio:16/9; object-fit:cover; display:block;" />
+<div style="padding:.85rem 1rem 1.1rem;">
+<span style="display:block; font-weight:700; font-size:.92rem; line-height:1.25;">Botellas térmicas</span>
+<span style="display:block; font-size:.72rem; color:var(--text-2); margin-top:.25rem;">Sin plástico · con asa</span>
+<span style="display:inline-block; font-size:.68rem; background:#FF9900; color:#000; padding:4px 12px; border-radius:99px; font-weight:700; margin-top:.55rem;">Ver en Amazon →</span>
+</div>
 </a>
 
-<a href="https://www.amazon.es/s?k=material+escolar+harry+potter&tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:flex; flex-direction:column; align-items:center; gap:.5rem; padding:1.4rem 1rem; background:var(--surface); border:1px solid var(--border); border-radius:10px; color:var(--text); text-decoration:none; text-align:center;">
-<span style="font-size:2.4rem; line-height:1;">⚡</span>
-<span style="font-weight:700; font-size:.88rem;">Harry Potter cole</span>
-<span style="font-size:.72rem; color:var(--text-2);">Mochilas · sudaderas · estuches</span>
-<span style="font-size:.68rem; background:#FF9900; color:#000; padding:3px 10px; border-radius:99px; font-weight:700; margin-top:.3rem;">Ver en Amazon</span>
+<a href="https://www.amazon.es/s?k=material+escolar+harry+potter&tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:flex; flex-direction:column; background:var(--surface); border:1px solid var(--border); border-radius:12px; overflow:hidden; color:var(--text); text-decoration:none;">
+<img src="/blog/material-escolar-2026/harrypotter.webp" alt="Mochilas Harry Potter Hufflepuff Gryffindor y Ravenclaw" width="800" height="450" loading="lazy" style="width:100%; aspect-ratio:16/9; object-fit:cover; display:block;" />
+<div style="padding:.85rem 1rem 1.1rem;">
+<span style="display:block; font-weight:700; font-size:.92rem; line-height:1.25;">Harry Potter cole</span>
+<span style="display:block; font-size:.72rem; color:var(--text-2); margin-top:.25rem;">Mochilas · sudaderas · estuches</span>
+<span style="display:inline-block; font-size:.68rem; background:#FF9900; color:#000; padding:4px 12px; border-radius:99px; font-weight:700; margin-top:.55rem;">Ver en Amazon →</span>
+</div>
 </a>
 
-<a href="https://www.amazon.es/s?k=neceser+escuela+infantil&tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:flex; flex-direction:column; align-items:center; gap:.5rem; padding:1.4rem 1rem; background:var(--surface); border:1px solid var(--border); border-radius:10px; color:var(--text); text-decoration:none; text-align:center;">
-<span style="font-size:2.4rem; line-height:1;">🧴</span>
-<span style="font-weight:700; font-size:.88rem;">Neceseres infantil</span>
-<span style="font-size:.72rem; color:var(--text-2);">Cepillo · colonia · toalla</span>
-<span style="font-size:.68rem; background:#FF9900; color:#000; padding:3px 10px; border-radius:99px; font-weight:700; margin-top:.3rem;">Ver en Amazon</span>
+<a href="https://www.amazon.es/s?k=neceser+escuela+infantil&tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:flex; flex-direction:column; background:var(--surface); border:1px solid var(--border); border-radius:12px; overflow:hidden; color:var(--text); text-decoration:none;">
+<img src="/blog/material-escolar-2026/neceseres.webp" alt="Neceser con mariposas Shine para escuela infantil" width="800" height="450" loading="lazy" style="width:100%; aspect-ratio:16/9; object-fit:cover; display:block;" />
+<div style="padding:.85rem 1rem 1.1rem;">
+<span style="display:block; font-weight:700; font-size:.92rem; line-height:1.25;">Neceseres infantil</span>
+<span style="display:block; font-size:.72rem; color:var(--text-2); margin-top:.25rem;">Cepillo · colonia · toalla</span>
+<span style="display:inline-block; font-size:.68rem; background:#FF9900; color:#000; padding:4px 12px; border-radius:99px; font-weight:700; margin-top:.55rem;">Ver en Amazon →</span>
+</div>
 </a>
 
-<a href="https://www.amazon.es/s?k=rotuladores+fluor+ninos&tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:flex; flex-direction:column; align-items:center; gap:.5rem; padding:1.4rem 1rem; background:var(--surface); border:1px solid var(--border); border-radius:10px; color:var(--text); text-decoration:none; text-align:center;">
-<span style="font-size:2.4rem; line-height:1;">🌈</span>
-<span style="font-weight:700; font-size:.88rem;">Rotuladores fluor</span>
-<span style="font-size:.72rem; color:var(--text-2);">24 colores · pastel · gel</span>
-<span style="font-size:.68rem; background:#FF9900; color:#000; padding:3px 10px; border-radius:99px; font-weight:700; margin-top:.3rem;">Ver en Amazon</span>
+<a href="https://www.amazon.es/s?k=rotuladores+ninos+cole&tag=juegoyjugue-21" target="_blank" rel="sponsored noopener" style="display:flex; flex-direction:column; background:var(--surface); border:1px solid var(--border); border-radius:12px; overflow:hidden; color:var(--text); text-decoration:none;">
+<img src="/blog/material-escolar-2026/rotuladores.webp" alt="Rotuladores Hello Kitty 12 colores Water Color Pen" width="800" height="450" loading="lazy" style="width:100%; aspect-ratio:16/9; object-fit:cover; display:block;" />
+<div style="padding:.85rem 1rem 1.1rem;">
+<span style="display:block; font-weight:700; font-size:.92rem; line-height:1.25;">Rotuladores infantiles</span>
+<span style="display:block; font-size:.72rem; color:var(--text-2); margin-top:.25rem;">Hello Kitty · fluor · 12-24 colores</span>
+<span style="display:inline-block; font-size:.68rem; background:#FF9900; color:#000; padding:4px 12px; border-radius:99px; font-weight:700; margin-top:.55rem;">Ver en Amazon →</span>
+</div>
 </a>
 
 </div>
