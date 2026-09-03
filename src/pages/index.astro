@@ -70,6 +70,14 @@ const TOP10 = [
 const allVideos = (await getCollection('videos')).filter(v => !v.data.hidden);
 const byViews = [...allVideos].sort((a, b) => (b.data.views ?? 0) - (a.data.views ?? 0));
 
+// Vuelta al cole: vídeos con palabras clave escolares en título, descripción o tags
+const COLE_RE = /(material escolar|vuelta al cole|volver al cole|al cole|colegio|instituto|mochila|papeler|útiles escolares|utiles escolares|primer d[íi]a de (cole|instituto))/i;
+const vueltaAlCole = byViews.filter(v =>
+  COLE_RE.test(v.data.title) ||
+  COLE_RE.test(v.data.description ?? '') ||
+  (v.data.tags ?? []).some(t => COLE_RE.test(t))
+);
+
 // Hero: mejor vídeo visual — no magic-world ni para-ninos (interiores)
 const HERO_CATS = ['parques-atracciones','camping-naturaleza','vacaciones-familia',
                    'playas-costa','parques-acuaticos','vlogs-familia','retos-challenges'];
@@ -143,6 +151,10 @@ function formatViews(n: number) {
 
 <!-- FILAS -->
 <div class="wrap rows">
+
+  {vueltaAlCole.length > 0 && (
+    <CategoryRow title="🎒 Vuelta al cole" href="/blog/material-escolar-original-2026/" videos={toRow(vueltaAlCole)} />
+  )}
 
   {byCat('magic-world').length > 0 && (
     <CategoryRow title="✨ Magic World Resort" href="/categoria/magic-world/" videos={toRow(byCat('magic-world'))} />
