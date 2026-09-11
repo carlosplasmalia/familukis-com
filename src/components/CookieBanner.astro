@@ -17,23 +17,36 @@
   var GA_ID = 'G-RXVK4TC0NP';
   var ADSENSE_CLIENT = 'ca-pub-9329818626494878';
 
-  function loadTracking() {
-    var ga = document.createElement('script');
-    ga.async = true;
-    ga.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
-    document.head.appendChild(ga);
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    window.gtag = gtag;
-    gtag('js', new Date());
-    gtag('config', GA_ID);
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  window.gtag = gtag;
 
-    var as = document.createElement('script');
-    as.async = true;
-    as.crossOrigin = 'anonymous';
-    as.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + ADSENSE_CLIENT;
-    document.head.appendChild(as);
+  var savedConsent = localStorage.getItem(CONSENT_KEY);
+  var defaultState = savedConsent === 'accepted' ? 'granted' : 'denied';
+  gtag('consent', 'default', {
+    ad_storage: defaultState,
+    ad_user_data: defaultState,
+    ad_personalization: defaultState,
+    analytics_storage: defaultState,
+    wait_for_update: 500,
+  });
+  gtag('set', 'ads_data_redaction', savedConsent === 'accepted' ? false : true);
+  gtag('set', 'url_passthrough', savedConsent !== 'accepted');
 
+  var ga = document.createElement('script');
+  ga.async = true;
+  ga.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+  document.head.appendChild(ga);
+  gtag('js', new Date());
+  gtag('config', GA_ID, { anonymize_ip: true });
+
+  (window.adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: ADSENSE_CLIENT,
+    enable_page_level_ads: true,
+    overlays: { bottom: false },
+  });
+
+  function loadOneSignal() {
     window.OneSignalDeferred = window.OneSignalDeferred || [];
     OneSignalDeferred.push(async function(OneSignal) {
       await OneSignal.init({
@@ -64,7 +77,9 @@
     os.async = true;
     os.src = 'https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js';
     document.head.appendChild(os);
+  }
 
+  function trackMagicClicks() {
     document.addEventListener('click', function (e) {
       var a = e.target && e.target.closest ? e.target.closest('a[href*="magichotelgroup.com"]') : null;
       if (!a) return;
@@ -87,15 +102,23 @@
     }, true);
   }
 
+  trackMagicClicks();
+  if (savedConsent === 'accepted') loadOneSignal();
+
   function hideBanner() {
     var b = document.getElementById('cookie-banner');
     if (b) b.style.display = 'none';
   }
 
-  var consent = localStorage.getItem(CONSENT_KEY);
-
-  if (consent === 'accepted') {
-    loadTracking();
+  function grantAll() {
+    gtag('consent', 'update', {
+      ad_storage: 'granted',
+      ad_user_data: 'granted',
+      ad_personalization: 'granted',
+      analytics_storage: 'granted',
+    });
+    gtag('set', 'ads_data_redaction', false);
+    gtag('set', 'url_passthrough', false);
   }
 
   document.addEventListener('DOMContentLoaded', function () {
@@ -103,7 +126,7 @@
     var acceptBtn = document.getElementById('cookie-accept');
     var rejectBtn = document.getElementById('cookie-reject');
 
-    if (consent) {
+    if (savedConsent) {
       hideBanner();
       return;
     }
@@ -113,7 +136,8 @@
     acceptBtn && acceptBtn.addEventListener('click', function () {
       localStorage.setItem(CONSENT_KEY, 'accepted');
       hideBanner();
-      loadTracking();
+      grantAll();
+      loadOneSignal();
     });
 
     rejectBtn && rejectBtn.addEventListener('click', function () {
