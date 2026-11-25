@@ -6,6 +6,7 @@ import { getCollection, render } from 'astro:content';
 import { CATEGORIA_LABELS } from '../../content.config';
 
 const MAGIC_URL = 'https://www.magichotelgroup.com/es?utm_source=embajadores&utm_medium=macroinfluencer&utm_campaign=MAGICLOSFAMILUKIS&cp=MAGICLOSFAMILUKIS';
+const WHATSAPP_CHANNEL_URL = 'https://whatsapp.com/channel/0029Va8bkmsBFLgTLhIw9d1Q';
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles');
@@ -193,6 +194,15 @@ const schemas = [
               sub="MAGICLOSFAMILUKIS aplicado — ve el precio final"
             />
           )}
+          <div class="wa-cta-card">
+            <div class="wa-cta-text">
+              <strong>Canal de WhatsApp de Familukis</strong>
+              <p>Trucos para evitar colas, nuevos vídeos, planes con niños y códigos de descuento en hoteles directamente en tu móvil. Cero spam.</p>
+            </div>
+            <a href={WHATSAPP_CHANNEL_URL} target="_blank" rel="noopener" class="wa-cta-btn">
+              Unirme gratis
+            </a>
+          </div>
         </div>
 
         <aside class="article-side">
@@ -230,6 +240,15 @@ const schemas = [
               </a>
             </div>
           )}
+
+          {/* Canal de WhatsApp */}
+          <div class="side-box wa-side-box">
+            <h3>Canal de WhatsApp</h3>
+            <p>Trucos sin colas, planes con niños y descuentos en hoteles antes que nadie.</p>
+            <a href={WHATSAPP_CHANNEL_URL} target="_blank" rel="noopener">
+              Unirme al canal gratis
+            </a>
+          </div>
 
           {/* Artículos relacionados en sidebar */}
           {relatedArticles.length > 0 && (
@@ -359,6 +378,58 @@ const schemas = [
     transition:opacity .15s;
   }
   .aff-box a:hover { opacity:.85; }
+
+  .wa-side-box {
+    border-color: rgba(37, 211, 102, 0.35);
+    background: linear-gradient(135deg, rgba(37, 211, 102, 0.08), rgba(37, 211, 102, 0.02));
+  }
+  .wa-side-box h3 { color: #25d366; }
+  .wa-side-box p { font-size:.82rem; color:var(--text-2); margin-bottom:.65rem; line-height:1.5; }
+  .wa-side-box a {
+    display:block; text-align:center; font-size:.84rem; font-weight:700;
+    color:#0b1a10; background:#25d366; border-radius:6px; padding:.52rem .75rem;
+    transition:opacity .15s;
+  }
+  .wa-side-box a:hover { opacity:.88; }
+
+  .wa-cta-card {
+    margin: 2.25rem 0 0.5rem;
+    padding: 1.25rem 1.5rem;
+    border-radius: 10px;
+    border: 1px solid rgba(37, 211, 102, 0.32);
+    background: linear-gradient(135deg, rgba(37, 211, 102, 0.1), rgba(37, 211, 102, 0.03));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+  }
+  .wa-cta-text { flex: 1 1 280px; }
+  .wa-cta-text strong {
+    display: block;
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 0.3rem;
+  }
+  .wa-cta-text p {
+    margin: 0 !important;
+    font-size: 0.88rem;
+    line-height: 1.5;
+    color: var(--text-2);
+  }
+  .wa-cta-btn {
+    display: inline-block;
+    background: #25d366;
+    color: #0b1a10 !important;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.65rem 1.3rem;
+    border-radius: 8px;
+    text-decoration: none !important;
+    white-space: nowrap;
+    transition: opacity 0.15s, transform 0.1s;
+  }
+  .wa-cta-btn:hover { opacity: 0.9; transform: translateY(-1px); }
 
   .side-related { display:flex; flex-direction:column; gap:0; }
   .side-article {
