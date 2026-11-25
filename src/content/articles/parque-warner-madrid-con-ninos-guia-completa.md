@@ -109,9 +109,9 @@ Los niños que miden **menos de 100 cm entran gratis**, y si venís en autocarav
 
 ## Parque Warner en Navidad 2026 (Christmas Studios)
 
-La temporada navideña **Christmas Studios 2026–2027** se celebra del **21 de noviembre de 2026 al 10 de enero de 2027** (fines de semana, Puente de la Constitución y vacaciones escolares; cerrado 24, 25 y 31 de diciembre y 6 de enero; abierto el 1 de enero), con horario habitual de **12:00 a 20:00** en noviembre y enero y hasta las **21:00** en diciembre.
+La temporada navideña **Christmas Studios 2026 y 2027** va del **21 de noviembre de 2026 al 10 de enero de 2027** (fines de semana, Puente de la Constitución y vacaciones escolares; cierra el 24, 25 y 31 de diciembre y el 6 de enero, y abre el 1 de enero). El horario habitual es de **12:00 a 20:00** en noviembre y enero, y hasta las **21:00** en diciembre.
 
-Entre los imprescindibles con niños están el **Refugio de Papá Noel** en Cartoon Village, el encendido del **árbol gigante de 22 metros**, el desfile nocturno **Superstars of Christmas Parade** y los estrenos de 2026 (**El Reino de Cristal** en el Teatro Imperial y **ACME Factory: Christmas Candies**). Nuestro truco real para verlo casi sin colas: si el parte da día nublado o cuatro gotas, ve igual — media España se queda en casa y disfrutas del parque prácticamente vacío.
+Entre los planes que mejor funcionan con niños están el **Refugio de Papá Noel** en Cartoon Village, el encendido del **árbol gigante de 22 metros**, el desfile nocturno **Superstars of Christmas Parade** y los estrenos de 2026 (**El Reino de Cristal** en el Teatro Imperial y **ACME Factory: Christmas Candies**). Nuestro truco real para verlo casi sin colas es simple: si el parte da día nublado o cuatro gotas, ve igual, porque media España se queda en casa y te encuentras el parque casi vacío.
 
 ---
 
