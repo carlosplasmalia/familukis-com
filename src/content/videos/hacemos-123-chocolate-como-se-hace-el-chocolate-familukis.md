@@ -3,12 +3,12 @@ title: "HACEMOS 1,2,3 CHOCOLATE 🍫¿COMO SE HACE EL CHOCOLATE? // Familukis"
 seoTitle: "HACEMOS 1,2,3 CHOCOLATE ¿COMO SE HACE EL CHOCOLATE"
 description: "Hemos hecho 1, 2 y 3 tipos de chocolate cada uno ¿El chocolate blanco es realmente chocolate? ¿Cómo se hace el chocolate? Hoy nos colamos en la fábrica de chocolate MayanMonkey en Mijas ¿Quieres fabricar tú propio chocolate? ¡Descubre como hacerlo en este vídeo! El mejor regalo para un Familuki ¡Cam."
 seoDescription: "Hemos hecho 1, 2 y 3 tipos de chocolate cada uno ¿El chocolate blanco es realmente chocolate? ¿Cómo se hace el chocolate? Hoy nos colamos en la fábrica."
-videoId: "AWWnPi1MhCg"
-publishedAt: "2018-12-30"
+videoId: "s2AQYMuyD-M"
+publishedAt: "2026-11-25"
 categoria: "para-ninos"
-tags: ["chocolate", "como se hace el chocolate", "como se hace el chocolate blanco", "nos colamos en la fabrica de chocolate", "recetas de chocolate", "chocolate vs real", "videos para niños", "videos educativos para niños"]
+tags: ["chocolate", "como se hace el chocolate", "mijas pueblo", "mayan monkey mijas", "planes con niños malaga", "navidad malaga", "fabrica de chocolate"]
 views: 277084
-duracion: "15:32"
+duracion: "6:31"
 featured: false
 ---
 

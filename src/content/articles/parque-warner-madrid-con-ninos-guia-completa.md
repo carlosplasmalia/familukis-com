@@ -6,9 +6,9 @@ seoDescription: "Qué atracciones puede hacer cada edad, alturas mínimas reales
 date: "2026-06-25"
 categoria: "parques-atracciones"
 tags: ["parque warner", "madrid", "parque de atracciones", "niños", "atracciones", "san martín de la vega", "warner beach", "DC superheroes"]
-relatedVideoIds: ["694N41EGZQ4", "FD6e4D5OQKY", "3P0tLsJYpKQ"]
+relatedVideoIds: ["j52przOxHuI", "694N41EGZQ4", "3P0tLsJYpKQ"]
 featured: true
-lastModified: "2026-07-14"
+lastModified: "2026-11-25"
 rating: 4.2
 reviewCount: 1
 faqs:
@@ -99,13 +99,19 @@ Tenemos las 32 atracciones con sus alturas oficiales, los casos con acompañante
 
 ---
 
-## Entradas y cómo ahorrar
+## Entradas y cómo ahorrar (actualizado 2026)
 
-El precio estándar en taquilla es caro. Siempre compra online con antelación — la diferencia puede ser de 10-15€ por persona.
+El precio estándar en taquilla ronda los **62,90 €**, así que comprar en puerta es el mayor error. **Comprando online con antelación la entrada sale desde 32,90 €** (un ahorro de hasta **30 € por persona**).
 
-Hay descuentos para niños que miden menos de 1 metro (suelen entrar gratis o con tarifa reducida), personas mayores y descuentos por fidelización.
+Los niños que miden **menos de 100 cm entran gratis**, y si venís en autocaravana tenéis parking exclusivo en la misma entrada por unos **15 €** para evitar los atascos del cierre.
 
-Si vais a ir más de una vez al año, las abonos de temporada salen muy rentables desde la segunda visita.
+---
+
+## Parque Warner en Navidad 2026 (Christmas Studios)
+
+La temporada navideña **Christmas Studios 2026–2027** se celebra del **21 de noviembre de 2026 al 10 de enero de 2027** (fines de semana, Puente de la Constitución y vacaciones escolares; cerrado 24, 25 y 31 de diciembre y 6 de enero; abierto el 1 de enero), con horario habitual de **12:00 a 20:00** en noviembre y enero y hasta las **21:00** en diciembre.
+
+Entre los imprescindibles con niños están el **Refugio de Papá Noel** en Cartoon Village, el encendido del **árbol gigante de 22 metros**, el desfile nocturno **Superstars of Christmas Parade** y los estrenos de 2026 (**El Reino de Cristal** en el Teatro Imperial y **ACME Factory: Christmas Candies**). Nuestro truco real para verlo casi sin colas: si el parte da día nublado o cuatro gotas, ve igual — media España se queda en casa y disfrutas del parque prácticamente vacío.
 
 ---
 

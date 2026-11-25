@@ -6,7 +6,7 @@ seoDescription: "Altura mínima de las atracciones de Parque Warner Madrid: tabl
 date: "2026-07-14"
 categoria: "parques-atracciones"
 tags: ["parque warner", "altura minima", "atracciones", "madrid", "niños", "tabla alturas", "san martín de la vega"]
-relatedVideoIds: ["694N41EGZQ4", "FD6e4D5OQKY", "3P0tLsJYpKQ"]
+relatedVideoIds: ["694N41EGZQ4", "j52przOxHuI", "3P0tLsJYpKQ"]
 featured: false
 lastModified: "2026-07-14"
 faqs:
