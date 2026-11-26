@@ -1,12 +1,12 @@
 ---
-title: "¡FLIPANTE! VOLANDO EN FAMILIA EN EL TÚNEL DEL VIENTO // Juegos y Juguetes en familia"
-description: "¿Te gustaría sentir lo que es poder volar? ¿Sí? Hemos buscado el primer túnel del viento de Madrid y hemos querido experimentar la sensación de volar ¿Nos acompañas? Queremos dar las gracias a Windobona por el fantástico trato que hemos recibido. Os dejamos su Web por si queréis volar como los famil."
-videoId: "0-gSCFVoayo"
-publishedAt: "2017-04-14"
+title: "¡VOLAMOS DE VERDAD en el TÚNEL DEL VIENTO! 🦸‍♂️💨 ¿Aguanta Más de 100 Kilos? (Madrid con Niños)"
+description: "Volamos en familia en el Túnel del Viento Windobona Madrid frente a Islazul: Carlitos con 5 años, mamá volando sola sin el monitor, Aroa y la prueba de fuego con más de 100 kilos. Precios desde 39 € y guía práctica."
+videoId: "SiM70l9lInU"
+publishedAt: "2026-12-02"
 categoria: "parques-atracciones"
-tags: ["túnel del viento", "actividades en familia", "madrid fly", "skydive madrid", "paracaidismo", "paracaidismo madrid", "escuela de paracaidismo", "vlog familias"]
+tags: ["túnel del viento", "windobona madrid", "madrid con niños", "actividades en familia", "paracaidismo indoor", "planes en familia"]
 views: 3146537
-duracion: "10:04"
+duracion: "8:26"
 featured: false
 ---
 
