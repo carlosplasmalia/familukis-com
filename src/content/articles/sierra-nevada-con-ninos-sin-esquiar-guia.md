@@ -6,11 +6,11 @@ seoDescription: "Guía real de Sierra Nevada con niños sin esquiar en 2026: pre
 date: "2026-11-25"
 categoria: "camping-naturaleza"
 tags: ["sierra nevada con niños", "sierra nevada sin esquiar", "mirlo blanco sierra nevada", "trineo ruso", "borreguiles", "nieve con niños granada", "planes invierno familia"]
-relatedVideoIds: ["OOzFw5TW8cs"]
+relatedVideoIds: ["UJiwthANQw8"]
 featured: true
 rating: 4.6
 reviewCount: 1
-lastModified: "2026-11-25"
+lastModified: "2026-11-26"
 faqs:
   - q: "¿Se puede subir un trineo propio en el telecabina o telesilla de Sierra Nevada?"
     a: "No. En los remontes de Sierra Nevada no dejan subir trineos propios, y tampoco puedes meter tu trineo particular dentro del recinto del parque recreativo Mirlo Blanco. Si llevas trineo de casa tendrás que usarlo en zonas libres autorizadas como la Hoya de la Mora o subirlo en coche hasta zonas altas permitidas."
